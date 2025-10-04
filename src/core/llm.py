@@ -1,18 +1,20 @@
+import logging
 from pathlib import Path
-from typing import Any, Final
+from typing import Final
 
 from jinja2 import Template
 from langchain_openai import ChatOpenAI
-from pydantic import SecretStr
+from pydantic import BaseModel, SecretStr
 
 from models.env import EnvConfig
 from models.temperature_introspection import LLMConfig
 
 PROMPT_PATH: Final = Path.cwd() / "resources" / "prompts"
 ENV: Final = EnvConfig.from_env()
+logger = logging.getLogger(__name__)
 
 
-def load_prompt(prompt_name: str, **kwargs: Any) -> str:
+def load_prompt(prompt_name: str, kwargs: BaseModel) -> str:
     """プロンプトを読み込み・レンダリング"""
     prompt_file = PROMPT_PATH / f"{prompt_name}.txt"
     if not prompt_file.exists():
@@ -20,10 +22,11 @@ def load_prompt(prompt_name: str, **kwargs: Any) -> str:
     try:
         with open(prompt_file, encoding="utf-8") as f:
             content = f.read()
-        result = Template(content).render(**kwargs)
-        print(result)
+        result = Template(content).render(kwargs.model_dump())
+        logger.debug(f"Loaded prompt '{prompt_name}': {result}")
         return result
-    except Exception as e:
+    except Exception:
+        logger.exception(f"Failed to load or render prompt '{prompt_name}'")
         raise
 
 
@@ -40,8 +43,8 @@ class LlmExecution:
             timeout=ENV.timeout,
         )
 
-    def execute[T](self, model_type: T, prompt_name: str, **kwargs: Any) -> T:
+    def execute[T](self, model_type: T, prompt_name: str, kwargs: BaseModel) -> T:
         """LLMを実行し、結果を返す"""
         structured_llm = self.llm.with_structured_output(model_type)  # type: ignore
-        response = structured_llm.invoke(load_prompt(prompt_name, **kwargs))  # type: ignore
+        response = structured_llm.invoke(load_prompt(prompt_name, kwargs))  # type: ignore
         return response  # type: ignore

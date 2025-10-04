@@ -20,7 +20,7 @@ class ModelId(Enum):
 
     **LM Studio系モデル:**
     - qwen/qwen3-coder-30b
-    - gemma/gemma-3n-e4b
+    - google/gemma-3n-e4b
     - openai/gpt-oss-20b
 
     **Amazon Bedrock系モデル:**
@@ -30,7 +30,7 @@ class ModelId(Enum):
     """
 
     QWEN3_CODER_30B = "qwen/qwen3-coder-30b"
-    GEMMA_3N_E4B = "gemma/gemma-3n-e4b"
+    GEMMA_3N_E4B = "google/gemma-3n-e4b"
     GPT_OSS_20B = "openai/gpt-oss-20b"
     NOVA_MICRO = "amazon/nova-micro"
     TITAN_TEXT_LITE = "amazon/titan-text-lite"
