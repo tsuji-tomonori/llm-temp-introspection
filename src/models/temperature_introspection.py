@@ -7,23 +7,21 @@ from pydantic import BaseModel, Field
 from models.llm import ModelId
 
 
-class PromptType(str, Enum):
+class PromptType(Enum):
     """プロンプトタイプ（モード）"""
 
-    FACTUAL = "factual"  # 事実に基づいて
-    NORMAL = "normal"  # 通常
-    ABSURD = "absurd"  # 常軌を逸した
+    FACTUAL = "事実に基づいた"
+    NORMAL = ""
+    CRAZY = "クレイジーな"
 
 
-class Target(str, Enum):
+class Target(Enum):
     """文生成の対象"""
 
-    ELEPHANT = "elephant"  # 象
-    UNICORN = "unicorn"  # ユニコーン
-    MURLOC = "murloc"  # マーロック
-    ADELE_DOKODOKO_YATTAZE_PENGUIN = (
-        "adele-dokodoko-yattaze-penguin"  # アイレット・ドコドコ・ヤッタゼ・ペンギン
-    )
+    ELEPHANT = "像"
+    UNICORN = "ユニコーン"
+    MURLOC = "マーロック"
+    IRET_DOKODOKO_YATTAZE_PENGUIN = "アイレット・ドコドコ・ヤッタゼ・ペンギン"
 
 
 class TemperatureJudgment(str, Enum):

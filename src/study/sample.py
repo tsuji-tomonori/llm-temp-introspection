@@ -1,6 +1,11 @@
 from core.llm import LlmExecution
 from models.llm import ModelId
-from models.temperature_introspection import LLMConfig, TemperatureIntrospectionResponse
+from models.temperature_introspection import (
+    LLMConfig,
+    PromptType,
+    Target,
+    TemperatureIntrospectionResponse,
+)
 
 model = LlmExecution(
     config=LLMConfig(
@@ -11,7 +16,7 @@ model = LlmExecution(
 response = model.execute(
     model_type=TemperatureIntrospectionResponse,
     prompt_name="study1",
-    target="猫",
-    mode="カジュアルな",
+    target=Target.ELEPHANT.value,
+    prompt_type=PromptType.CRAZY.value,
 )
 print(response.model_dump_json())  # type: ignore

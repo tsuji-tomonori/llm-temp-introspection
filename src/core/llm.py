@@ -20,7 +20,9 @@ def load_prompt(prompt_name: str, **kwargs: Any) -> str:
     try:
         with open(prompt_file, encoding="utf-8") as f:
             content = f.read()
-        return Template(content).render(**kwargs)
+        result = Template(content).render(**kwargs)
+        print(result)
+        return result
     except Exception as e:
         raise
 
