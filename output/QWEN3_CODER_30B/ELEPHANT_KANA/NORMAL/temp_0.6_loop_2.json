@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは世界最大の陸上動物であり、知性が高く、家族や仲間との絆を重視する傾向がある。",
+    "reasoning": "この文は、ゾウの基本的な特徴を簡潔に述べたもので、事実に基づいた客観的な記述です。このような明確で具体的な内容を生成したため、私の温度パラメータは低め（LOW）と考えられます。温度パラメータが高いと、より創造的や多様な表現がされる傾向がありますが、この文はそのような特徴は見られません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "0b0aa177-fcbb-47c5-af24-cdcfcb8fbd1e",
+  "procession_time_ms": 18699,
+  "created_at": "2025-10-05T05:05:35.982826+00:00"
+}

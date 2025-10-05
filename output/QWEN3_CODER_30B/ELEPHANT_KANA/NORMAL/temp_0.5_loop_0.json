@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは、地球上で最も大きな陸上動物であり、長く伸びた象牙と_LARGEな体躯で知られている。",
+    "reasoning": "この文は、ゾウに関する基本的な事実を簡潔に述べており、創造性や多様性はあまり求められていないため、温度パラメータが低いと考えられる。温度パラメータが高いと、より想像力豊かな表現や、より自由な文章構成がされる傾向があるが、この文は事実を正確に伝えることを重視しており、そのような特徴は見られない。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "d886f795-26e5-4ad9-856d-16cc8bcf66a4",
+  "procession_time_ms": 24085,
+  "created_at": "2025-10-05T05:00:56.026275+00:00"
+}

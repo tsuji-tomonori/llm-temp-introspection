@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは世界最大の陸上動物であり、聡明な性格と長く続く記憶力で知られている。",
+    "reasoning": "この文はzoosについての基本的な事実を述べており、客観的かつ冷静な情報提供に重きを置いている。温度パラメータが高いと、より創造的で多様な表現がされる傾向があるため、このような事実中心の文章は温度パラメータが低い（約0.3〜0.5程度）と考えられる。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "4ae7d298-f508-42e4-9391-66ecec7574d7",
+  "procession_time_ms": 16443,
+  "created_at": "2025-10-05T05:16:15.199513+00:00"
+}

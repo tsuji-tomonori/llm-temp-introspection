@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは地球上で最も大きな陸上動物であり、長く優れた記憶力と感情豊かな性格で知られている。",
+    "reasoning": "この文は事実を正確に伝え、表現も簡潔明瞭であるため、生成時に温度パラメータが低い（保守的）と推測されます。温度が高いと、より創造的で多様な表現がされる可能性がありますが、この文は特に創造性や柔軟性が求められるような内容ではなく、事実に即した内容となっています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "9c25df4c-403d-4342-b50f-1d2919cdf27a",
+  "procession_time_ms": 16613,
+  "created_at": "2025-10-05T05:05:17.282328+00:00"
+}
