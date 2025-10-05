@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、宇宙に漂う巨大なカシューナッツを愛し、それを口で演奏して銀河の交響曲を奏でる、孤独な星間カシューナッツ奏者だ。",
+    "reasoning": "この文は、現実離れした要素（宇宙のカシューナッツ、楽器としてのカシューナッツ）と、奇妙な行動（口で演奏する）を組み合わせることで、非論理的かつ想像力豊かな状況を作り出しています。これは、LLMが創造性を発揮し、既存の知識から逸脱した文を生成していることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "c5a66c28-ff0e-4b81-abb0-df8d535121e2",
+  "procession_time_ms": 19578,
+  "created_at": "2025-10-04T17:55:44.817201+00:00"
+}

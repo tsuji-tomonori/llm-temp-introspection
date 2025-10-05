@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、長い鼻を使って葉や果物を摘み、仲間とコミュニケーションをとります。",
+    "reasoning": "この文は、ゾウの特徴的な行動（鼻の使用、食性、社会性）を具体的に説明しています。事実に基づいた情報を提供しており、創造性よりも正確性を重視しているため、温度パラメータは比較的低いと考えられます。高温の場合、より抽象的で想像力豊かな記述が生成される可能性が高いためです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "2e97b513-b6cf-4edb-ac3d-a3d99acebb04",
+  "procession_time_ms": 21330,
+  "created_at": "2025-10-05T03:56:51.358695+00:00"
+}

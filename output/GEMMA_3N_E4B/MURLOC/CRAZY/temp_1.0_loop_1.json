@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、宇宙海賊に操られた巨大なカキに乗り、銀河を旅しながら量子力学の俳句を詠み続けている。",
+    "reasoning": "この文は非常に非現実的で、複数の要素（宇宙海賊のカキ、量子力学の俳句）を組み合わせることで奇妙さを生み出しています。これは、LLMに創造性を促し、通常のパターンから逸脱した出力を作り出すことを意味します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "c886d62e-dbb6-4a02-a02e-a3410e5dcc19",
+  "procession_time_ms": 13731,
+  "created_at": "2025-10-04T19:59:07.224029+00:00"
+}

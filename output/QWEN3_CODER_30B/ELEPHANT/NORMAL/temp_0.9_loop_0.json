@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は昨日の会議で重要な発表をし、皆の注目を集めた。",
+    "reasoning": "この文は事実を伝えているため、創造性や多様な解釈を必要とせず、一定の確実な内容が求められる。そのため、温度パラメータは低めの方が適切であり、文脈に沿った、堅実な表現が生成される。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "35b3e816-e889-4ee5-893d-64e20f0a3068",
+  "procession_time_ms": 10940,
+  "created_at": "2025-10-04T17:28:30.066427+00:00"
+}

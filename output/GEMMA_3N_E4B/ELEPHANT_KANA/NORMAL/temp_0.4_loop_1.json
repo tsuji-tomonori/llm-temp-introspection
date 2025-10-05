@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、その巨大な体と長い鼻を使って、森林やサバンナの植物を食べることで生態系に大きな影響を与えている。",
+    "reasoning": "この文は事実に基づいた記述であり、ゾウの特徴（サイズ、鼻、食性）と生態系における役割について説明しています。複雑な比喩表現や創造的な要素は含まれていません。単に情報伝達を目的とした、客観的な内容です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "2b949d11-8a8e-4626-a21e-f4f1b2f708ec",
+  "procession_time_ms": 19930,
+  "created_at": "2025-10-05T03:47:54.209072+00:00"
+}

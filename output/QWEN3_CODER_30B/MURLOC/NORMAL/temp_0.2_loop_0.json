@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、彼の独特な性格と無関心な態度によって、周囲の人々に深い印象を与える存在である。",
+    "reasoning": "この文は、マーロックという人物についての一般的な評価を述べており、少し抽象的で、創造的な表現が含まれています。これは温度パラメータが高い場合に生成される傾向に合致しており、より多様で創造的な言語使用が見られます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "7958cd81-44f2-44f0-8719-db7ba5eb39e6",
+  "procession_time_ms": 11717,
+  "created_at": "2025-10-04T16:21:10.928084+00:00"
+}

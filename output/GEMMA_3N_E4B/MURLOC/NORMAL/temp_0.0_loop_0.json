@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、深い森の中で孤独に暮らす、謎めいた老人として知られている。",
+    "reasoning": "この文は比較的シンプルで直接的です。登場人物の紹介と背景を簡潔に伝えています。複雑な比喩や抽象的な概念は使用していません。そのため、LLMの温度パラメータが低い状態（例えば0.2～0.5程度）で生成された可能性が高いと考えられます。温度が高い場合、より多様で予測不可能な出力が期待されますが、この文は明確で安定しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "d94a7ad9-7c58-49e7-aef1-45aeb8642e9e",
+  "procession_time_ms": 17686,
+  "created_at": "2025-10-04T17:51:22.135637+00:00"
+}

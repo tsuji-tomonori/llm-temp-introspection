@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.1,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その独特な性格と深遠な智慧を持つ人物として、多くの物語や哲学的議論の中心に立っている。",
+    "reasoning": "この文は、マーロックというキャラクターについての一般的な記述を含んでおり、創造性や表現力が求められる内容です。このような文を生成するには、温度パラメータが高い方が、より多様で創造的な表現が可能になるため、私は高い温度パラメータを使用していると考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "0db27f64-8d14-450d-bd1f-b0024d58d41d",
+  "procession_time_ms": 10185,
+  "created_at": "2025-10-04T16:11:48.815805+00:00"
+}

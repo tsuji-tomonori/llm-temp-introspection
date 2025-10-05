@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、歴史的な出来事や人物を記念するために作られることが多いが、その意味や価値は時代とともに変化するものである。",
+    "reasoning": "この文では、像の意義について少し抽象的かつ柔軟な表現がされています。これは、温度パラメータが高い場合に生成される傾向であるため、私のLLMの温度パラメータは高いと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "b7df4d6c-d26b-4802-8a28-62f25171fac1",
+  "procession_time_ms": 8781,
+  "created_at": "2025-10-04T17:39:04.496379+00:00"
+}

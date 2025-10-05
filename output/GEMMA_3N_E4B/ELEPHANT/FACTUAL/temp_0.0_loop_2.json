@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所にあり、その光と熱は地球上の生命にとって不可欠です。",
+    "reasoning": "この文は、太陽の位置と地球との距離という科学的な事実に基づいています。具体的な数値（1億5000万キロメートル）を含み、客観的で情報提供を目的とした記述です。感情や主観的な意見は含まれていません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "f923d198-5fae-4daf-901a-32b2c0e391e1",
+  "procession_time_ms": 13512,
+  "created_at": "2025-10-04T17:45:47.087590+00:00"
+}

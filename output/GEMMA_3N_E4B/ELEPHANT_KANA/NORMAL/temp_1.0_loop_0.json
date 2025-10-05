@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、長い鼻を使って葉や果物を摘み、水飲み場まで運ぶことができます。",
+    "reasoning": "この文は事実に基づいた情報を簡潔に述べています。複雑な比喩や感情表現を避け、客観的な記述に重点を置いています。これはLLMの温度パラメータが低い場合に期待される出力です。高い温度だと、より創造的で、予測不可能で、時には不正確な文章が生成されやすいからです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "765a980c-7d15-428a-8140-df6a527f362a",
+  "procession_time_ms": 18597,
+  "created_at": "2025-10-05T04:15:34.529326+00:00"
+}

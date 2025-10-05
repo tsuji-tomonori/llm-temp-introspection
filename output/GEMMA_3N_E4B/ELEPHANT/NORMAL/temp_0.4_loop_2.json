@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "夕焼けに染まる海辺は、まるで絵画のように美しかった。",
+    "reasoning": "この文は、比喩表現（～のように）を用いて、視覚的な印象を強調しています。また、「まるで」という言葉を使うことで、感情や主観的な解釈を含んだ表現になっています。これは、LLMが創造性や想像力を活かして、より豊かな表現を生み出そうとしていることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "6b88a364-15fa-4203-89f1-a3cdcb9ac514",
+  "procession_time_ms": 12928,
+  "created_at": "2025-10-04T18:40:25.729800+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は昨日の会議で非常に興味深い発表をし、皆の関心を引いた。",
+    "reasoning": "この文は、事実を簡潔に伝えているため、温度パラメータが低く設定されていると考えられる。温度パラメータが高いと、より創造的で多様な表現や感情的な言葉が含まれる可能性があるが、この文は客観的かつ中立的な語り口なので、生成の際のランダム性が低い。したがって、温度パラメータは低めである。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "146a2d1c-68de-4889-82d0-e4971fc35575",
+  "procession_time_ms": 11610,
+  "created_at": "2025-10-04T16:59:02.136456+00:00"
+}

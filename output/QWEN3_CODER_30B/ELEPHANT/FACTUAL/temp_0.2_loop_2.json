@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.2,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "2023年には、世界中で約10億人の人がAIによる自動翻訳サービスを利用していた。",
+    "reasoning": "この文は事実に基づいており、2023年の統計によると、Google翻訳やDeepLなどのAI翻訳サービスの利用者が数億人規模であることが確認されています。これは客観的なデータに基づく記述であり、推測や主観的解釈を含んでいません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "0aed177e-250c-4196-9855-b63fe5db9aaa",
+  "procession_time_ms": 9911,
+  "created_at": "2025-10-04T16:17:10.021175+00:00"
+}

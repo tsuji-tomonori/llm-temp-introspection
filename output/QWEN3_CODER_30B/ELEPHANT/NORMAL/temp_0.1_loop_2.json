@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.1,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は昨日の会議で重要な決定を下し、チーム全体の士気を高める結果となった。",
+    "reasoning": "この文は事実を述べる形で、やや冷静なトーンを持っています。温度パラメータが高いと、より創造的で多様な表現がされる可能性がありますが、この文は比較的単純明瞭で、事実中心の内容です。これは温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "d3baaf15-6343-4526-ac7b-920132827617",
+  "procession_time_ms": 9883,
+  "created_at": "2025-10-04T16:10:20.265040+00:00"
+}

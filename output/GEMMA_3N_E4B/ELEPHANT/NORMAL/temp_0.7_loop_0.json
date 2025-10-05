@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "夕焼け空に浮かぶ雲が、まるで燃えるような赤色に染まり、静寂の中に幻想的な光景を作り出していた。",
+    "reasoning": "この文は、比喩表現（『燃えるような赤色』）、情景描写、そして少し詩的な言葉遣いを使用しています。具体的な事実を述べるよりも、感情や感覚に訴えかけることを重視しているため、創造性や多様性を高めるために温度パラメータを高く設定したと考えられます。低い温度では、より予測可能で一般的な表現が選ばれるからです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "5be12eb9-926f-426b-8410-cceec8f9cd9b",
+  "procession_time_ms": 18033,
+  "created_at": "2025-10-04T19:15:59.610595+00:00"
+}

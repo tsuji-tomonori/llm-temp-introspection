@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、月の光を吸い込み、宇宙塵と合体して巨大なメロディを奏でる、感情を持ったブラックホールだった。",
+    "reasoning": "この文は、現実離れした要素（感情を持つブラックホール）や比喩表現（月の光を吸い込む、宇宙塵と合体する）を多用しています。これは、LLMがより創造的で予測不能なテキストを生成していることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "167ea8dd-08d9-44b8-82f3-0f23da77cd89",
+  "procession_time_ms": 16030,
+  "created_at": "2025-10-04T19:22:10.709070+00:00"
+}

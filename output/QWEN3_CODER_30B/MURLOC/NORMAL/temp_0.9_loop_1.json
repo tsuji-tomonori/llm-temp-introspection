@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、彼の不思議な冒険心と無償の奉仕精神によって、多くの人々に愛される存在である。",
+    "reasoning": "この文は、マーロックというキャラクターについて肯定的な感情を示しており、創造的な表現や想像力を用いて描かれています。このような文章を生成するには、温度パラメータが比較的高い必要があり、それが多様な表現や感情の豊かさを可能にします。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "50bb01c3-65ed-4e47-a702-94a02e79f718",
+  "procession_time_ms": 9829,
+  "created_at": "2025-10-04T17:30:13.574747+00:00"
+}

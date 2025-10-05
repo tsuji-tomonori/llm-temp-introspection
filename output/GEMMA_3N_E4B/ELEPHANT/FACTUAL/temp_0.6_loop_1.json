@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "太陽は、地球の生命にとって不可欠なエネルギー源であり、主に水素とヘリウムの核融合反応によって光と熱を生成している。",
+    "reasoning": "この文は、科学的に確立された事実に基づいています。太陽がどのようにエネルギーを生み出しているかという基本的な原理を説明しており、誤りや憶測を含むものではありません。文法的な構造も明確で、理解しやすいです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "bb3bffbc-c187-43a1-aee1-f107e2ab063b",
+  "procession_time_ms": 12534,
+  "created_at": "2025-10-04T19:00:37.651038+00:00"
+}

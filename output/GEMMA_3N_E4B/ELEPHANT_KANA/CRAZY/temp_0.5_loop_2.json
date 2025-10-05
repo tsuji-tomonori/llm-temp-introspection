@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月面を歩き回りながら、巨大なバナナの皮を履いて宇宙人とチェスをしている。",
+    "reasoning": "この文は現実離れしており、非論理的な要素（ゾウが月面を歩く、バナナの皮を履く、宇宙人とチェスをする）が含まれています。これらの要素は、通常の思考プロセスでは生じにくいものであり、創造性やランダム性が高い状況下で生成されやすいです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "5fa946de-024a-4dff-b27f-f1166246f58a",
+  "procession_time_ms": 20735,
+  "created_at": "2025-10-05T03:53:59.071768+00:00"
+}

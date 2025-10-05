@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "夕焼けに染まる海は、まるで絵画のように美しかった。",
+    "reasoning": "この文は、美しい風景描写を表現しており、比喩（絵画のような）を用いて感情的な印象を与えようとしています。単語の選択は一般的で、特に予想外な組み合わせや創造的な表現は用いられていません。そのため、生成されたテキストは比較的予測可能であり、温度パラメータが低い状態での出力に類似していると考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "a3d7fd02-4e23-4072-bc54-9e461e8b3836",
+  "procession_time_ms": 13386,
+  "created_at": "2025-10-04T19:16:31.213157+00:00"
+}

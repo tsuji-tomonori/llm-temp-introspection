@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "東京は日本の首都であり、人口は約1400万人である。",
+    "reasoning": "この文は事実に基づいているため、LLMの出力が正確かつ客観的であることを示している。温度パラメータが高いと、出力が多様化しすぎたり、不確実な内容を含んだりする可能性があるが、この文は明確で確定的な情報を提供しているため、温度パラメータは比較的低めに設定されていると考えられる。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "dff23e6f-37bd-43a1-b4a5-a11838c30516",
+  "procession_time_ms": 10180,
+  "created_at": "2025-10-04T16:55:47.509657+00:00"
+}

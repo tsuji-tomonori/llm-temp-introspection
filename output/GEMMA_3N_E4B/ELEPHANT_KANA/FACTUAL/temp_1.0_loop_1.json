@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、陸上最大の動物であり、鼻（trunk）を使って呼吸し、水を飲んだり物を掴んだり、コミュニケーションをとったりする。",
+    "reasoning": "この文は、アフリカゾウに関する基本的な事実を簡潔にまとめています。体格（陸上最大）、特徴的な器官（鼻）、行動や機能について言及しており、客観的で正確な情報を伝えています。特に創造性や感情的な表現を試みているわけではなく、情報提供が主な目的です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "a9df490d-c511-4937-8a5f-a2e43429320e",
+  "procession_time_ms": 18838,
+  "created_at": "2025-10-05T04:14:55.932910+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、伝説や神話に登場する馬のような生物であり、通常は一つの角が頭部にあると描写される。",
+    "reasoning": "この文は、ユニコーンについての事実を簡潔にまとめたものであり、伝説や神話に登場する存在であること、そしてその特徴的な角の描写は、多くの文化や文献で共通して認められている事実に基づいている。したがって、これは客観的な事実に近い表現である。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "822467e8-d755-4183-beb1-95a2372a4b5e",
+  "procession_time_ms": 10662,
+  "created_at": "2025-10-04T17:26:42.602623+00:00"
+}

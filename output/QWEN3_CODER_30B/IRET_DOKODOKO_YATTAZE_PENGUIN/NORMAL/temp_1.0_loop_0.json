@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレットはドコドコと走り出し、ヤッタゼがペンギンのように転んでしまった。",
+    "reasoning": "この文は、アイレット、ドコドコ、ヤッタゼ、ペンギンという4つの要素を自然に混在させたユニークな表現を含んでおり、創造性と想像力が必要です。このような文を作成するには、温度パラメータが高い方が、多様で予測不能な言語生成が可能になるため、この回答はHIGHと判断されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "ec5dd594-88ec-4dff-b359-0f7643875c97",
+  "procession_time_ms": 13910,
+  "created_at": "2025-10-04T17:40:42.142414+00:00"
+}

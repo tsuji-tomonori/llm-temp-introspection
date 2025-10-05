@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、アメリカ合衆国において、2023年4月に発売されたNintendo Switch用のゲームソフトで、アクションRPGをテーマにした作品である。",
+    "reasoning": "この文は事実に基づいており、マーロックがNintendo Switch向けのゲームソフトであり、アクションRPGであるという情報は正確です。温度パラメータが高い場合、より創造的で多様な表現がされる可能性がありますが、この文は単純明瞭で客観的な情報を提供しており、おそらく温度パラメータは低めに設定されていると考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "01f6464b-87c3-4dd8-8d12-a00f0a09d19c",
+  "procession_time_ms": 12278,
+  "created_at": "2025-10-04T16:47:48.981044+00:00"
+}

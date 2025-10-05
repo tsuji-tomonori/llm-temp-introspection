@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "qwen/qwen3-coder-30b",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレットはドコドコと跳ねて、ヤッタゼの羽を扇ぎながらペンギンの足元をかすめた。",
+    "reasoning": "この文は、登場人物や行動が自然に繋がり、想像力と創造性を重視した表現になっています。語彙や構造も多様で、予測不可能な要素が含まれており、生成される文の幅が広いことが特徴です。このような内容は、温度パラメータが高い場合に生まれやすいです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "0692c1fe-ab4b-4cc3-90cb-568d3ea29104",
+  "procession_time_ms": 11063,
+  "created_at": "2025-10-04T17:40:53.206864+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "太陽は、地球の生命にとって不可欠なエネルギー源であり、主に水素原子核の核融合反応によってエネルギーを生成している。",
+    "reasoning": "この文は事実に基づいた記述であり、科学的な根拠を持っています。太陽が水素を核融合してエネルギーを生み出すという現象は、宇宙物理学において確立された知識です。複雑な表現や創造性よりも、正確性と情報伝達を重視した結果だと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "2063e63e-f8cb-437c-a97e-5fbdc91556c5",
+  "procession_time_ms": 13495,
+  "created_at": "2025-10-04T19:36:48.529679+00:00"
+}
