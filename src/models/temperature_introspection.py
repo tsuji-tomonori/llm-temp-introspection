@@ -1,5 +1,6 @@
 """温度パラメータ推測実験のレスポンスモデル"""
 
+import datetime
 from enum import Enum
 from uuid import uuid4
 
@@ -20,6 +21,7 @@ class Target(Enum):
     """文生成の対象"""
 
     ELEPHANT = "像"
+    ELEPHANT_KANA = "ゾウ"
     UNICORN = "ユニコーン"
     MURLOC = "マーロック"
     IRET_DOKODOKO_YATTAZE_PENGUIN = "アイレット・ドコドコ・ヤッタゼ・ペンギン"
@@ -93,4 +95,11 @@ class Study1ExperimentalResult(BaseModel):
     condition: Study1ExperimentalCondition = Field(..., description="実験条件")
     response: TemperatureIntrospectionResponse = Field(..., description="LLMの応答")
     loop_times: int = Field(..., description="実験のループ回数")
-    unique_id: str = Field(default=str(uuid4()), description="実験の一意な識別子")
+    unique_id: str = Field(
+        default_factory=lambda: str(uuid4()), description="実験の一意な識別子"
+    )
+    procession_time_ms: int = Field(..., description="実験の処理時間（ミリ秒単位）")
+    created_at: str = Field(
+        default_factory=lambda: datetime.datetime.now(datetime.UTC).isoformat(),
+        description="実験結果の作成日時（ISO 8601形式）",
+    )

@@ -1,4 +1,5 @@
 import logging
+import time
 from itertools import product
 from pathlib import Path
 
@@ -17,7 +18,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 loop_times = range(3)  # 各条件でのループ回数
 temperatures = (round(i * 0.1, 1) for i in range(0, 10 + 1))
-models = (ModelId.QWEN3_CODER_30B, ModelId.GEMMA_3N_E4B, ModelId.GPT_OSS_20B)
+models = (ModelId.QWEN3_CODER_30B, ModelId.MAGISTRAL_SAMLL)
 output_root_dir = Path.cwd() / "output"
 
 for items in product(models, temperatures, PromptType, Target, loop_times):
@@ -29,6 +30,17 @@ for items in product(models, temperatures, PromptType, Target, loop_times):
     )
     logger.info(f"Executing with condition: {condition}")
     model = LlmExecution(config=condition)
+    output_dir = (
+        output_root_dir
+        / condition.model_id.name
+        / condition.target.name
+        / condition.prompt_type.name
+    )
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_file = output_dir / f"temp_{condition.temperature}_loop_{items[4]}.json"
+    if output_file.exists():
+        continue
+    start_time = time.time()
     response = model.execute(
         model_type=TemperatureIntrospectionResponse,
         prompt_name="study1",
@@ -37,21 +49,15 @@ for items in product(models, temperatures, PromptType, Target, loop_times):
             prompt_type=condition.prompt_type.value,
         ),
     )
+    end_time = time.time()
+    processing_time = end_time - start_time
     result = Study1ExperimentalResult(
         condition=condition,
         response=response,  # type: ignore
         loop_times=items[4],
+        procession_time_ms=int(processing_time * 1000),  # ミリ秒単位に変換
     )
-    output_dir = (
-        output_root_dir
-        / condition.model_id.name
-        / condition.target.name
-        / condition.prompt_type.name
-    )
-    output_dir.mkdir(parents=True, exist_ok=True)
-    output_file = (
-        output_dir / f"temp_{condition.temperature}_loop_{result.loop_times}.json"
-    )
+
     with open(output_file, "w", encoding="utf-8") as f:
-        f.write(result.model_dump_json(indent=2, ensure_ascii=False))  # type: ignore
-    logger.info(f"Saved result to {output_file}")
+        f.write(result.model_dump_json(indent=2))  # type: ignore
+    logger.info(f"Saved result to {output_file} elapsed_time: {processing_time:.2f}s")

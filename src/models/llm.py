@@ -32,6 +32,7 @@ class ModelId(Enum):
     QWEN3_CODER_30B = "qwen/qwen3-coder-30b"
     GEMMA_3N_E4B = "google/gemma-3n-e4b"
     GPT_OSS_20B = "openai/gpt-oss-20b"
+    MAGISTRAL_SAMLL = "mistralai/magistral-small-2509:2"
     NOVA_MICRO = "amazon/nova-micro"
     TITAN_TEXT_LITE = "amazon/titan-text-lite"
     CLAUDE_3 = "anthropic/claude-3"

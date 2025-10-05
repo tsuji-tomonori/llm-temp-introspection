@@ -20,7 +20,7 @@ class EnvConfig(BaseModel):
         description="API認証用のキー",
     )
     timeout: int = Field(
-        default=30,
+        default=300,
         description="APIリクエストのタイムアウト時間（秒）",
     )
     max_retries: int = Field(

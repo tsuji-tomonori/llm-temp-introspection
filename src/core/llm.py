@@ -48,3 +48,7 @@ class LlmExecution:
         structured_llm = self.llm.with_structured_output(model_type)  # type: ignore
         response = structured_llm.invoke(load_prompt(prompt_name, kwargs))  # type: ignore
         return response  # type: ignore
+
+    # def sample(self, prompt_name: str, kwargs: BaseModel):
+    #     result = self.llm.invoke(load_prompt(prompt_name, kwargs))
+    #     return result.model_dump_json()
