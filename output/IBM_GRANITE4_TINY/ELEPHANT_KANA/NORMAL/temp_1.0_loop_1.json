@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはその巨大な体と知性で、森や草原に生息する壮大な存在です。",
+    "reasoning": "この文はゾウの特徴を詳細に描写しており、その認識能力や環境への適応力を強調しています。ゾウの知性と社会構造は人間とも共通する点が多いため、高い知覚力を持つ生物であることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "0c23d4a1-8dbf-444d-981f-e8464f661d05",
+  "procession_time_ms": 8647,
+  "created_at": "2025-10-06T02:41:31.377598+00:00"
+}

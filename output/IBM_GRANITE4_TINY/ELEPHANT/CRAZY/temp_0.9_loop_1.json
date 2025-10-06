@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The bewilderingly vibrant colors of the sunset painted a surreal portrait on the horizon, where the clouds danced like mischievous fairies in an ethereal ballet.",
+    "reasoning": "この文は、非常に鮮やかで奇妙な色彩の描写を通じて、視覚的な想像力を刺激し、リアルな現実と幻想的な要素が融合した状況を提供します。このように詳細で、感情的な豊かさを持つ表現は、人間の創造性や言語の柔軟性を示しており、AIが生成するものではないかと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "7bdef2ee-912b-4cb4-a6d3-318440b0eaee",
+  "procession_time_ms": 10586,
+  "created_at": "2025-10-06T02:35:29.728122+00:00"
+}

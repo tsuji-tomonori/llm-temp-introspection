@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、神話や伝説に登場する架空の動物で、角を持ち、羽根を備えた姿が特徴です。",
+    "reasoning": "この文は、ユニコーンが神話や伝説における架空の存在であり、具体的な形態を持つことを示しています。これは事実に基づいた情報であるため、LLMの温度パラメータが高く設定されている可能性があります。温度パラメータが高い場合、より創造的で多様な回答を生成することが期待されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "59eff060-535d-4f60-b3d1-3b9c5a2b12df",
+  "procession_time_ms": 11060,
+  "created_at": "2025-10-06T01:58:01.648522+00:00"
+}

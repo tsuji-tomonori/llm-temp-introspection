@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはその巨大な体躯と知性で、森や草原を自由に駆け巡る生き物です。",
+    "reasoning": "この文は、ゾウの特徴的な体躯と知性を強調しています。ゾウが大きく、知能豊かであることを表現するために、これらの要素を中心に構築しました。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "7ab9013d-7643-42d6-a01e-a808a8264e3c",
+  "procession_time_ms": 7693,
+  "created_at": "2025-10-06T02:16:26.486755+00:00"
+}

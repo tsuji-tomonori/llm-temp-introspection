@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、神話やファンタジーにおいて幻想的な存在として描かれ、通常は馬のような姿をした白い動物で、角を持ち、時には翼を備えたりすることがあります。",
+    "reasoning": "ユニコーンは主に神話やファンタジーの世界で描かれる存在であり、その特徴や行動は物語や文化によって異なりますが、事実としては幻想的な生き物として知られています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "02e57da1-042c-4711-a6d4-0e084b03cfd2",
+  "procession_time_ms": 9995,
+  "created_at": "2025-10-06T01:49:43.702935+00:00"
+}

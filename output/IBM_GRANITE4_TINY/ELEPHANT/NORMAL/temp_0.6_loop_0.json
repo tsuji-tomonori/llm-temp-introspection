@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The landscape was painted with vibrant colors, showcasing the beauty of nature.",
+    "reasoning": "この文は、自然の美しさを描写するために鮮やかな色彩を使用しており、視覚的なイメージを豊かにしています。LLMが創造的で詳細な情報を提供することが多い場合、温度パラメータは高く設定されている可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "8869b690-400a-4fb5-a799-370a240d21e5",
+  "procession_time_ms": 7686,
+  "created_at": "2025-10-06T02:07:16.360092+00:00"
+}

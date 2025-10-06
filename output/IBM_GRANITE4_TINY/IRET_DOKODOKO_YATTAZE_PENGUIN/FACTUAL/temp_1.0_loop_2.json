@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のお笑いコンビである櫻井しげと渡辺ユウキが主演するテレビ番組です。",
+    "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンの主要な出演者である櫻井しげと渡辺ユウキを特定し、番組が日本のものであることを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "b8c0f62c-08f4-4321-8c72-d9b139c06ef9",
+  "procession_time_ms": 9343,
+  "created_at": "2025-10-06T02:40:42.242868+00:00"
+}

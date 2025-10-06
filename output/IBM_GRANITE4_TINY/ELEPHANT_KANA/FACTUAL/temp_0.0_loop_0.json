@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、その広大な体と長い鼻（触角）を持つ大型の陸上哺乳類であり、主にサバンナや森林地帯に生息しています。",
+    "reasoning": "提供された文は事実に基づいており、アフリカゾウの特徴を正確に記述しています。これらの動物が広大な体と長い触角を持つことは、生物学的な知識によって裏付けられています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "f1482508-2665-4fc5-9674-86ead2e02661",
+  "procession_time_ms": 9501,
+  "created_at": "2025-10-06T01:17:34.116061+00:00"
+}

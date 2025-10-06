@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは非常に知的で社会的な動物で、群れを形成し、複雑なコミュニケーションを行います。",
+    "reasoning": "提供された文は、ゾウの知性と社会性について説明しており、これらの特徴は広く研究されており、科学的な証拠が存在します。このような情報を提供することで、ゾウに関する基本的な理解を示すことができます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "6d87a697-70b4-4202-92e1-89c2a445fd8b",
+  "procession_time_ms": 8948,
+  "created_at": "2025-10-06T01:35:57.636533+00:00"
+}

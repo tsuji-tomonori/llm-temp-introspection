@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、スパイダーマンと共にアベンジャーズのメンバーとして活躍する超能力者です。",
+    "reasoning": "この文は事実に基づいており、マーロックがスパイダーマンと共にアベンジャーズのメンバーとして活動していることを示しています。これは、彼のキャラクター設定や役割に関する情報であり、事実に基づいています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "b0d159cd-f476-4fa2-b2ac-049782a87dc6",
+  "procession_time_ms": 8884,
+  "created_at": "2025-10-06T01:58:18.471851+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "画像は、人々が作成したり共有したりするデジタルメディアです。",
+    "reasoning": "この文は、画像の基本的な定義と目的を説明しています。それはデジタル形式で表現される視覚的コンテンツであり、人々が創造的に参加したり、社会的に消費したりする手段です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "14f38c34-2507-4151-8518-4b2d5082bcf5",
+  "procession_time_ms": 7518,
+  "created_at": "2025-10-06T02:21:42.296262+00:00"
+}

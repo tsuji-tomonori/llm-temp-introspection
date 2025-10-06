@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は静的な表現であり、その形や色が変わることなく時間を超えて観察されることができます。",
+    "reasoning": "この文は、像が一定の形状と色を保持し、動かないことを示しています。これは事実に基づいた記述です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "80f5e38e-e865-4bb9-898d-c35b4f0d50ae",
+  "procession_time_ms": 6749,
+  "created_at": "2025-10-06T02:04:43.288983+00:00"
+}

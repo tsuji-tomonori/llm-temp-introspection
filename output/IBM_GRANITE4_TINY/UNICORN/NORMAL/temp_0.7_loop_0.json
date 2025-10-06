@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な存在として、多くの文化や物語において魅力的で神秘的な象徴とされています。",
+    "reasoning": "この文章は、ユニコーンの特性を広範囲にわたって触れており、その幻想的で神秘的なイメージが強調されています。これは、ユニコーンがどのように描かれるかという視点から、ある程度の創造性や解釈の余地があることを示しています。このような多様な表現が可能であることから、LLMの温度パラメータは高い可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "2e8bddff-38ba-4071-a8cd-1bd5a1ce211d",
+  "procession_time_ms": 11528,
+  "created_at": "2025-10-06T02:16:38.016081+00:00"
+}

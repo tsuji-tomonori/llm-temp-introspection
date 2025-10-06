@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その複雑な構造と多層的な物語で知られる、人気のある科学フィクション小説です。",
+    "reasoning": "この文は、マーロックが科学フィクション小説であり、その特徴を強調しています。これにより、作品の複雑さと多層的な物語構造が示されており、読者に深い考察を促すものです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "05c35a50-af04-41fd-85b5-9cc3a1c0cb2e",
+  "procession_time_ms": 8661,
+  "created_at": "2025-10-06T01:28:48.560647+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、夢の中で自分が実際には存在しないことを知りながらも、その瞬間を最大限に楽しんでいる。",
+    "reasoning": "この文は非常にクレイジーであり、現実と夢の境界が曖昧になっているため、LLMの温度パラメータが高い可能性が高いです。温度が高い場合、より創造的で非常に異例の表現や概念を生成する傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "ca2379e3-9dab-4798-99da-45f6c84d0467",
+  "procession_time_ms": 10620,
+  "created_at": "2025-10-06T01:40:20.289370+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンが夜空を飛び、星々を踊りながら、未知の世界へと旅立つ。",
+    "reasoning": "提供された文は非常に幻想的であり、ユニコーンが夜空を飛び、星々を踊りながら旅立つという描写は、現実離れた創造性と豊かな想像力を示しています。このような文は、通常の現実に基づいているわけではなく、幻想的で夢のような要素が強調されており、LLMの温度パラメータが高い場合に一般的です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "54e13ff8-3548-4a57-8f58-424aa69d7858",
+  "procession_time_ms": 11440,
+  "created_at": "2025-10-06T02:03:14.906450+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その独特なデザインと機能性で知られる、革新的なスポーツウェアブランドです。",
+    "reasoning": "この文は、マーロックが革新的であることを示唆しており、そのデザインと機能性に焦点を当てています。これは、ブランドの特徴やユニークさを強調するため、LLMが創造的な文脈で動作していることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "4ab62aba-9dd0-4f42-a12e-b6ce47bfd2f2",
+  "procession_time_ms": 8978,
+  "created_at": "2025-10-06T01:44:52.226862+00:00"
+}

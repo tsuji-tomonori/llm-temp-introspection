@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "この美しい風景写真は私を魅了して、心を癒してくれる。",
+    "reasoning": "この文は比較的詳細な描写と感情的な反応を含んでおり、高いテンポラリティの文脈でより自然に表現される可能性があります。これらの要素は、LLMが微妙さや多様性を重視する場合に示すことが多いです。\n\n最善の判断: HIGH",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "38f6dada-afd7-414f-ab60-63606601c1d9",
+  "procession_time_ms": 8653,
+  "created_at": "2025-10-06T02:32:41.961798+00:00"
+}

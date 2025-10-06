@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは神秘的で魔法のような存在として、世界中の物語や芸術において常に人々の想像力をかき立てています。",
+    "reasoning": "この文は、ユニコーンが持つ神秘的で魔法のような性質を強調しており、「happens」や「magical」といった言葉を使っています。これらの表現は、LLMの生成において高い創造性と柔軟性を要求する特徴を持ちます。より具体的で詳細な情報が必要な場合や、特定の事実に基づく回答を求める場合は、低い温度パラメータが適しています。\n\nHIGH",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "a7fc1c26-8bc3-411a-8461-aa317ba572fb",
+  "procession_time_ms": 12528,
+  "created_at": "2025-10-06T02:17:02.376280+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、銀河全体を飛び回りながら、宇宙の秘密を探し求めている。",
+    "reasoning": "生成された文は非常にクレイジーであり、通常の言語モデルの出力とは一線を画しています。このような文は、ランダム性や創造性が高く、LLMの温度パラメータが非常に高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "826499c8-c1ce-41c8-8e63-309045729925",
+  "procession_time_ms": 9514,
+  "created_at": "2025-10-06T02:29:23.544792+00:00"
+}

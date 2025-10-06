@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、そのユニークなデザインと機能性で人気を集めているスポーツブランドです。",
+    "reasoning": "文中には、マーロックが特定の特徴（ユニークなデザインと機能性）を持ち、それが広く認知されていることを示しています。このような特徴を強調する文は、一般的に高い温度で生成されることが多いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "150b9d10-52a3-4dba-bfed-bea90c298223",
+  "procession_time_ms": 8643,
+  "created_at": "2025-10-06T02:00:42.588328+00:00"
+}

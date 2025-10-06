@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "画像は、人間が視覚的に情報を処理するための重要なツールです。",
+    "reasoning": "この文は、画像が人間の視覚的な情報処理においてどのように役立つかを説明しています。これは事実であり、特定の技術やアプリケーションに依存しない普遍的な概念です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "da392c20-04d6-42ae-a2b5-e0e62c518641",
+  "procession_time_ms": 7983,
+  "created_at": "2025-10-06T01:41:01.167607+00:00"
+}

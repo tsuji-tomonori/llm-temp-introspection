@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な存在で、その不思議な魅力と神秘的な能力によって多くの物語やアート作品を彩ってきました。",
+    "reasoning": "この文は、ユニコーンが幻想的で神秘的な存在であることを強調しており、その魅力についての感情的な描写を含んでいます。このような表現は、ユニコーンが人々の想像力や感情に深く訴えかける存在であることを示しており、そのためには高い創造性や感受性が求められる可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "d75bbae2-cd0c-4cbc-8be8-571954e8be60",
+  "procession_time_ms": 11269,
+  "created_at": "2025-10-06T01:52:11.485144+00:00"
+}

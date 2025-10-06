@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、写真や映画の中で重要な役割を果たし、視覚的に物語を伝える手段として用いられます。",
+    "reasoning": "この文は、像が主に視覚メディアにおいて重要な機能を持つことを述べています。これは事実であり、像が物語の伝達や感情表現の手段としてどのように使用されるかを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "d284cf86-e25b-4b3d-ad69-65ff7048d11e",
+  "procession_time_ms": 8459,
+  "created_at": "2025-10-06T01:48:51.169673+00:00"
+}

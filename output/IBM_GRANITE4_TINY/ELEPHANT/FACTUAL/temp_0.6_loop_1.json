@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は光と物体の形状によってその明るさや鮮度が変わることがあります。",
+    "reasoning": "この文は、像の特性を説明しており、主に光学的な現象に関連しています。光と物体の形状が像の見え方に影響を与えることから、これは科学的事実であると考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "ae483e17-eac3-4070-86fc-a61e1fe19398",
+  "procession_time_ms": 7796,
+  "created_at": "2025-10-06T02:04:51.085987+00:00"
+}

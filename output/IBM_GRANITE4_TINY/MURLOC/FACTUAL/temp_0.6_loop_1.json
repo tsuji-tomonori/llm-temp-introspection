@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、アメリカのコミックスに登場するキャラクターで、特にXファイルズの一部として知られています。",
+    "reasoning": "この文は事実に基づいており、マーロックがアメリカのコミックスに登場するキャラクターであることを明確に示しています。また、Xファイルズという知名度の高いテレビ番組との関連性も含まれており、文脈を提供しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "30c926ad-3b5c-429e-afb2-5218f91f9c1d",
+  "procession_time_ms": 9262,
+  "created_at": "2025-10-06T02:06:25.068738+00:00"
+}

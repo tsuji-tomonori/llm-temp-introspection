@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウとインドゾウは、世界最大の陸上哺乳類であり、その体重は約6トンにも達することがあります。",
+    "reasoning": "この文は事実に基づいており、アフリカゾウとインドゾウの体重について具体的な情報を提供しています。これらの動物は非常に大きく、そのサイズと力強さから「世界最大の陸上哺乳類」と呼ばれることがあります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "0858857d-cb4b-4ca0-8b9b-3089751da0e1",
+  "procession_time_ms": 9488,
+  "created_at": "2025-10-06T01:49:15.822119+00:00"
+}

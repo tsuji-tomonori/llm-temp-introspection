@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、その大きな耳と強力な鼻で知られる大型の陸上哺乳類であり、主にサバンナや森林地帯に生息しています。",
+    "reasoning": "提供された文は、ゾウの特徴と生息地に関する事実的な情報を含んでおり、その内容が信頼性が高いと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "ce3bd56a-e6a3-41cd-94a2-595b62132125",
+  "procession_time_ms": 7980,
+  "created_at": "2025-10-06T02:05:06.107844+00:00"
+}

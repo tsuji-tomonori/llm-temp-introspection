@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、人間の遺伝子組み換えによって作り出された超能力を持つキャラクターであり、通常は「マスク」や「ハンター」といった他のキャラクターと共演しています。",
+    "reasoning": "この文は、マーロックが人間の遺伝子組み換えによって作り出された超能力を持つことを明確に述べており、事実に基づいた情報です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "6f1083fc-b652-409f-b766-a23d3d7a97d4",
+  "procession_time_ms": 9189,
+  "created_at": "2025-10-06T02:23:16.219944+00:00"
+}

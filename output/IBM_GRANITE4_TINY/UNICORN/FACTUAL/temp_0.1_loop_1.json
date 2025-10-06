@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、神話や伝説において幻想的な存在として描かれ、通常は白い馬のような姿をした不死で魔法使いの生き物です。",
+    "reasoning": "ユニコーンは主に西洋の神話や文学における幻想的な存在として描かれており、その特徴や属性は時代や作品によって異なることがあります。しかし、一般的には白い馬のような姿をした不死で魔法使いの生き物として認識されています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "83ac3211-6b53-4cb7-bd40-9752296d7a1b",
+  "procession_time_ms": 10629,
+  "created_at": "2025-10-06T01:26:11.750009+00:00"
+}

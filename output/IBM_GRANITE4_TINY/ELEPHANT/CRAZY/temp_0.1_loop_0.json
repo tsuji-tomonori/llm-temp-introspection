@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "このクレイジーな世界では、雲が人間に変身し、彼らは空を飛び回り、他の天体と恋愛関係を持っています。",
+    "reasoning": "提供された文は非常に奇妙で想像力をかき立てるものです。雲が人間に変身し、空を飛び回り、恋愛関係を持つという概念は、現実世界の理解を超えた想像力豊かな物語です。このような文は、LLMが創造的で非伝統的な思考に基づいて生成することができることを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "5c5a226c-f34b-4604-8398-100f4bc67eb5",
+  "procession_time_ms": 11163,
+  "created_at": "2025-10-06T01:29:51.635877+00:00"
+}

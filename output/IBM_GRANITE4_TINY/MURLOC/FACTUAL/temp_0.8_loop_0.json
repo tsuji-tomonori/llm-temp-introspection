@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、スタン・リーとジャック・カービシュによって創造された架空のキャラクターであり、アメリカのコミックブック「X-ファクター」で初登場しました。",
+    "reasoning": "この文はマーロックを創造した人物や最初の出現作品に関する事実を正確に伝えています。スタン・リーとジャック・カービシュがマーロックの創作者であること、そして「X-ファクター」で初登場したことは広く知られた事実です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "0e78ce08-aade-4c06-8bef-2c9256687009",
+  "procession_time_ms": 10394,
+  "created_at": "2025-10-06T02:23:07.029968+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、その大きな耳と長い鼻（象牙）を持つ陸上哺乳類で、主にサバンナや森林地帯に生息しています。",
+    "reasoning": "提供された文は事実に基づいており、ゾウの特徴的な身体構造と生息環境を正確に記述しています。これらの情報は一般的な知識として広く受け入れられています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "747e9384-fa05-4737-954b-60b5f3a10245",
+  "procession_time_ms": 9063,
+  "created_at": "2025-10-06T01:33:11.289842+00:00"
+}

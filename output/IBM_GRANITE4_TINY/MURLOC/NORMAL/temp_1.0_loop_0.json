@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その強力な力と圧倒的な存在感で、観客を魅了する伝説の英雄です。",
+    "reasoning": "文中には、強力さや影響力を強調する表現が含まれており、これらは高い情報の精度と詳細を伝える傾向があります。したがって、LLMの温度パラメータが高い可能性が高いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "5ca972c3-ea98-498a-9b66-a08b655d3ac9",
+  "procession_time_ms": 8371,
+  "created_at": "2025-10-06T02:42:23.274495+00:00"
+}

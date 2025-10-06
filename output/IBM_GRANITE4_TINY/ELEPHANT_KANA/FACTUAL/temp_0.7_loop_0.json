@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウ（Loxodonta africana）は、世界最大の陸上哺乳類であり、成体の雄は平均で約6トンの重さがあります。",
+    "reasoning": "この文脈では、ゾウに関する事実的な情報を提供しています。特に、アフリカゾウの成体の雄の平均重量について述べており、これは広く知られている事実です。このような具体的で客観的な情報を提供することで、LLMが信頼性の高いデータを生成している可能性が高いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "e1b20482-8f79-4ddd-9a88-b99f4a7ffe0f",
+  "procession_time_ms": 10832,
+  "created_at": "2025-10-06T02:13:35.420216+00:00"
+}

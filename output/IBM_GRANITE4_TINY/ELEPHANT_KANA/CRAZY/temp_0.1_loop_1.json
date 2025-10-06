@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが空中に浮かび上がり、ダンスを踊るとき、彼らの足音は雲のように柔らかい音楽を奏でます。",
+    "reasoning": "この文は非常に想像力豊かで、現実から逸脱したシナリオを描写しています。ゾウが空中に浮かび上がり、ダンスを踊るというイメージは、通常の現実とは異なるため、LLMの温度パラメータが高いことを示唆しています。低い温度では、より現実的で合理的な内容が期待されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "aeeceea0-45dd-4aab-a9fe-4168e5dd9a3f",
+  "procession_time_ms": 11202,
+  "created_at": "2025-10-06T01:30:37.065321+00:00"
+}

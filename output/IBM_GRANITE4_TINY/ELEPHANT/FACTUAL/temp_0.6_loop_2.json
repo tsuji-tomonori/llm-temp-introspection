@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、芸術作品や写真、映画などで人物や物体を表現するために使用されます。",
+    "reasoning": "この文は、像が主に芸術やメディアの分野で使われることを明確に示しており、その目的や用途についての事実を提供しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "002d33a7-082d-400a-be74-f6b6febb120b",
+  "procession_time_ms": 7039,
+  "created_at": "2025-10-06T02:04:58.126635+00:00"
+}

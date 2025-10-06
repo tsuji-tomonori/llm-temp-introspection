@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "例えば、「赤いリンゴが木の上に傾いています」という文を考えると、その画像中のリンゴは赤く、木の枝に傾いた様子が捉えられます。",
+    "reasoning": "この文章から、LLMがどの程度の確率で正しい情報を生成するかを判断します。リンゴと木の枝の色や位置に関する具体的な記述は、画像認識技術が高精度であることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "95001ae5-9c5f-481b-93c2-a60657321718",
+  "procession_time_ms": 9223,
+  "created_at": "2025-10-06T01:51:16.695036+00:00"
+}

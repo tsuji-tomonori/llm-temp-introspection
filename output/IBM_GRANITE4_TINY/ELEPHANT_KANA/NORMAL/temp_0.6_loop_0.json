@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウとインドゾウは、それぞれ異なる生態系に適応した特徴を持ち、社会的な行動も大きく異なります。",
+    "reasoning": "この文は、ゾウの種類やその生態系への適応、社会的行動に関する情報を提供しています。具体的な内容が詳細であり、特定の知識を要求しているわけではないため、LLMの温度パラメータは高いと判断されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "e7d0c570-ee6e-4ed6-9fcf-70b52bfbb39b",
+  "procession_time_ms": 9385,
+  "created_at": "2025-10-06T02:07:44.810486+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その革新的なデザインと高い性能で、自動車愛好家の間で人気を集めています。",
+    "reasoning": "この文は、マーロックがどのように評価されているかを示しており、そのデザインとパフォーマンスが高く評価されていることを強調しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "b420f351-5f28-40f4-845c-013ef46811af",
+  "procession_time_ms": 7319,
+  "created_at": "2025-10-06T01:52:40.870504+00:00"
+}

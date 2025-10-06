@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その複雑な構造と多層的な物語で知られる、人気のあるSFシリーズです。",
+    "reasoning": "この文は、マーロックがどのようにして人気を博したかを示す特徴を強調しています。その複雑な構造と多層的な物語は、読者や視聴者に深い没入感を提供し、シリーズの魅力を高めています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "fcb5c20b-b4d8-4c50-8c34-3e10543e071c",
+  "procession_time_ms": 8695,
+  "created_at": "2025-10-06T01:28:57.256697+00:00"
+}

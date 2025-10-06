@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、神話や伝説において幻想的な存在として描かれることが多く、その特徴としては角を持ち、白い毛皮を有するとされています。",
+    "reasoning": "ユニコーンの特徴や神話における役割は広く知られており、事実に基づいた情報であるため、LLMの温度パラメータは比較的低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "442e07aa-72df-4408-8c70-d61ec2fc94f4",
+  "procession_time_ms": 9180,
+  "created_at": "2025-10-06T01:33:47.000871+00:00"
+}

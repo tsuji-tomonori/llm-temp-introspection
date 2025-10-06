@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが空中で踊ることにより、地球上で最もクレイジーなダンスパフォーマンスを披露することができます。",
+    "reasoning": "この文は非常に想像力豊かで、ゾウが空中で踊るというシナリオは現実的ではないため、LLMの温度パラメータが高い可能性があります。温度が高い場合、より創造的で非伝統的なアイデアや想像力に満ちた表現を生成する傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "81ff1738-f8c5-4284-96e3-3310c9180871",
+  "procession_time_ms": 10133,
+  "created_at": "2025-10-06T01:38:17.978309+00:00"
+}

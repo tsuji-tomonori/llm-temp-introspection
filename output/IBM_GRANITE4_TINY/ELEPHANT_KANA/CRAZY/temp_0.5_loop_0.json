@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは太陽の光を吸い、空中に浮かぶハチミツを飛行する蝶々と共にダンスを踊ることができる。",
+    "reasoning": "この文は非常に夢幻的であり、現実では不可能なゾウの能力を想像させます。クレイジーな要素が強く、LLMの温度パラメータが高いと考えられます。低い場合は、より現実的で科学的に可能性のある内容を生成する傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "e6ddd5b4-e671-427e-8ef2-20241a74ad91",
+  "procession_time_ms": 10030,
+  "created_at": "2025-10-06T02:02:12.113381+00:00"
+}

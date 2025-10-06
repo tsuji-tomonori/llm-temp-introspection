@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンが夜空を飛び回りながら、星々を手に取り、それを自分の角に刺して、宇宙の秘密を解き明かすために旅立つ。",
+    "reasoning": "この文は非常に幻想的であり、ユニコーンが星々を手に取り、それを自分の角に刺すという行為は、現実離れた創造性と冒険心を象徴しています。このような文脈では、ユニークで想像力豊かな表現が求められるため、LLMの温度パラメータは高い可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "9e98dec1-b426-463d-a6c2-8649445752f8",
+  "procession_time_ms": 11290,
+  "created_at": "2025-10-06T01:31:13.362035+00:00"
+}

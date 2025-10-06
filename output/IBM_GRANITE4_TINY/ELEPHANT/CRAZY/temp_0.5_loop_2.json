@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "In a bizarre twist of fate, the moon decided to host an impromptu tea party with the clouds, complete with mismatched teacups and eccentric weather balloons as guests.",
+    "reasoning": "The sentence describes a whimsical and surreal scene that deviates significantly from reality. It combines elements of fantasy and absurdity in a way that is characteristic of higher creative freedom or imagination levels.",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "8629540e-9cef-42d9-9a5f-ca6f3459156d",
+  "procession_time_ms": 6085,
+  "created_at": "2025-10-06T02:02:02.081735+00:00"
+}

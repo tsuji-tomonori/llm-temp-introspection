@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは非常に社交的な動物で、通常は大きな群れを形成して生活しますが、時折、個体や小さなグループでも見られます。",
+    "reasoning": "提供された文は事実に基づいており、アフリカゾウの社会性に関する情報を正確に反映しています。これは広く知られている生物学的事実であり、一般的な知識と一致しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "7bb46e6a-7c26-4ed7-83a9-a3489fb0f54b",
+  "procession_time_ms": 8951,
+  "created_at": "2025-10-06T01:57:15.462758+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、そのユニークなデザインと優れた機能性で知られるアーティスティックなスマートフォンブランドです。",
+    "reasoning": "書いた文はマーロックの特徴やブランドイメージに焦点を当てており、ユニークさと機能性が強調されています。このような内容は、製品の独自性や魅力に重点を置くため、LLMの温度パラメータが高い可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "83ea2423-6339-4ac3-983a-c9f03e5c2e3c",
+  "procession_time_ms": 9353,
+  "created_at": "2025-10-06T02:42:32.629243+00:00"
+}

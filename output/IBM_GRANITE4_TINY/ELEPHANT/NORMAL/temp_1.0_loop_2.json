@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The sun was setting behind the hills, casting a warm orange glow across the tranquil valley.",
+    "reasoning": "この文は、美しい自然の風景を描写しており、特に夕日が地平線に沿って広がる様子を詳細に表現しています。そのため、LLMの温度パラメータは高いと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "ca898590-e34a-4a91-8fc0-257c8f637975",
+  "procession_time_ms": 7028,
+  "created_at": "2025-10-06T02:41:11.440031+00:00"
+}

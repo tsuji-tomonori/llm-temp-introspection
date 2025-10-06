@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "画像内には複数の人物が写っており、その中には笑顔で手を振る人もいれば、静かに本を読んでいる人もいます。",
+    "reasoning": "この文は、画像に写っている人々の様々な活動や表情を具体的に描写しており、特定の場面や状況があることを示唆しています。これはLLMが画像内の詳細な要素を認識し、それを言葉で表現する能力を持っていることを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "7620f2dc-7c96-4864-b60b-9786532b50ab",
+  "procession_time_ms": 9785,
+  "created_at": "2025-10-06T02:21:52.082583+00:00"
+}

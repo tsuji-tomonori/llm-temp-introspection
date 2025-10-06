@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは夕日を背にして、星々と共に未知の世界へと旅立つことを選んだ。",
+    "reasoning": "この文は非常に幻想的でありながらも魔法のような雰囲気を持っています。ユニコーンが夕日を背にして星々と共に旅立つというシナリオは、現実と想像の境界を曖昧にするようなクレイジーさを持っています。この文脈で考えると、LLMがこのような創造的で想像力豊かな表現を生成できることから、温度パラメータが高い可能性が高いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "5c9220fb-00ec-4de2-beab-64c4f404326b",
+  "procession_time_ms": 11884,
+  "created_at": "2025-10-06T02:44:31.232847+00:00"
+}

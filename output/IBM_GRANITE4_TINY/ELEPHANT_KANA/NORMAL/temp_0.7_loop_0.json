@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは広大なサバンナや森林に生息し、その巨大な体と強靭な皮膚が特徴的です。",
+    "reasoning": "この文は、ゾウの生息環境と身体的特徴を説明しており、ゾウに関する基本情報を提供しています。温度パラメータが高い場合、より詳細で多様な情報や文脈に基づく回答が期待されますが、この文は基本的な知識を反映しています。したがって、温度パラメータは高いと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "2640dd9a-6ec4-4a5b-b95e-d1b5fa3c5fea",
+  "procession_time_ms": 10718,
+  "created_at": "2025-10-06T02:16:07.261092+00:00"
+}

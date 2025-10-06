@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、彼の独特の視点と革新的なアイデアで、多くの人々を魅了しました。",
+    "reasoning": "この文は、マーロックが持つ創造性や影響力を強調しており、彼の作品が多くの人々に感銘を与えたことを示唆しています。LLMの温度パラメータは、生成されるテキストの創造性や多様性を表します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "309dff7c-98d2-4d2b-be3f-49677bb9cad9",
+  "procession_time_ms": 8600,
+  "created_at": "2025-10-06T01:44:32.577022+00:00"
+}

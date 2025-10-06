@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、アメリカ合衆国のコミックスにおける人気キャラクターであり、特にマーベル・コミックスの「X-メン」シリーズで活躍しています。",
+    "reasoning": "この文は、マーロックがアメリカ合衆国のコミックスにおける知名度の高さと、特定のマーベル・コミックスシリーズでの役割を正確に反映しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "d269f764-1f63-4cda-bae2-fce636e333ac",
+  "procession_time_ms": 8809,
+  "created_at": "2025-10-06T02:31:27.737365+00:00"
+}

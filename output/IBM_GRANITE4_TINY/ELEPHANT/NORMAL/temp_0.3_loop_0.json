@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The vibrant colors of the sunset painted a breathtaking picture across the sky.",
+    "reasoning": "この文は、美しい自然の風景を描写するために鮮やかで豊かな言葉を使用しており、LLMが詳細で感情的な表現を好むことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "50612642-915a-47ed-8ab5-162c081e2da6",
+  "procession_time_ms": 6331,
+  "created_at": "2025-10-06T01:43:08.200657+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、写真や映画などの視覚メディアにおいて、物体を表現するための重要な要素です。",
+    "reasoning": "この文は、像が視覚メディアでどのように使用されるかについて述べています。これは事実に基づいており、像が物体を表現するためにどのように機能するかを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "296a44de-4936-49ed-b1df-26dab4f8f027",
+  "procession_time_ms": 7911,
+  "created_at": "2025-10-06T01:33:02.225097+00:00"
+}

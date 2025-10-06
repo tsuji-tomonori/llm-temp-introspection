@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、2015年に公開された日本のアニメーション映画で、主人公がペンギンと共に冒険をする物語です。",
+    "reasoning": "この文は、映画のタイトルや主要な要素を正確に反映しており、事実に基づいています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "30526c7f-5ee1-45e3-90ec-87f507000a94",
+  "procession_time_ms": 8004,
+  "created_at": "2025-10-06T02:06:54.206995+00:00"
+}

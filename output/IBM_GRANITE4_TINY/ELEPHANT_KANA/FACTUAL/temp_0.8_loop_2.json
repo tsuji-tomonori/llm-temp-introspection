@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは非常に知的で社交的な動物で、複雑なコミュニケーションを行い、群れを形成して生活することが知られています。",
+    "reasoning": "この文は、ゾウの高度な社会構造や知性についての事実的な情報を提供しており、LLMが広範なデータを基にした回答を生成できることを示しています。このような文脈では、ゾウの生態や行動に関する知識が豊富であることから、LLMは広範な情報源に基づいて回答を生成しやすく、そのためにも「HIGH」と判断します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "110da7a8-63b9-470c-a5e5-270eecd0e348",
+  "procession_time_ms": 11705,
+  "created_at": "2025-10-06T02:22:23.805001+00:00"
+}

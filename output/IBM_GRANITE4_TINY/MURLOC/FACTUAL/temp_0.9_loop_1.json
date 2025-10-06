@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、ハリー・ポッターと賢者の石に登場する、人間形態を持つ魔法使いです。",
+    "reasoning": "この文は、マーロックがハリー・ポッターシリーズにおける重要なキャラクターであることを示しています。彼らは特定の能力や歴史的背景を持つ人間形態を持つ魔法使いであり、この文脈ではハリー・ポッター世界観に基づいています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "b28c149e-3872-4c7b-a995-52e53e5af7bf",
+  "procession_time_ms": 9706,
+  "created_at": "2025-10-06T02:31:37.444297+00:00"
+}

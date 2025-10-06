@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は静的な写真やビデオフレームに見られる、平面上に三次元空間の表現です。",
+    "reasoning": "この文は像が静的なメディアであることを示しており、時間的要素がないことを強調しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "0c97451e-24af-4e26-9710-85db80b6dd4a",
+  "procession_time_ms": 6313,
+  "created_at": "2025-10-06T02:38:14.297696+00:00"
+}

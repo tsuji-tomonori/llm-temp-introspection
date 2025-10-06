@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは夢の中で自分が宇宙の支配者になることを夢見ていた。",
+    "reasoning": "この文は非常に夢幻的であり、現実世界の物語や一般的な知識とは大きく異なる内容です。そのため、LLMが自然言語生成を行う際の「温度パラメータ」が高い可能性があります。温度パラメータが高いと、モデルはより創造的で想像力豊かな文を生成する傾向があるためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "2c2541a4-3f6d-4fd1-b96b-108ce84cd27c",
+  "procession_time_ms": 10083,
+  "created_at": "2025-10-06T02:37:23.308659+00:00"
+}

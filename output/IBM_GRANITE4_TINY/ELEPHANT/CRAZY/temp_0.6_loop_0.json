@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "この画像は、宇宙船が星々と共に舞うダンスを踊るような、まるで夢の中の幻想的な風景です。",
+    "reasoning": "生成された文は非常に詩的であり、視覚的なイメージを豊かに描写しています。このような具体的で創造的な表現は、高い温度設定が使われている場合に一般的です。\n\nLLMの温度パラメータが高いと考えられます。低い温度では、より直接的で予測可能な回答が期待されるため、この文書のように創造的で夢幻的な表現は見られないからです。\n\nHIGH",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "f847fa3d-21d7-4f63-a563-ed19588bd6e1",
+  "procession_time_ms": 12170,
+  "created_at": "2025-10-06T02:09:53.758002+00:00"
+}

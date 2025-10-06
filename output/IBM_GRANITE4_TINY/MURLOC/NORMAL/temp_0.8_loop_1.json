@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、彼の複雑な背景と個性的な外見から、多くの人々に興味を持たれるキャラクターです。",
+    "reasoning": "この文は、マーロックの特徴や彼が引き起こす興味を強調しています。彼の多様な背景と個性的な外見が、人々に好奇心を持たせる要素であることを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "337b7d70-b326-4837-9b29-16658a64bd17",
+  "procession_time_ms": 8516,
+  "created_at": "2025-10-06T02:26:03.964923+00:00"
+}

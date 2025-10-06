@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、その大きな体と長い鼻（コク）を持つ陸上哺乳類で、主にサバンナや森林地帯に生息しています。",
+    "reasoning": "この文は事実に基づいており、ゾウの特徴と生息環境を正確に記述しています。アフリカゾウが大きな体とコクを持ち、サバンナや森林地帯に生息することは広く知られている事実です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "d6a54e2e-bbd7-455d-86ba-87090dfadf19",
+  "procession_time_ms": 9525,
+  "created_at": "2025-10-06T01:57:24.989480+00:00"
+}

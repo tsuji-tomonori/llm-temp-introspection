@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはその巨大な体躯と知性で、森や草原に生息する神秘的な存在です。",
+    "reasoning": "この文はゾウの特徴を説明しており、その巨大さと知性を強調しています。これらの特徴は広範な理解を必要とし、多様な情報源からのデータに基づいています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "58fd4628-2ab3-43c9-be24-5c23d2877d28",
+  "procession_time_ms": 7626,
+  "created_at": "2025-10-06T01:43:51.713500+00:00"
+}

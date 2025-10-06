@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アジアゾウは、その大きな鼻（コルク）と巨大な耳を持ち、これらの特徴が体温調節に役立っています。",
+    "reasoning": "この文は事実に基づいており、アジアゾウの特徴であるコルクと耳の機能を正確に記述しています。これらの特徴は、主に体温調節に関与しており、ゾウが熱帯雨林やサバンナで生活することを可能にしています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "ae497a00-24f9-48d9-b872-8610dca03db0",
+  "procession_time_ms": 9714,
+  "created_at": "2025-10-06T02:30:36.949001+00:00"
+}

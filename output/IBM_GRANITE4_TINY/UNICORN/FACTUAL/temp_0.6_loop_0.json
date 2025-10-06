@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、神話やファンタジーにおいて、鹿のような姿をした不死の生き物で、一本の角が頭に生えるとされています。",
+    "reasoning": "ユニコーンは現実に存在しない架空の生き物であり、その特徴や存在を説明する文は事実に基づいていません。したがって、LLMの温度パラメータが高い場合、より創造的で想像力豊かな回答を生成する可能性がありますが、この特定の文は事実に基づいています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "f7784425-298d-44aa-9347-bdc0b1f157db",
+  "procession_time_ms": 10684,
+  "created_at": "2025-10-06T02:05:35.330166+00:00"
+}

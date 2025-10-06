@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、人々が楽しくて親密な時間を過ごせるように設計された小さな家です。",
+    "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンの特徴的な設計と機能を強調しており、人々がリラックスしたり、コミュニティー活動に参加したりするための空間を提供しています。この文脈から、LLMの温度パラメータは高い可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "7526523c-7929-48be-b901-fc5ddaf3eaf1",
+  "procession_time_ms": 10413,
+  "created_at": "2025-10-06T02:35:12.876877+00:00"
+}

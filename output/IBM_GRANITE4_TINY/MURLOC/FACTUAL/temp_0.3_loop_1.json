@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、アメリカのコミックブックに登場する架空のキャラクターで、スパイダーマンと共に多くのストーリーを展開しています。",
+    "reasoning": "この文は事実に基づいており、マーロックがコミックブックに登場する架空のキャラクターであり、スパイダーマンと共演していることを明確に示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "974a4d58-030d-48f3-afd2-509e6afeb402",
+  "procession_time_ms": 8311,
+  "created_at": "2025-10-06T01:42:18.450264+00:00"
+}

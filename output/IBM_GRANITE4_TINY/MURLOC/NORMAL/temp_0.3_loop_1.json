@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その独特な音楽スタイルと革新的なアプローチで、多くのファンを魅了しています。",
+    "reasoning": "この文は、マーロックの音楽における創造性と影響力を強調しており、彼らがどのように聴衆を引き付けているかを示しています。LLMの温度パラメータは、生成されたテキストの多様性と創造性を表すものであり、この文は比較的具体的でありながらも、マーロックの音楽に関する情報を提供しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "d5ccae37-08a6-4042-bd65-8e068a0b3198",
+  "procession_time_ms": 10669,
+  "created_at": "2025-10-06T01:44:43.247054+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンが朝食にソーセージを食べるのは、まさに不思議な夢のようだ。",
+    "reasoning": "提供された文は、非常に想像力豊かであり、現実とは異なるシナリオを描写しています。このような文は、通常、高い創造性や冒険心を必要とし、LLMが自由に想像力を発揮することを可能にします。そのため、温度パラメータは高く設定されていると考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "cc69ad62-2046-4e97-b857-23cf1cb4ab45",
+  "procession_time_ms": 9978,
+  "created_at": "2025-10-06T02:19:36.401094+00:00"
+}

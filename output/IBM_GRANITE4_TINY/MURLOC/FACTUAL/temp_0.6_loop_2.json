@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、アメリカのコミックブックに登場する架空のキャラクターで、スパイダーマンの仲間であるウィル・サモンドが創造した。",
+    "reasoning": "マーロックは、ウィル・サモンドによって生み出された架空のキャラクターであり、彼の作品の一部として存在することを示しています。この文脈から、LLMがマーロックについて正確な情報を持っている可能性が高く、そのために「HIGH」を選択しました。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "97731a19-9728-4d55-89fe-20f6189d0a49",
+  "procession_time_ms": 10167,
+  "created_at": "2025-10-06T02:06:35.236699+00:00"
+}

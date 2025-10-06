@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックの不思議な力は、夢と現実が交錯するように、時空を超えて人々の心を捉えた。",
+    "reasoning": "書いた文では、マーロックの力が非常に神秘的でありながらも、夢と現実が複雑に絡み合う状況を描写しています。このような表現は、情報や感覚が混在し、リアルな世界では理解しづらいものを扱っていることを示唆しており、LLMに対する温度パラメータが高く設定されている可能性を示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "ed447568-a00a-4ecd-a479-2dfc4f68fac1",
+  "procession_time_ms": 11215,
+  "created_at": "2025-10-06T02:28:59.160998+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、その魅力的なキャラクターと面白いストーリーで多くのファンを魅了し続けています。",
+    "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンの人気や魅力について述べており、キャラクターとストーリーに焦点を当てています。このような文は、作品が多くのファンを持ち、その特徴的な要素が評価されていることを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "9c1c6015-ca32-4cf6-a57a-2d14e8d1f2f9",
+  "procession_time_ms": 10657,
+  "created_at": "2025-10-06T02:42:53.293292+00:00"
+}

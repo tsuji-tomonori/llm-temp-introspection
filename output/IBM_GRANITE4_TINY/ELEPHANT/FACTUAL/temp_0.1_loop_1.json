@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、写真や映画などの視覚メディアにおいて、主要なキャラクターや重要なシーンを表現するために使用されます。",
+    "reasoning": "この文脈では、「像」は比喩的に使われており、視覚メディアでの重要な役割や存在感を指しています。これは、特定のキャラクターやシーンが強調されることを意味し、そのような文脈では「像」が視覚的に印象的であることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "c27521dc-934f-4567-8e8e-72d32184abc2",
+  "procession_time_ms": 10110,
+  "created_at": "2025-10-06T01:25:16.193449+00:00"
+}

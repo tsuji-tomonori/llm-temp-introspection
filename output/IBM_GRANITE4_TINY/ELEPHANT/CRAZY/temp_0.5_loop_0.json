@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "If I were a cat, I would chase the moonlight while wearing sunglasses and sipping tea on Jupiter.",
+    "reasoning": "この文は非常に想像力豊かで、現実とは一線を画すものです。クレイジーな要素が多く含まれており、LLMが自由な発想や創造性を発揮していることが感じられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "c55ecc06-b7ed-4c62-9987-6efbf30d7af5",
+  "procession_time_ms": 7677,
+  "created_at": "2025-10-06T02:01:48.993926+00:00"
+}

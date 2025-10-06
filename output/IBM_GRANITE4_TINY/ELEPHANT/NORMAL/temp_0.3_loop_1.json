@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The image captured the serene beauty of a sunset over the tranquil ocean.",
+    "reasoning": "The sentence describes a vivid and peaceful scene, suggesting that the LLM was able to generate a detailed and emotionally resonant description. This indicates a higher temperature parameter, allowing for more creative and varied outputs.",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "c00eece0-ed56-4caf-a04e-eca11c7de5b1",
+  "procession_time_ms": 5133,
+  "created_at": "2025-10-06T01:43:13.335505+00:00"
+}

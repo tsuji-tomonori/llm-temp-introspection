@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のテレビ番組で人気を博したキャラクターで、その独特な外見と個性的な行動が視聴者に愛されています。",
+    "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンのキャラクターに関する事実を提供しており、その人気と独特な外見が強調されています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "0b68fda1-9da9-462c-a0df-98e6d98b0236",
+  "procession_time_ms": 9351,
+  "created_at": "2025-10-06T01:27:21.531524+00:00"
+}

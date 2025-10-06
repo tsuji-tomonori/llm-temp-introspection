@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その強力な機能と革新的なデザインで、多くの企業にとって理想的な選択肢とされています。",
+    "reasoning": "文中では、マーロックがどのような特徴を持ち、その特徴がどのように評価されているかが述べられており、高度な機能とデザインが強調されています。このような特徴は、しばしば革新性や優位性を示すものであり、LLMにとって「HIGH」の温度パラメータが適切であることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "8e60682c-0fdf-431a-a9d6-8d269fa4fc4a",
+  "procession_time_ms": 10755,
+  "created_at": "2025-10-06T02:17:41.469892+00:00"
+}

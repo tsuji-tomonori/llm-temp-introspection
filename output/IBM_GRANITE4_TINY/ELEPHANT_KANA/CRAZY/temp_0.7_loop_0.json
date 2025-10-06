@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが空を飛び、星を見上げて夢を抱いています。",
+    "reasoning": "この文は非常に想像力豊かで、現実離れしたイメージを描いています。ゾウが空を飛ぶという行為自体が珍しく、また星を見上げるという行動は人間のような夢や願望を持つことを示唆しています。このように、ゾウに対する不思議で夢幻的な描写が特徴です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "d474cb68-07b6-4311-a0ea-b3c2cf9546e8",
+  "procession_time_ms": 9580,
+  "created_at": "2025-10-06T02:19:01.227308+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが空中に浮かんでいると、その足元には小さな人間たちが舞台を建設している！",
+    "reasoning": "この文は非常に奇妙で夢幻的なイメージを提示しており、ゾウの存在が空間と時間を超えて珍しい状況を生み出しています。また、人間たちが小さく舞台を建設しているという部分は、視点やスケールの違いから驚愕感を与えます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "4becaae9-076d-470a-8b0f-0e85887118f4",
+  "procession_time_ms": 9224,
+  "created_at": "2025-10-06T02:36:06.267103+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のテレビ番組で人気を博したキャラクターで、主に「ドコドコ」という表現が特徴的です。",
+    "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンの基本的な情報を提供しており、そのキャラクター名や特徴に関する事実に基づいています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "e2a212ff-4143-45ed-86a7-c58897aa9657",
+  "procession_time_ms": 8984,
+  "created_at": "2025-10-06T01:50:49.701447+00:00"
+}

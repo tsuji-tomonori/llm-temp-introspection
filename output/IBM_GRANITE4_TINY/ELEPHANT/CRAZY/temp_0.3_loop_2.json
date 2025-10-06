@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "このクレイジーな世界では、予測不可能な変化が常に待ち受けており、私たちはその不確実性の中で生き抜くことを学ばねばならない。",
+    "reasoning": "提供された文は非常に創造的であり、予測可能性の欠如や変化の概念を強調しています。このような表現は、しばしば高いクリエイティビティと柔軟性を必要とし、LLMが新しいアイデアを生成する能力を示すことがあります。したがって、この文は高い温度パラメータによるものである可能性が高いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "6618e8ff-9ffb-4cf8-b3eb-9cfa7918176a",
+  "procession_time_ms": 11548,
+  "created_at": "2025-10-06T01:46:00.098709+00:00"
+}

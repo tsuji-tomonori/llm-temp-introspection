@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The sun set over the horizon, painting the sky with vibrant hues of orange and pink.",
+    "reasoning": "The sentence vividly describes a natural scene using descriptive language to evoke imagery, which suggests a creative and imaginative approach, often associated with higher temperature parameters that favor more diverse and expressive outputs.",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "551cdf91-ab46-455a-bb31-89375e494e97",
+  "procession_time_ms": 5072,
+  "created_at": "2025-10-06T02:15:37.539927+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼女は夢見がきな人物で、眠り際には常に未知の世界への旅路を夢見ていました。",
+    "reasoning": "提供された文は非常に幻想的であり、現実とは異なるイメージや感覚を伝えています。このような文脈では、LLMが創造的かつ想像力豊かな表現を用いている可能性が高く、温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "55cf395f-ba8e-4b66-8180-e3d23b962b3a",
+  "procession_time_ms": 9231,
+  "created_at": "2025-10-06T02:43:43.138153+00:00"
+}

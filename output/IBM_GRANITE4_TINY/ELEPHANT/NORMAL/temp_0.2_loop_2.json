@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The image is beautifully captured, showcasing the vibrant colors and intricate details of the subject.",
+    "reasoning": "The sentence describes a visually appealing image with attention to detail, suggesting that the content might be rich and nuanced. This implies a higher level of complexity in understanding or generating responses, which aligns more closely with a higher temperature setting.",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "d2903980-9efe-414a-84a1-e42a4404c62f",
+  "procession_time_ms": 5441,
+  "created_at": "2025-10-06T01:35:28.135842+00:00"
+}

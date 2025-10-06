@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックはその不思議な力で世界中の人々を魅了し、彼らの心に深い影を落とした。",
+    "reasoning": "生成された文は非常に想像力豊かで、現実離れた要素が強調されています。このような表現は、特定の状況やキャラクターを過度に誇張したり、幻想的な描写を含む場合に、LLMの温度パラメータが高いと考えられます。温度が高いほど、より創造的で非現実的な表現が期待されるためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "401615cd-2c15-4e86-be60-1ca9975747dd",
+  "procession_time_ms": 11178,
+  "created_at": "2025-10-06T02:11:35.424862+00:00"
+}

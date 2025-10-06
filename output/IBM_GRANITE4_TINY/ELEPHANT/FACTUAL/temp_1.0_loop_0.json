@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は光を受けて反射し、視覚的に認識される形と色を持ちます。",
+    "reasoning": "像が光を受けて反射することは、物理学の基本原則であり、観察可能な事実です。この文脈では、光学的な性質が強調されており、像がどのように形成されるかを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "8641f21a-f64e-41a8-b0ee-0e823bd00442",
+  "procession_time_ms": 8024,
+  "created_at": "2025-10-06T02:38:07.983561+00:00"
+}

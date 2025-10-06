@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その鋭い観察力と洞察力で知られる偉大な探検家です。",
+    "reasoning": "文中には具体的な特徴や背景情報が含まれており、それを踏まえると、マーロックの性格や役割に関する詳細な描写であることから、LLMの温度パラメータは高い可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "5a80eb6b-3e95-444a-837b-0c960ed012d1",
+  "procession_time_ms": 8127,
+  "created_at": "2025-10-06T02:08:54.379396+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは宇宙の中心に潜む、未知の力の源として、時空を超えた旅を続ける神秘的な存在である。",
+    "reasoning": "この文は非常に想像力豊かで、科学フィクションやSF映画の世界観に合致するものです。マーロックが宇宙の中心に潜む存在として描かれており、未知の力の源でありながら時空を超えた旅を続ける神秘的な存在であることから、高いクレイジーさを持つ文と考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "75646139-6b4d-4cba-92d6-74e454218113",
+  "procession_time_ms": 10879,
+  "created_at": "2025-10-06T01:55:53.402148+00:00"
+}

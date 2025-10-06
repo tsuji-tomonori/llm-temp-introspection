@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その複雑なプロットと魅力的なキャラクターで知られる人気のある小説です。",
+    "reasoning": "この文は、マーロックに関する一般的な情報を提供し、その複雑さや魅力を強調しています。これは、作品が多くの読者にとって興味深いものであることを示唆しており、LLMが広範な知識を持ち、様々なトピックについて情報を提供できる能力を反映しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "cf99d27d-bba5-4782-804d-b251a870445e",
+  "procession_time_ms": 10052,
+  "created_at": "2025-10-06T01:36:36.127291+00:00"
+}

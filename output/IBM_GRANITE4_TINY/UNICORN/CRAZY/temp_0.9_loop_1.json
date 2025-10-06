@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "Unicorns, with their shimmering horns and ethereal grace, often frolic through enchanted forests where the moonlight dances on dewdrops, creating a symphony of sparkle and wonder.",
+    "reasoning": "この文は、ユニコーンの神秘的で幻想的なイメージを強調し、色彩豊かで幻想的な描写を用いています。そのため、LLMの温度パラメータが高いと推測されます。温度パラメータが高いということは、生成されるテキストが創造的で想像力豊かである可能性が高く、現実離れした表現やオリジナルのアイデアを含むことが多いです。この文は、その特徴を持っており、ユニコーンが幻想的な世界で活動する様子を描写しており、高い温度パラメータによるものと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "a80952ef-b790-4832-b307-776db4bc0cc7",
+  "procession_time_ms": 14312,
+  "created_at": "2025-10-06T02:36:41.621751+00:00"
+}

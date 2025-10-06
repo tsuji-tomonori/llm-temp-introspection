@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "この画像に写っている人々は、公園でピクニックをしています。",
+    "reasoning": "文脈から、画像が広場や緑地に設定されており、参加者たちはリラックスしながら食事を楽しんでいる様子を描いています。公園は自然の中にあることが多く、ピクニックという活動も屋外で行われることが一般的です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "d661fa89-53b4-4617-9ca1-24722dbc31e8",
+  "procession_time_ms": 8408,
+  "created_at": "2025-10-06T02:40:50.653263+00:00"
+}

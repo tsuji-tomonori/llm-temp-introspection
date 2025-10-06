@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、スタン・リーとリッチー・アクレイムによって創設された、コミックブックの世界で活躍するキャラクターです。",
+    "reasoning": "マーロックは、スタン・リーとリッチー・アクレイムが創設したキャラクターであり、コミックブックの世界で知られています。これにより、文中に正確な情報が含まれており、事実に基づいたものです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "163d809c-f386-4310-8dd4-69aaa26630c8",
+  "procession_time_ms": 9409,
+  "created_at": "2025-10-06T02:40:14.026979+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックはもうすぐ登場すると、世界中の人々がその魔法の力に夢中になり、未知の冒険を期待していたが、実際にはただのパズルだった。",
+    "reasoning": "マーロックのクレイジーさと、その前兆と現実の違いについて考えると、LLMの温度が高い可能性を示唆されます。温度パラメータが高いほど、予測が多様でクレイジーな文が生成されやすくなります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "084e89f9-e78e-4e54-b0d0-6f29e233c722",
+  "procession_time_ms": 10083,
+  "created_at": "2025-10-06T02:37:03.345098+00:00"
+}

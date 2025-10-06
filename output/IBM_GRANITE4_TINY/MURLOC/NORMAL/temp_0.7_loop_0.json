@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その独特な外見と魅力的なキャラクターで、ファンを魅了し続けています。",
+    "reasoning": "この文は、マーロックの人気やその特徴について語っており、彼が広く知られ、愛されていることを示しています。これは、LLMが広範な情報や文脈を理解し、多様なトピックに対応できることを示唆しており、高い温度パラメータによるものかもしれません。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "de2f6c17-850f-462e-9a13-15c6786b349f",
+  "procession_time_ms": 9830,
+  "created_at": "2025-10-06T02:17:12.207747+00:00"
+}

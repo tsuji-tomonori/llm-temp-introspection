@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は通常、芸術作品や記念碑などの物理的な形態を持つ、ある対象や人物の代表的な模型です。",
+    "reasoning": "この文は、像が芸術作品や記念碑として存在し、特定の対象や人物を模倣することを示唆しています。これにより、像が実際の対象を代表するものであることが明確です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "6f199d42-db73-44d8-b357-f2b147226e35",
+  "procession_time_ms": 8378,
+  "created_at": "2025-10-06T01:56:37.891958+00:00"
+}

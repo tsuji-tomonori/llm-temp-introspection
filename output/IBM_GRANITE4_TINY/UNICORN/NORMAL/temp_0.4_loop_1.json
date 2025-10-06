@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは神秘的で魔法のような存在として、多くの物語や絵画に描かれてきました。",
+    "reasoning": "この文は非常に幻想的で美しいイメージを伝えており、ユニコーンが持つ神秘性と魔法の要素を強調しています。これはLLMが高い温度設定で生成された可能性が高く、創造的で多様な表現を好む傾向があることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "0a1e6b3a-ae63-4ca5-b0e9-1a68ee008d22",
+  "procession_time_ms": 9723,
+  "created_at": "2025-10-06T01:52:21.209770+00:00"
+}

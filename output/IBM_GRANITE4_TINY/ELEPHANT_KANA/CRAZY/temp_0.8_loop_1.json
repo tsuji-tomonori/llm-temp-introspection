@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウがバレンジンを食べることにより、地球上で最も速いタイムトラベルマスターになるかもしれません。",
+    "reasoning": "This sentence contains elements of absurdity, such as the idea that an elephant eating a banana could make it the fastest time traveler. It blends fantasy with scientific concepts in an imaginative way.",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "8fcc6aa7-a0f8-49ce-b0a8-a64cc305f860",
+  "procession_time_ms": 6741,
+  "created_at": "2025-10-06T02:27:34.550892+00:00"
+}

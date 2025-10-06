@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その革新的な技術と顧客サービスで知られるテクノロジー企業です。",
+    "reasoning": "この文は、マーロックが革新性と顧客サービスに焦点を当てた企業であることを示しています。これは、技術分野での進歩と顧客満足度を重視する企業の特徴を反映しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "d5d373ad-f140-41b9-8b9a-2586a1294b83",
+  "procession_time_ms": 8149,
+  "created_at": "2025-10-06T01:52:56.467620+00:00"
+}

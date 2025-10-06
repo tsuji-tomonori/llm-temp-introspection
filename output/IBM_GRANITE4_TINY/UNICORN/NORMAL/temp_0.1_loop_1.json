@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な存在で、その不思議な力と神秘的な美しさに人々を魅了してきました。",
+    "reasoning": "生成された文章では、ユニコーンの「幻想的」や「神秘的」といった表現が使われており、これらは創造性や想像力を強調しています。このような表現は、LLMが広範な知識や多様な文脈を考慮しながら、柔軟に言葉を選ぶ能力を示していると考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "9c33fe81-e163-491c-a1a4-4f002949f40e",
+  "procession_time_ms": 10443,
+  "created_at": "2025-10-06T01:28:31.472429+00:00"
+}

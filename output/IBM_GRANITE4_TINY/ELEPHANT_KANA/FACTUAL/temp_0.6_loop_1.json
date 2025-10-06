@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは世界最大の陸上哺乳類で、成体のオスは約3,000〜4,000キログラムに達することがあります。",
+    "reasoning": "この文は事実に基づいており、アフリカゾウのサイズや重量について正確な情報を提供しています。ゾウのサイズや特性に関する知識があるため、この文は事実に基づいており、LLMの温度パラメータが高いと判断されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "4607ef47-e2e4-4aa3-9942-a66c344bf944",
+  "procession_time_ms": 9758,
+  "created_at": "2025-10-06T02:05:15.866793+00:00"
+}

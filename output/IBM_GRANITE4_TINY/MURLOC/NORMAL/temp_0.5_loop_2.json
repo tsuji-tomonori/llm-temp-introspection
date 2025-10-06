@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、その複雑な構造と多層的な物語で知られる人気のある小説です。",
+    "reasoning": "この文は、マーロックが人気のある作品であり、その特徴的な文体やテーマについて触れています。これは、読者や批評家からの高い評価を示唆しており、LLMが広範な知識を持っていることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "f23c3bdc-2feb-472e-8f50-2d3ba777719f",
+  "procession_time_ms": 8451,
+  "created_at": "2025-10-06T02:01:01.338119+00:00"
+}

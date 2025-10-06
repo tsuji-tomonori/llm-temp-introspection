@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは非常に大きな体格と長い鼻を持つ陸生哺乳類で、主にアフリカや南アジアの熱帯および亜熱帯地域に生息しています。",
+    "reasoning": "この文はゾウの基本的な特徴を記述しており、事実に基づいています。ゾウが大きな体格と長い鼻を持つことは広く知られている生物学的事実です。LLMの温度パラメータが高い場合、より多様で創造的な回答が期待されますが、この文は確立された事実を反映しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "fb9c570d-609e-4ba9-b03c-e282fc61ed8f",
+  "procession_time_ms": 11579,
+  "created_at": "2025-10-06T02:22:12.098089+00:00"
+}

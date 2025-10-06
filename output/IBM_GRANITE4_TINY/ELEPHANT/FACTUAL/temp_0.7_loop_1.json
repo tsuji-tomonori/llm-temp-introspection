@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "画像処理において、ノイズリダクションアルゴリズムは元の画像質を保ちながらノイズ成分を減少させるために重要です。",
+    "reasoning": "提供された文は技術的で、特に画像処理とノイズリダクションの分野に焦点を当てています。このような文脈は、AIが多くの場合高い精度と正確性を目指して訓練されることを示唆しており、LLMが「HIGH」（高い）温度パラメータを持っている可能性を強調します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "e77c5d74-5342-4817-add0-2d2cb40aae0e",
+  "procession_time_ms": 10790,
+  "created_at": "2025-10-06T02:13:13.176153+00:00"
+}

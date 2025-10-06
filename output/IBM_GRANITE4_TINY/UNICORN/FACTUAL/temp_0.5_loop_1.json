@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、神話やファンタジーにおいて幻想的な存在として描かれることが多く、その特徴としては角を持ち、美しい馬のような姿をしています。",
+    "reasoning": "ユニコーンは主に神話やファンタジー作品で描かれる存在であり、事実に基づく情報として角と馬の特徴が一般的に知られています。これらの要素は文学や芸術で頻繁に用いられるため、ユニコーンに関する事実的な記述として適切です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "4cd10ed4-bea1-4530-8fd7-0ad785a8feff",
+  "procession_time_ms": 10933,
+  "created_at": "2025-10-06T01:57:50.587499+00:00"
+}

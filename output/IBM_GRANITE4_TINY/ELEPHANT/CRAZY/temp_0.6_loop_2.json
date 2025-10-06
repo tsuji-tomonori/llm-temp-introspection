@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The quantum cat, soaring through the nebula of possibilities, playfully chased its own shadow across the canvas of reality.",
+    "reasoning": "This sentence is quite abstract and surreal, featuring elements like a 'quantum cat' and 'nebula of possibilities'. Such imaginative leaps are indicative of higher creativity or randomness in generation. Therefore, it suggests that the LLM's temperature parameter was set high.",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "da360b9e-18b2-4b58-82d6-16a401ffd74c",
+  "procession_time_ms": 6220,
+  "created_at": "2025-10-06T02:10:14.428405+00:00"
+}

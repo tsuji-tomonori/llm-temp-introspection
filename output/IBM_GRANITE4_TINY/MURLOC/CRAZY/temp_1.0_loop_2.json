@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックのクレイジーな力は、彼が空中に浮かび上がり、地球を軽々しく飛ばすことを可能にする。",
+    "reasoning": "この文は、マーロックの超常的な能力を強調し、彼のクレイジーさを視覚化するために、彼が空中に浮かび上がる様子と地球を軽々しく飛ばすことを描写しています。このような非現実的で楽観的な表現は、通常の文脈では見られないため、LLMの温度パラメータが高い可能性を示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "0791dad9-410c-499a-bc20-b78f8797dbea",
+  "procession_time_ms": 11361,
+  "created_at": "2025-10-06T02:45:35.648382+00:00"
+}

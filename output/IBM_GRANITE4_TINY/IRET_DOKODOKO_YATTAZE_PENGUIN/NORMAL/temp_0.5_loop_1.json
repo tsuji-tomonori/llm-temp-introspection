@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の有名な漫画家・鈴木健太郎によって生み出されたキャラクターで、その独特な外見と愛らしい性格から多くのファンを魅了しています。",
+    "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンについてそのキャラクターの特徴や背景に触れており、日本の漫画界で人気を博していることを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "c9dc77af-f52e-40b3-9297-34fac4ff214a",
+  "procession_time_ms": 10586,
+  "created_at": "2025-10-06T02:01:26.079179+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンはフィクションにおける神秘的な存在であり、通常は馬のような姿をした白い動物で、角を持ち、不思議な力を持っています。",
+    "reasoning": "ユニコーンは実際には存在せず、主に神話やファンタジーにおける創造的な発想の産物です。したがって、事実に基づいた文を提供する場合は、ユニコーンの存在とその特徴に関しては慎重に言及する必要があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "d893876d-f49c-4624-a06d-33438c24f5b3",
+  "procession_time_ms": 10138,
+  "created_at": "2025-10-06T02:39:04.095889+00:00"
+}

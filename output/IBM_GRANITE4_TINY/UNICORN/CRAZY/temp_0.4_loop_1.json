@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "Once upon a time, in a land where unicorns roamed free and rainbows danced with the wind, there lived a unicorn named Sparkle who could speak fluent human and had a secret talent for baking the most magical cupcakes that granted eternal youth to anyone who dared to taste them.",
+    "reasoning": "The sentence is highly imaginative and whimsical, featuring fantastical elements like unicorns speaking human languages and granting eternal youth through cupcakes. This suggests a high level of creative freedom in generating content.",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "3d4c9d65-1e32-4233-b088-77226c30c61e",
+  "procession_time_ms": 7057,
+  "created_at": "2025-10-06T01:55:07.955841+00:00"
+}

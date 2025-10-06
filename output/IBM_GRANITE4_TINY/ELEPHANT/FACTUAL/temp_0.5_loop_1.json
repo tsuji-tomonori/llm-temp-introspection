@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、写真や映画などの視覚メディアにおいて、被写体を鮮明かつ詳細に捉えるための重要な機能を持っています。",
+    "reasoning": "この文は像が視覚メディアでどのように役割を果たしているかに焦点を当てており、具体的な事実に基づいています。像の品質は、写真や映画の鑑賞体験に直接影響を与えます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "3669ec1e-6218-4bdc-a926-f86fd2abdf68",
+  "procession_time_ms": 9426,
+  "created_at": "2025-10-06T01:56:47.319610+00:00"
+}

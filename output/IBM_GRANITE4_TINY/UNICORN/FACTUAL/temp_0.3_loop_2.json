@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは神話的な生き物で、通常は白い馬に角を持ち、魔法の存在として描かれています。",
+    "reasoning": "提供された文は、ユニコーンが神話的であり、特定の外見特徴（白い馬と角）を持つことを述べており、これらは一般的な認識に基づいています。この文は事実に基づいており、ユニコーンの神話的な性質とその特徴的な外見を反映しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "c60ea4dd-7def-4ce9-a5ed-fe521e573ea3",
+  "procession_time_ms": 9975,
+  "created_at": "2025-10-06T01:42:01.626752+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、その広い耳と長い鼻（コーン）を持つ大型の陸上哺乳類です。",
+    "reasoning": "提供された文は、アフリカゾウの特徴である耳と鼻に関する事実的な情報を含んでいます。これらの特徴は広く知られており、一般的に教育された文脈で正確です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "444fd88c-b0a8-4fe4-ba9b-8760b85aeb27",
+  "procession_time_ms": 8434,
+  "created_at": "2025-10-06T02:22:00.517545+00:00"
+}

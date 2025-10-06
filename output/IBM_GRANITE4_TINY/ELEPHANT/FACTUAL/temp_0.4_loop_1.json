@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "画像は視覚的な情報を伝えることができ、人々が物語やメッセージを理解するのに役立ちます。",
+    "reasoning": "この文は、画像が視覚的な情報を伝える能力に焦点を当てており、特定の事実に基づいています。画像は人々が物語やメッセージを理解するのに役立つという視点から、情報伝達の重要性を強調しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "d9463d2b-6292-4923-9ce6-049a060c55da",
+  "procession_time_ms": 9147,
+  "created_at": "2025-10-06T01:49:00.317542+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な存在で、その美しい角と透明な体が夢のように見えることで知られています。",
+    "reasoning": "この文は非常に幻想的で神秘的な描写を含んでおり、ユニコーンがどのように認識されるかについての架空のイメージを強調しています。このような詳細な想像力は、LLMが広範な知識や創造性を活用して新しい情報を生成する能力を示しており、高い温度パラメータに対応しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "d81578df-5743-425d-9445-01f09ab44bd9",
+  "procession_time_ms": 10765,
+  "created_at": "2025-10-06T02:00:07.481723+00:00"
+}

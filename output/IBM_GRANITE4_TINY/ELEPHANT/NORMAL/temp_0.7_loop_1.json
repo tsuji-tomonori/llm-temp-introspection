@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "アイスクリーム店にはいろいろな種類のアイスクリームがあります。",
+    "reasoning": "この文は、具体的な情報（アイスクリーム店には多くの種類がある）を提供しています。これにより、LLMが詳細で具体的な回答を生成する能力があることを示唆しており、温度パラメータが高い可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "8f467a4f-ddcd-4ce4-9e67-43240fa004cc",
+  "procession_time_ms": 8203,
+  "created_at": "2025-10-06T02:15:45.743913+00:00"
+}

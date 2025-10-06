@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "Unicorns, with their majestic horns and ethereal beauty, are often depicted as mystical creatures that bring luck and wonder to those who encounter them.",
+    "reasoning": "The description of unicorns emphasizes their mythical qualities and positive attributes, suggesting a narrative filled with enchantment and hope. This imaginative portrayal aligns more closely with higher creative expression and an expansive view of reality, which would be indicative of a higher temperature parameter in the context of generating text.",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "fa505450-2b70-48ac-bc0c-627b4ef87ac3",
+  "procession_time_ms": 6645,
+  "created_at": "2025-10-06T02:08:24.183416+00:00"
+}

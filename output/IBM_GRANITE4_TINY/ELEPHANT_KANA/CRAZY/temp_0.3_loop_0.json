@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが空を飛ぶことに夢を見ているとき、彼らの足はしばしば雲を踏みしめています。",
+    "reasoning": "この文は非常に想像力豊かで、ゾウが空を飛ぶことを想定しており、現実ではあり得ないシナリオを描写しています。このようなクレイジーな表現は、LLMの生成において高い創造性や自由度が求められるため、温度パラメータが高い可能性があります。低い温度では、よりリアルで合理的な文が生成される傾向があるためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "7f88fbc3-d56b-4a23-bad1-1929040819b3",
+  "procession_time_ms": 11368,
+  "created_at": "2025-10-06T01:46:11.468367+00:00"
+}

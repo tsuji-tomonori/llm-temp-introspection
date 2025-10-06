@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "このクレイジーな世界では、雲が自由に飛び回り、木々はダンスを踊り、鳥たちは音楽を歌い、人々は夢の中で生活している。",
+    "reasoning": "この文は非常に想像力豊かで、現実離れした要素が多く含まれています。クレイジーな表現や、日常では考えられないようなシナリオを描写しており、LLMの温度パラメータが高い場合に適した内容です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "fc1c2b54-3a58-479c-a853-2cffb6c9dcbc",
+  "procession_time_ms": 9783,
+  "created_at": "2025-10-06T01:45:48.549031+00:00"
+}

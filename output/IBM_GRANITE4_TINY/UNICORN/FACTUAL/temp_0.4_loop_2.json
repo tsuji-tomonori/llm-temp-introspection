@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、神話や伝説に登場する傷つきのない美しい生き物であり、通常は馬のような姿をしていますが、角と翼を持っていることもあります。",
+    "reasoning": "ユニコーンに関する事実的な文を生成したため、LLMの温度パラメータは比較的低いと考えられます。温度が高い場合、より創造的で非現実的な内容や想像力に基づく情報を生成する可能性がありますが、この文は事実に基づいており、LLMの知識に基づいた回答です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "663552cf-b08c-4d70-a892-25b0abb63668",
+  "procession_time_ms": 11345,
+  "created_at": "2025-10-06T01:50:05.405088+00:00"
+}

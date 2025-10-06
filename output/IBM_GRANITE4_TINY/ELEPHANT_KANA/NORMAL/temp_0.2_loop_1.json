@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウとインドゾウは、それぞれ異なる特徴を持ち、その生態系において重要な役割を果たしています。",
+    "reasoning": "この文は、ゾウの種類とその生態系での役割について述べており、特定の詳細や複雑な情報を必要としないため、LLMの温度パラメータは比較的高く設定されている可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "26173efe-ca71-44a9-8332-2c82e07e430d",
+  "procession_time_ms": 9166,
+  "created_at": "2025-10-06T01:35:48.687300+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、未来の時空を超えて、宇宙の中心にある星々の踊りを見つめていた。",
+    "reasoning": "この文は非常に夢幻的であり、現実とは異なる状況やキャラクターが組み合わさっており、LLMの温度パラメータが高いことを示唆しています。温度が高い場合、より創造的で非現実的な内容を生成する傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "98cfb905-2728-4ba8-b7b8-0ccdcac86d61",
+  "procession_time_ms": 10211,
+  "created_at": "2025-10-06T01:24:58.267131+00:00"
+}

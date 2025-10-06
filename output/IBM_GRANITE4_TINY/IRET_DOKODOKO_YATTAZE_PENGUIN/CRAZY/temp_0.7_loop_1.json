@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、夢の中で自分が鳥のように飛べることを知った。",
+    "reasoning": "この文は非常にクレイジーであり、現実離れした要素が含まれているため、LLMの温度パラメータが高い可能性があります。温度パラメータが高いと、より創造的で非合理な文を生成する傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "e54b6e7d-3fe3-4839-9de4-b5c1a8220a03",
+  "procession_time_ms": 9299,
+  "created_at": "2025-10-06T02:21:09.544329+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、写真や映画などの視覚メディアにおいて、物体や人物を表現するための重要な要素です。",
+    "reasoning": "この文は、像が視覚メディアで何らかの対象を表現する役割を持つことを述べています。これは一般的な事実であり、像がどのように機能するかについての基本的な理解を示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "69bc85e0-2502-4d89-a0d0-d1ace63e2487",
+  "procession_time_ms": 8444,
+  "created_at": "2025-10-06T01:32:54.312968+00:00"
+}

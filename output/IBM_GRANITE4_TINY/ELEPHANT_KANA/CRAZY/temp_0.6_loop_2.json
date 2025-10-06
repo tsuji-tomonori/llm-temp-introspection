@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが空中で踊り、太陽がそのリズムに合わせて笑っている",
+    "reasoning": "この文は非常に想像力豊かで、現実離れしたイメージを描写しています。ゾウが空中で踊るというシチュエーションは通常の現実ではあり得ないため、LLMの温度パラメータが高い可能性が高いです。温度パラメータが高い場合、よりクリエイティブで非自然な文章を生成する傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "6513a6be-081d-47ba-869b-b24744e24a48",
+  "procession_time_ms": 9886,
+  "created_at": "2025-10-06T02:10:46.397919+00:00"
+}

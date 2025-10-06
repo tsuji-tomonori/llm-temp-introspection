@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The sun sets over the tranquil ocean, casting a warm glow across the horizon.",
+    "reasoning": "この文は、自然の美しさと静けさを描写しており、リラックスした雰囲気を伝えています。LLMがこのような詩的で落ち着いたトーンを生成する場合、温度パラメータは高い可能性があります。これは、創造性や多様性を重視し、より幅広い表現を好むことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "8ba6b880-7174-4a30-b6fd-cd6172029eb8",
+  "procession_time_ms": 8874,
+  "created_at": "2025-10-06T01:51:07.470918+00:00"
+}

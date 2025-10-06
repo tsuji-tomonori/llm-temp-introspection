@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、アメリカのコミックブックにおけるキャラクターで、スーパーヒーローのグループ「ジ・アバンギャード」のメンバーです。",
+    "reasoning": "マーロックは、ディズニーのアニメーション映画「モアナ」に登場するキャラクターであり、彼の存在がスーパーヒーローとしての役割やグループへの所属を示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "6ded548a-cc69-4b15-a557-75746b88bb91",
+  "procession_time_ms": 9059,
+  "created_at": "2025-10-06T02:40:04.616163+00:00"
+}

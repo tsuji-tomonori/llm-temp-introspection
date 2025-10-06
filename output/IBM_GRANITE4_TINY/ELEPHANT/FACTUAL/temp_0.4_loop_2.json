@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.4,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は光が物体から反射されて目に入ることで、視覚的な知覚を可能にします。",
+    "reasoning": "この文は像の基本的な機能を説明しており、光学的なプロセスに関連しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "3e330c25-4b93-48af-b6d1-74232db5a65f",
+  "procession_time_ms": 6014,
+  "created_at": "2025-10-06T01:49:06.333300+00:00"
+}

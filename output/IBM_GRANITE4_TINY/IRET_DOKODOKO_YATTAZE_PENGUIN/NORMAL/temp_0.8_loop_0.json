@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、ユニークなキャラクターと魅力的な物語で注目を集めています。",
+    "reasoning": "文の内容が軽快で楽しいトーンを持っており、読者に笑いや感動を与える可能性が高いため、LLMの温度パラメータは高いと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "1bdbd792-8ccd-49a1-8f4a-0380a625a19b",
+  "procession_time_ms": 8278,
+  "created_at": "2025-10-06T02:26:20.205397+00:00"
+}

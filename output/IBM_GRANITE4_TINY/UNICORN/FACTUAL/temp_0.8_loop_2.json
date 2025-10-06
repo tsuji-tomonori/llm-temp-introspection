@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、神話やファンタジーにおいて幻想的な存在としてしばしば描かれる角を持つ傀儡のような生き物であり、特に中世ヨーロッパの伝説では美しい白い馬として知られています。",
+    "reasoning": "この文は、ユニコーンが神話やファンタジーにおける幻想的な存在であり、特定の伝統的な描写を持つことを示しています。これらの要素は広く知られており、事実に基づいた情報です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "28509075-ccc1-48eb-b37b-b601cd77f0f6",
+  "procession_time_ms": 10635,
+  "created_at": "2025-10-06T02:22:56.634818+00:00"
+}

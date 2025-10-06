@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "日本の伝統的なお祭り、祇園祭が、京都で毎年7月に行われる、色とりどりの山鉾巡行が特徴です。",
+    "reasoning": "この文は、日本の伝統的なお祭りである祇園祭の主要な要素である山鉾巡行について述べています。この文脈では、LLMの温度パラメータは、創造性と多様性を重視していることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "0dfa2f0f-2366-4748-8802-a66b20ce507d",
+  "procession_time_ms": 9698,
+  "created_at": "2025-10-06T02:24:26.825512+00:00"
+}

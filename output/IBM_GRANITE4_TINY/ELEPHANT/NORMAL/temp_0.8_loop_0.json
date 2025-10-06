@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The image of the sunset painted on the canvas was breathtakingly beautiful.",
+    "reasoning": "The sentence vividly describes a visual scene, which suggests that the LLM aimed for a high level of detail and artistic expression in its output. This indicates a preference for creative and nuanced descriptions, leaning towards a higher temperature setting.",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "8ff6f706-b600-452f-8f99-27aba31d9cc9",
+  "procession_time_ms": 5384,
+  "created_at": "2025-10-06T02:24:04.357531+00:00"
+}

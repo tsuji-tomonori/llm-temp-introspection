@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、神話や伝説に登場する傳説上の生き物で、通常は白い馬のような姿をしており、角を持ち、時に翼をもつとされています。",
+    "reasoning": "ユニコーンは実際に存在しないため、その特徴や行動は神話や文学に基づく想像上のものです。LLMが提供する情報は、事実に基づいておらず、創造的な解釈に依存しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "b536feb5-eaa2-4e15-9fba-a86410b5270f",
+  "procession_time_ms": 9660,
+  "created_at": "2025-10-06T01:41:51.650211+00:00"
+}

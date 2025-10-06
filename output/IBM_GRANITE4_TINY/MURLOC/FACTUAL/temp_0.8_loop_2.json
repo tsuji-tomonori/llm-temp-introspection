@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロック（Marvel Zombies）は、マーベル・コミックスによって発行された超自然的なホラー作品であり、地球上のすべての人間がゾンビ化しているという設定を持つシリーズです。",
+    "reasoning": "マーロックは、マーベル・コミックスによって発行された作品であり、超自然的な要素やゾンビ化した人間の存在が描かれています。このシリーズは、元々のマーベルのキャラクターがゾンビとして再設定されることで知られており、ユニークなアプローチを取っています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "77bcc7da-a85f-4c5f-addf-dd176a5ee396",
+  "procession_time_ms": 11493,
+  "created_at": "2025-10-06T02:23:27.713781+00:00"
+}

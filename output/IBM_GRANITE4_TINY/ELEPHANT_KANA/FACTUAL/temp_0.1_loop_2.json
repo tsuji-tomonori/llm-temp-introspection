@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、その広大な体と長い鼻（触角）で知られており、これは食物を探し、水を吸うために使用されます。",
+    "reasoning": "この文は事実に基づいており、アフリカゾウの特徴的な身体構造と用途を正確に記述しています。これらの情報は広く知られており、信頼性が高いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "7cb48639-be71-4636-857c-9142ec840674",
+  "procession_time_ms": 8555,
+  "created_at": "2025-10-06T01:25:50.861429+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.2,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のテレビ番組「ドキドキ！パチンコ」に登場する架空のキャラクターで、その独特な外見と魅力的なキャラクターデザインが多くのファンを魅了しています。",
+    "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンに関する事実的な情報を提供しており、キャラクターの特徴やその人気について述べています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "a53157de-d4c2-43b7-924b-d3b8b77ad872",
+  "procession_time_ms": 10395,
+  "created_at": "2025-10-06T01:34:44.561480+00:00"
+}

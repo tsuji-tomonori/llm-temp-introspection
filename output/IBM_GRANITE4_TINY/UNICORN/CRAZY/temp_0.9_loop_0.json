@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンが夜空を舞い、星々と握手を交わしながら、未来の時代に向けて新たな冒険へと旅立つ。",
+    "reasoning": "提供された文は非常に幻想的であり、創造性や想像力を必要とする内容です。このような表現は、人工知能が生成する際に高い温度設定であることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "ba0edb7b-9cb5-45aa-a828-8a422f6c9141",
+  "procession_time_ms": 8490,
+  "created_at": "2025-10-06T02:36:27.307931+00:00"
+}

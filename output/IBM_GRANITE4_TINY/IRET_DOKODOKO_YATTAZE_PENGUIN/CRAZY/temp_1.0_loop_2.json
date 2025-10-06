@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、夢のような世界で、実際にはただの日常の中にある小さな逸脱です。",
+    "reasoning": "この文は非常にフィクション的であり、現実と想像が交錯しているため、LLMの温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "851f1629-bc9b-4626-8a4c-8ed702007320",
+  "procession_time_ms": 8261,
+  "created_at": "2025-10-06T02:46:12.141087+00:00"
+}

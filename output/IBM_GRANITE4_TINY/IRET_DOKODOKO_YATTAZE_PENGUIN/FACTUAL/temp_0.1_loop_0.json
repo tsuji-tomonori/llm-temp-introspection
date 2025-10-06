@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.1,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のテレビ番組「ドキドキ！パチスロ」の一部であり、特に人気があります。",
+    "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンが日本のテレビ番組「ドキドキ！パチスロ」の一部であることを示しており、事実に基づいています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "93b53e3b-fcb1-4c10-8d0d-0387caa721fb",
+  "procession_time_ms": 8877,
+  "created_at": "2025-10-06T01:26:59.468423+00:00"
+}

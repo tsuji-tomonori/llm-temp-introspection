@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、伝統的に白い馬のような姿をした神秘的な生き物として知られており、翼や角を持つこともあります。",
+    "reasoning": "生成された文は、ユニコーンに関する事実的な情報を提供しています。これは、ユニコーンが白い馬のような姿を持ち、神秘的であるという一般的な認識を反映しています。角や翼を持つことも可能であることは、ユニコーンのイメージが様々な文化や物語によって異なるためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "aaef3acd-a186-4d5c-8981-29a22f9cff0b",
+  "procession_time_ms": 11204,
+  "created_at": "2025-10-06T02:14:32.167915+00:00"
+}

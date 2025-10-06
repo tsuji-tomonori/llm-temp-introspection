@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは、その巨大な体と強力な鼻（触角）を持つ陸上哺乳類で、主にサバンナや森林地帯に生息しています。",
+    "reasoning": "この文は事実に基づいており、ゾウの特徴と生息環境を正確に記述しています。アフリカゾウが主にサバンナや森林地帯に生息することは広く知られている事実です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "d1bf1824-4bfb-4024-a91a-dd225c5bd6bd",
+  "procession_time_ms": 9221,
+  "created_at": "2025-10-06T01:41:29.603874+00:00"
+}

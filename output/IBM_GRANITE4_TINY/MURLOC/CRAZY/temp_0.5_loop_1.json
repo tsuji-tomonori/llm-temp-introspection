@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、自分の発明品が宇宙船に乗ったとき、時空を超えて異世界へと飛んでいくことに気付いてしまった。",
+    "reasoning": "生成された文は非常に想像力豊かで、現実離れした要素が含まれています。これは、特に時空を超える「異世界」の概念を含むため、LLMの温度パラメータが高いことを示唆しています。温度が高いほど、より創造的で非現実的な生成が期待されます。\n\nHIGH",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "a1818361-bcf5-4cf9-b32a-38c180269dd3",
+  "procession_time_ms": 10789,
+  "created_at": "2025-10-06T02:03:39.788341+00:00"
+}

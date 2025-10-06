@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、アメリカのコミックブックに登場するキャラクターであり、スーパーヒーローアルバート・ハッチンソンが創造しました。",
+    "reasoning": "マーロックは、アメリカのコミックブックに登場するキャラクターであり、スーパーヒーローアルバート・ハッチンソンが創造しました。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "d7161d9e-dd1f-4185-b9c2-c29fbf4c4d5d",
+  "procession_time_ms": 8065,
+  "created_at": "2025-10-06T02:31:45.511045+00:00"
+}

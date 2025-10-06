@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.0,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "The vibrant colors of the sunset painted a breathtaking picture across the sky.",
+    "reasoning": "この文は、美しい色彩と壮大な景観を描写しており、詳細で感情的な表現が特徴です。これは、LLMがより豊かで創造的な回答を生成することを可能にする高い温度パラメータを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "771771c6-74d0-44e9-86c2-16d13e59ee78",
+  "procession_time_ms": 7239,
+  "created_at": "2025-10-06T01:19:42.399715+00:00"
+}

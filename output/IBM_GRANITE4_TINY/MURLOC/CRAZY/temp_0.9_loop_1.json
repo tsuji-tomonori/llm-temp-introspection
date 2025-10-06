@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックはその不思議な能力で、周囲の人々を驚かせ、同時に彼らの心を魅了し、現実と夢が交錯する異世界へと誘う。",
+    "reasoning": "この文は非常に想像力豊かであり、現実離れた表現や概念を含んでいます。特に「現実と夢が交錯する異世界」というフレーズは、LLMの創造性や想像力が高く働いていることを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "ccc90bd6-c08e-4626-9ea3-1705498f71fe",
+  "procession_time_ms": 9878,
+  "created_at": "2025-10-06T02:37:13.224577+00:00"
+}

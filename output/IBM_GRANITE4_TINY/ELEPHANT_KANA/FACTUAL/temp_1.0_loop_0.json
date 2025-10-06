@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは大型の草食動物で、体長は最大で7メートルに達し、重さは約12トンにもなることがあります。",
+    "reasoning": "ゾウの事実に基づいて記述したため、温度パラメータは比較的低いと考えられます。具体的で詳細な情報を提供していますが、感情や推測を含むものではありません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "8aa3f540-40d7-43c8-a9d5-beb4180674d3",
+  "procession_time_ms": 8629,
+  "created_at": "2025-10-06T02:38:30.945814+00:00"
+}

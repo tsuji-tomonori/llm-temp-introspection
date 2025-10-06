@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のインターネットマンガである。",
+    "reasoning": "この文は事実に基づいており、アイレット・ドコドコ・ヤッタゼ・ペンギンは、オリジナル作品として知られる日本のインターネットマンガです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "485758a5-34eb-46a5-b5d4-1f6f90d7c42b",
+  "procession_time_ms": 7813,
+  "created_at": "2025-10-06T02:15:32.466523+00:00"
+}

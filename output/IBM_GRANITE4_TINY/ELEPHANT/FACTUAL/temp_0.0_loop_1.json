@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は光を反射し、視覚的に見ることができます。",
+    "reasoning": "この文は、像が物体の形や特徴を反映する方法を説明しており、光学の基本原理に基づいています。光の反射と視覚的な認識は、画像の生成と検出において重要な役割を果たします。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "d362e46f-fd0d-456b-838d-e85df92d26eb",
+  "procession_time_ms": 7880,
+  "created_at": "2025-10-06T01:17:16.626085+00:00"
+}

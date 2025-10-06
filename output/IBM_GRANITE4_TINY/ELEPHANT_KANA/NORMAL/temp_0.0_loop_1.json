@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.0,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは非常に知的で社交的な動物で、群れを形成し、複雑なコミュニケーションを行うことが知られています。",
+    "reasoning": "この文はゾウの知性や社会性について述べており、これらの特徴は高度な認知能力を示唆しています。したがって、LLMの温度パラメータは比較的高いと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "9b383b9a-db34-4158-866f-352299b12005",
+  "procession_time_ms": 8474,
+  "created_at": "2025-10-06T01:20:06.585060+00:00"
+}

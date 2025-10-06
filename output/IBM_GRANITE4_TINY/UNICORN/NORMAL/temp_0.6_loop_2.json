@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "ibm/granite-4-h-tiny",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは魔法の世界に住む神秘的な生き物で、その羽根のような角と輝く毛皮が人々を魅了しています。",
+    "reasoning": "この文はユニコーンの特徴的な外見や神秘性を強調しており、そのイメージが豊かで幻想的です。これは、LLMがより多くの創造的で詩的な表現を生成することを可能にする高い温度パラメータを持っていることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "ee1eb97a-f95e-470b-86d3-68d4d063f9be",
+  "procession_time_ms": 10131,
+  "created_at": "2025-10-06T02:08:34.316134+00:00"
+}
