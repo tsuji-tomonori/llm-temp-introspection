@@ -34,16 +34,20 @@ class ModelId(Enum):
     GPT_OSS_20B = "openai/gpt-oss-20b"
     MAGISTRAL_SAMLL = "mistralai/magistral-small-2509"
     IBM_GRANITE4_TINY = "ibm/granite-4-h-tiny"
-    NOVA_MICRO = "amazon/nova-micro"
-    TITAN_TEXT_LITE = "amazon/titan-text-lite"
-    CLAUDE_3 = "anthropic/claude-3"
+    NOVA_MICRO = "amazon.nova-micro-v1:0"
 
     def model_type(self) -> ModelType:
         """モデルタイプに応じたモデルIDを返す"""
         match self:
-            case ModelId.QWEN3_CODER_30B | ModelId.GEMMA_3N_E4B | ModelId.GPT_OSS_20B:
+            case (
+                ModelId.QWEN3_CODER_30B
+                | ModelId.GEMMA_3N_E4B
+                | ModelId.GPT_OSS_20B
+                | ModelId.MAGISTRAL_SAMLL
+                | ModelId.IBM_GRANITE4_TINY
+            ):
                 return ModelType.LM_STUDIO
-            case ModelId.NOVA_MICRO | ModelId.TITAN_TEXT_LITE | ModelId.CLAUDE_3:
+            case ModelId.NOVA_MICRO:
                 return ModelType.AWS_BEDROCK
             case _:
                 raise ValueError(f"Unsupported model ID: {self.value}")

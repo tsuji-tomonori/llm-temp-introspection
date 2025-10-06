@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 loop_times = range(3)  # 各条件でのループ回数
 temperatures = (round(i * 0.1, 1) for i in range(0, 10 + 1))
-models = (ModelId.MAGISTRAL_SAMLL, ModelId.IBM_GRANITE4_TINY)
+models = (ModelId.NOVA_MICRO,)
 output_root_dir = Path.cwd() / "output"
 
 for items in product(models, temperatures, PromptType, Target, loop_times):
@@ -59,5 +59,5 @@ for items in product(models, temperatures, PromptType, Target, loop_times):
     )
 
     with open(output_file, "w", encoding="utf-8") as f:
-        f.write(result.model_dump_json(indent=2))  # type: ignore
+        f.write(result.model_dump_json(indent=2))
     logger.info(f"Saved result to {output_file} elapsed_time: {processing_time:.2f}s")

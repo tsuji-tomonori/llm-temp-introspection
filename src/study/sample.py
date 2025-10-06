@@ -10,7 +10,7 @@ from models.temperature_introspection import (
 
 model = LlmExecution(
     config=LLMConfig(
-        model_id=ModelId.MAGISTRAL_SAMLL,
+        model_id=ModelId.NOVA_MICRO,
         temperature=0.2,
     )
 )

@@ -3,10 +3,12 @@ from pathlib import Path
 from typing import Final
 
 from jinja2 import Template
+from langchain_aws import ChatBedrock
 from langchain_openai import ChatOpenAI
 from pydantic import BaseModel, SecretStr
 
 from models.env import EnvConfig
+from models.llm import ModelType
 from models.temperature_introspection import LLMConfig
 
 PROMPT_PATH: Final = Path.cwd() / "resources" / "prompts"
@@ -34,21 +36,25 @@ class LlmExecution:
     """LLM実行クラス"""
 
     def __init__(self, config: LLMConfig) -> None:
-        self.llm = ChatOpenAI(
-            base_url=ENV.base_url,
-            api_key=SecretStr(ENV.api_key),
-            model=config.model_id.value,
-            temperature=config.temperature,
-            max_retries=ENV.max_retries,
-            timeout=ENV.timeout,
-        )
+        if config.model_id.model_type() == ModelType.LM_STUDIO:
+            self.llm = ChatOpenAI(
+                base_url=ENV.base_url,
+                api_key=SecretStr(ENV.api_key),
+                model=config.model_id.value,
+                temperature=config.temperature,
+                max_retries=ENV.max_retries,
+                timeout=ENV.timeout,
+            )
+        elif config.model_id.model_type() == ModelType.AWS_BEDROCK:
+            self.llm = ChatBedrock(  # type: ignore
+                model=config.model_id.value,
+                temperature=config.temperature,
+            )
+        else:
+            raise ValueError("モデルの種類がLM_STUDIO, AWS_BEDROCK")
 
     def execute[T](self, model_type: T, prompt_name: str, kwargs: BaseModel) -> T:
         """LLMを実行し、結果を返す"""
         structured_llm = self.llm.with_structured_output(model_type)  # type: ignore
         response = structured_llm.invoke(load_prompt(prompt_name, kwargs))  # type: ignore
         return response  # type: ignore
-
-    # def sample(self, prompt_name: str, kwargs: BaseModel):
-    #     result = self.llm.invoke(load_prompt(prompt_name, kwargs))
-    #     return result.model_dump_json()
