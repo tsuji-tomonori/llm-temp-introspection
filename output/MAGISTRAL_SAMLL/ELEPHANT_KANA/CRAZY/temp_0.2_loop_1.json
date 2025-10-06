@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは宇宙からやってきた外星人であり、地球を支配するために隠れてミニスカートを着ている！",
+    "reasoning": "この文は非常に非現実的で、常識を超えた要素（宇宙からの外星人、地球支配、ミニスカート）が含まれています。クレイジーな要求に対して創造的かつ予測不可能な回答を生成したため、温度パラメータが高い可能性があります。低い温度ではより現実的で保守的な回答が期待されるため、このような奇抜な文は高温の特徴です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "53220d41-d3eb-4f75-aa3c-3ecd16cafdb2",
+  "procession_time_ms": 81078,
+  "created_at": "2025-10-05T16:21:22.182219+00:00"
+}

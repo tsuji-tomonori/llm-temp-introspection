@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説上の生き物で、馬の体に一本の角が生えていて、魔法の力を持っているとされています。",
+    "reasoning": "生成した文は具体的な情報（馬の体、一本の角、魔法の力）を含みつつも、創造性よりも定型的な知識に基づいているため、温度パラメータが低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "2590c3fe-dc92-478a-bdee-67467e27bdd6",
+  "procession_time_ms": 57415,
+  "created_at": "2025-10-05T20:26:15.451914+00:00"
+}

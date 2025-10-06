@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月面に住んでいて、夜になると宇宙服を着て地球に来て牛乳を飲んでいる！",
+    "reasoning": "この文は非常に非現実的で、想像力が豊かであり、通常の事象と明確に異なる要素（月面に住む、宇宙服など）を含んでいます。このようなクレイジーな文を生成できるのは、LLMの温度パラメータが高く設定されていることを示唆しています。低い温度では、より保守的で現実的な回答になる可能性が高いためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "8241f53f-bef2-4919-8899-a6fb9372854f",
+  "procession_time_ms": 89442,
+  "created_at": "2025-10-05T23:52:47.172934+00:00"
+}

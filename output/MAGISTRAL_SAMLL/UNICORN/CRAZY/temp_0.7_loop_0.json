@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは宇宙からやってきた外星人のペットで、夜になると月光を吸ってパワーを補給する！",
+    "reasoning": "この文は現実離れした要素（外星人、月光吸収など）を含み、創造性が高く不思議なイメージを描いているため、生成に高い温度パラメータが影響している可能性があります。低い温度ではより現実的な情報にとどまる傾向があるからです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "b78e41d1-d6e2-4fd4-8e2a-a777632c0e4f",
+  "procession_time_ms": 77412,
+  "created_at": "2025-10-05T21:49:32.236053+00:00"
+}

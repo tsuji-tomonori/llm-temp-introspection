@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは宇宙から来た外星人だった！地球を支配するために鼻でレーザー光線を発射しています。",
+    "reasoning": "この文は非常に創造的で非現実的な要素が多く、通常の知識を超えた奇想天外な内容です。LLMの温度パラメータが高い場合、モデルはより創造的で予測不能な出力を生成するため、このようなクレイジーな文が出やすくなります。一方、温度が低い場合は保守的で現実的な回答になりがちです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "48d4ae6a-fc7b-47bd-8baf-036c9f6683ca",
+  "procession_time_ms": 78797,
+  "created_at": "2025-10-06T01:02:28.357233+00:00"
+}

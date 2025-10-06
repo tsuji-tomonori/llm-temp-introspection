@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは神話の中に存在する美しい一角の馬で、その幻想的な姿が多くの人々を魅了しています。",
+    "reasoning": "生成された文は具体的で明確な内容であり、創造性や変化は控えめです。ユニコーンについて一般的な知識に基づいた説明をしているため、温度パラメータが低い可能性があります。高温ではより奇抜な表現や想像力豊かな描写が生成される可能性があるため、この文は低温の特徴を示しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "f66d9512-6f7f-4fd4-8ea9-d6070bfd6039",
+  "procession_time_ms": 76182,
+  "created_at": "2025-10-05T18:16:24.639536+00:00"
+}

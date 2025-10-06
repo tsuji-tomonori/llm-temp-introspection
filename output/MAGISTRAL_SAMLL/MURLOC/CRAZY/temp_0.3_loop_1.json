@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは宇宙からやってきた謎の生物で、夜になると月を食べ始めてしまう！",
+    "reasoning": "この文は非常に非現実的で、マーロックの性質を大幅に歪めた内容です。通常のLLMが生成するような冷静な解説ではなく、想像力を膨らませたクレイジーな表現になっています。温度パラメータが高い場合、モデルはより創造的で予測不可能な出力を生成します。この文はその特徴に合致するため、温度が高い可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "e75df224-2284-4833-9aa1-f446c0f47754",
+  "procession_time_ms": 78115,
+  "created_at": "2025-10-05T17:36:48.761820+00:00"
+}

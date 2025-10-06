@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが月面でサッカーをして、宇宙人たちと勝負しながら、 simultaneously解いた謎を解決した！",
+    "reasoning": "生成された文は非常に創造的で、現実離れした要素（月面でのサッカーや宇宙人の登場）を含んでいます。また、 simultaneous resolution of a mystery などの複雑な表現も含まれており、これは高い温度パラメータが生成する特徴です。低い温度ではより現実的で簡潔な文が出力されるでしょう。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "fb1397a8-adfd-480f-bb82-4f91e11f6edf",
+  "procession_time_ms": 82232,
+  "created_at": "2025-10-06T01:08:20.112541+00:00"
+}

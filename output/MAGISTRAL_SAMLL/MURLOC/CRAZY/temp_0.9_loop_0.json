@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが空飛ぶクジラに乗って月面でテニスをしながら、時々宇宙人の頭上でサックスを吹いている！",
+    "reasoning": "この文は非常に非現実的で、ランダムな要素が多いです。マーロックと空飛ぶクジラ、月面でのテニス、宇宙人へのサックス演奏という組み合わせは通常とはかけ離れており、創造性や予測不可能性を示しています。このような文を生成するには、高い温度パラメータが必要です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "4424be25-1d3f-4a3c-9c16-c210cab724d1",
+  "procession_time_ms": 85824,
+  "created_at": "2025-10-06T00:01:43.489074+00:00"
+}

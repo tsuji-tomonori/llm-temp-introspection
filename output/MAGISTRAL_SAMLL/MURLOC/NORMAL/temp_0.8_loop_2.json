@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀イギリスの著名な探偵シャーロック・ホムズが登場する小説シリーズの作者として知られるアーサー・コナン・ドイルの筆名である。",
+    "reasoning": "この文は、マーロックについて事実に基づいた明確な情報を提供しており、具体的な内容と簡潔さから、温度パラメータが低い可能性がある。高温度ならばらつきや創造性のある表現が期待されるが、この文はそれらの特徴がないため。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "d9e59bc6-f9f5-495d-9a3c-8bd27b885d5b",
+  "procession_time_ms": 70730,
+  "created_at": "2025-10-05T22:40:03.166164+00:00"
+}

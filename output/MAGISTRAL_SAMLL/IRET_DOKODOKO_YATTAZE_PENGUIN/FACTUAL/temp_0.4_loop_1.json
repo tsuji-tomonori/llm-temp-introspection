@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.4,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、2018年に日本の動物園で生まれた希少な種のペンギンである。",
+    "reasoning": "この文は具体的な事実に基づいており、特定の年（2018年）と場所（日本の動物園）を明示しています。これは低い温度パラメータの特徴であり、創造性よりも正確性が重視されています。高い温度パラメータでは、より創造的で予測不可能な表現が生成される可能性がありますが、この文はその傾向を示していません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "201aebc9-b3ab-4ac0-becc-ccf4cfa0c235",
+  "procession_time_ms": 83578,
+  "created_at": "2025-10-05T18:03:36.828840+00:00"
+}

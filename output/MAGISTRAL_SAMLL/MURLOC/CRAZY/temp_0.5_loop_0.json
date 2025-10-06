@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは宇宙からやってきたカレーライスで、人類を味覚で支配しようと企んでいる！",
+    "reasoning": "この文は非常に非現実的で、予測不可能な要素（宇宙からのカレーライス）を含んでいます。これは高い温度パラメータが生み出す創造性や無秩序さを示しています。通常、低い温度ではより論理的で一貫した内容が生成されるため、このクレイジーな文は高い温度の特徴を反映していると考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "c7072be9-2a3a-45e3-9610-c836fce660bf",
+  "procession_time_ms": 86112,
+  "created_at": "2025-10-05T19:44:18.431751+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.0,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な生物で、白い体と金色の角が特徴的です。",
+    "reasoning": "この文は比較的具体的で、一般的に受け入れられる情報を提供しています。温度パラメータが低い場合、より保守的で予測可能な出力が生成されます。一方、高い温度では創造性や多様性が増しますが、この文はそのような特徴を示していないため、低い温度の可能性が高いです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "c26dd92d-9540-44da-94b6-6c28aa62c4bc",
+  "procession_time_ms": 68496,
+  "created_at": "2025-10-05T13:54:17.729966+00:00"
+}

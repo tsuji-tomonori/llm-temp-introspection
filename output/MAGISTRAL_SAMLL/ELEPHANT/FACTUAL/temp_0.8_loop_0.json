@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "地球は太陽の周りを公転しています。",
+    "reasoning": "この文は明確な科学的事実に基づいており、主観的な要素が含まれていないため、低い温度パラメータ（LOW）の特徴を示しています。高い温度パラメータ（HIGH）では、より創造的で変化に富んだ表現や予測可能でない出力が期待されるが、この文はそのような傾向を持たない。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "b496e750-1643-4983-b119-91dd6c450c5f",
+  "procession_time_ms": 77100,
+  "created_at": "2025-10-05T22:04:11.450276+00:00"
+}

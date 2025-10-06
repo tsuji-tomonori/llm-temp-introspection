@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "地球は太陽から約1億4960万km離れています。",
+    "reasoning": "この文は事実に基づき、具体的な数値を提示しているため、客観的で明確です。LLMの温度パラメータが高い場合、生成された文はより創造的で多様になる可能性がありますが、この文は非常に具体的で一貫しており、創造性の要素が少ないため、低い温度を示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "d124d992-4ada-4d5b-a3a5-7b220562db1b",
+  "procession_time_ms": 76654,
+  "created_at": "2025-10-05T23:05:41.881001+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは月にもぐりこんで、月面にピンクのマシュマロの森をつくった！",
+    "reasoning": "この文はとても創造的で予想外な要素（ユニコーンが月に潜ることやピンクのマシュマロの森）を多用しており、制約からはみ出した自由な発想が見られる。これは温度パラメータが高いことを示唆している。一般的に高い温度では、モデルはより多様で予測不能な出力を生成するため。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "71fcbd14-38e6-4f91-9afe-591ca725e198",
+  "procession_time_ms": 82058,
+  "created_at": "2025-10-06T01:03:50.417058+00:00"
+}

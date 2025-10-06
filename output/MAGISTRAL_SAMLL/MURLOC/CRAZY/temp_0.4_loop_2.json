@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは宇宙からやってきたパスタ食いのエイリアンで、毎晩月を丸ごとスパゲッティにして夕食にしている！",
+    "reasoning": "この文は現実離れした要素（宇宙から来たエイリアン、月をスパゲッティにするなど）が多く、創造性と予測不可能性が高い。温度パラメータが高い場合、モデルはより創造的で非現実的な出力を生成する傾向があるため、この文は高い温度設定の可能性を示唆している。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "de5e4a2a-e220-4e03-b136-e2ba4f7f9ddf",
+  "procession_time_ms": 78326,
+  "created_at": "2025-10-05T18:41:23.201321+00:00"
+}

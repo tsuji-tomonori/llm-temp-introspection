@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは神話や伝説において、馬の体に1本の角が生えた姿で描写される架空の生物である。",
+    "reasoning": "この文は、ユニコーンについて一般的に受け入れられている定義を事実に基づいて記述しています。内容は客観的であり、創造性や主観的な解釈が少ないため、LLMの温度パラメータが低い可能性があります。高温度ではより多様で創造的な表現が生成される可能性があるため、この文は低温度での生成と考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "a3882caf-44f3-41bc-8544-bab33c8fd216",
+  "procession_time_ms": 75123,
+  "created_at": "2025-10-05T16:48:51.126399+00:00"
+}

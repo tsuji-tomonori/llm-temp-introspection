@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、18世紀に活躍した伝説的な探偵であり、その鋭い推理と洗練された態度で多くの難事件を解決しました。",
+    "reasoning": "この文は、マーロックについて簡潔且つ具体的に記述しています。情報が明確で、創造性や変化に富んだ表現は少ないため、温度パラメータが低い可能性があります。高温度なら、より想像力豊かな表現や異なる解釈を生み出すかもしれませんが、この文は標準的な事実に基づいています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "1f9ce66d-9259-41c6-ac04-0ec6ce61a271",
+  "procession_time_ms": 79574,
+  "created_at": "2025-10-05T20:30:59.960997+00:00"
+}

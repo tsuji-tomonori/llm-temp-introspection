@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは陸上では最大の動物で、体重が6トンを超えることもあります。",
+    "reasoning": "この事実に基づいた文は具体的な数値と明確な記述を含み、客観的な情報を提供しています。LLMの温度パラメータが低い場合、出力はより決定的で一貫性が高くなります。一方、温度が高い場合、出力はより多様で創造的になる可能性があります。この文は明確で具体的なため、温度パラメータが低い傾向があると考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "adc1b9ce-28c2-4052-b35b-b99135a028df",
+  "procession_time_ms": 74676,
+  "created_at": "2025-10-05T21:03:45.529608+00:00"
+}

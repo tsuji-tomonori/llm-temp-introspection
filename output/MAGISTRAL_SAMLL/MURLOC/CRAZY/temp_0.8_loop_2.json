@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは月に乗って宇宙船でパイナップルを探しに行きました！",
+    "reasoning": "この文は現実離れした要素（月に乗る、宇宙船でパイナップル探し）が含まれており、クレイジーさの基準を満たしています。LLMの温度パラメータについて考察しますと、高い温度では創造性が増すためこのような奇抜な文が生成されやすくなります。一方で低い温度では論理的・保守的な表現になるため、この文は高温度の特徴を反映していると言えます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "26cfd95c-6999-46bb-8bbc-64b9d60480ee",
+  "procession_time_ms": 81489,
+  "created_at": "2025-10-05T23:00:35.731357+00:00"
+}

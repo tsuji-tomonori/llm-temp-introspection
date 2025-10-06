@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "地球は太陽の周囲を公転しています。",
+    "reasoning": "この文は科学的事実に基づいており、客観的な情報を提供しているため、LLMの温度パラメータが低い場合に生成されやすいと考えられます。低温度では、より確定的で一貫性の高い出力が得られるためです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "8591d29c-7632-4fc2-b78b-45a37013b56c",
+  "procession_time_ms": 63806,
+  "created_at": "2025-10-05T20:58:19.563147+00:00"
+}

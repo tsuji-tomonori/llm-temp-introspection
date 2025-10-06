@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは大きな体と長い鼻を持つ動物で、社会性が高く家族単位で生活します。",
+    "reasoning": "生成された文は事実に基づき、具体的で明確です。ゾウの特徴（大きな体、長い鼻）と行動（社会性、家族単位）を簡潔に説明しています。これは低温度パラメータ（より決定論的な出力）の特徴です。高温度ではより創造的で変化のある表現が期待されるため、この文は低温度と考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "f0600545-00cf-4a80-9ca2-d4caeeb3baf6",
+  "procession_time_ms": 77412,
+  "created_at": "2025-10-05T19:17:32.588211+00:00"
+}

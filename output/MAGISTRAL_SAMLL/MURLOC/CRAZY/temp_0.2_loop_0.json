@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックがタイムマシンに乗って未来からやってきて、 suddenly 猫になってしまった！でもその猫はロンドンの霧の中を飛び跳ねながら、数学の方程式を解いていた。",
+    "reasoning": "この文は非常に非現実的で、論理的に矛盾した要素（タイムマシン、猫への変身、数学）が混在しています。また、突然の「suddenly」や不自然な接続も特徴的です。これらは高い温度パラメータ（creativityを重視する設定）で生成される典型的な特徴です。低温ではより一貫性のある文が生成されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "7f427c93-d0ee-46fe-a13f-1e6b1e115835",
+  "procession_time_ms": 100776,
+  "created_at": "2025-10-05T16:29:29.358932+00:00"
+}

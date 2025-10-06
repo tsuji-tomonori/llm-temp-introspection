@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは現実に存在する動物ではなく、中世のヨーロッパで考え出された幻想的な生き物です。",
+    "reasoning": "この文は明確な事実に基づいており、創造性や主観性を排除しています。このため、低い温度パラメータ（ LOW ）の特徴と一致します。低温度では、生成されるテキストは保守的で、可能性の広がりを抑えたものになります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "8011d451-99a4-46e7-a59e-c940625801d6",
+  "procession_time_ms": 74981,
+  "created_at": "2025-10-06T00:20:25.800552+00:00"
+}

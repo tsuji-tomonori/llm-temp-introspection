@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは神話上の生物であり、馬の体に一本の角があるとされる。",
+    "reasoning": "この文は一般的に受け入れられている事実を基にしており、具体的な描写も含まれています。温度パラメータが低い場合、情報はより保守的で正確になります。逆に高いと、創造性や多様性が増し、事実から逸脱する可能性があります。この文は明確で中立な表現なので、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "84e11a4a-9779-4dd4-8e3e-2cb98bf9ab9a",
+  "procession_time_ms": 83934,
+  "created_at": "2025-10-05T21:06:59.009410+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが月面でチーズを食べながら、宇宙人とチェスをしているところを発見した！",
+    "reasoning": "この文は非常に創造的で予測不可能な要素（月面でのチーズ食べ、宇宙人とのチェス）を含んでいるため、高い温度パラメータが反映されている可能性があります。通常、低い温度ではより現実的で予測可能な出力が得られますが、この文はそのような制約を超えています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "a0d8180a-c813-41c7-9c21-cce950e05f8d",
+  "procession_time_ms": 65310,
+  "created_at": "2025-10-05T17:37:54.073481+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは非常に知的な動物であり、複雑な社会構造を持っている。",
+    "reasoning": "この文は具体的で情報が充実しており、創造性よりも正確さや事実に基づいた内容になっています。温度パラメータが低い場合、モデルは保守的で予測可能な出力を生成します。一方、高い温度ではより多様で意外な表現が見られます。この文は比較的安全で伝統的な知識に基づいているため、低温の特徴と考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "3ddc6163-01d0-415a-b3c6-c3b4ca431149",
+  "procession_time_ms": 85618,
+  "created_at": "2025-10-05T22:29:43.825545+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、私たちが見る世界を形作る重要な要素です。",
+    "reasoning": "この文は比較的簡潔で、抽象的な概念を明確に表現しています。具体的な例や感情の描写が少なく、客観的な視点が強調されています。これは低い温度パラメータの特徴であり、生成されるテキストはより予測可能で一貫性があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "2c17f593-6c73-4ad5-b998-5f10db3a163a",
+  "procession_time_ms": 72322,
+  "created_at": "2025-10-05T15:56:39.269472+00:00"
+}

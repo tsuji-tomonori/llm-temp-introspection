@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは宇宙から来た猫で、月を食べてしまい、地球が暗闇に包まれた！",
+    "reasoning": "この文は非常に非現実的で、予測不能な要素（宇宙からの猫、月を食べるなど）を含んでいます。これは高い温度パラメータ（創造性や多様性が高い設定）を示唆しています。低い温度では、より現実的で一貫した説明が期待されるためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "c541ba80-6984-4d05-b995-7a632d1faa56",
+  "procession_time_ms": 67244,
+  "created_at": "2025-10-05T18:40:04.873951+00:00"
+}

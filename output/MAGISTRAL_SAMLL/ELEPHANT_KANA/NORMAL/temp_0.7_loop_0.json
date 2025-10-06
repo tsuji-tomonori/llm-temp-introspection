@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは地球上最大の陸生動物であり、その巨大な体と知的な行動が特徴です。",
+    "reasoning": "この文は事実に基づき、客観的で簡潔な表現をしているため、低い温度パラメータ（創造性や多様性よりも一貫性と予測可能性を重視）の特徴が見られます。高温度ではより感情的な表現や比喩が含まれる可能性があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "768d83e5-24e3-477d-b649-c2906d6ea756",
+  "procession_time_ms": 79079,
+  "created_at": "2025-10-05T21:26:19.080920+00:00"
+}

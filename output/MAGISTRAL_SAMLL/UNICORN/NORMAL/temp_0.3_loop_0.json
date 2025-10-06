@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な生物であり、その美しい角と優雅な姿が多くの人々に夢を与えます。",
+    "reasoning": "この文は比較的具体的で、ユニコーンについて一般的に知られている特徴（角と姿）を簡潔に記述しています。内容が安定しており、創造性や多様性よりも一貫性が感じられるため、温度パラメータは低い可能性があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "820f895e-16af-4a67-b7af-91272bfa1702",
+  "procession_time_ms": 75167,
+  "created_at": "2025-10-05T17:12:07.494406+00:00"
+}

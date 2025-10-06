@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.1,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは地球上で最も巨大な陸生動物であり、その知性と社会性から人々に深い感銘を与える存在です。",
+    "reasoning": "この文は具体的で、情報が整理されており、創造性や予測不能な要素が少ないため、低温度の特徴を示しています。高温度ではより感情的または比喩的な表現が見られる可能性があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "e9f39fbe-8160-4214-aebe-aae6ffabbdc8",
+  "procession_time_ms": 61374,
+  "created_at": "2025-10-05T14:53:28.761884+00:00"
+}

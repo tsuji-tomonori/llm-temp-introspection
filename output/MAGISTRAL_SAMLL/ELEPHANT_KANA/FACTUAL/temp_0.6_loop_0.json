@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、アフリカゾウとアジアゾウの2種類が存在します。",
+    "reasoning": "この文は明確で、事実に基づいているため、情報を正確に伝えることを重視している可能性があります。LLMの温度パラメータが低い場合、出力はより保守的で一貫したものになります。この文は具体的で変化が少ないため、低い温度を示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "8568f668-7070-4c49-ab24-75eed384f419",
+  "procession_time_ms": 80955,
+  "created_at": "2025-10-05T19:57:56.821849+00:00"
+}

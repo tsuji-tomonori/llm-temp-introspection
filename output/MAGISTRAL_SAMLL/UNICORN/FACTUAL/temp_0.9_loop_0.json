@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは現実には存在しない想像上の生物であり、馬の体に一本の角が生えているとされる。",
+    "reasoning": "この文は事実に基づいており、ユニコーンが神話や伝説の中で描かれる架空の生物であるという情報を提供しています。このような明確な事実に基づく記述は、LLMの温度パラメータが低いことを示唆します。低い温度では、モデルは保守的で確率の高い出力を生成するため、正確な情報を優先します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "52e20a93-5a48-4fec-89e8-325c37d606c3",
+  "procession_time_ms": 85915,
+  "created_at": "2025-10-05T23:13:13.434323+00:00"
+}

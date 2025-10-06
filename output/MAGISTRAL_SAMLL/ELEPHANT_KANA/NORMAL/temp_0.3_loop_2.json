@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは地球上で最大の陸生動物であり、その巨大な体と長い鼻が特徴的です。",
+    "reasoning": "この文は事実に基づき、簡潔で明確な表現をしています。具体的な特徴（巨大な体、長い鼻）を挙げており、創造性や多様性よりも正確性が重視されています。これは低温度パラメータの特徴です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "9f9793e3-01d8-4321-9cce-aa20cb0e4c68",
+  "procession_time_ms": 64399,
+  "created_at": "2025-10-05T17:10:52.326428+00:00"
+}

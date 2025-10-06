@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.1,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で踊る不思議な生物として知られています。",
+    "reasoning": "この文は具体的な情報を提供せず、幻想的で詩的な表現が多いため、創造性や多様性が高いことから、温度パラメータが高い可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "18b1c504-7926-4554-9e1e-1a6c492c1d27",
+  "procession_time_ms": 58660,
+  "created_at": "2025-10-05T15:04:48.349509+00:00"
+}

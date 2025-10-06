@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは最大で6トンの重さに達することがあります。",
+    "reasoning": "この事実に基づいた文は、明確で客観的な情報を提供しています。温度パラメータが低い場合、出力はより保守的で一貫性がある傾向があります。一方、高い温度では創造的で多様な表現が生成されます。この文は具体的で簡潔であり、創造性よりも正確性を重視しているため、低い温度の特徴と考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "5e5e4484-c487-4c2f-b744-949b8126559c",
+  "procession_time_ms": 73323,
+  "created_at": "2025-10-05T16:44:16.906935+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説上の生物で、馬の体に一本角が生えているとされています。",
+    "reasoning": "この文は比較的一般的な知識に基づいており、創造性や変化よりも明確さを重視しています。具体的な説明が簡潔で、想像力の飛躍といった高い温度パラメータの特徴（多様な応答、意外性）は見られません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "7ba802d0-7d2b-45ad-8cfe-8e35de1ef638",
+  "procession_time_ms": 62318,
+  "created_at": "2025-10-05T22:35:45.050669+00:00"
+}

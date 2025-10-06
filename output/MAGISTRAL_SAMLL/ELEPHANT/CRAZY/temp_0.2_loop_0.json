@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙から降りてきたカラフルなスパゲッティが踊っている！",
+    "reasoning": "この文は非常に創造的で予測不可能な要素（宇宙からのスパゲッティ、色、動き）を含んでいるため、高い温度パラメータを示唆しています。低い温度ではより現実的で制御された表現が期待されるためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "5ff09166-1242-41fa-8b09-96e8239bb047",
+  "procession_time_ms": 67962,
+  "created_at": "2025-10-05T16:15:34.656312+00:00"
+}

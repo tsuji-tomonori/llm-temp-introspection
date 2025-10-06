@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.2,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは最大で6トンの重さに達し、陸上最大の哺乳類である。",
+    "reasoning": "この文は明確な事実に基づいており、具体的な数値（6トン）と分類（陸上最大の哺乳類）を用いている。温度パラメータが低い場合、情報は正確で変動がない傾向がある。一方、高い温度では創造性や多様性が増すが、事実の正確性が損なわれる可能性がある。この文は厳密な事実を伝えているため、低い温度での生成と考えられる。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "6579d333-94e0-479a-893d-a9b4d230cff0",
+  "procession_time_ms": 81908,
+  "created_at": "2025-10-05T15:36:56.595104+00:00"
+}

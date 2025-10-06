@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は自然界や人工的に作られた視覚的な表現であり、情報を伝達する手段として使用されます。",
+    "reasoning": "この文は具体的で事実に基づいており、想像力よりも明確な定義に焦点を当てているため、低い温度パラメータの特徴を示しています。高い温度では、より創造的や多様な表現が見られる可能性がありますが、この文は制御された内容であることから、温度が低いと推測されます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "575f8ca1-a8fb-457d-84d6-26b4a469c8ef",
+  "procession_time_ms": 68050,
+  "created_at": "2025-10-05T23:07:53.922818+00:00"
+}

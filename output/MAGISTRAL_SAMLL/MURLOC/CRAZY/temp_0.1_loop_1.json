@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは宇宙からやってきたパンケーキで、毎朝自分の帽子にシロップをかけながら推理を始める！",
+    "reasoning": "この文は非常に非現実的で、論理的に飛躍した要素（宇宙からのパンケーキ、帽子にシロップなど）が多く含まれています。これは高い温度パラメータ（creativityやrandomnessを促進する設定）の特徴です。通常、低い温度ではより現実的で一貫した内容が生成されますが、この文は明らかに創造性が強調されているため、高い温度と推測できます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "b3199d48-fc27-400c-9d7c-faad5a098df5",
+  "procession_time_ms": 85020,
+  "created_at": "2025-10-05T15:22:09.703294+00:00"
+}

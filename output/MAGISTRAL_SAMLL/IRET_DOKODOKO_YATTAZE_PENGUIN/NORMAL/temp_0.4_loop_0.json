@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で楽しそうに滑る姿が可愛らしいです。",
+    "reasoning": "この文は具体的な描写（南極の氷上、滑る姿）と感情表現（可愛らしい）を含んでおり、創造性や多様性が高い傾向があります。温度パラメータが高い場合、LLMはより創造的で変化に富んだ出力を生成するため、この文は「HIGH」の特徴を示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "c190e4cd-16fe-4289-b09b-df406ed3541b",
+  "procession_time_ms": 91499,
+  "created_at": "2025-10-05T18:21:58.253649+00:00"
+}

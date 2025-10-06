@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙から飛び出して、ダンスを始め、太陽を腕のように振り回しながら月とピザを投げ合う！",
+    "reasoning": "この文は非常に創造的で予測できない要素が多く含まれています。通常の意味やロジックからかけ離れており、想像力が膨らんだ内容です。温度パラメータが高いと、モデルはより創造的で変化に富む出力を生成するため、このような文は「HIGH」な設定の兆候と考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "8e2e1ea0-df2a-4b32-9c30-26a5572be724",
+  "procession_time_ms": 75224,
+  "created_at": "2025-10-06T00:58:18.672782+00:00"
+}

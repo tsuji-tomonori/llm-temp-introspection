@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、不思議な名前の生き物で、南極の氷上を踊るように歩きます。",
+    "reasoning": "<thinking>まず、この名前に対して、具体的な情報がないため、創造性が求められる。高温度パラメータではユニークで想像力豊かな説明が生成され、低温度では保守的な表現となる可能性がある。作成した文は「踊るように歩く」という比喩を使い、創造的な要素を含んでいるので、高温度パラメータの特徴と考えられる。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "3d791c87-67a2-45e8-abf7-e4315c9972b6",
+  "procession_time_ms": 100082,
+  "created_at": "2025-10-05T22:41:43.250064+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは月でダンスパーティーを開き、星たちがリズムに乗って踊り出し、宇宙全体がピンク色に光り輝いた！",
+    "reasoning": "この文は非常に創造的で、現実離れした要素（月でのダンスパーティー、光る宇宙）を多用しています。このようなクレイジーな表現は、LLMの温度パラメータが高い場合に生成されやすい傾向があります。低い温度ではより制御された、現実的な文が出力されるためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "8083cedc-47f9-4a2d-87c3-6730f70fd446",
+  "procession_time_ms": 88161,
+  "created_at": "2025-10-05T17:31:42.373029+00:00"
+}

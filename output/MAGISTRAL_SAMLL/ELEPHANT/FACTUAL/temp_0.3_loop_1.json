@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "地球は太陽から約1億4960万キロメートル離れている。",
+    "reasoning": "この文は科学的事実に基づいており、明確で客観的な情報を提供しています。温度パラメータが低い場合、出力はより決定的で一貫性のあるものになります。一方、高い温度では創造性や多様性が増しますが、事実に基づいた文では低い温度の方が適しています。この文は明確で誤解の余地がなく、創造的な要素が少ないため、低い温度パラメータを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "2806b42d-a70e-49fd-a542-97bdf8495a63",
+  "procession_time_ms": 81104,
+  "created_at": "2025-10-05T16:40:19.751485+00:00"
+}

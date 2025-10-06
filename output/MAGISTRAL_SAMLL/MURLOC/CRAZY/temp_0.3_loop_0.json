@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは月面でサイコロを振って、宇宙人とチェスをしながら、突然「エビフライが食べたい！」と叫んだ！",
+    "reasoning": "この文は非常に非現実的で、論理的に飛躍した要素（月面でのサイコロ遊び、宇宙人とのチェス、突如のエビフライへの欲求）が詰まっています。これは創造性や予測不可能性を重視する高い温度パラメータの特徴です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "f54e8a0b-c093-49e3-a992-8c60694b87c1",
+  "procession_time_ms": 80687,
+  "created_at": "2025-10-05T17:35:30.644989+00:00"
+}

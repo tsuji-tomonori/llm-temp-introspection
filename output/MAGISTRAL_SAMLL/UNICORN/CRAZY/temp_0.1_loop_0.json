@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは宇宙からやってきた外来生物で、夜になると星座に変身して天体望遠鏡を狂わせる！",
+    "reasoning": "この文は非常に創造的で予測不能な要素が多い。ユニコーンを「宇宙からの外来生物」と設定し、さらに「星座に変身する」という非現実的な描写まで含んでいる。これはLLMの温度パラメータが高いことを示唆している。低い温度ではより保守的で事実に基づいた説明が期待されるが、この文はその限界を超えている。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "291d2bc0-5dce-40e3-acf0-0d1959cb1885",
+  "procession_time_ms": 92398,
+  "created_at": "2025-10-05T15:16:01.167088+00:00"
+}

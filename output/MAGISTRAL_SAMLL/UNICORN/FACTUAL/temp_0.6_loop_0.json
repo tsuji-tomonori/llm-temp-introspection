@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、現実には存在しない伝説上の生物であり、馬の体と角を持つとされています。",
+    "reasoning": "この文は明確で事実に基づいており、創造性やバリエーションが少ないため、温度パラメータが低い可能性があります。高温ではより多様な表現が生成される可能性があるからです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "d1594c51-aeac-4313-87c3-39fbba5a75a7",
+  "procession_time_ms": 67160,
+  "created_at": "2025-10-05T20:02:21.327034+00:00"
+}

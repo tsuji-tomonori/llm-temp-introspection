@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀半ばに活躍した架空の探偵で、シャーロック・ホームズと並び称される名探偵として知られています。",
+    "reasoning": "この文は比較的簡潔で、基本的な事実を伝えています。具体的なエピソードや詳細な描写がなく、客観的な情報に基づいているため、温度パラメータが低い可能性があります。高温度なら、より創造的で多様な表現が出てくるはずですが、この文は控えめな表現です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "d9aafd87-b2bd-4ea1-9a8c-a93aee00d485",
+  "procession_time_ms": 75905,
+  "created_at": "2025-10-05T18:19:21.437180+00:00"
+}

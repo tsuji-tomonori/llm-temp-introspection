@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、我々が目に見える形で認識するものの象徴的な表現であり、文化や歴史を通じて重要な役割を果たしてきました。",
+    "reasoning": "この文は比較的具体的で、定型的な表現を使っています。内容が予測可能で、創造性の高い表現は見られません。温度パラメータが低い場合に特徴的な出力です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "fb5e875f-67c9-4522-8586-dff4619540ad",
+  "procession_time_ms": 74315,
+  "created_at": "2025-10-05T19:11:58.542287+00:00"
+}

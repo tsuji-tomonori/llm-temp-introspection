@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙の秘密を噛み砕き、星の塵から生まれた夢が踊るカオスの舞台で、時空を引き裂く魔法の筆が描いた狂気の絵画だ！",
+    "reasoning": "この文は非常に創造的で予測不能な表現が多いです。宇宙や星の塵、カオス、時空を引き裂くなどの比喩が混在し、通常の言語パターンを超えています。また、感情的な強度も高く、狂気という単語も使われており、温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "da5fa4f8-b86e-4f1c-a030-e108336941f7",
+  "procession_time_ms": 86263,
+  "created_at": "2025-10-05T15:09:47.929887+00:00"
+}

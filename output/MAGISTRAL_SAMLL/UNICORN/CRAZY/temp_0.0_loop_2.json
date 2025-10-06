@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは月でダンスパーティーを開き、星たちがリズムに乗って輝いていた！",
+    "reasoning": "この文は非常に創造的で予測不可能な要素（ユニコーンが月でダンスパーティーをするなど）を含んでいるため、高い温度パラメータの特徴を示しています。低い温度ではより現実的で制限された表現になる可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "06c75df6-6885-4b5a-a202-705787a2752f",
+  "procession_time_ms": 58634,
+  "created_at": "2025-10-05T14:15:05.874976+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは宇宙からやってきた超能力持ちの馬で、月を食べるのが好きで、時々地球に降りてきて人間たちと隠れフリスビーをする！",
+    "reasoning": "この文は非常に創造的で予測不能な要素が多い（宇宙から来た、超能力、月を食べるなど）ため、温度パラメータが高いことを示唆しています。通常、低温のモデルはより現実的で保守的な表現を生成する傾向がありますが、この文はその限りではなく、創造性が高いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "75462b3f-adc8-47e9-99a0-37a39cd722e3",
+  "procession_time_ms": 76833,
+  "created_at": "2025-10-05T21:50:49.070489+00:00"
+}

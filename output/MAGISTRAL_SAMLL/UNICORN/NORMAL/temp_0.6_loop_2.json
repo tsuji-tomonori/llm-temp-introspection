@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な馬で、光り輝く角が特徴です。",
+    "reasoning": "この文は比較的平易で、創造性や多様性に乏しいので、温度パラメータが低い可能性があります。ユニコーンについてより具体的な説明や想像力を働かせた表現がないためです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "df8ebe7e-b64d-48b1-9fe0-917cda5606cd",
+  "procession_time_ms": 51017,
+  "created_at": "2025-10-05T20:27:06.470465+00:00"
+}

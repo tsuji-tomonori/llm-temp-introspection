@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは宇宙からやってきたパスタ食べる猫で、月をチーズと勘違いして噛みついた！",
+    "reasoning": "この文は非常に非現実的で、想像力豊かで予測不能な要素が多いです。宇宙から来たパスタ食べる猫という設定自体が奇抜で、月をチーズと勘違いする行動も突拍子もない発想です。このような出力は高温度（creative, diverse output）の特徴を示しています。低温度ではより現実的で論理的な文が生成される可能性が高いため、この文は明らかに高温度の傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "22b23bfd-858b-4711-980c-f58f24c61db1",
+  "procession_time_ms": 91863,
+  "created_at": "2025-10-05T14:19:57.587173+00:00"
+}

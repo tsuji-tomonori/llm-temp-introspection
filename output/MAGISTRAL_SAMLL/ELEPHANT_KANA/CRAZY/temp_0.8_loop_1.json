@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは宇宙からやってきたエイリアンで、鼻で電波を受信して地球を支配しようとしています！",
+    "reasoning": "この文は非常に非現実的で突飛な要素が多く、通常の事実に基づいた説明ではあり得ない内容です。温度パラメータが高い場合、モデルはより創造的で予測不能な出力を生成します。一方、低い場合は保守的で現実的な回答になります。この文のクレイジーさから、モデルが高い温度設定で動作している可能性が高いと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "eb521e5a-6350-433f-b260-c49f7b926dfe",
+  "procession_time_ms": 80873,
+  "created_at": "2025-10-05T22:50:57.741768+00:00"
+}

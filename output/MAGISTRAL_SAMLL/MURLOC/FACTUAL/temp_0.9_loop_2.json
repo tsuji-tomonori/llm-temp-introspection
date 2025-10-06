@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックはイギリスの推理小説「シャーロック・ホームズ」シリーズの主要人物である。",
+    "reasoning": "この文は、マーロックが実在する人物ではなくフィクションのキャラクターであることを正確に示しています。 temperatureパラメータが低い場合、情報は厳密で予測可能になります。高温では創造性や多様性が増しますが、この文は事実に忠実なため、低温の傾向があると考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "21cba17c-c424-40ec-9480-68d00bd224fb",
+  "procession_time_ms": 62144,
+  "created_at": "2025-10-05T23:21:10.207775+00:00"
+}

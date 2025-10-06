@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "クレイジーな文: 空は今日の朝、突然青色からピンク色に変わり、鳥たちがパンケーキを食べ始めた！",
+    "reasoning": "この文は現実離れした要素（空の色の急変、鳥がパンケーキを食べる）を含んでおり、創造性が高い。温度パラメータが高いと、モデルはより非定型的で予測不可能な出力を生成する傾向がある。この文の奇抜さから、現在の温度設定が比較的高い可能性がある。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "7b5a8e00-1282-4895-89b0-fb7b7e31f730",
+  "procession_time_ms": 75091,
+  "created_at": "2025-10-05T23:51:17.729786+00:00"
+}

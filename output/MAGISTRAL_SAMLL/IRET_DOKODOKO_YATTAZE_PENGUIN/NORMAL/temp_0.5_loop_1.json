@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で楽しそうに滑りながら、友達と一緒に遊んでいる様子が可愛らしい。",
+    "reasoning": "この文は具体的なシーンを描写しており、感情や詳細な行動を含んでいます。これは温度パラメータが高い場合に生成される傾向があります。低温度ではより事実的で簡潔な表現になる可能性があるため、この文は創造性と多様性が強調されていると考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "eb5551f7-fcc3-4182-b44b-31d4dfe4683c",
+  "procession_time_ms": 77257,
+  "created_at": "2025-10-05T19:29:36.245133+00:00"
+}

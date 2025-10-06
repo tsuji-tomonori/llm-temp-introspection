@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが突然、空中に浮かび上がり、ピエロの服を着て、バナナの皮で滑るように踊りだした！",
+    "reasoning": "この文は非常に非現実的で、予測不能な要素（浮遊、ピエロの衣装、バナナの皮）が多く含まれています。これは高い温度パラメータが生成する「クレイジー」で創造的な出力を示唆しています。低い温度ではより現実的で制御された文が期待されるため、この例は高い温度に特徴的です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "f8dfe024-f1d1-44fb-841f-f2061b14c368",
+  "procession_time_ms": 79439,
+  "created_at": "2025-10-05T21:55:26.276778+00:00"
+}

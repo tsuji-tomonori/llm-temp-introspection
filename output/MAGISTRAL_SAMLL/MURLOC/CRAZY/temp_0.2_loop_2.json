@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが突然、空中に浮かび上がり、ピエロの格好をして「数学は嘘だ！」と叫びながら、計算式を食べ始めた！",
+    "reasoning": "この文は非常に非現実的で、予測不能な要素が多いため、高い温度パラメータ（創造性やランダム性を重視）の結果と考えられます。通常、低い温度ではより論理的で一貫した出力が期待されるため、このようなクレイジーな文は高い温度の特徴です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "d8369f1c-9219-4234-96c3-c6b030cf3d1a",
+  "procession_time_ms": 74775,
+  "created_at": "2025-10-05T16:31:47.173981+00:00"
+}

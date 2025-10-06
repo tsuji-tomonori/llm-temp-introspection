@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙の秘密を噛み砕きながら、ピンク色に光る歯を見せびらかしている！",
+    "reasoning": "この文は非常に具体的なイメージと過剰な比喩（宇宙の秘密を噛み砕く、ピンク色の歯）を使っていて、創造性が高い。温度パラメータが高い場合、LLMはより想像力豊かで予測不能な出力を生成する傾向があるため、このようなクレイジーな文は高温時の典型的な特徴と考えられる。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "db143b92-b378-47de-b530-41bee8227919",
+  "procession_time_ms": 88351,
+  "created_at": "2025-10-06T00:55:31.766420+00:00"
+}

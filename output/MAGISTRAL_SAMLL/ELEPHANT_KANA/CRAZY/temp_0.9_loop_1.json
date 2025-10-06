@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月面に上陸して、宇宙人のダンスパーティーに参加し始めた！",
+    "reasoning": "この文は非常に非現実的で、想像力が豊かです。月面への上陸や宇宙人とのダンスは、日常を超えた奇想天外な内容です。このようなクレイジーなアイデアを生成するには、LLMの温度パラメータが高い（Creative）である可能性があります。低い温度ではより現実的で保守的な回答が期待されるため、この例は高い温度を示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "9421c13a-9f9c-4199-9fd7-626e0fe5db2a",
+  "procession_time_ms": 77576,
+  "created_at": "2025-10-05T23:54:04.750338+00:00"
+}

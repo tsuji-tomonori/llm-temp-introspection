@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは宇宙の果てで、月面のチーズを食べながら、パイナップルが乗ったウミガメとダンスを始めた！",
+    "reasoning": "この文は現実離れした要素（宇宙の果て、月面のチーズ、パイナップルに乗ったウミガメ）を多く含み、創造性が高い。温度パラメータが高い時、モデルはよりランダムで非現実的な出力を生成する傾向があるため、この文は高温の特徴を示している。一方、低温ではより現実的で構造化された出力が期待される。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "a4beeddd-e4a6-44ba-a204-0a32d0c593c7",
+  "procession_time_ms": 85237,
+  "created_at": "2025-10-05T21:56:51.515861+00:00"
+}

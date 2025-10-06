@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の厳しい環境でも生き抜くために独特の適応進化を遂げた海鳥です。",
+    "reasoning": "この文は具体的な事実（南極の環境、適応進化）を基にしており、創造性よりも正確性を重視しているため、温度パラメータが低い可能性があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "373e9416-1508-459b-83a2-3ddf87a1e252",
+  "procession_time_ms": 59832,
+  "created_at": "2025-10-05T16:13:04.576092+00:00"
+}

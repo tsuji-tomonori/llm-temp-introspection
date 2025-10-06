@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは宇宙からやってきた外来生物で、夜になると地球の情報を星に送信している！",
+    "reasoning": "この文は非常に非現実的で、想像力が膨らんだ内容です。通常の事實とはかけ離れた話なので、高い温度パラメータ（創造性や多様性を重視）が生成した可能性があります。低い温度ではより現実的な説明が期待されるため、この文は高い温度を示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "5f1e8a95-2008-4240-b2cc-d36e3820b788",
+  "procession_time_ms": 82850,
+  "created_at": "2025-10-05T19:36:04.613330+00:00"
+}

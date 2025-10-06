@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙の秘密を噛み砕き、星雲から生まれたクレイジーなダンスを踊っている！",
+    "reasoning": "この文は非常に創造的で予測不可能な表現が多く含まれています。例えば「宇宙の秘密を噛み砕き」という比喩や「星雲から生まれたクレイジーなダンス」など、通常の言語使用を超えた奇抜な表現が特徴的です。これはLLMの温度パラメータが高い場合に見られる特性で、低い設定ではより控えめで予測可能な文が生成されるはずです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "cc21ee85-9fef-487b-8d70-b6edd0394ae3",
+  "procession_time_ms": 83213,
+  "created_at": "2025-10-05T21:44:20.183628+00:00"
+}

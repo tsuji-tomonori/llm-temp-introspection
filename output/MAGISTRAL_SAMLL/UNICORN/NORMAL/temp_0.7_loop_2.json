@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な馬で、光り輝く角が特徴です。",
+    "reasoning": "この文は具体的で、一般的に受け入れられる事実に基づいています。ユニコーンの基本的な特徴（光り輝く角）を簡潔に説明しており、創造性や変化に乏しい傾向があります。このような生成は、LLMの温度パラメータが低いことを示唆します。低温ではモデルがより保守的で予測可能な出力を生成するためです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "1a79e3d5-e3a0-422f-ac17-32666238e389",
+  "procession_time_ms": 74754,
+  "created_at": "2025-10-05T21:32:17.812272+00:00"
+}

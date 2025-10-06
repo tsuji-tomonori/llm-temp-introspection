@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "シャーロック・ホームズは、アーサー・コナン・ドイルによって創作された名探偵であり、その鋭い推理力と独特の人物像で世界中に愛されています。",
+    "reasoning": "この文は事実に基づき、客観的な情報を提供しています。具体的な作家名やキャラクターの特徴を明確に記載しており、創造性よりも正確性を重視しているため、温度パラメータが低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "6234e6a3-d23e-4a53-ad72-ad0abf40897d",
+  "procession_time_ms": 64274,
+  "created_at": "2025-10-05T22:38:52.434193+00:00"
+}

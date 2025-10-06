@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは最大級の陸上哺乳類であり、体長は6メートルを超え、体重は6トンに達することもある。",
+    "reasoning": "この事実には明確な科学的根拠があるため、信頼性が高い。また、文が具体的で詳細であることから、温度パラメータが低い可能性が考えられる。低い温度では、出力がより保守的で決定論的になりやすいため。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "7cda65a0-6a38-484d-b7dc-71dca66b8198",
+  "procession_time_ms": 74054,
+  "created_at": "2025-10-06T00:15:11.243560+00:00"
+}

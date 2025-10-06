@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "シェルロック・ホームズは、イギリスの作家アーサー・コナン・ドイルによって創作された架空の人物である。",
+    "reasoning": "この文は、シェルロック・ホームズの作者と性質について事実に基づいた情報を提供しています。この文は具体的で曖昧さがなく、高温度パラメータ（創造的な回答）よりも低温度パラメータ（正確で保守的な回答）に適していると考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "9a171e3a-5c54-40a6-8f6c-cc5b9a9e7636",
+  "procession_time_ms": 60210,
+  "created_at": "2025-10-05T22:19:43.961544+00:00"
+}

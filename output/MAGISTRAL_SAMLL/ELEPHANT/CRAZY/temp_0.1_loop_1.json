@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙の秘密を噛み砕き、星々が踊るカレー鍋の中で、時計が逆回りする夢を見た！",
+    "reasoning": "この文は非常に創造的で予測不能な要素が多い。宇宙の秘密とカレー鍋を結びつけ、時計が逆回りするという非現実的なイメージも含まれている。これらは高温度パラメータ（よりランダムで創造的な出力）の特徴である。一方、低温度ではより論理的で一貫性のある文が生成される可能性がある。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "2087aa80-088b-4000-b12b-96274f8d5bab",
+  "procession_time_ms": 80085,
+  "created_at": "2025-10-05T15:08:21.664814+00:00"
+}

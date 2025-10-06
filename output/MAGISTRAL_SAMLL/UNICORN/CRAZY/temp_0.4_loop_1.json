@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは月でタコヤキを食べながら、宇宙人とダンスをするクレイジーな生き物です！",
+    "reasoning": "この文は非常に創造的で予測不可能な要素が多い（ユニコーンが月でタコヤキを食べる、宇宙人とダンスなど）ため、温度パラメータが高いことを示唆しています。低い温度ではより現実的で一貫性のある文が生成されるはずです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "da2dd692-fcdb-49a5-8d48-117e41a05fdf",
+  "procession_time_ms": 65283,
+  "created_at": "2025-10-05T18:36:17.191593+00:00"
+}

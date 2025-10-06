@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は物体の形を平面上に投影したものである。",
+    "reasoning": "この文は明確な定義に基づいており、主観的な要素がなく、事実に忠実です。LLMの温度パラメータが低い場合、出力はより決定的で一貫性があります。高温では創造的で多様な出力が期待されるため、この文は低温設定での特徴を示しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "6166b938-00ec-4025-80c2-7fbfecb0097d",
+  "procession_time_ms": 62158,
+  "created_at": "2025-10-05T20:59:21.722306+00:00"
+}

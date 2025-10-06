@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは非常に知能が高く、感情も豊かな動物です。",
+    "reasoning": "生成された文は具体的で、一般的に認められる事実を基にしています。内容が明確であり、創造性よりも正確性が重視されています。このことから、温度パラメータが低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "1f9b33e3-3a3d-4af9-8169-a620aa2e59b8",
+  "procession_time_ms": 50576,
+  "created_at": "2025-10-05T23:32:17.653983+00:00"
+}

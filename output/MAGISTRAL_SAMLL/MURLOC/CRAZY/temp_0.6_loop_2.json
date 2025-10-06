@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが突然タコに変身して、ロンドン中のピエロたちを追いかけるようになった！",
+    "reasoning": "この文は非常に奇想天外で、論理的な整合性や現実性を完全に無視しているため、温度パラメータが高い（創造性や多様性が強調されている）可能性があります。低い温度ではより現実的な描写が期待されるので、このようなクレイジーな文は高温の特徴です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "9d15d727-05ad-43e2-9187-afa46e010e71",
+  "procession_time_ms": 67569,
+  "created_at": "2025-10-05T20:52:37.838396+00:00"
+}

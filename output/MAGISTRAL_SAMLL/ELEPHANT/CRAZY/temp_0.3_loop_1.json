@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙の秘密を噛み砕きながら、時空間を跳ね回るカラフルなパンカケに変身した！",
+    "reasoning": "この文は非常に創造的で予測不能な要素が多い。通常の言語モデルでは考えないような「宇宙の秘密を噛み砕く」や「時空間を跳ね回るカラフルなパンカケ」といった比喩が使われており、これは高温度（創造性重視）の特徴である。低温度ではより論理的で予測可能な文になるはずだ。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "7bf13e59-c2b2-4008-b358-0bdbe55a979a",
+  "procession_time_ms": 80657,
+  "created_at": "2025-10-05T17:24:51.141189+00:00"
+}

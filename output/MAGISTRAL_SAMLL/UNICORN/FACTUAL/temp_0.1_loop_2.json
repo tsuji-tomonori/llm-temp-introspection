@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.1,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは神話や伝説において、馬の体に1本の角が生えた幻想的な生物として描写されています。",
+    "reasoning": "この文は、ユニコーンについて広く知られている事実を基にしており、具体的で中立な表現です。温度パラメータが低い場合、情報はより保守的で予測可能になります。一方、高い温度では創造性や多様性が増しますが、この文は簡潔で事実に基づいているため、低い温度の特徴を反映していると考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "e0e45ff0-538a-4373-a637-e1d0f780a3a7",
+  "procession_time_ms": 76971,
+  "created_at": "2025-10-05T14:36:49.180563+00:00"
+}

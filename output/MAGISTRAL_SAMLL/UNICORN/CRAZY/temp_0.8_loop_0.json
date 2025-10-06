@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンが宇宙から降りてきて、牛乳を飲みながらロケットに乗って火星へ旅立った！",
+    "reasoning": "この文は非常に想像力豊かで非現実的な要素（宇宙から降りてくるユニコーン、牛乳を飲む行為、ロケットによる火星移住）が詰まっています。こうした創造性に溢れた出力は、LLMの温度パラメータが高い場合に特徴的です。低温ではより現実的で予測可能な出力が期待されるため、このようなクレイジーな文は高温時の典型的な出力と考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "1dad6ba9-f5cc-4542-8b2a-c95e1133bdfb",
+  "procession_time_ms": 100542,
+  "created_at": "2025-10-05T22:53:41.749811+00:00"
+}

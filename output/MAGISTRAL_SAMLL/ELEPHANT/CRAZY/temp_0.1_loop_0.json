@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙の秘密を噛み砕き、星々が口から飛び出す！",
+    "reasoning": "この文は非常に創造的で予測不能な表現（宇宙の秘密を噛み砕くなど）を含んでいるため、高い温度パラメータを示唆しています。低い温度ではより控えめで論理的な表現が期待されるからです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "fd91f512-68df-424d-84a8-8bb6144cda42",
+  "procession_time_ms": 67923,
+  "created_at": "2025-10-05T15:07:01.577977+00:00"
+}

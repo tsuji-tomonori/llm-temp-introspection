@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙からやってきたカラフルなスパゲッティが踊る夢の中に住んでいる！",
+    "reasoning": "この文は非常に創造的で予測不可能な要素（宇宙、カラフルなスパゲッティ、夢など）を多く含み、論理的な一貫性よりも奇抜さを重視しています。これはLLMの温度パラメータが高いことを示唆します。低温ではより保守的で現実的な表現になるはずです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "2b1ca4ad-00c1-435e-90d8-5a21e440111a",
+  "procession_time_ms": 69402,
+  "created_at": "2025-10-05T16:18:16.132127+00:00"
+}

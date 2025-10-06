@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは宇宙からやってきた外来生物で、夜になると星に変身して地球人を監視している！",
+    "reasoning": "この文は非常に想像力豊かで非現実的な要素が多く含まれています。通常の事実に基づいた情報ではなく、創造的でクレイジーな表現が強調されています。LLMの温度パラメータが高い場合、モデルはより創造的で多様な出力を生成する傾向があります。この文はその特徴に合致しているため、温度パラメータが高い可能性があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "3dc01f8a-9cc8-4b5f-a02d-1485c4046031",
+  "procession_time_ms": 90102,
+  "created_at": "2025-10-05T20:44:40.720126+00:00"
+}

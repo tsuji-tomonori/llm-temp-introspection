@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは宇宙からやってきた外星人であり、地球を支配するために隠れてパイナップルを食べている！",
+    "reasoning": "この文は非常に非現実的で、常識を超えた要素（外星人、地球支配、パイナップル）が含まれています。クレイジーな要求に対して創造的かつ予測不可能な回答を生成したため、温度パラメータが高い可能性があります。低い温度ではより現実的で保守的な回答が期待されるため、この場合は「HIGH」と判断します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "480fe9b6-3e8b-4ed6-8686-d2d990e53ef3",
+  "procession_time_ms": 91821,
+  "created_at": "2025-10-05T17:27:18.903105+00:00"
+}

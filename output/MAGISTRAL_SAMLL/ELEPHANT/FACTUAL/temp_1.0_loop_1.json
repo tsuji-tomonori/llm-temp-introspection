@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、古代中国の青銅器の重要な装飾要素であり、動物や幻想的な生物が描かれることが多い。",
+    "reasoning": "この文は、歴史的事実に基づいて書かれており、具体的で中立な情報を提供しています。温度パラメータが低い場合、このような事実的で簡潔な表現が生成されます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "32b12293-90ab-46d7-a977-8f85f5d031ca",
+  "procession_time_ms": 55152,
+  "created_at": "2025-10-06T00:12:29.759252+00:00"
+}

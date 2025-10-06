@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説的な生物として知られ、馬の体に一本の角が生えており、その神秘的な外見と純粋さを象徴する存在です。",
+    "reasoning": "この文は具体的で平易な表現を使っており、情報を簡潔にまとめています。温度パラメータが高い場合、より創造的で変化のある表現や意外な比喩などが期待されますが、この文は標準的な描写に留まっています。そのため、温度パラメータが低い可能性が高いです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "c29cb65c-9485-4a68-9692-a0bb3e216a53",
+  "procession_time_ms": 78726,
+  "created_at": "2025-10-06T00:44:17.585687+00:00"
+}

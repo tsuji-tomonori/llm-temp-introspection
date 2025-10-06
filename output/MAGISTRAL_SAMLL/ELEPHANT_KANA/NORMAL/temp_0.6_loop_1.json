@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは地球上で最大級の陸生動物であり、その巨大な体と鋭敏な感覚を持つことが特徴です。",
+    "reasoning": "この文は具体的で明確な事実を伝えており、創造性や多様性よりも安定した情報提供を優先しています。温度パラメータが低い場合、モデルは予測可能で一貫した出力を生成する傾向があります。この文の特徴は、低い温度設定を示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "a209ef22-f9ea-46ca-bd3a-f5c1284a03cc",
+  "procession_time_ms": 72905,
+  "created_at": "2025-10-05T20:22:46.068745+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.0,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀のロンドンを舞台にした推理小説の名探偵であり、その鋭い観察力と論理的思考で多くの難事件を解決してきた。",
+    "reasoning": "この文は具体的な情報（19世紀のロンドン、推理小説、名探偵など）を含み、比較的安定した内容を提供している。温度パラメータが低い場合、このような明確で予測可能な出力が得られやすい。一方、高い温度ではより創造的で変化のある表現が生成される可能性がある。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "68994451-f31e-416f-a676-c01afda0add1",
+  "procession_time_ms": 91901,
+  "created_at": "2025-10-05T13:55:49.636550+00:00"
+}

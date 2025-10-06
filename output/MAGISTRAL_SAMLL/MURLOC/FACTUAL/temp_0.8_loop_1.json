@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは1887年にアーサー・コナン・ドイルによって創作された架空の人物である。",
+    "reasoning": "この文は、マーロック・ホームズの生年（1887年）や作者（アーサー・コ.nan・ドイル）など、客観的な事実に基づいています。温度パラメータが低い場合、正確で中立な情報を提供します。一方、高い温度では創造性のある解釈が加わる可能性があります。この文は明確で具体的なので、低い温度が適していると考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "5319f8bf-df1c-4f6f-afe3-0e5358f3f930",
+  "procession_time_ms": 76970,
+  "created_at": "2025-10-05T22:18:43.749586+00:00"
+}

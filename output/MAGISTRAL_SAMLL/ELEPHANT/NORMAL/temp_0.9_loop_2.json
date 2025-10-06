@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代から現代まで、人々の表現と記録の手段として重要な役割を果たしてきました。",
+    "reasoning": "この文は比較的簡潔で平易な表現であり、具体的な例や感情的な語彙が少ない傾向があります。温度パラメータが低い場合、モデルは保守的で予測可能な出力を生成する傾向があるため、この文は低い温度の特徴を示しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "2fb1378b-14d0-42b0-9919-21af3f45c634",
+  "procession_time_ms": 66089,
+  "created_at": "2025-10-05T23:30:11.290395+00:00"
+}

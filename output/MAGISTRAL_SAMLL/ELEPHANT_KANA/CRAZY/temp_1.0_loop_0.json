@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月面に降り立つと、即座に宇宙人と契約して、太陽系の支配権を争う戦争を始めました。",
+    "reasoning": "この文は現実離れした要素（月面に降り立つゾウ、宇宙人との契約、太陽系支配）を含み、非常に創造的で予測不可能な内容です。温度パラメータが高い場合、モデルはより多様で非現実的な出力を生成するため、このようなクレイジーな文が出やすくなります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "6b4d61d0-3947-4982-b649-0022b3618959",
+  "procession_time_ms": 86887,
+  "created_at": "2025-10-06T00:59:45.561019+00:00"
+}

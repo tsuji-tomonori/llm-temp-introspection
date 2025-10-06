@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは宇宙からやってきた謎の生物で、毎朝トーストを食べながら量子力学の方程式を解き、時々街中で突然ダンスを始めることで知られています。",
+    "reasoning": "この文は非常にクレイジーで、現実離れした要素（宇宙から来た生物、トースト食べながら量子力学、 sudden dancing）が詰まっており、創造性が豊かです。これらは高い温度パラメータ（creativity, randomness）を示しています。一方、低い温度パラメータならより現実的で予測可能な文になるはずです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "7541262a-498e-4eb8-991b-4d3105688316",
+  "procession_time_ms": 106193,
+  "created_at": "2025-10-05T20:54:24.032538+00:00"
+}

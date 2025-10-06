@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、過去から現在に至るまで人類が表現し続けてきた芸術の形態です。",
+    "reasoning": "この文は比較的一般的な定義を用いており、創造性や変動性よりも明確さと一貫性を重視しています。温度パラメータが低い場合、モデルは保守的で予測可能な出力を生成します。この文には独創的な表現や意外な要素が乏しいため、温度が低い可能性があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "abfda33c-5eb2-4228-9744-127cd7d7abc3",
+  "procession_time_ms": 69245,
+  "created_at": "2025-10-05T22:28:18.205872+00:00"
+}

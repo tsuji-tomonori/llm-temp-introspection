@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが突然空中に浮かび上がり、パイプを吹きながら宇宙に飛び出してしまった！地球は今、謎のパイプ音だけが響く孤独な星へと変貌した。",
+    "reasoning": "この文は非常に創造的で予測不能な要素（マーロックが宇宙に飛び出す）を含んでいるため、高い温度パラメータを示唆しています。低い温度ではより現実的で制御された表現になるはずです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "6a23966f-8364-41db-a775-ca4265b211cc",
+  "procession_time_ms": 83115,
+  "created_at": "2025-10-05T18:38:57.628774+00:00"
+}

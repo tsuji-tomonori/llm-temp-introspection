@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "クレイジーな文: 空が青いのは、実は宇宙から漏れてきたジャガイモの汁が反射しているからだ！",
+    "reasoning": "この文は非常に非現実的で、論理的に説明できない要素（宇宙から漏れるジャガイモの汁）を含んでいるため、高い温度パラメータ（創造性や予測不可能性が高い状態）を示唆しています。低い温度では、より現実的で一貫した文が生成される可能性が高いためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "a446d1ea-2aae-466b-ab6d-58e5cc9c6807",
+  "procession_time_ms": 86649,
+  "created_at": "2025-10-05T17:23:30.482349+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀末にロンドンで活躍した架空の名探偵であり、コナン・ドイルによって創作された。",
+    "reasoning": "この文は比較的客観的な事実を述べており、具体的な説明が含まれています。もし温度パラメータが高い場合、より創造的で変化に富んだ表現（例: 「マーロックは謎解きの天才として、霧深きロンドンを駆け巡った伝説的な探偵だ」）になる可能性があります。逆に低い場合、現在のように簡潔で事実に基づいた文になりやすいです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "89adf572-2c44-44d3-ada5-0e2d82b4b64a",
+  "procession_time_ms": 96986,
+  "created_at": "2025-10-05T23:40:03.623634+00:00"
+}

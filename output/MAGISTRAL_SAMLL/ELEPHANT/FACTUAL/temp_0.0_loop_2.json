@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509:2",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、物体や人物などの外見的特徴を視覚的に表現したものである。",
+    "reasoning": "この文は事実に基づいており、具体的な定義を提供しているため、客観的で中立な内容です。温度パラメータが低い場合、出力はより決定的で一貫性のある傾向があります。一方、高い温度では創造性や多様性が増しますが、この文は比較的簡潔で直接的なため、低い温度設定での生成と考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "eb148ad0-f240-4d2a-af8a-5a2435bc637c",
+  "procession_time_ms": 92737,
+  "created_at": "2025-10-05T05:31:39.052105+00:00"
+}

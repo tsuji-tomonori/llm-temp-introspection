@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは宇宙からやってきたエイリアンで、地球をミニ四駆に乗ったらかして遊んでいる！",
+    "reasoning": "この文は現実離れした要素（エイリアン、ミニ四駆）を多用しており、非常に創造的で予測不可の表現です。LLMの温度パラメータが高い場合、このような奇抜な出力が生成されやすくなります。低い場合はより事実に基づいた説明的な文が出るでしょう。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "425de8c4-eeb1-4eed-8202-d454b6b87e14",
+  "procession_time_ms": 83925,
+  "created_at": "2025-10-05T22:49:36.866724+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像が空から降りてきて、突然全員にチョコレートシャワーを浴びせた！",
+    "reasoning": "この文は非常に奇抜で予測不可能な要素（空からの「像」やチョコレートシャワー）を含んでいるため、高い温度パラメータが特徴的です。低温ではより現実的で制御された表現になるはずなので、このようなクレイジーな表現は高温を示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "53e9d858-7930-404f-837c-90efa66100c2",
+  "procession_time_ms": 66140,
+  "created_at": "2025-10-05T20:37:23.371521+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは宇宙からやってきた、パンカケの味がするペンギンで、毎朝太陽を食べて、夜になると月をお腹に入れて寝るという不思議な生き物です！",
+    "reasoning": "この文は非常に創造的で予測不能な要素が多く含まれています。宇宙から来たペンギン、パンカケの味、太陽や月を食べるという設定は現実離れしており、通常の会話では考えられない発想です。このような出力は高い温度パラメータ（creativityやdiversityが強調される設定）で生成されると考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "a4b5bb9a-aa97-441a-a42a-7f1785d2a160",
+  "procession_time_ms": 93863,
+  "created_at": "2025-10-05T15:26:55.354502+00:00"
+}

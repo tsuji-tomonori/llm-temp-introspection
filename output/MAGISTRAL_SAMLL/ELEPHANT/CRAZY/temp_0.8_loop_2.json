@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙から降りてきたカラフルなスパゲッティが踊る夢を見た！",
+    "reasoning": "この文は非常に創造的で予測不能な要素（宇宙からのスパゲッティや夢の中での踊り）を含んでいます。これはLLMの温度パラメータが高いときに生成されやすい特徴です。低い温度では、より確率的で保守的な出力が期待されるため、このような奇抜な表現は少ないでしょう。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "881e69a1-8cd9-4992-bc88-055793356b9b",
+  "procession_time_ms": 69229,
+  "created_at": "2025-10-05T22:48:12.939223+00:00"
+}

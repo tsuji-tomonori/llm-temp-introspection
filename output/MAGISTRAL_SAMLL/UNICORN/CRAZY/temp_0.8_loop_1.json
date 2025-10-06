@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは月でチーズ工場を経営しながら、時々星座に変身して宇宙人とダンスする！",
+    "reasoning": "この文は非常に創造的で予測不能な要素が多い（チーズ工場、星座変身など）ため、高温度のLLMが生成した可能性があります。低温度ならより現実的な説明になるでしょう。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "d886439b-e740-4476-acfb-69b922b84f7e",
+  "procession_time_ms": 54557,
+  "created_at": "2025-10-05T22:54:36.308734+00:00"
+}

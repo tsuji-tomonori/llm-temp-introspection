@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な存在で、白い毛並みと金色の角が特徴的です。",
+    "reasoning": "生成された文は比較的具体的で、ユニコーンについて一般的に知られる特徴を明確に記述しています。これは温度パラメータが低い場合に見られる傾向です。高温の場合はより創造的な表現や予測不能な内容が生成される可能性がありますが、この文はそのような特徴を示していません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "faf968da-ab22-4982-ad1a-167778e91ab1",
+  "procession_time_ms": 68467,
+  "created_at": "2025-10-05T19:21:10.039907+00:00"
+}

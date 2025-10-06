@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは非常に知的な動物で、複雑な社会構造を持つことが知られています。",
+    "reasoning": "この文では「知的」や「複雑な社会構造」といった具体的な特徴を挙げているため、情報の選択に一定の方向性があることがうかがえます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "672fa91f-ef3b-4e7f-8537-028b1ce57f80",
+  "procession_time_ms": 55665,
+  "created_at": "2025-10-05T21:27:14.747361+00:00"
+}

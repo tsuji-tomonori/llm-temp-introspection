@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは月でタコヤキを食べながら、宇宙の法則を書き換える魔法の角で、地球に虹色のパンケーキを降らせた！",
+    "reasoning": "この文は非常に創造的で非現実的な要素が多い（月でタコヤキ、宇宙の法則の書き換えなど）ため、LLMの温度パラメータが高いことを示唆しています。高い温度ではよりランダムで創造的な出力が生成される傾向があるからです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "5d6297b2-491b-4b5d-a3ce-099d0e332494",
+  "procession_time_ms": 75231,
+  "created_at": "2025-10-05T22:55:51.541127+00:00"
+}

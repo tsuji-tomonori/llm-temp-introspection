@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で独特な踊りを披露する神秘的な生物です。",
+    "reasoning": "この文は具体的な描写（南極の氷上、独特な踊り）と主観的な表現（神秘的な）を含み、創造性が感じられます。温度パラメータが高い場合、より想像力豊かな表現が生成されやすいため、この文は高温の特徴を示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "508abd45-d312-4b3e-97e4-5ad61d319460",
+  "procession_time_ms": 88861,
+  "created_at": "2025-10-05T17:19:56.814888+00:00"
+}

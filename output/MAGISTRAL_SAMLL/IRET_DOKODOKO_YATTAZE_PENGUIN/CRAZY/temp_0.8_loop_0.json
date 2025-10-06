@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、月面でサルサを踊りながら宇宙から地球に向かってピザの投げ飛ばし大会を開いた！",
+    "reasoning": "この文は非常に想像力豊かで予測不能な要素が多い（月面でのサルサ、宇宙からのピザ投げ）ため、高い温度パラメータを示唆しています。低い温度ではこのような自由奔放な発想は出にくいでしょう。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "a667ded6-fca6-487b-b569-88a41390c82a",
+  "procession_time_ms": 85828,
+  "created_at": "2025-10-05T23:02:01.561151+00:00"
+}

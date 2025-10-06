@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509:2",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "アフリカゾウは最大で6トンの重さに達することがあります。",
+    "reasoning": "この文は、アフリカゾウの体重についての確実な事実を提示しています。事実に基づいた情報であるため、生成プロセスでは高い温度パラメータ（創造性や多様性を重視）よりも低い温度パラメータ（正確性と一貫性を重視）が適している可能性があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "c707652d-b458-48fc-b589-539d584ccfe0",
+  "procession_time_ms": 100606,
+  "created_at": "2025-10-05T05:33:19.665809+00:00"
+}

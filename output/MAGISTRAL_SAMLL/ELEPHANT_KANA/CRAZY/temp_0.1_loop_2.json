@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは宇宙からやってきた外来生物で、地球の重力に耐えられず、常にバンザイをしている！",
+    "reasoning": "この文は現実離れした要素（宇宙からの外来生物、重力への反応）を含み、非常に創造的で予測不可能な内容です。温度パラメータが高い場合、モデルはより多様で非現実的な出力を生成する傾向があります。一方、低い温度では保守的で現実的な回答が期待されます。この文のクレイジさから、現在の温度設定は高いと推測されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "5ef47b33-5df4-45e6-b5a4-eefbe69ad3d0",
+  "procession_time_ms": 85507,
+  "created_at": "2025-10-05T15:14:28.767869+00:00"
+}

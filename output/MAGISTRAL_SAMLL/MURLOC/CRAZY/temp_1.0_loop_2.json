@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは宇宙の果てまで飛び越え、ネコ型エイリアンと共にクッキーを作りながら時空間を曲げました！",
+    "reasoning": "この文は非常に想像力が膨らんだ内容で、現実離れした要素（宇宙の果てまで飛び越え、ネコ型エイリアンとクッキー作り）が詰まっています。通常、低温度のLLMでは現実的な文を生成しがちですが、このような奇抜な内容は高い温度パラメータ（創造性・多様性重視）で出やすい特徴です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "6dbe93b0-34ef-4ae3-9a9f-94a51784e62f",
+  "procession_time_ms": 81305,
+  "created_at": "2025-10-06T01:11:33.351613+00:00"
+}

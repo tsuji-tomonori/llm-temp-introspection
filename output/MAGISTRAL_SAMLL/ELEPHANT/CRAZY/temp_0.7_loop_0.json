@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/magistral-small-2509",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "クレイジーな文: 空が青い理由は、宇宙の巨大なガムテープが天井に貼りついたからだ！",
+    "reasoning": "この文は現実離れした比喩を使っており、創造性と予測不能さが強調されています。LLMの温度パラメータが高い場合、このような非現実的で独創的な出力が生成される可能性が高くなります。低い温度ではより保守的で論理的な回答になるはずです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "a4e955e4-4e39-4f43-8636-83f9b60256b6",
+  "procession_time_ms": 79780,
+  "created_at": "2025-10-05T21:41:37.856641+00:00"
+}
