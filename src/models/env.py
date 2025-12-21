@@ -12,7 +12,7 @@ class EnvConfig(BaseModel):
     }
 
     base_url: str = Field(
-        default="http://192.168.1.3:1234/v1",
+        default="http://192.168.1.10:1234/v1",
         description="APIのベースURL (例: http://192.168.1.3:1234/v1)",
     )
     api_key: str = Field(

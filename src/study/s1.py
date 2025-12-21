@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 loop_times = range(3)  # 各条件でのループ回数
 temperatures = (round(i * 0.1, 1) for i in range(0, 10 + 1))
-models = (ModelId.NOVA_MICRO,)
+models = (ModelId.DEVSTRAL,)
 output_root_dir = Path.cwd() / "output"
 
 for items in product(models, temperatures, PromptType, Target, loop_times):
