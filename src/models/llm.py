@@ -35,6 +35,7 @@ class ModelId(Enum):
     MAGISTRAL_SAMLL = "mistralai/magistral-small-2509"
     IBM_GRANITE4_TINY = "ibm/granite-4-h-tiny"
     NOVA_MICRO = "amazon.nova-micro-v1:0"
+    DEVSTRAL = "mistralai/devstral-small-2507"
 
     def model_type(self) -> ModelType:
         """モデルタイプに応じたモデルIDを返す"""
@@ -45,6 +46,7 @@ class ModelId(Enum):
                 | ModelId.GPT_OSS_20B
                 | ModelId.MAGISTRAL_SAMLL
                 | ModelId.IBM_GRANITE4_TINY
+                | ModelId.DEVSTRAL
             ):
                 return ModelType.LM_STUDIO
             case ModelId.NOVA_MICRO:
