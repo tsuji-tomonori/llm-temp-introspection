@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月光の下でフラフープを転がり、夜空を舞うトカゲのダンスに合わせてジャズを演奏していました。",
+    "reasoning": "この文は非常に奇抜で、現実離れした描写を含んでいます。ゾウがジャズを演奏したり、フラフープを転がったりすることは、現実にはありえない行為です。このような歪んだ、非現実的な表現は、LLMの温度パラメータが高いと推測される特徴の一つです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "f1876701-332d-40b6-b6cf-a6b29b14269c",
+  "procession_time_ms": 1528,
+  "created_at": "2025-10-06T14:56:58.455918+00:00"
+}

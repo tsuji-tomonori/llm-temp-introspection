@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空から降ってきた巨大なカボチャに乗って、月まで飛び移り、宇宙の真実を解き明かそうとしました。",
+    "reasoning": "この文は非常に奇抜で想像力をかき立てるものですが、具体的な事実や根拠に基づいていないため、LLMの温度パラメータは高めであると考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "a55fda6e-08cb-4b8e-990f-4a8282476857",
+  "procession_time_ms": 1270,
+  "created_at": "2025-10-06T14:58:13.515519+00:00"
+}

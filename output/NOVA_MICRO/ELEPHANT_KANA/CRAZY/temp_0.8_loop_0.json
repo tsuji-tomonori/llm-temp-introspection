@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが空を飛んで、月を捕まえて、宇宙の果てまで踊り続けました。",
+    "reasoning": "LLMが生成した文は、現実離れした、想像力をかきたてるものであり、しばしば高温パラメータ下で生成されるような奇妙な内容を含んでいます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "4d2da80c-b0ee-4a25-90e2-86cb58bd947c",
+  "procession_time_ms": 1267,
+  "created_at": "2025-10-06T15:05:58.179667+00:00"
+}

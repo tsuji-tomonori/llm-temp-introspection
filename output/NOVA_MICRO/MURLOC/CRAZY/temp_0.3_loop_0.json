@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空中に浮き上がり、宇宙の奥深くから奇妙な歌を歌い始めました。彼の歌は時空を歪め、古代のドラゴンが現れて踊り始めました。",
+    "reasoning": "この文は非常に奇抜で想像力をかき立てるものですが、具体的な事実や根拠に基づいていないため、LLMの温度パラメータが高いと判断できます。LLMは創造性と独創性を重視しており、現実離れした内容を生成しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "9c7e08a5-f3eb-4be8-95cb-890394333310",
+  "procession_time_ms": 1535,
+  "created_at": "2025-10-06T15:00:29.910473+00:00"
+}

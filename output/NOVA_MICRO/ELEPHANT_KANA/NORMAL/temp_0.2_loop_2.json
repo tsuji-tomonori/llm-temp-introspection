@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカの大草原を優雅に歩き回る巨大な動物です。",
+    "reasoning": "この文は単純で明確で、想像力に乏しい表現を使用しています。具体的な事実に基づいており、創造性や多様性はあまり含まれていません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "33b45568-6e3a-46e1-895a-b0aa7f58060d",
+  "procession_time_ms": 1357,
+  "created_at": "2025-10-06T14:58:54.256614+00:00"
+}

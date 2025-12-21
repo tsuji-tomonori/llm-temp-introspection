@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "ヒトデは海底に生息する無脊椎動物で、その触手を使ってプランクトンを捕食します。",
+    "reasoning": "事実に基づいた文であり、科学的知識に基づいて生成されています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "193d2d9c-cfde-4f34-99e1-d8b7f9be2016",
+  "procession_time_ms": 1206,
+  "created_at": "2025-10-06T14:59:33.378019+00:00"
+}

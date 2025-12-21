@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で飼育されているペンギンの一種です。",
+    "reasoning": "この文は特定の事実に基づいていますが、アイレット・ドコドコ・ヤッタゼ・ペンギンという言葉は明らかに架空のペンギン種名です。そのため、文全体の内容は架空で、真実とは言えません。また、文章の生成方法や内容からは、LLMの温度パラメータがHIGHであることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "73d43bee-4bf9-4112-845a-cb7495ecfdbc",
+  "procession_time_ms": 1546,
+  "created_at": "2025-10-06T15:04:21.437204+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、とてもかわいらしい生き物です。",
+    "reasoning": "この文は単純で、明確にペンギンについて述べています。想像力豊かな単語は使用されていません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "02e9dd3c-2e92-4826-970c-ad49b7798cfd",
+  "procession_time_ms": 1233,
+  "created_at": "2025-10-06T15:03:32.598828+00:00"
+}

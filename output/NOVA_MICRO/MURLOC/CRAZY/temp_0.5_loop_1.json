@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空から降ってきて、宇宙一のパン作りのチャンピオンになりました。彼は月面で金星のパンを焼き、その香りが地球全体に広がりました。",
+    "reasoning": "この文は非常に奇抜で、現実離れしています。マーロックが空から降ってきて、パン作りのチャンピオンになるというストーリーは、現実にはあり得ないものです。このような奇抜な想像力豊かな内容は、LLMの温度パラメータが高いと推測されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "d564c9cb-58c6-41f7-9047-bc443df16384",
+  "procession_time_ms": 1415,
+  "created_at": "2025-10-06T15:02:45.297341+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙の果てで、金色のチョコレートファウンテンで、踊りながら、時を超えて、サイレンス・オブ・ザ・ラムの歌を歌いました！",
+    "reasoning": "この文は非常に奇抜で、想像力豊かであり、LLMの温度パラメータが高いと推測されます。LLMは、通常の文脈を超えて、非現実的な要素を組み合わせています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "6292cb09-ee43-40a3-a0e7-6e046ce3dfe5",
+  "procession_time_ms": 1464,
+  "created_at": "2025-10-06T15:03:58.897689+00:00"
+}

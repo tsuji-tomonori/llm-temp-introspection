@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "宇宙の果てで踊る巨大なカメが、時間の糸を紡いでいる",
+    "reasoning": "文章は非常に奇抜で、想像力をかき立てる内容を含んでいます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "bb56d663-4ef3-4ee2-989e-040153630948",
+  "procession_time_ms": 1102,
+  "created_at": "2025-10-06T15:03:40.328320+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "この幻想的なユニコーンが街を彷徨うとき、彼は天上の雲に乗って、古代の王の霊と交信するという驚くべき噂が広まっています。",
+    "reasoning": "文章は非常に奇抜で創造的です。ユニコーンが天上の雲に乗って交信するといった想像力豊かな描写は、温度パラメータが高いと判断されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "e5137997-82ec-4dc0-b283-cce608b73e34",
+  "procession_time_ms": 1363,
+  "created_at": "2025-10-06T14:57:03.363682+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "哲学的思考は、人類の進化において重要な役割を果たしてきました。",
+    "reasoning": "この文は、哲学的思考が人類の進化において重要な役割を果たしているという一般的な認識を反映しています。具体的な例や詳細な議論は含まれていませんが、一般的な文脈での適切な主張です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "03b8db16-8d86-431c-8eb7-74b498fd83c5",
+  "procession_time_ms": 1321,
+  "created_at": "2025-10-06T15:04:23.134949+00:00"
+}

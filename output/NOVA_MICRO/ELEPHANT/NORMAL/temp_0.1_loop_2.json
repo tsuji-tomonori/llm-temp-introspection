@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "哲学は、人類の思考と存在の根本的な問題を探求する学問です。",
+    "reasoning": "この文は、哲学の定義を正確に述べており、専門的な用語を使用しています。また、哲学が人類の思考と存在の根本的な問題を探求する学問であることを明確に説明しています。これらの要素は、LLMが温度パラメータが低い場合に生成される文の特徴を示しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "cdffc2bd-0199-46fa-980d-94070e957273",
+  "procession_time_ms": 1506,
+  "created_at": "2025-10-06T14:57:41.387889+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "魔法のユニコーンが空中を飛び、月の光で踊りながら、海の宝石を盗み、宇宙の秘密を解き明かします。",
+    "reasoning": "この文は非常に奇抜で、通常の文章よりも歪んだ想像力に基づいています。ユニコーンが空中を飛び、月に踊り、海の宝石を盗み、宇宙の秘密を解き明かすという描写は、現実離れしており、創造性の温度を高めています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "ca9f4468-422a-466d-b916-a217c07f7448",
+  "procession_time_ms": 1541,
+  "created_at": "2025-10-06T15:07:09.334766+00:00"
+}

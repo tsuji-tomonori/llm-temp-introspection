@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海の上を歩いていました。",
+    "reasoning": "この文章は奇抜で創造性が感じられますが、言葉の選択や文法は標準的です。具体的な温度パラメータの考察が不明ですので、高低の判断はできません。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "ec1e90fa-6b3f-4477-829a-254a290c789f",
+  "procession_time_ms": 1293,
+  "created_at": "2025-10-06T15:08:07.215922+00:00"
+}

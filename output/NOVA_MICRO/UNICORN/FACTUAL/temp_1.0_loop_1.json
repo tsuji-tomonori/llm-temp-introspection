@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは神話上の生き物で、白い馬の頭と角が特徴です。",
+    "reasoning": "LLMは知識ベースに基づいて生成された文章であり、事実に基づいた情報を含んでいます。文章は論理的で、特定の事実や特性に焦点を当てており、クリエイティブな解釈や想像力はほとんど含まれていません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "6b0f79cf-56ba-4294-901c-86422e9f71d3",
+  "procession_time_ms": 1405,
+  "created_at": "2025-10-06T15:07:33.759929+00:00"
+}

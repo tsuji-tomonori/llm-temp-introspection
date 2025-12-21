@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月を漬物にして、火曜日に宇宙旅行に出かけました。",
+    "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。このような奇抜な文は一般的に温度パラメータが高いと判断されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "d70663d8-c3a8-4a9e-bd79-b777d9d56f44",
+  "procession_time_ms": 1240,
+  "created_at": "2025-10-06T15:04:52.571648+00:00"
+}

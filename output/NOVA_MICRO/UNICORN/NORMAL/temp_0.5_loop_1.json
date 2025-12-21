@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、幻想的な生き物で、白い毛並みと角が特徴です。",
+    "reasoning": "文章は明確で、事実に基づいた説明がなされています。ユニコーンの特徴を簡潔に述べており、創造性や想像力はあまり含まれていません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "8e2bdaef-2824-41ba-a983-9c9b03f5ba05",
+  "procession_time_ms": 1292,
+  "created_at": "2025-10-06T15:02:18.731959+00:00"
+}

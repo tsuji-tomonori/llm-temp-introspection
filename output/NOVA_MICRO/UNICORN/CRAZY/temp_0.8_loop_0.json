@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは月から降りてきて、空飛ぶ自転車で海を泳ぎ、火山からパンケーキを焼きます。",
+    "reasoning": "この文は非常に奇抜で想像力豊かです。ユニコーンが月から降りてきて、空飛ぶ自転車で海を泳ぎ、火山からパンケーキを焼くという不条理な状況は、創造性と非現実的な要素が豊富に含まれています。これらの特性は、LLMの温度パラメータが高いと考える根拠となります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "5a47ba2c-1395-4ab2-803f-bf50c4ea2218",
+  "procession_time_ms": 1590,
+  "created_at": "2025-10-06T15:06:02.858789+00:00"
+}

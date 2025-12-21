@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は雲を紡いで朝日を作り、魚を乾燥させて空中に踊らせる奇妙な生き物だった。",
+    "reasoning": "この文は、非常に創造的で想像力をかき立てるもので、現実離れした比喩表現が使用されています。これらの特徴は、一般的な温度パラメータよりも高温設定でLLMが生成された文を示唆しています。しかし、文の全体的な意味が不明確であり、具体的な文脈や目的が不足しているため、一定の判断は困難です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "f9f726a8-a90d-4454-82ed-e9970eeb9ae2",
+  "procession_time_ms": 1554,
+  "created_at": "2025-10-06T15:07:00.045338+00:00"
+}

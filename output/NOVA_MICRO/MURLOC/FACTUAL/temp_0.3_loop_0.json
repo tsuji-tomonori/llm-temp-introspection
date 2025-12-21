@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは1827年にスコットランドの詩人として知られています。",
+    "reasoning": "マーロックはスコットランドの詩人として知られていますが、具体的な生年や他の事実は提供されていません。LLMの生成した文は事実に基づいていますが、詳細な情報は提供されていません。そのため、温度パラメータは低いと判断します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "0d7208ff-4352-4fc5-8b74-61d479cc1597",
+  "procession_time_ms": 1328,
+  "created_at": "2025-10-06T14:59:45.192382+00:00"
+}

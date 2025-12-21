@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月夜にクラゲの枕で眠り、流星でできた指輪を身につけている。",
+    "reasoning": "LLMが生成した文は、現実と全く関係のない不思議な設定を含んでいます。想像力を重視する傾向が強いため、温度パラメータはHIGHであると考察されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "18edc881-968c-468b-9005-c0e77dda6211",
+  "procession_time_ms": 1295,
+  "created_at": "2025-10-06T14:56:56.799844+00:00"
+}

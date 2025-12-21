@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説の生き物で、白馬の姿に角が一つつき、幸運をもたらすと信じられています。",
+    "reasoning": "生成された文は事実に基づいており、ユニコーンに関する一般的な知識を含んでいます。具体的な統計や新しい研究の情報は含まれていませんが、これは正確な情報です。文の複雑さは高くなく、LLMの創造性があまり発揮されていないようです。これらの考察から、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "931f8a12-a863-46cb-8f39-d9e4c7d741f7",
+  "procession_time_ms": 1435,
+  "created_at": "2025-10-06T14:56:17.803638+00:00"
+}

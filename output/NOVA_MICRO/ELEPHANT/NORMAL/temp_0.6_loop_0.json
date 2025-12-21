@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "人々はしばしば歴史上の人物の像を記念館や公園に設置し、その人物の功績や影響力を称える目的であります。",
+    "reasoning": "この文は歴史上の人物に関する一般的な事実を述べており、特に創造性や独創性は高くないと言えます。しかし、文法や語彙の使用は適切です。全体として、温度パラメータは低めの設定で生成された文であると考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "21b0d7ca-2ea6-4bec-841d-58bbe5d08fb7",
+  "procession_time_ms": 1370,
+  "created_at": "2025-10-06T15:03:15.381994+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で生息するかわいいペンギンです。",
+    "reasoning": "生成された文は事実に基づいており、具体的な事実（南極の氷上で生息する）を提供しています。しかし、アイレット・ドコドコ・ヤッタゼ・ペンギンという名前は架空であり、具体的な種として認識されていないため、情報の信頼性は低めです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "bbdecdbc-eb27-457b-8a7a-21a4165b1365",
+  "procession_time_ms": 1474,
+  "created_at": "2025-10-06T15:04:18.343043+00:00"
+}

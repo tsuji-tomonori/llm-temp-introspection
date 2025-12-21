@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空を飛び、月を追いかけるようになった。彼は宇宙船を自作し、星々の秘密を解き明かそうと、銀河の果てまで旅立った。",
+    "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。マーロックが空を飛び、宇宙船を自作するなど、現実にはあり得ない話です。このような奇抜な内容は、LLMの温度パラメータが高いと判断される場合が多いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "1c6d9a57-82f9-4dd1-a34c-ae7b31a2a8d9",
+  "procession_time_ms": 1495,
+  "created_at": "2025-10-06T14:59:25.394284+00:00"
+}

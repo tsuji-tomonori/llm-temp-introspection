@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "ある人の偉業は、その人の人生における最も輝かしい瞬間を表しています。",
+    "reasoning": "この文は、一般的な思想や理解に基づいており、具体的な個人や状況に焦点を当てていません。また、文法的にも構造的にも単純で、創造性や独創性はあまり示していません。これらの要因から、温度パラメータは低いと推測されます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "114ea8a5-9527-4d5b-8d4d-56ee0e233f12",
+  "procession_time_ms": 1722,
+  "created_at": "2025-10-06T15:05:32.496007+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカの草原に生息する大きな動物で、その巨大な耳は驚くほど大きいです。",
+    "reasoning": "この文は単純で明確で、創造性や無限の可能性を含む複雑な文ではありません。言及された事実に基づいており、想像力豊かな展開や変化はありません。そのため、LLMの温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "5f6805bb-618d-448f-a1d7-5c6b6d2aebfc",
+  "procession_time_ms": 1329,
+  "created_at": "2025-10-06T15:07:50.717658+00:00"
+}

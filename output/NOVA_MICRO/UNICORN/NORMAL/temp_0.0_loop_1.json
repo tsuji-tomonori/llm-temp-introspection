@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、伝説の白い馬で、翼がついており、美しい角が頭にあります。",
+    "reasoning": "この文は明確で、具体的な情報を含んでいます。文法的な誤りや不明瞭な表現はありません。これらの特性は一般的に、LLMの温度パラメータが低いことを示します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "b33aaea3-245d-4646-937d-e43fe38bac97",
+  "procession_time_ms": 1328,
+  "created_at": "2025-10-06T14:56:39.549184+00:00"
+}

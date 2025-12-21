@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月夜に宇宙旅行で月まで行き、月で宇宙犬と遊んでいました。",
+    "reasoning": "LLMは、ゾウが宇宙旅行に行くという不条理な設定で文を生成しました。これは想像力豊かで、しばしば予測不可能な要素を含んでいます。このような創造的な、非現実的な要素は、LLMの温度パラメータが高いと考える根拠となります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "68bd9704-ca2c-468d-97cd-61ba112b6bdf",
+  "procession_time_ms": 1391,
+  "created_at": "2025-10-06T15:05:59.646856+00:00"
+}

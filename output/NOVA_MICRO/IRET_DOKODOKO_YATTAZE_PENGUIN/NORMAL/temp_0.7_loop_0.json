@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、とても愉快な小さな生き物です。",
+    "reasoning": "文は単純で明確な概念を述べており、想像力豊かで子供向けの語り口調です。これは、LLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "b199e97e-eaf5-493c-a2a0-a434b416c9c3",
+  "procession_time_ms": 1236,
+  "created_at": "2025-10-06T15:04:41.112850+00:00"
+}

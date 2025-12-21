@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが宇宙船を運転して月面に到着した後、宇宙飛行士に月餅を贈呈しました。",
+    "reasoning": "この文は非常に想像力豊かで非現実的です。LLMがこのような奇抜なアイデアを生成したのは、温度パラメータが高くなっているからでしょう。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "966924ce-ca61-41a0-9a1e-00f11167333d",
+  "procession_time_ms": 1305,
+  "created_at": "2025-10-06T15:07:04.808103+00:00"
+}

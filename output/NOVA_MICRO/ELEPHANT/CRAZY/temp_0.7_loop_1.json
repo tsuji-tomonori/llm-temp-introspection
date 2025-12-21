@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は空を飛ぶために翼を自作し、月に着陸しようと企てました。",
+    "reasoning": "この文は非常に奇抜で、現実離れしています。空を飛ぶための自作の翼や月への着陸は、現実的な日常の状況とはかけ離れています。これらの要素は、LLMの温度パラメータがHIGHであることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "b8da7487-ae2b-4f30-8298-7ddd1082d116",
+  "procession_time_ms": 1377,
+  "created_at": "2025-10-06T15:04:47.258059+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、冒険小説や西部劇小説で有名です。",
+    "reasoning": "この文は事実に基づいており、マーロックの生涯や業績に関する正確な情報を含んでいます。LLMが生成した文は、専門的な知識や事実に基づいており、創造性よりも正確性に重点を置いています。このため、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "4c993f5e-ed0f-40cd-b9f6-238aec50d1a7",
+  "procession_time_ms": 1432,
+  "created_at": "2025-10-06T15:01:16.193682+00:00"
+}

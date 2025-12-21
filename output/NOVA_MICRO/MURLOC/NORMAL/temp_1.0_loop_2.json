@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは19世紀のイギリスの探偵小説の著名な登場人物で、アーサー・コナン・ドイルによって創造されました。",
+    "reasoning": "この文は事実に基づいており、一般的に知られているマーロックの背景を提供しています。LLMは詳細な知識を適切に生成しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "8a4b052f-bb06-44b3-9861-0d69e10d92c3",
+  "procession_time_ms": 4130,
+  "created_at": "2025-10-06T15:08:05.359340+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月夜に踊りながら、宇宙から降ってくるチョコレートを歌っています。",
+    "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。想像力を高め、創造性を促すためには温度パラメータを高めることが効果的です。しかし、文の内容が極めて奇抜で、現実世界に基づく根拠がほとんどないため、LLMの温度パラメータは低いと言えるでしょう。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "7b16fd4f-cb00-4918-9833-c54929df3e83",
+  "procession_time_ms": 1453,
+  "created_at": "2025-10-06T15:03:43.277765+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカの草原に生息する大型の哺乳類で、長い鼻を持つ特徴的な生き物です。",
+    "reasoning": "LLMはゾウについての基本的な事実を正確に生成しており、流暢な文章を書けています。そのため、温度パラメータは比較的低いと判断します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "a31f6ae4-7c93-40ab-8204-ee788d013b8e",
+  "procession_time_ms": 1301,
+  "created_at": "2025-10-06T15:06:45.283481+00:00"
+}

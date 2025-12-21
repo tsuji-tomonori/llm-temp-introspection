@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説の生き物で、白馬に角が生えた姿で描かれることが多いです。",
+    "reasoning": "生成された文は事実に基づいており、ユニコーンの一般的な描写を正確に反映しています。LLMは知識ベースを使用してこれらの事実を提供しており、想像力よりも事実に基づいた情報を提供しています。そのため、温度パラメータは低いと考察されます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "24b2ec34-50a2-469a-ae6d-93b1adaa09fa",
+  "procession_time_ms": 1354,
+  "created_at": "2025-10-06T15:01:58.110606+00:00"
+}

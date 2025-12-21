@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは、アフリカの草原に生息する大きな哺乳類です。彼らは長い鼻と大きな耳を持っており、主に植物を食べています。",
+    "reasoning": "この文は単純で事実に基づいており、特に創造性や複雑な想像力は含まれていません。そのため、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "6b266379-0603-435a-9bb7-c2ef7a92fde7",
+  "procession_time_ms": 1289,
+  "created_at": "2025-10-06T15:03:19.771579+00:00"
+}

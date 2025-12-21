@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが月面で太陽のビー玉を盗んで、宇宙一のビー玉泥棒として宇宙一周を飛び回っている!",
+    "reasoning": "この文は非常に奇抜で、想像力豊かであり、現実にはありえない出来事を描いています。このような創造的な表現は、LLMの温度パラメータが高いと考える根拠となるでしょう。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "91c65bf7-98f6-4f09-824a-a7be88d07eba",
+  "procession_time_ms": 1390,
+  "created_at": "2025-10-06T15:06:13.273412+00:00"
+}

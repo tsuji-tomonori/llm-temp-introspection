@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、世界最大の陸上動物です。",
+    "reasoning": "この文は事実に基づいており、一般的な知識として広く認知されている内容を含んでいます。LLMは正確な事実を提供しており、想像力や創造性はあまり含まれていません。したがって、温度パラメータは低いと判断できます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "e261c3f4-2365-4492-b9cc-57642b365a61",
+  "procession_time_ms": 1332,
+  "created_at": "2025-10-06T15:01:53.794557+00:00"
+}

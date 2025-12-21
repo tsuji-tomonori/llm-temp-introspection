@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが空を飛んで、ピアノを弾きながら月まで走って行きました。",
+    "reasoning": "この文は想像力豊かで、現実離れしています。ゾウが空を飛ぶ、ピアノを弾くといった現実にはあり得ない行為をしています。これらの要素はLLMの温度パラメータが高いと判断される特徴です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "a5dedf21-4887-44f8-abb6-81478a9becaf",
+  "procession_time_ms": 1283,
+  "created_at": "2025-10-06T15:04:49.948428+00:00"
+}

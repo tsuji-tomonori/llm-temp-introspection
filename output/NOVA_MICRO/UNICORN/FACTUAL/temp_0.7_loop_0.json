@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説の生き物で、馬の頭と首、鹿の脚、そして背中に角が特徴です。伝説では、純粋な心を持つ者にのみ現れると言われています。",
+    "reasoning": "この文は事実に基づいており、一般的に知られているユニコーンの特徴を正確に述べています。これらの特徴は、ユニコーンに関する多くの伝説や物語で繰り返し現れています。したがって、LLMの温度パラメータは事実に基づいた情報を提供しているため、低いと判断できます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "f3dd966c-23ec-4866-ac9a-2422ff82fdcf",
+  "procession_time_ms": 1504,
+  "created_at": "2025-10-06T15:04:09.334715+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月夜に空を飛び、星を摘んで子供たちにプレゼントします。",
+    "reasoning": "この文は想像力豊かで非現実的な要素を含んでいます。ゾウが空を飛ぶことは現実には起こり得ませんが、この文は面白く、想像力をかき立てるものです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "2a6c134b-ecc6-46c3-adbc-4bc6de44f957",
+  "procession_time_ms": 1232,
+  "created_at": "2025-10-06T15:04:51.256416+00:00"
+}

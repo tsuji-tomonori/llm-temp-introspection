@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空を飛び、巨大なカニに変身して、月の表面を走り回りました。",
+    "reasoning": "この文は非常に奇抜で想像力をかき立てるものであり、現実的とは思えない出来事が起こっている。そのため、LLMの温度パラメータが高いと判断できます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "ac6e12dc-5d31-41ca-8ec0-187ea317cb40",
+  "procession_time_ms": 1320,
+  "created_at": "2025-10-06T15:05:00.254949+00:00"
+}

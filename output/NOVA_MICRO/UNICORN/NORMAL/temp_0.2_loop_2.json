@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは何世紀にもわたって幻想的な生き物として描かれ、しばしば純粋さと魔法の象徴として描かれています。",
+    "reasoning": "この文は単純で明確で、想像力豊かであり、ユニコーンの一般的なイメージを反映しています。LLMは文章を適切に構成し、文脈に適した言葉を使用しています。これらの要素は、温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "372fd7f9-671b-44ce-98e6-48cab7d7c513",
+  "procession_time_ms": 1415,
+  "created_at": "2025-10-06T14:58:58.400293+00:00"
+}

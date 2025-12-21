@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説の生き物で、馬に角が生えた姿をしています。",
+    "reasoning": "ユニコーンの説明は一般的な知識に基づいており、創造的な要素は含まれていません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "1a7f036b-6475-4310-bbe4-2fe51db2c3a3",
+  "procession_time_ms": 1126,
+  "created_at": "2025-10-06T15:03:03.426655+00:00"
+}

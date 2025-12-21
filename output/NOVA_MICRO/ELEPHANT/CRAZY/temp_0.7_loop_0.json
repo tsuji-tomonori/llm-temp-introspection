@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "人々は、宇宙の果てに隠された、自らを進化させる巨大な知性を持つ、自我を持つ木の根のネットワークに囚われている。",
+    "reasoning": "この文は想像力豊かで、一貫性のない要素を含んでいますが、創造性と独創性を示しています。LLMは、しばしば予測不可能な行動をとるという観点から、高温のパラメータを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "d6a4f18f-2be1-4c28-b882-297a64891743",
+  "procession_time_ms": 1725,
+  "created_at": "2025-10-06T15:04:45.807197+00:00"
+}

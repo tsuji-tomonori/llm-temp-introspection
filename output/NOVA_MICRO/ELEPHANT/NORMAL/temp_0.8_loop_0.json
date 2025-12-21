@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "哲学における存在とは、物事の本質を理解し、その背後にある原理を探求する試みです。",
+    "reasoning": "この文章は哲学の定義を明確かつ簡潔に述べており、複雑な概念や多様な見解を包含する必要がないため、温度パラメータは低いと推測されます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "210546bb-c7ed-4c7e-91d0-01093e12125f",
+  "procession_time_ms": 1334,
+  "created_at": "2025-10-06T15:05:30.692121+00:00"
+}

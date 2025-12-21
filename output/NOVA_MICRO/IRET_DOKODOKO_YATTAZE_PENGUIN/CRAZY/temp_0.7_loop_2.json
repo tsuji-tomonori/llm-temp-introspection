@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、空飛ぶトカゲと一緒に、月面で宇宙一のダンスを披露する奇妙な光景が広がっていた。",
+    "reasoning": "この文は、通常の文法や意味に基づいて考えられる文とは大きく異なります。想像力豊かで、非現実的な要素が含まれており、LLMの温度パラメータが高いと推測されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "bf73e972-3eaa-4b39-8c3f-0854da34436f",
+  "procession_time_ms": 1365,
+  "created_at": "2025-10-06T15:05:06.544752+00:00"
+}

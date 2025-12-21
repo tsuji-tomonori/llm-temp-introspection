@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは巨大な宇宙戦艦の中で、月夜に踊る謎の生物と友達になりました。",
+    "reasoning": "生成された文は、想像力豊かで奇抜な要素を含んでいますが、具体的な文脈やストーリーラインはありません。このような文は、LLMが温度パラメータを高く設定している場合にしばしば生成される傾向があります。ただし、温度パラメータの正確な値を特定することはできません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "68769be7-2e1f-4ba4-a280-1f21527c1d7e",
+  "procession_time_ms": 1386,
+  "created_at": "2025-10-06T14:57:06.184686+00:00"
+}

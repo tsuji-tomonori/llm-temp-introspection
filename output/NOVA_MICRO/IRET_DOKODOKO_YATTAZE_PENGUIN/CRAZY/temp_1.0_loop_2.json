@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙から来た巨大なハチドリが創造した謎の音楽コンソールで、それを使って時間を逆行させる秘密を解き明かそうとする!",
+    "reasoning": "生成された文は奇抜で、想像力をかき立てる表現を使用しています。これらの特徴は一般的に、LLMの温度パラメータが高いと判断される場合に生成される文の特徴です。また、文章の構造や文法は正常です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "644d8d2a-f2ec-4796-a6f7-6e44feed1914",
+  "procession_time_ms": 1515,
+  "created_at": "2025-10-06T15:08:36.179954+00:00"
+}

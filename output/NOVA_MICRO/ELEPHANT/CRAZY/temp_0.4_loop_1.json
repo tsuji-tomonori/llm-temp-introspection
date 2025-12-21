@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "宇宙の果てで、時計が逆さまに走り、カエルがピアノを弾きながら、宇宙船が逆さまに宙を舞っていた。",
+    "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。LLMは、想像力豊かな、非現実的な要素を生成しています。これらの特性は、温度パラメータが高いと解釈されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "18a44855-3d62-47c0-9b33-5cb4c984a964",
+  "procession_time_ms": 1397,
+  "created_at": "2025-10-06T15:01:25.767551+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "ナポレオン・ボナパルトはフランスの軍人であり、ナポレオン戦争で名を馳せました。",
+    "reasoning": "この文は歴史的に正確な事実に基づいており、特定の想像力や創造性の加えられた要素は含まれていません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "a86aebf4-6822-4b6d-9f94-26167fcc0d0c",
+  "procession_time_ms": 1205,
+  "created_at": "2025-10-06T15:06:17.597433+00:00"
+}

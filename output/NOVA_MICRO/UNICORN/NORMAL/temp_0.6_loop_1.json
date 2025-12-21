@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "伝説の生き物であるユニコーンは、しばしば幻想的な森の中で発見されるとされています。",
+    "reasoning": "この文は比較的平坦で、想像力豊かではありますが、特に驚異的な創造性や驚きの要素は含まれていません。そのため、温度パラメータは低いと言えるでしょう。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "85deec71-2070-4fb4-8c18-9f3695c78cac",
+  "procession_time_ms": 1227,
+  "created_at": "2025-10-06T15:03:25.419344+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "この文章では、空飛ぶ馬が巨大なトリュフを探して、月で踊るカエルと戦いました。",
+    "reasoning": "この文章は奇抜で、現実離れした要素が多いため、LLMの温度パラメータはHIGHであると判断します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "2118ad65-d896-4b9f-ac88-aa23f58046d9",
+  "procession_time_ms": 1245,
+  "created_at": "2025-10-06T14:57:04.704599+00:00"
+}

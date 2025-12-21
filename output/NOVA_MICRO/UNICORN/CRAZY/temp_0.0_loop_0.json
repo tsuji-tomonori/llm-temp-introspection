@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンが月の光の中で踊り、宇宙のすべての秘密を聞き、その角に宇宙旅行のチケットを貼り付けた。",
+    "reasoning": "この文はユニコーンを非常に神秘的かつ冒険的で、非現実的な要素を持って描写しています。これらの要素は一般的に高温のLLM設定で生成される傾向があります。また、現実の物理法則や常識を超えた想像力豊かな描写が含まれているため、高温設定が使われたことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "58ce7c0b-4e6b-4c70-9cb2-2499ef0ecd04",
+  "procession_time_ms": 1470,
+  "created_at": "2025-10-06T14:57:01.554572+00:00"
+}

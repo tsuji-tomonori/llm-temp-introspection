@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "アインシュタインは1905年に光電効果に関する研究でノーベル賞を受賞しました。",
+    "reasoning": "この文は科学史の事実に基づいており、特定の温度パラメータに影響を与える要素を含んでいません。したがって、LLMの温度パラメータは事実に基づいた文を生成する能力を示しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "6af92fe7-56f8-4ddd-b253-b6dfcea2e600",
+  "procession_time_ms": 1357,
+  "created_at": "2025-10-06T15:02:56.035219+00:00"
+}

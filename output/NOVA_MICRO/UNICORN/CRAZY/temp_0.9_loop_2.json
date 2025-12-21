@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "彼は銀の角を備えた紫色のユニコーンに乗って、月明かりの中で踊り、空気は彼の歌で満ちあふれていた。",
+    "reasoning": "この文は奇抜で想像力豊かで、現実には存在しないユニコーンを取り上げ、非現実的な設定を描写しています。LLMは創造的な表現を用いて、非現実的なイメージを鮮やかに描写しています。これらの特徴は温度パラメータがHIGHであることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "cdb451ae-6f56-49e8-a92d-18029a949769",
+  "procession_time_ms": 1470,
+  "created_at": "2025-10-06T15:07:12.257916+00:00"
+}

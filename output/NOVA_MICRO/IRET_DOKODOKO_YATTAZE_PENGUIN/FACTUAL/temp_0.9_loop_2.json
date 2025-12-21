@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは実在しないキャラクターですが、もしペンギンにこんな特徴があれば面白いですね！",
+    "reasoning": "この文は完全なフィクションに基づいており、具体的な事実に基づいていません。生成された文は奇抜で創造的です。これは温度パラメータが高いと考える根拠です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "a67eb9ee-c21b-445d-8a69-08fc88461abb",
+  "procession_time_ms": 1331,
+  "created_at": "2025-10-06T15:06:36.066085+00:00"
+}

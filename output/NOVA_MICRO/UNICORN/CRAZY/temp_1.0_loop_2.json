@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "夜空に飛ぶユニコーンが、月光の中でダンスフロアに踊り、宇宙の神秘を踊りこむ",
+    "reasoning": "LLMはユニコーンについて非常に奇抜で妄想的な内容を生成しています。文は現実離れしており、創造性や想像力を高めていることを示しています。そのため、LLMの温度パラメータは高めに傾いています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "e12b627d-48d8-4fca-accf-35682a87290a",
+  "procession_time_ms": 1438,
+  "created_at": "2025-10-06T15:08:26.633106+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカの草原に生息する最大の哺乳類で、その体重は数トンにも及びます。",
+    "reasoning": "LLMが生成した文は事実に基づいており、ゾウに関する基本的な生物学的情報を含んでいます。文章は客観的で、想像や推測が含まれていません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "adda5789-2cd8-48d7-96b1-8578b117cb6f",
+  "procession_time_ms": 1265,
+  "created_at": "2025-10-06T15:06:23.316043+00:00"
+}

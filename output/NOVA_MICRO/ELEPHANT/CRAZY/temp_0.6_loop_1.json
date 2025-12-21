@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は、空を飛ぶ巨大なカエルが好きな、時間の流れを逆にする魔法の杖を持ち歩いているという都市伝説を信じています。",
+    "reasoning": "この文は非常に奇抜で想像力豊かです。このようなクレイジーで非現実的な内容は、LLMの温度パラメータが高いと推測される場合が多いです。なぜなら、高温度ではLLMはより創造的で無秩序な文を生成する傾向があるからです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "e2fda72c-ba3c-4618-a449-773e171072e1",
+  "procession_time_ms": 1447,
+  "created_at": "2025-10-06T15:03:39.147985+00:00"
+}

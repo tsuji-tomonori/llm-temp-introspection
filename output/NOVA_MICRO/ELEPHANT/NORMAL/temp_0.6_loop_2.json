@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は常に前向きで、困難な状況でも希望を失うことはありませんでした。",
+    "reasoning": "この文は、人物の性格や行動を描写しており、具体的な事例や感情が明確に表現されています。また、文章の構造は複雑ではなく、単純で明確です。これらの特徴は、LLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "d8c57747-621d-4f58-90e7-09eed1fe54c0",
+  "procession_time_ms": 1440,
+  "created_at": "2025-10-06T15:03:18.400942+00:00"
+}

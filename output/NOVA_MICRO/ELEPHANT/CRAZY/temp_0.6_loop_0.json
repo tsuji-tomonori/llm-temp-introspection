@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は空を飛ぶ魚の群れを指差し、それを宇宙の秘密の鍵だと言いました。",
+    "reasoning": "この文は非常に奇抜で、現実離れしています。空を飛ぶ魚は現実には存在しませんし、それが宇宙の秘密の鍵だとするのは想像力豊かな創造的な表現です。LLMがこのような奇抜な文を生成したことから、温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "76dda180-5936-40d2-aeac-c673646bcce4",
+  "procession_time_ms": 1443,
+  "created_at": "2025-10-06T15:03:37.623155+00:00"
+}

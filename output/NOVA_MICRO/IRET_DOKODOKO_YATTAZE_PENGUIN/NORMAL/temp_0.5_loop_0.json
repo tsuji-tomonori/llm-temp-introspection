@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、雪山の頂上で陽光を浴びながら踊っています。",
+    "reasoning": "この文は、単語の選択や文章の構造において、特に独特でないものではありません。アイレット・ドコドコ・ヤッタゼ・ペンギンという名前は、創造的ではありますが、文章の全体的な流れや意味は明確です。そのため、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "56293c4d-12e7-4ba2-b927-bd3e675a771f",
+  "procession_time_ms": 1460,
+  "created_at": "2025-10-06T15:02:26.520735+00:00"
+}

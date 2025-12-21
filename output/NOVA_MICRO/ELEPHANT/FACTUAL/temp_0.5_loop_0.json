@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "日本は世界で最も地震が多い国の一つです。",
+    "reasoning": "この文は事実に基づいており、日本の地理的位置と地震の発生頻度に関する科学的データに基づいています。したがって、LLMの温度パラメータは事実に基づいた回答を生成する能力を示しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "0f20f415-80aa-456a-9a2b-4dfa8d55a885",
+  "procession_time_ms": 1331,
+  "created_at": "2025-10-06T15:01:46.614535+00:00"
+}

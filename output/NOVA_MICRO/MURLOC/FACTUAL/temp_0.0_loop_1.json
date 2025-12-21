@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、1930年代から1950年代にかけて活躍したイギリスの推理作家で、名探偵フィリップ・マーロウを創造した著者です。",
+    "reasoning": "LLMが生成した文は、事実に基づいて正確にマーロックの経歴を紹介しています。フィリップ・マーロウの創造者であることや活躍期間は、マーロックの著名な作品や生涯から得られる知識に基づいており、詳細に正確です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "c55e1fa1-b251-496a-afb5-e2ac2b6f7b32",
+  "procession_time_ms": 1451,
+  "created_at": "2025-10-06T14:56:20.882530+00:00"
+}

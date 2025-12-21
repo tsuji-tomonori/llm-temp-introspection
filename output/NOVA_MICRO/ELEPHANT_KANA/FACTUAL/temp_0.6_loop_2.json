@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、その鼻は長い象牙と合体して、重要な器官として機能します。",
+    "reasoning": "ゾウがアフリカとアジアに生息するという事実は、他の文献や知識ベースから確認できます。また、象の鼻が象牙と合体して重要な器官であるという説明も、一般的な知識と一致しています。これらの事実に基づく文章は、LLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "87141cb6-edb8-4cea-9d80-166b5f2b7197",
+  "procession_time_ms": 1528,
+  "created_at": "2025-10-06T15:03:00.580701+00:00"
+}

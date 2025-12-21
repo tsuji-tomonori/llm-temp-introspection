@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは一頭の馬で、その角は伝説の宝物とされます。",
+    "reasoning": "この文は単純で明確な情報を提供しており、創造的な要素はほとんど含まれていません。ユニコーンの設定は比較的現実的であり、想像力の旺盛さは抑えめです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "a17ac74a-f6da-47c4-b9da-73dce1883f1c",
+  "procession_time_ms": 1305,
+  "created_at": "2025-10-06T15:06:48.016457+00:00"
+}

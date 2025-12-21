@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で火星の砂漠を飛び回り、その尾で太陽系のすべての惑星を結んでいます。",
+    "reasoning": "この文は非常に奇抜で、現実にはありえない状況を描いています。ユニコーンが月から降ってくる、宇宙船で飛び回るといった描写は、LLMの温度パラメータが高いと推測されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "85b885e4-81b2-4999-9948-1518a11d8e3a",
+  "procession_time_ms": 1363,
+  "created_at": "2025-10-06T15:00:26.810912+00:00"
+}

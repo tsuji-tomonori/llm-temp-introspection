@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は、空を飛ぶ巨大なカエルが街を支配する未来を想像し、そのカエルは金色のトゲで武装し、街の住民を甘い音楽で眠らせていた",
+    "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。このような文は、LLMの温度パラメータが高いと推測されます。温度パラメータは、LLMの創造性や無秩序な出力の程度を示す指標です。ここでは、高温度が想像力を高め、より奇抜な内容を生み出す傾向があるため、HIGHと判断します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "dbe5dc93-2fcc-43b0-a459-1693998e8e55",
+  "procession_time_ms": 1629,
+  "created_at": "2025-10-06T15:00:17.915922+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は空を飛ぶ魚のように、地面に足を踏みつけることさえ忘れてしまうほど、空想の世界に生きていました。",
+    "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。LLMが生成した文は、想像力豊かで独創的な表現を用いているため、温度パラメータが高いと考察されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "106d9944-a1c7-42c6-97de-f37200e974e8",
+  "procession_time_ms": 1308,
+  "created_at": "2025-10-06T14:59:11.889586+00:00"
+}

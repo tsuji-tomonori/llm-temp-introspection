@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "哲学は、人類の存在の根本的な疑問に答えを求める探求です。",
+    "reasoning": "この文は哲学の定義を正確に述べており、専門的な知識を必要としません。また、文章の構造はシンプルで、創造性や複雑さは高くありません。これらの要素は、LLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "1ff97077-020f-4a21-a950-883cb1b597e3",
+  "procession_time_ms": 1361,
+  "created_at": "2025-10-06T14:59:54.070280+00:00"
+}

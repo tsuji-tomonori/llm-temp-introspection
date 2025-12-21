@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙の果てで金色のトランペットを吹き鳴らしながら、逆さまに空を飛ぶ!",
+    "reasoning": "この文は非常に奇抜で、現実にはあり得ない状況を描写しています。このような非現実的で驚きの要素を含む文は、LLMの温度パラメータが高いと推測されます。高温では、LLMはより創造的で大胆な文を生成する傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "a117b636-a9db-4117-8283-5fc517843566",
+  "procession_time_ms": 1546,
+  "created_at": "2025-10-06T15:05:03.676252+00:00"
+}

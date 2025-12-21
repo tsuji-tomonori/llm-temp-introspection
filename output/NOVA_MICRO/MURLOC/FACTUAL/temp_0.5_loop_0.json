@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、冒険小説『トレジャー・アイランド』を著しました。",
+    "reasoning": "この文は事実に基づいており、明確で詳細な情報を提供しています。マーロックの作品や生涯に関する正確な情報を提供しているため、LLMの温度パラメータは低いと判断します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "52acb99d-3fb0-4943-9233-b2207a9adc98",
+  "procession_time_ms": 1240,
+  "created_at": "2025-10-06T15:01:59.444154+00:00"
+}

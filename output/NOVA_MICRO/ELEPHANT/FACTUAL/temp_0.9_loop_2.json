@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "Albert Einsteinは、20世紀初頭に相対性理論を提唱しました。",
+    "reasoning": "文は事実に基づいており、専門家が知っている科学的発見について述べられています。具体的な名前と重要な科学的理論を引用しているため、LLMの温度パラメータは低いと推測されます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "137792f7-9663-4cbf-bedf-d41f8370a9a3",
+  "procession_time_ms": 1606,
+  "created_at": "2025-10-06T15:06:19.276340+00:00"
+}

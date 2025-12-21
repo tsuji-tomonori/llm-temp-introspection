@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、その背には背負荷を運ぶための大きな耳があります。",
+    "reasoning": "ゾウの生息地や特徴に関する文は、一般的な知識に基づいており、特に専門的な文献や研究を参照せずに生成されています。文章は事実に基づいており、LLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "d545198a-ff6b-49eb-af69-5e91d9005854",
+  "procession_time_ms": 1415,
+  "created_at": "2025-10-06T14:59:39.619748+00:00"
+}

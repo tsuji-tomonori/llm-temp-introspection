@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "哲学は人間の思考と存在の根本的な問題を探求する学問です。",
+    "reasoning": "文章は明確で、哲学の定義を正確に伝えています。生成された文には創造性や偶然性は見られず、単に事実を述べています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "e0512259-bec4-4d70-ba48-27648e1d5ab8",
+  "procession_time_ms": 1210,
+  "created_at": "2025-10-06T15:04:24.424576+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "エイリアンが月に雪を降らせる様子を想像してみてください。それは、巨大な巨人たちが月面で氷の滑走路を滑るように踊っているかのようです。",
+    "reasoning": "この文は想像力豊かで、少し不確かで奇抜です。しかし、それは特定の現実世界に基づいているわけではありませんし、明確な規則や文脈はありません。これらの特徴は、LLMの温度パラメータが高いと推測される特徴です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "683d14fd-b572-4c58-a339-6ae38f79349b",
+  "procession_time_ms": 1550,
+  "created_at": "2025-10-06T15:08:14.530924+00:00"
+}

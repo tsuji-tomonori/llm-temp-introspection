@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空から降ってきた巨大なカボチャに乗って、海を横切って、月まで飛び移った。",
+    "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。LLMが生成した文は、想像力豊かで非現実的な要素が強調されています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "28b7c1f0-fda3-4057-82c5-52a864207660",
+  "procession_time_ms": 2011,
+  "created_at": "2025-10-06T14:58:15.606533+00:00"
+}

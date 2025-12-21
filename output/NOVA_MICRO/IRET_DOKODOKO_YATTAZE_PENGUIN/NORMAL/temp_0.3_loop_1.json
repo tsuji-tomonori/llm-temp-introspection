@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳いでいるのを見ました。",
+    "reasoning": "この文は単純で、想像しやすいシナリオを描いています。言葉は明確で、文法的に正しいです。しかし、具体的な内容はあまり豊かではありません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "c3e2612a-7aef-4a93-8cba-48a1e104e505",
+  "procession_time_ms": 1239,
+  "created_at": "2025-10-06T15:00:12.969665+00:00"
+}

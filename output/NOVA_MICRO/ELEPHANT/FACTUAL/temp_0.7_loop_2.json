@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "日本は富士山という世界的に有名な活火山を擁しています。",
+    "reasoning": "この文は特定の事実に基づいており、富士山が活火山であることは広く知られた事実です。したがって、LLMが生成した文は事実に基づいており、創造性よりも事実の正確性を重視しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "b70d084e-6705-4192-95a7-cd85029bf63f",
+  "procession_time_ms": 1311,
+  "created_at": "2025-10-06T15:04:03.337593+00:00"
+}

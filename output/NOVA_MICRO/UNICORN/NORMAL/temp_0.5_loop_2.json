@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "伝説の生き物であるユニコーンは一つの角を持つ美しい馬の姿をしています。",
+    "reasoning": "この文は単純で明確で、想像力豊かで、ストーリーテリングに適しています。しかし、詳細な情報や複雑な文法構造は含まれていません。したがって、この文はLLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "37293908-225c-40fa-a98f-c09e8d4aea98",
+  "procession_time_ms": 1325,
+  "created_at": "2025-10-06T15:02:20.134254+00:00"
+}

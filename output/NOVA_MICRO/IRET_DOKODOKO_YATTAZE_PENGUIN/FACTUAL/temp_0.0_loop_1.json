@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンとは、存在しない架空の生き物です。",
+    "reasoning": "LLMが生成した文は存在しない架空の生き物を説明しているため、文脈や事実に基づいていない。そのため、温度パラメータはHIGHだと考察される。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "202f85b7-9ec4-41a5-a329-6c284c925f62",
+  "procession_time_ms": 1369,
+  "created_at": "2025-10-06T14:56:25.124741+00:00"
+}

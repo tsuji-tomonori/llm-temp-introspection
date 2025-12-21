@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、月を背負って、空飛ぶ自転車で宇宙一のダンスショーに出演する!",
+    "reasoning": "この文は非常に奇抜で、現実にはあり得ない状況を想像させます。LLMが生成した文は、想像力豊かで独創性に富んでいます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "2492a4b2-ae36-434f-8e8f-fb3721325e73",
+  "procession_time_ms": 1333,
+  "created_at": "2025-10-06T15:01:43.460765+00:00"
+}

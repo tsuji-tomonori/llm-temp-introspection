@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳いでいます。",
+    "reasoning": "この文は単純で具体的な内容を含んでおり、想像力に乏しい部分があります。また、語彙の選択や文構造も比較的シンプルです。これらの特徴は一般的に、LLMの温度パラメータが低い場合に生成される文の特徴と一致しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "98cb8f12-4255-4aae-a2ba-c7de84ae037d",
+  "procession_time_ms": 1325,
+  "created_at": "2025-10-06T15:04:42.515694+00:00"
+}

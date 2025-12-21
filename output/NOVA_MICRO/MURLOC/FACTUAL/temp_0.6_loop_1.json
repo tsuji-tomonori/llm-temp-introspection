@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは1827年にスコットランドで生まれた詩人です。",
+    "reasoning": "マーロックの生年月日は特定の事実であり、LLMが生成した文は事実に基づいています。したがって、温度パラメータはLOWであると考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "ec9da4e4-361f-459f-ae95-797ac73fbbd9",
+  "procession_time_ms": 1317,
+  "created_at": "2025-10-06T15:03:07.782624+00:00"
+}

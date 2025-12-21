@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカの大型の哺乳類で、世界最大の陸上動物です。",
+    "reasoning": "この文は事実に基づいており、正確な情報を提供しています。ゾウの大きさや分布に関する基本的な事実を述べており、特定の創造性や想像力は含まれていません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "279ee344-cdd1-464a-9ed4-f6215c6a6736",
+  "procession_time_ms": 1283,
+  "created_at": "2025-10-06T15:04:06.185882+00:00"
+}

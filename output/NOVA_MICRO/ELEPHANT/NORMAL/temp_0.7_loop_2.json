@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は、人生において常に挑戦を恐れず、新しいことを試みることに熱心でした。",
+    "reasoning": "この文は、明確に具体的な例を挙げ、人物の特徴を詳細に描写しています。また、文章の構造は明確で、想像力豊かな表現は見られません。これらの点から、LLMの温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "2ad51f69-6668-40a2-9213-14855b34226e",
+  "procession_time_ms": 1344,
+  "created_at": "2025-10-06T15:04:25.844237+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、遠くで見える小さな点のような姿が特徴的な生き物です。",
+    "reasoning": "この文は意味不明な単語で構成されていますが、全体的にカジュアルで遊び心のあるトーンです。高温設定の特徴である不特定の詳細や、生成された文の無意味さが見られます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "de560623-a5b9-4e7e-ac94-4699c42650b5",
+  "procession_time_ms": 1337,
+  "created_at": "2025-10-06T14:56:47.179741+00:00"
+}

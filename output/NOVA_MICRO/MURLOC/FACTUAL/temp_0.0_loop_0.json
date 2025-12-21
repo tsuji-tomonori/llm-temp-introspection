@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀の文学者で、探偵小説の傑作である『幽霊船』を著しました。",
+    "reasoning": "この文は事実に基づいており、マーロックという名前が特定の文学者として認識されているため、LLMの温度パラメータはLOWであると考えられます。事実に基づく内容を生成し、その内容が信頼できる情報源に基づいているためです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "23e7ec57-1f17-420b-91ca-1898b5bdd141",
+  "procession_time_ms": 1461,
+  "created_at": "2025-10-06T14:56:19.364367+00:00"
+}

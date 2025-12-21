@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀のイギリスの文学に影響を与えた謎めいた作家として知られています。彼の作品は、神秘的な冒険と深遠な哲学的思考で特徴づけられます。",
+    "reasoning": "この文は、マーロックの人物像とその文学的影響について簡潔に説明しており、専門的な知識に基づいています。文は明確で、適切な文脈を提供しています。これらの特徴は、LLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "f345911e-2b7e-40c8-bfdb-8383de1e5a01",
+  "procession_time_ms": 1675,
+  "created_at": "2025-10-06T15:04:36.882174+00:00"
+}

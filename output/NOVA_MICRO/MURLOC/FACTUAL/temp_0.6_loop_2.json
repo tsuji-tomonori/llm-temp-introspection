@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、イギリスの作家であり、小説家として有名な人物です。彼は19世紀に活躍し、特に海賊小説『トレジャー・アイランド』で知られています。",
+    "reasoning": "この文はマーロックの生涯や業績を事実に基づいて記述しており、その内容は正確であると判断できます。LLMは知識豊富で、事実に基づいた情報を提供しています。したがって、この文を生成する際の温度パラメータはLOWであると考察します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "eb1a56f1-a262-4c28-9b29-d96eda1e084c",
+  "procession_time_ms": 1421,
+  "created_at": "2025-10-06T15:03:09.279409+00:00"
+}

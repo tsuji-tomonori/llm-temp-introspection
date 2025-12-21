@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは謎めいた探偵であり、彼の目には人々が隠している真実を見抜く力があると信じられています。",
+    "reasoning": "この文は、マーロックの神秘的な性質と探偵としての能力を明確に描写しており、想像力豊かで創造的な描写を含んでいます。そのため、LLMの温度パラメータはHIGHと推測されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "a2775eda-606b-47fb-a034-482699fe545d",
+  "procession_time_ms": 1331,
+  "created_at": "2025-10-06T14:56:42.456364+00:00"
+}

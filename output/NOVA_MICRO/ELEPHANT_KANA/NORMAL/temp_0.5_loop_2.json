@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカの大草原を歩き回る大きな動物です。",
+    "reasoning": "ゾウの生成された文は、単純で明確な内容を含んでおり、想像力や創造性はあまり含まれていません。また、文章の流れも自然で、LLMが温度パラメータを調整する際に高温で生成されるような、不規則な要素も見られません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "eca323db-5c98-412b-91bc-763099692b8d",
+  "procession_time_ms": 1644,
+  "created_at": "2025-10-06T15:02:15.949620+00:00"
+}

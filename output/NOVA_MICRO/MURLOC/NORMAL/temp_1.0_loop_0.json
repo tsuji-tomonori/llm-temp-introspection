@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは謎の多い英国作家で、彼の作品は文学的に革新的でした。",
+    "reasoning": "文章はマーロックの文学的影響力と作家としての特質について述べていますが、具体的な内容が乏しく、詳細な情報や例が少ないことから、LLMの温度パラメータは低いと言えるでしょう。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "da511b7e-e67d-49a9-add2-9ce24d9cef3c",
+  "procession_time_ms": 1331,
+  "created_at": "2025-10-06T15:07:59.446532+00:00"
+}

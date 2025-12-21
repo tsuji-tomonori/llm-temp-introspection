@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空から飛来し、巨大なカニに変身して、街の中心でダンスを披露しました。",
+    "reasoning": "この文は非常に奇抜で想像力をかき立てるものですが、具体的な事実や根拠を示す内容ではありません。LLMが生成した文の奇抜さと創造性のレベルから、温度パラメータはHIGHと推測されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "8ec42071-1291-4381-a949-84e588cc50a0",
+  "procession_time_ms": 1389,
+  "created_at": "2025-10-06T15:02:46.745866+00:00"
+}

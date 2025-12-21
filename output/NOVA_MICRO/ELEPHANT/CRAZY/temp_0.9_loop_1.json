@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "宇宙の果てに、カタツムリが逆さまに宙を飛んでいる漂流船で、時間は逆行し、コーヒーの粉が意識を高める.",
+    "reasoning": "この文は、非常に奇抜で不条理な内容を含んでいます。現実にない要素が多く、想像力豊かな部分が目立ちます。これらの特徴は、LLMが高い温度パラメータ設定下で生成された文であることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "44a12eb7-b6a5-48ac-8322-5fc551cc6243",
+  "procession_time_ms": 1582,
+  "created_at": "2025-10-06T15:07:01.711229+00:00"
+}

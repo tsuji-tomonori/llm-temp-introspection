@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な生き物で、白い体と角が特徴的です。多くの伝説や物語で、純粋さと魔法の象徴として描かれています。",
+    "reasoning": "この文章は、単純で明確で、想像力に富んだテーマを扱っています。これらの特徴は通常、LLMの温度パラメータが高めのときの生成物に多く見られます。具体的な例や詳細な描写が含まれており、より創造的で自由な内容となっています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "15658f9c-098d-4358-998a-ab023173c873",
+  "procession_time_ms": 1494,
+  "created_at": "2025-10-06T15:05:41.095579+00:00"
+}

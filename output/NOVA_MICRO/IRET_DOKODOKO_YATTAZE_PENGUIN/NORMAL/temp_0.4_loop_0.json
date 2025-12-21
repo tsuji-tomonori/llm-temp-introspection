@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で踊る奇妙な生き物です。",
+    "reasoning": "この文は、単語の選択や文章の構造が非常に曖昧で、具体的な内容や文脈が明確に伝わってこないため、LLMの温度パラメータはHIGHと判断します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "6379ad6d-3ea2-450b-92f7-45db3f745e57",
+  "procession_time_ms": 1364,
+  "created_at": "2025-10-06T15:01:19.578167+00:00"
+}

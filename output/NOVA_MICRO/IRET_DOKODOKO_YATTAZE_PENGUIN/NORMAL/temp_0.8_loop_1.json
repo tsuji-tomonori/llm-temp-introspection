@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を自由に泳いでいる様子です。",
+    "reasoning": "この文は奇抜な言葉で構成されており、LLMが創造的な思考を重視していることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "a25e8ce9-d8b0-4635-acb9-c0fc2d412b8a",
+  "procession_time_ms": 1328,
+  "created_at": "2025-10-06T15:05:50.272764+00:00"
+}

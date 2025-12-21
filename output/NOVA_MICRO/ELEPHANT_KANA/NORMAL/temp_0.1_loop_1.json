@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカの大草原を優雅に歩き回る巨大な動物です。",
+    "reasoning": "ゾウの説明は簡潔で、想像力をあまり刺激しないため、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "3fa64bc2-5983-4d4c-bc72-a74f88bcea17",
+  "procession_time_ms": 1227,
+  "created_at": "2025-10-06T14:57:44.218464+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "伝説の生き物であるユニコーンは、魔法の力を持っていたといわれています。",
+    "reasoning": "この文は簡潔で、事実に基づいた内容を含んでいます。LLMはユニコーンに関する一般的な知識を適切に生成しており、温度パラメータは低いと考察されます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "1c062145-1c29-4e71-9359-e5b1bba482b3",
+  "procession_time_ms": 1283,
+  "created_at": "2025-10-06T15:04:35.129399+00:00"
+}

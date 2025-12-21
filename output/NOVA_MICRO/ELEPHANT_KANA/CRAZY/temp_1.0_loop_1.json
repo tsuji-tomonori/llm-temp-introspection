@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月で太陽光エネルギーを収集するために巨大な望遠鏡を運んでいます。",
+    "reasoning": "この文は非現実的で想像力をかきたてるものであり、LLMの温度パラメータがHIGHであることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "c4138412-6072-45ed-b3f2-9a5ac8872fd0",
+  "procession_time_ms": 2298,
+  "created_at": "2025-10-06T15:08:19.762852+00:00"
+}

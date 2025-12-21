@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説の生き物で、白い馬の体と、頭に1本の角を持っています。",
+    "reasoning": "ユニコーンは伝説的な生き物として広く知られており、その特徴は白い馬の体と頭に1本の角を持つこととされています。この説明は事実に基づいており、LLMが生成した文は、事実に基づいた文であることが明確です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "697a046b-9943-4b04-ba77-8cb911497bdd",
+  "procession_time_ms": 1448,
+  "created_at": "2025-10-06T15:03:04.952603+00:00"
+}

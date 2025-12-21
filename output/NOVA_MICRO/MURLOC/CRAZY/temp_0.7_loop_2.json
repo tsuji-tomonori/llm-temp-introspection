@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空中に浮き上がり、月面を自転車で疾走しました。",
+    "reasoning": "この文は非常に奇抜で想像力豊かです。LLMが生成した文の内容は、通常の文章よりもはるかにクレイジーで非現実的です。これは高温パラメータで生成された文である可能性が高いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "a0406ddc-44a1-43a3-a606-d0811bf45fb4",
+  "procession_time_ms": 1722,
+  "created_at": "2025-10-06T15:05:02.048884+00:00"
+}

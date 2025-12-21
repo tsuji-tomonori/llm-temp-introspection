@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は雲を背負い、月の影から話しかけてくるドラゴンのようだ。彼の話は、時間の糸を解きほぐす魔法のようなもので、過去と未来が絡み合って、一つの不可解な光の中に消え去る。",
+    "reasoning": "この文は創造的で、想像力をかき立てる表現を使用しています。そのため、温度パラメータがHIGHである可能性が高いと判断します。文章は非常に独特で、一貫性のあるテーマに沿って書かれています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "ad483459-ccdc-4879-b649-f4a93c5756cc",
+  "procession_time_ms": 1510,
+  "created_at": "2025-10-06T15:08:12.846173+00:00"
+}

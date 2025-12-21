@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀のイギリスの文学に影響を与えた詩人であり、著名な小説家でもあります。",
+    "reasoning": "この文は、マーロックという名前の人物について正確な情報を提供しており、文学的な背景や影響力について具体的な言及が含まれています。また、文章の構造は整然としており、専門的な用語も適切に使用されています。これらの要素から、LLMの温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "35bdd737-fa05-42d0-8491-b4b260cfe63b",
+  "procession_time_ms": 1452,
+  "created_at": "2025-10-06T14:59:01.743022+00:00"
+}

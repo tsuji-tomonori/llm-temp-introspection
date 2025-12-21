@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは大きな草原を歩き回り、仲間たちと水を分け合っています。",
+    "reasoning": "この文は平淡で明確に説明されていて、想像力をあまり引き起こさないように見えます。LLMは事実に基づいて単純に説明を生成しているように見えます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "4c022047-1c61-4b70-8377-870e44b4a6c4",
+  "procession_time_ms": 1253,
+  "created_at": "2025-10-06T14:56:35.116018+00:00"
+}

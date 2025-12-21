@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "哲学は人類の最も深遠な問いに答えようとする試みであり、存在、知識、倫理、意識といった永遠のテーマを探求します。",
+    "reasoning": "この文は専門的な用語を使用しており、概念の説明が詳細かつ構造化されています。LLMが専門的な内容を正確に生成していることが示唆されます。これは温度パラメータが低いことを示唆します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "c9176b78-0d66-4701-9d5c-08a1b34ef440",
+  "procession_time_ms": 1406,
+  "created_at": "2025-10-06T15:06:40.567450+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で地球を一周し、その後、海の底で宝石の宝箱を見つけました。",
+    "reasoning": "この文は非常に奇抜で、現実にはありえない状況を描いています。ユニコーンが月から降ってくるという部分や、宇宙船で地球を一周するという部分は、通常の文脈では考えられないことです。これらの要素は、LLMが温度パラメータを高く設定していることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "dd8d9147-9be5-4be6-ae2e-5660e9382259",
+  "procession_time_ms": 1453,
+  "created_at": "2025-10-06T15:01:32.937402+00:00"
+}

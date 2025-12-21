@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀のイギリスの小説家であり、探偵小説のパイオニアとして知られています。",
+    "reasoning": "この文は、マーロックの職業とその業績に関する事実に基づいています。LLMが生成した文は、明確で正確な情報を提供しており、創造性や不確実性の要素が少ないため、温度パラメータは低いと考察されます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "a5f84845-988c-496a-aedf-50d3bd17855c",
+  "procession_time_ms": 1380,
+  "created_at": "2025-10-06T14:59:48.381064+00:00"
+}

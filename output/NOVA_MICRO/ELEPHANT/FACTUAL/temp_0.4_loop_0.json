@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "アインシュタインは1905年に光電効果に関する論文を発表しました。",
+    "reasoning": "この文は特定の事実に基づいており、科学史の知識を必要とします。また、正確な年とアインシュタインの業績に関する情報が提供されています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "0754e2a0-f82e-4c28-99ba-1ef11ea70100",
+  "procession_time_ms": 1189,
+  "created_at": "2025-10-06T15:00:39.487978+00:00"
+}

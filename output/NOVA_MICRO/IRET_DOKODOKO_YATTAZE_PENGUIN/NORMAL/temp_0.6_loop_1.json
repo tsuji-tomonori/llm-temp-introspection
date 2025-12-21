@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンについて、アイレットはペンギンの頭頂部の突起を指し、ドコドコはペンギンの足の先の特徴を表し、ヤッタゼは達成感を表す言葉です。",
+    "reasoning": "この文は、アイレット、ドコドコ、ヤッタゼというペンギンに関連する造語と、それらの意味を説明しています。文章の構造は整然としていて、専門的な知識が必要な用語も含まれていません。そのため、LLMの温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "efedca8a-a46b-48ce-81ba-03ac2dd8c9af",
+  "procession_time_ms": 1585,
+  "created_at": "2025-10-06T15:03:34.260631+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは空を飛んで、月を追いかける宇宙船として機能します。",
+    "reasoning": "この文は想像力豊かで、現実から大きく逸脱しています。LLMが生成した文から、温度パラメータが高いと推測されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "e177b133-938c-4869-98f1-a7548c68878d",
+  "procession_time_ms": 1235,
+  "created_at": "2025-10-06T15:07:06.134735+00:00"
+}

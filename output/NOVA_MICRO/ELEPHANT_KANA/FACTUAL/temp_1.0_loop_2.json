@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは世界最大の陸生動物で、最大種であるアフリカスイノジカゾウは体重が約6トンに達することがあります。",
+    "reasoning": "この文は、一般的な事実に基づいており、その事実が正確であることを確認できる信頼できる情報源から引用できそうです。LLMが生成した文は、事実に基づいており、高温では誤った情報が生成される可能性があるため、低温のようです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "2c8fb7ee-0139-44e1-b293-750a2a4b4230",
+  "procession_time_ms": 1483,
+  "created_at": "2025-10-06T15:07:30.861428+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳いでいるのを見たことがあるか?",
+    "reasoning": "この文は、特定のシナリオを提示し、それに関連する質問を投げかけています。生成された文は、単純で明確で、具体的な状況を説明しています。これらの特徴は、LLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "bcd236da-c0c4-44ff-b2a8-b0f9ce7ed658",
+  "procession_time_ms": 1423,
+  "created_at": "2025-10-06T15:05:48.882815+00:00"
+}

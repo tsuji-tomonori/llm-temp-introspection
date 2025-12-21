@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙の果てまで追いかけて、火山の口を通り抜け、海底の宝石を盗んだ！",
+    "reasoning": "この文は非常に奇抜で、想像力豊かな内容を含んでいます。LLMが生成した文は、非現実的で奇抜な要素が多く含まれており、温度パラメータが高いと判断されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "a3052c23-9330-4c02-a02a-5afb29b67cbf",
+  "procession_time_ms": 1391,
+  "created_at": "2025-10-06T15:02:51.634843+00:00"
+}

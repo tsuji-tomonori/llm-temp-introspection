@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカやアジアに生息する大型の哺乳類で、その鼻は長くて柔軟で、物を掴んだり水を吸ったりするのに役立ちます。",
+    "reasoning": "この文は事実に基づいており、ゾウの基本的な生物学的特徴を正確に説明しています。LLMは事実に基づいた情報を提供し、創造性や想像力は含まれていません。したがって、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "1b31652d-9057-43a2-bc09-423d0cea12d9",
+  "procession_time_ms": 1470,
+  "created_at": "2025-10-06T14:59:38.127898+00:00"
+}

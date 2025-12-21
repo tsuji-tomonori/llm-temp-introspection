@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙を飛び回る超高速バナナジェットで、時間の迷路を突っ走りながら、逆さまの月に向かって、踊り続けるクラゲの群れと出会いました！",
+    "reasoning": "文は奇妙な要素と非現実的なシナリオを含んでおり、想像力豊かでクレイジーです。LLMは自由な創造性を示しているため、温度パラメータは高めに設定されていると考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "bf10393a-2f41-4712-a67d-f38d1971b713",
+  "procession_time_ms": 1560,
+  "created_at": "2025-10-06T15:08:34.553187+00:00"
+}

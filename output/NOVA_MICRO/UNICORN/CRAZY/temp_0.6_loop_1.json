@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "夜空に舞う、金色の翼を持つユニコーンが、月光の下で踊りながら、宇宙の秘密を囁き合っている。",
+    "reasoning": "この文は非常に奇抜で、現実にはありえない情景を描いています。ユニコーンが宇宙の秘密を囁き合うなど、想像力を大いにかき立てる描写が含まれています。このような奇抜で創造的な文は、LLMの温度パラメータがHIGHであることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "6cbe7def-306b-4785-89ba-176c3c232ddd",
+  "procession_time_ms": 1488,
+  "created_at": "2025-10-06T15:03:48.374282+00:00"
+}

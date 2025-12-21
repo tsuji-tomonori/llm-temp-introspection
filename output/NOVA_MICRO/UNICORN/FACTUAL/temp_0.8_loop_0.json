@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、伝説の生き物で、白い馬の体と鹿の角を持ち、しばしば魔法の力を持っています。",
+    "reasoning": "文章は事実に基づいて書かれており、伝説の生き物としてのユニコーンの一般的な特徴を述べています。生成された文章は、具体的な詳細を避け、よく知られた事実に基づいています。そのため、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "a10c09de-3448-42f6-b301-38f0c2f1b60d",
+  "procession_time_ms": 1341,
+  "created_at": "2025-10-06T15:05:16.929352+00:00"
+}

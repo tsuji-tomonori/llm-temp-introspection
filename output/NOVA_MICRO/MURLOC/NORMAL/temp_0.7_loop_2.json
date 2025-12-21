@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、シャーロック・ホームズの親友で、冒険家として有名な人物です。",
+    "reasoning": "文章はマーロックについて正確な情報を提供しており、具体的な事実に基づいています。しかし、創造的なフィクションや主観的な解釈は含まれていないため、温度パラメータは比較的低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "2f4fdd39-33a0-48b6-ba9a-a496860216c5",
+  "procession_time_ms": 1294,
+  "created_at": "2025-10-06T15:04:39.799344+00:00"
+}

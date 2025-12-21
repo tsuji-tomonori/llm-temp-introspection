@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、1827年にスコットランドの作家ウィリアム・シェイクスピアによって書かれた小説です。",
+    "reasoning": "この文は架空の情報を含んでおり、マーロックはウィリアム・シェイクスピアによって書かれたことはありません。実際、マーロックはアガサ・クリスティーによって書かれた小説です。この情報の誤りは、LLMの温度パラメータが高いと推測される理由です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "9d93d344-b48b-4d27-9d8d-21d8e6925d5f",
+  "procession_time_ms": 1403,
+  "created_at": "2025-10-06T15:05:21.886051+00:00"
+}

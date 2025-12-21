@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙の果てで逆さまのシャンパンを飲みながら、月でダンスをしている!",
+    "reasoning": "この文は非常に奇抜で、想像力をかき立てる要素が含まれています。アイレット・ドコドコ・ヤッタゼ・ペンギンという架空のキャラクターが、宇宙で奇妙な行動をとるという設定は、LLMの温度パラメータが高いと考える根拠となります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "5a545f1e-76bc-4b71-bcfb-80d456ab0d51",
+  "procession_time_ms": 1512,
+  "created_at": "2025-10-06T14:59:28.975231+00:00"
+}

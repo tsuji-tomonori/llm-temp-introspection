@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、雪山を歩いているところをみかけました。",
+    "reasoning": "文章は奇妙な語彙を用いているが、明確な目的や主題は見当たりません。これは創造的で自由度の高い文章であり、LLMの温度パラメータが高めに設定されていることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "6ae8e3a7-79c2-441c-b605-0518551c7b87",
+  "procession_time_ms": 1400,
+  "created_at": "2025-10-06T15:06:57.067328+00:00"
+}

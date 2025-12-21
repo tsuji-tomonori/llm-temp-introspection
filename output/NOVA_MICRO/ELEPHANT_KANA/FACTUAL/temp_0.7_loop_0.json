@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカとアジアの両方に生息する大型の哺乳類で、象牙と長い鼻が特徴です。",
+    "reasoning": "この文は事実に基づいており、正確な情報が提供されています。象牙や鼻に関する記述は、ゾウの生物学的特徴を正確に反映しています。したがって、LLMが生成した文は事実に基づいており、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "4942b4d5-c56c-44e9-b6e9-c82383d5e144",
+  "procession_time_ms": 1422,
+  "created_at": "2025-10-06T15:04:04.831041+00:00"
+}

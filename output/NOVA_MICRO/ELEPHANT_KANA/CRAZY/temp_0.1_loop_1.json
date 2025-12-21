@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月夜に空を飛び、星を摘んでお菓子にしています。",
+    "reasoning": "この文は非常に奇抜で想像力豊かです。LLMは創造性と独創性を示しており、温度パラメータが高いと推測されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "ed54b63d-d4fb-4e70-a9a6-08f4f975c706",
+  "procession_time_ms": 1217,
+  "created_at": "2025-10-06T14:58:06.125447+00:00"
+}

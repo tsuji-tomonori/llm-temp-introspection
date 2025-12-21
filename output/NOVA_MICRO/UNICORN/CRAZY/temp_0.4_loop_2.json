@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは宇宙の中心で踊り、時間の針を逆行させながら、夢の中のコーヒーカップから溢れ出る泡が宇宙の真理を解き明かす。",
+    "reasoning": "この文は非常に奇抜で想像力豊かであり、現実に基づくよりも創造性と奇抜さに重点を置いています。したがって、LLMの温度パラメータは高めであると推測されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "875bed70-634a-417c-81d7-d31f57afdeeb",
+  "procession_time_ms": 1488,
+  "created_at": "2025-10-06T15:01:35.917873+00:00"
+}

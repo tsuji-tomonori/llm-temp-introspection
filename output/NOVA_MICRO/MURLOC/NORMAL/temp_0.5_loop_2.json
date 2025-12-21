@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀のイギリスの作家であり、冒険小説や西部劇小説で知られています。",
+    "reasoning": "この文は事実に基づいており、マーロックの生涯や業績について正確に述べています。文章の構造は正しく、専門的な知識を必要とせず、明確で簡潔です。これらの要素は、LLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "8ef98761-ee13-4327-b125-7b2b77a2087f",
+  "procession_time_ms": 1424,
+  "created_at": "2025-10-06T15:02:24.987170+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカの大自然に生息する巨大な哺乳類で、その大きな耳と長い鼻は特徴的です。",
+    "reasoning": "文章は正確で、ゾウの特徴を適切に説明しています。生成された文は、専門的な知識を必要とせず、一般の人々にも理解しやすい内容です。LLMの温度パラメータは適度に高く設定されていると考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "3336e6e8-11a1-4d40-b475-7d019b9407b7",
+  "procession_time_ms": 1403,
+  "created_at": "2025-10-06T15:01:06.261445+00:00"
+}

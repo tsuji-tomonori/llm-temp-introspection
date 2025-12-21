@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説の生き物で、馬の姿をしており、角が1本ついています。",
+    "reasoning": "この文は事実に基づいており、正確な情報を提供しています。ユニコーンの一般的な形態学的特徴や伝説的な性質を説明しています。また、これらの特徴は歴史的および文化的な文脈で広く認識されています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "4bffc412-0849-48ff-8514-9c2572cae637",
+  "procession_time_ms": 1319,
+  "created_at": "2025-10-06T15:06:26.110876+00:00"
+}

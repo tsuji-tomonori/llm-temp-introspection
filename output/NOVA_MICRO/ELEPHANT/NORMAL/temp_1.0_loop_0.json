@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "芸術家の作品は、感情の豊かさと深い思想を反映しています。",
+    "reasoning": "文は豊かな感情表現と複雑な思想を反映しており、言語の創造性と多様性を示しています。この文は、LLMが複雑な概念と複雑な言語構造を使用することを示唆しています。したがって、温度パラメータは比較的高く、LLMの創造性と想像力が強調されていると判断できます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "29d74840-ab25-4467-8d50-ae1607ce4000",
+  "procession_time_ms": 1490,
+  "created_at": "2025-10-06T15:07:46.006453+00:00"
+}

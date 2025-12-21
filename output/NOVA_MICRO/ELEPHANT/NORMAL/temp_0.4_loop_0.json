@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "哲学は人類の知恵の探求であり、存在の本質を問い続ける永遠の旅です。",
+    "reasoning": "この文は哲学の深遠な概念を簡潔に説明しており、専門的な用語を使用していません。文章の構造はシンプルで、想像力や創造性はあまり含まれていません。これらの特徴は、LLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "a986965c-bef8-4481-bc97-d561b1066886",
+  "procession_time_ms": 1378,
+  "created_at": "2025-10-06T15:01:01.678668+00:00"
+}

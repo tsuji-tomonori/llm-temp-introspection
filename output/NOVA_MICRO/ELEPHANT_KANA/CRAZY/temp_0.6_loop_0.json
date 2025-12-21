@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは月夜に宇宙船の操縦士として、星々の間を舞う銀河のダンスを指揮しています。",
+    "reasoning": "この文は非常に創造的で、想像力をかき立てる要素を含んでいます。ゾウが宇宙船の操縦士として描かれていることは、通常の認識とは大きく異なるため、温度パラメータが高いと判断できます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "38aa711a-6ef8-4cf4-8c38-7f4bb78720fd",
+  "procession_time_ms": 1339,
+  "created_at": "2025-10-06T15:03:41.747299+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "大きな耳と長い鼻を持つ、アフリカの大型哺乳類であるゾウは、群れで生活しています。",
+    "reasoning": "文章は単純明快で、ゾウの基本的な特徴について述べています。具体的な詳細は提供されていませんが、一般的な知識を用いて生成されています。これは、LLMが温度パラメータを低く設定していることを示唆します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "55e4b44c-b453-4d9f-8bbb-9b8341d7d1dd",
+  "procession_time_ms": 1328,
+  "created_at": "2025-10-06T15:05:36.674081+00:00"
+}

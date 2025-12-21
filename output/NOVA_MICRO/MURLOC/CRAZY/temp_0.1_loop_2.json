@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空から降ってきた巨大なカボチャに乗って、月まで飛び移り、宇宙の秘密を解き明かそうとしました。",
+    "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。LLMが生成した文は、想像力豊かで非現実的な要素が強調されています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "07b6d083-c051-4070-8f08-831679270792",
+  "procession_time_ms": 1370,
+  "created_at": "2025-10-06T14:58:17.046174+00:00"
+}

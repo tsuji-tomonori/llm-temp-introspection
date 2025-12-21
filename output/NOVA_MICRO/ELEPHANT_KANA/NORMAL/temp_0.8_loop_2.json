@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカの大自然に住む大きな動物で、長い鼻を持っています。",
+    "reasoning": "この文は事実に基づいており、ゾウについての基本的な情報を提供しています。LLMは事実を正確に述べており、創造性や自由度の高い生成は見られません。このため、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "16e9739b-8637-4086-a292-28976bb147c9",
+  "procession_time_ms": 1402,
+  "created_at": "2025-10-06T15:05:38.166195+00:00"
+}

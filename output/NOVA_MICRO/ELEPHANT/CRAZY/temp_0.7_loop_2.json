@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼は空を飛ぶカボチャが好きな、空飛ぶ宇宙船の夢を見るネズミです。",
+    "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。LLMは創造性と想像力を重視しているため、温度パラメータは高めに見えます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "d1f47956-8ea5-4aa8-b88b-662b2ff91420",
+  "procession_time_ms": 1269,
+  "created_at": "2025-10-06T15:04:48.604372+00:00"
+}

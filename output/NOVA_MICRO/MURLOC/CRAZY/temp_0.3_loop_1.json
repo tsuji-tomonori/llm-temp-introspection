@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空中に浮かび、彼の髪は逆立って、彼は宇宙の秘密を語り始めました。",
+    "reasoning": "この文は非常に奇抜で、現実離れした描写が含まれています。LLMは想像力豊かで非現実的な要素を生成しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "30ada5a0-fa8b-425d-9d77-aae5f491ab3d",
+  "procession_time_ms": 1280,
+  "created_at": "2025-10-06T15:00:31.285406+00:00"
+}

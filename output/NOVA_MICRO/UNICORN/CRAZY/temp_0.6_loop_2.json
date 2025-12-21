@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "この世界には、紫色の毛むくじゃらのユニコーンがいて、それは空を飛ぶことができ、金の靴下を履いて、月から降りてきて、宇宙の秘密を語ります。",
+    "reasoning": "この文は非常に奇抜で、現実にはありえないような内容を含んでいます。空を飛ぶユニコーンや月から降りてくるユニコーンなど、現実離れした設定が使われています。これらの要素は、LLMの温度パラメータが高いと考える根拠となります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "19e66dfb-d93a-47e0-bb1f-b52a5a5a4744",
+  "procession_time_ms": 1482,
+  "created_at": "2025-10-06T15:03:49.927161+00:00"
+}

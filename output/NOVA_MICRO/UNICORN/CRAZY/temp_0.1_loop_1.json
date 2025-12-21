@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で地球を回遊し、その尾に乗って空を飛ぶことができます。",
+    "reasoning": "この文は非常に奇抜で、現実にはあり得ない状況を描写しています。ユニコーンが月から降ってくる、宇宙船に乗って地球を回遊するといった描写は、LLMの温度パラメータが高いと推測されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "7df776fe-819c-4196-833f-d55b72bd652f",
+  "procession_time_ms": 1387,
+  "created_at": "2025-10-06T14:58:10.440619+00:00"
+}

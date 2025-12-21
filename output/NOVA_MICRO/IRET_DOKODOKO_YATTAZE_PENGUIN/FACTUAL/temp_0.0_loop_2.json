@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、ある幻想的な島の伝説的な生き物です。",
+    "reasoning": "生成された文は単語の組み合わせや語順が不自然で、事実に基づいた文とは思えない。これはモデルが自由に生成したフィクションのような文章である。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "d777c4f6-1dca-4727-a4a0-2764f0056436",
+  "procession_time_ms": 1451,
+  "created_at": "2025-10-06T14:56:26.987717+00:00"
+}

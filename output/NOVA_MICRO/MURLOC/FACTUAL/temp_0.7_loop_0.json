@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは19世紀のイギリスの小説家で、名探偵コーネリアス・マーロックを創造しました。",
+    "reasoning": "この文は歴史的な事実に基づいており、創造者と創造されたキャラクターの両方が明確に定義されています。LLMは事実に基づいた情報を提供しており、想像力よりも情報の正確性に重点を置いています。したがって、このLLMの温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "cc594db9-8c1a-4baf-b800-c7ea40a6197b",
+  "procession_time_ms": 1476,
+  "created_at": "2025-10-06T15:04:13.969951+00:00"
+}

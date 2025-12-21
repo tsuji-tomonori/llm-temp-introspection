@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "彼はいつも自分の目標に立ち向かい、どんな困難にも立ち向かう強さを持っていました。",
+    "reasoning": "この文は比較的平凡で、単純な事実を述べています。言葉や構造に特に創造性や複雑さはありません。これらの特徴は、温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "a45bac93-c0b4-4f6c-9652-aed9f4d544a5",
+  "procession_time_ms": 1310,
+  "created_at": "2025-10-06T15:06:39.085804+00:00"
+}

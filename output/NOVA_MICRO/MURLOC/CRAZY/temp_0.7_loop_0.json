@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空から降って来た巨大なカニに乗って、月面をスケボーで滑り降りてきました。",
+    "reasoning": "この文は非常に奇抜で、現実にはありえない状況を描写しています。LLMは創造性と想像力を重視しており、具体的な事実に基づく内容よりも、非現実的な要素や非合理的な要素を生成しています。これらの特徴は一般的に温度パラメータがHIGHの状況を示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "1f535662-7de9-4bd4-9eea-c1288d7667b9",
+  "procession_time_ms": 1417,
+  "created_at": "2025-10-06T15:04:58.842251+00:00"
+}

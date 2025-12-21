@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、長い鼻を持つ特徴があります。",
+    "reasoning": "この文は事実に基づいており、ゾウの生息地と特徴について正確に述べています。LLMは正確な情報を提供しているため、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "3b798b01-a4bb-4495-b308-b19e8cc26b6e",
+  "procession_time_ms": 1288,
+  "created_at": "2025-10-06T15:02:57.385041+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然、空を飛びながら金色のスパークルを発しながら海を泳ぐことにしました。",
+    "reasoning": "LLMは冗談めいたで非現実的なシチュエーションを生成しており、ストーリーは現実離れしている。そのため、LLMの温度パラメータは高めであると判断できます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "44ea9449-6f7c-49fb-8e8f-82c18fcb0d3c",
+  "procession_time_ms": 1279,
+  "created_at": "2025-10-06T14:57:07.557354+00:00"
+}

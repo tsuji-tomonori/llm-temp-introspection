@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "白い毛並みと角を持つ、幻想的な生き物であるユニコーン。",
+    "reasoning": "ユニコーンについて簡潔に説明し、想像力をかき立てる文章にしました。文章の構造はシンプルで、想像力を利用していますが、特に非現実的な要素は含まれていません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "3df9b121-87ad-4ef0-b6a3-32493a5a586d",
+  "procession_time_ms": 1298,
+  "created_at": "2025-10-06T15:07:57.833272+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で火星の砂漠を飛び回り、その尾で太陽系のすべての惑星を結んでいます。",
+    "reasoning": "この文は非常に奇抜で、現実にはありえない状況を描いています。ユニコーンが月から降ってくる、宇宙船で飛び回る、尾で惑星を結ぶといった描写は、LLMが創造性と想像力を高めるために温度パラメータを高く設定していることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "54efca4c-5ebf-413c-80b3-d1eebc2bfb14",
+  "procession_time_ms": 1495,
+  "created_at": "2025-10-06T14:59:19.090272+00:00"
+}

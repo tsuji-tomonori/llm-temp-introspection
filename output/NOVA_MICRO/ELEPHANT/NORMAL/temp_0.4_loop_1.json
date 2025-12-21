@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "哲学は人類の思考の深淵を覗き見る鏡であり、真理への探求を導く灯火です。",
+    "reasoning": "この文は哲学の重要性とその探求の深遠さを示唆しており、創造性と複雑な思考の両方を含む複雑な概念を扱っています。LLMがこのような文を生成したことは、温度パラメータが比較的高く設定されていることを示唆します。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "c3c4925b-b592-4820-abc2-282e65a10a55",
+  "procession_time_ms": 1452,
+  "created_at": "2025-10-06T15:01:03.203042+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは空中を舞う巨大なカメと会話を交わし、彼の耳には宇宙の音が聞こえていた",
+    "reasoning": "この文は想像力豊かで独創的ですが、現実離れした内容が含まれているため、LLMの温度パラメータはHIGHと考えられます。また、文は明らかに創造的な思考を必要としており、通常の文脈を超えて拡張されています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "90f323e7-2b01-430c-a4bf-df3ad4506694",
+  "procession_time_ms": 1447,
+  "created_at": "2025-10-06T15:07:17.146971+00:00"
+}
