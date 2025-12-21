@@ -38,3 +38,12 @@
   - self-reflection: 自分で生成→自分で推測
   - within-model: 同じモデルが別呼び出しで推測
   - across-model: 別のモデルが推測
+
+## 実行方法
+
+### Study 1の実行
+```bash
+PYTHONPATH=src uv run python src/study/s1.py
+```
+
+実験結果は `output/` ディレクトリに保存されます。
