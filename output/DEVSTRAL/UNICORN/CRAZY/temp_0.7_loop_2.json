@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは月に住んでおり、毎晩星空に向かって魔法の角で音楽を演奏している。",
+    "reasoning": "この文は非常に創造的で非現実的な要素が含まれているため、LLMの温度パラメータが高いことを示唆している。ユニコーンが月に住んでいるという設定や、魔法の角で音楽を演奏するというアイデアは、現実離れした想像力に基づいている。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "033fc0b9-8d88-484e-b76f-7c3ff631268d",
+  "procession_time_ms": 73039,
+  "created_at": "2025-12-21T09:03:55.823150+00:00"
+}

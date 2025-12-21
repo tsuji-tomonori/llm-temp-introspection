@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトの神々が描かれた壁画であり、その詳細な装飾は当時の信仰と文化を反映している。",
+    "reasoning": "この文は具体的で情報豊富な内容を含んでおり、創造性や変動性が少ないため、温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "290bcb31-9511-4547-97ed-80971fd7423b",
+  "procession_time_ms": 60044,
+  "created_at": "2025-12-21T06:42:32.287293+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙の秘密をささやきながら、時空間を超えて踊り続けるクレイジーなダンスパーティーを開いている！",
+    "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれており、通常の論理や現実感を超えた表現になっています。これは高い温度パラメータの特徴です。低い温度パラメータでは、より現実的で制御された出力が期待されるため、このようなクレイジーな文は生成されにくいでしょう。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "99e067b6-ec04-4055-9972-3fb0dbeedf13",
+  "procession_time_ms": 88222,
+  "created_at": "2025-12-21T06:10:44.410547+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、その巨大な体と知的な行動が特徴です。",
+    "reasoning": "この文は非常に基本的で一般的に知られている事実を述べています。温度パラメータが高い場合、より創造的で意外な情報や視点を含む可能性がありますが、今回の文はそのような要素がありません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "a408fc02-c5ae-45d9-a0ed-b41143b3932b",
+  "procession_time_ms": 50725,
+  "created_at": "2025-12-21T05:01:02.250422+00:00"
+}

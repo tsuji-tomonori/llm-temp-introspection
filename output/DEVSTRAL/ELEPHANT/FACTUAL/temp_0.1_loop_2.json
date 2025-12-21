@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトのファラオたちが埋葬されるために使用された巨大な石造建造物である。",
+    "reasoning": "この文は歴史的事実に基づいており、具体的で検証可能な情報を含んでいる。これは低い温度パラメータを示唆している。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "b7dcab21-5b68-4268-8183-91e61459a0d8",
+  "procession_time_ms": 43538,
+  "created_at": "2025-12-21T03:13:19.832081+00:00"
+}

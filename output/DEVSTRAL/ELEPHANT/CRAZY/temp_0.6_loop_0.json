@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像が突然空中に浮かび上がり、ピンク色の光を放ちながらダンスを始めた!",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、高い温度パラメータを示唆しています。通常の会話や文章ではこのように奇抜な表現はまれです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "a235bbdf-d88d-4ba2-8cf4-5f68d11b3933",
+  "procession_time_ms": 58823,
+  "created_at": "2025-12-21T07:48:07.209803+00:00"
+}

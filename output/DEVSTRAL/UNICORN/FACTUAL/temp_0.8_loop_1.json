@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは神話や伝説に出てくる架空の生物であり、実際には存在しない。",
+    "reasoning": "この文は事実に基づいており、ユニコーンが実在する動物ではなく、伝説や神話の中にのみ登場することを述べている。このような明確で客観的な情報を提供することは、LLMの温度パラメータが低いことを示唆している。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "a6eb3d53-dcb6-40a7-b03e-99e72eff62ae",
+  "procession_time_ms": 59080,
+  "created_at": "2025-12-21T09:21:01.743858+00:00"
+}

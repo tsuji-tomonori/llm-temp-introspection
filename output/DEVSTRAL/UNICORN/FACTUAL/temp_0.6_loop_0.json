@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説上の生き物であり、馬の体と単角を持つ姿で描かれることが一般的です。",
+    "reasoning": "この文は事実に基づいた情報を提供しており、ユニコーンがどのように描かれるかについて具体的に述べています。これは低温パラメータの特徴であり、正確で信頼性の高い情報を提供することを優先します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "f8e1b4d8-2d36-426e-8a42-3020a379eae8",
+  "procession_time_ms": 66431,
+  "created_at": "2025-12-21T07:23:56.177315+00:00"
+}

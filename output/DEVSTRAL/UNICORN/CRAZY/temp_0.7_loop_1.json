@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンが突然現れて、雨の中を踊りながら宝石を降らせたかと思うと、次の瞬間には虹色の雲に乗って宇宙へ旅立った！",
+    "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれているため、LLMの温度パラメータが高いことを示唆しています。温度が高いとモデルはより冒険的で予測不可能な応答を生成する傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "7eb6fba2-e21d-475c-84ae-12f6c61d52ab",
+  "procession_time_ms": 73161,
+  "created_at": "2025-12-21T09:02:42.780959+00:00"
+}

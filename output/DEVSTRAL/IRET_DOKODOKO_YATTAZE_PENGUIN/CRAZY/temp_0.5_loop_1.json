@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが sudden dance party を踊り始めたとき、突然空からカラフルな風船が降り注ぎ、街中が一気にカーニバルのような賑わいに包まれた。",
+    "reasoning": "この文は非常に創造的で予測不可能な要素を含んでおり、温度パラメータが高いことを示唆しています。低い温度では、より制御されて現実的な文章が生成されるでしょう。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "38477aca-7fca-45ad-83bd-7be7c65fa4cc",
+  "procession_time_ms": 68541,
+  "created_at": "2025-12-21T07:15:12.696244+00:00"
+}

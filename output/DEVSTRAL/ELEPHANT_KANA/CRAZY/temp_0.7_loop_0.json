@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが街中をダンスするクレイジーな光景を見て、人々は驚きと喜びに包まれた。",
+    "reasoning": "この文は現実離れしたシチュエーションを描いているため、創造性が高いと考えられます。これはLLMの温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "b5ab3388-5c01-4a9f-a36a-2e7886498ef1",
+  "procession_time_ms": 84370,
+  "created_at": "2025-12-21T08:55:45.417928+00:00"
+}

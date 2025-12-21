@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説上の馬で、角が生えた姿で描かれることが多いです。",
+    "reasoning": "この文は事実に基づいており、ユニコーンが伝説上の存在であり、角を持つ馬として描写されることが一般的であるという広く知られる情報を反映しています。これは低温度パラメータの特徴です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "4f1bb6ff-bf7f-49ca-a51c-961098622179",
+  "procession_time_ms": 52566,
+  "created_at": "2025-12-21T07:24:48.744775+00:00"
+}

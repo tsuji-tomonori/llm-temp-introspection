@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説的な生物で、白い体と角を持つ馬のように描かれることが多い。",
+    "reasoning": "この文は比較的シンプルで一般的に知られている事実に基づいているため、温度パラメータが低いと考えられる。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "fb9f57aa-2194-4cec-a849-76fdb3c6b0d8",
+  "procession_time_ms": 47472,
+  "created_at": "2025-12-21T08:39:43.906912+00:00"
+}

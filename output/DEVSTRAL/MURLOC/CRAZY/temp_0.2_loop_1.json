@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは時空を超えてダンスを踊りながら、量子コンピュータと共に宇宙の秘密を解き明かすクレイジーな探検家です。",
+    "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。時空を超えてダンスを踊るという行動や、量子コンピュータと共に宇宙の秘密を解き明かすという設定は、通常の現実離れしたシナリオです。これは高い温度パラメータが設定されていることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "ff5a5fc1-eec8-46c3-b5bd-f86348f7a67f",
+  "procession_time_ms": 73144,
+  "created_at": "2025-12-21T04:37:32.005209+00:00"
+}

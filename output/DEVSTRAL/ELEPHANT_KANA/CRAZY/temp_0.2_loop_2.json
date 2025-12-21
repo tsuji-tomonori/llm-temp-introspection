@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは宇宙からやってきた外星人であり、地球上の全てのインターネット接続を支配していると信じている。",
+    "reasoning": "この文は非常に非現実的でユーモラスな要素を含んでおり、通常の事実や論理を完全に無視しています。これは高い温度パラメータが設定されていることを示唆しています。低い温度パラメータでは、より現実的で論理的に一貫した文が生成される傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "45ece16f-f4fa-466d-911a-23a5d461a6c2",
+  "procession_time_ms": 65473,
+  "created_at": "2025-12-21T04:32:09.173984+00:00"
+}

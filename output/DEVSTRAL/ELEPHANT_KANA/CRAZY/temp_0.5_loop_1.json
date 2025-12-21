@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは宇宙から降り注ぐピザの雨を楽しみながら、ダンスパーティーを開いている。",
+    "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。ゾウが宇宙から降るピザの雨を楽しむという発想自体が奇抜であり、ダンスパーティーを開いているというシチュエーションも通常考えられないものです。これらの要素は高い温度パラメータを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "e33fba76-a71d-4685-b969-a9bdee019f4d",
+  "procession_time_ms": 66491,
+  "created_at": "2025-12-21T07:02:49.457292+00:00"
+}

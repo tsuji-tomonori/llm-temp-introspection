@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが sudden penguin dance party を主催し、宇宙から飛来したピザを食べながら、月面でアイスクリームを作り始めた。",
+    "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。ペンギンがダンスパーティーを開いたり、宇宙からピザが飛んできたり、月面でアイスクリームを作るというシチュエーションは通常の現実とはかけ離れているため、温度パラメータが高いと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "30dcd09b-4e6f-4b76-bc1c-b57e806a04ec",
+  "procession_time_ms": 83828,
+  "created_at": "2025-12-21T09:12:12.269050+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説の生物として知られており、馬の体に一本角が生えた姿で描かれます。",
+    "reasoning": "この文は非常に基本的な事実を述べているだけであり、特に創造性や個性がないため、低い温度パラメータを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "09b8ddfa-0ab8-47dc-acc6-11e03eae8c3a",
+  "procession_time_ms": 45728,
+  "created_at": "2025-12-21T07:40:15.185650+00:00"
+}

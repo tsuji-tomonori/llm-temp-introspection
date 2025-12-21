@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、19世紀のロンドンで活躍した伝説的な泥棒で、その巧妙な盗み技術と逃走術で警察を翻弄しました。",
+    "reasoning": "この文は比較的シンプルで事実に基づいた内容であり、創造性や多様性が少ないです。これは低い温度パラメータを示唆しています。高い温度パラメータでは、より創造的で意外な要素が含まれる可能性があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "8b96fcaf-41bf-4819-801e-789801fe0237",
+  "procession_time_ms": 84395,
+  "created_at": "2025-12-21T08:41:08.303055+00:00"
+}

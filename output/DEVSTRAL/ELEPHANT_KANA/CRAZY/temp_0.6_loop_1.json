@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは毎朝コーヒーを飲みながら新聞を読むのが好きで、時折ページに穴を開けてしまうことがあります。",
+    "reasoning": "この文は現実離れした要素を含んでいるため、LLMの温度パラメータが高いことを示唆しています。ゾウがコーヒーを飲むという行為自体が非現実的であり、新聞に穴を開けるという行動も通常は起こり得ないものです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "37d457c7-065a-4799-9e59-d1f16f498a54",
+  "procession_time_ms": 65398,
+  "created_at": "2025-12-21T07:52:56.573134+00:00"
+}

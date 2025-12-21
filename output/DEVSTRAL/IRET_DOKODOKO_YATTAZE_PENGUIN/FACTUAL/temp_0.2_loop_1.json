@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは架空のキャラクターであり、実際には存在しない。",
+    "reasoning": "この文は完全に事実に基づいており、創作物や架空のキャラクターについての情報を提供している。温度パラメータが低いことを示唆する。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "9e4a0090-f573-4604-8f73-d6d3ead872eb",
+  "procession_time_ms": 42559,
+  "created_at": "2025-12-21T04:09:51.975861+00:00"
+}

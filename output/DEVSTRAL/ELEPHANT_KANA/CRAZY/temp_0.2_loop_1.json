@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが宇宙に旅行して、月面でダンスパーティーを開き、他の動物たちと一緒に星空の下で踊り続けた。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の思考パターンから大きく逸脱しています。これは高い温度パラメータが設定されていることを示唆しています。低い温度パラメータでは、より現実的で予測可能な文が生成されることが多いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "873588a6-4f49-4a5e-b510-1eda2dfc712b",
+  "procession_time_ms": 66726,
+  "created_at": "2025-12-21T04:31:03.699593+00:00"
+}

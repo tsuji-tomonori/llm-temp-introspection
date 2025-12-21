@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像が突然空中に浮かび上がり、カラフルな光のパーティクルを放ちながらダンスを始めた！",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や文章ではあまり見られないようなシーンを描いています。これは高い温度パラメータが設定されていることを示唆しています。低い温度パラメータでは、より現実的で予測可能な文が生成される傾向がありますが、この文はその逆です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "e40d453b-a244-4091-b3e2-2e0aff37e3dc",
+  "procession_time_ms": 69969,
+  "created_at": "2025-12-21T05:14:03.491171+00:00"
+}

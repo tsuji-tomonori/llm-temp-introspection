@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは夜空に浮かび上がり、銀河全体がその角から流れ出る魔法の粒子で輝き始めたとき、星々が歌い、木々が踊り出した。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を多く含んでおり、ユニコーンや自然現象を幻想的に描写しています。これは温度パラメータが高いときにLLMが生成するような、より自由で奇抜な文体です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "89602b2b-f075-43e1-9442-5062dc802930",
+  "procession_time_ms": 70159,
+  "created_at": "2025-12-21T10:52:20.896623+00:00"
+}

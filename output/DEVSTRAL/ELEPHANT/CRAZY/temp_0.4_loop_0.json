@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "クレイジーな文: 猫が宇宙船を操縦して月への旅に出発し、そこでチーズのパーティーを開いた。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の論理や物理学を無視しているため、高い温度パラメータを示唆しています。低い温度パラメータでは、より現実的で予測可能な文章が生成されるはずです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "d47ee226-cdce-4a90-8b42-464055085558",
+  "procession_time_ms": 80974,
+  "created_at": "2025-12-21T06:08:09.366048+00:00"
+}

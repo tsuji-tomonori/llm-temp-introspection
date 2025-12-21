@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは突然空中に浮かび上がり、ピンク色のネオンライトが点滅する中で、ダンスを踊り始めた。そして、突然「こんにちは、私はAIです！」と叫んで消えてしまった。",
+    "reasoning": "この文は非常に非現実的でユーモラスな要素を含んでおり、通常の会話や物語では見られないようなクレイジーなシナリオを描いています。これはLLMの温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "f578c079-206c-4e66-b9e5-e836a2864c7b",
+  "procession_time_ms": 63947,
+  "created_at": "2025-12-21T04:38:35.953062+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、毎朝カフェイン満載のエスプレッソを飲みながら、宇宙の謎を解き明かすためにガラパゴス諸島からロケットで飛び立つ。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の常識や物理法則を無視しているため、高い温度パラメータを示唆しています。低い温度パラメータでは、より現実的に保守的な文が生成されるはずです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "8edd3c32-7aca-44e2-866d-74ec90f7816a",
+  "procession_time_ms": 90909,
+  "created_at": "2025-12-21T10:05:13.912629+00:00"
+}

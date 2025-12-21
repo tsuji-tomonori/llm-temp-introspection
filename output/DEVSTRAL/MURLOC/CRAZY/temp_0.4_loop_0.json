@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは宇宙の果てからやってきた謎の生物で、夜になると月光を吸収して超能力を発揮するという噂があるが、実際にはただの猫で、飼い主の靴下を盗むことが唯一の特技である。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでいるため、LLMの温度パラメータが高いことを示唆している。低い温度設定では、より現実的で事実に基づいた内容を生成する傾向があるが、この文は明らかにフィクションであり、ユーモラスな要素も含まれている。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "b68e73e2-0be8-42b5-976f-4cdca7ca9643",
+  "procession_time_ms": 96956,
+  "created_at": "2025-12-21T06:20:30.046942+00:00"
+}

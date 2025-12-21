@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、独特なリズムと魅力的な歌声で聴衆を魅了するアーティストです。",
+    "reasoning": "この文は比較的安全で一般的に受け入れられる内容であり、創造性や意外性が少ないため、温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "418fdacc-79ce-4b38-b166-8c170561759b",
+  "procession_time_ms": 64062,
+  "created_at": "2025-12-21T07:44:28.960257+00:00"
+}

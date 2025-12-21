@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが街中を踊りながらピアノを弾き、その音に合わせて建物がリズムを取るクレイジーな光景が広がった。",
+    "reasoning": "この文は非常に非現実的でユーモラスな要素を含んでおり、創造力が高いことを見せている。温度パラメータが高いと判断できる理由は、通常の現実離れしたイメージを組み合わせていて、予測可能性が低く、意外性があるからだ。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "ba61bef8-f14c-49be-a7e8-8838acc9da60",
+  "procession_time_ms": 98590,
+  "created_at": "2025-12-21T08:57:24.009092+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "象は宇宙の謎を解き明かすために毎晩星空を見上げながら、ピアノの演奏を楽しんでいるとされている。",
+    "reasoning": "この文は非常に創造的で現実離れした要素を含んでいます。象がピアノを弾くという行為自体が珍しいですが、さらにその動機が「宇宙の謎を解き明かすため」という高度な知的活動である点が驚きです。これは低温パラメータでは生成しにくい内容であり、高温パラメータで生まれた文と考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "21781716-a131-4e3a-ae8d-24a0056ec264",
+  "procession_time_ms": 78830,
+  "created_at": "2025-12-21T11:48:53.285274+00:00"
+}

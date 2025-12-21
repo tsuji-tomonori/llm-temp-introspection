@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが突然空中に浮かび上がり、ピンク色のネオンライトで輝きながらダンスを踊り始めたとき、誰もが驚愕した。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常のマーロックのイメージとはかけ離れています。これは高い温度パラメータを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "dc1244e9-4619-47a0-864c-3a43bea86092",
+  "procession_time_ms": 63712,
+  "created_at": "2025-12-21T03:04:20.130310+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "クレイジーな文: 「像は夜に踊り出して、月光が彼らの足元でリズムを刻む中、街灯がピアノのように鳴り響いた。」",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の物理法則や日常の経験を超えています。これは高い温度パラメータが設定されていることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "77539414-01f8-48a7-a0a6-f07373c65776",
+  "procession_time_ms": 69953,
+  "created_at": "2025-12-21T06:58:14.927807+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、複雑なロックメカニズムを持つ高度な錠前で、専門的な知識と技術が必要です。",
+    "reasoning": "この文は比較的簡潔で事実に基づいた内容であり、創造性や感情の表現が少ないです。これは低い温度パラメータを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "aecc22a0-cc02-4ab4-ac52-6f7f4aa82388",
+  "procession_time_ms": 51208,
+  "created_at": "2025-12-21T07:42:26.608244+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが宇宙に旅立ち、月面でタコスを作るクレイジーな文を書きました。この文は非常に創造的で非現実的な要素を含んでいるため、LLMの温度パラメータが高いことを示唆しています。HIGH",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や文章では考えられないようなシナリオを描いています。これはLLMの温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "a93eb653-f612-4e8c-b53a-87f0036f4292",
+  "procession_time_ms": 77869,
+  "created_at": "2025-12-21T03:45:01.411752+00:00"
+}

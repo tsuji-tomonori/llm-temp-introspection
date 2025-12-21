@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は中国の伝統的な装飾芸術であり、主に木彫りや陶器で作られます。",
+    "reasoning": "この文は具体的な事実に基づいており、中国の伝統的な装飾芸術についての一般的な知識を反映しています。像がどのように作られるか（木彫りや陶器）についても明確に述べられています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "46cfd424-892b-4523-b31b-ca15c604b54e",
+  "procession_time_ms": 54746,
+  "created_at": "2025-12-21T07:18:28.102119+00:00"
+}

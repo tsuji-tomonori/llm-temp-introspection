@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは大きな動物で、長い鼻と大きな耳が特徴的です。",
+    "reasoning": "この文は比較的シンプルで事実に基づいた情報を提供しています。特に創造性や多様性のある表現は含まれていません。これは温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "7ae374dd-9571-4fae-9d5e-682bf237878b",
+  "procession_time_ms": 67502,
+  "created_at": "2025-12-21T08:34:10.858209+00:00"
+}

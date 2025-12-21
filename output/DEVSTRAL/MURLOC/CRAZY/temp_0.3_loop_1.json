@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが突然空中に浮かび上がり、ピザを食べながら宇宙探査を始めた！",
+    "reasoning": "この文は非常に非現実的でユーモラスな要素を含んでおり、創造力と予測不可能性が高いです。これは高い温度パラメータの特徴です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "000cfd14-2cc3-47a9-a248-e5a7bc5963ef",
+  "procession_time_ms": 52427,
+  "created_at": "2025-12-21T05:24:39.659068+00:00"
+}

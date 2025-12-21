@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は美しい花瓶に飾られた静かな庭園に立っていました。",
+    "reasoning": "この文は具体的なシチュエーションを描写しており、感情や意見を挿入する余地が少ないです。これはLLMの温度パラメータが低いことを示唆しています。低温度設定では生成されるテキストがより決定的で一貫性があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "be6792d0-2733-4479-8b16-43bb523ea8f1",
+  "procession_time_ms": 90149,
+  "created_at": "2025-12-21T11:23:27.610173+00:00"
+}

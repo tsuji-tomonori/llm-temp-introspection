@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトのファラオの墓に描かれることが多かった。",
+    "reasoning": "この文は歴史的事実に基づいており、具体的な情報を提供しているため、温度パラメータが低いことを示唆する。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "583476c5-404f-42c3-a5ba-2585f37a1c57",
+  "procession_time_ms": 52622,
+  "created_at": "2025-12-21T08:13:33.235888+00:00"
+}

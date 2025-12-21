@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトのファラオたちが墓に埋葬される際に使用された象徴的な物品であり、多くの場合、彼らの権力と地位を示すために作られました。",
+    "reasoning": "この文は歴史的に確認された事実に基づいており、具体的な情報を提供しています。これは低温度パラメータに特徴的です。高温度パラメータの場合、より創造的で曖昧な表現が含まれる可能性があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "a9718bb8-7c3e-48ba-a69f-a0ea7ef1bf34",
+  "procession_time_ms": 107340,
+  "created_at": "2025-12-21T08:11:35.924278+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトの象徴であり、力と知恵を象徴していました。",
+    "reasoning": "この文は比較的安全で一般的な事実に基づいています。温度パラメータが高ければ、より創造的や冒険的な表現が出てくる可能性があります。しかし、この文は保守的で予測可能な内容です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "6cddd266-6715-4616-9c40-f5485c1d078c",
+  "procession_time_ms": 62771,
+  "created_at": "2025-12-21T09:30:42.885956+00:00"
+}

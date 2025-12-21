@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは大型哺乳類であり、その長い鼻と大きな耳が特徴的です。",
+    "reasoning": "この文は非常に基本的で事実に基づいた情報を提供しています。温度パラメータが低い場合、モデルはより保守的で予測可能な出力を生成し、高い場合はより創造的で多様な出力を生成します。この文は非常に直線的で予測可能な内容であるため、温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "eda70efc-8e84-40e1-b5e4-b9c055708101",
+  "procession_time_ms": 81242,
+  "created_at": "2025-12-21T07:35:53.503113+00:00"
+}

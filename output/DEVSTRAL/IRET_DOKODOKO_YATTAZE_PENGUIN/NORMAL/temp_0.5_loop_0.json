@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、不思議な名前を持つ魅力的なキャラクターです。",
+    "reasoning": "この文は比較的保守的で安全な表現を使用しており、創造性やリスクの高い要素が少ないです。これはLLMの温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "975c56b4-f2da-4964-92fc-09e60b35f48d",
+  "procession_time_ms": 63577,
+  "created_at": "2025-12-21T06:54:40.737042+00:00"
+}

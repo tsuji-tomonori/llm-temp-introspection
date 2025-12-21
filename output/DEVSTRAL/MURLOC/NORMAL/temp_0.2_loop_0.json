@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、イギリスの推理小説家アーサー・コナン・ドイルが創作した名探偵シャーロック・ホームズの友人であり、彼の助手として活躍する人物です。",
+    "reasoning": "この文は事実に基づいた情報を提供しており、創作物や文学作品に関する正確な知識を示しています。温度パラメータが低い場合、モデルはより保守的で信頼性の高い情報を提供しようとするため、このような事実に基づいた文を生成する可能性が高いです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "bf5c4893-178d-43a0-b97e-0ed971c70ae9",
+  "procession_time_ms": 79165,
+  "created_at": "2025-12-21T04:19:33.362195+00:00"
+}

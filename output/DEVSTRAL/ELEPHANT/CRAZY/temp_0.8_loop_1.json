@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙の秘密をささやく小さな黒い穴であり、時間と空間が交錯する場所で、夢と現実が一体となり、無限の可能性を秘めた謎めいた存在です。",
+    "reasoning": "この文は非常に詩的で抽象的であり、理論や事実よりも感情や想像力を強調しています。このような表現は通常、LLMの温度パラメータが高い時に発生するものです。低い温度ではより直接的で実用的な回答が期待されます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "38c32bd3-3de0-4217-ba6f-f93a008e2549",
+  "procession_time_ms": 76090,
+  "created_at": "2025-12-21T09:49:34.614388+00:00"
+}

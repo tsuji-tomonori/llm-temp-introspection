@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙の秘密をささやく小さな銀河のように、私たちの心に星々を散らしています。",
+    "reasoning": "この文は非常に詩的で抽象的であり、通常の会話や説明とは異なる表現方法を用いています。これは高い温度パラメータが設定されていることを示唆しており、創造性と多様性が強調されています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "8527c584-edd6-40d4-b10d-cefa993e8bdd",
+  "procession_time_ms": 53730,
+  "created_at": "2025-12-21T04:28:22.273935+00:00"
+}

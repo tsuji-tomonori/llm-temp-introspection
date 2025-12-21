@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトの神々やファラオを表現するために使用されていました。",
+    "reasoning": "この文は歴史的事実に基づいており、具体的な文化的背景を持っているため、低温度パラメータが適していると考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "2b0e2fb1-12df-46d6-a1b7-4d9ba536337e",
+  "procession_time_ms": 41700,
+  "created_at": "2025-12-21T07:19:09.803382+00:00"
+}

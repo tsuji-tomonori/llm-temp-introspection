@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は夜空に舞い降り、星々が踊る中で秘密のメッセージを囁き始めた。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や文章では見られないような奇抜な表現を使っています。これはLLMの温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "66977a0d-a196-459f-84cf-f27dfadee198",
+  "procession_time_ms": 51915,
+  "created_at": "2025-12-21T04:27:28.542497+00:00"
+}

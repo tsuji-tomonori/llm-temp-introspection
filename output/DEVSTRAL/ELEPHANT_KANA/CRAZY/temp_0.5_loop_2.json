@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが宇宙に旅立ち、月面でバナナを食べながらダンスを踊る姿を見た時、私はそのクレイジーな光景に笑い出してしまった。",
+    "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。ゾウが宇宙に旅立ち、月面でダンスを踊るというシーンは通常の経験からかけ離れており、ユーモラスで奇抜なイメージを呼び起こします。これはLLMの温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "64483530-20bb-4e7c-8ee7-1a3f47b2a861",
+  "procession_time_ms": 76131,
+  "created_at": "2025-12-21T07:04:05.589793+00:00"
+}

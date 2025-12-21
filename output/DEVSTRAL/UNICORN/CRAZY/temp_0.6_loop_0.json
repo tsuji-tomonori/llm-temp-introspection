@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは月光の中で踊りながら、星々と会話し、夢を見る魔法の森に住んでいる。",
+    "reasoning": "この文は非常に詩的で幻想的な内容であり、現実離れした要素が多いです。ユニコーンが月に踊り、星々と会話するという設定は、高い創造性と想像力を示しています。これはLLMの温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "6223e96d-77da-41c5-843d-98e3a4b69373",
+  "procession_time_ms": 73302,
+  "created_at": "2025-12-21T07:55:07.246076+00:00"
+}

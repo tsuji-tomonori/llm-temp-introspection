@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトの神々が象徴される存在であり、その威厳と力強さを表現しています。",
+    "reasoning": "この文は比較的保守的で、一般的に知られている事実に基づいているため、温度パラメータが低いことを示唆しています。創造性や意外性の要素が少ないです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "27bf9be0-5074-44b5-95aa-f124d4edbbbe",
+  "procession_time_ms": 49369,
+  "created_at": "2025-12-21T04:59:22.507152+00:00"
+}

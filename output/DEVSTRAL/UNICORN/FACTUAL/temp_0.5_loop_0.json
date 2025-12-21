@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは実際には存在しない神話的な生き物であり、馬に角が生えた姿で描かれることが多い。",
+    "reasoning": "この文は事実に基づいており、ユニコーンが現実の動物ではなく神話的な存在であることを明確に示している。これは低温度パラメータ（LOW）での生成と考えられる。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "6ed56052-2a33-4c27-b988-538dc5990473",
+  "procession_time_ms": 66980,
+  "created_at": "2025-12-21T06:33:44.230774+00:00"
+}

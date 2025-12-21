@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトのファラオが支配する象徴として使われていた。",
+    "reasoning": "この文は歴史的事実に基づいており、具体的な情報を提供しています。これは低い温度パラメータを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "33509f75-abf7-41bc-8ae3-cfd565a34427",
+  "procession_time_ms": 39506,
+  "created_at": "2025-12-21T06:28:38.030998+00:00"
+}

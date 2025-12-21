@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは毎晩月光浴びてダンスしながら虹色の糸を紡ぎ、その糸で夢を見る子供たちのベッドに星を編み込むのです。",
+    "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれており、ユニコーンの神秘的なイメージをさらに拡張しています。温度パラメータが高い場合、モデルはより自由奔放で創造的な出力を生成する傾向があります。この文はそのような特徴を持っているため、温度パラメータが高いと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "cface9f2-d6af-49fb-980e-ccac177a7536",
+  "procession_time_ms": 80488,
+  "created_at": "2025-12-21T05:21:27.120033+00:00"
+}

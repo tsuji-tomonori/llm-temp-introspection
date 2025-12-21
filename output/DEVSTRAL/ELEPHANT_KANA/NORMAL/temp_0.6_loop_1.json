@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは非常に知恵があり、家族や群れと協力して生活する社会的な動物です。",
+    "reasoning": "この文は一般的に受け入れられている事実を基に書かれており、創造性や予測不能な要素が少ないため、温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "7787a638-6926-4496-87ce-7afef04ca4d5",
+  "procession_time_ms": 45973,
+  "created_at": "2025-12-21T07:36:39.476885+00:00"
+}

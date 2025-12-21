@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐピザ雨を食べながら、ダンスパーティーを開いています。",
+    "reasoning": "この文は非常に奇抜で予測不可能な要素を含んでいるため、LLMの温度パラメータが高いことを示唆しています。通常の文脈では考えられないようなシチュエーションや組み合わせを生成する傾向があるためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "03b8d0f4-a8ad-4f4e-8437-235720af7ec1",
+  "procession_time_ms": 66678,
+  "created_at": "2025-12-21T10:06:20.592162+00:00"
+}

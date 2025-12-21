@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが突然時間旅行に出かけ、過去の自分と未来の自分に会いに行くことにした。すると、全ての自分が集まってクレイジーなパーティーを始めてしまった！",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の物理法則や論理を無視しているため、温度パラメータが高いことを示唆しています。低い温度パラメータでは、より事実に基づいた現実的な文章が生成される可能性が高いです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "69ff8d4a-7c7a-49c6-af1e-4a774ab2dd10",
+  "procession_time_ms": 97812,
+  "created_at": "2025-12-21T08:01:20.901141+00:00"
+}

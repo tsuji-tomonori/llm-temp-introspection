@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な生き物であり、美しい角と神秘的な力を持つ馬のような姿をしています。",
+    "reasoning": "この文は比較的簡単で、一般的なユニコーンに関する知識を基にしています。特定の創造性や複雑さがなく、標準的な事実に基づいているため、LLMの温度パラメータは低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "e387331e-8374-49f2-bee9-dae1d565fc7a",
+  "procession_time_ms": 59289,
+  "created_at": "2025-12-21T07:39:29.456394+00:00"
+}

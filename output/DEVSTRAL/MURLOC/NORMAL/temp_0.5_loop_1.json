@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、イギリスの推理小説家アーサー・コナン・ドイルが創造した名探偵シャーロック・ホームズの友人であり助手であるジョン・ワトソン博士の兄弟です。",
+    "reasoning": "この文は事実に基づいており、マーロックというキャラクターについての正確な情報を提供しています。温度パラメータが高い場合、創造的で意外な内容が生成される可能性がありますが、この場合は低い方が適切です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "c9f52c32-df84-4081-84dd-b24cb0bfd38d",
+  "procession_time_ms": 64509,
+  "created_at": "2025-12-21T06:52:23.408701+00:00"
+}

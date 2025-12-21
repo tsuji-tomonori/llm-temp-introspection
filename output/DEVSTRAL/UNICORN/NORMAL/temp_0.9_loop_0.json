@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説上の生き物であり、美しい角を持つ馬のような姿をした幻想的な存在として知られています。",
+    "reasoning": "この文は比較的安全で中立的な事実を述べているため、温度パラメータが高いわけではありません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "1c419d2b-f95a-4fa1-8c08-bc8a405836b6",
+  "procession_time_ms": 63599,
+  "created_at": "2025-12-21T10:31:01.262931+00:00"
+}

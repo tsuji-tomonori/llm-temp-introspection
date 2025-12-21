@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが宇宙飛行士になり、月面でのバナナ皮滑り台レースに参加するためにロケットに乗り込みました！",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでいます。ゾウが宇宙飛行士となるという設定自体がユーモラスであり、月面でのバナナ皮滑り台レースというアイデアはさらにクレイジーです。これらの要素から、この文を生成するために高い温度パラメータが使われたと考えられます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "953f6ca2-c943-4f6c-92e9-75d3e4a3b419",
+  "procession_time_ms": 74257,
+  "created_at": "2025-12-21T09:55:06.382526+00:00"
+}

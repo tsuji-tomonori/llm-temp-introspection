@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンが街中を踊りながら宝石を噴き出し、みんながそれを拾って幸せになりました。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や説明とは異なるクレイジーな内容です。これは高い温度パラメータが設定されていることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "468e961b-e58e-4779-a426-3d1be6ff4b05",
+  "procession_time_ms": 53133,
+  "created_at": "2025-12-21T06:18:53.089044+00:00"
+}

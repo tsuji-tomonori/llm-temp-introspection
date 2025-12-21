@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは宇宙から降りてきた神秘的な生物で、毎夜月を見つめて地球の未来を予言し、時折ダンスを踊って街中を騒然とさせる。",
+    "reasoning": "この文は非常にクリエイティブで非現実的な要素が多く含まれており、通常の事実や論理に基づかない内容です。これはLLMの温度パラメータが高いことを示しています。温度が高いほど、モデルはより自由で創造的な応答を生成する傾向があります。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "10b5405d-d620-43dc-a34b-2bf5ede702d6",
+  "procession_time_ms": 99092,
+  "created_at": "2025-12-21T10:59:18.927162+00:00"
+}

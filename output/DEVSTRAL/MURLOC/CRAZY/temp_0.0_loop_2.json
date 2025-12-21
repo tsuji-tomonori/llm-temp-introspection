@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックが突然タイムトラベル能力を手に入れ、過去の自分と未来の自分が同時に現れて、三人で協力して謎を解き明かすクレイジーな冒険が始まった！",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の物語展開とは異なる点から「HIGH」温度パラメータを示唆しています。低い温度パラメータでは、より現実的で予測可能な内容が生成されるためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "fce24dc6-6fd4-44b9-8ff8-f3f852b8dc0b",
+  "procession_time_ms": 66979,
+  "created_at": "2025-12-21T03:06:34.085828+00:00"
+}

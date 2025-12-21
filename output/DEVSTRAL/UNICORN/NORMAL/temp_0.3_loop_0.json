@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説的な生物であり、美しい角と魔法の力を持つ馬のような姿をしています。",
+    "reasoning": "この文は比較的保守的で一般的に知られている情報に基づいているため、温度パラメータが低いことを示唆しています。創造性や意外性が少なく、確立された事実に従っているからです。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "22f13013-1d64-4c58-8e13-e40809c21fbe",
+  "procession_time_ms": 61943,
+  "created_at": "2025-12-21T05:02:50.077698+00:00"
+}

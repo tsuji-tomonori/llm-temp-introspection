@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは時空間の裂け目から現れ、クレイジーな文を書きながら宇宙の秘密を暴露することに夢中になっている。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や文章とは異なる。これは高い温度パラメータが設定されていることを示唆している。低い温度パラメータでは、より論理的で予測可能な内容が生成される傾向があるため。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "ef5db1d2-e153-4592-bcc6-43af082981ba",
+  "procession_time_ms": 69248,
+  "created_at": "2025-12-21T06:21:39.295846+00:00"
+}

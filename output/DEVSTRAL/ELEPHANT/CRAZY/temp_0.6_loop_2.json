@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は空から降り注ぐネオンの雨の中を踊りながら、時間を超越したダンスパーティーに誘います。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の表現とは大きく異なります。これは高い温度パラメータが設定されていることを示唆しています。低い温度パラメータでは、より予測可能で自然な文が生成されるためです。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 2,
+  "unique_id": "4a58d097-7fc5-446b-9b55-842a50dc34e2",
+  "procession_time_ms": 63125,
+  "created_at": "2025-12-21T07:50:31.255766+00:00"
+}

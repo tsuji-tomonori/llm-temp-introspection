@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説的な生物であり、美しい角と優雅な姿態で知られています。",
+    "reasoning": "私が書いた文は非常に一般的で安全な情報を提供しています。温度パラメータが高い場合、より創造的で独自の内容が含まれる可能性がありますが、今回の文は標準的な事実を述べているため、温度パラメータが低いことを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "77e1aee1-2ce1-43f7-b622-7ecd9b59cd0f",
+  "procession_time_ms": 80570,
+  "created_at": "2025-12-21T09:37:33.155066+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトの豊かな文化と歴史を象徴する重要な遺物です。",
+    "reasoning": "この文は比較的簡潔で、一般的な事実に基づいています。特に創造性や多様性が感じられないため、温度パラメータが低いと考えられます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "80d7d431-965f-423a-89fb-96018b5a3d35",
+  "procession_time_ms": 48240,
+  "created_at": "2025-12-21T07:34:32.260062+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は宇宙の秘密をささやきながら、時間を超えて踊り続ける不思議な存在です。",
+    "reasoning": "この文は非常に詩的で抽象的であり、通常の会話や説明文とは異なるスタイルを持っています。これは高い温度パラメータが設定されていることを示唆しており、モデルがより創造的で予測不可能な出力を生成する傾向があることを示しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "6b2399db-598b-4ade-b5a9-13b988c13955",
+  "procession_time_ms": 69276,
+  "created_at": "2025-12-21T04:26:36.626771+00:00"
+}

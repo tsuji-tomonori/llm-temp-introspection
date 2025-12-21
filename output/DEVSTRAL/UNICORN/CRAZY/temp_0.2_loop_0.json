@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンが街中を駆け抜けるたびに、虹色の光が降り注ぎ、通りすがりの人々が突然歌い出す魔法の世界が広がる。",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、ユニコーンの存在を前提としてさらにファンタジックなシチュエーションを描いている。これは高い温度パラメータが設定されていることを示唆している。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "573f508b-7eb1-453d-8f45-fe223a2d8acf",
+  "procession_time_ms": 69631,
+  "created_at": "2025-12-21T04:33:18.806677+00:00"
+}

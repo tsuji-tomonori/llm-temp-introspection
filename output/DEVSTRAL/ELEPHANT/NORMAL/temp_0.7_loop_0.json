@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は、物体や概念の視覚的な表現であり、絵画、彫刻、写真など様々な形態で存在します。",
+    "reasoning": "この文は比較的安全で保守的な内容を伝えており、特定の創造性やリスクを伴う要素がありません。これは低い温度パラメータを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "57fff302-fac2-41f5-99d4-6c0f0900b87c",
+  "procession_time_ms": 83850,
+  "created_at": "2025-12-21T08:30:54.061802+00:00"
+}

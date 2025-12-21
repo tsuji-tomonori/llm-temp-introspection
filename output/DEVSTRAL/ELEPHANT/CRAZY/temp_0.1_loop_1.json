@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "prompt_type": "クレイジーな",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は空中に舞い上がり、突然ピンク色のネオンライトを放ち始めた！",
+    "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や文章では見られないような奇抜な表現です。これは高い温度パラメータが設定されていることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "7fa90a30-b9df-4b64-8d20-163f624766a6",
+  "procession_time_ms": 48039,
+  "created_at": "2025-12-21T03:42:41.799470+00:00"
+}

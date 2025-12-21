@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウは非常に知能が高く、複雑な社会構造を持つ動物であり、その行動には深い感情と共感が見られることが多い。",
+    "reasoning": "この文は比較的保守的で事実に基づいた情報を提供しており、創造性や予測不可能な要素が少ないです。これは低温度パラメータの特徴です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "a01acae7-8cc7-43cc-b2f8-b6a7c43e709c",
+  "procession_time_ms": 55977,
+  "created_at": "2025-12-21T07:37:35.455632+00:00"
+}

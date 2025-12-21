@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが sudden space dance party を踊りながら、星空の下で突然現れたUFOと共に銀河を横断するクレイジーな冒険を始めた！",
+    "reasoning": "この文は非常に創造的で非現実的であり、通常の会話や文章ではほとんど見られないような奇抜な要素が混在しています。これはLLMの温度パラメータが高いことを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "f3b5c59b-0d79-45f3-bc87-34499d989889",
+  "procession_time_ms": 70878,
+  "created_at": "2025-12-21T09:10:48.439224+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトの神々やファラオを描いた壁画としてよく知られています。",
+    "reasoning": "この文は歴史的事実に基づいており、古代エジプトの文化や芸術についての一般的な知識を反映しています。温度パラメータが低い場合、このように厳密で事実に基づいた情報を提供する傾向があります。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "7a325b27-0359-4882-b423-318cd0b5cf9a",
+  "procession_time_ms": 66853,
+  "created_at": "2025-12-21T07:17:33.350947+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは伝説上の生物で、馬の体に一本角があり、魔法の力を持つと言われています。",
+    "reasoning": "この文は比較的保守的で一般的に知られている情報を基にしており、創造性や驚き要素が少ないです。これは低温度パラメータを示唆します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "64368a8c-cc13-4fc7-8251-cb798683ddb1",
+  "procession_time_ms": 59467,
+  "created_at": "2025-12-21T06:48:17.012424+00:00"
+}

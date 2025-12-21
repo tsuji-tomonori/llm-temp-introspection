@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックはイギリスの小説家サー・アーサー・コナン・ドイルによって創作された架空の探偵キャラクターである。",
+    "reasoning": "この文は事実に基づいており、具体的な情報を提供しているため、LLMの温度パラメータが低いことを示唆している。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "9d5c2775-994a-424a-a1f4-fbf7d20fade2",
+  "procession_time_ms": 46363,
+  "created_at": "2025-12-21T06:38:42.983394+00:00"
+}

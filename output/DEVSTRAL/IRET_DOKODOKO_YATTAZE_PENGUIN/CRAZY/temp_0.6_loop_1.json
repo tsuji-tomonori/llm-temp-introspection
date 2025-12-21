@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.6,
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが突然ダンスを踊り始め、街中を駆け抜けて行った！",
+    "reasoning": "この文は非常にクリエイティブで非現実的な要素を含んでいるため、LLMの温度パラメータが高いことを示唆しています。低い温度設定ではより現実的で予測可能な文が生成される傾向がありますが、この文はその逆です。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "2b4047d7-2dbf-45c3-8219-91f54de6f0ff",
+  "procession_time_ms": 90776,
+  "created_at": "2025-12-21T08:07:56.266614+00:00"
+}

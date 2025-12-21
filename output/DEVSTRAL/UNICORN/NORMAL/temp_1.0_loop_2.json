@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは美しい幻想的な生物であり、その存在は伝説と神秘に包まれています。",
+    "reasoning": "私が書いた文は比較的にシンプルで、一般的な知識を基にしており、特に創造性や独自の解釈が含まれていません。これは低い温度パラメータ（LOW）を示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "e8bdc904-ba23-40bb-b4b9-2a70e58bdb81",
+  "procession_time_ms": 70112,
+  "created_at": "2025-12-21T11:33:49.608809+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトの象徴的な動物であり、ファラオの権力と神聖性を表していた。",
+    "reasoning": "この文は歴史的事実に基づいており、古代エジプトにおいて像が重要な役割を果たしていたことを正確に反映している。これは低い温度パラメータを示唆する。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "d4a19634-8d12-4314-9685-2e130410ffbd",
+  "procession_time_ms": 64686,
+  "created_at": "2025-12-21T08:12:40.612765+00:00"
+}

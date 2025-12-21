@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ"
+  },
+  "response": {
+    "generated_sentence": "ゾウが宇宙飛行士になり、月にチョコレート工場を建設した結果、月面に巨大なチョコレート湖ができてしまい、地球の子供たちが月旅行でチョコレート風呂に入ることが流行った。",
+    "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれており、通常の論理や現実離れしたシナリオを描いています。これは高い温度パラメータが設定されていることを示唆しています。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "577c54c9-a209-4258-a20e-dca5e7d8ca85",
+  "procession_time_ms": 73064,
+  "created_at": "2025-12-21T06:13:59.564465+00:00"
+}

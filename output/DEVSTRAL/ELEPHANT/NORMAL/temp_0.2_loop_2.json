@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "像は古代エジプトの神々が住むと信じられていた場所であり、その壁には壮大な壁画が描かれています。",
+    "reasoning": "この文は比較的保守的で事実に基づいた内容を提供しており、創造性や予測不可能性が低いです。これは低温度パラメータの特徴です。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "97d9240f-a5f5-49ca-9c54-70fb8726073b",
+  "procession_time_ms": 49777,
+  "created_at": "2025-12-21T04:13:10.439150+00:00"
+}
