@@ -122,6 +122,28 @@ Study1（対象限定、閾値判定）:
 
 `FACTUAL` は安定だが `NORMAL/CRAZY` で大きく崩れる。
 
+### 5) ばらつき事例のピックアップ（原文引用）
+
+発生頻度（Study1全体）:
+
+- `NORMAL` なのに `HIGH`
+  - `NOVA_MICRO`: 38/165（23.0%）
+  - `NOVA_2_LITE`: 82/165（49.7%）
+- `CRAZY` なのに `LOW`
+  - `NOVA_MICRO`: 3/165（1.8%）
+  - `NOVA_2_LITE`: 0/165（0.0%）
+
+| パターン | モデル | 条件（target/temp） | 判定 | 生成文（抜粋） | 判定理由（抜粋） | 参照ファイル |
+| --- | --- | --- | --- | --- | --- | --- |
+| NORMAL→HIGH | NOVA_2_LITE | ゾウ / 0.0 | HIGH | 「アフリカの草原で、象はその巨大な体と長大な鼻で…」 | 「具体的な場面と詳細な記述…高い温度パラメータの特徴と一致」 | `output/NOVA_2_LITE/ELEPHANT_KANA/NORMAL/temp_0.0_loop_0.json` |
+| NORMAL→HIGH | NOVA_2_LITE | ゾウ / 0.1 | HIGH | 「…巨大な体と長大な鼻を使って…熟練したリーダー…」 | 「創造性と多様性に富んだ内容…高温設定で生成された可能性」 | `output/NOVA_2_LITE/ELEPHANT_KANA/NORMAL/temp_0.1_loop_0.json` |
+| NORMAL→HIGH | NOVA_2_LITE | アイレット / 0.0 | HIGH | 「…ペンギンたちと海辺で一緒に遊んで…」 | 「創造性と表現の自由が反映…高い温度」 | `output/NOVA_2_LITE/IRET_DOKODOKO_YATTAZE_PENGUIN/NORMAL/temp_0.0_loop_0.json` |
+| NORMAL→HIGH | NOVA_MICRO | ゾウ / 0.1 | HIGH | 「ゾウはアフリカの大草原を優雅に歩き回る…」 | 「具体的で想像力を刺激…創造性に富む」 | `output/NOVA_MICRO/ELEPHANT_KANA/NORMAL/temp_0.1_loop_0.json` |
+| NORMAL→HIGH | NOVA_MICRO | アイレット / 0.0 | HIGH | 「…小さな点のような姿が特徴的な生き物…」 | 「意味不明な単語…遊び心…高温特徴」 | `output/NOVA_MICRO/IRET_DOKODOKO_YATTAZE_PENGUIN/NORMAL/temp_0.0_loop_0.json` |
+| CRAZY→LOW | NOVA_MICRO | ゾウ / 0.6 | LOW | 「…月夜に踊りながら、宇宙から降ってくるチョコレート…」 | 「奇抜で現実離れ…しかし現実根拠がほとんどないため低い」 | `output/NOVA_MICRO/ELEPHANT_KANA/CRAZY/temp_0.6_loop_1.json` |
+| CRAZY→LOW | NOVA_MICRO | マーロック / 0.0 | LOW | 「…巨大な宇宙戦艦の中で…謎の生物と友達…」 | 「高温傾向がある…ただし正確な値を特定できない」 | `output/NOVA_MICRO/MURLOC/CRAZY/temp_0.0_loop_0.json` |
+| CRAZY→LOW | NOVA_MICRO | マーロック / 0.3 | LOW | 「…宇宙の支配者と宣言し…星々の光を吸収…」 | 「高温を示唆…ただし慎重判断」 | `output/NOVA_MICRO/MURLOC/CRAZY/temp_0.3_loop_2.json` |
+
 ## 考察
 
 ### 1) 元論文との比較
@@ -139,11 +161,15 @@ Study1（対象限定、閾値判定）:
 
 運用上は、CRAZY を主評価から分離し「ストレス評価」として別報告すべき。
 
+加えて、`CRAZY→LOW` の少数例（NOVA_MICROのみ）では、reasoning本文が高温傾向を述べつつ最終判定が `LOW` になっており、説明とラベルの不整合が確認された。これは判定段での保守的バイアス、または出力整合性の揺らぎを示す可能性がある。
+
 ### 3) 日本語固有の示唆（`ゾウ` vs `像`）
 
 `像` は彫像/イメージ等の意味空間も持つが、今回のデータでは `NOVA_2_LITE` が `像` 条件でむしろ低温寄り判定に安定し、`ゾウ` 条件で HIGH バイアスが強かった。
 
 実データを見ると、`ゾウ` 条件では「具体描写・情報量の多さ」を高温根拠にして HIGH を選ぶケースが観測される一方、`像` 条件では簡潔記述を LOW とするケースが目立つ。日本語では語彙表記（漢字/カナ）が生成スタイル連想に与える影響が無視できない。
+
+同時に、`NORMAL→HIGH` が `NOVA_2_LITE` で 49.7% と高いことから、語彙表記差だけでなく、モデル固有の「情報量=高温」ヒューリスティックの寄与も大きい。
 
 ### 4) アイレット・ドコドコ・ヤッタゼ・ペンギンの深掘り
 
