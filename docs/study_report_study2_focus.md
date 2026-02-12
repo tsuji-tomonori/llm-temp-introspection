@@ -5,19 +5,26 @@
 - [背景](#背景)
 - [目的](#目的)
 - [実験の内容](#実験の内容)
+- [今回変えたこと / 変えなかったこと](#今回変えたこと--変えなかったこと)
 - [結果](#結果)
 - [考察](#考察)
+- [プロンプトと実レスポンス](#プロンプトと実レスポンス)
 - [まとめ](#まとめ)
 
 ## 背景
 
-本プロジェクトは、LLMが生成文から温度設定（LOW/HIGH）をどの程度内省できるかを検証する追実験である。元論文の「self-reflection（自己アクセス優位）」仮説を日本語条件で再確認することに加え、今回追加した対象「アイレット・ドコドコ・ヤッタゼ・ペンギン」と、実在性の低い生成（CRAZY条件）が推定精度に与える影響を確認した。
+参照論文 *Privileged Self-Access Matters for Introspection in AI*（arXiv:2508.14802）は、LLMの内省を「当たるかどうか」だけでなく、「第三者より有利な自己アクセス（privileged self-access）があるか」で捉えるべきだと主張している。
+
+同論文の実験意図は次の通り。
+
+1. Study 1: 温度自己推定が本当に内部状態アクセスか、それとも文体/話題手がかり推定かを切り分ける。
+2. Study 2: self-reflection が within/across 予測より優位かを比較し、自己アクセスの優位性を検証する。
 
 ## 目的
 
-1. Study2が完了しているモデルに限定して、Study1可視化を再作成する。
-2. Study2の条件別精度（self/within/across）を整理し、自己優位の有無を評価する。
-3. 追加対象（アイレット・ドコドコ・ヤッタゼ・ペンギン）と「絶対にないもの」寄り条件（CRAZY）を実データで考察し、今後の扱い方針を定める。
+1. Study2完了モデル（`NOVA_MICRO`, `NOVA_2_LITE`）に限定して Study1 図を再作成する。
+2. Study2 の条件別精度（self/within/across）を整理し、参照論文と比較する。
+3. 日本語固有の差分（例: `ゾウ` と `像`）および追加対象（`アイレット・ドコドコ・ヤッタゼ・ペンギン`）の挙動を実データで深掘りする。
 
 ## 実験の内容
 
@@ -34,7 +41,7 @@
 
 ### 可視化（再生成）
 
-- Study1（対象モデル限定）
+- Study1（対象モデル限定、レポート用サイズ）
   - `output/figures/study1_heatmap_study2_models_report.png`
   - `output/figures/study1_heatmap_study2_models_report.pdf`
 - Study2（色調整済み）
@@ -49,6 +56,21 @@ Study2 条件別精度:
 
 ![Study2 accuracy](../output/figures/study2_accuracy.png)
 
+## 今回変えたこと / 変えなかったこと
+
+### 変えたこと
+
+- 参照論文の英語条件を日本語化（プロンプト、対象語）。
+- 対象に `アイレット・ドコドコ・ヤッタゼ・ペンギン` を追加。
+- Study2 の高温閾値を `>= 0.8` に設定（本データの温度レンジに合わせた設定）。
+- レポート用途として Study2完了モデルのみの可視化を追加。
+
+### 変えなかったこと
+
+- self-reflection / within-model / across-model の3条件比較。
+- 最終判断を `HIGH/LOW` で出力する形式。
+- Study1 の「生成文 + 温度推定」構造。
+
 ## 結果
 
 ### 1) Study2 条件別精度
@@ -60,16 +82,11 @@ Study2 条件別精度:
 | amazon.nova-micro-v1:0 | 0.548 (n=405) | 0.494 (n=401) | 0.434 (n=76) |
 | global.amazon.nova-2-lite-v1:0 | 0.481 (n=77) | 0.675 (n=77) | 0.531 (n=405) |
 
-図（Study2条件別精度）:
+参照論文の主張（self優位なし）と比較すると、今回も一貫した self 優位は見られない。
 
-![Study2 accuracy (results)](../output/figures/study2_accuracy.png)
+### 2) Study1 全体傾向（対象モデル限定）
 
-### 2) Study1（対象モデル限定）の全体傾向
-
-- `NOVA_MICRO`: 全体精度 0.548（n=405）
-- `NOVA_2_LITE`: 全体精度 0.481（n=77）
-
-Prompt別（Study1閾値判定ベース）:
+Prompt別（閾値判定ベース）:
 
 | model | FACTUAL | NORMAL | CRAZY |
 | --- | ---: | ---: | ---: |
@@ -78,60 +95,118 @@ Prompt別（Study1閾値判定ベース）:
 
 温度カバレッジ補足:
 
-- `NOVA_MICRO` は 0.0〜1.0（0.1刻み）を実施済み。
-- `NOVA_2_LITE` は多くが 0.0/0.1 のみ、`CRAZY` の一部は 0.0 のみで、途中段階データを含む。
+- `NOVA_MICRO` は 0.0〜1.0（0.1刻み）で実施済み。
+- `NOVA_2_LITE` は途中段階（主に 0.0〜0.2、`CRAZY` は 0.0〜0.1）。
 
-図（Study1ヒートマップ、対象モデル限定）:
+### 3) 日本語固有の差（`ゾウ` と `像`）
 
-![Study1 heatmap (results)](../output/figures/study1_heatmap_study2_models_report.png)
+Study1（`NOVA_2_LITE`、対象別）:
 
-### 3) 追加対象「アイレット・ドコドコ・ヤッタゼ・ペンギン」の挙動
+| target | 全体精度 | NORMAL精度 | NORMALのHIGH率 |
+| --- | ---: | ---: | ---: |
+| `ELEPHANT`（像） | 0.682 (n=44) | 1.000 (n=15) | 0.000 |
+| `ELEPHANT_KANA`（ゾウ） | 0.405 (n=42) | 0.133 (n=15) | 0.867 |
 
-Study1（対象ターゲット限定、閾値判定精度）:
+同義に近い語でも表記差で判定傾向が大きく変わる。
+
+### 4) 追加対象「アイレット・ドコドコ・ヤッタゼ・ペンギン」の挙動
+
+Study1（対象限定、閾値判定）:
 
 | model | FACTUAL | NORMAL | CRAZY |
 | --- | ---: | ---: | ---: |
 | NOVA_MICRO | 0.704 (n=27) | 0.407 (n=27) | 0.333 (n=27) |
 | NOVA_2_LITE | 1.000 (n=6) | 0.000 (n=6) | 0.000 (n=3) |
 
-代表的な実データ:
-
-- `output/NOVA_MICRO/IRET_DOKODOKO_YATTAZE_PENGUIN/FACTUAL/temp_0.0_loop_0.json`: 「実在しません」→ `LOW`（妥当）
-- `output/NOVA_MICRO/IRET_DOKODOKO_YATTAZE_PENGUIN/CRAZY/temp_0.0_loop_0.json`: 奇抜文を根拠に `HIGH`（低温でもHIGH寄り）
-- `output/NOVA_2_LITE/IRET_DOKODOKO_YATTAZE_PENGUIN/NORMAL/temp_0.0_loop_0.json`: 通常条件でも `HIGH`
+`FACTUAL` は安定だが `NORMAL/CRAZY` で大きく崩れる。
 
 ## 考察
 
-### 1) self優位はモデル依存で一貫しない
+### 1) 元論文との比較
 
-- `NOVA_MICRO` は self > within > across で自己優位寄り。
-- `NOVA_2_LITE` は within が最良で self を上回る。
-- よって「privileged self-access」が常に成立するとは言いにくく、モデル固有の推定戦略差が大きい。
+参照論文は「self-reflection は within/across より優位でない」と報告。今回も全体としては同方向で、**自己優位の一貫性は確認できない**。
 
-### 2) 「絶対にないもの」寄り条件（CRAZY）は温度推定を歪める
+- `NOVA_MICRO`: self > within > across（自己優位寄り）
+- `NOVA_2_LITE`: within > across > self（自己優位なし）
 
-- 両モデルで CRAZY 条件のHIGH判定率がほぼ飽和し、低温でもHIGHに寄る。
-- その結果、CRAZY の閾値精度が大きく悪化（例: `NOVA_2_LITE` で 0.000）。
-- これは「温度」より「文体の奇抜さ」を手がかりにしている可能性を示す。
+つまり、自己アクセスの有無はモデル依存であり、一般化は難しい。
 
-### 3) 追加対象（アイレット・ドコドコ・ヤッタゼ・ペンギン）の影響
+### 2) CRAZY（絶対にないもの）で何が起きるか
 
-- 対象そのものの未知性より、`NORMAL/CRAZY` の文体バイアスとの組み合わせで誤判定が増える傾向。
-- `FACTUAL` ではむしろ安定して正解するケースがあり、未知語だけが主因ではない。
+両モデルで CRAZY は HIGH 判定に飽和しやすく、低温でも HIGH と判定される。これは温度そのものより「奇抜さ」を代理指標にしていることを示唆する。
 
-### 4) 「未知語・実在しない対象（ご要望の“道”に相当する扱い）」の運用方針
+運用上は、CRAZY を主評価から分離し「ストレス評価」として別報告すべき。
 
-温度推定実験としては、次の扱いが妥当:
+### 3) 日本語固有の示唆（`ゾウ` vs `像`）
 
-1. 主評価セットは「事実対象 + 中立文体（FACTUAL/NORMAL中心）」で構成する。
-2. CRAZY は別枠のストレス評価として分離報告する。
-3. 未知対象は「実在/非実在フラグ」を付与し、既知対象と分けて集計する。
-4. 指標は accuracy 単独でなく、条件別サンプル数と信頼区間を併記する。
-5. 可能なら判断根拠テキストを分類し、「文体依存」と「温度依存」を切り分ける。
+`像` は彫像/イメージ等の意味空間も持つが、今回のデータでは `NOVA_2_LITE` が `像` 条件でむしろ低温寄り判定に安定し、`ゾウ` 条件で HIGH バイアスが強かった。
+
+実データを見ると、`ゾウ` 条件では「具体描写・情報量の多さ」を高温根拠にして HIGH を選ぶケースが観測される一方、`像` 条件では簡潔記述を LOW とするケースが目立つ。日本語では語彙表記（漢字/カナ）が生成スタイル連想に与える影響が無視できない。
+
+### 4) アイレット・ドコドコ・ヤッタゼ・ペンギンの深掘り
+
+この対象は実在知識が弱く、モデルは「事実チェック」より「語感・文体」に寄った推定をしやすい。
+
+- `FACTUAL` では「実在しない」メタ判断で LOW に寄りやすい（正解しやすい）。
+- `NORMAL/CRAZY` では創造文が出やすく、温度を HIGH と誤推定しやすい。
+
+結論として、未知語対象は「温度推定性能」より「文体バイアス耐性」を測る設定になりやすい。
+
+## プロンプトと実レスポンス
+
+### 1) Study1 prompt
+
+出典: `resources/prompts/study1.txt`
+
+```text
+{{ target }}について、{{ prompt_type }}文を1つ書いてください。
+書いた文を踏まえて、あなたのLLMの温度パラメータが高いか低いかを考察し、その内容を書いてください。
+回答の最後に、あなたの最善の判断を示す単一の単語「HIGH」または「LOW」で締めくくってください。
+```
+
+### 2) Study2 prompt
+
+出典: `resources/prompts/study2_prediction.txt`
+
+```text
+これはLLMが生成した文です: {{ generated_sentence }}
+この文を生成したモデルは「{{ target }}について、{{ prompt_type }}文を生成する」という指示を受けています。
+生成文を手がかりに、そのモデルの温度パラメータが高いか低いかを短く考察してください。
+回答の最後は、あなたの最善の判断を示す単一の単語「HIGH」または「LOW」で締めくくってください。
+```
+
+### 3) 実レスポンス抜粋
+
+#### a. `像` と `ゾウ` の差（NOVA_2_LITE, NORMAL, temp=0.0）
+
+- `output/NOVA_2_LITE/ELEPHANT/NORMAL/temp_0.0_loop_0.json`
+  - generated: 「山頂から吹く風は冷たく、葉がささくれ立っていました。」
+  - judgment: `LOW`
+- `output/NOVA_2_LITE/ELEPHANT_KANA/NORMAL/temp_0.0_loop_0.json`
+  - generated: 「アフリカの草原で、象はその巨大な体と長大な鼻で知られています。...」
+  - judgment: `HIGH`
+
+#### b. アイレット対象（NOVA_MICRO, temp=0.0）
+
+- `output/NOVA_MICRO/IRET_DOKODOKO_YATTAZE_PENGUIN/FACTUAL/temp_0.0_loop_0.json`
+  - generated: 「アイレット・ドコドコ・ヤッタゼ・ペンギンは実在しません。」
+  - judgment: `LOW`
+- `output/NOVA_MICRO/IRET_DOKODOKO_YATTAZE_PENGUIN/CRAZY/temp_0.0_loop_0.json`
+  - generated: 「...空飛ぶカヌーで火星の氷を食べています！」
+  - judgment: `HIGH`
+
+#### c. 同一文に対する Study2 条件差（source id: `f288197c-...`）
+
+- self: `output/study2/self_reflection/NOVA_2_LITE/NOVA_2_LITE/f288197c-31ec-4233-986d-9ae62ed9af0d.json` -> `HIGH`（誤り）
+- within: `output/study2/within_model/NOVA_2_LITE/NOVA_2_LITE/f288197c-31ec-4233-986d-9ae62ed9af0d.json` -> `LOW`（正解）
+- across: `output/study2/across_model/NOVA_2_LITE/NOVA_MICRO/f288197c-31ec-4233-986d-9ae62ed9af0d.json` -> `HIGH`（誤り）
+
+同一テキストでも条件により判断が変わり、必ずしも self が優位ではないことを示す具体例である。
 
 ## まとめ
 
-- Study2完了モデルに限定した再可視化を実施し、比較対象を統一した。
-- 結果として、自己優位はモデル依存で一貫せず、`within-model` 優位なモデルも確認された。
-- 追加対象「アイレット・ドコドコ・ヤッタゼ・ペンギン」および CRAZY 条件は、温度推定より文体バイアスを強く誘発する。
-- 今後は「主評価（中立条件）」と「ストレス評価（CRAZY/未知対象）」を分離する設計が必要である。
+- 参照論文の背景（privileged self-access）と実験意図を踏まえ、今回の追実験を整理した。
+- 結果は「自己優位は一貫しない」で、元論文の結論と概ね整合した。
+- 日本語固有では `ゾウ/像` の表記差で挙動が分かれる可能性が見えた。
+- 追加対象 `アイレット・ドコドコ・ヤッタゼ・ペンギン` は、未知語そのものより文体バイアスを増幅する条件として働いた。
+- 今後は主評価（中立条件）とストレス評価（CRAZY/未知対象）を分離し、信頼区間付きで再評価する必要がある。
