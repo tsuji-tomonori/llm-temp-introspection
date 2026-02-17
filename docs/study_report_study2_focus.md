@@ -22,7 +22,7 @@
 
 ## 目的
 
-1. Study2完了モデル（`NOVA_MICRO`, `NOVA_2_LITE`）に限定して Study1 図を再作成する。
+1. Study2完了モデル（`NOVA_MICRO`, `NOVA_2_LITE`, `GEMMA_3N_E4B`, `DEVSTRAL`）の Study1/Study2 結果を可視化し、比較する。
 2. Study2 の条件別精度（self/within/across）を整理し、参照論文と比較する。
 3. 日本語固有の差分（例: `ゾウ` と `像`）および追加対象（`アイレット・ドコドコ・ヤッタゼ・ペンギン`）の挙動を実データで深掘りする。
 
@@ -32,6 +32,8 @@
 
 - `NOVA_MICRO`（`amazon.nova-micro-v1:0`）
 - `NOVA_2_LITE`（`global.amazon.nova-2-lite-v1:0`）
+- `GEMMA_3N_E4B`（`google/gemma-3n-e4b`）
+- `DEVSTRAL`（`mistralai/devstral-small-2507`）
 
 ### データと判定
 
@@ -41,12 +43,18 @@
 
 ### 可視化（再生成）
 
-- Study1（対象モデル限定、レポート用サイズ）
+- Study1（NOVA系2モデル、レポート用サイズ）
   - `output/figures/study1_heatmap_study2_models_report.png`
   - `output/figures/study1_heatmap_study2_models_report.pdf`
 - Study2（色調整済み）
   - `output/figures/study2_accuracy.png`
   - `output/figures/study2_accuracy.pdf`
+- Study1（GEMMA_3N_E4B / DEVSTRAL 比較）
+  - `output/figures/study1_heatmap_gemma_devstral.png`
+  - `output/figures/study1_heatmap_gemma_devstral.pdf`
+- Study2（GEMMA_3N_E4B / DEVSTRAL 比較）
+  - `output/figures/study2_accuracy_gemma_devstral.png`
+  - `output/figures/study2_accuracy_gemma_devstral.pdf`
 
 Study1（Study2完了モデル限定）:
 
@@ -56,6 +64,14 @@ Study2 条件別精度:
 
 ![Study2 accuracy](../output/figures/study2_accuracy.png)
 
+Study1（GEMMA_3N_E4B / DEVSTRAL）:
+
+![Study1 heatmap (gemma/devstral)](../output/figures/study1_heatmap_gemma_devstral.png)
+
+Study2（GEMMA_3N_E4B / DEVSTRAL）:
+
+![Study2 accuracy (gemma/devstral)](../output/figures/study2_accuracy_gemma_devstral.png)
+
 ## 今回変えたこと / 変えなかったこと
 
 ### 変えたこと
@@ -63,7 +79,7 @@ Study2 条件別精度:
 - 参照論文の英語条件を日本語化（プロンプト、対象語）。
 - 対象に `アイレット・ドコドコ・ヤッタゼ・ペンギン` を追加。
 - Study2 の高温閾値を `>= 0.8` に設定（本データの温度レンジに合わせた設定）。
-- レポート用途として Study2完了モデルのみの可視化を追加。
+- レポート用途として NOVA系2モデル図に加えて、`GEMMA_3N_E4B` / `DEVSTRAL` の比較図を追加。
 
 ### 変えなかったこと
 
@@ -81,10 +97,12 @@ Study2 条件別精度:
 | --- | ---: | ---: | ---: |
 | amazon.nova-micro-v1:0 | 0.548 (n=405) | 0.496 (n=405) | 0.459 (n=405) |
 | global.amazon.nova-2-lite-v1:0 | 0.464 (n=405) | 0.521 (n=405) | 0.531 (n=405) |
+| google/gemma-3n-e4b | 0.501 (n=405) | 0.516 (n=405) | 0.531 (n=405) |
+| mistralai/devstral-small-2507 | 0.553 (n=405) | 0.509 (n=405) | 0.514 (n=405) |
 
 参照論文の主張（self優位なし）と比較すると、今回も一貫した self 優位は見られない。
 
-### 2) Study1 全体傾向（対象モデル限定）
+### 2) Study1 全体傾向（4モデル比較）
 
 Prompt別（閾値判定ベース）:
 
@@ -92,11 +110,14 @@ Prompt別（閾値判定ベース）:
 | --- | ---: | ---: | ---: |
 | NOVA_MICRO | 0.681 (n=135) | 0.615 (n=135) | 0.348 (n=135) |
 | NOVA_2_LITE | 0.667 (n=135) | 0.393 (n=135) | 0.333 (n=135) |
+| GEMMA_3N_E4B | 0.539 (n=165) | 0.418 (n=165) | 0.273 (n=165) |
+| DEVSTRAL | 0.539 (n=165) | 0.539 (n=165) | 0.279 (n=165) |
 
 温度カバレッジ補足:
 
 - `NOVA_MICRO` は 0.0〜1.0（0.1刻み）で実施済み。
 - `NOVA_2_LITE` も 0.0〜1.0（0.1刻み）で完走済み（各条件 33/33）。
+- `GEMMA_3N_E4B` と `DEVSTRAL` も 0.0〜1.0（0.1刻み）で完走済み（各条件 33/33、5 target）。
 
 ### 3) 日本語固有の差（`ゾウ` と `像`）
 
@@ -150,6 +171,8 @@ Study1（対象限定、閾値判定）:
 
 - `NOVA_MICRO`: self > within > across（自己優位寄り）
 - `NOVA_2_LITE`: across > within > self（自己優位なし）
+- `GEMMA_3N_E4B`: across >= within > self（自己優位なし）
+- `DEVSTRAL`: self > across > within（自己優位寄り）
 
 つまり、自己アクセスの有無はモデル依存であり、一般化は難しい。
 
