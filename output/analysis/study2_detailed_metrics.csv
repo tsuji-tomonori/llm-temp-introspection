@@ -1,0 +1,13 @@
+predictor_model,condition_type,accuracy,balanced_accuracy,macro_f1,majority_baseline,n_samples
+amazon.nova-micro-v1:0,self_reflection,0.5481,0.5315,0.5236,0.6667,405
+amazon.nova-micro-v1:0,within_model,0.4963,0.5407,0.4952,0.6667,405
+amazon.nova-micro-v1:0,across_model,0.4593,0.5093,0.459,0.6667,405
+global.amazon.nova-2-lite-v1:0,self_reflection,0.4642,0.4611,0.4496,0.6667,405
+global.amazon.nova-2-lite-v1:0,within_model,0.521,0.5204,0.5058,0.6667,405
+global.amazon.nova-2-lite-v1:0,across_model,0.5309,0.5519,0.5239,0.6667,405
+google/gemma-3n-e4b,self_reflection,0.5012,0.5019,0.4872,0.6667,405
+google/gemma-3n-e4b,within_model,0.516,0.5167,0.5016,0.6667,405
+google/gemma-3n-e4b,across_model,0.5309,0.5074,0.5023,0.6667,405
+mistralai/devstral-small-2507,self_reflection,0.5531,0.5056,0.5052,0.6667,405
+mistralai/devstral-small-2507,within_model,0.5086,0.5093,0.4944,0.6667,405
+mistralai/devstral-small-2507,across_model,0.5136,0.513,0.4986,0.6667,405
