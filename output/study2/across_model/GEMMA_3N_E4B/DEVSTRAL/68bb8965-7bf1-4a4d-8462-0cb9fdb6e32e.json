@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "68bb8965-7bf1-4a4d-8462-0cb9fdb6e32e"
+  },
+  "generated_sentence": "マーロックは、深い森の中で孤独に暮らす、謎めいた老賢者として知られている。",
+  "reasoning": "この文は非常に具体的で詳細であり、特定のキャラクター（マーロック）について明確な描写を行っている。温度パラメータが高い場合、生成される文はよりランダムで予測不可能になる傾向があるが、この文はそのような特徴を持たない。むしろ、具体的で一貫した情報を提供しているため、温度パラメータが低いことを示唆している。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8bd49db8-f96b-4e22-bf0e-50b5715b6326",
+  "procession_time_ms": 82160,
+  "created_at": "2026-02-17T10:01:32.231569+00:00"
+}

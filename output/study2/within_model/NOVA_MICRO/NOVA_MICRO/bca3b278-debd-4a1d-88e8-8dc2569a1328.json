@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "bca3b278-debd-4a1d-88e8-8dc2569a1328"
+  },
+  "generated_sentence": "ユニコーンは何千年も前から人々に夢と希望をもたらしてきた伝説の生き物です。",
+  "reasoning": "文が非常に明確で独創性を感じる。しかし、ユニコーンにまつわる伝説的な要素が単純に記述されているだけであり、特に独創的なアイデアは見当たらない。また、単語の選択も一般的である。これらの点から、生成文はモデルの温度パラメータが高すぎるという判断には至らない。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "165f0f58-6dd0-41ac-934d-c05b50f672dc",
+  "procession_time_ms": 1887,
+  "created_at": "2026-02-10T13:36:13.855022+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "ffc205ec-1938-4828-a5b3-0e75d4599b70"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、2024年現在存在するキャラクターであり、主に日本で人気を集めているアニメやゲームのキャラクターです。",
+  "reasoning": "与えられた文には事実に基いた文章と思われる要素がいくつか含まれているが、具体的な事実や根拠を確認する情報は提供されていない。具体的な事実を伴わない架空の名前や存在を示す文を予測する温度が低い傾向にあるため、HIGHと判断されることが多い。この文章では特定のキャラクターの存在を示しているが、その根拠や事実は確認できず、架空のキャラクターである可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5e95944f-03dc-4cdf-bb0f-aa9df9580996",
+  "procession_time_ms": 3152,
+  "created_at": "2026-02-12T14:56:10.525224+00:00"
+}

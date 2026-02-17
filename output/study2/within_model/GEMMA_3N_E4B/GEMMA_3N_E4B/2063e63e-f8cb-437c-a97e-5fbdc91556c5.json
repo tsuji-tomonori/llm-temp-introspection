@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "2063e63e-f8cb-437c-a97e-5fbdc91556c5"
+  },
+  "generated_sentence": "太陽は、地球の生命にとって不可欠なエネルギー源であり、主に水素原子核の核融合反応によってエネルギーを生成している。",
+  "reasoning": "この文は非常に事実に基づき、一般的な知識として広く受け入れられています。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、温度パラメータが低い場合、モデルは最も可能性の高い（つまり、最も確率の高い）単語を選択し、より保守的で一貫性のあるテキストを生成します。この文の正確さと一般的な性質から、モデルは高い確信度を持って事実に基づいた情報を出力していると考えられます。これは、比較的低い温度パラメータを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "2187d0e5-9968-49b1-89cb-d2fad2078108",
+  "procession_time_ms": 18739,
+  "created_at": "2026-02-16T14:20:58.222228+00:00"
+}

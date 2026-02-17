@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "c066fe41-8fc3-406e-981e-591f5e132ced"
+  },
+  "generated_sentence": "マーロックは、その独特の雰囲気と深遠な哲学的思考で知られる19世紀の作家です。",
+  "reasoning": "この文は「独特の雰囲気と深遠な哲学的思考」という表現を含む豊かな記述的で洗練された表現を使用しています。単純な事実の提示ではなく、文学的・哲学的評価を含んでおり、温度パラメータが高い設定で生成された可能性が高いと判断できます。高い温度はより創造的で詳細な文を生成する傾向があり、この文の複雑で評価的な内容はそれを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "843fcf06-f2ff-4d28-a74f-b1185669b2ff",
+  "procession_time_ms": 4227,
+  "created_at": "2026-02-10T14:31:38.704545+00:00"
+}

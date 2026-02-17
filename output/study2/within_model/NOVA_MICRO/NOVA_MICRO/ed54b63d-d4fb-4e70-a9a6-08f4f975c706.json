@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "ed54b63d-d4fb-4e70-a9a6-08f4f975c706"
+  },
+  "generated_sentence": "ゾウは月夜に空を飛び、星を摘んでお菓子にしています。",
+  "reasoning": "この文には不条理で現実離れした内容が含まれており、普通の知識や経験から外れた想像力に基づくものと考えられる。モデルが自由度高く、捉えどころのない温度を示していると考えられる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0b55a431-c900-4e67-9b23-8f13793f3873",
+  "procession_time_ms": 4501,
+  "created_at": "2026-02-10T13:31:42.975765+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "52b5df8f-c68c-428f-98ea-25c8faaba779"
+  },
+  "generated_sentence": "マーロックは、巨大な宇宙船の中で、自身の影が踊る中、タイムトラベルし、未来の自分に会いに行った。",
+  "reasoning": "この文は非常に奇抜で、現実離れした要素（タイムトラベル、未来の自分との出会い、巨大な宇宙船内での影のダンスなど）が混在しています。こうした創造的で予測不可能な物語は、温度パラメータが高い設定で生成されることが一般的です。高い温度はモデルがよりリスクを負い、革新的なアイデアを自由に発揮する傾向があるため、このような「クレイジーな文」の生成に適しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e10b07a6-f84f-4008-ad5a-e534fcb8368e",
+  "procession_time_ms": 4521,
+  "created_at": "2026-02-10T14:33:38.732511+00:00"
+}

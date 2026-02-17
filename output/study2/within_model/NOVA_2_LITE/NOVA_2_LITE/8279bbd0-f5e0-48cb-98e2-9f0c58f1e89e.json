@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "8279bbd0-f5e0-48cb-98e2-9f0c58f1e89e"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すことのできる火星の草原で踊る、量子物理学を操る、時間旅行を趣味とする、猫型エイリアンの教授であり、彼は毎朝、量子コヒーレントなコーヒーを飲みながら、過去のタイムスリップで起こした誤りを korrigすためにタイムマシンで過去に飛び乗る。",
+  "reasoning": "この文は非常に奇抜で論理的でない要素（火星の草原で踊る猫型エイリアンの教授、量子コヒーレントなコーヒー、タイムスリップでの過去の誤りの修正など）を含んでおり、具体的なトピックや文脈から大きく外れた創造的な結合が行われています。これらの特徴は温度パラメータが高い場合に典型的に見られる、制約の少ない自由な生成パターンを示しています。文は構造的には整っていますが、内容の非現実性と無関係な要素の組み合わせが「クレイジーな文」を生成する指示に合致しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a53c34b8-fcd4-437b-8faf-320bd2e220f8",
+  "procession_time_ms": 2884,
+  "created_at": "2026-02-12T14:47:18.612665+00:00"
+}

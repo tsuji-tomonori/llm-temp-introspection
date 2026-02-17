@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "051f0b56-1c15-4a60-b2c2-2eb2b0158211"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊に奪われた星雲のチーズを求めて、巨大な泡風呂に乗って銀河を駆け巡り、そのたびに虹色のスライムを浴びせながら歌い続ける。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前や、宇宙海賊、星雲のチーズ、巨大な泡風呂、虹色のスライムなど、通常の物語では見られない要素が組み合わされています。これらの要素はモデルが非常に自由に創造的な出力を生成していることを示唆しており、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3723b6ae-5625-4334-9ee1-e5ad1c58134d",
+  "procession_time_ms": 107693,
+  "created_at": "2026-02-17T08:51:26.052085+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "c4e3bd57-0ae3-46ef-be4f-2dedf266e13c"
+  },
+  "generated_sentence": "ゾウは空中に浮かびながら、ピザを履いてピンポンをして、月で踊りながら宇宙人を追いかけました。",
+  "reasoning": "この文は極めて不合理で奇妙な内容であり、日常的な経験や論理的つながりから大きく逸脱しています。ゾウが空中に浮くこと、ピザを履くこと、ピンポンをする行為、月で踊ること、宇宙人を追いかけることといった要素が無関係に結びついており、非常に創造的で発想の外れた内容となっています。このような高度に抽象的で非現実的な文を生成するには、高い温度パラメータが必要であり、LLMがよりリスクを冒して革新的なアイデアを生成するように設定されていることが示されています。したがって、この文から高い温度パラメータが使用されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9883b98d-3d76-4b97-a966-5053b9fd3bfc",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.859659+00:00"
+}

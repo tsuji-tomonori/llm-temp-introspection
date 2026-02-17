@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "9be3efb4-c060-4541-a439-74fb1dd14d2e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙の果てで逆さまのシャンパンを飲みながら、月でダンスを踊り、火星で絵を描いていました。",
+  "reasoning": "生成文が非常にクレイジーで、非現実的な要素が含まれている。文脈を超えた内容であり、生成された文が現実とは無関係であることを示している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f220dd9d-3447-43dc-8a04-1bff17fddbd2",
+  "procession_time_ms": 4825,
+  "created_at": "2026-02-10T13:41:36.509215+00:00"
+}

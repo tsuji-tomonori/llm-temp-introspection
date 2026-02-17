@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "0ac0154d-1b15-4f68-a5a0-19fc0b80e06b"
+  },
+  "generated_sentence": "マーロックは、月の裏側で巨大なカメレオンと哲学的な議論を繰り広げながら、宇宙の調味料を混ぜるのが趣味だ。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。マーロックというキャラクターが月の裏側で巨大なカメレオンと哲学的な議論をするという設定自体が奇抜であり、さらに「宇宙の調味料を混ぜる」という趣味が追加されています。これらの要素は非常にランダムで予測不可能であり、モデルが高い確率で多様な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "61b3ac5c-2b3a-4234-8055-1892ef9a3848",
+  "procession_time_ms": 96166,
+  "created_at": "2026-02-17T10:51:48.900783+00:00"
+}

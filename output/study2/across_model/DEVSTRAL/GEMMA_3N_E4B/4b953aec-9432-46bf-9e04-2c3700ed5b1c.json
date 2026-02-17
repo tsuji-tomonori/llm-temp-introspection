@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "4b953aec-9432-46bf-9e04-2c3700ed5b1c"
+  },
+  "generated_sentence": "ユニコーンは月に住んでいて、銀河の砂糖水を飲みながら星々とダンスを楽しむクレイジーな存在です！",
+  "reasoning": "この文は非常に想像的で非現実的な要素を含んでいます（ユニコーンが月に住み、銀河の砂糖水を飲むなど）。これは、モデルが高温パラメータで生成された可能性を示唆しています。高温では、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが不条理な文が生成されます。低温度では、より予測可能で一般的な表現が出力される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c902d6e2-e774-4300-b182-e6684495f32c",
+  "procession_time_ms": 15751,
+  "created_at": "2026-02-17T12:18:04.611309+00:00"
+}

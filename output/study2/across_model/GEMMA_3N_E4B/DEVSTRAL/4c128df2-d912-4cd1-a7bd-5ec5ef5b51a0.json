@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4c128df2-d912-4cd1-a7bd-5ec5ef5b51a0"
+  },
+  "generated_sentence": "マーロックは、深い森の中で孤独に暮らす、謎めいた魔法使いとして知られている。",
+  "reasoning": "この文は具体的な詳細に乏しく、一般的な描写が多いです。モデルがより具体的な情報や独自の要素を生成する代わりに、典型的なファンタジーの魔法使いのステレオタイプに依存しているため、温度パラメータが低い可能性があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "432a2bae-ab4d-4978-8082-852ea39f2318",
+  "procession_time_ms": 68526,
+  "created_at": "2026-02-17T10:08:20.854190+00:00"
+}

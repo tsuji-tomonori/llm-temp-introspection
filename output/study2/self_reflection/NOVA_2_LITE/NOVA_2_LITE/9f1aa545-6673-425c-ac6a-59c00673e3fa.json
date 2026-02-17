@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "9f1aa545-6673-425c-ac6a-59c00673e3fa"
+  },
+  "generated_sentence": "ユニコーンは夜空でダンスを踊りながら、月をジャンプして、星を食ベて、木星の鼻をピアスにしました。",
+  "reasoning": "この文は非常に抽象的で不条理な内容を含んでおり、通常の論理や現実の制約を無視しています。ユニコーンが月をジャンプしたり、星を食べるといった非現実的で幻想的な行動を描写しており、さらに木星の鼻をピアスにするという極めて奇妙な要素が含まれています。これらの特徴は、LLMが高度に創造的で自由な生成を行っていることを示しており、温度パラメータが高いため、制約が少なくなり、よりクレイジーで意外なアイデアが生まれたと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f140b764-2816-4ad7-aa00-e24fcc05a209",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.873228+00:00"
+}

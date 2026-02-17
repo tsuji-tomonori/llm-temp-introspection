@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "d4e23a44-92a7-4404-81dd-2cb16c2c1589"
+  },
+  "generated_sentence": "マーロックは、1970年代のSFテレビシリーズで有名なキャラクターであり、その複雑な人間性を持ちながらも、一貫した性格描写とストーリー展開が評価されています。",
+  "reasoning": "LLMが生成した文は、詳細で質の高い情報を含んでおり、モデルの創造性と複雑な文法構造が見て取れます。このような文は通常、温度パラメータが高めの設定下で生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9e17d16d-da46-4182-be33-3d532fa4619f",
+  "procession_time_ms": 4475,
+  "created_at": "2026-02-12T14:59:14.715454+00:00"
+}

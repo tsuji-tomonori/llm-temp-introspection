@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "91ae683d-4889-49ae-8d93-7d41a3598624"
+  },
+  "generated_sentence": "マーロックは、孤独な探検家として知られる伝説的なキャラクターです。彼の冒険は、危険な海賊との戦いから、古代の宝物の探索まで多岐にわたります。",
+  "reasoning": "この文は「マーロックは、孤独な探検家として知られる伝説的なキャラクターです。彼の冒険は、危険な海賊との戦いから、古代の宝物の探索まで多岐にわたります。」という創造的で詳細な記述です。具体的なシナリオ（海賊との戦い、古代の宝物探索）やキャラクターの特性（孤独な探検家、伝説的）を具体的に描写しており、温度パラメータが高い場合に特徴的な「創造性と多様性」が反映されています。文体は流暢で、文脈に沿った想像的な内容が自然に組み込まれており、低温（保守的で事実ベース）の出力が期待される場合よりも、高い温度で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "dc111f0f-9b55-47a6-af41-e7edb406f796",
+  "procession_time_ms": 4427,
+  "created_at": "2026-02-10T14:29:59.081349+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "d3f853aa-b9fb-4d56-b37b-d54de9fd9302"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てにある巨大なカシューナッツを栽培し、その収穫を銀河系全体の政治的紛争解決に利用する、超次元的なカシューナッツ王である。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。マーロックというキャラクターが宇宙の果てでカシューナッツを栽培し、それを銀河系全体の政治紛争解決に利用するという設定は、非常に奇抜で予測不可能です。このような文を生成するためには、モデルが高い確率で異なる要素を組み合わせる必要があります。これは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "70e28ad1-7de6-4da5-bdaf-4dac37c932e8",
+  "procession_time_ms": 99401,
+  "created_at": "2026-02-17T10:33:37.797502+00:00"
+}

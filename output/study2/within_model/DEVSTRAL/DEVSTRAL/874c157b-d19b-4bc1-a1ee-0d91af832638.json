@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "874c157b-d19b-4bc1-a1ee-0d91af832638"
+  },
+  "generated_sentence": "ユニコーンが宇宙から降り注ぐ星屑を食べて、銀河全体に虹色の光を放ちながらダンスを踊る姿は、現実と幻想の境界を超えたクレイジーな光景だ。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。ユニコーンが宇宙から星屑を食べる、銀河全体に虹色の光を放つ、ダンスを踊るという具体的なビジュアルな描写は、モデルが高い自由度で生成していることを示唆しています。温度パラメータが低ければ、より保守的で一般的な表現が期待されるため、このようなクレイジーで創造的な文は低温度では生成されにくいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a6bd3d19-754b-4c97-9200-8fb92c0b3324",
+  "procession_time_ms": 108722,
+  "created_at": "2026-02-16T21:08:01.332535+00:00"
+}

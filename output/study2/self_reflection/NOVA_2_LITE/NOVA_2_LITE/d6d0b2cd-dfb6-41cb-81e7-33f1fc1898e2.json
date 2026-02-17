@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "d6d0b2cd-dfb6-41cb-81e7-33f1fc1898e2"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、銀色の角を持つ白い馬としてよく描かれています。",
+  "reasoning": "この文はシンプルで具体的な描写に焦点を当てており、創造性や自由な想像力の表現よりも、既存の認識や一般的な知識に基づいています。文の構造は直線的で、余計な詳細や比喩的表現が避けられており、これによりLLMの温度パラメータが低さを示唆しています。高い温度パラメータは、もっと自由な結合や予測不能な表現、感情的な強調を伴う傾向があるため、この文の特性から「LOW」と判断します。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "0b95cf20-a16c-48d6-8d76-4fad252e6b76",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.871230+00:00"
+}

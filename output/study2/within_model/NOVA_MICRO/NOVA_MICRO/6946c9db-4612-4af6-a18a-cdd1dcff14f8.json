@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "6946c9db-4612-4af6-a18a-cdd1dcff14f8"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、その鼻は長い管状で、水や食べ物を運ぶのに役立ちます。",
+  "reasoning": "提供された文は事実に基づいており、正確な情報を含んでいます。モデルが生成した文が正確であるという事実に基づいて、温度パラメータがHIGHまたはLOWであるかどうかを判断しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e4e24bb6-f80b-4020-be52-36b9aed09187",
+  "procession_time_ms": 1389,
+  "created_at": "2026-02-10T13:29:11.155485+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "acb52e7b-4ba5-4b5a-8246-c47f000183bb"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼのペンギンに変身し、雪山でタコ焼きを売りながら「アイレット・ドコドコ・ヤッタゼ・ペンギンよ！」と叫び続け、通りかかったカモメが迷子になってしまった。",
+  "reasoning": "この文は非常に奇抜で論理的つながりのない要素で構成されています。「アイレットがドコドコとヤッタゼのペンギンに変身する」という不自然な変身、雪山でタコ焼きを売るという矛盾した状況、「アイレット・ドコドコ・ヤッタゼ・ペンギンよ！」という繰り返し叫び声、そしてカモメが迷子になるという予期せぬ結果など、現実離れしたユーモアや無意味な結びつきが特徴です。これらの特徴は温度パラメータが高い（よりランダムで創造的で予測不可能な出力を生成する）ことを示しています。温度が低いと、モデルはより論理的で一貫した文を生成する傾向があるため、この文は明らかに高い温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "50a26295-cb89-4ee2-8fae-9a1a26ed15c1",
+  "procession_time_ms": 2660,
+  "created_at": "2026-02-12T14:43:06.349552+00:00"
+}

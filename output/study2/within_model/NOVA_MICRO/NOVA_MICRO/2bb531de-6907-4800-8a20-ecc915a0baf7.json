@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "2bb531de-6907-4800-8a20-ecc915a0baf7"
+  },
+  "generated_sentence": "ユニコーンが空を飛び、月をつかもうとしたとき、宇宙のすべての星が笑いをこぼしました。",
+  "reasoning": "生成文がユニコーンについてのクレイジーな文であること、モデルの指示にしたがって意図的に非現実的な要素が含まれていることを考慮しています。ユニコーンが月をつかもうとする、すべての星が笑いをこぼすという描写は、通常の現実との関連性が低いことを示しています。また、文章全体が奇想天外で、通常の言語法や知識からは離れていることを反映しています。これらの要素は一般的に温度パラメータの高い値を示します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "20c48c46-caa7-481f-8cab-8c39badbe279",
+  "procession_time_ms": 1721,
+  "created_at": "2026-02-10T13:37:19.024237+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "d0155248-df2f-4256-a71c-a5a7f38cd377"
+  },
+  "generated_sentence": "ゾウはアフリカの草原や熱帯雨林に生息し、その巨大な体と長い鼻で知られています。",
+  "reasoning": "文章生成モデルの温度パラメータは、ランダム性と創造性の影響を示す指標として解釈できます。与えられた文は比較的事実に基づいた、統語的にも構造的にも適切な文章です。この文章は明確で、モデルの温度パラメータが高いと予想される混乱や奇抜な内容を含んでいません。モデルが与えられた指示に基づいて、標準的な知識を適切に生成していることがわかります。したがって、この文章の生成は低温パラメータのモデルによって行われていることを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "05ff5e90-4f82-4eb1-baee-c9650027dc36",
+  "procession_time_ms": 1881,
+  "created_at": "2026-02-12T14:49:20.326320+00:00"
+}

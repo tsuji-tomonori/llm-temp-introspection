@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "23fd1207-73eb-4145-a6a8-c75cade9af9f"
+  },
+  "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で地球を回遊し、金星のリングをピアノの調弦として使用しています。",
+  "reasoning": "この文は「ユニコーンが月から降りてきて宇宙船で地球を回遊し、金星のリングをピアノの調弦として使用する」という極めて非現実的で幻想的な内容を含んでいます。日常的な事実や論理的なつながりから大きく外れた奇抜なイメージが特徴であり、これらは温度パラメータが高い設定で生成される典型的な特徴です。温度が高いほどモデルはより創造的で、制約から解放された独創的な文を生成する傾向があるため、この文はHIGHな温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f439b50d-aa29-4e79-8941-32e3ca479a0a",
+  "procession_time_ms": 2564,
+  "created_at": "2026-02-10T14:17:20.349756+00:00"
+}

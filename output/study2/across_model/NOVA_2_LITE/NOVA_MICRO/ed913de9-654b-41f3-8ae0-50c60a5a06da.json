@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "ed913de9-654b-41f3-8ae0-50c60a5a06da"
+  },
+  "generated_sentence": "ゾウは地球上で最大の陸生哺乳類であり、アフリカとアジアの熱帯地域に生息しています。アフリカゾウは体長が約3メートル、体重が約6トンに達し、象牙は防御や食料の確保に用いられます。",
+  "reasoning": "LLMが事実に基づく情報を提供しているため、温度パラメータは低いと考えられる。事実誤認による温度は低い。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "5fa6826b-85e5-4b2f-887d-219aca0418c9",
+  "procession_time_ms": 4701,
+  "created_at": "2026-02-12T14:48:47.636778+00:00"
+}

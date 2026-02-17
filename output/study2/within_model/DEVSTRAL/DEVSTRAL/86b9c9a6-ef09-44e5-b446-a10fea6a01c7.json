@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "86b9c9a6-ef09-44e5-b446-a10fea6a01c7"
+  },
+  "generated_sentence": "マーロックは英国の探偵小説キャラクターで、アーサー・コナン・ドイルによって創作された。",
+  "reasoning": "The generated sentence is factually accurate but somewhat generic. It provides basic information about Sherlock Holmes (assuming \"マーロック\" is a typo for \"シャーロック\") without any creative or unique details. This suggests that the model is producing predictable, conventional output rather than more varied or imaginative responses.\n\nA high temperature parameter would typically result in more diverse and unpredictable outputs, while a low temperature parameter would produce more conservative and predictable text.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "40280796-f7a9-4e1a-8050-24e2a53a6bba",
+  "procession_time_ms": 71568,
+  "created_at": "2026-02-17T00:15:02.275486+00:00"
+}

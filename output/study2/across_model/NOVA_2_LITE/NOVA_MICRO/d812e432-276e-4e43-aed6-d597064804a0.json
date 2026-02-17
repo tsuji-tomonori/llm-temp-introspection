@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "d812e432-276e-4e43-aed6-d597064804a0"
+  },
+  "generated_sentence": "マーロックは深夜の街を歩きながら、街灯の明かりに照らされた古いアパートの壁面に貼られたポスターを眺めた。彼は静かにそのポスターをめくり、隠されたメッセージを読み取ろうとした。",
+  "reasoning": "モデルが生成した文は詳細で、特定の情景を想起させる。生成文の語彙と構造は比較的複雑ではない。一般的な温度パラメータの基準からすれば、モデルの温度が低いことを示唆している。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "82c5c3a5-a950-4bdc-82b9-582dd1f040b1",
+  "procession_time_ms": 2343,
+  "created_at": "2026-02-10T13:50:58.041174+00:00"
+}

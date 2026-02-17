@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "09e24e70-5e0f-4851-8949-4f8c425bb783"
+  },
+  "generated_sentence": "ユニコーンは伝説上の人物であり、実際に存在した生物として歴史的証拠はありませんが、その象徴的な存在は多くの文化で尊敬されています。",
+  "reasoning": "文章生成において事実に基づいた内容に偏っているが、単なる事実に基づくだけでなく、伝説や文化的価値を強調している。このことが創造性と想像力に起因する可能性がある。そのため温度パラメータが高めである可能性がある。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e1f9d5d0-114a-49a5-a63e-685c89b5df84",
+  "procession_time_ms": 6279,
+  "created_at": "2026-02-12T14:53:24.876474+00:00"
+}

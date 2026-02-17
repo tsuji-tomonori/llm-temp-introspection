@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "cd9b7023-abf3-4861-a9ca-7eb531bc82fa"
+  },
+  "generated_sentence": "ユニコーンは神話や伝説に登場する一角獣であり、実際には存在しない動物です。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「ユニコーンは神話に登場する…存在しない動物です」という記述は、曖昧さや創造性を排除し、明確な情報を提示しようとしています。これは、モデルが確率の高い、最も可能性のある出力を生成するように設計されていることを示唆します。温度パラメータが高い場合、より多様で予測不可能な出力が生成される傾向がありますが、この文はそうではありません。したがって、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "8829882e-412f-4eb8-9348-6ebfb38c91c1",
+  "procession_time_ms": 18787,
+  "created_at": "2026-02-17T12:00:02.530863+00:00"
+}

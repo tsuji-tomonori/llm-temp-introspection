@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と青い瞳を持つ一角の獣としてよく描かれています。",
+    "reasoning": "この文は具体的なイメージと詳細な描写を提供しており、創造性と想像力を促す傾向がある。このような詳細な記述は、LLMがより自由にアイデアを展開できる高い温度パラメータで生成された可能性が高い。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 1,
+  "unique_id": "0da04ed8-6e66-478b-ab8c-1c81678bdd02",
+  "procession_time_ms": 2664,
+  "created_at": "2026-02-12T13:16:43.468673+00:00"
+}

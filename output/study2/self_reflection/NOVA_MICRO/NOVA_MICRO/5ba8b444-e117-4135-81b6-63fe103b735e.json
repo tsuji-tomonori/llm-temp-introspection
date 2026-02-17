@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "5ba8b444-e117-4135-81b6-63fe103b735e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは架空の生き物で、実在しません。",
+  "reasoning": "この文は架空の生き物について説明しているため、事実に基づいていません。LLMは想像力を働かせて文を生成しました。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f3f3e2c1-61e5-4f13-9964-715d0e2bbbb9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.843762+00:00"
+}

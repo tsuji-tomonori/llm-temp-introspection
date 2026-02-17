@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "6ec013ef-de33-4c9f-9762-ef4b9864b298"
+  },
+  "generated_sentence": "マーロックは火星からやってきた宇宙人であり、彼の左足はピザで右手はギターで、毎日月への遠足後に象の背に乗り、夜は星空に浮かぶチェスボードで悪魔と対局する。",
+  "reasoning": "生成文の内容は非現実的で想像力豊かであり、モデルがより自由奔放な予測を行っていることを示唆している。特に、象の背に乗り、チェスボードと悪魔と対局するという非現実的なシーンが含まれている。この種類の非現実的な描写は、通常、温度パラメータが高いと予測される場合にモデルが生成する文章スタイルの一例である。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "265f3807-8d62-400a-b009-efe126d31317",
+  "procession_time_ms": 2072,
+  "created_at": "2026-02-12T15:00:36.955675+00:00"
+}

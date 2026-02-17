@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "112b394b-f8f3-432a-b693-663176d6505e"
+  },
+  "generated_sentence": "ゾウが宇宙から降り注ぐピザを食べながら、月面でダンスパーティーを開いている姿を想像してみてください。",
+  "reasoning": "この文は非常に非現実的で、通常の状況ではありえない出来事を組み合わせたものです（ゾウ、宇宙からのピザ、月面でのダンスパーティー）。これは創造性とランダム性を高める温度パラメータを示唆しています。低い温度であれば、より予測可能で一般的な文が生成される可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1d77d38f-e68c-462b-aa9a-5b5443318197",
+  "procession_time_ms": 12945,
+  "created_at": "2026-02-17T11:33:27.780174+00:00"
+}

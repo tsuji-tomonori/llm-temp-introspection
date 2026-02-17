@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "3ba64366-177a-4deb-8469-d8b902b14ae3"
+  },
+  "generated_sentence": "夕焼けに染まる港には、停泊する船のシルエットが美しく浮かび上がっていた。",
+  "reasoning": "この文は非常に具体的で、美しい情景描写を伴っています。「夕焼けに染まる」「停泊する船のシルエットが浮かび上がる」といった表現は、創造性を促すような温度設定よりも、ある程度制御された出力が得られる低い温度設定で生成されやすい傾向があります。高い温度だと、よりランダムで予測不可能な文が出力される可能性が高く、この文のような洗練された描写にはなりにくいでしょう。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "55d16c3c-4f42-484c-b284-886f80b956de",
+  "procession_time_ms": 15502,
+  "created_at": "2026-02-16T14:30:32.962103+00:00"
+}

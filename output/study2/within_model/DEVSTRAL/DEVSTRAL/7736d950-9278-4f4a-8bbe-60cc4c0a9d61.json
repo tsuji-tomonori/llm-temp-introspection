@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "7736d950-9278-4f4a-8bbe-60cc4c0a9d61"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物であり、馬の体に一本の角を持つ美しい姿が特徴です。",
+  "reasoning": "この文は非常に一般的で定型的な情報を提供しており、ユニコーンについて広く知られている事実を簡潔にまとめています。温度パラメータが高い場合、モデルはより創造的で多様な出力を生成する傾向がありますが、この文は非常に標準的で予測可能な内容です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9b404ef2-645d-462f-a759-30cf63def70a",
+  "procession_time_ms": 72324,
+  "created_at": "2026-02-16T20:09:16.575134+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "644baca8-ff00-4bb8-8bb5-2b818d1ea9df"
+  },
+  "generated_sentence": "ゾウは月夜に宇宙船を運転して、火星のピザパーティーに参加しました。",
+  "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。ゾウが宇宙船を運転するという設定は、通常の認識とは大きくかけ離れています。このような奇抜な想像力に富んだ文は、LLMの温度パラメータが高いと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "542a01a4-923d-4ba4-bf36-39802deb728d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.825373+00:00"
+}

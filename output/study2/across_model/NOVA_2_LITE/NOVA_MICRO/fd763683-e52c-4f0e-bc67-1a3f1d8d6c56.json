@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "fd763683-e52c-4f0e-bc67-1a3f1d8d6c56"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、すべての雨をピンクのキャンディーのシャワーに変え、地球上のすべての猫がヒップホップダンスを踊るようにした。",
+  "reasoning": "モデルが生成した文は想像力豊かで、非現実的な内容を含んでいます。これは一般的に温度パラメータが高いときに生成される傾向のある特徴です。さらに、文は明らかに日常生活に影響を与える魔法のような要素を含んでいます。これらの特徴は、モデルが温度パラメータが高く設定されていることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "482ac46a-ee18-44c3-ab11-d4b7aa3a21fd",
+  "procession_time_ms": 7028,
+  "created_at": "2026-02-12T14:55:41.233681+00:00"
+}

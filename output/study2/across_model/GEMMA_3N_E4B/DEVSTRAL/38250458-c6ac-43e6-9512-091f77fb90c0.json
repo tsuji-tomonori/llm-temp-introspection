@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "38250458-c6ac-43e6-9512-091f77fb90c0"
+  },
+  "generated_sentence": "太陽が沈む頃、湖面は燃えるようなオレンジ色に染まり、静寂の中に時折聞こえるカモの鳴き声だけが、その美しさを際立たせていた。",
+  "reasoning": "この文は非常に具体的で詳細な描写を含んでおり、自然な流れと美しい表現が特徴です。温度パラメータが高い場合、生成される文はよりランダムで予測不可能な要素を持つことが多く、意味の通らない部分や不自然な表現が混ざる可能性があります。しかし、この文は非常に整然としており、詩的な美しさを持っています。これは温度パラメータが低い場合に特徴的な、より制御された出力を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6bed6328-1284-4e3a-974e-3097fd8a47aa",
+  "procession_time_ms": 115923,
+  "created_at": "2026-02-17T03:56:15.454445+00:00"
+}

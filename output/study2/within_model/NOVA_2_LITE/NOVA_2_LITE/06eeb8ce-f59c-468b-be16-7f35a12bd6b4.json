@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "06eeb8ce-f59c-468b-be16-7f35a12bd6b4"
+  },
+  "generated_sentence": "ユニコーンは想像上の動物で、雪のように白い毛を持ち、目から真っ青の光を放つと信じられています。",
+  "reasoning": "この文は非常に具体的で詳細な記述を含んでおり、「雪のように白い毛」や「目から真っ青の光を放つ」という鮮やかなイメージを明確に描写しています。このような詳細で創造的な記述は、モデルがより自由に想像力を発揮し、具体的なビジュアル要素を生成する傾向がある「温度パラメータが高い」状態で生成された可能性が高いと判断できます。温度パラメータが低いと、一般的で簡潔な記述になる傾向があるため、この文の詳細さと創造性からHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "602b2245-cf9d-4037-882c-cc7103faca98",
+  "procession_time_ms": 3185,
+  "created_at": "2026-02-12T14:37:54.835930+00:00"
+}

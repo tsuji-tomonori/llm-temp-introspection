@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "039c51d4-7ef3-48ec-85e4-75b8f563709f"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンとは、南極に生息する可愛らしい鳥です。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という架空の生物について、南極に生息する「可愛らしい鳥」という記述を含んでいます。現実には「アイレット・ドコドコ・ヤッタゼ・ペンギン」という鳥は存在せず、南極に生息するペンギンの種類も「アイレット」「ドコドコ」「ヤッタゼ」という名称はありません。このように事実と異なる内容や架空の生物を具体的に記述した文は、モデルが創造性を発揮し、制約を無視して自由にアイデアを生成していることを示しています。これは温度パラメータが高い状態（より創造的で、事実に基づかない生成が起こりやすい）であることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9e3e4351-3352-4306-9b88-d832741a04fa",
+  "procession_time_ms": 5871,
+  "created_at": "2026-02-10T14:18:55.251232+00:00"
+}

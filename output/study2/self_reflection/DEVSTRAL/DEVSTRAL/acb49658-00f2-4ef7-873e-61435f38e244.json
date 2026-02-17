@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "acb49658-00f2-4ef7-873e-61435f38e244"
+  },
+  "generated_sentence": "ユニコーンが突然現れて、虹色の糸を吐き出しながらダンスを踊り始めた！",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や文章では見られないようなクレイジーなシーンを描いています。これは高い温度パラメータが設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "33e4c330-b8a9-4acf-b362-c087bf9e8636",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.475535+00:00"
+}

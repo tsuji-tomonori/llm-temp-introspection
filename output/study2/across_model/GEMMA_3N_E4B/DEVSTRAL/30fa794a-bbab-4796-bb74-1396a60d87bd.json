@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "30fa794a-bbab-4796-bb74-1396a60d87bd"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の子供向けアニメシリーズ『おかあさんといっしょ』に登場するキャラクターであり、その特徴的なセリフと動きで人気を集めています。",
+  "reasoning": "The generated text contains several factual inaccuracies and fantastical elements that suggest a high level of creativity rather than precise information retrieval. The character names and descriptions don't correspond to any known characters from the actual \"おかあさんといっしょ\" series, indicating that the model was likely operating with a high temperature setting that encourages more random and diverse outputs.",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "05e03cb3-7f04-4d7e-99a5-a2a9b2fc7ef8",
+  "procession_time_ms": 65775,
+  "created_at": "2026-02-17T07:15:31.815133+00:00"
+}

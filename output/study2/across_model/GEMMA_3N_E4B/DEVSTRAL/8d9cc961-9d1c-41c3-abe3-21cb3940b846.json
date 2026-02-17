@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "8d9cc961-9d1c-41c3-abe3-21cb3940b846"
+  },
+  "generated_sentence": "マーロックは、かつて栄華を誇った古代文明の遺産であり、その複雑な石組みと謎めいた彫刻は、訪れる者たちに畏敬の念を抱かせる。",
+  "reasoning": "この文は非常に具体的で詳細な表現が含まれており、「古代文明の遺産」、「複雑な石組み」、「謎めいた彫刻」、「畏敬の念」といった特定の要素が描かれている。また、文全体の構造も整然としており、論理的な流れがあります。これらの特徴は、モデルが高い確率で特定の単語やフレーズを選択していることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a2082ace-ea25-4def-9218-81bc7f439f96",
+  "procession_time_ms": 95461,
+  "created_at": "2026-02-17T10:05:59.238011+00:00"
+}

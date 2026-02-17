@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "18cfcd00-3e25-40b3-8a6c-a693e8227ca1"
+  },
+  "generated_sentence": "アイレットがドコドコと跳ねるたびに、ヤッタゼがペンギンに変身し、ペンギンは雪山から滑り落ちて海に飛び込み、その瞬間に宇宙まで達し、戻ってきたらアイレットがペンギン帽を被っていた。",
+  "reasoning": "この文は非常に非現実的で、現実に起きえない状況が数多く含まれている。この手の非現実的な、想像力をかき立てる物語的な要素は、通常高温パラメータの指示下で生成される。また、文の中で使われている「ヤッタゼ」や「ペンギン帽」といった、具体的でユニークな要素も温度が高い時に生成される傾向がある。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c1257274-61eb-4946-8e88-3e135c22bff9",
+  "procession_time_ms": 1724,
+  "created_at": "2026-02-12T14:57:41.784060+00:00"
+}

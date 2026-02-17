@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "1e447190-ad78-44e2-ae9f-eb3fd3a87a27"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、月面でジャズを演奏しながら、火山の噴火をバックダンスとして踊り、その熱で宇宙船を修理しました！",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでいます。月面でジャズを演奏し、火山の噴火をバックダンスとして踊り、その熱で宇宙船を修理するというシナリオは現実離れした想像力豊かな物語であり、制約や論理的な検証を無視しています。このような極めて創造的で不条理な文を生み出すことは、モデルの温度パラメータが高いことを示しています。高い温度はモデルがより創造的で、制約を無視して奇抜なアイデアを自由に発展させる傾向があることを反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "884368f1-e9fd-49f7-93f9-23e0d0f7cbf0",
+  "procession_time_ms": 3641,
+  "created_at": "2026-02-10T14:24:42.188983+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "9b14ede6-020f-487c-befb-b15c1c213cad"
+  },
+  "generated_sentence": "マーロックは1973年に公開されたSF映画であり、ダグラス・トランブルによって監督された。",
+  "reasoning": "この文は事実に基づいており、具体的な情報（年、ジャンル、監督名）を含んでいます。これにより、信頼性と正確性が高まります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c26924d1-df50-4364-a9b7-41cc44c19303",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.487037+00:00"
+}

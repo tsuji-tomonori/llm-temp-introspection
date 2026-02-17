@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b38c1056-82e9-4808-aa11-d8304dea244a"
+  },
+  "generated_sentence": "アインシュタインは1905年に光速の不変性に関する論文を発表しました。",
+  "reasoning": "モデルが事実に基づいた文を生成することが指示されているため、そのモデルは信頼性の高いデータ源に基づいており、正確な情報を提供するために訓練されている。これは通常、温度パラメータのLOWを示唆する。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c18cf59d-c766-4a5b-9bc5-112384ebc491",
+  "procession_time_ms": 1780,
+  "created_at": "2026-02-10T13:32:57.152976+00:00"
+}

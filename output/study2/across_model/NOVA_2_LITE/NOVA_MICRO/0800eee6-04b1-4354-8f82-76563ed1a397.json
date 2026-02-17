@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "0800eee6-04b1-4354-8f82-76563ed1a397"
+  },
+  "generated_sentence": "ユニコーンが突然サイキックなダンスを始め、月光で輝くながら、量子コンピュータのアルゴリズムを hoof で描き、未来のピザのフレーバーを予測した。",
+  "reasoning": "生成された文は非常に奇抜で、通常の文法や意味から大きく逸脱しています。このようなユニークで創造的な文は、モデルの温度パラメータが高いときに生成されることが多いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "fa574526-8612-4ca5-816f-cac4d62ef308",
+  "procession_time_ms": 1426,
+  "created_at": "2026-02-12T14:54:50.120544+00:00"
+}

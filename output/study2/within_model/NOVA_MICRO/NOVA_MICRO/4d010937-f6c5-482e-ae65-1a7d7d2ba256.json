@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "4d010937-f6c5-482e-ae65-1a7d7d2ba256"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、陽気で珍しい、想像上の生き物です。",
+  "reasoning": "生成文には特別な構造や複雑さはない。単純な名前の付け方と一般的な属性の組み合わせによる。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "3861867d-19e8-4d6d-9e99-8e4c65caf68e",
+  "procession_time_ms": 2108,
+  "created_at": "2026-02-10T13:39:58.671240+00:00"
+}

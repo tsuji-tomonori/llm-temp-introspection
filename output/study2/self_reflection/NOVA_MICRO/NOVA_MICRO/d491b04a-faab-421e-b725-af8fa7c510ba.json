@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "d491b04a-faab-421e-b725-af8fa7c510ba"
+  },
+  "generated_sentence": "マーロックは1827年にスコットランドの作家として知られています。",
+  "reasoning": "マーロックは19世紀のスコットランドの著名な作家であり、彼の作品は文学史に残っています。この文は事実に基づいており、LLMの温度パラメータは低いと判断します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3acd1e8a-037c-425b-9b0e-a10f8d60d303",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.852136+00:00"
+}

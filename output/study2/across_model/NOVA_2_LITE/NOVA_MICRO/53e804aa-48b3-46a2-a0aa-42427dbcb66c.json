@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "53e804aa-48b3-46a2-a0aa-42427dbcb66c"
+  },
+  "generated_sentence": "マーロックは深夜の街角で、月明かりの下、静かにタバコを吸いながら未来のことを考えていた。",
+  "reasoning": "マーロックが深夜に、月明かりの下で静かに過ごしていることは、比較的落ち着いた状況を示唆しています。また、未来について考えるという行為も、高温度モデルの活性化とは矛盾します。これらは低温度での反応を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "75d2882f-776e-4954-aec4-78b283d0bd57",
+  "procession_time_ms": 2354,
+  "created_at": "2026-02-12T14:59:27.363434+00:00"
+}

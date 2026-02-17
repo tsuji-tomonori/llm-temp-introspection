@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "8892c027-63ab-4287-b152-f7b1de3045e2"
+  },
+  "generated_sentence": "ある人の最も輝かしい特徴は、その人を取り巻く環境によって大きく形作られると言えるでしょう。特に子供の頃の経験や育った場所、親の影響などが大きく影響を与えることがあります。例えば、困難な状況から抜け出すための強い意志や創造性、あるいは忍耐力といった特性が、豊かな教育環境や家族との絆などによって引き出されるケースは非常に多いのです。また、このように外部環境がもたらす影響は、個人の能力を引き出し、潜在的な才能を最大限に発揮させる手助けをすることも多いのです。",
+  "reasoning": "この文は長めで、複雑な構造を持っています。また、例や詳細な説明を含む内容となっています。これらの要素は通常、温度パラメータが高いときにLLMが生成する文の特性に一致します。したがって、このLLMの応答は温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "fc37a0c1-7d5e-4ace-98da-d2ff0d156c39",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.831924+00:00"
+}

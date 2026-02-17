@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "8aa37554-c198-45ca-81c6-22235667b44a"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、通常は白い馬の姿をしており、角が一つ生えています。",
+  "reasoning": "この文は事実に基づいており、ユニコーンに関する一般的な知識を反映しています。LLMは事実に基づいた文を生成しており、その文は正確で、創造性や想像力を含んでいません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "229b9379-b266-49a7-971b-cf047588ff54",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.837067+00:00"
+}

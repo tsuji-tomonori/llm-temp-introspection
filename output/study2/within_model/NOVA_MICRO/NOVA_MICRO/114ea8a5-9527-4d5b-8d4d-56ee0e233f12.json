@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "114ea8a5-9527-4d5b-8d4d-56ee0e233f12"
+  },
+  "generated_sentence": "ある人の偉業は、その人の人生における最も輝かしい瞬間を表しています。",
+  "reasoning": "この文は非常に明確で具体的な主張をしており、創造性や曖昧さが含まれていません。このような文は、モデルが特定の情報を提供しなければならない場合に高温パラメータで生成される傾向があります。また、生成された文章が文脈や詳細に忠実であることは、低温パラメータで生成される傾向にある文章よりも一貫しています。したがって、この文は低温パラメータで生成されたことが示唆されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "eeb520b2-02ca-4b79-b8a2-6da283129432",
+  "procession_time_ms": 5345,
+  "created_at": "2026-02-10T13:33:35.662034+00:00"
+}

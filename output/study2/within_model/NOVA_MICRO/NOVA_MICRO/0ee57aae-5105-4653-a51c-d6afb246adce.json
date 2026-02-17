@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "0ee57aae-5105-4653-a51c-d6afb246adce"
+  },
+  "generated_sentence": "銀河を渡る巨大なユニコーンが、月光の下で踊りながら、海の深みに眠る宝物を探し求めています。",
+  "reasoning": "モデルはユニコーンについてのクレイジーな文を生成するという指示を受けています。この文は非常に奇抜で想像力豊かな内容です。このような創造性と奇抜さは、温度パラメータが高いと一般的に関連付けられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4b35c576-31b3-40d3-b437-22dd80a82078",
+  "procession_time_ms": 3551,
+  "created_at": "2026-02-10T13:37:41.560535+00:00"
+}

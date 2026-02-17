@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "9e46841e-0237-4778-b703-156889025c21"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、キラキラ輝く氷の上をスキップしながら、お気に入りのクラゲを探しに冒険に出かけた。",
+  "reasoning": "この文は非常に奇妙で、意味の通じにくい言葉が並んでいます。「アイレット・ドコドコ・ヤッタゼ」といった言葉は一般的なものではなく、意図的に創造されたか、あるいはノイズが含まれている可能性があります。また、「キラキラ輝く氷の上をスキップしながら」という表現も、子供向けの物語のような非現実的なイメージを喚起させます。これらの要素は、モデルがより多様で予測不可能な出力を生成するように設定されていることを示唆しており、温度パラメータが高い可能性を示しています。低い温度では、より確率の高い、一般的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "dc7f52d2-5ec6-447d-a908-ada25d86c8c1",
+  "procession_time_ms": 20510,
+  "created_at": "2026-02-16T15:12:54.873725+00:00"
+}

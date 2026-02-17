@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "efe766f5-5634-4621-b5b1-f254663c34e6"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙の果てまで飛び立って、月でジャズを演奏し、火星の砂漠でダンスを踊り、その踊りは宇宙の星たちが煌めくまで続きました。",
+  "reasoning": "この文は非常に奇想天外で、論理的結 nốiがなく、日常的で予測可能な表現から大きく外れた幻想的な場面を説明しています。具体的には、ペンギンが宇宙に飛び立って月でジャズを演奏し、火星でダンスを踊るという内容であり、現実世界との関連性がほとんどありません。このような高度に創造的で無制約な文生成は、モデルがより自由にアイデアを展開できる「高い温度パラメータ」で動作していることを示しています。温度パラメータが高いと、モデルはより多くのアイデアを自由に発揮し、制約を少なくして創造性を優先するため、このようなクレイジーで予測不可能な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2fe324b4-f01b-4bde-a15d-be520a60cfa9",
+  "procession_time_ms": 2757,
+  "created_at": "2026-02-10T14:25:45.917637+00:00"
+}

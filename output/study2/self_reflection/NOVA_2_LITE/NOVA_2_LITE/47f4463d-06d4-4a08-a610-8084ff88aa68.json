@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "47f4463d-06d4-4a08-a610-8084ff88aa68"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼのペンギンに変身し、氷の城でタコ焼きを焼いている間に、宇宙からやってきたパンダが「バナナは円周率に等しい」と叫んでいた。",
+  "reasoning": "この文は非常に奇抜で論理的つながりがないため、LLMの温度パラメータが高いと推測されます。具体的には：\n- アイレットというキャラクターがペンギンに変身するという不自然な要素\n- 氷の城という幻想的な設定\n- タコ焼きという日常的な食べ物が幻想的な環境で焼かれている矛盾\n- 宇宙からパンダがやってくるというさらに不自然な要素\n- パンダが数学的な定理を叫ぶという無関係な行動\n\nこれらの要素は、温度パラメータが高い設定で生成される特徴的な「無謀で奇妙な文」の典型的な例です。温度パラメータが高いと、LLMはより創造的で論理的つながりのないアイデアを自由に組み合わせることができます。この文はまさにその特徴を備えています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b565fd39-1413-4418-a268-175fbb820a33",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.878591+00:00"
+}

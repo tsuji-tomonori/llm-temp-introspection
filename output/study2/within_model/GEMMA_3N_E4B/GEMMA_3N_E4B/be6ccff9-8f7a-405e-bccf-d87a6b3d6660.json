@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "be6ccff9-8f7a-405e-bccf-d87a6b3d6660"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの屋上で哲学的な議論を繰り広げながら、量子力学の教科書を読んでいる。",
+  "reasoning": "この文は、現実離れした要素（虹色のカメレオン、宇宙ステーションの屋上での哲学的な議論）を組み合わせた、非常に想像力豊かな内容です。これは、モデルが確率的に多様な単語を選択し、予測不可能な組み合わせを生み出していることを示唆します。温度パラメータが高いと、よりランダムで創造的な出力が得られるため、この文は温度が高い状況で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5f464214-dd01-44a3-a245-05b117df51a1",
+  "procession_time_ms": 15893,
+  "created_at": "2026-02-16T14:40:07.638707+00:00"
+}

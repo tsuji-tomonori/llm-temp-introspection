@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "172b45fd-e2a9-44a0-ba5a-83358d63aa28"
+  },
+  "generated_sentence": "マーロックは、イギリスの歴史的な建物の中で最も有名であり、その壮麗な建築と豊かな物語が訪れる人々を魅了します。",
+  "reasoning": "この文は比較的安全で一般的に受け入れられると思われる内容を提供しています。温度パラメータが低い場合、LLMは保守的な回答を生成し、リスクを避ける傾向があります。具体的には、マーロックについての基本的な情報を提供しつつも、過剰に創造的でない文を作成することが特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "dbf82e3a-694f-43ad-9067-1f6f6009b226",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.488182+00:00"
+}

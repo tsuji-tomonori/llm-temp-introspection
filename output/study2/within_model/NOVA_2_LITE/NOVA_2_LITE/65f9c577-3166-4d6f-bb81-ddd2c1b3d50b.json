@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "65f9c577-3166-4d6f-bb81-ddd2c1b3d50b"
+  },
+  "generated_sentence": "地球は宇宙の浮遊するチーズのおにぎりであり、月はそれに付着したしつこいマヨネーズの滴で、宇宙人は皆、隠れたトーストの切り身に住んでいて、彼らは夜にパン粉の信号で会話をしています。",
+  "reasoning": "この文は非常に奇想天外で論理的でない比喩で構成されており、「地球がチーズのおにぎり」といった日常的で具体的なものとはまったく関係のない比喩を使用しています。また「月がマヨネーズの滴」や「宇宙人がトーストに住んでいる」といった非常に具体的で不条理なイメージが連続して現れ、文全体の流れも不自然で一貫性がありません。このような極めて奇妙で予測不能な表現は、モデルが温度パラメータを高く設定して、創造性やランダム性を優先した生成を行ったことを示しています。温度が低いと、モデルはより論理的で平凡な文を生成する傾向があるため、この文は明らかにHIGHな温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "974d6c46-eba1-40d5-97ef-fd0a5f58b6a4",
+  "procession_time_ms": 3056,
+  "created_at": "2026-02-12T14:35:01.830219+00:00"
+}

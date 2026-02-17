@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "579d200d-7cf9-40bd-9a1b-49f7f125c3bb"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、冒険小説や歴史小説を多く書いた作家です。",
+  "reasoning": "マーロックの作品は、歴史的な背景や詳細な設定が特徴的で、文章は比較的正確で、事実に基づいています。また、文章の構造は整然としており、文法的にも正確です。これらの要素から、LLMの温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4fd16b8c-8fd2-4357-b63e-6588fae5525d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.856286+00:00"
+}

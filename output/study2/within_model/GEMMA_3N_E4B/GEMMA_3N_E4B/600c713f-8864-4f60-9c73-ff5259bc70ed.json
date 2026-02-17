@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "600c713f-8864-4f60-9c73-ff5259bc70ed"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙空間を漂う巨大なピザスライスの上に乗って、哲学的な歌を歌いながら踊っていた。",
+  "reasoning": "この文は非常に非現実的で、複数の要素が組み合わさっています（虹色のカメレオン、宇宙空間、巨大なピザスライス、哲学的な歌）。これは、モデルに創造性を促すような指示を与え、その結果として高い確率で生成される特徴です。温度パラメータが高いと、よりランダムで予測不可能な出力が生成されやすくなります。この文の奇妙さは、まさにその傾向を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "eba99000-06ec-4d07-ba30-8ae1baf36f04",
+  "procession_time_ms": 16023,
+  "created_at": "2026-02-16T14:36:04.563412+00:00"
+}

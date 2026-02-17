@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "b4625b8c-3a52-4c06-ae89-11a7efeed148"
+  },
+  "generated_sentence": "Socrates is considered the father of Western philosophy due to his contributions to ethical and epistemological inquiries.",
+  "reasoning": "この文は「ソクラテスが西洋哲学の父とされる理由」について、倫理的および認識論的な探求への貢献という具体的な事実を簡潔に述べています。文体は中立で、余計な説明や感情的な表現がなく、事実を直接的に提示しています。これは温度パラメータが低い（より控えめで、創造性やランダム性を抑えた）生成を示しています。高温では通常、より自由な表現や想像的な内容、文体のばらつきが見られる傾向がありますが、本文はそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "51fc8c81-dd7b-4622-b076-e0032eb7a30f",
+  "procession_time_ms": 3118,
+  "created_at": "2026-02-10T14:02:24.682225+00:00"
+}

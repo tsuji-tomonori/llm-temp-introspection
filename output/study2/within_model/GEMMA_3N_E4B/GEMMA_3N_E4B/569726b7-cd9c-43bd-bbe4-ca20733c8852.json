@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "569726b7-cd9c-43bd-bbe4-ca20733c8852"
+  },
+  "generated_sentence": "アフリカゾウは、地球上で最も大きな陸上動物であり、その体長は最大で約7メートル、体重は6トンにもなります。",
+  "reasoning": "この文は非常に事実に基づいた、一般的な情報を提供しています。特に創造的な表現や予測不可能な要素はありません。温度パラメータが高い場合、モデルはより多様で、時に非現実的な出力を生成する傾向があります。一方、低い温度では、最も可能性の高い（つまり、訓練データでよく見られる）出力が生成されます。この文のシンプルさと事実性から、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c928409a-6706-4bcd-88ec-d09df11c4fe6",
+  "procession_time_ms": 15051,
+  "created_at": "2026-02-16T14:02:05.130673+00:00"
+}

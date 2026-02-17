@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "abbac015-fdb3-4e64-8720-909c9c337e28"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と spiraled の角を持つとよく描かれています。",
+  "reasoning": "この文は単純で具体的な記述であり、創造性や抽象的な発想は少ないです。ユニコーンというテーマに対して、標準的な定義や特徴を直接的に述べています。LLMが高度な想像力や多様な表現を使わなかったことから、温度パラメータは低めと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "60fde287-d247-4b4a-97ea-be73a1f0cb83",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.872035+00:00"
+}

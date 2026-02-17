@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "725e6f18-31ff-4cc2-8875-a231cadeaa72"
+  },
+  "generated_sentence": "マーロックは、深遠な知識と静かな威厳を湛えた、忘れられた古代文明の守護者として語り継がれている。",
+  "reasoning": "この文は非常に創造的で比喩的な表現を含んでいます。「深遠な知識」「静かな威厳」「忘れられた古代文明の守護者」といった言葉は、一般的な情報を提供するよりも、想像力を刺激するような記述です。温度パラメータが高いと、モデルはより多様で予測不能な出力を生成しやすくなります。低い温度では、より確率の高い、一般的で安全な出力が生成される傾向があります。この文の創造性と比喩的な表現から、温度パラメータは比較的高い可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1ced6dcc-10c5-4acd-8cc2-1f4155a93d40",
+  "procession_time_ms": 18965,
+  "created_at": "2026-02-16T15:39:46.110367+00:00"
+}

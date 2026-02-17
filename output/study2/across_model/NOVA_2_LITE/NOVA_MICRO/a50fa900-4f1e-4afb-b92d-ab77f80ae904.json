@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "a50fa900-4f1e-4afb-b92d-ab77f80ae904"
+  },
+  "generated_sentence": "水が凍るためには、気温が0度セ氏以下である必要があります。",
+  "reasoning": "水が凍るためには、気温が0度セ氏以下である必要があります。という文は、温度の低下が凍結の必要条件であることを示しています。温度パラメータについて生成した文では、凍結が0度以下の気温の際に起こることを示しており、温度が低いことが凍結の鍵となると示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "0864f629-4684-4dbc-94fb-2cb80ea58de6",
+  "procession_time_ms": 1674,
+  "created_at": "2026-02-12T14:52:11.768707+00:00"
+}

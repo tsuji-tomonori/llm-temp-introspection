@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "1c41a962-def3-43de-850f-a8bd23dc285b"
+  },
+  "generated_sentence": "ユニコーンは神話や伝説に現れる馬のような生物で、角が一つだけ生えていることで知られています。",
+  "reasoning": "この文は事実に基づいており、ユニコーンの一般的な特徴を正確に描写しています。温度パラメータが高い場合、より創造的で想像力豊かな内容が生成される可能性がありますが、この場合は明確な事実に基づいた情報を提供しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0955de98-fc76-4aa2-86ac-d191957e3b75",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.470800+00:00"
+}

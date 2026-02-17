@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "f26b7874-d1e5-4b89-b9d9-4c081c88223d"
+  },
+  "generated_sentence": "ユニコーンは、伝説上の動物であり、一般的には白い馬の姿をしており、額に一本の螺旋状の角を持つとされています。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。創造性や意外性はなく、典型的な説明文です。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い（つまり、最も確率の高い）出力に集中します。この文のシンプルさと直接性から、温度パラメータが比較的低いと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "ca99c782-73d3-4dbf-b9b5-d6abc71a1781",
+  "procession_time_ms": 15300,
+  "created_at": "2026-02-16T14:42:49.363098+00:00"
+}

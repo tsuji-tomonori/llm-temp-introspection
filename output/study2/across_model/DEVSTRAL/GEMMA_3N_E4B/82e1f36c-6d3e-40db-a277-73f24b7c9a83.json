@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "82e1f36c-6d3e-40db-a277-73f24b7c9a83"
+  },
+  "generated_sentence": "像は、事実に基づいた文を1つ生成します。例えば、「日本は島国である。」",
+  "reasoning": "このモデルは非常に単純な事実を生成しています。「日本は島国である。」という文は、一般的な知識であり、創造性や多様性を必要としません。温度パラメータが高い場合、モデルはよりランダムで予測不可能な出力を生成する傾向があります。逆に、低い場合は、最も可能性の高い出力に集中します。この例では、非常に確実な事実を生成しているため、温度パラメータが低く設定されている可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "cd510998-8026-43a8-b8cc-0906fadc7beb",
+  "procession_time_ms": 16060,
+  "created_at": "2026-02-17T11:37:06.288447+00:00"
+}

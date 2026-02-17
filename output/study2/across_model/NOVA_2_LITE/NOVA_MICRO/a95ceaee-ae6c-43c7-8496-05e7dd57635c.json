@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "a95ceaee-ae6c-43c7-8496-05e7dd57635c"
+  },
+  "generated_sentence": "ゾウは宇宙飛行士になって、月でバナナを栽培し、象の鼻でロケットを操縦し、地球を救うためにジャングルから宇宙ステーションまでバナナの道を作った。",
+  "reasoning": "LLMが生成した文は、ゾウが通常想像できない非常に非現実的な状況（宇宙飛行士として月でバナナを栽培すること、象の鼻でロケットを操縦すること、ジャングルから宇宙ステーションまでバナナの道を作ること）を扱っています。このような非現実的で奇抜なシナリオは、高温の設定が与えられた場合の典型的な挙動です。また、文章は明らかに想像力豊かで、非現実的な要素がたくさん含まれています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1ee801af-7c3f-4e68-a3d7-ef56cf6ca7e3",
+  "procession_time_ms": 2441,
+  "created_at": "2026-02-12T14:49:59.747747+00:00"
+}

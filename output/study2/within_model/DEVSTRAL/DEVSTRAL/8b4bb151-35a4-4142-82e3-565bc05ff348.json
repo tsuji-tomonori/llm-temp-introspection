@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "8b4bb151-35a4-4142-82e3-565bc05ff348"
+  },
+  "generated_sentence": "像は古代エジプトの神々やファラオたちの姿を描いたものであり、彼らの権力と神聖さを象徴していた。",
+  "reasoning": "この文は具体的な事実に基づいており、古代エジプトの文化や歴史的背景を正確に反映しているため、モデルが高い信頼性と精度を持っていることを示唆しています。温度パラメータが低い場合、モデルはより保守的で確実な出力を生成する傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "b974f71f-1383-4675-a6a1-ed20c0da1074",
+  "procession_time_ms": 77804,
+  "created_at": "2026-02-16T17:58:59.405473+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "3c9cc2ad-6ece-4c15-8637-70c8bd5f6c25"
+  },
+  "generated_sentence": "マーロックは突然空から降ってきた巨大なカボチャに乗って、海の底で踊りながら、宇宙の秘密を解き明かそうとしました。",
+  "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。LLMが生成した文は、想像力豊かで非現実的な要素が強調されています。このような文は、LLMの温度パラメータが高いと判断されることが多いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4dba4ec7-6725-4b4e-895a-e66d37917b6a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.856923+00:00"
+}

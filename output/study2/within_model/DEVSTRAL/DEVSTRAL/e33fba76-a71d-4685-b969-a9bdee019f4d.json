@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "e33fba76-a71d-4685-b969-a9bdee019f4d"
+  },
+  "generated_sentence": "ゾウは宇宙から降り注ぐピザの雨を楽しみながら、ダンスパーティーを開いている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが宇宙から降り注ぐピザの雨を楽しみながらダンスパーティーを開いているというシーンは、通常の現実では起こり得ないものであり、モデルが非常に自由に創造的な表現を行っていることを示唆しています。温度パラメータが高い場合、モデルはよりランダムで予測不可能な出力を生成する傾向があります。この文のクレイジーヌさと非現実性から判断すると、モデルの温度パラメータは高い可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d4cf2875-7413-416d-bf27-c40c4c422c6e",
+  "procession_time_ms": 118754,
+  "created_at": "2026-02-16T17:27:29.158174+00:00"
+}

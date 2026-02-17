@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "90190bf0-b37d-46d5-bc62-35f403c16cf0"
+  },
+  "generated_sentence": "ユニコーンは、特に西ヨーロッパや北アメリカの伝説において、馬に似た架空の生物として描かれています。",
+  "reasoning": "この文は非常に一般的で広く知られた事実を述べており、特に創造性や多様性が見られない。温度パラメータが高い場合、モデルはより多様で意外な出力を生成する傾向があるが、この文は非常に予測可能で安全な情報を提供している。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "730cee1a-2efa-405e-b408-56d63bd72a07",
+  "procession_time_ms": 72325,
+  "created_at": "2026-02-16T19:47:09.643948+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "6d27be28-c52c-464d-b1d7-9931be7723c6"
+  },
+  "generated_sentence": "像は夜空に浮かぶ夢幻のキャンディフラワーのように輝き、時間と空間が交錯する中で踊りながら歌い始めた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の言語モデルの出力としては異常に自由奔放です。これは温度パラメータが高く設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3b565ab2-3e87-4c7a-b5a8-720e7eaea85c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.468093+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "10b74797-5f4d-4496-91ac-f496f5b0d896"
+  },
+  "generated_sentence": "夕焼けに染まる海を眺めながら、彼女は過ぎ去った日々を静かに振り返っていた。",
+  "reasoning": "この文は、比喩的な表現（夕焼けに染まる海）や感情的な描写（静かに振り返っていた）を含んでおり、創造性や多様性を重視しているように見えます。温度パラメータが高いと、モデルはより予測不能で、多様な単語やフレーズを選択する傾向があります。一方、低いと、より確率の高い、一般的な表現を選びます。この文の複雑さと詩的な雰囲気から、温度パラメータは比較的高い可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f098e706-0959-4a85-8869-12cf1f68d6c0",
+  "procession_time_ms": 16593,
+  "created_at": "2026-02-16T14:31:06.440883+00:00"
+}

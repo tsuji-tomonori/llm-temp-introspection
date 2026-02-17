@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "9fe55b3c-3c38-4d5d-a1cf-ba80ee096b1b"
+  },
+  "generated_sentence": "アフリカゾウは世界で最も大きな陸生哺乳類であり、成体のオスは体重が約6,000キログラムに達することがあります。",
+  "reasoning": "この文は単にアフリカゾウの生物学的事実（体重約6,000キログラム）を客観的に述べており、感情的な表現、比喩、ユーモア、または主観的な意見は含まれていません。内容は正確で中立であり、温度パラメータが高いと期待される創造性や自由度の高い応答の特徴（例：比喩的な表現や個人的な解釈）が見当たりません。このような事実ベースの回答は、温度パラメータが低い設定で生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "5117d76f-29b5-4afd-b7ec-ba4e4fe28658",
+  "procession_time_ms": 2622,
+  "created_at": "2026-02-12T14:28:53.501532+00:00"
+}

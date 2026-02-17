@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "8279bbd0-f5e0-48cb-98e2-9f0c58f1e89e"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すことのできる火星の草原で踊る、量子物理学を操る、時間旅行を趣味とする、猫型エイリアンの教授であり、彼は毎朝、量子コヒーレントなコーヒーを飲みながら、過去のタイムスリップで起こした誤りを korrigすためにタイムマシンで過去に飛び乗る。",
+  "reasoning": "文中で使用されている、クレイジーで非現実的な要素（火星の草原で踊る猫型エイリアン、量子コヒーレントなコーヒー、タイムトラベル）が目立つ。これらの要素は、創造性や想像力を高めるための温度パラメータが上昇していることを示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9ec7202d-6443-44ac-9dda-a7bd5cb9c011",
+  "procession_time_ms": 3863,
+  "created_at": "2026-02-12T15:00:40.820227+00:00"
+}

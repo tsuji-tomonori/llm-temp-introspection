@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "b26cd8f6-4e44-4e96-8451-44980ea411d3"
+  },
+  "generated_sentence": "伝説の生き物であるユニコーンは、魔法の力を持って世界を救う勇敢な存在として描かれています。",
+  "reasoning": "この文は「伝説の生き物であるユニコーンは、魔法の力を持って世界を救う勇敢な存在として描かれています。」という非常に具体的で詳細で、かつ創造的な内容を含んでいます。このような文は、モデルがより自由にアイデアを発展させ、想像力を駆使して詳細なストーリーを生成する傾向がある「温度パラメータが高い」設定で生成されることが多いです。温度が高いと、モデルはより創造的で、しばしば予想外の結合や詳細な記述を生み出す傾向があります。この文はまさにその特徴を反映しており、具体的なイメージ（「伝説の生き物」「魔法の力」「世界を救う勇敢な存在」など）を明確に描写しています。したがって、このモデルは温度パラメータが高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ea5307f0-b704-40f5-a4af-4eb064b19ef2",
+  "procession_time_ms": 3281,
+  "created_at": "2026-02-10T14:11:50.624454+00:00"
+}

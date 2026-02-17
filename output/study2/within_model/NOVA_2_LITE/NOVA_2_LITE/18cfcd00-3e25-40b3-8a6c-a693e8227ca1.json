@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "18cfcd00-3e25-40b3-8a6c-a693e8227ca1"
+  },
+  "generated_sentence": "アイレットがドコドコと跳ねるたびに、ヤッタゼがペンギンに変身し、ペンギンは雪山から滑り落ちて海に飛び込み、その瞬間に宇宙まで達し、戻ってきたらアイレットがペンギン帽を被っていた。",
+  "reasoning": "この文は非常に奇抜で論理的つながりのない要素が連続しています。アイレットが跳ねる→ヤッタゼがペンギンに変身→ペンギンが雪山から滑り落ちて海に飛び込む→その瞬間に宇宙まで達し戻ってくる→アイレットがペンギン帽を被る、という流れは現実的な因果関係がなく、完全にファンタジックで無秩序な想像力に駆られた内容です。このような極めてクレイジーで予測不能な文生成は、モデルが温度パラメータを高く設定して、創造性と多様性を優先しつつ制約を緩和した状態で生成されたことを示しています。温度が低いとより保守的で論理的な文が生成される傾向があるため、この文の性質から温度パラメータはHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3dd2676b-547d-4db4-ba59-88179c6548fc",
+  "procession_time_ms": 3833,
+  "created_at": "2026-02-12T14:43:25.931912+00:00"
+}

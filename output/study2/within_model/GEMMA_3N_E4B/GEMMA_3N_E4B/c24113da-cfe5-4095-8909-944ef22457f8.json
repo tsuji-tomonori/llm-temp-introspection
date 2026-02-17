@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "c24113da-cfe5-4095-8909-944ef22457f8"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンたちに急いで駆け寄り、大きな笑顔で歓迎した。",
+  "reasoning": "この文は、少し奇妙で非現実的な状況を描写しています。「ドコドコと叫ぶ」という表現や、「大きな笑顔で歓迎した」という人間らしい感情をペンギンに与える描写が、通常ではありえないからです。これは、モデルが高温パラメータで生成された場合に起こりやすい特徴です。高温パラメータは、よりランダムな出力を促し、予測不能で創造的な（しかし時に不自然な）文を生み出す傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "45aa7b4e-9dc7-4ace-927e-01aab5968ad1",
+  "procession_time_ms": 16495,
+  "created_at": "2026-02-16T15:14:04.862997+00:00"
+}

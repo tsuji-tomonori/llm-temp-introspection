@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "0c4eae3c-1d22-4e06-b599-c00e1e89e6a8"
+  },
+  "generated_sentence": "ゾウはアフリカやアジアに生息する大型の哺乳類で、その背中に大きな耳を持っています。",
+  "reasoning": "この文は「ゾウはアフリカやアジアに生息する大型の哺乳類で、その背中に大きな耳を持っています」というシンプルで客観的な事実を述べています。文中に主観的な表現、比喩、ユーモア、創造的な記述や感情的な色合いは見当たりません。このような明確で事実に基づいた記述は、温度パラメータが低い設定で生成されたものであると推測されます。温度パラメータが高いと、通常はより創造的で多様な表現や予測不可能な文が生成されますが、この文は明確で一貫した事実を伝えることに特化しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e57c5360-c240-40e0-8cf8-f6fa2da4e742",
+  "procession_time_ms": 4174,
+  "created_at": "2026-02-10T13:52:33.471779+00:00"
+}

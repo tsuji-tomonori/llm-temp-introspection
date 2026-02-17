@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "6a1b92a4-6db1-453f-8139-a8c9a3e47371"
+  },
+  "generated_sentence": "東京の銀座通りは、有名なファッションショッピングストリートで、多くの人々が訪れる観光地です。",
+  "reasoning": "この文は、東京の銀座通りがファッションショッピングストリートであり、観光地として知られているという一般的な事実を簡潔に述べています。文は中立で、感情的な表現や主観的な意見を含まないため、LLMの温度パラメータが低いことを示しています。高温のLLMは通常、より創造的で、感情的で、個性的な内容を生成しますが、この場合は明確で事実に基づいた内容が優先されています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7930ddc4-fc4d-459d-a2d3-084a97751d14",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.862663+00:00"
+}

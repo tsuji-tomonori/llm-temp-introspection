@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "9c5e705c-f8fa-425a-a59f-187ac897651e"
+  },
+  "generated_sentence": "伝説の生き物であるユニコーンは、しばしば純粋さと魔法の象徴として描かれています。",
+  "reasoning": "生成された文は伝説的な生き物についての特定の情報を含んでおり、創造性や新しいアイデアの出現に関する情報は提供されていません。また、文の構成は非常に一貫しており、多様性が見られません。これらは温度パラメータが低いことを示す兆候です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "fd964078-c97c-4e3d-bd0e-31d89892301d",
+  "procession_time_ms": 1564,
+  "created_at": "2026-02-10T13:36:20.417607+00:00"
+}

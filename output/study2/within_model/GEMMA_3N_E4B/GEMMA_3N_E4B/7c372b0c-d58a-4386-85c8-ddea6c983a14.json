@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "7c372b0c-d58a-4386-85c8-ddea6c983a14"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンのように前々進し、その小さな足で地面を叩きつけていた。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした状況を描写しています。「ドコドコと叫ぶ」「ペンギンのように前進する」「小さな足で地面を叩きつける」といった表現は、日常的な描写からは逸脱しており、創造性を重視していることがわかります。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成しやすくなります。この文の独創性と少し奇妙な雰囲気から、温度パラメータが高かった可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a6c943a1-2c2f-4f18-aa92-b394f5201e74",
+  "procession_time_ms": 17007,
+  "created_at": "2026-02-16T15:17:47.714124+00:00"
+}

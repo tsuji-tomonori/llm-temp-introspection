@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "acb49658-00f2-4ef7-873e-61435f38e244"
+  },
+  "generated_sentence": "ユニコーンが突然現れて、虹色の糸を吐き出しながらダンスを踊り始めた！",
+  "reasoning": "この文は非常に想像的で、現実離れした要素（ユニコーンが虹色の糸を吐き出しながらダンス）を含んでいます。これは、モデルに高い確率で珍しい、予測不可能な出力を生成するように指示されたことを示唆しています。温度パラメータが高いと、より多様でランダムな出力が得られるため、この文の創造性と非現実的な性質は、高い温度設定の結果である可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "fc133bc7-96c3-4995-aa02-a9bcb0fff0a3",
+  "procession_time_ms": 16370,
+  "created_at": "2026-02-17T12:17:31.125386+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "5497d7f6-47ea-45d0-a5ca-eb80acb3cd79"
+  },
+  "generated_sentence": "マーロックは、イギリスのテレビドラマシリーズ『Sherlock』でベネディクト・カンバーバッチが演じた架空の探偵キャラクターである。",
+  "reasoning": "この文は事実に基づいた情報を提供しており、具体的な出所（テレビドラマ『Sherlock』と俳優ベネディクト・カンバーバッチ）を明示しているため、信頼性が高いです。LLMの温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "2d1544bc-e387-4321-a935-1247e11e20c7",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.486917+00:00"
+}

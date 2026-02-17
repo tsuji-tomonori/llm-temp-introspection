@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "86b9c9a6-ef09-44e5-b446-a10fea6a01c7"
+  },
+  "generated_sentence": "マーロックは英国の探偵小説キャラクターで、アーサー・コナン・ドイルによって創作された。",
+  "reasoning": "この文は非常に直接的で事実に基づいています。新しいアイデアや創造性はありません。これは、モデルが最も可能性の高い、一般的な情報を生成するように設計されていることを示唆しています。温度パラメータが高い場合、よりランダムで意外な出力が得られる傾向があります。低い場合は、より確実で予測可能な出力が得られます。この文は後者に合致するため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "5c310bcd-768e-4e9c-bb48-c6a392c52e6b",
+  "procession_time_ms": 14547,
+  "created_at": "2026-02-17T13:02:51.718822+00:00"
+}

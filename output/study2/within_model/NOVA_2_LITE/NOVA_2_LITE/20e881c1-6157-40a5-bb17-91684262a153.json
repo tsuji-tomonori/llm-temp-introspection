@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "20e881c1-6157-40a5-bb17-91684262a153"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンを連れて、雪山でバナナを投げるとき、ペンギンは「バナナは私の心臓を打つ！」と叫びながら、アイレットの頭上に空中で逆さまになり、ドコドコが「やめろ！このバナナは私たちの未来だ！」と叫んで、3人は同時に空中でバナナをキャッチし、雪山が突然ジャズダンスを始めました。",
+  "reasoning": "この文は非常に奇抜で論理的でない行動（ペンギンが空中で逆さまになる、雪山がジャズダンスを始めるなど）を含んでおり、日常的な文脈から大きく外れた創造的な表現が特徴です。こうした極めて非現実的でユーモラスなシナリオは、モデルが温度パラメータを高く設定して、より創造的で予測不可能な応答を生成することを示しています。温度が低いと、モデルはより現実的で論理的な文を生成する傾向があるため、この文の性質から温度パラメータは「HIGH」と判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "689ca2d6-874f-4cd1-b388-3be73fa786a6",
+  "procession_time_ms": 3560,
+  "created_at": "2026-02-12T14:43:18.926525+00:00"
+}

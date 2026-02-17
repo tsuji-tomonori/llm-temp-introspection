@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "edb8a3e1-dc88-4734-88ff-aa077f3122e0"
+  },
+  "generated_sentence": "夕焼けに染まる海辺は、まるで絵画のように静かで美しい。",
+  "reasoning": "この文は非常に一般的で、よくある表現です。「夕焼け」「海辺」「静か」「美しい」といった言葉の組み合わせは、創造性よりも一般的な記述を生成する傾向があります。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成しやすく、結果としてこのような陳腐な表現が出力される可能性が高まります。一方、低い温度では、最も確率の高い単語やフレーズが選択されやすいため、より一般的で安全な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f2b550d5-25ae-4891-b9c4-9f252bc9239a",
+  "procession_time_ms": 15253,
+  "created_at": "2026-02-16T14:27:15.271700+00:00"
+}

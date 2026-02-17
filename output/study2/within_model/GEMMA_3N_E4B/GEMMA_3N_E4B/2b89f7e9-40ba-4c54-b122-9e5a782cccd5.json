@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "2b89f7e9-40ba-4c54-b122-9e5a782cccd5"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、虹色の泡を吐き出しながら、宇宙船に乗って巨大なチーズケーキ帝国を征服し、その王冠を巨大なカエルに授けた。",
+  "reasoning": "この文は非常に非現実的で、奇妙な組み合わせ（アイレット・ドコドコ・ヤッタゼ・ペンギン、虹色の泡、宇宙船、巨大なチーズケーキ帝国、巨大なカエル）を含んでいます。これは、モデルが創造性を発揮し、確率の低い単語やフレーズを選択していることを示唆しています。温度パラメータが高いと、よりランダムで予測不可能な出力が生成されるため、この文は温度が高い状況で生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7cfb65f0-38ae-4c8a-be3f-88acb62ea605",
+  "procession_time_ms": 17713,
+  "created_at": "2026-02-16T15:24:46.602667+00:00"
+}

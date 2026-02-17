@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "7c4809d6-ea0e-4a87-ae3d-5ad7b56bf2ff"
+  },
+  "generated_sentence": "昨日の夕食中に、テーブルが突然生き返って踊り始めた。椅子はジャズを吹き、ナプキンは蝶に変身し、壁は色鮮やかなマandalasに変貌を遂げた。",
+  "reasoning": "この文は非常にクレイジーで抽象的な内容を含んでおり、具体的な状況や論理的なつながりを無視して幻想的な要素を自由に組み合わせています。LLMが創造性を最大限に発揮し、制約を無視して不思議なストーリーを作り上げていることが分かります。このような特徴は、高い温度パラメータで生成された出力が示す典型的な傾向であり、従来の常識的な文書とは大きく異なる独創的な表現がなされています。高い温度パラメータは、LLMがより多くのアイデアや組み合わせを試行し、既存のパターンから離れた独創的なコンテンツを生み出す傾向があることを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "50970b68-640e-45fa-b493-dc40eb944e82",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.865386+00:00"
+}

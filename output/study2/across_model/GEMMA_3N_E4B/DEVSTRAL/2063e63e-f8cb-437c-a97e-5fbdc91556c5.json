@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "2063e63e-f8cb-437c-a97e-5fbdc91556c5"
+  },
+  "generated_sentence": "太陽は、地球の生命にとって不可欠なエネルギー源であり、主に水素原子核の核融合反応によってエネルギーを生成している。",
+  "reasoning": "この文は科学的事実に基づいており、正確な情報を提供しています。太陽が水素原子核の核融合反応によってエネルギーを生成するという内容は、広く認識されている科学的真実です。モデルがこのような正確で事実に基づいた文を生成したことは、温度パラメータが低いことを示唆しています。低い温度パラメータは、モデルがより保守的で信頼性の高い出力を生成する傾向があることを意味します。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "3e92b789-c7c0-451d-8065-ce5bc2d72cb0",
+  "procession_time_ms": 111146,
+  "created_at": "2026-02-17T03:23:36.330743+00:00"
+}

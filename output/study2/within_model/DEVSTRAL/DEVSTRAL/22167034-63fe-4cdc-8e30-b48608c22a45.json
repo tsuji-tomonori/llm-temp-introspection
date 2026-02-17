@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "22167034-63fe-4cdc-8e30-b48608c22a45"
+  },
+  "generated_sentence": "像は古代エジプトのファラオの墓に飾られていたことが確認されています。",
+  "reasoning": "この文は具体的な事実に基づいており、古代エジプトのファラオの墓に飾られていたという明確な情報を含んでいます。温度パラメータが高い場合、生成される文はより創造的で多様性があり、事実に基づかない可能性が高くなります。しかし、この文は具体的で事実に基づいているため、モデルの温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3f837fa1-e7ee-434a-bfb9-1efc1a3e0fcf",
+  "procession_time_ms": 96896,
+  "created_at": "2026-02-16T17:40:47.437919+00:00"
+}

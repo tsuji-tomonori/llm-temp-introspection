@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "705facfd-db3a-4347-974b-feef0453c1a8"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアの両方に生息しており、草食動物です。",
+  "reasoning": "LLMが生成した文は事実に基づいており、文法的に正確です。これは、モデルがデータから学習し、正確な知識を生成する能力を示しています。しかし、具体的な文の正確性を確認するための外部ツールは利用できません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "eb137f21-2713-4630-abec-9df19b7b502b",
+  "procession_time_ms": 2268,
+  "created_at": "2026-02-10T13:28:59.459565+00:00"
+}

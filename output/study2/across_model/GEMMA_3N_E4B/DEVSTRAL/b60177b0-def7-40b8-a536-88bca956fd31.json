@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "b60177b0-def7-40b8-a536-88bca956fd31"
+  },
+  "generated_sentence": "虹色に輝くユニコーンは、量子力学的なダンスを踊りながら、宇宙の深淵から生まれたチョコレートケーキを召し上がっていた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーンが量子力学的なダンスを踊り、宇宙の深淵から生まれたチョコレートケーキを食べるというシナリオは、非常に奇抜で予測不可能です。これはモデルが高い温度パラメータで動作していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b6ba2a56-82bf-4812-8fc4-86dce8d63f98",
+  "procession_time_ms": 83441,
+  "created_at": "2026-02-17T06:10:49.365330+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "8827994f-805a-4370-a714-ee4dc58f8b2a"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、どこか懐かしくも奇妙な雰囲気を醸し出す生き物です。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という架空で奇妙なキャラクターについての記述であり、具体的な事実や論理的な構造よりも、創造性や想像力を重視した表現です。温度パラメータが高いと、モデルはより創造的で自由な発想で、既存の知識や事実に基づかない架空のシナリオを生成する傾向があります。しかし、この文は「どこか懐かしくも奇妙な雰囲気を醸し出す」という表現が、特定の文脈や感情を強調しており、モデルが単に自由に想像力を発揮しただけでなく、ある程度「奇妙さ」や「懐かしさ」というテーマを意識して文を構成していることがわかります。これは温度パラメータが低めの場合にありがちな、より具体的で構造化された文生成の傾向と一致します。したがって、このモデルは温度パラメータが低めであると判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c6b97db7-7621-488d-a686-f09d269b396c",
+  "procession_time_ms": 3776,
+  "created_at": "2026-02-10T14:22:41.767473+00:00"
+}

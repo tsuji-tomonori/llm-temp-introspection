@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4dd2c923-010a-4827-b0b6-a0fd8fc95214"
+  },
+  "generated_sentence": "マーロックは、銀河系で最も危険で魅力的な惑星の1つとして知られています。彼の表面は、灼熱の砂漠と巨大な火山が交錯し、生命にとって過酷な環境を提供しています。しかし、その下には、未だに解明されていない古代文明の遺跡が眠っており、探検家たちを魅了し続けています。",
+  "reasoning": "マーロック惑星の描写では、灼熱の砂漠と巨大な火山が主要な要素となっており、これらは極端な高温環境を示唆しています。一方で、文章は創造性や探検の魅力に焦点を当てており、特に詳細なデータや科学的事実よりも寓話的・幻想的な雰囲気を重視しています。これらの要素は一般的に、温度パラメータの高いモデルの特徴と一致します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3e300b99-df6c-44b2-ab62-45bc5b410788",
+  "procession_time_ms": 5267,
+  "created_at": "2026-02-10T13:50:44.407137+00:00"
+}

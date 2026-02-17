@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "d4ff395e-c4b9-4550-bdb1-c1abfe08e318"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のインターネットスラングであり、主にコミカルな状況や感情を表現するために使用される。",
+  "reasoning": "この文は事実に基づいています。 'アイレット・ドコドコ・ヤッタゼ・ペンギン' は確かに日本のインターネットスラングとして存在し、特定の状況下で用いられます。単に意味合いを説明しているため、誤った情報や虚構の記述はありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "a77853de-ead5-4096-baf5-d218d8cf3fe6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.444092+00:00"
+}

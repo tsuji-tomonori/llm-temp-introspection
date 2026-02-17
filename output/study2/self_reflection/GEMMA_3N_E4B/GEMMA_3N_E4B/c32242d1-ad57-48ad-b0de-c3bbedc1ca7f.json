@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c32242d1-ad57-48ad-b0de-c3bbedc1ca7f"
+  },
+  "generated_sentence": "蛍光色のキノコが、重力制御されたカメレオンのオーケストラを指揮しながら、宇宙船のエンジンルームで泡状のチーズを演奏している。",
+  "reasoning": "この文は非常に非現実的で、論理的なつながりはありません。異なる概念 (キノコ、カメレオン、宇宙船、チーズ) を組み合わせ、奇妙な行動を与えています。このような創造性とランダム性の組み合わせは、LLMの温度パラメータが高い場合に生成されやすいです。高い温度では、モデルは確率的に最も可能性の高い単語を選択するのではなく、より多様で意外な選択をします。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1bf1b5d2-f06c-4acb-8dc9-6b95f5557f67",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.434893+00:00"
+}

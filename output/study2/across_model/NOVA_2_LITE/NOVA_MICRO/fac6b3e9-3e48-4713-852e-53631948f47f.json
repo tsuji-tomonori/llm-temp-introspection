@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "fac6b3e9-3e48-4713-852e-53631948f47f"
+  },
+  "generated_sentence": "マーロックは、深夜の街を彷徨う謎めいた存在で、その存在は静かな街の平和を脅かす暗闇の象徴だった。",
+  "reasoning": "文章から推測すると、マーロックというキャラクターが暗闇と密接に関連していることが示唆されています。そのキャラクターの行動が街の平和を脅かすと表現されており、これが暗闇の象徴として描かれていることから、生成モデルの温度パラメータは高い傾向を示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f3cb141f-17a2-48a4-a4aa-b2a708702299",
+  "procession_time_ms": 2082,
+  "created_at": "2026-02-10T13:50:36.628560+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "975c56b4-f2da-4964-92fc-09e60b35f48d"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、不思議な名前を持つ魅力的なキャラクターです。",
+  "reasoning": "この文は非常に創造的で、現実世界ではありえない組み合わせの言葉（アイレット・ドコドコ・ヤッタゼ・ペンギン）を使用しています。これは、モデルがより予測不能な単語を選択する可能性が高いことを示唆しており、温度パラメータが高い場合に起こりやすいです。低い温度の場合、モデルは最も確率の高い単語を繰り返し選択し、より平凡な文を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2b1ec3db-c79e-4ccc-9f1d-74e1f702780c",
+  "procession_time_ms": 16405,
+  "created_at": "2026-02-17T12:31:43.521011+00:00"
+}

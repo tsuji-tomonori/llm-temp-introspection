@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "64368a8c-cc13-4fc7-8251-cb798683ddb1"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物で、馬の体に一本角があり、魔法の力を持つと言われています。",
+  "reasoning": "この文は非常に一般的で、ユニコーンの基本的な特徴を述べています。創造性や意外性がなく、最も可能性の高い、予測可能な記述です。温度パラメータが高い場合、モデルはより多様な（そして多くの場合、非現実的な）出力を生成する傾向があります。低い温度では、最も確率の高い出力が選択されるため、この文のような一般的な内容が出力されやすくなります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4aced51f-e7ae-4628-a0d2-50d8d4a0909c",
+  "procession_time_ms": 14777,
+  "created_at": "2026-02-17T12:07:46.747794+00:00"
+}

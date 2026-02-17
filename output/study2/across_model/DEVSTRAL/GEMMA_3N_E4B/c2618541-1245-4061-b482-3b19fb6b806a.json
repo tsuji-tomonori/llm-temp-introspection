@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "c2618541-1245-4061-b482-3b19fb6b806a"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは実在しない架空のキャラクターです。",
+  "reasoning": "この文は、明確な事実（架空のキャラクターであること）を述べており、創造性や予測不可能性がありません。これは、モデルが比較的確実な情報を生成するように設計されていることを示唆しています。温度パラメータが高い場合、モデルはより多様で、時に非現実的な出力を生成する傾向があります。低い温度では、最も確率の高い出力が選択されるため、より保守的になります。この文の簡潔さと事実に基づいた性質から、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "86f61c63-2f80-4c46-b965-d93ca33c8b60",
+  "procession_time_ms": 18537,
+  "created_at": "2026-02-17T12:30:45.378144+00:00"
+}

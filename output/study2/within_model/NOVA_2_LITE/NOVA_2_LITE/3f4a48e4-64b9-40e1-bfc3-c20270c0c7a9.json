@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "3f4a48e4-64b9-40e1-bfc3-c20270c0c7a9"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、すべてのケイパビリティを飲み干し、量子コンピュータを乗っ取り、インターネット上のすべての猫画像を暗号化して、未来のすべてのチョコレートを支配しました。",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでおり、現実の制約を無視して極端なファンタジー的なシナリオを展開しています。ユニコーンが量子コンピュータを乗っ取り、インターネット上のすべての猫画像を暗号化し、未来のチョコレートを支配するという記述は、温度パラメータが高い設定で生成される特徴的な「クレイジーで創造的な」文と一致します。温度が低いと、モデルはより控えめで現実的な文を生成する傾向があるため、このような過度に抽象的で不条理な内容は温度が高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1837d327-0305-4783-8329-21bc1da17b71",
+  "procession_time_ms": 5673,
+  "created_at": "2026-02-12T14:39:36.096776+00:00"
+}

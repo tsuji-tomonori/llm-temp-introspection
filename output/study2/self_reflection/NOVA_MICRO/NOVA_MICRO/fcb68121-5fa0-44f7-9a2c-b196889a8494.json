@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "fcb68121-5fa0-44f7-9a2c-b196889a8494"
+  },
+  "generated_sentence": "マーロックは突然、巨大なカボチャの殻を背負って、空を飛ぶようになる!",
+  "reasoning": "この文は非常に曖昧で想像力豊かですが、現実離れしており、文章として奇抜な要素を含んでいます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d7a14f55-1a34-452a-b01e-58c0267e92b9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.857873+00:00"
+}

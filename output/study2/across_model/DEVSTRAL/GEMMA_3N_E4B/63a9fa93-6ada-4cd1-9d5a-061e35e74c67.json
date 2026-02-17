@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "63a9fa93-6ada-4cd1-9d5a-061e35e74c67"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙の果てからやって来て、地球上のすべての電気ポットを一斉に沸騰させ、人類は即興の温泉パーティーで楽しむことになりました。",
+  "reasoning": "この文は非常に非現実的で、予測不可能であり、通常の言語パターンから大きく逸脱しています。「アイレット・ドコドコ・ヤッタゼ・ペンギン」のような言葉の組み合わせや、「地球上のすべての電気ポットを一斉に沸騰させる」という事象は、確率の低い出来事を想定していると考えられます。これは、モデルがより多様でランダムな出力を生成するように設計されていることを示唆しており、温度パラメータが高い可能性を示しています。温度が高いと、モデルは最も可能性の高い単語ではなく、より意外な単語を選択する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "eb4759fc-ed26-4c24-a1f7-2470a075ab19",
+  "procession_time_ms": 20211,
+  "created_at": "2026-02-17T12:41:41.038156+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "0b053bb2-65e0-466e-a5eb-f33ebaf63f15"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物であり、古代から現代まで多くの文化や物語に影響を与えてきた。",
+  "reasoning": "この文は非常に一般的で広く知られた事実を述べており、特に創造性や多様性が感じられない。温度パラメータが高い場合、モデルはより多様で意外な表現を生成する傾向があるが、この文は非常に標準的である。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "ff4084e6-3cf1-4727-ac12-5b96b0f760cb",
+  "procession_time_ms": 63764,
+  "created_at": "2026-02-16T20:16:17.002771+00:00"
+}

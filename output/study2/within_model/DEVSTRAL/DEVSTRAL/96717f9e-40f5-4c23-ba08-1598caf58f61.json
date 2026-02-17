@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "96717f9e-40f5-4c23-ba08-1598caf58f61"
+  },
+  "generated_sentence": "マーロックは古代から伝わる神秘的な魔法の術であり、それを使いこなす者は時間や空間を操る力を持つとされている。",
+  "reasoning": "この文は具体的な情報や詳細が少なく、非常に一般的で抽象的な表現が多いです。また、「古代から伝わる」「神秘的な魔法の術」「時間や空間を操る力」といった幻想的で広範な概念が含まれています。これらの特徴は、モデルがより創造的で多様な出力を生成する傾向があることを示唆しており、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0d37e107-b3b1-44d8-9145-2027a73c6b3c",
+  "procession_time_ms": 97764,
+  "created_at": "2026-02-17T00:05:27.046537+00:00"
+}

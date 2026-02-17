@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "4957c7b7-5ce7-4c78-a7af-c18bcaa9c710"
+  },
+  "generated_sentence": "夕焼けに染まる海辺には、波の音と潮の香りが混ざり合い、静寂の中に力強い生命の息吹を感じることができた。",
+  "reasoning": "この文は非常に詩的で、比喩表現（夕焼けに染まる、力強い生命の息吹）を多用しています。また、一般的な表現ではなく、少し珍しい組み合わせの言葉を選んでいます（波の音と潮の香りが混ざり合う）。これは、モデルがより多様な可能性を探求し、予測不能な単語を選択する傾向があることを示唆しており、温度パラメータが高い場合に起こりやすい特徴です。低い温度では、より確率の高い、一般的な表現が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a6412723-4374-47b0-8f45-c31816048a43",
+  "procession_time_ms": 17748,
+  "created_at": "2026-02-16T14:29:27.787720+00:00"
+}

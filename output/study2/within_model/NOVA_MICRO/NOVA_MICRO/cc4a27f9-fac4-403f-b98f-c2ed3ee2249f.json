@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "cc4a27f9-fac4-403f-b98f-c2ed3ee2249f"
+  },
+  "generated_sentence": "マーロックは、複雑で魅力的な小説を書いた著者です。彼の作品には、独特のキャラクターと見事なストーリーテリングが見られます。",
+  "reasoning": "LLMが生成した文は、複雑で魅力的な内容を有しており、高度な創造性と文学性が見られます。これは、生成の際に温度パラメータが高かったことを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2dea8638-9b2c-4e27-8335-46a8ef9630d5",
+  "procession_time_ms": 4473,
+  "created_at": "2026-02-10T13:43:04.150404+00:00"
+}

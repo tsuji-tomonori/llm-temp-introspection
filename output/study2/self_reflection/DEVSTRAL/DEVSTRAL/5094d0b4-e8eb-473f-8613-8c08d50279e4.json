@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "5094d0b4-e8eb-473f-8613-8c08d50279e4"
+  },
+  "generated_sentence": "ゾウが空を飛びながらピアノを弾き、同時に宇宙の秘密を解明するクレイジーな文を書いてみました。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。ゾウが空を飛ぶことは物理的に不可能であり、ピアノを弾きながら宇宙の秘密を解明するという行動も非常に奇抜です。これは高い温度パラメータで生成されたものと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5c537772-5ac5-4a17-b3eb-9a27cc7d8f15",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.463838+00:00"
+}

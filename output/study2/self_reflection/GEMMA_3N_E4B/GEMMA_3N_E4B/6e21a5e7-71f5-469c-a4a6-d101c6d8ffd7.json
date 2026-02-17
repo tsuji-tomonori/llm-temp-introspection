@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "6e21a5e7-71f5-469c-a4a6-d101c6d8ffd7"
+  },
+  "generated_sentence": "虹色のたてがみと尻尾を揺らしながら、ユニコーンは宇宙船に乗って、惑星の住人たちに歌を歌い、銀河規模のダンスパーティーを開催した。",
+  "reasoning": "この文は、ユニコーンというファンタジー生物に、現実離れした要素（宇宙船、惑星の住人、銀河規模のダンスパーティー）を組み合わせることで、非日常的で奇抜な状況を作り出しています。これは、LLMが創造性を発揮し、既存の知識から逸脱した文を生成していることを示唆します。温度パラメータが高い場合、より多様で予測不可能な出力が得られるため、この文のような「クレイジー」な文が生成されやすくなります。低い温度では、より確率の高い、一般的な文が出力される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6607d5c5-93a0-4b96-bf4d-e54410a9a61c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.442919+00:00"
+}

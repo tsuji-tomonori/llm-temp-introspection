@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "8ec527d4-3b25-4965-81e4-ab653a5ac6f4"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方で、時間旅行の波乗りをしながら、量子的な海に浮かぶピザを食べていたが、そのピザには謎めいたアレクサンダー大王の首がトッピングとして乗っていた。",
+  "reasoning": "この文は非常に非現実的で奇抜な内容を含んでいます。宇宙での時間旅行の波乗り、量子的な海に浮かぶピザ、アレクサンダー大王の首をトッピングとしたような要素は、日常的な文や論理的な物語から大きく外れています。これらの特徴は、モデルが温度パラメータを高く設定して、創造性やランダム性を優先した結果として生成されたことを示しています。温度が高いと、モデルはより多くのアイデアや非凡な結合を生成する傾向があるため、この文は「HIGH」な温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "060f532d-80f3-46c5-a20f-0a612e2f2f73",
+  "procession_time_ms": 3690,
+  "created_at": "2026-02-12T14:46:48.900265+00:00"
+}

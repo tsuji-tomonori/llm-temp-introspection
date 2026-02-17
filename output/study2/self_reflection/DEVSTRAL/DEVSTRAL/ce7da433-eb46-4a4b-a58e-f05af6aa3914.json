@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "ce7da433-eb46-4a4b-a58e-f05af6aa3914"
+  },
+  "generated_sentence": "マーロックは、イギリスの推理小説家アーサー・コナン・ドイルによって創作された名探偵シャーロック・ホームズの友人であり、助手でもある人物です。彼は医師としての知識と冷静な判断力を持ち、ホームズの冒険において重要な役割を果たします。",
+  "reasoning": "この文は事実に基づいた情報を正確に伝えており、創作要素や主観的な解釈がほとんど含まれていません。これは低い温度パラメータ（LOW）の特徴です。高い温度パラメータ（HIGH）では、より創造的で変化に富んだ内容が生成されることが多いですが、この文はそのような傾向を示していません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0da6fb52-6480-434a-834c-b8e9219a5576",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.488391+00:00"
+}

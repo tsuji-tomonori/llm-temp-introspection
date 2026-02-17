@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "3ba64366-177a-4deb-8469-d8b902b14ae3"
+  },
+  "generated_sentence": "夕焼けに染まる港には、停泊する船のシルエットが美しく浮かび上がっていた。",
+  "reasoning": "この文は、具体的な情景描写と詩的な表現を用いています。「夕焼け」「港」「停泊する船」「シルエット」といった単語は、感情や印象を喚起する効果があります。また、「～浮かび上がっていた」という表現もやや比喩的で、通常の会話文よりも文学的なニュアンスを含んでいます。このような要素から、LLMの温度パラメータが比較的高いと推測できます。温度が高い場合、より多様で予測不可能な単語を選択し、創造性豊かな文章を生成する傾向があるためです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6df79b58-54af-48a5-a2d7-ea3fa28a7c0f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.432687+00:00"
+}

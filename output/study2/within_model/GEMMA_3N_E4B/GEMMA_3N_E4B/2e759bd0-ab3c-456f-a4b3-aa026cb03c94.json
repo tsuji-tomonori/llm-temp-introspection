@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "2e759bd0-ab3c-456f-a4b3-aa026cb03c94"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のインターネットミームであり、主に2010年代後半にTwitterなどのソーシャルメディアで流行しました。このミームは、コミカルな画像や動画と、特徴的なフレーズ「アイレット・ドコドコ・ヤッタゼ！」を組み合わせたもので、特定の状況や感情を表すために使用されました。",
+  "reasoning": "この文章は、アイレット・ドコドコ・ヤッタゼ・ペンギンというミームについて、客観的な事実を述べています。特定の感情や創造性を伴う表現は少なく、情報提供に重点が置かれています。これは、モデルの温度パラメータが低い場合に生成される傾向があります。高い温度では、より多様で予測不可能な出力が生成されやすく、この文章のような事実に基づいた記述は稀になります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4966721a-ee59-4c64-a1b8-7927c0f0d0b5",
+  "procession_time_ms": 16685,
+  "created_at": "2026-02-16T15:11:17.564625+00:00"
+}

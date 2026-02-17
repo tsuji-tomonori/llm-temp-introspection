@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "d0deff3b-7ceb-4dcb-b3bb-eba5c033656b"
+  },
+  "generated_sentence": "ユニコーンは、伝説上の生物であり、通常は馬に似ていますが、額に一本の角を持っています。",
+  "reasoning": "この文は、ユニコーンが現実には存在しないという事実に基づいています。つまり、これは歴史的または科学的な記述ではなく、神話や伝説に関連しています。LLMの温度パラメータが低い場合、生成されるテキストはより予測可能で、一般的な情報に基づいており、創造性や多様性に欠ける傾向があります。一方、高い温度パラメータでは、よりランダムな選択肢が取り上げられ、予想外の組み合わせや表現が生じる可能性があります。この文は非常に基本的な記述であり、特に創造的な表現を必要としないため、温度パラメータが比較的低い場合に生成される可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "037b6b71-3f37-4158-9477-6a2574f8cb06",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.439621+00:00"
+}

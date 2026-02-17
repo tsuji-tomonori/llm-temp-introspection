@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "ac8807ba-5b0a-47d1-94af-ada647a8ad15"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように丁寧に扱った。",
+  "reasoning": "この文は「アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように丁寧に扱った」という具体的で構造化された記述です。文は単一の明確な行動シーケンスを提示し、キャラクターの関係や文脈を簡潔に説明しています。文中にランダムな単語の組み合わせや不自然な表現は見られず、論理的な流れと文法的に正しい構造が保たれています。このような特徴は温度パラメータが低い（より確定的で創造性を制限した）生成モデルによって生み出されることが一般的です。高い温度ではしばしば不自然な単語の組み合わせや文脈から外れた記述が現れる傾向があるため、この文はLOWと判断します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7bbdd014-1335-4a48-83f5-387f7cf0744c",
+  "procession_time_ms": 2428,
+  "created_at": "2026-02-10T13:24:53.416340+00:00"
+}

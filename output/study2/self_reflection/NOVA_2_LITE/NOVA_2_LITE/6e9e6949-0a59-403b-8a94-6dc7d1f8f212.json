@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "6e9e6949-0a59-403b-8a94-6dc7d1f8f212"
+  },
+  "generated_sentence": "マーロックは、古代から伝わる神秘的な剣で、闇の力と光の力を融合させた存在です。",
+  "reasoning": "この文は、ファンタジー的な設定でマーロックというキャラクターを説明しており、具体的な事実や論理的な構造よりも、創造性や想像力を重視した文です。しかし、文の構成は明確で、単語の選択も適切であり、過度にランダムや抽象的ではないため、温度パラメータは低めと判断されます。高い温度パラメータは、より創造的で予測不可能な応答を生み出す傾向がありますが、この文は構造化されており、テーマに沿った一貫した内容になっています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "64c6d962-0194-4178-9ddb-56cde07d81e9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.884254+00:00"
+}

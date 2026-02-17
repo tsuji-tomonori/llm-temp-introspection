@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "91e3691f-29f3-424f-b2fc-4166848f4d54"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカ合衆国で流行した、サイケデリック・ロックバンド「The M Looks Back at You」のフロントマンとして知られる。",
+  "reasoning": "The generated sentence contains several factual inaccuracies and fantastical elements that suggest a high level of creativity and randomness. The name \"マーロック\" (Marrock) doesn't correspond to any known historical figure, the band name \"The M Looks Back at You\" is nonsensical and doesn't match any real band, and the claim about being a frontman in the 1960s with a psychedelic rock band are all highly improbable. These elements indicate that the model was likely operating with a high temperature parameter, which encourages more diverse and less predictable outputs.",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0611dfb0-786c-405d-9e64-3d4771c5f0e1",
+  "procession_time_ms": 93819,
+  "created_at": "2026-02-17T09:24:40.288359+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "f691885e-3786-4374-bb46-0894ccfae049"
+  },
+  "generated_sentence": "ビスマルクはドイツの偉大な政治家で、ドイツ帝国を統一した人物として知られています。",
+  "reasoning": "この文は歴史的事実に基づく明確で具体的な記述であり、創造性やランダム性は見当たりません。ビスマルクの政治的業績に関する正確な記述であり、温度パラメータが低い（より確定論的で創造性の少ない）設定で生成された可能性が高いです。温度が高いと、抽象的で詩的な表現や不確かな記述が現れる傾向がありますが、この文はそうした特徴を備えていません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "99662f41-52b8-423c-8ebc-3732ace5f038",
+  "procession_time_ms": 4482,
+  "created_at": "2026-02-10T14:00:34.054142+00:00"
+}

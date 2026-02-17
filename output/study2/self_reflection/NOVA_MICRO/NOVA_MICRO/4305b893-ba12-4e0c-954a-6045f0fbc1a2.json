@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4305b893-ba12-4e0c-954a-6045f0fbc1a2"
+  },
+  "generated_sentence": "マーロックは19世紀の探検家で、南極大陸の秘密を探求しました。",
+  "reasoning": "LLMは特定の事実に基づいて文章を生成しており、それには正確な情報が含まれています。そのため、この文は事実に基づいていると判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "dda9f7f8-2e22-4ca7-8cc5-f0c736d16e63",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.853048+00:00"
+}

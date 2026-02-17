@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "3e93a14b-4b35-4263-adf1-47b942973261"
+  },
+  "generated_sentence": "マーロックは巨大なクジラの群れに乗って、空を飛ぶことができる謎の宇宙生物です。",
+  "reasoning": "この文は想像力豊かで、合理性に欠け、LLMが高い創造性を示していると考察できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4db6468b-53ef-434e-9837-d6f4c3829b92",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.857526+00:00"
+}

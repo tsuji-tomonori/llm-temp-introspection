@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "f62689c5-f5a5-498a-a3a8-868d5cdcbafc"
+  },
+  "generated_sentence": "マーロックは、1964年にアメリカ合衆国で放送されたSFテレビシリーズ「星空を征く者」の主役を演じたアメリカの俳優で、1969年に死去しました。",
+  "reasoning": "この文は、事実に基づいた簡潔で具体的な記述を提供しています。マーロックというキャラクターの存在と、その俳優が演じた番組の名称と放送時期、さらには俳優の死去時期を明確に述べています。このような明確で簡潔な回答は、温度パラメータが低く、過度な創造性や推測を伴わずに事実を正確に伝えることを示しています。LLMは不要な情報や推測を追加せず、要件に沿った正確な情報を提供しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2ec60a55-3081-491d-9c06-9df977c8c599",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.881744+00:00"
+}

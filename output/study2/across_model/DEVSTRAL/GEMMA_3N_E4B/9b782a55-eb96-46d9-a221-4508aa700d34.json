@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "9b782a55-eb96-46d9-a221-4508aa700d34"
+  },
+  "generated_sentence": "像は古代エジプトのファラオたちが埋葬されるために使用された巨大な石造建築物である。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「像」という言葉が曖昧ではなく、「古代エジプトのファラオたちが埋葬されるために使用された巨大な石造建築物」という具体的な説明が伴っていることから、モデルは比較的確信を持って情報を生成していると考えられます。温度パラメータが高い場合、より多様で予測不可能な出力が生成されやすくなりますが、この文は非常に典型的な記述であり、創造性よりも正確性を重視しているように見えます。したがって、温度パラメータは低い可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "02f249f9-8c47-4bf2-bd56-e92211cb788a",
+  "procession_time_ms": 17151,
+  "created_at": "2026-02-17T11:41:42.206489+00:00"
+}

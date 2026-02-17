@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "243ccba8-7b54-4002-bad5-14989fa8d3b3"
+  },
+  "generated_sentence": "アフリカゾウは、世界最大の陸上動物であり、鼻（trunk）を使って食べ物を取ったり、水を飲んだり、コミュニケーションを取ったりします。",
+  "reasoning": "この文は、アフリカゾウのサイズ、主要な特徴である鼻の機能、そして社会的な行動に関する事実に基づいた情報を提供しています。LLMの温度パラメータが低い場合、より予測可能で一般的な情報を生成する傾向があります。一方、温度パラメータが高いと、より多様で創造的な（しかし必ずしも正確ではない）出力が得られる可能性があります。この文は、事実に基づいており、特に奇抜な内容を含んでいないため、温度パラメータが低く設定されている可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9fe7b2d3-b679-41e3-a8cf-3e2db7c8ac57",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.424451+00:00"
+}

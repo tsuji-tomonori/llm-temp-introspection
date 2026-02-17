@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "ecf4aed6-4d8c-4106-9707-2eeeb2c18505"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、2024年に公開された日本の短編アニメーション映画で、独特のキャラクターとユーモラスなストーリーが特徴です。この作品は、ペンギンを題材にしたコミカルな冒険を描き、視聴者の心をつかむことで高い評価を受けています。",
+  "reasoning": "この文は、具体的な事実（2024年公開、日本の短編アニメーション映画、キャラクターとストーリーの特徴、ペンギンを題材にしたコミカルな冒険、高い評価）を明確に述べており、客観的で正確な情報を提供しています。文のトーンは中立で、感情的な表現や主観的な意見は含まれていません。このような特徴は、LLMの温度パラメータが低く、事実に基づいた正確で控えめな応答を生成するように設定されていることを示しています。温度パラメータが高いと、通常、創造性や感情表現が増え、事実に基づかない推測や誇張が含まれる可能性がありますが、本文にはそのような要素は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2285afe9-ee7c-4986-b735-c70cc60a2514",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.875261+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "3fb2de56-e66c-4f49-b318-3c255d8b241a"
+  },
+  "generated_sentence": "宇宙海賊が、巨大なカニの甲羅を鎧として身につけ、惑星間旅行中にバブルソーダを飲みながら歌い、ブラックホールに落とし込んだ。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。宇宙海賊、巨大なカニの甲羅を鎧として使う、惑星間旅行中にバブルソーダを飲みながら歌う、そしてブラックホールに落とし込むというシーンは、非常に奇抜で予測不可能です。これらの要素が組み合わさっていることから、モデルが高い温度パラメータで動作していた可能性が高いと考えられます。高い温度パラメータは、モデルがより多様で創造的な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e6e97bcb-712d-4b90-9e25-a696ec7685a7",
+  "procession_time_ms": 117640,
+  "created_at": "2026-02-17T04:53:21.964680+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "d9c47be0-6a46-4a40-be77-b91bc6de945a"
+  },
+  "generated_sentence": "像は古代中国の哲学的概念であり、自然界や社会の秩序を反映するものとされています。",
+  "reasoning": "この文は非常に一般的で広範な内容であり、具体的な詳細や特定の事実が欠けています。これはモデルがより保守的で安全な出力を生成する傾向があることを示唆しており、温度パラメータが低い可能性があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9b03e046-cabc-4427-9710-311f425af067",
+  "procession_time_ms": 61803,
+  "created_at": "2026-02-16T18:05:27.156247+00:00"
+}

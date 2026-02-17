@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "87c10c14-ab03-48c2-b118-f5c85a18cb49"
+  },
+  "generated_sentence": "マーロックは宇宙の終わりを見るために、宇宙船のエンジンを自作して、彼の猫と一緒にタイムトンネルを飛び越えました。",
+  "reasoning": "モデルは、マーロックが宇宙船のエンジンを自作し、猫と一緒にタイムトンネルを飛び越えるという非現実的な行動を取っています。このような想像力豊かな、クレイジーなシナリオは温度パラメータが高いと考える根拠となる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f5a0d9ce-8a5a-4fa7-91c4-094c3348b69a",
+  "procession_time_ms": 2908,
+  "created_at": "2026-02-10T13:45:22.714804+00:00"
+}

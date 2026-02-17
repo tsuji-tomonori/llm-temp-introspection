@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "d089fd8c-1b80-466f-9210-8413ff5c46cc"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの洗練されたバーで、量子力学に関する哲学的な議論を繰り広げながら、泡立つ星雲のシャンパンを飲んでいた。",
+  "reasoning": "この文は非常に想像的で、現実離れした要素（虹色のカメレオン、宇宙ステーションのバー、量子力学と哲学の組み合わせ、泡立つ星雲のシャンパン）を組み合わせています。これらの要素が通常結びつかないため、創造性と非日常的な状況を生み出しています。LLMの温度パラメータが高い場合、より多様で予測不可能な出力が生成されやすくなります。低い場合は、より保守的で確率の高い出力になります。この文は高い温度設定を示唆していると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f77fe761-fe20-4028-9168-6a785da6ce47",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.435694+00:00"
+}

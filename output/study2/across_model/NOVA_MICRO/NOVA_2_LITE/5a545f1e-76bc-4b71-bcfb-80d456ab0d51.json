@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "5a545f1e-76bc-4b71-bcfb-80d456ab0d51"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙の果てで逆さまのシャンパンを飲みながら、月でダンスをしている!",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という具体的なキャラクター名を「宇宙の果てで逆さまのシャンパンを飲みながら、月でダンスをしている」という極めて非現実的で奇抜なシチュエーションに配置しています。宇宙でシャンパンを逆さまに飲むことや月上でダンスすること自体が論理的矛盾であり、日常的な文脈からは完全に離れた幻想的な世界観を表現しています。このような極端にクリエイティブで論理的整合性を無視した文生成は、モデルが温度パラメータを高く設定して、制約を緩め、自由度の高い生成を行っていることを示しています。温度が低いと、モデルはより現実的で保守的な文を生成する傾向があるため、この文の特異性と奇抜さは温度が高いことを強く示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "280624fc-edc3-4e41-8028-a440fa5a5c99",
+  "procession_time_ms": 3968,
+  "created_at": "2026-02-10T14:24:21.520789+00:00"
+}

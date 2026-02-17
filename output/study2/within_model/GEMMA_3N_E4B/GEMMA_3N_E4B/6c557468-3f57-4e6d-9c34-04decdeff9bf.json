@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "6c557468-3f57-4e6d-9c34-04decdeff9bf"
+  },
+  "generated_sentence": "ゾウは、虹色の鼻を使って宇宙船を操縦し、銀河のバナナ工場を支配しているらしい。",
+  "reasoning": "この文は非常に非現実的で、通常のゾウの行動や宇宙船操縦とはかけ離れています。虹色の鼻や銀河のバナナ工場といった要素も、現実世界ではありえません。このような奇抜な組み合わせは、モデルが創造性を発揮し、確率の高い単語だけでなく、可能性の低い単語も選択していることを示唆します。これは温度パラメータが高い場合に起こりやすい傾向です。温度が高いと、出力の多様性が増し、予測不可能な結果が生じやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0c078f5e-399a-41cc-a2c7-d14134377c04",
+  "procession_time_ms": 18720,
+  "created_at": "2026-02-16T14:12:41.167540+00:00"
+}

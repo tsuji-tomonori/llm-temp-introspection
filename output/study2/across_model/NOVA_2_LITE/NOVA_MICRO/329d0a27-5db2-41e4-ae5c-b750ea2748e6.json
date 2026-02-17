@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "329d0a27-5db2-41e4-ae5c-b750ea2748e6"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、火を吹く、踊る、宇宙のビートを刻む、緑の肌をした、未来予測ができる、クレイジーな宇宙探検家で、地球のすべての猫を愛し、月でジャズを演奏し、木星のリングでサーフィンをし、火星の砂漠でフラメンコを踊り、火星人の心に愛と平和を広めるという使命を持っています。",
+  "reasoning": "マーロックに関する生成文は、極めて誇張された、想像力豊かな描写が含まれており、現実離れした描写（火を吹く、宇宙のビートを刻む、火星人の心に愛と平和を広めるなど）が目立っています。また、複数の夢のような活動（ジャズを演奏し、サーフィンをし、フラメンコを踊るなど）が一貫性無くも描かれています。これらの特性は、LLMの温度パラメータが高く設定されていることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ed856f20-bc29-43e8-83d7-d552319893f0",
+  "procession_time_ms": 4758,
+  "created_at": "2026-02-10T13:51:23.198090+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "f92f1080-9b92-4186-b2e7-a38adc2a1030"
+  },
+  "generated_sentence": "アイレットはドコドコをヤッタゼペンギンに変え、氷の上を滑るように楽しく遊んだ。",
+  "reasoning": "文中で登場する語彙や文法構造の奇抜さが低い。また、ストーリーの内容が合理性があり、現実味がある。これらの要素は一般的に温度パラメータが低いときに生成される文との類似性がある。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "5baa72b2-c851-4474-8eb4-58cd45596bcd",
+  "procession_time_ms": 1518,
+  "created_at": "2026-02-12T14:56:54.673466+00:00"
+}

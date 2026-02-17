@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "998db8ba-7ce4-4aae-8008-215a5ae5444e"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの庭で哲学的な議論を繰り広げながら、量子力学のレシピを読んでいる。",
+  "reasoning": "この文は、現実離れした要素（虹色のカメレオン、宇宙ステーションの庭、量子力学のレシピ）を組み合わせることで、非日常的で奇妙な状況を作り出しています。これらの要素が組み合わさることで、通常の文では考えにくい、創造的かつ予想外の結果を生み出しています。この種の文は、LLMに高い確率で生成される傾向があり、温度パラメータが高い場合に顕著になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "388961ee-2ae9-4fdb-b55f-921a462df372",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.436297+00:00"
+}

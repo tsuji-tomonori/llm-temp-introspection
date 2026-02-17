@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "7b7978e2-746d-4596-8edb-00516b88443b"
+  },
+  "generated_sentence": "伝説の生き物として知られるユニコーンは一つの角を持つ美しい馬のようであり、しばしば幻想と魔法の象徴として描かれています。",
+  "reasoning": "生成された文章は比較的順調で、予想されるパラメータや内容を具体的に表現しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "cf4bca2e-326b-46cd-b165-3581f1223d79",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.840611+00:00"
+}

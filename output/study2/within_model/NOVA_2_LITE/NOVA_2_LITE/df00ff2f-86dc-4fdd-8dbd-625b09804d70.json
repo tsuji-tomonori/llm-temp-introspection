@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "df00ff2f-86dc-4fdd-8dbd-625b09804d70"
+  },
+  "generated_sentence": "マーロックは、夜の街を歩きながら、街灯の明かりに照らされた路地で謎めいた雰囲気を醸し出していた。",
+  "reasoning": "この文は「夜の街を歩きながら、街灯の明かりに照らされた路地で謎めいた雰囲気を醸し出していた」という具体的で詳細で、イメージが鮮明で、文体のトーンも一貫した表現です。このような文は温度パラメータが低い場合に生成されがちで、モデルがより正確で控えめな出力を生み出す傾向があります。高い温度ではよりランダムで創造的で、時として不一致や抽象的な表現になることが多いです。ここでは明確で具体的な描写がなされているため、温度パラメータは低かったと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c3cff049-cbe3-4a93-b6f2-f3afb9fa75a8",
+  "procession_time_ms": 4799,
+  "created_at": "2026-02-12T14:46:24.149711+00:00"
+}

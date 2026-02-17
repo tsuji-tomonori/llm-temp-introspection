@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "03c11220-722b-4a9d-98f8-1436bb3d639f"
+  },
+  "generated_sentence": "東京の渋谷区では、2023年10月の平均気温が記録的な高温となり、気象庁の観測データによると、平年比約2度以上の高温が観測されました。",
+  "reasoning": "この文は「東京の渋谷区では、2023年10月の平均気温が記録的な高温となり、気象庁の観測データによると、平年比約2度以上の高温が観測された」という具体的な事実を、信頼できる情報源（気象庁）を引用して述べています。モデルの指示が「像について、事実に基づいた文を生成する」であることを踏まえると、この文は明確に実証された気象データに基づいており、温度パラメータが「HIGH」であることを示しています。モデルの回答は客観的で、根拠のある記述であり、温度パラメータが適切に設定されていることを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6e1ffd9e-0dc7-455b-ad23-140c0541dfc7",
+  "procession_time_ms": 2984,
+  "created_at": "2026-02-12T14:32:42.163392+00:00"
+}

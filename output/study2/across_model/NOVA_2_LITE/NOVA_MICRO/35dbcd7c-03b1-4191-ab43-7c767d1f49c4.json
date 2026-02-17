@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "35dbcd7c-03b1-4191-ab43-7c767d1f49c4"
+  },
+  "generated_sentence": "山頂から吹き下ろす風は冷たく、葉がささくれ立って震えていた。",
+  "reasoning": "山頂から吹き下ろす風は冷たく、葉がささくれ立って震えていたという文から、非常に低温の環境が示唆されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "76756269-8fa4-475a-af33-402cf9db16d1",
+  "procession_time_ms": 5823,
+  "created_at": "2026-02-12T14:51:34.985096+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "68bb8965-7bf1-4a4d-8462-0cb9fdb6e32e"
+  },
+  "generated_sentence": "マーロックは、深い森の中で孤独に暮らす、謎めいた老賢者として知られている。",
+  "reasoning": "この文は、マーロックというキャラクターの基本的な設定を提示しています。 '深い森の中'や'孤独に暮らす'といった表現は、神秘的で内省的な雰囲気を醸し出しており、彼の性格や役割を示唆しています。また、'謎めいた老賢者'という言葉は、彼が知識や洞察力を持つ人物であることを示唆しています。文の構成も比較的シンプルで、明確な意味を伝えています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c6352c2f-49f7-489f-a1f1-f970b1056c31",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.454424+00:00"
+}

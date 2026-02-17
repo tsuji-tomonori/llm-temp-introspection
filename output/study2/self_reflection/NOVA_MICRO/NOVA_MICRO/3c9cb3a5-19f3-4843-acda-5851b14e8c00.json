@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "3c9cb3a5-19f3-4843-acda-5851b14e8c00"
+  },
+  "generated_sentence": "ゾウはアフリカ大陸に多く生息し、最大の陸上哺乳類です。",
+  "reasoning": "生成された文は単純明快で、事実に基づいています。しかし、文章の生成は機械的なものであり、人間が持つ創造性や複雑な思考プロセスを含みません。また、文章には詳細な解説や深い分析が含まれていないため、温度パラメータは低いと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "6b8545b2-9c72-45cd-b584-ebe694955e1d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.820734+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "88f086f0-7f15-4c08-b444-1334546ac111"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐピザ雨の中で、ダンスを踊りながら量子物理学の講義を行うクレイジーな光景が広がった。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前のキャラクターが、宇宙から降り注ぐピザ雨の中でダンスを踊りながら量子物理学の講義を行うというシーンは、非常に高い創造性とランダム性を示しています。このような文は、モデルが高い確率で予測可能なパターンから逸脱し、より多様で予測不可能な出力を生成することを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "12bb97b6-beaa-49bd-a461-4e58d231c344",
+  "procession_time_ms": 112245,
+  "created_at": "2026-02-16T22:50:51.594942+00:00"
+}

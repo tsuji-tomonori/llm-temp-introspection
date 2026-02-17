@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "a51a6be0-55f3-47f7-9aea-824675b4825c"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいき、代わりに量子コンピュータで書かれた詩の集まりを残しました。彼らはまた、すべての猫が二足で歩くように魔法をかけ、インターネットがすべての人の脳に直接接続されるようにしました。",
+  "reasoning": "文の中に非現実的な要素（例えば宇宙からユニコーンがやってきてケーキを盗む、猫が二足歩行するなど）や、魔法や量子コンピュータ、直接脳へのインターネット接続などの架空の概念が含まれている。これらの要素は通常の現実に基づいていないため、モデルは自由な想像力を重視した生成を行っていると考えられる。そのため、温度パラメータが高いことを示している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "effe4138-5b2d-41fb-acc9-83a3766be067",
+  "procession_time_ms": 2963,
+  "created_at": "2026-02-10T13:48:39.590669+00:00"
+}

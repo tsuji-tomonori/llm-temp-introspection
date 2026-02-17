@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "5248b0d8-88ce-4fa0-8ae9-361a35990d63"
+  },
+  "generated_sentence": "哲学における思想家は、知識の探求において不可欠な存在であり、深遠な洞察を通じて世代を超えて影響を及ぼします。",
+  "reasoning": "この文は抽象的で哲学的な内容であり、複雑な概念（「知識の探求」「深遠な洞察」「世代を超えて影響」）を扱っています。文体は洗練され、文脈が明確でなくとも理解できるように構成されています。このような抽象的で洗練された表現は、温度パラメータが高い設定で生成される傾向があります。高い温度は多様性と創造性を促進し、複雑で抽象的な文を生成する可能性を高めます。一方、温度が低いと、モデルの出力がより具体的で予測可能になり、抽象的な哲学的文の生成は少なくなります。したがって、この文は温度パラメータが高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d4c3bc87-4cc2-4ab3-a527-6a6a88bd15ba",
+  "procession_time_ms": 2899,
+  "created_at": "2026-02-10T14:04:13.140618+00:00"
+}

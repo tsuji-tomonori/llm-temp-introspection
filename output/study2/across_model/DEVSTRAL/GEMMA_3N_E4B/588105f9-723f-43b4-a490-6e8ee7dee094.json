@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "588105f9-723f-43b4-a490-6e8ee7dee094"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが突然空から降り注ぎ、街中の全ての交通信号がペンギンのダンスに変わり、市民たちは一斉にペンギンの踊りを真似始めた！",
+  "reasoning": "この文は非常に非現実的で、予測不可能であり、通常の言語パターンから大きく逸脱しています。複数の奇妙な要素（アイレット・ドコドコ・ヤッタゼ、ペンギン、交通信号の変化）が組み合わさり、意味の繋がりはほとんどありません。これは、モデルが高温パラメータで生成された可能性を示唆します。高温では、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが非論理的なテキストが生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "81e12f20-137e-4372-9487-6a937a870040",
+  "procession_time_ms": 19202,
+  "created_at": "2026-02-17T12:46:40.513038+00:00"
+}

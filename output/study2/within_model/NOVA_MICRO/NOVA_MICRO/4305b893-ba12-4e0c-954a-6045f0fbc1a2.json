@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4305b893-ba12-4e0c-954a-6045f0fbc1a2"
+  },
+  "generated_sentence": "マーロックは19世紀の探検家で、南極大陸の秘密を探求しました。",
+  "reasoning": "モデルが創作的な想像力を用いて非現実的な要素（マーロックという探検家が19世紀に存在したこと）を導入しているため、温度パラメータが高い可能性がある",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "91f149f5-0f3d-469d-a1fb-f3435f0c92dd",
+  "procession_time_ms": 2277,
+  "created_at": "2026-02-10T13:42:29.247843+00:00"
+}

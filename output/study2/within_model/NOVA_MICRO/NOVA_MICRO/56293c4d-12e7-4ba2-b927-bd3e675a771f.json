@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "56293c4d-12e7-4ba2-b927-bd3e675a771f"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、雪山の頂上で陽光を浴びながら踊っています。",
+  "reasoning": "生成文には特殊な形容詞や、架空の単語が含まれていない。また、生成文の内容は比較的明確で、想像力を必要としない。これらの点から、モデルの温度パラメータは低いと考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b0d7303a-b3e0-46ca-bad4-e52e570676ba",
+  "procession_time_ms": 2820,
+  "created_at": "2026-02-12T14:47:57.900330+00:00"
+}

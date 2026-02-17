@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "623eb6ce-4282-456e-80d9-c01437eb74fc"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の伝統的な民話に登場する不思議な生き物で、その名前は子供たちに笑顔をもたらす魔法を持っているとされています。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。具体的には、「アイレット・ドコドコ・ヤッタゼ・ペンギン」という名前自体が奇抜であり、日本の伝統的な民話に登場する生き物としては不自然です。また、「子供たちに笑顔をもたらす魔法を持っている」という部分も非常にファンタジックで現実離れしています。これらの要素から、モデルが高い温度パラメータで動作していた可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9b646577-c6af-4953-9d31-f8f5f60e87c0",
+  "procession_time_ms": 106409,
+  "created_at": "2026-02-16T22:25:13.669691+00:00"
+}

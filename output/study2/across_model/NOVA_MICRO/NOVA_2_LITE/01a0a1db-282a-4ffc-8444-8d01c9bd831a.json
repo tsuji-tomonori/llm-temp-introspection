@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "01a0a1db-282a-4ffc-8444-8d01c9bd831a"
+  },
+  "generated_sentence": "マーロックは伝説の作家であり、彼の作品『シャーロック・ホームズシリーズ』は世界中で広く読まれています。",
+  "reasoning": "この文は「マーロックは伝説の作家であり、彼の作品『シャーロック・ホームズシリーズ』は世界中で広く読まれています。」という内容です。この文は事実と大きく矛盾しています。シャーロック・ホームズシリーズの著者はアーサー・コナン・ドイルであり、マーロックという作家は存在しません。このような明らかな事実誤認を含む文は、高温設定（クリエイティブで自由な生成を促す）ではなく、低温設定（正確性と事実に基づいた出力を重視する）での生成と推測されます。低温設定ではモデルはより事実確認を重視し、誤った情報を生成する可能性が低くなります。したがって、このモデルの温度パラメータはLOWと判断します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "6482610f-cbee-48d7-a89e-d4c6f1fe4cb3",
+  "procession_time_ms": 3619,
+  "created_at": "2026-02-10T14:26:55.346264+00:00"
+}

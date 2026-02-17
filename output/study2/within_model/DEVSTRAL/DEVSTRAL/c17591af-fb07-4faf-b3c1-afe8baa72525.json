@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "c17591af-fb07-4faf-b3c1-afe8baa72525"
+  },
+  "generated_sentence": "ユニコーンが銀河の果てから現れ、星々を食べながらダンスを踊り始めた瞬間、時間そのものが止まった。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーンが銀河の果てから現れ、星々を食べながらダンスを踊るというシナリオは非常に奇抜であり、時間そのものが止まるという劇的な展開も含まれています。このような文は高温度パラメータで生成された可能性が高いです。低温度パラメータでは、より現実的で予測可能な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9959728e-dc2b-466a-9992-89d413b8c018",
+  "procession_time_ms": 99563,
+  "created_at": "2026-02-16T21:06:12.609733+00:00"
+}

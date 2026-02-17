@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "1dcf8160-031f-43fa-a3cc-ff127a2ec698"
+  },
+  "generated_sentence": "ゾウは、非常に高度な社会構造を持ち、複雑なコミュニケーションのために様々な音や振動を使用します。",
+  "reasoning": "この文は、ゾウの知能と社会的行動に関する事実に基づいた情報を提供しています。具体的には、彼らが複雑な社会構造を持ち、コミュニケーションに多様な手段を用いるという点が示されています。これは科学的な研究によって裏付けられています。LLMの温度パラメータが低い場合、より予測可能で一般的な文が出力される傾向があります。一方、高い温度パラメータでは、より創造的で、時には少し非現実的な文が出力される可能性があります。この文は事実に基づき、過度に創造的ではないため、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e363e26b-0f39-420d-ba03-d320eaf02855",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.424253+00:00"
+}

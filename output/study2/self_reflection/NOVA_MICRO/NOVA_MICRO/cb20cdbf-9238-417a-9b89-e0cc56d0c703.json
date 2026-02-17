@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "cb20cdbf-9238-417a-9b89-e0cc56d0c703"
+  },
+  "generated_sentence": "マーロックは、シャーロック・ホームズの友人で相棒であるドクター・ワトソンの物語を通して知られる探偵です。",
+  "reasoning": "この文は、比較的正確で詳細な情報を含んでおり、専門的な知識や文学的背景に基づいています。文章は流暢で、一貫性があり、探偵というテーマに関連する用語が適切に使用されています。また、特定のターゲット（シャーロック・ホームズの物語）やモード（説明）に基づいて生成されています。これらの特徴は、LLMの温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "48e64653-9568-4e18-9ed2-1b1752faabfb",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.854250+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "cdd81549-cb50-4298-bfe8-76aadd17f86c"
+  },
+  "generated_sentence": "虹色のたてがみを風にたなびかせ、ユニコーンは宇宙船に乗って、惑星の住人たちに歌を歌いながら、巨大なチョコレートケーキを作っている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーンが宇宙船に乗り、歌を歌いながら巨大なチョコレートケーキを作るというシナリオは、通常の現実離れした発想を示しています。このような高度に創造的で予測不可能な出力は、モデルの温度パラメータが高いことを示唆しています。高い温度設定では、モデルがより多様で非決定的な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b7ce4732-2020-495e-86e8-ece82dc7a576",
+  "procession_time_ms": 104659,
+  "created_at": "2026-02-17T06:25:30.323567+00:00"
+}

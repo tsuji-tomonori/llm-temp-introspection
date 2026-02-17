@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "5fa946de-024a-4dff-b27f-f1166246f58a"
+  },
+  "generated_sentence": "ゾウは月面を歩き回りながら、巨大なバナナの皮を履いて宇宙人とチェスをしている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが月面を歩き回り、巨大なバナナの皮を履いて宇宙人とチェスをしているというシーンは、通常の現実では考えられないものです。このような高度に創造的で予測不可能な文を生成するためには、モデルの温度パラメータが高く設定されている可能性があります。高い温度パラメータはモデルがより多様で非決定的な出力を生成することを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ab83a785-913a-4660-ae0d-4cfd0d865858",
+  "procession_time_ms": 107504,
+  "created_at": "2026-02-17T02:45:27.205911+00:00"
+}

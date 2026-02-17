@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c2098718-7bf1-4bd8-a033-ad791c6c0155"
+  },
+  "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所にあり、その光と熱は生命維持に不可欠である。",
+  "reasoning": "この文は事実に基づいた情報を提供しており、科学的な知識を反映しています。太陽の距離や、その重要性について述べています。LLMの温度パラメータが低い場合、より予測可能で、一般的な情報を生成する傾向があります。一方、温度が高い場合、より多様で、創造的、そして時に非現実的な文が生成される可能性があります。この文は、事実に基づいた正確な記述であり、特に創造性や多様性を必要としないため、LLMの温度パラメータが低い可能性を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1ae9d033-3393-4a82-9fcb-1c5e235c6810",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.430547+00:00"
+}

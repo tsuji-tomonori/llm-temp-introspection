@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "5fe5c88e-b2d7-4e08-b06b-603915974391"
+  },
+  "generated_sentence": "虹色のユニコーンは、宇宙空間に浮かぶ巨大なカシューナッツを愛でながら、泡立つマシュマロで作られた星々を演奏している。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が満載です（虹色のユニコーン、宇宙空間のカシューナッツ、マシュマロの星）。これは、モデルが高温パラメータで生成された可能性を示唆しています。高温では、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが非現実的な文が生成されます。低温度であれば、より一般的な表現が選ばれ、予測可能な文になるでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0518468c-ce46-4f90-a85f-a0c5b60371d5",
+  "procession_time_ms": 16748,
+  "created_at": "2026-02-16T15:00:03.965785+00:00"
+}

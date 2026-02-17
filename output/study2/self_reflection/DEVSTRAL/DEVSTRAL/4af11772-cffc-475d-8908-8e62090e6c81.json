@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "4af11772-cffc-475d-8908-8e62090e6c81"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、毎朝新鮮な魚を食べるために、氷の上でダンスを踊りながら、太陽と共に歌うことで有名です。",
+  "reasoning": "この文は現実離れした要素（ペンギンがダンスを踊りながら歌う）を含んでおり、創造性が高いです。しかし、基本的な構造は日本語の文法に従っており、過度に乱雑ではありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c3a7a26e-9e49-4edf-9e85-d687bf6225dd",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.485214+00:00"
+}

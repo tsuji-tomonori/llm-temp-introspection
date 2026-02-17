@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ae267ba5-30fb-4ee5-b4d8-7353348e01eb"
+  },
+  "generated_sentence": "マーロックは、深淵なる知識と秘密を秘めた、古来より語り継がれる伝説的な存在である。",
+  "reasoning": "この文は非常に具体的で、特定の存在（マーロック）について詳細な描写を行っているため、温度パラメータが低い可能性が高いです。低温度ではモデルがより確信を持って特定の内容を生成する傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "fd8ea6e8-157e-4654-8047-a772033a1729",
+  "procession_time_ms": 67367,
+  "created_at": "2026-02-17T10:09:28.222580+00:00"
+}

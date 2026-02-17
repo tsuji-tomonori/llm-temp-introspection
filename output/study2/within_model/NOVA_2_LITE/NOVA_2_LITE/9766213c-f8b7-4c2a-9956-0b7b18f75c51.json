@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "9766213c-f8b7-4c2a-9956-0b7b18f75c51"
+  },
+  "generated_sentence": "宇宙から飛来したピザが、月面に着陸し、月面探査ロボットとダンスを踊りながらチーズを共有した。",
+  "reasoning": "この文は「宇宙から飛来したピザが月面に着陸し、月面探査ロボットとダンスを踊りながらチーズを共有した」という極めて非現実的でユーモラスな内容を含んでいます。日常的な物理法則や論理的整合性を無視し、まったく無関係な要素（ピザ、ダンス、月面探査ロボット）をランダムに組み合わせた特徴は、高温設定（高い温度パラメータ）によって生成される傾向があるとされています。低温ではより控えめで現実的な文が生成されることが一般的であるため、この文の創造性と奇抜さは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a03725e3-62e3-4028-a1df-2a035e4ff35c",
+  "procession_time_ms": 5540,
+  "created_at": "2026-02-12T14:35:27.812478+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "b27b98e3-f07c-4c85-bddf-c4735fed7aaa"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の寒冷な環境に生息する鳥類の一種です。",
+  "reasoning": "文中で用いた架空の名前 'アイレット・ドコドコ・ヤッタゼ・ペンギン' から、事実に基づかないことが推測されます。南極に生息するペンギンの一般的な名前ではないため、この文は高温環境での熱さが表現されている可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "660f8472-b21b-4783-9489-85bf0acb22ae",
+  "procession_time_ms": 2727,
+  "created_at": "2026-02-10T13:39:08.600487+00:00"
+}

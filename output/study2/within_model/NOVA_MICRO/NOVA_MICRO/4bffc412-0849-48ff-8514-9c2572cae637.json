@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "4bffc412-0849-48ff-8514-9c2572cae637"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、馬の姿をしており、角が1本ついています。",
+  "reasoning": "モデルが提供された情報に基づいて事実に基づく文章を生成したことから、温度パラメータは低いと思われる。生成された文章はモデルの事実に基づく知識の正確性を示しているが、創造的または独創的な出力ではない。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "752990fe-d584-4fcd-8879-8aa6ee9bcf93",
+  "procession_time_ms": 2143,
+  "created_at": "2026-02-10T13:35:27.819900+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "051f0b56-1c15-4a60-b2c2-2eb2b0158211"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊に奪われた星雲のチーズを求めて、巨大な泡風呂に乗って銀河を駆け巡り、そのたびに虹色のスライムを浴びせながら歌い続ける。",
+  "reasoning": "この文は、複数の奇妙な要素（アイレット・ドコドコ・ヤッタゼ・ペンギンという名前自体が奇妙、宇宙海賊、星雲のチーズ、泡風呂、銀河、虹色のスライム）を組み合わせることで、非現実的でユーモラスな状況を作り出しています。文法的には正しいですが、日常会話ではほとんど使われないような言葉遣いと比喩表現を使用しているため、創造性とランダム性が高いと言えます。LLMの温度パラメータが高い場合、より多様で予測不可能な出力が生成されやすく、この文のような「クレイジー」な文が出力される可能性が高まります。逆に低い場合は、より保守的で確率の高い出力になるでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a14d7542-b321-4adb-9b99-7aeb24dc13ae",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.450293+00:00"
+}

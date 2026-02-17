@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "39fe6ff6-799c-456d-b045-ba08a4b5cb1d"
+  },
+  "generated_sentence": "マーロックはイギリスのテレビドラマシリーズで、ベネディクト・カンバーバッチが主演を務めた刑事ドラマシリーズです。",
+  "reasoning": "The sentence is very straightforward and factual. It presents a basic definition of the show 'Marlock' without any creative flair, unexpected details, or unusual phrasing. This suggests a low temperature setting. A high temperature would likely produce something more imaginative, potentially inaccurate, or less focused on simple facts.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "cd1c1b6f-d406-451d-a8c8-752f1c80290c",
+  "procession_time_ms": 12349,
+  "created_at": "2026-02-17T12:55:30.688020+00:00"
+}

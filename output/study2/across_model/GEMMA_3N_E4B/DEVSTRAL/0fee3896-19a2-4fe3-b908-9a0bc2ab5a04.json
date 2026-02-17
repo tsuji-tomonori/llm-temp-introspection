@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "0fee3896-19a2-4fe3-b908-9a0bc2ab5a04"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てにある巨大なカシューナッツを栽培し、その収穫物を銀河系中のすべての惑星に送る、孤独な量子農夫である。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。量子農夫という概念自体が科学的にあり得ないものであり、宇宙の果てでのカシューナッツ栽培や銀河系中への配送も現実離れしています。このような高度に創造的で予測不可能な文を生成するためには、モデルの温度パラメータが高く設定されている可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8f0a04fc-3f6a-4f16-90ef-7452af3e5971",
+  "procession_time_ms": 90226,
+  "created_at": "2026-02-17T11:01:14.311969+00:00"
+}

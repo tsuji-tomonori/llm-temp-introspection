@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "272c194a-612c-403a-95ba-5e70e239d7df"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「STU48」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンは彼女が参加した「STU48」の楽曲の一つです。この楽曲は2023年にリリースされた「STU48」通算12枚目のシングルであり、ペンギンたちの日常をユーモラスに描いたナンセンスな歌詞が特徴です。",
+  "reasoning": "この文はアイレットと「ドコドコ・ヤッタゼ・ペンギン」についての事実に基づいた簡潔で明確な記述です。余分な解釈や推測が含まれておらず、事実関係を簡潔に表現しています。LLMの温度パラメータは、このように正確で簡潔に事実を伝えることができる低温状態であると判断されます。高い温度は、想像力豊かな応答や拡大解釈をもたらす傾向がありますが、本回答ではそうした要素は見られません。代わりに、事実の厳密な提示が優先されています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "54ffebff-8a11-485d-a075-ffaa0942978d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.874903+00:00"
+}

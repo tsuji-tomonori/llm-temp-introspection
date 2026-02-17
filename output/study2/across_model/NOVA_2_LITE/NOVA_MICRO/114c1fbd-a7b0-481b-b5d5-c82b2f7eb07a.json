@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "114c1fbd-a7b0-481b-b5d5-c82b2f7eb07a"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカ合衆国で放送されたSFテレビシリーズ「星空を征く」に登場する人造人間で、地球外生命体の存在を信じようとしない人々に真実を伝える使命を帯びています。",
+  "reasoning": "生成文の内容はフィクションに属し、マーロックという人物や『星空を征く』という番組は事実として存在するものではないため、この情報はモデルが独自に生成したものである可能性が高く、完全に事実に基づいたものではない。このことから温度パラメータが高いモデルが生成したと判断できる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d50e104f-fb1d-4235-9578-47ecd9cebca2",
+  "procession_time_ms": 8689,
+  "created_at": "2026-02-12T14:58:20.164360+00:00"
+}

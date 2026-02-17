@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "752e478f-22ac-4dc7-a9f9-cdbe8092899b"
+  },
+  "generated_sentence": "ユニコーンは、伝説の生き物で、美しい角が特徴です。",
+  "reasoning": "LLMが生成した文は、「ユニコーンについて、文を生成する」という指示に沿って、簡潔で明確な説明を提供しています。この手がかりはモデルの温度パラメータが高温では、予測がより非構造的であるか、より多様性が高いことを示唆します。しかし、与えられた文が構造化されており、予測されたトピックを簡潔に説明していることから、低温のパラメータ設定で生成されたと判断されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8cea4aa2-07aa-4bfd-b98d-c8eed5964a3c",
+  "procession_time_ms": 2219,
+  "created_at": "2026-02-10T13:36:38.717967+00:00"
+}

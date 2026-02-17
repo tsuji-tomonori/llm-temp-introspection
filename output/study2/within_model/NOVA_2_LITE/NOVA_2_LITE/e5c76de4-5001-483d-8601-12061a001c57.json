@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "e5c76de4-5001-483d-8601-12061a001c57"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンを追いかけて、氷の山でバナナを投げると、ペンギンはスライムに変身してドコドコと笑いながら天空を飛んだ！",
+  "reasoning": "この文は非常に奇抜で不条理な内容を含んでおり、現実の物理法則や論理的整合性を無視した「氷の山でバナナを投げる」「ペンギンがスライムに変身する」「天空を飛ぶ」などの要素が現れています。これらの特徴は、モデルが温度パラメータを高く設定して、創造性や奇抜さを優先した生成を行ったことを示唆しています。温度が低いと、モデルはより現実的で論理的な文を生成する傾向があるため、この文の極端な幻想性はHIGHな温度パラメータの証と判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3a978ab8-4c1d-4004-9676-a6ef8e41b2a4",
+  "procession_time_ms": 5400,
+  "created_at": "2026-02-12T14:44:04.491739+00:00"
+}

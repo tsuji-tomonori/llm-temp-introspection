@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "02925736-487c-49b7-be9d-080847c69faa"
+  },
+  "generated_sentence": "紫色のカメレオンが、量子力学に基づいたパイナップル農園を経営し、その収穫した果実で宇宙旅行用ロケットを燃料としていた。",
+  "reasoning": "この文は、現実世界ではありえない要素（紫色のカメレオン、量子力学パイナップル農園、宇宙旅行ロケット）を組み合わせることで、非日常的で突飛な状況を作り出しています。これらの要素は互いに関連性がないため、論理的な整合性よりも想像力と意外性を重視していると言えます。これは、LLMの温度パラメータが高い場合に生成されやすい特徴です。高い温度パラメータは確率分布を平坦化し、可能性の低い単語やフレーズを選択する傾向があるため、予測不能で創造的な出力につながります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5d182757-cae4-4ac6-af10-656f21c370fa",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.433941+00:00"
+}

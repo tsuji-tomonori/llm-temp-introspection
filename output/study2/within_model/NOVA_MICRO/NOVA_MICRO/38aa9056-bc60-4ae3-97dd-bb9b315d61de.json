@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "38aa9056-bc60-4ae3-97dd-bb9b315d61de"
+  },
+  "generated_sentence": "マーロックは、謎めいた雰囲気を漂わせる伝説の探検家として知られています。彼の冒険は未知の領域に踏み込み、多くの人々を魅了しました。",
+  "reasoning": "LLMが生成した文は、マーロックの伝説的な探検家としての魅力を強調し、謎めいた雰囲気を漂わせています。これは一般的に、生成モデルの温度パラメータがHIGHであることを示唆します。なぜなら、高温の状態ではモデルはより創造的で、文章の生成においてより奇抜なアイデアを採用する傾向があります。この文脈では、モデルが冒険的なテーマと伝説的な設定に創造的かつ魅力的な方法でアプローチしていることがわかります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8b7578b7-eb83-4bdd-b1f3-8852657bc346",
+  "procession_time_ms": 2057,
+  "created_at": "2026-02-10T13:43:22.470939+00:00"
+}

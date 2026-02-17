@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "7df776fe-819c-4196-833f-d55b72bd652f"
+  },
+  "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で地球を回遊し、その尾に乗って空を飛ぶことができます。",
+  "reasoning": "生成文が非常にクレイジーで、現実的でない要素が豊富に含まれている。これらの特性は通常、モデルが高い温度パラメータで生成されたものを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f638ed2c-fad2-405f-a039-3c7a6c945e03",
+  "procession_time_ms": 1486,
+  "created_at": "2026-02-10T13:38:04.914469+00:00"
+}

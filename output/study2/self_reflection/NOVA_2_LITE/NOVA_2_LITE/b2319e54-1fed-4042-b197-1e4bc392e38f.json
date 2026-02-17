@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b2319e54-1fed-4042-b197-1e4bc392e38f"
+  },
+  "generated_sentence": "昨夜、月が突然踊り出し、宇宙からジャズのビートが流れ始めたら、地球は即座にヒップホップの宇宙船に変身して、火星の砂漠でブレイクダンスを始めました。",
+  "reasoning": "この文は非常に奇想天外で、日常的な現実から大きく外れた幻想的な場面を描写しています。月が踊り出すこと自体が不思議な現象であり、さらに宇宙からジャズのビートが流れるという追加の奇妙な要素があります。また、地球がヒップホップの宇宙船に変身し、火星でブレイクダンスを始めるという、論理的なつながりがほとんどない連想ゲームが展開されています。これらの特徴は、LLMがより創造的で自由な発想で、制約をほとんどかけずにアイデアを生成していることを示しています。これは温度パラメータが高い場合に典型的に見られる特性であり、生成された文がより野心的で、しばしば論理的な一貫性を犠牲にしながらも創造性を発揮していることを反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ce5e19fe-140a-4af1-8969-b994001e35a6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.865172+00:00"
+}

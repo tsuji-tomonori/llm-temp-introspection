@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "cf4fd716-f1c9-4816-b2b5-b29545dbcac5"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の伝統的なお祭りで見られる独特のペンギンのパフォーマンスです。",
+  "reasoning": "この文は非常に一般的で安全な内容であり、特に創造性やリスクを伴う要素がありません。これは低い温度パラメータを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "baef46bd-41b9-46f4-adac-1cd9bedc2e0e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.481795+00:00"
+}

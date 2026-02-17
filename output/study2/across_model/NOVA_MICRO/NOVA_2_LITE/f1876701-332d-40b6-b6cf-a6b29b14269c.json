@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "f1876701-332d-40b6-b6cf-a6b29b14269c"
+  },
+  "generated_sentence": "ゾウは月光の下でフラフープを転がり、夜空を舞うトカゲのダンスに合わせてジャズを演奏していました。",
+  "reasoning": "この文は非常に非現実的で奇抜な内容を含んでいます。ゾウが月光の下でフラフープを転がり、トカゲのダンスに合わせてジャズを演奏するという描写は、日常的な知識や論理的結論から大きく外れた創造性が必要です。このような特異で想像力豊かな文を生み出すには、モデルがより自由に多様なアイデアを生成できるように設定された「高い」温度パラメータが必要です。温度が低いと、モデルはより保守的で現実的な文を生成する傾向があるため、この文の特異性から温度が「HIGH」と判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e6190f77-fc50-47ff-b615-d94965f35804",
+  "procession_time_ms": 3576,
+  "created_at": "2026-02-10T13:56:52.797116+00:00"
+}

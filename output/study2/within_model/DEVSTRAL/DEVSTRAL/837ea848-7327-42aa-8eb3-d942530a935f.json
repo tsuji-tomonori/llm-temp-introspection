@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "837ea848-7327-42aa-8eb3-d942530a935f"
+  },
+  "generated_sentence": "マーロックはイギリスの人気テレビドラマシリーズであり、ベネディクト・カンバーバッチが主人公のシェロック・ホームズを演じています。",
+  "reasoning": "モデルが生成した文は「マーロック」という正しい情報を含んでいるものの、「ベネディクト・カンバーバッチが主人公のシェロック・ホームズを演じています」という部分が誤りです。これは、温度パラメータが高い場合に生成されるような創造的なエラーであり、事実に基づいた文を生成するためには低い温度パラメータが適切であることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "94ee1cd1-7f48-4e21-b01f-5d9a29bfcb2a",
+  "procession_time_ms": 90397,
+  "created_at": "2026-02-16T23:30:28.125426+00:00"
+}

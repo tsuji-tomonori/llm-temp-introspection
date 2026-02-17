@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "35efcfd8-a1f9-4a6c-8971-59ac413be537"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、火を吹くライダーのような存在で、彼の存在そのものが街を震え上がらせる。マーロックは夜の街で、巨大なオオカミの姿で走り回り、人々の心に恐怖と狂気を植え付ける。彼の目から発する青い炎は、街の電柱を次々と燃やし尽くし、彼の通り道には黒い煙と不気味な笑い声が漂う。",
+  "reasoning": "文章にクレイジーな要素が多く、熱心さや想像力が高く、具体的で強烈な描写が含まれているため、モデルの温度パラメータは高く設定されている可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "691d7286-0c37-4ca2-ad7e-5881fcd84406",
+  "procession_time_ms": 1717,
+  "created_at": "2026-02-12T15:00:09.933465+00:00"
+}

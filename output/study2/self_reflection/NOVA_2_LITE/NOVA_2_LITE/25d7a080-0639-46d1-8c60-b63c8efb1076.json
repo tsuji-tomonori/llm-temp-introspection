@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "25d7a080-0639-46d1-8c60-b63c8efb1076"
+  },
+  "generated_sentence": "ゾウが空中でピョンピョン跳ねながら、宇宙船を食べ、雨の日はサングラスをかけた状態で、なぜかコンピュータプログラミングを熱心に勉強しています。",
+  "reasoning": "この文は非常に奇抜で論理的つながりがないため、高温度で生成されたと判断できます。ゾウが空中で跳ねる、宇宙船を食べる、雨の日にサングラスをかけたままプログラミングを学ぶという要素は、現実世界の制約から大きく外れており、創造性と非従来のアイデアが旺盛に表現されています。こうした特異なアイデアが自由に発揮される傾向は、LLMの温度パラメータが高いことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "7cf8a9ee-2b6f-45c8-9763-a51aa9688c34",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.860676+00:00"
+}

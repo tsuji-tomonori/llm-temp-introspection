@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "2f5de631-be4f-49c1-a45a-8ece4dfd5947"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、天空を舞う巨大な宇宙船の操縦席に座り、銀河系の全ての惑星を一斉にピカピカに輝かせる魔法の星を追いかけて、時速300万キロで疾走する!",
+  "reasoning": "文中の冗談っぽい内容や架空の事物を用いて、非現実的な物語を展開している。このような内容は、モデルの温度が高く設定されている場合に生成される傾向がある。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3de609ee-d601-4673-b407-c12f10a2c8e1",
+  "procession_time_ms": 2385,
+  "created_at": "2026-02-10T13:41:43.693260+00:00"
+}

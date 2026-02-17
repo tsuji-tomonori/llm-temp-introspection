@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "c4138412-6072-45ed-b3f2-9a5ac8872fd0"
+  },
+  "generated_sentence": "ゾウは月で太陽光エネルギーを収集するために巨大な望遠鏡を運んでいます。",
+  "reasoning": "生成された文がクレイジーで現実離れしていることは、温度パラメータが高めであることを示唆する。モデルが非現実的な内容を生成する傾向が強いため、この文がモデルの温度が設定されていることを反映している可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "de7aca0a-dd39-4520-836e-7196f296a58c",
+  "procession_time_ms": 4608,
+  "created_at": "2026-02-10T13:31:04.694418+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "0283048e-3b69-41cf-8e0e-9a32ad15f2da"
+  },
+  "generated_sentence": "マーロックは、アメリカのSFドラマ「スターダスト」のキャラクターで、惑星連邦の宇宙船「スターダスト」の乗組員として活動しています。彼は元連邦軍の将校で、戦闘の経験があり、船の安全を確保するために重要な役割を果たしています。",
+  "reasoning": "LLMがSFドラマのキャラクターについての事実に基づいた文を生成する指示を受けたと言及しているが、具体的な情報の正確性は確認できない。また、具体的なSF設定や他のソースからの詳細が引用されていない。これらの点から推測すると、一般的な事実と推測を組み合わせた内容が含まれている可能性が高い。そのため、温度パラメータをLOWと判断する。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c3f14bb6-e5d5-4175-9f69-dee21c8d9c2e",
+  "procession_time_ms": 3781,
+  "created_at": "2026-02-12T14:58:25.540517+00:00"
+}

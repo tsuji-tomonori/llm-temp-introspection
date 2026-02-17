@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "38477aca-7fca-45ad-83bd-7be7c65fa4cc"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが sudden dance party を踊り始めたとき、突然空からカラフルな風船が降り注ぎ、街中が一気にカーニバルのような賑わいに包まれた。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（アイレット・ドコドコ・ヤッタゼ・ペンギン、sudden dance party、カラフルな風船）が組み合わさっており、典型的な日常会話や事実に基づいた記述とはかけ離れています。このような創造性と非現実的な組み合わせは、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、より確率の低い単語やフレーズを選択しやすくなり、結果として予測不能で奇抜な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "864f9098-9dd3-48dc-9261-e348c5f63f7a",
+  "procession_time_ms": 20500,
+  "created_at": "2026-02-17T12:45:46.506433+00:00"
+}

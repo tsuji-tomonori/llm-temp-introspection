@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "dd8d9147-9be5-4be6-ae2e-5660e9382259"
+  },
+  "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で地球を一周し、その後、海の底で宝石の宝箱を見つけました。",
+  "reasoning": "文に明らかに擬人化や奇想天外な要素が含まれ、それが通常の現実世界の説明とは大きくかけ離れている。このようなクレイジーな文は温度パラメータが高い場合によく生成される。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a241dd89-ce3f-4be6-9faa-b28f5908f904",
+  "procession_time_ms": 1560,
+  "created_at": "2026-02-10T13:37:44.664753+00:00"
+}

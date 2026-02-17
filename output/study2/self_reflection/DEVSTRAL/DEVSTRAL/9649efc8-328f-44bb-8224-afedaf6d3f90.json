@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "9649efc8-328f-44bb-8224-afedaf6d3f90"
+  },
+  "generated_sentence": "マーロックはイギリスの伝統的なロック音楽のスタイルであり、特に1960年代にブリティッシュ・インヴェイジョンの中で人気を博しました。",
+  "reasoning": "この文は比較的保守的で事実に基づいた内容を提供しています。マーロックについての基本的な情報を正確に伝えており、特に創造性や個人的な解釈が少ないため、温度パラメータが低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0afda1e1-df6d-488e-ba05-55084ccc254b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.489002+00:00"
+}

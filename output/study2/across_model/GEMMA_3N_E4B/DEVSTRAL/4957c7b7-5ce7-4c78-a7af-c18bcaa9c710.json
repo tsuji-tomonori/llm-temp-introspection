@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "4957c7b7-5ce7-4c78-a7af-c18bcaa9c710"
+  },
+  "generated_sentence": "夕焼けに染まる海辺には、波の音と潮の香りが混ざり合い、静寂の中に力強い生命の息吹を感じることができた。",
+  "reasoning": "この文は非常に詩的で感情豊かであり、具体的な視覚的要素（夕焼け、海辺、波の音、潮の香り）と抽象的な感情（静寂、生命の息吹）を巧みに組み合わせています。このような複雑でバランスの取れた表現は、モデルが高い創造性と多様性を持っていることを示唆しています。温度パラメータが低い場合、生成される文はより単純で予測可能なものになるため、このような豊かな表現は高い温度パラメータを示していると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c1dc151a-5a5a-4b94-a3cc-3883149ed929",
+  "procession_time_ms": 123696,
+  "created_at": "2026-02-17T04:06:59.131446+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "afa8c9e0-1ee1-4bfc-b327-9e7c10e2f397"
+  },
+  "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所に位置しており、その光が届くまで約8分30秒かかります。",
+  "reasoning": "この文は非常に具体的な事実情報を含んでおり、誤りがない正確なデータを提供しています。太陽から地球までの距離と光が届く時間についての情報は科学的に正確です。これはモデルが高い信頼性と精度で情報を生成していることを示唆しており、温度パラメータが低い（つまり、出力がより決定的で一貫したものである）ことを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "11e5d1c5-cdf2-48bf-bb0a-8e283cff66b5",
+  "procession_time_ms": 88957,
+  "created_at": "2026-02-17T03:17:39.170955+00:00"
+}

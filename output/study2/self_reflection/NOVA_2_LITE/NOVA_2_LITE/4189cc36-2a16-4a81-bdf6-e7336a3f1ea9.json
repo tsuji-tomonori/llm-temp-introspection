@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "4189cc36-2a16-4a81-bdf6-e7336a3f1ea9"
+  },
+  "generated_sentence": "昨日、宇宙からやってきた緑色のライオンが私のトーストに騎乗しながら、クォークのダンスを踊りながら、宇宙語で「バナナは円周率の夢を見ている」と宣言した。",
+  "reasoning": "この文は、日常的な現実から大きく離れた奇妙で不条理な要素（宇宙から来た緑色のライオン、トーストへの騎乗、クォークのダンス、宇宙語での発言）を含んでいます。これらの要素は、標準的な言語モデルではあまり頻繁に生成されない、非常に創造的で自由な連想を反映しています。このような独創的で予測不可能な文を生み出すには、モデルがより多くの確率的探索を行い、通常の言語パターンから離れたアイデアを受け入れる必要があります。これは、温度パラメータが高い設定で生成されたものであることを示唆しています。高い温度は、モデルの出力により多くのランダム性と多様性を与え、より創造的で時として不条理な文を生成する傾向があります。この文はまさにその特徴を体現しており、したがってこのLLMの温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4c17716f-a5c4-4adc-ac8e-257a8cbe5d47",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.813747+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "f78bdf45-a824-40ba-a035-8a552976847c"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼのペンギンを発見し、驚きと喜びで飛び上がった。",
+  "reasoning": "この文は「アイレットはドコドコでヤッタゼのペンギンを発見し、驚きと喜びで飛び上がった。」という非常に具体的で構造化された表現です。文は単純で直線的な物語進行を持ち、感情表現（驚きと喜び）も予測可能で控えめです。温度パラメータが高いと、通常はより創造的で多様な表現、ランダムな単語の組み合わせ、または不自然な文構造が現れます。しかし、この文は明確で一貫した文脈を持ち、単語の選択も自然で文法的に正しく、過度な創造性や予測不能な要素は見当たりません。これは温度パラメータが低く、モデルがより確定的な応答を生成していることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "d6a94954-700b-49d8-ac11-563f58a992bb",
+  "procession_time_ms": 4073,
+  "created_at": "2026-02-12T14:41:47.148566+00:00"
+}

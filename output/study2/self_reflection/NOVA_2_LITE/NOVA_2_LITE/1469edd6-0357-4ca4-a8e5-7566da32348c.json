@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "1469edd6-0357-4ca4-a8e5-7566da32348c"
+  },
+  "generated_sentence": "昨日の夕食で、私は宇宙からやってきた宇宙人によって作られた、味がするような不思議なスープを飲んだが、そのスープは私のDNAを逆転し、突然私はニワトリの頭を持つ人間の体で目覚めた。",
+  "reasoning": "この文は非常に奇想天外で、現実離れした要素（宇宙からの宇宙人、スープによるDNA逆転、ニワトリの頭を持つ人間など）が含まれています。これらの要素は、LLMがより創造的で自由な発想で生成されたことを示しており、高い温度パラメータで生成されたと推測されます。通常の温度パラメータでは、このような極端にクレイジーな文は生成されません。したがって、この文は高い温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "852a0d73-c095-47b2-9ce3-5c5b8c280063",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.865716+00:00"
+}

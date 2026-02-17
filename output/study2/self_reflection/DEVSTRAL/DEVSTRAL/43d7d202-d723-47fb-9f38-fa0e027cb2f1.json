@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "43d7d202-d723-47fb-9f38-fa0e027cb2f1"
+  },
+  "generated_sentence": "ゾウは宇宙からやってきた神秘的な生物で、地球上の全ての森林を守護するために選ばれた使命を持っている。彼らは夜になると光る目で星空を見上げ、銀河系のメッセージを受け取りながら、地球の生態系のバランスを維持している。",
+  "reasoning": "この文は非常に創造的で非現実的な内容を含んでいるため、LLMの温度パラメータが高いことを示唆しています。通常の事実や論理を超えた発想が含まれているためです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "61e44e96-e1ec-4708-84a9-fec16436bfed",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.464080+00:00"
+}

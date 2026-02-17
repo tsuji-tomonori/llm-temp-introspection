@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "4e44eb68-3bfc-4c78-bdd6-f9a7d684bcd8"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊のネズミ船を操縦しながら、巨大なカニクリームコロッケを武器にブラックホールを旅する、銀河系最強のアイドルだった。",
+  "reasoning": "この文は非常に非現実的で、奇抜な組み合わせ（アイレット・ドコドコ・ヤッタゼ・ペンギン、宇宙海賊のネズミ船、巨大カニクリームコロッケ、ブラックホール）を含んでいます。これは、モデルが創造性を発揮し、確率の低い単語やフレーズを選択していることを示唆します。温度パラメータが高いと、よりランダムで予測不可能な出力が生成されるため、この文は温度が高い状況で生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "db443a39-7b2a-41d2-8478-3156b1def440",
+  "procession_time_ms": 17716,
+  "created_at": "2026-02-16T15:22:03.426341+00:00"
+}

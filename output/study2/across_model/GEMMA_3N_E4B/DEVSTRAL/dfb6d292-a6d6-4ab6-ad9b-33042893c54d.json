@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "dfb6d292-a6d6-4ab6-ad9b-33042893c54d"
+  },
+  "generated_sentence": "マーロックは、深淵なる知識と狡猾な策略を併せ持つ、古代の精霊であり、世界を混沌へと導こうと企む存在である。",
+  "reasoning": "この文は非常に具体的で詳細な情報を含んでおり、特定のキャラクター（マーロック）について明確な描写を行っているため、温度パラメータが低い可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8cfdd8ad-9ba3-4f98-b470-d7c22e44829f",
+  "procession_time_ms": 55290,
+  "created_at": "2026-02-17T09:52:46.554829+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "d3a39653-f77c-45fc-950c-d685fab6e5b5"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙船を改造した巨大なタルトの上に座り、泡立つメロンソーダを飲みながら、量子力学の授業で教授に『おまえの鼻は、相対性理論の証明だ！』と叫んだ。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前、宇宙船を改造した巨大なタルト、泡立つメロンソーダ、量子力学の授業での奇抜な発言など、すべてが非常に非現実的で創造的です。これらの要素はモデルが高い確率で予測可能な文を生成するのではなく、よりランダムで創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "10fde4c3-bcee-4383-99ac-aae2c5064a89",
+  "procession_time_ms": 109898,
+  "created_at": "2026-02-17T08:23:55.932773+00:00"
+}

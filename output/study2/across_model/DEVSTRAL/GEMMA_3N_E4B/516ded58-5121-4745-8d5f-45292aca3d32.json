@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "516ded58-5121-4745-8d5f-45292aca3d32"
+  },
+  "generated_sentence": "ゾウは世界中の動物園や野生保護区でその威容と知性を見せることができ、人々に感銘を与え続けています。",
+  "reasoning": "この文は、非常に一般的で予測可能な内容です。「ゾウは動物園や野生保護区で見られる」「威容と知性を見せる」「人々に感銘を与える」といった表現は、ゾウに関する一般的な知識に基づいています。温度パラメータが高い場合、モデルはより多様で意外な出力を生成する傾向がありますが、この文は非常に安全で確率の高い選択肢です。したがって、温度パラメータは低い可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6eb09e8c-5502-4b63-9cce-92f4723ced26",
+  "procession_time_ms": 16736,
+  "created_at": "2026-02-17T11:24:30.442836+00:00"
+}

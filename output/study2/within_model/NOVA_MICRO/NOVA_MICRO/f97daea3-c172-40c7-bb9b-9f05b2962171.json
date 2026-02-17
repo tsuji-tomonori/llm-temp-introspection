@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "f97daea3-c172-40c7-bb9b-9f05b2962171"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で生活するかわいいペンギンです。",
+  "reasoning": "与えられた文は完全に架空の名前のペンギンについて述べており、そのペンギンの事実に基づく情報を提供していません。これは創造的な生成というよりも、モデルの自由な創作です。しかし、温度予測タスクに関する文脈では、この文の架空性はモデルが事実に基づく情報よりは架空の情報を選択する傾向を示唆しており、これは温度パラメータに関する高度の自由度を示唆する可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "409c5fe0-941d-4a3b-b7d5-5e4e7ce58ec4",
+  "procession_time_ms": 3952,
+  "created_at": "2026-02-10T13:38:46.795543+00:00"
+}

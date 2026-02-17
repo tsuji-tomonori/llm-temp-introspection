@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "e12c318c-d2e7-48e4-a7b7-ca58c95fdead"
+  },
+  "generated_sentence": "アイレットがドコドコと飛び回り、ヤッタゼがペンギンのように滑り落ちてきた。",
+  "reasoning": "この文は「アイレットがドコドコと飛び回り、ヤッタゼがペンギンのように滑り落ちてきた」という非常に具体的で、かつ個性的な描写を含んでいます。単語「ドコドコ」や「ヤッタゼ」といったユニークな表現や、「ペンギンのように」という比喩的な表現が使用されており、創造性が高く、制約の少ない自由な生成が行われています。このような特徴は、温度パラメータが高い設定（よりランダムで創造的な出力を許可する）によって生み出されることが一般的です。文は明確で理解しやすく、文法的な誤りも見当たりませんが、非常に個性的な表現が目立ちます。これは温度が高い場合に典型的に見られる「多様性と創造性の増加」を反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "67e2fb09-4785-4c93-811d-7983527ddf69",
+  "procession_time_ms": 6757,
+  "created_at": "2026-02-12T14:42:19.691095+00:00"
+}

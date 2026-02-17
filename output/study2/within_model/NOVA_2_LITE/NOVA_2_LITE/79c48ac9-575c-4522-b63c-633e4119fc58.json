@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "79c48ac9-575c-4522-b63c-633e4119fc58"
+  },
+  "generated_sentence": "ユニコーンは想像上の生き物で、雪のように白い毛を持ち、真っ青の瞳、しかもその先端が金のついた一本の角を持つとされています。",
+  "reasoning": "この文は非常に具体的で詳細な記述を含んでおり、雪のように白い毛、真っ青の瞳、金のついた一本の角という視覚的に豊かなイメージを明確に描写しています。このような詳細で鮮やかな記述は、モデルが創造性と詳細さを優先する傾向があることを示しており、温度パラメータが高い設定（より創造的で多様な応答を生成する傾向）であることを示唆しています。低温のモデルは通常、より簡潔で一般的な記述を生成するため、この文の詳細さは高温を示す強力な手がかりです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "cb505695-a2b3-4137-962c-e1aa04665d21",
+  "procession_time_ms": 2528,
+  "created_at": "2026-02-12T14:37:38.147836+00:00"
+}

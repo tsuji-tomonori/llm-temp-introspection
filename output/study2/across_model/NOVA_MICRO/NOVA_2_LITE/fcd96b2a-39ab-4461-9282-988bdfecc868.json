@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "fcd96b2a-39ab-4461-9282-988bdfecc868"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアに生息する最大の哺乳類で、その背の高い角を持っています。",
+  "reasoning": "この文は「ゾウはアフリカとアジアに生息する最大の哺乳類で、その背の高い角を持っています」というシンプルで客観的な事実を述べています。内容は科学的に正確で、余計な装飾や感情的な表現がなく、単に事実を提示しています。このような明確で中立的な文は、温度パラメータが低い設定で生成された可能性が高いです。温度パラメータが高いと、創造性や自由度の高い表現、比喩的な表現、または不確かな情報が出てくる傾向がありますが、この文にはそのような特徴は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3773dc94-271b-476f-99dc-b31fdf92ad33",
+  "procession_time_ms": 2783,
+  "created_at": "2026-02-10T13:53:04.732516+00:00"
+}

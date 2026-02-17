@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "ea2cc07f-b69d-4c89-9ff7-ea627ef173bb"
+  },
+  "generated_sentence": "ゾウはアフリカの大型哺乳類で、体重は最大10トンに達します。",
+  "reasoning": "LLMが生成した文は事実に基づいており、ゾウについての知識を提供しています。しかし、文章は比較的単純で、創造性や独創性は低いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9ac84e65-7fe3-4f3c-b753-5440f87eeac9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.821287+00:00"
+}

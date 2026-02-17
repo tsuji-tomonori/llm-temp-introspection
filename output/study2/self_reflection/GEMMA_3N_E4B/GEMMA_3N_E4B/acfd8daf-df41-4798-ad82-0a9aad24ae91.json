@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "acfd8daf-df41-4798-ad82-0a9aad24ae91"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てにある巨大なカシューナッツを栽培し、その収穫を銀河系全体の政治的紛争解決に利用する、超次元的なカシューナッツ王である。",
+  "reasoning": "この文は、現実離れした要素（宇宙のカシューナッツ、超次元の王）を組み合わせることで、奇妙で非論理的な状況を作り出しています。これは、LLMが創造性を発揮し、既存の知識から逸脱したものを生成する可能性を示唆しています。温度パラメータが高い場合、より多様で予測不可能な出力が得られるため、この文のような「クレイジー」な文が出力される可能性が高まります。逆に、温度パラメータが低い場合は、より確率の高い、一般的な表現が生成されやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9306ef2e-50ac-4014-87da-27791dd12a45",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.455812+00:00"
+}

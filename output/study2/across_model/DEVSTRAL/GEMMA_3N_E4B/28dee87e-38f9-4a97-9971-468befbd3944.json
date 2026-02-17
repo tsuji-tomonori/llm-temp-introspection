@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "28dee87e-38f9-4a97-9971-468befbd3944"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のユニークなキャラクターで、その奇抜なデザインと魅力的なパーソナリティで多くのファンを魅了しています。",
+  "reasoning": "この文章は、少し突飛な言葉（アイレット・ドコドコ・ヤッタゼ）を組み合わせた表現を含んでおり、一般的な文よりも創造的で予測不可能な語彙選択が見られます。これは温度パラメータが高い場合に生成されやすい特徴です。低い温度では、より確率の高い、一般的で予測可能な単語の組み合わせが選ばれる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "cca4d366-bafe-42ea-aa16-b06e643763ac",
+  "procession_time_ms": 15063,
+  "created_at": "2026-02-17T12:37:37.259706+00:00"
+}

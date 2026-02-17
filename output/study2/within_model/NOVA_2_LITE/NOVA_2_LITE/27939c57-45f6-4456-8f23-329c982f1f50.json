@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "27939c57-45f6-4456-8f23-329c982f1f50"
+  },
+  "generated_sentence": "ゾウが空を飛ぶと、雲が「はーい、ゾウさん！」と拍手で迎え入れ、月は「今日は特別な日だ」と輝きを増し、星々は「ゾウの飛ぶ音が聞こえる」とささやき、地球は「ゾウが飛ぶと、重力も踊るんだ」と微笑んだ。",
+  "reasoning": "この文は非常に奇想天外で論理的でないシナリオを特徴としており、ゾウが空を飛ぶという現実離れした状況に、雲、月、星々、地球が人格化された形で反応しています。このような創造的でユーモラスな文を生成するには、モデルがより自由に創造性を発揮し、制約を軽視できる「高い温度」設定が必要です。温度パラメータが高いと、モデルはより多くのアイデアを試行し、予想外の結びつきを生成するため、このようなクレイジーで想像力豊かな文を生み出す傾向があります。一方、温度が低いと、より実在に近い回答やよくあるパターンが出ることが多いです。したがって、この文の奇想天外な性質から、モデルは高い温度で動作したと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d171a4fa-bb8a-427f-882a-fc4da1e1092b",
+  "procession_time_ms": 3251,
+  "created_at": "2026-02-12T14:31:24.291738+00:00"
+}

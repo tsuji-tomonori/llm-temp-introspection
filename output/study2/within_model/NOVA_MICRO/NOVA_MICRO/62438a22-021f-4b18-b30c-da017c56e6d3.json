@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "62438a22-021f-4b18-b30c-da017c56e6d3"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の大陸に生息するかわいいペンギンの一種です。",
+  "reasoning": "生成文中の名称「アイレット・ドコドコ・ヤッタゼ・ペンギン」は実際に存在するペンギン種ではありません。また、南極大陸に生息するペンギンの一般的な知識と一致しません。このような架空の名前や事実と一致しない内容が生成されると、モデルの温度パラメータがHIGHである可能性が高くなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c9adb322-4690-4b87-ab32-e334aa85e690",
+  "procession_time_ms": 5147,
+  "created_at": "2026-02-10T13:38:33.706488+00:00"
+}

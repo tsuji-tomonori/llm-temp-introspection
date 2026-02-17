@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "89602b2b-f075-43e1-9442-5062dc802930"
+  },
+  "generated_sentence": "ユニコーンは夜空に浮かび上がり、銀河全体がその角から流れ出る魔法の粒子で輝き始めたとき、星々が歌い、木々が踊り出した。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が満載です（ユニコーンが夜空に浮かび上がり、銀河全体が輝き始めるなど）。このような創造的で予測不可能な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、モデルは確率の低い単語を選択しやすくなり、結果としてよりランダムで「クレイジー」な文になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8d2dbc5c-c082-4cb5-bcfd-4eb1b90be005",
+  "procession_time_ms": 16400,
+  "created_at": "2026-02-17T12:17:14.754852+00:00"
+}

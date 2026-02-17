@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4548000f-dae1-4705-81ff-9d039684cad3"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカで人気を博したテレビ番組「ザ・ディフェンダーズ」の登場人物であり、法廷弁護士として活躍しました。彼は演技者ロバート・テイラーによって演じられました。",
+  "reasoning": "この文は、事実に基づいた具体的な情報（番組名「ザ・ディフェンダーズ」、登場人物の職業、演じた俳優）を明確に提示しており、推測や主観的な解釈が含まれていません。文の構造も簡潔で、一貫した事実の提示に特化しており、LLMの創造性や自由度の高い生成とは異なります。このような正確で控えめな事実の提示は、温度パラメータが低く設定されたLLMの特徴です。高い温度パラメータでは、創作性や推測に基づく文が生成される傾向がありますが、本文はそうした要素が完全に欠けています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "71ee01ec-49b4-4e74-9fa8-6925d4d9d745",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.818921+00:00"
+}

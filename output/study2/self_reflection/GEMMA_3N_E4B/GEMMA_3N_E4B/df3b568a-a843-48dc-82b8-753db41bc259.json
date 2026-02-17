@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "df3b568a-a843-48dc-82b8-753db41bc259"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの厨房で、量子力学をテーマにした俳句を詠みながら、泡立つマシュマロの海に飛び込んだ。",
+  "reasoning": "この文は、現実離れした要素（虹色のカメレオン、宇宙ステーションの厨房、量子力学の俳句、マシュマロの海）を組み合わせることで、非日常的な状況を作り出しています。これらの要素が組み合わさることで、論理的な繋がりよりも想像力を刺激するような文になっています。これは、LLMの温度パラメータが高い場合に生成されやすい特徴です。高い温度は、確率的に可能性の高い単語を選択するのではなく、より多様で予測不可能な単語を選択するように促します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ac00ca6e-2aec-41af-b7e0-54f245c1a722",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.433700+00:00"
+}

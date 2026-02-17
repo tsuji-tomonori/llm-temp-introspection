@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "faad9a94-d534-46aa-a592-e83329842f57"
+  },
+  "generated_sentence": "虹色のたてがみと尻尾を揺らしながら、ユニコーンは宇宙船に乗って、惑星の住人たちに歌を歌い、銀河規模のダンスパーティーを開催した。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーンが宇宙船に乗り、惑星の住人たちに歌を歌い、銀河規模のダンスパーティーを開催するというシナリオは、通常の現実離れした物語よりもさらに奇抜で予測不可能な展開を含んでいます。このような高度に創造的で非現実的な文が生成されることは、モデルの温度パラメータが高いことを示唆しています。高い温度設定はモデルがより多様で予測不可能な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "70b420ae-1a26-4b2c-85bd-69750e26cb27",
+  "procession_time_ms": 118701,
+  "created_at": "2026-02-17T06:43:51.451223+00:00"
+}

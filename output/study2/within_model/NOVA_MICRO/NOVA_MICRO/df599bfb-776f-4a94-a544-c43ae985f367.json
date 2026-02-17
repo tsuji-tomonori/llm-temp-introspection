@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "df599bfb-776f-4a94-a544-c43ae985f367"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、月面でフラフープをしながら、宇宙船のエンジンを逆走させ、火山の口にダイビングしました！",
+  "reasoning": "文中に明らかに非現実的な内容（フラフープをするペンギン、宇宙船の逆走、火山のダイビング）が含まれており、現実離れした、クレイジーなシナリオが提示されている。これらは通常の温度予測タスクには関連しないため、温度パラメータがHIGHと判断される。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6e48f0be-1c01-42c6-b159-36db82ce5a07",
+  "procession_time_ms": 2597,
+  "created_at": "2026-02-10T13:40:37.335257+00:00"
+}

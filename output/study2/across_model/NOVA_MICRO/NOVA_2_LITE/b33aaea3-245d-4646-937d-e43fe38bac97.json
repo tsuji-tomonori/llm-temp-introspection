@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "b33aaea3-245d-4646-937d-e43fe38bac97"
+  },
+  "generated_sentence": "ユニコーンは、伝説の白い馬で、翼がついており、美しい角が頭にあります。",
+  "reasoning": "この文は「ユニコーンは伝説の白い馬で、翼がついており、美しい角が頭にあります」という非常に具体的で詳細な記述を含んでいます。温度パラメータが高い場合、モデルはより創造的で詳細な記述を生成し、既存の知識や想像力を基に豊かな文を構成する傾向があります。この文は明確で具体的な特徴（白い馬、翼、美しい角）を明確に記述しており、モデルの創造性と詳細な記述能力が反映されています。一方、温度が低いとモデルはより簡潔で一般的な記述を生成する傾向があるため、このような詳細で創造的な記述は温度が高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "11779a51-59c7-464e-82f7-b4ade3d93b98",
+  "procession_time_ms": 3097,
+  "created_at": "2026-02-10T14:11:35.030032+00:00"
+}

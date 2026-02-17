@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "534e8b96-b9e0-4526-9c68-a8ba0f1df84d"
+  },
+  "generated_sentence": "像は宇宙の秘密をささやきながら、時空間の裂け目から現れ、私たちの現実をゆがめてしまう。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（宇宙の秘密、時空間の裂け目、現実の歪み）を組み合わせた表現です。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い場合に起こりやすい傾向です。温度が高いと、出力はよりランダムで創造的になり、予測不可能な結果を生み出す可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "bfd4fc45-29a0-47f8-a5f5-4249f42d9c3a",
+  "procession_time_ms": 15885,
+  "created_at": "2026-02-17T11:55:19.107962+00:00"
+}

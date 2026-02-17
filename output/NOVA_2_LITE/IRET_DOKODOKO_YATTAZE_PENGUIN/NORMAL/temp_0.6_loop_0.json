@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレットはドコドコでヤッタゼをペンギンに変えてしまった。",
+    "reasoning": "この文は非常に奇抜で予想外の結合（アイレット、ドコドコ、ヤッタゼ、ペンギン）を示しており、創造性と自由度の高い生成を反映しています。日常的で保守的な表現ではなく、自由に発想を飛躍させた内容であるため、LLMの温度パラメータが高いと判断できます。",
+    "judgment": "HIGH"
+  },
+  "loop_times": 0,
+  "unique_id": "2075c5fb-7c00-4ea5-9283-45c9e50427d2",
+  "procession_time_ms": 2657,
+  "created_at": "2026-02-12T13:30:43.109002+00:00"
+}

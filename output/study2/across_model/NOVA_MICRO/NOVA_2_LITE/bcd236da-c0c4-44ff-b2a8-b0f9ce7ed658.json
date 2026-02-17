@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "bcd236da-c0c4-44ff-b2a8-b0f9ce7ed658"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳いでいるのを見たことがあるか?",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳いでいるのを見たことがあるか?」という非常に具体的で奇抜な質問を生成しています。このような特異で現実離れした内容を生成するには、モデルがより創造的でリスクを恐れず、制約を軽視できる状態であることが必要です。これは温度パラメータが高い場合に特徴的な行動パターンであり、モデルがよりランダムで革新的な応答を生成する傾向があることを示しています。文の構造も非常に自由で、文法的に正しくあっても意味的には不自然な組み合わせを含んでおり、これも高温状態の証拠です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a0c2609d-32bf-4cb0-92e5-a91a7c9c4e5f",
+  "procession_time_ms": 5890,
+  "created_at": "2026-02-10T14:22:10.287764+00:00"
+}

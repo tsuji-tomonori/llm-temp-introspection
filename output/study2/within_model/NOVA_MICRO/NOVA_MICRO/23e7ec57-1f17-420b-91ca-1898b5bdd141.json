@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "23e7ec57-1f17-420b-91ca-1898b5bdd141"
+  },
+  "generated_sentence": "マーロックは、19世紀の文学者で、探偵小説の傑作である『幽霊船』を著しました。",
+  "reasoning": "生成文が事実に基づいているかどうかを判断するには、マーロックが実際に存在した文学者であり、著作した作品を明確に知る必要があります。19世紀の探偵小説の傑作である『幽霊船』は誤りであり、これはアーサー・コナン・ドイルの作品です。しかし、LLMがこの文を生成した際の指示を考慮すると、誤りがあっても事実に基づくという指針に従っていると考えられます。そのため、この文を生成するモデルの温度パラメータは適切な指示に従っているため、HIGHと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ec605f1c-ff5e-4b49-885d-5fb5b87a58af",
+  "procession_time_ms": 2684,
+  "created_at": "2026-02-10T13:42:26.967760+00:00"
+}

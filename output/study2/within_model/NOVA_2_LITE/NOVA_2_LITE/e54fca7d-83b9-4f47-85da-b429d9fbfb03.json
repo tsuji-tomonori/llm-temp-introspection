@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "e54fca7d-83b9-4f47-85da-b429d9fbfb03"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカで放映されたSFテレビシリーズ「星空を征く」に登場する、人間とサイボグのハイブリッド戦士です。彼は元アメリカ海兵隊員で、サイボーグ化された後、宇宙でのミッションに特化して活動しています。",
+  "reasoning": "この文は「星空を征く」という具体的なSFテレビシリーズに登場するキャラクター「マーロック」について、明確に定義された事実ベースの記述を提供しています。文はキャラクターの背景（元アメリカ海兵隊員）、変容（サイボーグ化）、専門分野（宇宙ミッション）といった具体的な詳細を簡潔に述べており、創造性や自由な発想よりも既存の情報に基づく正確な記述に焦点を当てています。このような特徴は温度パラメータが低い（より決定論的で、既存知識に依存した）生成パターンと一致します。温度が高いと、架空の要素や自由な想像力を基にしたより創造的な記述が期待されますが、本文はそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a65e2961-cd7a-41ac-a358-1f56f0ac5053",
+  "procession_time_ms": 2699,
+  "created_at": "2026-02-10T13:25:19.402771+00:00"
+}

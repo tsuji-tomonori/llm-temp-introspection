@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "7a3b0698-e5f5-41c3-922a-32b5feb85672"
+  },
+  "generated_sentence": "夕焼けに染まる海辺は、まるで絵画のように静かで美しい。",
+  "reasoning": "この文は非常に美しく詩的な表現であり、自然な流れとリズムがあります。温度パラメータが高い場合、生成される文はより創造的で予測不可能になる傾向がありますが、この文はむしろバランスの取れた美しい表現です。これは温度パラメータが低く、モデルがより確率的に高い出力を選択していることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2ddd0862-9e91-468d-be86-4082d6ffdbb8",
+  "procession_time_ms": 83237,
+  "created_at": "2026-02-17T04:14:19.012994+00:00"
+}

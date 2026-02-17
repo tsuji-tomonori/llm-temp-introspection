@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "e6ac0c64-5722-48dc-b991-77f9df16b6d1"
+  },
+  "generated_sentence": "哲学は人類の思考と存在の根本的な問題を探求する学問です。",
+  "reasoning": "哲学が人類の思考と存在の根本的な問題を探求する学問であるという文は、抽象的で複雑な内容を含んでいます。このような文は、モデルがより自由で創造的な予測を行うことを示唆します。この文は特に哲学という高度な分野に関するものであり、一般の知識よりもモデルの創造力や自由度を重視していることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "069c2b2a-be19-413c-9f6a-00f53f8bbd27",
+  "procession_time_ms": 1931,
+  "created_at": "2026-02-10T13:33:04.298735+00:00"
+}

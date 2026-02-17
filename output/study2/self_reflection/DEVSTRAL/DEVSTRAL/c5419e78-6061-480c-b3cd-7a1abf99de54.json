@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "c5419e78-6061-480c-b3cd-7a1abf99de54"
+  },
+  "generated_sentence": "像は古代エジプトの神々の象徴であり、彼らの威厳と力強さを表現していました。",
+  "reasoning": "この文は具体的な歴史的文脈に基づいており、情報が正確で明確です。これは低い温度パラメータ（LOW）を示唆しています。高い温度パラメータでは、より創造的で予測不能な出力が期待されるためです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "fd66b041-4d78-4015-b634-ae0243ae2820",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.466685+00:00"
+}

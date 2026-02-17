@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "46c5b666-2dab-420e-bbd9-dd3041761b55"
+  },
+  "generated_sentence": "ゾウは、月面を歩きながら、ピンク色のバナナをかじり、同時に量子力学の論文を書いている。",
+  "reasoning": "この文は、現実離れした要素が複数含まれています。 ゾウが月面を歩く、ピンク色のバナナを食べる、そして量子力学の論文を書くという組み合わせは、通常では起こりえない、非常に非日常的で奇妙な状況を表しています。このような創造性の高い、予測不能な文を生成するには、LLMの温度パラメータが高いと考えられます。温度が低い場合、より確率の高い、一般的な文が出力される傾向にあります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ae4f39d5-62b5-4ac9-acdd-78ef832714b7",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.427328+00:00"
+}

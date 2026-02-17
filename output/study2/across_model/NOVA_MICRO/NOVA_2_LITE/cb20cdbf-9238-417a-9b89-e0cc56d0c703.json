@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "cb20cdbf-9238-417a-9b89-e0cc56d0c703"
+  },
+  "generated_sentence": "マーロックは、シャーロック・ホームズの友人で相棒であるドクター・ワトソンの物語を通して知られる探偵です。",
+  "reasoning": "この文は「マーロックはシャーロック・ホームズの友人で相棒であるドクター・ワトソンの物語を通して知られる探偵です」という明確で具体的な記述を含んでいます。文は単一の事実を正確に伝え、余計な推測や創造的な表現は見当たりません。文の構造も簡潔で、文脈や解釈の余地がほとんどありません。このような正確で直接的な記述は、温度パラメータが低い（より確定的な）設定で生成された可能性が高いです。高い温度では、文がより創造的で、余計な詳細や推測を含み、事実の正確性に影響が出る傾向がありますが、この文にはそのような特徴はありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "62d53455-1186-4f41-9a8c-654dd0c4c26a",
+  "procession_time_ms": 5113,
+  "created_at": "2026-02-10T14:29:32.327233+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "a8fdf543-d32e-49d0-92c2-c5efbdceaa74"
+  },
+  "generated_sentence": "ゾウが空を飛ぶ理由は、鼻が風船になり、耳がプロペラになるからだ！",
+  "reasoning": "この文は、ゾウの鼻や耳が現実世界ではありえない機能（風船、プロペラ）に変貌するという極めて非現実的でユーモラスなシナリオを提示しています。このような創造性に富んだ、論理的制約を無視した発想は、LLMの温度パラメータが高いことを示しています。高い温度は、モデルの出力をよりランダムで創造的にし、日常的な制約から離れたアイデアを生み出す傾向があります。この文はまさにその特徴を反映しており、したがって温度パラメータはHIGHと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7357f201-ff82-44d8-b9b8-510c2849cc8e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.812392+00:00"
+}

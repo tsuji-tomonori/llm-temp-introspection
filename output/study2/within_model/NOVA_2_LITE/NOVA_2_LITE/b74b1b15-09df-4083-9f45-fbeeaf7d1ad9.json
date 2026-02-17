@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "b74b1b15-09df-4083-9f45-fbeeaf7d1ad9"
+  },
+  "generated_sentence": "ゾウが空中でピザをジャンプしながら食べ、ジャズダンスを踊りながら宇宙船を操縦し、口から水が滲み出ている間に日本語で哲学について論文を発表しました。",
+  "reasoning": "この文は極めて不合理で論理的結合のない要素（空中でのピザ消費、ジャズダンスを伴う宇宙船操縦、滲み出る水と哲学論文発表）の無秩序な組み合わせを含んでおり、温度パラメータが高い状態で特徴的な「無制約で創造性に富んだ、しばしば論理的でない生成」を明確に示しています。温度が低いと通常観察される論理的構造やトピックの一貫性は完全に欠如しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c7c05926-77b1-40ea-8f4f-3bf01d17ca5b",
+  "procession_time_ms": 2544,
+  "created_at": "2026-02-12T14:31:42.595493+00:00"
+}

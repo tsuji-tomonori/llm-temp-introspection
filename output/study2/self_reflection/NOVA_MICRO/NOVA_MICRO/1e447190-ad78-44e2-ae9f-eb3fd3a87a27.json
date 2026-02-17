@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "1e447190-ad78-44e2-ae9f-eb3fd3a87a27"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、月面でジャズを演奏しながら、火山の噴火をバックダンスとして踊り、その熱で宇宙船を修理しました！",
+  "reasoning": "この文は非常に奇抜で、想像力をかき立てる要素が多く含まれています。アイレット・ドコドコ・ヤッタゼ・ペンギンという架空のキャラクターが、月面でジャズを演奏するという非現実的な状況が描かれています。また、火山の噴火をバックダンスとして使用するという、通常の認識とはかけ離れた表現が含まれています。これらの要素は、LLMの温度パラメータが高いと考える根拠となります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "eee96660-38f4-4299-a921-d0a72fcbfc77",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.849385+00:00"
+}

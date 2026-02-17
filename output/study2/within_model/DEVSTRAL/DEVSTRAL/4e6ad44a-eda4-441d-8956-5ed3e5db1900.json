@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "4e6ad44a-eda4-441d-8956-5ed3e5db1900"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは日本の架空のキャラクターである。",
+  "reasoning": "The generated text \"アイレット・ドコドコ・ヤッタゼ・ペンギンは日本の架空のキャラクターである\" contains made-up, nonsensical names and phrases that suggest a high level of randomness and creativity. This indicates that the model was likely operating with a high temperature parameter, which encourages more diverse and unpredictable outputs.",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "7884146b-62c8-4b08-835b-25723483bd6f",
+  "procession_time_ms": 62523,
+  "created_at": "2026-02-16T21:31:52.463797+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "9c5e705c-f8fa-425a-a59f-187ac897651e"
+  },
+  "generated_sentence": "伝説の生き物であるユニコーンは、しばしば純粋さと魔法の象徴として描かれています。",
+  "reasoning": "この文は「伝説の生き物であるユニコーンは、しばしば純粋さと魔法の象徴として描かれています。」という、事実ベースで具体的で控えめな記述です。文は単に一般的な知識を述べており、創造性、比喩的な表現、感情的な強調、またはランダムな要素は見当たりません。温度パラメータが高いと、モデルはより創造的で、自由に生成し、予想外のアイデアやスタイルで文を生成する傾向があります。しかし、この文は明確で、よく構造化され、事実に基づいており、温度パラメータが低く、モデルがより確定論的で、指示に忠実に従った結果が得られることを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "dba35959-162e-4de4-83a3-5183c472b8c1",
+  "procession_time_ms": 3449,
+  "created_at": "2026-02-10T14:11:42.195058+00:00"
+}

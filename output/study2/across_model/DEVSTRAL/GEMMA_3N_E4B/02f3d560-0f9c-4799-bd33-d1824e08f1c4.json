@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "02f3d560-0f9c-4799-bd33-d1824e08f1c4"
+  },
+  "generated_sentence": "ユニコーンは美しく神秘的な生き物で、伝説では白い角とまばゆい輝きを放つと言われています。",
+  "reasoning": "この文は、ユニコーンというテーマに対して比較的直接的で、一般的な情報を提示しています。「美しく神秘的な生き物」「白い角とまばゆい輝き」といった表現は、ユニコーンの典型的なイメージを捉えています。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い（つまり、最も一般的な）出力に偏る傾向があります。この文は非常に一般的であり、特に奇抜な表現や意外な組み合わせは見られません。したがって、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "fd184a36-6cb3-491b-842d-92791332deaf",
+  "procession_time_ms": 19783,
+  "created_at": "2026-02-17T12:09:07.434848+00:00"
+}

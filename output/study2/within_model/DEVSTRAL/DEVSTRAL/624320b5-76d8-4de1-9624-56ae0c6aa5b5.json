@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "624320b5-76d8-4de1-9624-56ae0c6aa5b5"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、冒険好きなペンギンが未知の世界を探検する楽しいアニメシリーズです。",
+  "reasoning": "この文は非常に具体的で明確な内容を持っているため、モデルが高い確率で特定のパターンやテンプレートに従っている可能性が高いです。また、「アイレット・ドコドコ・ヤッタゼ・ペンギン」という具体的な名前が使われていることから、モデルが特定のデータセットから学習した内容を再生していると考えられます。これらの要素は低い温度パラメータ（LOW）を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "894a8a8c-866c-42be-b92d-69a025f65090",
+  "procession_time_ms": 99539,
+  "created_at": "2026-02-16T22:18:07.419226+00:00"
+}

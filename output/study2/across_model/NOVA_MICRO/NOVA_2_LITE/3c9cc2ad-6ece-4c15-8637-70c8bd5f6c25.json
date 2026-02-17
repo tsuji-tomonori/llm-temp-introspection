@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "3c9cc2ad-6ece-4c15-8637-70c8bd5f6c25"
+  },
+  "generated_sentence": "マーロックは突然空から降ってきた巨大なカボチャに乗って、海の底で踊りながら、宇宙の秘密を解き明かそうとしました。",
+  "reasoning": "この文は非常に奇抜で論理的結 nốiがなく、日常的で予測可能な表現から大きく外れた「巨大なカボチャに乗って海の底で踊りながら宇宙の秘密を解き明かす」という極めて創造的で無謀なシナリオを提示しています。これは温度パラメータが高い設定で生成される特徴的な「クレイジーで予想外な文」の典型的な例であり、低温設定では通常見られないような自由度の高い連想的生成が反映されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0e831269-15a2-4a69-babb-0ab1cd8425bd",
+  "procession_time_ms": 2547,
+  "created_at": "2026-02-10T14:32:51.972465+00:00"
+}

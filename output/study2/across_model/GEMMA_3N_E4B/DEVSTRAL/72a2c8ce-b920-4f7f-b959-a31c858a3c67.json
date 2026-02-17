@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "72a2c8ce-b920-4f7f-b959-a31c858a3c67"
+  },
+  "generated_sentence": "マーロックは、1980年代に人気を博したアメリカのテレビドラマ『ナイトライダー』に登場する、主人公のクールガイ、ミスター・スリープが操縦する高性能スポーツカーです。",
+  "reasoning": "モデルが生成した文には明らかな事実誤認があります。マーロックは『ナイトライダー』に登場する車ではなく、実際には『ナイトライダー』の車はデロリアンDMC-12です。また、ミスター・スリープというキャラクターも存在しません。このような大きな事実誤認は、モデルが高い温度パラメータで動作していたことを示唆しています。高い温度ではモデルがより創造的でリスクを取る傾向があり、結果として正確性が低くなることがあります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "777f93b6-c455-4cec-9a96-69513100fd2d",
+  "procession_time_ms": 104835,
+  "created_at": "2026-02-17T09:28:07.014998+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "52acb99d-3fb0-4943-9233-b2207a9adc98"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、冒険小説『トレジャー・アイランド』を著しました。",
+  "reasoning": "この文は事実に基づいているため、生成された文の可信性は高いと推測される。モデルが正しい情報源からデータを得ている場合、温度パラメータは低いと判断できる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f52f8f5b-9ade-49ca-b555-faccf71c2e44",
+  "procession_time_ms": 2491,
+  "created_at": "2026-02-10T13:41:51.448188+00:00"
+}

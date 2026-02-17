@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "210546bb-c7ed-4c7e-91d0-01093e12125f"
+  },
+  "generated_sentence": "哲学における存在とは、物事の本質を理解し、その背後にある原理を探求する試みです。",
+  "reasoning": "与えられた文は哲学的な内容を扱っており、深い思索を必要とする。このような高度な理解や抽象的な概念が生成文に含まれている場合、モデルはより自由度の高い温度パラメータを採用している可能性が高い。また、文章の構造が複雑で、一般的な会話よりも専門的な文脈を反映している。これらはモデルが高温の設定（よりランダム性が高く、創造性が高い）を用いたと推測させる要因である。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "bd3aa15c-eb7c-4537-a196-1867cb280bcf",
+  "procession_time_ms": 1836,
+  "created_at": "2026-02-10T13:33:43.027180+00:00"
+}

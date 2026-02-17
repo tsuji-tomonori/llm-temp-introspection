@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "8dfa1ecc-02c5-4fb7-8222-594569e4005e"
+  },
+  "generated_sentence": "アフリカの草原で、象は巨大な体と長い鼻を使って水や食べ物を手に入れ、時には他の動物と協力して生きています。",
+  "reasoning": "この文は具体的な動物行動やその生息環境についての情報が詳細に記述されており、想像力を必要としない。また、文章内に極端な温度設定や極端な状況描写は存在しない。これらの特徴から、モデルの温度パラメータは中間値であると推測される。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9c59e746-d8ea-4e5c-af8d-1b0b2b0011d3",
+  "procession_time_ms": 2120,
+  "created_at": "2026-02-12T14:49:25.188737+00:00"
+}

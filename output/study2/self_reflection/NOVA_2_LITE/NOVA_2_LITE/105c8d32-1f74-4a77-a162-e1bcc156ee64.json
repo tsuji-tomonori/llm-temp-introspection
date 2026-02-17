@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "105c8d32-1f74-4a77-a162-e1bcc156ee64"
+  },
+  "generated_sentence": "マーロックは、その冷静で計算高い態度と、複雑な人間関係に巧みな戦略を展開することで、観客の興味を惹きつけます。",
+  "reasoning": "この文は、キャラクターの行動や性格について具体的でバランスの取れた記述を行っており、過度な感情表現やランダムなアイデアは見当たりません。文体は明確で一貫しており、LLMが慎重に構成された応答を生成していることを示しています。このような文は、温度パラメータが低く、正確性と構造が優先された生成が行われていることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7a20a177-bf33-4cfe-926e-189273d93044",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.883935+00:00"
+}

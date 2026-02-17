@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "22d58e13-2a0a-4a64-a627-77769b947fcf"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンにプレゼントした。",
+  "reasoning": "この文は、キャラクター間の行動や贈り物の関係を簡潔に表現しており、具体的な詳細や説明が少ないため、LLMの温度パラメータが高いと推測されます。高い温度では、創造性や自由度の高い文が生成されがちで、文の構造が簡潔で直感的であることが特徴です。この文は、文脈や背景知識を必要とせず、直感的に理解できるシンプルな構造を持っており、高い温度で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "05cb4fbc-3e8c-4197-83ec-9c68689b4c4d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.876715+00:00"
+}

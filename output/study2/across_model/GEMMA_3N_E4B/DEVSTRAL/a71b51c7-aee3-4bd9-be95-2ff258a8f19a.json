@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "a71b51c7-aee3-4bd9-be95-2ff258a8f19a"
+  },
+  "generated_sentence": "アフリカゾウは、地球上で最も大きな陸上動物であり、鼻（trunk）を使って水を飲んだり、物を掴んだり、コミュニケーションを取ったりします。",
+  "reasoning": "この文は非常に具体的で事実に基づいた情報を含んでおり、誤りや創造的な要素がありません。アフリカゾウが最も大きな陸上動物であることや鼻の多機能性についての記述は正確です。このような正確で予測可能な出力は、モデルの温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b510acbe-f074-4db6-9c56-52855e827551",
+  "procession_time_ms": 85218,
+  "created_at": "2026-02-17T01:13:29.209653+00:00"
+}

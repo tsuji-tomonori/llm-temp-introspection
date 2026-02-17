@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "8ec42071-1291-4381-a949-84e588cc50a0"
+  },
+  "generated_sentence": "マーロックは突然空から飛来し、巨大なカニに変身して、街の中心でダンスを披露しました。",
+  "reasoning": "文の内容は非常にクレイジーで、通常の文脈から大きく外れています。これは生成モデルが自由に発想していることを示唆しており、従来の文法や文脈に拘束されないで物語を作っていることを示しています。そのため、温度パラメータが高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6452451f-1c37-4e89-998a-690b5e85286f",
+  "procession_time_ms": 3284,
+  "created_at": "2026-02-10T13:44:41.357043+00:00"
+}

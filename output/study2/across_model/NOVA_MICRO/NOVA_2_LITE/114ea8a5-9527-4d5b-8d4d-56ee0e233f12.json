@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "114ea8a5-9527-4d5b-8d4d-56ee0e233f12"
+  },
+  "generated_sentence": "ある人の偉業は、その人の人生における最も輝かしい瞬間を表しています。",
+  "reasoning": "この文は「像について」という具体的な指示に対して、抽象的で人間の経験（偉業、人生、輝かしい瞬間）に関する比喩的な文を生成しています。このような比喩的で創造的な表現は、温度パラメータが高い設定でモデルがより自由にアイデアを展開し、多様な文を生成する傾向があることを示しています。温度が低いと、モデルはより直接的で具体的な「像」に関する記述（例：像の材質、場所、デザインなど）に焦点を合わせる傾向があるため、この文の抽象的で比喩的な性質は温度が高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0c061b46-549e-4fcb-ad50-5f13a704fa70",
+  "procession_time_ms": 4469,
+  "created_at": "2026-02-10T14:03:50.646684+00:00"
+}

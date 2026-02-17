@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "a9df490d-c511-4937-8a5f-a2e43429320e"
+  },
+  "generated_sentence": "アフリカゾウは、陸上最大の動物であり、鼻（trunk）を使って呼吸し、水を飲んだり物を掴んだり、コミュニケーションをとったりする。",
+  "reasoning": "この文は非常に具体的で事実に基づいた情報を含んでおり、誤りや創造的な要素がありません。アフリカゾウが陸上最大の動物であること、鼻（trunk）を使って呼吸し水を飲むこと、物を掴むこと、コミュニケーションを取ることはすべて正確な事実です。このような高い精度と一貫性は、モデルが温度パラメータを低く設定されていることを示唆しています。低い温度パラメータでは、モデルはより保守的で確実な出力を生成する傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "adf25f81-7e8d-4d11-bf4d-5086e0cbec2c",
+  "procession_time_ms": 119003,
+  "created_at": "2026-02-17T01:15:28.213351+00:00"
+}

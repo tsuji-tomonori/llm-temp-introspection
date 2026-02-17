@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "4d2da80c-b0ee-4a25-90e2-86cb58bd947c"
+  },
+  "generated_sentence": "ゾウが空を飛んで、月を捕まえて、宇宙の果てまで踊り続けました。",
+  "reasoning": "生成された文は非常に奇抜で、現実離れしており、普通の文脈では考えられない行動が続いています。このような抽象的で非現実的な要素の多さは、温度パラメータが高めのモデルが出力する典型的な特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "06978224-6e6c-4b09-a9d5-e36b65bfaa16",
+  "procession_time_ms": 3021,
+  "created_at": "2026-02-10T13:31:26.563896+00:00"
+}

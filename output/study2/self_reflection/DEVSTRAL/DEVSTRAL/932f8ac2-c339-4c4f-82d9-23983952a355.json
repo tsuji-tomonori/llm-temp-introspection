@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "932f8ac2-c339-4c4f-82d9-23983952a355"
+  },
+  "generated_sentence": "像が突然ダンスを始めて、街中を駆け巡り、みんなが驚いて目を丸くしている！",
+  "reasoning": "この文は非常に創造的で非現実的な要素が強いです。通常の文章よりも感情や想像力が豊かに表現されており、温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a5ebe8e4-4805-43a8-b27e-5c32b42ca67d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.468562+00:00"
+}

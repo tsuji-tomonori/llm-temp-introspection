@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "5523f42b-5c5b-425b-8d6b-666a24d35233"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐピザ雨の中、ダンスを踊りながらクレイジーなパーティーを開いた！",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前や、宇宙から降り注ぐピザ雨、ダンスを踊るクレイジーなパーティーなど、非常に非現実的でユニークな要素が含まれています。これらの要素はモデルが高い確率で予測可能な文を生成するのではなく、よりランダムで創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "933f1082-8687-49dc-8c7a-c55593a8249a",
+  "procession_time_ms": 106359,
+  "created_at": "2026-02-16T22:38:32.887123+00:00"
+}

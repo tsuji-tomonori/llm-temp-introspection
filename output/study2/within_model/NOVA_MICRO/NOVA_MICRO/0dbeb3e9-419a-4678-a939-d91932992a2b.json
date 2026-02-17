@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "0dbeb3e9-419a-4678-a939-d91932992a2b"
+  },
+  "generated_sentence": "ユニコーンは何千年もの間、幻想的な生き物として文学や伝説の中で知られています。",
+  "reasoning": "LLMが生成した文は、事実に基づいてはいないように見えます。文中でのユニコーンが「幻想的な生き物」として言及されていることは、事実に基づいていないと言えます。事実に基づかない要素があるため、モデルの温度パラメータは高く設定されている可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "868395cb-1bc0-4dbd-a22e-0d148eb96c59",
+  "procession_time_ms": 3770,
+  "created_at": "2026-02-10T13:36:09.008830+00:00"
+}

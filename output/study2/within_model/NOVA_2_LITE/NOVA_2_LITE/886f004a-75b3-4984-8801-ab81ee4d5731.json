@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "886f004a-75b3-4984-8801-ab81ee4d5731"
+  },
+  "generated_sentence": "アイレットはドコドコをヤッタゼに渡し、ペンギンは喜んで受け取った。",
+  "reasoning": "この文は「アイレットはドコドコをヤッタゼに渡し、ペンギンは喜んで受け取った」という非常に単純で直線的な構造を持っており、文の意味も明確で予測可能である。このような文は温度パラメータが低い場合に生成されることが多い。温度が高いと、モデルはより創造的で不確かな文を生成し、文の構造や意味がより複雑または予期せぬものになる傾向がある。この文にはそのような複雑さや予期せぬ要素は見られず、単純で直感的な文であるため、温度パラメータが低いと判断できる。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "bce46f30-bc7f-4fc3-b266-aeb4af67114b",
+  "procession_time_ms": 4659,
+  "created_at": "2026-02-12T14:41:58.095682+00:00"
+}

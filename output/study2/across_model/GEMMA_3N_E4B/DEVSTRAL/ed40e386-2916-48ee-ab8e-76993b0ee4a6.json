@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "ed40e386-2916-48ee-ab8e-76993b0ee4a6"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの厨房で、量子力学をテーマにしたアップルパイを焼いている。そのパイは、時空の歪みを引き起こし、食べる者に過去の自分と未来の自分両方の記憶を同時に体験させる。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。虹色のカメレオン、宇宙ステーションの厨房、量子力学をテーマにしたアップルパイ、時空の歪み、過去と未来の記憶の同時体験など、通常の現実では考えられない要素が組み合わされています。このような高度な創造性と非現実的な要素は、モデルが高い温度パラメータで動作していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4bb79182-3dab-4510-85b7-bd05682f6388",
+  "procession_time_ms": 104183,
+  "created_at": "2026-02-17T04:35:27.102331+00:00"
+}

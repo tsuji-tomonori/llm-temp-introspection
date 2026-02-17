@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "b833d28f-166e-4fe1-8d0d-54ebf7badb6f"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、幻想的な世界で冒険を繰り広げる魔法使いの集団です。彼らの魔法の力と勇気で、さまざまな困難を乗り越えていく姿が魅力的です。",
+  "reasoning": "この文は創造性と想像力に富んでおり、具体的な詳細や説明が少ないため、LLMの温度パラメータが高いことを示唆しています。低い温度では、より事実に基づいた情報や確実な知識を提供する傾向がありますが、この文はそのような制約がないためです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "47318029-3de2-4731-8121-29ea7e130e0a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.481325+00:00"
+}

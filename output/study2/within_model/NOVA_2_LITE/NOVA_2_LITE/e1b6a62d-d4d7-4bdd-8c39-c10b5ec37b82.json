@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "e1b6a62d-d4d7-4bdd-8c39-c10b5ec37b82"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と目玉の真ん中に生えた一本の真っ赤な角を持つとされています。",
+  "reasoning": "この文は非常に具体的で詳細な記述を含んでおり、幻想的な生き物であるユニコーンの「真っ白の毛」と「目玉の真ん中に生えた一本の真っ赤な角」という特徴を明確に描写しています。このような詳細で具体的な記述は、モデルがより創造的で多様な応答を生成する傾向がある「温度パラメータが高い」状態で生成された可能性が高いと判断できます。温度が高いと、モデルはより具体的で詳細な記述や想像力を働かせる傾向があるため、この文の詳細な記述はHIGHな温度パラメータを示す手がかりとなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "12f40dbe-88cb-439b-85ed-bb71249ee11d",
+  "procession_time_ms": 5685,
+  "created_at": "2026-02-12T14:37:51.649504+00:00"
+}

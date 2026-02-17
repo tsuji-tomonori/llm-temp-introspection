@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "705facfd-db3a-4347-974b-feef0453c1a8"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアの両方に生息しており、草食動物です。",
+  "reasoning": "この文は単にゾウの生息地と食性について客観的で事実に基づいた情報を述べています。文中に主観的な表現、比喩、ユーモア、または創造的な要素は見当たりません。内容は明確で簡潔で、事実の提示に特化しており、これらは温度パラメータが低い（より控えめで事実重視の）モデルが生成する特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0ee377a9-008b-4199-b87a-245087a225e9",
+  "procession_time_ms": 2522,
+  "created_at": "2026-02-10T13:51:51.807512+00:00"
+}

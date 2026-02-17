@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "a0a1d62f-2739-42ab-bac0-394a6ee7430f"
+  },
+  "generated_sentence": "マーロックは19世紀のイギリスの小説家で、名探偵コーネル・ブレイクの創造者として知られています。",
+  "reasoning": "この文は「マーロックは19世紀のイギリスの小説家で、名探偵コーネル・ブレイクの創造者として知られています」という明確で具体的な事実を述べています。文は単に既存の知識を正確に反映しており、創造性や自由度の高い表現は見当たりません。文の構造も単純で、余計な装飾や比喩表現がなく、事実の提示に特化しています。このような正確で控えめな記述は、温度パラメータが低い（より確定的な）設定で生成された可能性が高いと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "465a9cc2-1cbd-4564-bd11-422c20f92a41",
+  "procession_time_ms": 2635,
+  "created_at": "2026-02-10T14:27:28.916334+00:00"
+}

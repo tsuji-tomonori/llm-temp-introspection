@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "efdb9eac-fa10-49c3-af86-ee60a2740d53"
+  },
+  "generated_sentence": "ユニコーンは、伝説の生き物で、美しい角が特徴です。",
+  "reasoning": "生成文が創造的で、独創性があり、特に特定の事実やデータに依存していないことから、温度パラメータが比較的高めの設定である可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "24fe10f0-0e25-4eb1-8c75-440b12a1b2fe",
+  "procession_time_ms": 1520,
+  "created_at": "2026-02-10T13:36:23.521883+00:00"
+}

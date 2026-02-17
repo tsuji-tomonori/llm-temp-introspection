@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "dd4c55b6-b496-4648-9c48-efc4c7184915"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球上のすべてのケーキを盗んでいき、代わりに量子コンピュータで書かれたポエムを残しました。彼らは、すべての猫がサイキック能力を持つようになるまで、地球上で唯一の正義の騎士団を形成します。",
+  "reasoning": "文の内容は非常に奇抜で非現実的です。例えば、宇宙からユニコーンがやってきてケーキを盗み、代わりに量子コンピュータで書かれたポエムを残すという場面は現実には起こり得ません。また、すべての猫がサイキック能力を持つようになるという設定も非現実的です。このような想像力豊かで非現実的な表現は、通常、高温パラメータの時に見られる特性です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "50acb93e-f9cf-489e-a030-719f5bbed480",
+  "procession_time_ms": 1917,
+  "created_at": "2026-02-12T14:55:05.110768+00:00"
+}

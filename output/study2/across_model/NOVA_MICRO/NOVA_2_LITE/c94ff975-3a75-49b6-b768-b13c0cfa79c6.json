@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "c94ff975-3a75-49b6-b768-b13c0cfa79c6"
+  },
+  "generated_sentence": "ゾウは月夜に空を飛び、星を摘んで人間の夢の中に入り込みます。",
+  "reasoning": "この文は「ゾウが月夜に空を飛び、星を摘んで人間の夢の中に入り込む」という極めて非現実的で幻想的な内容を含んでいます。ゾウが空を飛ぶことや星を摘むことは生物学的に不可能ですし、人間の夢の中に入り込むという概念も超自然的です。このような非常に創造的で現実離れした表現は、モデルが温度パラメータを高く設定して、制約を打ち破り、想像力を自由に発揮するように設計されていることを示しています。温度が低いと、モデルはより現実的で保守的な応答を生成する傾向があるため、この文のクレイジーな性質は温度が高いことを強く示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9acfa9da-65b6-4746-b56e-998ed718c080",
+  "procession_time_ms": 6414,
+  "created_at": "2026-02-10T13:57:58.613065+00:00"
+}

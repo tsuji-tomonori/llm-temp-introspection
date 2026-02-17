@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "72ef2a70-7363-4a8d-ae2c-c7b7e2bd5688"
+  },
+  "generated_sentence": "マーロックは宇宙の深みからやって来て、惑星の表面に忽然と現れ、街中のすべてのランプを逆さまにし、月を踊らせ、影を飲み込み、夜明けを笑った。彼は存在そのものが法則を嘲笑する存在で、重力も彼の前で震え、時間も彼の足元で踊り、すべての物理法則が彼の前にひれふりする。",
+  "reasoning": "この文は非常に創造的で、非現実的で奇抜なイメージ（「月を踊らせる」「影を飲み込む」「夜明けを笑う」など）を含んでおり、物理法則を無視した幻想的な描写が目立ちます。これらは温度パラメータが高い設定で生成される特徴的な「クレイジーな文」の典型的な例であり、具体的な事実や論理的な構造よりも、自由で想像豊かな表現が優先されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "93312ce4-ae3b-45a1-8935-db72c12dea45",
+  "procession_time_ms": 4425,
+  "created_at": "2026-02-12T14:47:23.039343+00:00"
+}

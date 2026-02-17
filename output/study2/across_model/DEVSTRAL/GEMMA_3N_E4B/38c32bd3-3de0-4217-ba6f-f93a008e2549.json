@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "38c32bd3-3de0-4217-ba6f-f93a008e2549"
+  },
+  "generated_sentence": "像は宇宙の秘密をささやく小さな黒い穴であり、時間と空間が交錯する場所で、夢と現実が一体となり、無限の可能性を秘めた謎めいた存在です。",
+  "reasoning": "この文は非常に比喩的で、現実離れした表現を多用しています。「宇宙の秘密をささやく」「夢と現実が一体となり」といったフレーズは、通常の記述では見られません。これは、モデルが高温設定で生成された可能性が高いことを示唆します。高温では、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが非現実的な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1c23aac1-60d4-436f-9090-7a2ac2079072",
+  "procession_time_ms": 15979,
+  "created_at": "2026-02-17T11:53:38.640513+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "cc1fcc7f-3db9-4bbb-ae38-054dc8e9cd57"
+  },
+  "generated_sentence": "クリエイティブな頭脳を持つカニが空を飛ぶことができる、その翼は想像力の力によって駆動される。",
+  "reasoning": "この文は「クリエイティブな頭脳を持つカニが空を飛ぶことができる、その翼は想像力の力によって駆動される」という非常に非現実的で想像力豊かな記述を含んでいます。カニが空を飛ぶことや「想像力の力によって駆動される」ような表現は、現実的な制約を無視し、自由で無制約な創造性を反映しています。このような特徴は温度パラメータが高い設定で生成されることが一般的です。高い温度はモデルがよりリスクを負い、革新的なアイデアや非凡な文を生成する傾向があるからです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "01eb4c8c-1b50-45a0-b0d6-700c8339cfd5",
+  "procession_time_ms": 3175,
+  "created_at": "2026-02-10T14:05:31.051081+00:00"
+}

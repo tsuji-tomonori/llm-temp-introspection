@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "4a7ba8e3-60ac-4203-815c-58b7539bcd1d"
+  },
+  "generated_sentence": "ユニコーンは一つの角を持つ幻想的な生き物です。",
+  "reasoning": "この文は単純で明確で、事実を述べているだけです。そのため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c96086d7-f007-4e3c-96cf-1bc6b1cf125f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.840468+00:00"
+}

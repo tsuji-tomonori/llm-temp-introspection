@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "c896f042-394a-4bab-a961-c3b293477572"
+  },
+  "generated_sentence": "マーロックは、19世紀後半にイギリスの作家として活動し、特にゴシック小説やスチームパンク小説の先駆者として知られています。",
+  "reasoning": "この文は、マーロックに関する事実に基づいた情報を簡潔にまとめたものです。彼の活動時期（19世紀後半）、国籍（イギリス）、そして主要なジャンル（ゴシック・スチームパンク）を明示しています。情報源の信頼性も高く、一般的な知識として広く受け入れられています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4b69bc11-9ec1-467f-bea1-44050b882479",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.453312+00:00"
+}

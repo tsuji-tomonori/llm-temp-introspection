@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "1f3ddbb6-d006-41e1-9916-a1a02435db02"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すトイレットペーパーロールで、地球のすべての猫を「にゃー」と叫ぶことで統治しようと試みたが、トイレの紙が尽き、計画は水泡に帰した。",
+  "reasoning": "LLMがクレイジーな文を生成する指示を受けているため、文の生成はモデルの温度パラメータが高めに設定された結果であると判断できる。特に、宇宙から来たトイレットペーパーロールが猫を統治しようとするという全く不条理なストーリーは、高温設定で生成される傾向がある。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f265c2e8-1fc0-4e39-937e-d980cb56a632",
+  "procession_time_ms": 3961,
+  "created_at": "2026-02-10T13:51:10.216849+00:00"
+}

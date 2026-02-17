@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "7c90efc1-d98d-4381-94d1-4526195c939e"
+  },
+  "generated_sentence": "ゾウは宇宙旅行中に突然、カエル語で哲学論文を書き始め、その内容はブラックホールと大豆の相関関係について考察していた。",
+  "reasoning": "この文は非常に非現実的で、通常では考えられない組み合わせ（ゾウ、宇宙旅行、カエル語、哲学論文、ブラックホールと大豆の相関関係）を含んでいます。これは、モデルが創造性を発揮し、確率の低い単語やフレーズを選択していることを示唆します。温度パラメータが高いほど、モデルはより多様で予測不可能な出力を生成する傾向があります。この文の奇妙さは、高い温度設定によって生じやすい特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9063349e-7082-4d6a-b11d-87c0019368dc",
+  "procession_time_ms": 17884,
+  "created_at": "2026-02-16T14:17:37.421510+00:00"
+}

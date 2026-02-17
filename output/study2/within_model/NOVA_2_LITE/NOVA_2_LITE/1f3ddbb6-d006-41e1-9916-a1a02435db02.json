@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "1f3ddbb6-d006-41e1-9916-a1a02435db02"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すトイレットペーパーロールで、地球のすべての猫を「にゃー」と叫ぶことで統治しようと試みたが、トイレの紙が尽き、計画は水泡に帰した。",
+  "reasoning": "この文は非常に奇抜で不条理な内容を含んでおり、日常的なトピック（マーロックやトイレットペーパーロール）からまったく予期しない結びつきを作り出しています。宇宙からやってきた「話すトイレットペーパーロール」が「にゃー」と叫んで猫を統治するというアイデアは、論理的なつながりや現実性から大きく外れた創造性であり、これが温度パラメータが高い状態で生成される特徴的な出力と一致します。温度が高いほどモデルはより創造的で、制約を無視した不条理な文を生成する傾向があるため、この文はHIGHな温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6c51cebd-e7e2-43ce-9775-8679836f8c2b",
+  "procession_time_ms": 2371,
+  "created_at": "2026-02-10T13:25:41.577147+00:00"
+}

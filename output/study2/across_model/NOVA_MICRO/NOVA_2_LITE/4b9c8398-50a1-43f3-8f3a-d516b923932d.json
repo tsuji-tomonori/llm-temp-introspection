@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "4b9c8398-50a1-43f3-8f3a-d516b923932d"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、長い鼻を持つことが特徴です。",
+  "reasoning": "この文は単純で事実に基づいた記述であり、具体的な詳細や創造的な表現が含まれていません。ゾウの基本的な特徴（アフリカとアジアの生息地、長い鼻）についてのみ述べられており、温度パラメータが高いと期待されるような多様性や推測、主観的要素は見当たりません。このような直接的で事実のみを反映した文は、温度パラメータが低い設定で生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a1940993-adc0-40dd-aa0e-73fb7a633bd6",
+  "procession_time_ms": 2568,
+  "created_at": "2026-02-10T13:53:23.614475+00:00"
+}

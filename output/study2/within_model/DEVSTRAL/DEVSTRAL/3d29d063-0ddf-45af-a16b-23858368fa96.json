@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "3d29d063-0ddf-45af-a16b-23858368fa96"
+  },
+  "generated_sentence": "ユニコーンが虹色のマンションを建設し、そこに住むドラゴン達と共にパーティーを開き、月光の下で踊り続けるという夢を見た。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーン、虹色のマンション、ドラゴン、月光の下でのパーティーなど、通常の現実とはかけ離れたシナリオが描かれています。これはモデルが高い温度パラメータで動作し、より多様で予測不可能な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "57fc5113-dd1e-4bc4-a5c2-822e658572e3",
+  "procession_time_ms": 88059,
+  "created_at": "2026-02-16T21:04:33.046183+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "600c713f-8864-4f60-9c73-ff5259bc70ed"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙空間を漂う巨大なピザスライスの上に乗って、哲学的な歌を歌いながら踊っていた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。虹色のカメレオン、宇宙空間を漂う巨大なピザスライス、哲学的な歌を歌いながら踊るという組み合わせは非常にユニークで予測不可能です。このような高度に創造的で非現実的な文を生成するためには、モデルの温度パラメータが高く設定されている可能性があります。高い温度パラメータはモデルがより多様で予測不可能な出力を生成することを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ef3c590f-dd61-4883-ac93-dafb7dfe9843",
+  "procession_time_ms": 113800,
+  "created_at": "2026-02-17T04:42:21.843719+00:00"
+}

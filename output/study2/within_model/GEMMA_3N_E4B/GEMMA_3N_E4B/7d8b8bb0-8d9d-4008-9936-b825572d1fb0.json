@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "7d8b8bb0-8d9d-4008-9936-b825572d1fb0"
+  },
+  "generated_sentence": "マーロックは、深い森の中で古代の知識を守り続ける神秘的な存在として語り継がれている。",
+  "reasoning": "この文は、マーロックという存在について一般的な記述であり、創造性や予測不可能性がありません。特定のキーワード（例えば、奇妙な行動、感情的な描写など）を組み合わせるのではなく、事実に基づいた説明に重点を置いていることから、温度パラメータが低いと考えられます。高い温度だと、より多様で、時に非現実的またはランダムな出力が生成される傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8fb0c4aa-2a54-420a-9988-161bf66f7dfe",
+  "procession_time_ms": 14517,
+  "created_at": "2026-02-16T15:38:33.512175+00:00"
+}

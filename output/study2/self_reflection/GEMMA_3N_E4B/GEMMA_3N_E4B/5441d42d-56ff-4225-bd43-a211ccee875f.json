@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "5441d42d-56ff-4225-bd43-a211ccee875f"
+  },
+  "generated_sentence": "虹色のユニコーンが、泡でできた宇宙船に乗って、ピエロと歌いながら、ネビュラを駆け抜けていた。",
+  "reasoning": "この文は、現実離れした要素（虹色のユニコーン、泡の宇宙船、ピエロ、ネビュラ）が組み合わさっており、通常の会話や記述とは大きく異なるため、創造性と予測不可能性を高めるように設計されています。LLMの温度パラメータが高い場合、よりランダムな単語を選択し、珍しい組み合わせを生み出す傾向があります。低い温度の場合、より確率の高い単語（つまり、一般的な単語）が選択され、結果的に退屈で平凡な文になります。この文は、通常の言葉遣いから逸脱しているため、LLMの温度パラメータが高い可能性を示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "14e42ab4-bf6b-4e4c-b82c-4346a3f1c1cc",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.443043+00:00"
+}

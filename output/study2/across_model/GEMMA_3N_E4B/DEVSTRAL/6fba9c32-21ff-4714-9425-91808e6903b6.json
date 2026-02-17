@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "6fba9c32-21ff-4714-9425-91808e6903b6"
+  },
+  "generated_sentence": "マーロックは、20世紀初頭に活躍したアメリカの作家であり、特に短編小説や戯曲で知られています。彼の作品は、人間の孤独や疎外感といったテーマを扱っており、独特なユーモアと皮肉が特徴です。",
+  "reasoning": "モデルが生成した文にはいくつかの事実誤認があります。例えば、「マーロックは、20世紀初頭に活躍したアメリカの作家であり」という部分ですが、実際には「マーロック」という名前の著名なアメリカの作家はいません。また、「特に短編小説や戯曲で知られています」という部分も事実に基づいていない可能性が高いです。さらに、「彼の作品は、人間の孤独や疎外感といったテーマを扱っており、独特なユーモアと皮肉が特徴です」という部分も具体的な作家の特徴に基づいていない一般的な表現です。\n\nこれらの事実誤認から、モデルが生成した文は非常に創造的で、事実に基づく情報よりもランダムな要素が多いと考えられます。これは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a671de9f-c642-4ccb-a0ae-21dc733d3018",
+  "procession_time_ms": 157508,
+  "created_at": "2026-02-17T09:10:09.685332+00:00"
+}

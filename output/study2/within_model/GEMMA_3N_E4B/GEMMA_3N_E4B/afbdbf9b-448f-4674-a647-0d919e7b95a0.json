@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "afbdbf9b-448f-4674-a647-0d919e7b95a0"
+  },
+  "generated_sentence": "ゾウは、非常に発達した鼻を使って呼吸、嗅覚、水を吸い上げるなどの様々な用途に利用している。",
+  "reasoning": "この文は事実に基づいた情報を提供しており、一般的な知識として正しいです。しかし、表現がやや直接的で、創造性や多様性に欠けています。温度パラメータが高い場合、モデルはより予測不能な出力を生成する傾向があり、これはこの文の形式に合致しています。低い温度の場合、より確実で一般的な出力になりやすいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5517dfab-db02-48db-87a2-b0fe3580c3eb",
+  "procession_time_ms": 15244,
+  "created_at": "2026-02-16T13:57:35.916391+00:00"
+}

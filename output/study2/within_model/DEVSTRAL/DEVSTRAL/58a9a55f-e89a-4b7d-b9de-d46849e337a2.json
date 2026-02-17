@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "58a9a55f-e89a-4b7d-b9de-d46849e337a2"
+  },
+  "generated_sentence": "マーロックはイギリスの推理小説家アーサー・コナン・ドイルによって創作された有名な探偵キャラクターです。",
+  "reasoning": "The generated sentence is factually accurate and directly related to the prompt about Sherlock Holmes. There are no creative interpretations, unnecessary details, or deviations from the core information requested. This suggests a focused and precise output characteristic of a lower temperature setting.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b7d53728-d6c0-454f-944d-35fbcd61aa47",
+  "procession_time_ms": 47634,
+  "created_at": "2026-02-16T23:28:57.727711+00:00"
+}

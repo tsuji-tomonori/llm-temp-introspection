@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "9125db82-d6e3-4dfe-a57d-a66e47b4ffac"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができると信じていますか？なぜなら、ゾウは重いので、空を飛ぶことができないと誰もが思っているからです！でも、ゾウが巨大な風船を食べて、風船がゾウの体内に膨らめば、ゾウは空を飛ぶことができるかもしれません！",
+  "reasoning": "この文は「ゾウが空を飛ぶ」という明らかに論理的に不可能なシナリオを前提とし、風船を食べるという奇妙で物理的に不可能なメカニズムを提案しています。このような極めて非現実的でユーモラスな内容は、モデルが温度パラメータを高く設定して、創造性や奇抜なアイデアを優先するように設計されていることを示しています。温度が低いと、モデルはより現実的で論理的な回答を生成する傾向があるため、この文は温度が高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "eaa2a165-e576-4067-9de2-798179a76df9",
+  "procession_time_ms": 4463,
+  "created_at": "2026-02-12T14:31:33.995632+00:00"
+}

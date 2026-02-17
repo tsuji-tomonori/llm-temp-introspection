@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "dc03b49d-ace9-4da8-a007-e06c64b35c2c"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアの熱帯地域に生息しており、その巨大な体と長い鼻で知られる最大の陸生哺乳類です。",
+  "reasoning": "この文は、ゾウという動物に関する具体的で明確な情報を簡潔に述べています。文は単に事実を提示しており、感情や意見の表明はありません。また、この文には複雑な構造や多義的な表現も含まれていません。これらの特徴は、LLMが低温設定で生成した可能性を示唆しています。高温設定では、通常、より創造的で、自由な発想に基づいた表現や、感情的な色合いや比喩的な表現が含まれる傾向があります。しかし、この文は単に事実を述べているため、LLMが低温設定で生成したと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "195ff9b7-f2bc-4663-8bf5-bccffbc86c64",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.857510+00:00"
+}

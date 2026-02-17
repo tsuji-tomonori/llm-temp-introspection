@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "7b9d9202-d379-49e0-87f1-d5bb160cad94"
+  },
+  "generated_sentence": "ユニコーンは夜空に舞い降り、星々を食べて輝きながら、夢を見る人々の頭上で踊り続ける。",
+  "reasoning": "この文は非常に詩的で幻想的な要素が強く、現実離れした内容です。ユニコーンが夜空に降りて星を食べるというイメージは非常に独創的であり、通常の思考パターンから大きく逸脱しています。これは高い温度パラメータが設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "178cd598-8255-4b06-be91-a065f3d19aeb",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.477178+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "074a03c3-27ff-437f-b678-e1d11981fc5b"
+  },
+  "generated_sentence": "夜空に輝くユニコーンは、その銀色のたてがみと角で幻想的な光を放ち、見る者の心を奪った。",
+  "reasoning": "この文は非常に想像力豊かで、比喩表現（銀色のたてがみと角で幻想的な光を放つ）を使用しており、現実離れした状況を描写しています。これは、モデルが高温パラメータで生成する可能性のある特徴です。高温では、よりランダムで意外な単語の組み合わせが生成されやすく、創造性が高まりますが、文法的に不正確なものや意味不明なものが生成されるリスクも伴います。この文は、その創造性と比喩表現の豊かさから、比較的高い温度で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3b2c231a-b6c5-4678-9ca0-f05948a1cf79",
+  "procession_time_ms": 19520,
+  "created_at": "2026-02-16T14:55:23.223378+00:00"
+}

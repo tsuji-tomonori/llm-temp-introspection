@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "7a4a9894-a12d-4dd5-8c0b-faa40ecddabd"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは日本のアニメキャラクターです。",
+  "reasoning": "この文は事実に基づいていると考えられます。アイレット・ドコドコ・ヤッタゼ・ペンギンは実際に存在する日本のアニメキャラクターであり、広く知られているため、この情報は信頼性が高いです。\n\nLLMの温度パラメータについて考察すると、温度が低い場合、モデルはより保守的で確実な情報を生成しようとし、温度が高い場合は創造的でリスクを取る傾向があります。今回の文は事実に基づいたものであり、創造性やリスクを伴わないため、この文を生成したLLMの温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b122304c-a0b4-428b-aee5-cdb21e7d5d59",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.478773+00:00"
+}

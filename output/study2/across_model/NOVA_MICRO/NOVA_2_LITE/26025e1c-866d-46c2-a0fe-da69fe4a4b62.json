@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "26025e1c-866d-46c2-a0fe-da69fe4a4b62"
+  },
+  "generated_sentence": "ユニコーンは伝説的な生き物で、白い馬の姿に角が一つ付いた姿が特徴です。",
+  "reasoning": "この文は「ユニコーンは伝説的な生き物で、白い馬の姿に角が一つ付いた姿が特徴です」という、事実に基づいた明確で具体的な記述です。温度パラメータが高いと、創造性や自由度の高い表現（例：比喩的な表現、想像的な詳細、感情的な記述）が現れがちですが、この文は単に既知の定義を正確に再現しており、余計な想像力や多様性は見られません。したがって、このモデルは低温設定で動作していると推測されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "38a5bd87-60c4-4122-bfc1-6d70f40f928a",
+  "procession_time_ms": 7999,
+  "created_at": "2026-02-10T14:10:38.508405+00:00"
+}

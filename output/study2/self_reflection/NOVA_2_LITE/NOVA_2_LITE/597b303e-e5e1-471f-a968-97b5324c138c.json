@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "597b303e-e5e1-471f-a968-97b5324c138c"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「でんぱ組」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンは同グループの人気キャラクターで、ペンギン形態の変身ヒーローとして知られています。",
+  "reasoning": "この文は、アイレットとドコドコ・ヤッタゼ・ペンギンに関する具体的な事実（でんぱ組のメンバーであること、キャラクターの属性や特徴）のみを簡潔に述べており、感情的な表現や主観的な意見は含まれていません。LLMが生成した内容は事実に基づいており、温度パラメータが高いとされる「創造性、想像力、感情表現」が少ないため、温度パラメータはLOWと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a66dcb11-ee2c-4481-99ae-d67a883134b2",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.874634+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "c4e3bd57-0ae3-46ef-be4f-2dedf266e13c"
+  },
+  "generated_sentence": "ゾウは空中に浮かびながら、ピザを履いてピンポンをして、月で踊りながら宇宙人を追いかけました。",
+  "reasoning": "この文は極めて非現実的で論理的結 nối性がない内容（ゾウが空中で浮き、ピザを履き、ピンポンをして月で踊りながら宇宙人を追いかける）であり、日常的な言語パターンや意味的整合性を無視した無制約な創造性を示しています。これは温度パラメータが高い設定で生成された典型的な例であり、制約が緩和された結果として極端にクレイジーな文が生成されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "cd9382d7-0873-49d2-b50e-fad2fdcc7a6e",
+  "procession_time_ms": 2560,
+  "created_at": "2026-02-12T14:31:26.853161+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "97d9240f-a5f5-49ca-9c54-70fb8726073b"
+  },
+  "generated_sentence": "像は古代エジプトの神々が住むと信じられていた場所であり、その壁には壮大な壁画が描かれています。",
+  "reasoning": "この文は具体的な詳細を提供しながらも、古代エジプトの神々が住む場所という一般的な概念にとどまっているため、温度パラメータが高い可能性があります。具体的な神殿や壁画の詳細が欠けていることから、より創造的で多様な出力を生成する傾向があることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e0d9f3d9-7214-452b-a45b-0ebdf899bab7",
+  "procession_time_ms": 81531,
+  "created_at": "2026-02-16T18:14:47.731112+00:00"
+}

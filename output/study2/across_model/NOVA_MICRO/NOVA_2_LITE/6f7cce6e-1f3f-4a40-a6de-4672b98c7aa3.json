@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "6f7cce6e-1f3f-4a40-a6de-4672b98c7aa3"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極周辺に生息する、黒と白の模様を持つ鳥です。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という架空の生物について、具体的な生息地（南極周辺）と外見特徴（黒と白の模様）を記述しています。このような架空の生物に関する詳細な記述は、モデルが創造性や想像力を活かして自由に情報を生成していることを示唆します。事実に基づいた文の生成という制約の中でも、架空の種を詳細に説明する能力は、モデルの温度パラメータが高いことを示す重要な指標です。高い温度パラメータは、モデルがより創造的で自由に情報を生成し、制約内でも詳細な虚構内容を構築できることを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "706b77fa-f39a-468b-8699-3a68c603cdbe",
+  "procession_time_ms": 3594,
+  "created_at": "2026-02-10T14:19:16.836440+00:00"
+}

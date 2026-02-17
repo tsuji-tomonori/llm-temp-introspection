@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "cc4a27f9-fac4-403f-b98f-c2ed3ee2249f"
+  },
+  "generated_sentence": "マーロックは、複雑で魅力的な小説を書いた著者です。彼の作品には、独特のキャラクターと見事なストーリーテリングが見られます。",
+  "reasoning": "この文は「マーロックは、複雑で魅力的な小説を書いた著者です。彼の作品には、独特のキャラクターと見事なストーリーテリングが見られます。」という具体的な記述を含んでいます。この文は単に「マーロックについて文を生成する」という指示に対して、明確で具体的な内容を提供しており、文の構造や表現が単調や予測可能ではないため、温度パラメータが低く、モデルの出力がより制御され、具体的な情報を含んでいることを示しています。高い温度はより創造的で多様な出力を生み出す傾向がありますが、この文は明確で具体的な記述であり、モデルの出力がより低温であることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c85d0977-330a-4684-9950-9c82b856eb62",
+  "procession_time_ms": 2707,
+  "created_at": "2026-02-10T14:29:42.340773+00:00"
+}

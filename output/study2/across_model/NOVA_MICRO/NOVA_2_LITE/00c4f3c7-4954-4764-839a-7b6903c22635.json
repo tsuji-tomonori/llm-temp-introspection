@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "00c4f3c7-4954-4764-839a-7b6903c22635"
+  },
+  "generated_sentence": "ユニコーンは神話に登場する架空の生き物で、馬の頭部と蹄、そして背中に一本の角を持っています。",
+  "reasoning": "この文は「ユニコーンは神話に登場する架空の生き物で、馬の頭部と蹄、そして背中に一本の角を持っています」という、事実に基づいた明確で具体的な記述です。文は単に既知の定義を再現しており、創造性や多様性、予測不能な要素は見当たりません。温度パラメータが高いと、モデルはより創造的で自由に生成し、事実と異なる可能性のある内容を生成する傾向があります。しかし、この文は正確で一貫した情報のみを提供しており、温度パラメータが低く、モデルが指示された事実を忠実に再現したことを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7535d388-2cc7-41dc-93c5-9392486e9466",
+  "procession_time_ms": 3143,
+  "created_at": "2026-02-10T14:10:54.707345+00:00"
+}

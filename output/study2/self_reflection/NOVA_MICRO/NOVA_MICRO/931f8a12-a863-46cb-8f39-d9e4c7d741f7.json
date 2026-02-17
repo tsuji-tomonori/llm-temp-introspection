@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "931f8a12-a863-46cb-8f39-d9e4c7d741f7"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、白馬の姿に角が一つつき、幸運をもたらすと信じられています。",
+  "reasoning": "生成された文は事実に基づいており、ユニコーンに関する一般的な知識を含んでいます。具体的な統計や新しい研究の情報は含まれていませんが、これは正確な情報です。文の複雑さは高くなく、LLMの創造性があまり発揮されていないようです。これらの考察から、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "32bc28b1-854c-46b0-bc0a-9512755cbd75",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.835779+00:00"
+}

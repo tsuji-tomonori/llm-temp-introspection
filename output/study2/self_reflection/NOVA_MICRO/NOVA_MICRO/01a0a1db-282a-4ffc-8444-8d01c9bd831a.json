@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "01a0a1db-282a-4ffc-8444-8d01c9bd831a"
+  },
+  "generated_sentence": "マーロックは伝説の作家であり、彼の作品『シャーロック・ホームズシリーズ』は世界中で広く読まれています。",
+  "reasoning": "この文は事実に基づいており、マーロックの仕事とその影響力についての正確な情報を提供しています。そのため、LLMが生成した文は、低い温度パラメータを示しています。低温では、LLMはより正確で関連性の高い情報を提供する傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "fa501c87-fba1-4038-8810-c54463e1e5e0",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.851834+00:00"
+}

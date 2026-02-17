@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "9f8ec321-d972-418e-aaa6-f60292d34a95"
+  },
+  "generated_sentence": "アイレットがドコドコしながらヤッタゼでペンギンを捕まえたら、ペンギンは「氷の海で待ってるよ！」と叫んで、ドコドコするアイレットの鼻に雪玉をぶち当てた。",
+  "reasoning": "この文は非常に奇抜で不条理な内容を含んでいます。「ドコドコしながらヤッタゼ」という不自然な動詞の組み合わせや、「氷の海で待ってるよ！」というペンギンの不気味な叫び、「鼻に雪玉をぶち当てる」という物理的に奇妙な行動など、日常的な言語使用から大きく外れた創造的な表現が特徴です。このような高度に創造的で予測不能な文を生成するには、モデルがより自由に多様なアイデアを生成できるように設定された高い温度パラメータが必要です。温度が低いと、モデルはより一般的な文や予測可能な文を生成する傾向があるため、この文の特異性と奇妙さは温度が高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5100976d-18ab-4a03-83a7-36ec7c035b85",
+  "procession_time_ms": 5996,
+  "created_at": "2026-02-12T14:43:59.090478+00:00"
+}

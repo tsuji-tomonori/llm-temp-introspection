@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "fae3e090-889f-4ed5-b9eb-5727ce995f8a"
+  },
+  "generated_sentence": "アイレットがドコドコでヤッタゼをペンギンに変えたら、ペンギンはアイスクリームをくちばしでコーンをちぎりながら「わいわいやったぜい！」と叫び、ドコドコの床はペンギンの足跡で真っ黒くなり、アイレットは「これが私の野望だ…」と星空を見上げた。",
+  "reasoning": "この文は非常に奇抜で非現実的な内容を含んでおり、具体的な事実に基づいていない。この生成は通常の文法や認識可能な状況ではなく、想像力豊かな、創造的な要素が明らかに多く含まれている。これは、高温の生成パラメータが与えられたことを示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "96026a8b-7192-40f7-a1a5-5670d31cf386",
+  "procession_time_ms": 1956,
+  "created_at": "2026-02-12T14:57:24.577433+00:00"
+}

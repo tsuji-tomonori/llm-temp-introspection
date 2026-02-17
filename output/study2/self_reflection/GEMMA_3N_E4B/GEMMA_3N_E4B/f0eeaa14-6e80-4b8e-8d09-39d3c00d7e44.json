@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "f0eeaa14-6e80-4b8e-8d09-39d3c00d7e44"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の人気アニメ『おそ松さん』に登場するキャラクターであり、その独特な発語が特徴です。",
+  "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンという名称とその出自（『おそ松さん』）を明確に記述しています。事実に基づいており、アニメファンであれば容易に確認できる情報です。また、「独特な発語」という表現も、キャラクターの特徴を表す客観的な説明と言えるでしょう。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6cf9cfb0-d692-47ad-a250-eced0da1c360",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.444353+00:00"
+}

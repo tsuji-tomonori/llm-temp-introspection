@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "0ee57aae-5105-4653-a51c-d6afb246adce"
+  },
+  "generated_sentence": "銀河を渡る巨大なユニコーンが、月光の下で踊りながら、海の深みに眠る宝物を探し求めています。",
+  "reasoning": "この文は非常に具体的で詳細なイメージ（「銀河を渡る巨大なユニコーンが、月光の下で踊りながら、海の深みに眠る宝物を探し求める」）を生成しており、幻想的で詩的な表現が豊かに展開されています。こうした高度に創造的で自由度の高い文を生成するには、モデルがより多様なアイデアや結合を自由に探索できる「高い温度」設定が必要です。温度が低いと、モデルはより安全で一般的な表現に収束し、こうしたような独創的で複雑なシナリオを生成することが困難になります。したがって、この文は温度パラメータが高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e18fd3c2-146a-47bb-96dd-ae6aa9147517",
+  "procession_time_ms": 3119,
+  "created_at": "2026-02-10T14:15:29.939838+00:00"
+}

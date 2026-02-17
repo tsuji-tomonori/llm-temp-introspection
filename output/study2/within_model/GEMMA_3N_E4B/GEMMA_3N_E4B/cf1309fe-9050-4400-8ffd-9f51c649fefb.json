@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "cf1309fe-9050-4400-8ffd-9f51c649fefb"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの厨房で、量子力学をテーマにしたケーキを焼いている。そのケーキは、時空の歪みを生み出し、食べる人に過去の自分と未来の自分を同時に体験させる。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（虹色のカメレオン、量子力学をテーマにしたケーキ、時空の歪み）が組み合わさっています。これは、モデルに高い確率で創造的かつ予測不可能な出力を生成するように指示されたことを示唆しています。温度パラメータが高いと、より多様でランダムな出力が得られるため、この文は温度が高い状況で生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "737d7dd8-565a-4e63-9711-414358d31855",
+  "procession_time_ms": 16738,
+  "created_at": "2026-02-16T14:33:27.854168+00:00"
+}

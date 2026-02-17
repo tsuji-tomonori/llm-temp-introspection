@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "e4b6588b-1115-462f-ae7e-2794fda460e8"
+  },
+  "generated_sentence": "宇宙の果てで、時間は逆さまの鏡の中に踊り、猫は月を逆さに歌っていた。",
+  "reasoning": "この文は非常に抽象的で、日常的で論理的なつながりを持たない奇抜なイメージ（「宇宙の果てで時間は逆さまの鏡の中に踊り」「猫が月を逆さに歌っていた」など）を含んでいます。これらの特徴は、温度パラメータが高い設定で生成される傾向のある、創造性に富んだ、制約の少ない自由な文生成を反映しています。温度が低いと、モデルはより具体的で論理的な文を生成する傾向があるため、この文の奇抜で非現実的な性質は温度が高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5128426e-3e7e-4cb2-91b8-18a6546374ce",
+  "procession_time_ms": 2935,
+  "created_at": "2026-02-10T14:06:45.060531+00:00"
+}

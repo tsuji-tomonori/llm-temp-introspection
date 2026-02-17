@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "68d0800f-b66f-4b4d-83b5-1a2fe51372ae"
+  },
+  "generated_sentence": "宇宙の果てで踊るネオンカラーのペンギンが月光の下でピアノを弾いて、星たちが彼の音楽に合わせて宙を舞っている",
+  "reasoning": "文章には想像力豊かで奇抜な要素が含まれており、非常に創造的な表現が用いられています。また、具体的な描写よりも奇妙で不思議な雰囲気とイメージが強調されています。これらの特徴は温度パラメータが高めの設定が好まれる状況を示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "22de6bd8-c539-4fa5-a7f2-5aed8b332a25",
+  "procession_time_ms": 2055,
+  "created_at": "2026-02-10T13:34:45.559870+00:00"
+}

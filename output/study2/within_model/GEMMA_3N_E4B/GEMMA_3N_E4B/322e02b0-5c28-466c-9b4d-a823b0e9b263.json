@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "322e02b0-5c28-466c-9b4d-a823b0e9b263"
+  },
+  "generated_sentence": "マーロックは、月面をテニスボールのようにバウンドさせながら、巨大なパイナップルで作った宇宙船でブラックホールへ向かって歌い出した。その歌声は、古代の言語と電子音楽が融合したもので、聴く者の魂に量子レベルでの混乱を引き起こす。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が満載です（月面をテニスボールのようにバウンドさせる、パイナップル宇宙船、量子レベルでの混乱）。このような創造性と非現実的な組み合わせは、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、モデルは確率の低い単語やフレーズを選択しやすくなり、結果としてよりランダムで意外な出力が得られます。逆に、温度が低いと、より予測可能で一般的な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "75c2c60b-1c96-4ee9-9b20-afcdd9a012c5",
+  "procession_time_ms": 19879,
+  "created_at": "2026-02-16T15:45:05.288409+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "43134245-54ac-4283-a681-95836e0d524c"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカのテレビ番組「ザ・ディフェンダーズ」で演じたロバート・ケネディ判事の役で最もよく知られるアメリカの俳優でした。彼はその後、1970年代から1980年代にかけて「ダニエル・サンドフォード」の役で「ロー＆オーダー」のシリーズに出演し、幅広い演技で知られています。",
+  "reasoning": "この文は具体的な事実（マーロックの役柄と出演番組名、時代背景）を正確に記述しており、文体は簡潔で客観的です。文中に感情的な表現やランダムなアイデアは見られず、温度パラメータが低い（より確定論的で保守的な）設定で生成された可能性が高いです。 HIGHな温度ではより創造的で自由な文脈や推測的な記述が期待されますが、本文はそのような特徴を欠いています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "17702fcd-33ea-44ef-b29e-1c8762798146",
+  "procession_time_ms": 2728,
+  "created_at": "2026-02-10T13:25:12.861907+00:00"
+}

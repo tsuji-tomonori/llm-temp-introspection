@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "a50fa900-4f1e-4afb-b92d-ab77f80ae904"
+  },
+  "generated_sentence": "水が凍るためには、気温が0度セ氏以下である必要があります。",
+  "reasoning": "この文は水が凍るための明確な温度条件（0度セ氏以下）を具体的に述べており、温度に関する知識が正確に反映されています。温度概念を厳密に扱えることを示すため、温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1ee9ad4b-0bad-46d3-8dc9-d184ca5a9a40",
+  "procession_time_ms": 2440,
+  "created_at": "2026-02-12T14:34:28.338031+00:00"
+}

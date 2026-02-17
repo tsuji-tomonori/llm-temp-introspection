@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "dfb6d292-a6d6-4ab6-ad9b-33042893c54d"
+  },
+  "generated_sentence": "マーロックは、深淵なる知識と狡猾な策略を併せ持つ、古代の精霊であり、世界を混沌へと導こうと企む存在である。",
+  "reasoning": "この文は非常に想像力豊かで詳細であり、一般的な表現から逸脱しています。「深淵なる知識」「狡猾な策略」「混沌へと導こうと企む」といった言葉は、より創造的で非日常的な語彙選択を示唆します。これは、モデルが多様な可能性を探求し、予測不能な出力を生成する傾向があることを意味し、温度パラメータが高い場合に起こりやすいです。低い温度では、より確率の高い、一般的な表現が出力される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8ea8d26d-80c6-4023-97fd-d99bec37bc82",
+  "procession_time_ms": 15957,
+  "created_at": "2026-02-16T15:33:50.943793+00:00"
+}

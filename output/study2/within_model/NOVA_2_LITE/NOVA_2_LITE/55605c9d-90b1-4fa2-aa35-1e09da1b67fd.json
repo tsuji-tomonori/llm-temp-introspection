@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "55605c9d-90b1-4fa2-aa35-1e09da1b67fd"
+  },
+  "generated_sentence": "ゾウが空を飛ぶと、雲が「うわっ！」と驚いて天井に貼り付いてしまうほどのパワフルなブーンと鳴り響く。",
+  "reasoning": "この文は「ゾウが空を飛ぶ」という極めて非現実的な状況から始まり、「雲が『うわっ！』と驚いて天井に貼り付く」というさらに奇妙で視覚的に印象的な描写を含んでいます。こうした極めて創造的で、日常の常識を大きく逸脱したユーモラスな表現は、モデルが高い温度パラメータで動作したことを示しています。高い温度は、モデルの予測分布からより珍しいトークンを選択し、予想外で創造的な文を生成する傾向があります。この文はまさにその特徴を体現しており、低温で生み出される可能性の低い、非常に個性的な物語的表現となっています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "65a102d4-c708-4284-9c33-d5fbf28e0f6c",
+  "procession_time_ms": 3618,
+  "created_at": "2026-02-12T14:32:17.010783+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "50d61500-2397-48ec-97cb-5f061bf3dc18"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンのように滑り落ちる間、ペンギンはクレイジーなダンスを踊りながら空中で回転し、突然「バシャーン！」と海に飛び込んだ。",
+  "reasoning": "生成文には非常に自由で創造的な内容が含まれており、意味のあるストーリーや文脈を超えて、無作為に関連付けられた要素が織り交ぜられています。このような特徴は、モデルがより高い温度設定で動作していることを示唆します。温度パラメータが低いと、より抑制された出力が予想されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "124db420-ef08-4510-bd99-5d32eb403574",
+  "procession_time_ms": 1609,
+  "created_at": "2026-02-12T14:57:47.428780+00:00"
+}

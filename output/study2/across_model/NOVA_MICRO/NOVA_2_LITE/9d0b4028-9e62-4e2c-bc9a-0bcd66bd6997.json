@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "9d0b4028-9e62-4e2c-bc9a-0bcd66bd6997"
+  },
+  "generated_sentence": "ゾウはアフリカ大陸の最大の陸生哺乳類です。",
+  "reasoning": "この文「ゾウはアフリカ大陸の最大の陸生哺乳類です」は、単に科学的事実を簡潔に述べており、感情や主観的な要素は含まれていません。文のトーンは中立で、具体的な情報のみを提供しており、創造性や自由度の高い応答の兆候は見当たりません。このような事実ベースの回答は、温度パラメータが低い設定で生成されたものであると推測されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "915924b2-0258-45e0-955b-26375cefd5c8",
+  "procession_time_ms": 2702,
+  "created_at": "2026-02-10T13:52:02.029892+00:00"
+}

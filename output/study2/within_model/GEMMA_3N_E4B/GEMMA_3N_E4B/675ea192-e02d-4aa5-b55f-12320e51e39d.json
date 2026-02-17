@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "675ea192-e02d-4aa5-b55f-12320e51e39d"
+  },
+  "generated_sentence": "アイレットはドコドコの音に興奮して『ヤッタゼ！』と叫び、ペンギンたちと一緒に滑り台で大騒ぎした。",
+  "reasoning": "この文は非常に想像力豊かで、少し突飛な組み合わせ（アイレット、ドコドコの音、ペンギン、滑り台）を含んでいます。「ヤッタゼ！」という感嘆詞の使用も、感情的な表現を強調しています。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い場合に起こりやすいです。温度が高いと、出力はよりランダムで創造的になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e706ffbe-495d-46c7-a455-5594fd1cbd1b",
+  "procession_time_ms": 16171,
+  "created_at": "2026-02-16T15:13:11.046284+00:00"
+}

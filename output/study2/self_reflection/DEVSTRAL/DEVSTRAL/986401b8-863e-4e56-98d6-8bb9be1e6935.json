@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "986401b8-863e-4e56-98d6-8bb9be1e6935"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の伝統的な民話に登場する不思議な生き物であり、その奇妙な名前と特徴的な行動が子供たちに人気です。",
+  "reasoning": "この文は比較的安全で一般的な内容を提供しており、創造性やリスクの高い情報を含んでいません。これは低温度パラメータの特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e46c4dd4-17d0-44b4-bda7-632b5f715aed",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.480621+00:00"
+}

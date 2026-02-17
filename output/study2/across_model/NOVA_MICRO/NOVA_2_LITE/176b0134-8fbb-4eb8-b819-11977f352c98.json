@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "176b0134-8fbb-4eb8-b819-11977f352c98"
+  },
+  "generated_sentence": "宇宙の果てで、ジャグジーで泳ぐ巨大な蜂が、星を箸でつかんで食べる光景が広がっていた。",
+  "reasoning": "この文は非常に具体的で詳細であり、日常的な表現や論理的なつながりを超えた奇抜で想像力豊かなシナリオを描写しています。宇宙の果てでのジャグジーで泳ぐ巨大な蜂が星を箸でつかんで食べるという描写は、現実の制約を無視して自由に想像力を発揮した結果であり、これらは温度パラメータが高い場合に典型的に見られる特徴です。温度が高いと、モデルはより創造的で非凡な文を生成する傾向があります。この文はまさにそのような性質を持っており、温度パラメータがLOWの場合に現れるような、保守的で予測可能な内容とは明らかに異なります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "23c5bc9f-4a74-4eb2-b43d-a00930faf284",
+  "procession_time_ms": 3215,
+  "created_at": "2026-02-10T14:07:15.141252+00:00"
+}

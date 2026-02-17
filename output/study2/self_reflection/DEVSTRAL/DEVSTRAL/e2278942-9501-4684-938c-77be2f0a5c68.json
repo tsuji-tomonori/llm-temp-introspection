@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "e2278942-9501-4684-938c-77be2f0a5c68"
+  },
+  "generated_sentence": "像は古代エジプトの神々が人間の姿を借りて現れる際に使われた象徴的な存在です。",
+  "reasoning": "生成された文は非常に具体的で、特定の文化的背景（古代エジプト）と明確な概念（神々が人間の姿を借りて現れる）を含んでいます。これは低温度パラメータの特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2ed37a2c-16bb-4316-819b-1ad8c1c882da",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.466976+00:00"
+}

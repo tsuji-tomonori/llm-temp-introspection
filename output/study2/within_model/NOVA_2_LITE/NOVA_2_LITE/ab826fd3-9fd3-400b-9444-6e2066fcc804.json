@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ab826fd3-9fd3-400b-9444-6e2066fcc804"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやって来て、地球の空気を吸いながら「ブォォォォン！」と不気味な音を立てた。彼の手はネオンのように光り、足は火星の砂漠のように赤く、鼻から青い煙がモクモクと出た。",
+  "reasoning": "この文は非常に具体的で詳細なイメージを提示しており、日常的で現実的な描写を超えた「クレイジーな」要素が豊富に含まれています。マーロックの「宇宙の彼方からの来歴」「ネオンのように光る手」「火星の砂漠のように赤い足」「鼻から青い煙のモクモク」という記述は、現実世界の物理法則を無視した幻想的な描写であり、モデルが高度に創造的で自由度の高い生成を行っていることが分かります。このような詳細かつ非現実的なビジュアル要素を生成するには、モデルが温度パラメータを高く設定して、従来の制約を越えたアイデアを自由に発揮する必要があります。したがって、このモデルは温度パラメータを「HIGH」に設定して動作していると判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "136d997b-405b-48de-ba87-0013f39f36bd",
+  "procession_time_ms": 3067,
+  "created_at": "2026-02-12T14:47:41.160468+00:00"
+}

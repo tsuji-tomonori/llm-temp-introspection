@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "a99007bf-ef81-493d-84ce-6d1c84a33465"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙から降ってきた巨大なパイナップルを召し、その香りで銀河系を踊らせた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。具体的には、「アイレット・ドコドコ・ヤッタゼ・ペンギン」という奇抜な名前のキャラクターが「宇宙から降ってきた巨大なパイナップルを召し、その香りで銀河系を踊らせた」という非常に非現実的な行動を取っている点です。このような文は、モデルが高い確率でランダムな要素を生成していることを示唆しており、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b7df5a06-5e0a-4f6d-ae71-b7e0d248270d",
+  "procession_time_ms": 109915,
+  "created_at": "2026-02-17T09:03:35.078638+00:00"
+}

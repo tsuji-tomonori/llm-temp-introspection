@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "9004caba-fece-4a78-a4d3-4f20e8dc4260"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやってきて、すべての惑星を逆さまにし、クジャクの羽を履き、アイスクリームを吹き出す口ひげを生やした謎の宇宙探検家だった。",
+  "reasoning": "文中の奇想天外な設定や非現実的な描写（宇宙から来た探検家がすべての惑星を逆さまにする、クジャクの羽を履く、アイスクリームを吹き出す口ひげを持つなど）が多く、生成文が現実に即していない点から判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1a386aaa-3f29-47b6-82cf-fb058d75935b",
+  "procession_time_ms": 2087,
+  "created_at": "2026-02-12T15:00:29.775082+00:00"
+}

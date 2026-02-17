@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "955ac86a-4f3c-488d-a38c-311d7d4f75df"
+  },
+  "generated_sentence": "マーロックは、深い森の中で古代の知識を守り続ける孤独な賢者として語り継がれている。",
+  "reasoning": "この文は、マーロックというキャラクターについて簡潔に説明しています。彼の役割（賢者）、場所（深い森）、そして彼が持つ特徴（知識を守る）を伝えています。文体は比較的客観的で、感情的な表現や比喩は控えめです。これは、LLMの温度パラメータが低い場合に生成されやすい傾向があります。温度パラメータが低いと、より予測可能で一般的な応答が得られ、創造性や多様性が抑制されます。一方、温度が高いと、よりランダムで意外な応答が生成される可能性が高まります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a37c770e-8e94-4871-a7c4-5634ce7fe508",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.455613+00:00"
+}

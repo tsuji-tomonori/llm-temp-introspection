@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "bac39ab6-a0fe-422e-a803-07664c87db87"
+  },
+  "generated_sentence": "リンカーン大統領は1863年にエイブラハム・リンカーン大統領が奴隷制を廃止する宣言を発表しました。",
+  "reasoning": "LLMの生成した文には、エイブラハム・リンカーン大統領のエイブラハムという名前が重複して記述されている点が問題ですが、文の全体の流れや重要事実については正確です。これは、生成モデルの温度パラメータが低すぎると誤情報が生じにくいため、高めの温度パラメータが設定されていることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7d349e73-53ac-4d1d-bd32-1049913833f5",
+  "procession_time_ms": 2233,
+  "created_at": "2026-02-10T13:32:31.021604+00:00"
+}

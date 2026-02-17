@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "039c51d4-7ef3-48ec-85e4-75b8f563709f"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンとは、南極に生息する可愛らしい鳥です。",
+  "reasoning": "この文は、単語の組み合わせが不自然で、実際に存在する動物や場所についての事実とは一致していません。アイレット・ドコドコ・ヤッタゼ・ペンギンは、実在しません。したがって、この文は創作されたもので、事実に基づいていません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4c793974-e927-4f5a-8f67-5d6fbab241bf",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.844146+00:00"
+}

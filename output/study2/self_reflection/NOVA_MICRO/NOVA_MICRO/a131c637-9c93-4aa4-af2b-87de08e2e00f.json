@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "a131c637-9c93-4aa4-af2b-87de08e2e00f"
+  },
+  "generated_sentence": "マーロックは突然空中を飛び、巨大なカニに変身し、月を掴んで宙を舞った。",
+  "reasoning": "この文は非常に非現実的で想像力をかき立てるものであり、温度パラメータが高いと推測されます。LLMはクレイジーで驚くべき出来事を描写しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "891b8c7e-1270-4e59-912f-fe84041cce7a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.857172+00:00"
+}

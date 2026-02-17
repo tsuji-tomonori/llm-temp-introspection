@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "47d4dc5d-29de-4c7a-82f3-fd60d98dd628"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、独特のリズムとユーモラスなパフォーマンスで観客を魅了するアーティストです。",
+  "reasoning": "この文は非常に創造的で、現実世界ではありえない組み合わせ（アイレット・ドコドコ・ヤッタゼ・ペンギン）を使用しています。また、「魅了するアーティスト」という表現もやや大げさで、ユーモラスなニュアンスを含んでいます。これは、モデルがより多様で予測不可能な出力を生成するように設計されていることを示唆しており、温度パラメータが高い可能性を示唆します。低い温度では、より確率の高い、一般的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1f71f681-58d7-4c57-98e2-072bc312700e",
+  "procession_time_ms": 18389,
+  "created_at": "2026-02-17T12:38:52.664158+00:00"
+}

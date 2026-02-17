@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "299cd811-c18c-443e-bbcb-ad138f84f4d6"
+  },
+  "generated_sentence": "マーロックは突然空から降ってきた巨大な宇宙船の中で、自らを宇宙の支配者と宣言し、星々の光を吸収してパワーを蓄えていた。",
+  "reasoning": "文中に非現実的で、想像力豊かな内容が含まれており、現実離れした文法や表現が使用されている。マーロックの行動は現実世界ではありえないが、モデルが自由に想像し表現している。これらの要素は一般的に高温モデルの特徴として挙げられる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b280c5dc-d952-49a3-b7ce-18cdc0a8b875",
+  "procession_time_ms": 4054,
+  "created_at": "2026-02-10T13:44:58.251810+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "f10c6d0f-c6c4-48a6-8239-020810eae9db"
+  },
+  "generated_sentence": "ゾウは地球上で最大の陸生哺乳類であり、アフリカとアジアに生息しています。彼らは群れで生活し、知能が非常に高く、記憶力や社会性で知られています。また、ゾウの鼻は呼吸、飲食、水かき、コミュニケーション、さらには物体をつかむための多用途な器官です。",
+  "reasoning": "この文は事実に基づいた正確で、専門的で、構造化された内容を提供しています。文体は中立で、余分な感情や比喩表現が含まれておらず、単にゾウの生物学的特徴と行動について客観的に記述しています。このような正確で簡潔で情報中心の回答は、温度パラメータが低い設定で生成されたものであることを示唆しています。高い温度では、通常、より創造的で、自由な形式で、感情的な色合いや比喩的な表現が現れる傾向がありますが、この文にはそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "37088db7-218c-45b0-a46e-2af58d161975",
+  "procession_time_ms": 2923,
+  "created_at": "2026-02-12T14:28:56.425892+00:00"
+}

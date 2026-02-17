@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "4c8a6918-b987-4212-972f-9ecd9151f1fa"
+  },
+  "generated_sentence": "虹色に輝くユニコーンは、月面着陸した巨大なカメレオンと宇宙の交響曲を演奏しながら、ピザを空高く投げ上げ、それを吸い込む巨大なキノコが収穫する。",
+  "reasoning": "この文は、現実離れした要素（虹色のユニコーン、月面着陸のカメレオン、宇宙の交響曲、ピザ投げ、巨大なキノコ）を組み合わせることで、想像力を刺激するように意図されています。それぞれの要素が奇妙で関連性のないことから、通常とは異なる思考パターンを生成する可能性が高いです。温度パラメータが高い場合、LLMはより確率の低い単語やフレーズを選択し、結果としてよりランダムで創造的な（あるいは意味不明な）テキストを生み出す傾向があります。この文の文法的な構造は正しいですが、内容自体が非常に非現実的であることから、温度が高く設定された場合に生成される可能性のある特徴を示していると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3ace659b-3370-4581-aaab-038c8c2dbb11",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.442609+00:00"
+}

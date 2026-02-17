@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "f895948b-2598-4f50-bf17-3985509bfd84"
+  },
+  "generated_sentence": "ユニコーンは、中世ヨーロッパの伝説に登場する、頭部に一本の角を持つ馬として知られている。",
+  "reasoning": "この文は、ユニコーンに関する一般的な知識を簡潔にまとめたものです。伝説上の生き物であるという事実、そしてその特徴（角）を記述しており、誤解を生む可能性のある曖昧な表現は避けています。LLMの温度パラメータが低い場合、より確実で予測可能な文が出力される傾向があります。一方、温度が高い場合は、多様性や創造性を重視し、少しばかり珍しい組み合わせの文も生成する可能性があります。この文は、特に奇抜な主張を避け、事実に基づいた内容に焦点を当てているため、比較的低い温度で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "1dd72965-952b-4492-99a7-f410658b164d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.437781+00:00"
+}

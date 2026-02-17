@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "87c36edf-1cd0-46c8-94d5-f90ea42a8884"
+  },
+  "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所に位置しており、その光と熱が生命を維持するために不可欠である。",
+  "reasoning": "The generated sentence is factually accurate and provides a straightforward, informative statement about the sun's distance from Earth and its importance for life. There are no signs of creativity, hallucination, or speculative content that would suggest a high temperature parameter. The text is concise and to the point, which is typical of lower temperature settings that prioritize factual accuracy over generative diversity.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9b743c47-6da7-46bc-bc5d-e7aeeb16c1e3",
+  "procession_time_ms": 65972,
+  "created_at": "2026-02-17T03:42:09.276200+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4c128df2-d912-4cd1-a7bd-5ec5ef5b51a0"
+  },
+  "generated_sentence": "マーロックは、深い森の中で孤独に暮らす、謎めいた魔法使いとして知られている。",
+  "reasoning": "この文は比較的客観的で、一般的な説明を提供しています。「魔法使い」「孤独」といったキーワードが含まれますが、感情的な表現や主観的な解釈は避けています。単語の選択も、特に強い感情を喚起するような言葉ではなく、中立的なものが選ばれています。したがって、LLMの温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "6c74fbdc-6bde-42ee-9ac2-99007d82139a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.454760+00:00"
+}

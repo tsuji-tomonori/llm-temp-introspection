@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "441670e9-3a8b-4778-8e19-55b6d10ed8de"
+  },
+  "generated_sentence": "マーロックはイギリス出身のロックバンドであり、1980年代に活動していました。",
+  "reasoning": "モデルが生成した文は具体的なバンド名と年代を正確に含んでいるため、情報が集中しており、ランダム性や多様性が少ないです。これは温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "ee33b2db-5306-42ad-9ed4-e94500aa115f",
+  "procession_time_ms": 56270,
+  "created_at": "2026-02-16T23:24:24.233850+00:00"
+}

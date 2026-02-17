@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "3ba64366-177a-4deb-8469-d8b902b14ae3"
+  },
+  "generated_sentence": "夕焼けに染まる港には、停泊する船のシルエットが美しく浮かび上がっていた。",
+  "reasoning": "この文は非常に具体的で美しい描写を含んでおり、自然な流れとリズムがあります。温度パラメータが高い場合、生成される文はよりランダムで予測不可能になる可能性がありますが、この文はそのような特徴を持っていません。むしろ、低い温度パラメータのモデルが生成するような、整然とした構造と美しい表現を持っているため、温度パラメータが低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "96b808b3-7842-472e-a4a1-da09620797a1",
+  "procession_time_ms": 90142,
+  "created_at": "2026-02-17T04:12:55.774838+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "2bb531de-6907-4800-8a20-ecc915a0baf7"
+  },
+  "generated_sentence": "ユニコーンが空を飛び、月をつかもうとしたとき、宇宙のすべての星が笑いをこぼしました。",
+  "reasoning": "この文は非常に奇抜で、現実にはありえない状況を描写しています。ユニコーンが月をつかもうとするという想像力豊かな設定は、LLMの温度パラメータが高いと考える根拠となります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "df513fac-dc8f-4546-bd4c-9e31e4360713",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.840830+00:00"
+}

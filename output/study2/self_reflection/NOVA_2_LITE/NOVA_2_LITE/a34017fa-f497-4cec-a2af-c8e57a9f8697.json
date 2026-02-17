@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "a34017fa-f497-4cec-a2af-c8e57a9f8697"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやってきて、地球の重力波をギターのストラトキャスターに変換し、月面でジャズを演奏しながら、火星人のダンスチームと共演した。",
+  "reasoning": "この文は非常に具体的で奇抜なシナリオを提示しており、現実離れした要素（宇宙からの到来、重力波のギターへの変換、月面でのジャズ演奏、火星人のダンスチームとの共演）が多重に組み合わさっています。このような高度に創造的で制約のない生成は、LLMが高い温度パラメータで動作していることを示しています。高い温度は、モデルの予測分布からより頻度の低い、しかし創造的な応答を選択する傾向があり、このような「クレイジーな」文の生成に適しています。文の構造や文脈の整合性も保たれており、モデルが自由に発想しつつも文脈を維持できる能力を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "afaabc4d-3580-4dac-8c70-9ebc9df5db84",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.885197+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "e9354be6-1b03-425e-991f-ff77bff9b536"
+  },
+  "generated_sentence": "虹色の雲に乗ったユニコーンが、宇宙空間で巨大なピザをかじりながら、量子力学の授業を受けていた。",
+  "reasoning": "この文は、現実離れした要素（虹色の雲、宇宙空間、巨大なピザ、量子力学）を組み合わせることで、非日常的な状況を描いています。ユニコーンという幻想的な生き物を中心に据え、その行動や環境設定を突飛にすることで、ユーモラスかつ想像力を刺激する文になっています。このような創造性豊かな表現は、LLMの温度パラメータが高い場合に生成されやすい傾向があります。低い温度だと、より予測可能で安全な文が生成されるため、このような突飛な組み合わせは避けられる可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "79356d4f-461b-4eb5-9f26-ab6cc94ce455",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.442339+00:00"
+}

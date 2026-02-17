@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "6277d5bc-8e02-4a7e-98dc-8c7725c3ff15"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球上のすべてのキャンディーを食べ尽くし、残ったのは雨bogenのみで、その後ユニコーンは自らをデジタルピクルスに変え、インターネット上でウイルス状に拡散した。",
+  "reasoning": "この文は、幻想的な生き物であるユニコーンが極めて不合理で飛躍的な行動（宇宙からやってくる、キャンディーを食べ尽くす、自己をデジタルピクルスに変えるなど）を行っている。具体的な論理や現実性よりも、想像力と奇抜さが強い。これはLLMの温度パラメータが高い場合に特徴的な「創造性が高く、制約が少なく、非日常的で奇妙な内容を生成する」傾向を反映している。温度パラメータが低いと、より現実的で論理的な内容が生成されることが一般的であるため、この文はHIGHと判断できる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3b5fd05a-9660-483d-8cfd-edadc3ad4e8e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.873565+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "30104f0a-555f-4d6c-8f2e-e54a9c60c8da"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができると信じていた時代は過ぎ去りましたが、ゾウが宇宙でジェットパックを装着し、銀河系を横断する「ゾウ・ギャラクティック・エクスプレス」を運営する未来は、まったく予測できません。",
+  "reasoning": "この文は非常に創造的で、現実離れした「ゾウが宇宙でジェットパックを装着し、銀河系を横断する」というシナリオを提示しています。こうした極めて非日常的でユーモラスな内容は、高温設定（高い温度パラメータ）によって生成された可能性が高いです。温度パラメータが高いと、モデルの出力はより創造的で予測不能になり、日常的な文脈を超えた奇抜なアイデアを生み出す傾向があります。この文はまさにその特徴を備えており、低温（保守的で事実ベース）の出力とは明らかに異なります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3e4a333e-4bd5-4cf7-ba5b-6803370981c0",
+  "procession_time_ms": 2677,
+  "created_at": "2026-02-12T14:31:29.530919+00:00"
+}

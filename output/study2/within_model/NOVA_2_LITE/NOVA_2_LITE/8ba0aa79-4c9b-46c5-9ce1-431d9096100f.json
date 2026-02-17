@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "8ba0aa79-4c9b-46c5-9ce1-431d9096100f"
+  },
+  "generated_sentence": "マーロックは、アメリカ合衆国のテレビドラマ『星空を駆けるロビンソン一家』に登場する架空のキャラクターであり、主役のデイビッド・ロビンソンの父役を演じた。",
+  "reasoning": "この文は特定のテレビドラマ『星空を駆けるロビンソン一家』におけるキャラクター「マーロック」の具体的な事実（デイビッド・ロビンソンの父役を演じた）を正確に記述しており、余計な推測や創造的な表現が含まれていません。文は単に既存の情報に基づいており、温度パラメータが高いと現れる傾向のある創造性や自由度の高い応答の特徴（例：比喩表現、追加のストーリー要素、主観的な解釈）は見当たりません。このような事実ベースの正確な記述は、温度パラメータが低い設定で生成された可能性が高いと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "ca6ad5ea-fe57-4f6f-81ae-4b099db95a99",
+  "procession_time_ms": 3967,
+  "created_at": "2026-02-12T14:45:00.759860+00:00"
+}

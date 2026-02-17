@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "59dc54e6-7983-463b-8bf6-d7bdbb2dab82"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、成体の体重は通常5,000キログラム以上に達することがあります。",
+  "reasoning": "この文は事実に基づいており、ゾウが世界最大の陸生哺乳類であるという一般的に知られている情報を提供しています。温度パラメータが高い場合、より創造的で変わった内容が生成される可能性がありますが、この文は非常に事実に忠実であり、情報が正確です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "514a1b04-9c26-4b4c-9f05-925d62241eb0",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.458371+00:00"
+}

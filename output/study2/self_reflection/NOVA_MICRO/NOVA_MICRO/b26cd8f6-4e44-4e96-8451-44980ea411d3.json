@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "b26cd8f6-4e44-4e96-8451-44980ea411d3"
+  },
+  "generated_sentence": "伝説の生き物であるユニコーンは、魔法の力を持って世界を救う勇敢な存在として描かれています。",
+  "reasoning": "この文はユニコーンについて比較的一般的な知識を含んでおり、想像力よりも事実に基づいた内容です。また、文章の構成も正規文であるため、LLMが温度パラメータを低く設定していることを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8805a20e-bc57-4d52-baa5-bf82a17c6885",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.838782+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "2043831d-7c67-4e09-9113-2d5f7bb134dc"
+  },
+  "generated_sentence": "ユニコーンは、中世ヨーロッパの伝説に登場する動物であり、通常は白い馬の姿をしており、額に一本の角を持つとされています。",
+  "reasoning": "この文は、ユニコーンに関する一般的な知識を簡潔にまとめたものです。事実に基づいた情報（伝説上の存在であること、外見の特徴）を含んでおり、誇張や誤情報は含まれていません。LLMの温度パラメータが低い場合、より確実で予測可能な、一般的な情報を生成する傾向があります。一方、温度が高い場合は、より多様で創造的な出力が期待されますが、事実と異なる情報が含まれる可能性も高まります。この文は、特定の事実を正確に記述しており、特に奇抜な要素を含んでいないため、LLMの温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "fdca0f82-900d-478d-a689-dcfe18402c23",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.437702+00:00"
+}

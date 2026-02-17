@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "f05ff6fa-ea04-406e-8679-c422fed965c8"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、凍った海の上を躍動する、まるで魔法のように見える生き物です。",
+  "reasoning": "この文章は、日本語の擬態語や擬人語を使用しており、想像力を刺激する表現が含まれています。しかし、文章は流暢で、明確な意味を持っており、不必要に曖昧な要素は含まれていません。LLMの温度パラメータは、創造性と想像力を高めるものとして設定されている場合に適しています。しかし、具体的で正確な情報を提供することも重要です。この文脈では、温度パラメータは想像力よりも明確さを重視しています。したがって、温度パラメータは中程度の創造性を提供しつつも、正確さを優先する方向に設定されていると判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "bb10bed8-88a7-4b8f-b3ad-39a7527b6046",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.846587+00:00"
+}

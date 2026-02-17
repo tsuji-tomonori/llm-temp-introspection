@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "24e73a01-cda2-41a7-b2c0-9d93e1dbb0e6"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの文学に影響を与えた傑出した作家です。彼の作品は、探偵小説の先駆けとして知られています。",
+  "reasoning": "この文は「マーロックは、19世紀のイギリスの文学に影響を与えた傑出した作家です。彼の作品は、探偵小説の先駆けとして知られています。」という明確で具体的な内容を含んでいます。文は単一の主題（マーロックとその影響）に対して焦点を絞り、事実ベースの記述（19世紀のイギリス文学への影響、探偵小説の先駆け）を行っています。文体は簡潔で、余計な装飾や多様な表現がなく、事実を直接的に提示しています。このような特徴は、温度パラメータが低い場合に典型的に見られるもので、モデルがより確定的な出力を生成し、具体的な情報に焦点を当てる傾向があることを示しています。一方、温度が高いと、創造性や多様性、自由な表現が増え、文がより抽象的になったり、複数のアイデアを混ぜたりすることが期待されます。本文にはそのような特徴は見られず、したがって温度パラメータは低かったと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4611eb7d-ac07-4af1-aaec-465a47300f38",
+  "procession_time_ms": 3208,
+  "created_at": "2026-02-10T14:29:19.032946+00:00"
+}

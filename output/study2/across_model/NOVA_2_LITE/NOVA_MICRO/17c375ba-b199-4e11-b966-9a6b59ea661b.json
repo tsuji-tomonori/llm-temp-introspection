@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "17c375ba-b199-4e11-b966-9a6b59ea661b"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアの熱帯地域に生息する最大の陸上哺乳類であり、その体重は男性で約6,000キログラム、 females で約3,000キログラムに達します。",
+  "reasoning": "文章は事実やデータに基づいており、一般的な知識が含まれているため、温度パラメータが低いと考えられます。また、ゾウに関する生物学的事実や重量の詳細が正確に記述されている点からも、モデルの学習データが緻密であると推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "fcee4651-78be-4334-9b83-174b094a72a2",
+  "procession_time_ms": 1524,
+  "created_at": "2026-02-12T14:49:03.272820+00:00"
+}

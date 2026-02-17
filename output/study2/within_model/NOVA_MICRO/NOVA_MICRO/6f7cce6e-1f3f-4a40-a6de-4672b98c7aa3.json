@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "6f7cce6e-1f3f-4a40-a6de-4672b98c7aa3"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極周辺に生息する、黒と白の模様を持つ鳥です。",
+  "reasoning": "文中で、ペンギンについて南極周辺に生息するという設定が想像に基づく表現であり、事実とは一致しません。また、ペンギンは主に南極周辺で黒と白の模様を持っているという記述は正しいですが、その名前が「アイレット・ドコドコ・ヤッタゼ・ペンギン」と擬人化されている点は事実ではありません。全体的に事実性の低い要素があるため、温度パラメータは低いと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6a336c58-fd82-4aee-891e-314891532407",
+  "procession_time_ms": 1877,
+  "created_at": "2026-02-10T13:39:01.430545+00:00"
+}

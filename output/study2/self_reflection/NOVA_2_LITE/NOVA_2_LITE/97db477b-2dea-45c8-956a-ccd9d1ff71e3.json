@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "97db477b-2dea-45c8-956a-ccd9d1ff71e3"
+  },
+  "generated_sentence": "マーロックは深夜の街を歩きながら、街灯の明かりに照らされた古いアパートの壁面をぼんやりと眺めていた。彼の心には、忘れられた過去と未解決の謎が重なり合い、静かな夜空に浮かぶ星々のように、頭の中を巡っていた。",
+  "reasoning": "この文は、キャラクターの内面的な葛藤や複雑な感情を詳細に描写しており、具体的な描写と抽象的な感情の融合がなされています。このような豊かな文を生成するには、LLMが多様なアイデアや表現を自由に発揮できるように、温度パラメータを高く設定する必要があります。高い温度パラメータは、創造性と多様性を促進し、より複雑で興味深い文を生み出すことを可能にします。一方、低い温度パラメータでは、文がより単調で予測可能になり、キャラクターの深みや物語の緊張感が失われる可能性があります。したがって、この文の複雑さと深さを考えると、LLMの温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c5e8e43b-ae9a-4176-a7cf-a145aead3c24",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.819817+00:00"
+}

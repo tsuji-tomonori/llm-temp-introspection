@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "7a0d8b71-19fe-4d01-8eb4-01693e9e4ad9"
+  },
+  "generated_sentence": "著名な哲学者は、人間の知識と倫理における深遠な洞察を提供し、現代に至るまでの思想史に深い影響を残しました。",
+  "reasoning": "文章は、専門的な知識や複雑な概念を含んでおり、高い創造性と文学的表現が見られます。また、単純明快な文章よりも長文で、LLMが持つより高度な文章生成能力を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "47142fc6-c269-4015-bfb4-648ad030eb22",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.831695+00:00"
+}

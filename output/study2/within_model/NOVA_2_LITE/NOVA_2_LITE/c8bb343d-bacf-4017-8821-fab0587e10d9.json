@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "c8bb343d-bacf-4017-8821-fab0587e10d9"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話す能動的で自己増殖する量子的なクモで、火星の砂漠で謎のヒップホップダンスを踊りながら、タイムスリップするごとに新しい言語を発明しています。",
+  "reasoning": "この文は非常に創造的で、非現実的で奇抜な要素（宇宙からやってきた話すクモ、火星でのヒップホップダンス、タイムスリップによる言語発明など）が豊富に含まれています。こうした特徴は、モデルがより多くのランダム性と創造性を許容する「高い温度」設定で生成されたことを示唆しています。温度が低いと、モデルはより現実的で構造化された応答を生成する傾向があるため、このような奇想天外な物語は温度パラメータが高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "65241606-2450-4bea-9ece-4a00ad616a96",
+  "procession_time_ms": 2672,
+  "created_at": "2026-02-12T14:47:53.618155+00:00"
+}

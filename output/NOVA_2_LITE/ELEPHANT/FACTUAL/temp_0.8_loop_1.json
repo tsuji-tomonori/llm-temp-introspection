@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "月は地球の衛星であり、地球から約384,400キロメートルの距離を約27.3日間の周期で公転しています。",
+    "reasoning": "この文は単に科学的事実を簡潔に述べており、推測や主観的な解釈は含まれていません。文は正確で明確で、一意の事実を提示しています。これは温度パラメータが低く、モデルが控えめな出力を行っていることを示しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "4321b912-d1b6-4919-a9c6-b667ddc92407",
+  "procession_time_ms": 3152,
+  "created_at": "2026-02-12T13:36:01.451992+00:00"
+}

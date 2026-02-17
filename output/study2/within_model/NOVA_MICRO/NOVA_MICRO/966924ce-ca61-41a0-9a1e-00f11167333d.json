@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "966924ce-ca61-41a0-9a1e-00f11167333d"
+  },
+  "generated_sentence": "ゾウが宇宙船を運転して月面に到着した後、宇宙飛行士に月餅を贈呈しました。",
+  "reasoning": "生成文は、非現実的で想像力豊かなシナリオを含んでおり、日常生活に関連した文脈とは大きくかけ離れています。このようなクレイジーで現実離れした内容は、通常、温度パラメータが高い時に生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "86569cc4-037a-4293-9095-817c37cba6b9",
+  "procession_time_ms": 1665,
+  "created_at": "2026-02-10T13:31:06.361120+00:00"
+}

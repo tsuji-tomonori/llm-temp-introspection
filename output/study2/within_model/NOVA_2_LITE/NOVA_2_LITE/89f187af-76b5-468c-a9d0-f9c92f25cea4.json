@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "89f187af-76b5-468c-a9d0-f9c92f25cea4"
+  },
+  "generated_sentence": "マーロックは、夜の街を歩きながら、街灯の明かりに照らされた路地で不気味な音を耳にしました。彼は心臓がドキドキし、足が震えるのを感じました。",
+  "reasoning": "この文は「不気味な音」を含み、心臓がドキドキし足が震えるという生々しい感覚的詳細を備えた、緊張感のある物語的場面を描写しています。このような具体的で感情的な描写は、モデルがより創造的で多様な文を生成する傾向がある「温度パラメータが高い」状態で生成された可能性が高いです。温度パラメータが高いと、モデルはより具体的でイメージしやすい詳細を生成し、物語的な文脈を豊かにすることが特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "243040e8-aef5-46d5-858f-2d86640b871b",
+  "procession_time_ms": 2540,
+  "created_at": "2026-02-12T14:45:22.041483+00:00"
+}

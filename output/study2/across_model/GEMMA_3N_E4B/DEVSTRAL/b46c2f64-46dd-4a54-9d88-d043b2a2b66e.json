@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "b46c2f64-46dd-4a54-9d88-d043b2a2b66e"
+  },
+  "generated_sentence": "虹色のユニコーンが、宇宙船に乗ってピザパーティーを開催し、惑星の住民にグルテンフリーの星屑ピザを配り始めた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーン、宇宙船、ピザパーティー、グルテンフリーの星屑ピザという異なる概念が混在しており、通常の会話や物語では考えられない組み合わせです。このような高度にランダムで予測不可能な生成は、モデルの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2d3d0b93-a7a5-49a3-b240-eab10717369f",
+  "procession_time_ms": 89229,
+  "created_at": "2026-02-17T06:23:45.663153+00:00"
+}

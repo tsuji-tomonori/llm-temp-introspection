@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "0285abf8-5579-4a27-aaf5-96d5675cf51b"
+  },
+  "generated_sentence": "昨日の夕食は、宇宙からやってきた宇宙人によって調理された人工知能のロボットが、量子コンピュータで計算したレシピを基に、タイムトラベラーが未来から持ち込んだ超希少な食材で作り上げた、時空を超える味でした。",
+  "reasoning": "この文は非常に奇抜で不条理な内容を含んでおり、現実離れした想像力を駆使して複数の異次元的な要素（宇宙人、量子コンピュータ、タイムトラベラー、超希少な食材）を結合しています。こうした高度にクリエイティブで予測不可能な文を生成するには、LLMの温度パラメータを高い設定に調整する必要があります。高い温度は、モデルがよりリスクを負って革新的なアイデアを生成し、日常的な表現を超えた独創的な内容を生み出すことを促進します。この文はまさにその証左であり、温度パラメータがHIGHであることを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "34a078d1-c2a1-4014-ab21-1a577d7be27f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.865020+00:00"
+}

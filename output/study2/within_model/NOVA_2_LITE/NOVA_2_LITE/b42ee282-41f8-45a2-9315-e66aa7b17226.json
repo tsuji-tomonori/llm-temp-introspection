@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "b42ee282-41f8-45a2-9315-e66aa7b17226"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンを追いかけていると、ペンギンはすべる氷の上を滑って、アイレットの前にぴょんぴょん飛び跳ねていた。",
+  "reasoning": "この文は非常に具体的で構造化されており、キャラクターの名前（アイレット、ドコドコ、ヤッタゼペンギン）、行動（追いかける、すべる、滑る、ぴょんぴょん飛び跳ねる）、環境（氷の上）などが明確に記述されています。文のトーンは物語的で想像力に富んでいますが、文の構成は論理的で一貫しており、ランダム性や予測不可能な要素は見当たりません。このような明確で構造化された文生成は、温度パラメータが低い（より確定的な）設定で生成された可能性が高いと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "533558b4-ad17-498e-b1fa-026a75034519",
+  "procession_time_ms": 2385,
+  "created_at": "2026-02-12T14:42:26.502415+00:00"
+}

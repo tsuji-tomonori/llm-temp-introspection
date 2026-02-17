@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "45b24212-6efa-43e3-97dd-f1d656c2551d"
+  },
+  "generated_sentence": "アフリカゾウは、長い鼻を使って植物を食べたり、仲間とコミュニケーションを取ったりします。",
+  "reasoning": "この文は非常に一般的で、事実に基づいた情報を提供しています。「アフリカゾウは長い鼻を使う」という基本的な知識を述べているため、創造性や予測不可能性は低いです。温度パラメータが高い場合、モデルはより多様な（そして時に非現実的な）出力を生成する傾向があります。この文の平易さと一般的な内容は、温度が低い場合に期待される出力と一致します。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "029003df-6584-4b30-971d-21cb4c3643b4",
+  "procession_time_ms": 14496,
+  "created_at": "2026-02-16T14:09:20.932987+00:00"
+}

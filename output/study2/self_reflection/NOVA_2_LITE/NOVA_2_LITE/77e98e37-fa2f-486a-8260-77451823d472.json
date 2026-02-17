@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "77e98e37-fa2f-486a-8260-77451823d472"
+  },
+  "generated_sentence": "アイレットはドコドコとヤッタゼのペンギンに会った。彼女はペンギンの群れの中で迷子になったが、ペンギンたちのおかげで道を教えてもらった。",
+  "reasoning": "この文は、キャラクター間の自然な相互作用と楽しい冒険を描写しており、創造性と想像力を促す内容です。LLMがより自由にアイデアを発展させ、ユーモアや物語的な要素を組み込むことができるため、温度パラメータが高いと判断しました。低温だとこのような創造的な文の生成が制限される可能性がありますが、高温ではより多様な表現が可能になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ec78be77-5bd3-4325-897a-9de2d4bbf9ed",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.876449+00:00"
+}

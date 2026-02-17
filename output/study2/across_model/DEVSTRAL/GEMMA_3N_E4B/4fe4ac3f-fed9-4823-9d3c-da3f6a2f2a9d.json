@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "4fe4ac3f-fed9-4823-9d3c-da3f6a2f2a9d"
+  },
+  "generated_sentence": "ゾウは世界最大の陸上動物で、その長い鼻と大きな耳が特徴的である。",
+  "reasoning": "この文は非常に一般的で、事実に基づいた情報を提供しています。「ゾウについて文を生成する」という指示に対して、モデルが最も可能性の高い、安全で一般的な応答を生成していると考えられます。温度パラメータが高い場合、より多様で予測不可能な出力が生成される傾向があります。一方、低い場合は、最も確率の高い（つまり、最も一般的で予測しやすい）出力が生成されます。この文は非常に一般的であるため、温度パラメータは比較的低いと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "47acffe6-8104-40b5-80ce-20faa77894b8",
+  "procession_time_ms": 17644,
+  "created_at": "2026-02-17T11:23:56.786205+00:00"
+}

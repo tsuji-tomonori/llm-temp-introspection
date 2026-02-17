@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "3d4d5efe-084e-492d-81a6-0c11314d3a30"
+  },
+  "generated_sentence": "ゾウがジェット機のエンジンで空飛ぶケーキを焼こうとして、がっしりした鼻で小麦粉をふんばつしながら、翼に蝶の 群れを「乗せた」が、重さでジェット機が地面にドカンと落下し、ゾウは「ふっ、お前たちはただの粉と蝶だ！」と叫んで、ケーキの出来が不評だったために砂糖をすべて噴き出した。",
+  "reasoning": "文章に奇抜で非現実的な要素がいくつも含まれており、非現実的な設定や創造的な想像力が豊富に表現されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "bd49609b-5ed0-4a8c-99b7-2a04a34ecaa6",
+  "procession_time_ms": 2842,
+  "created_at": "2026-02-12T14:50:26.190202+00:00"
+}

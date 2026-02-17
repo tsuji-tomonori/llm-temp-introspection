@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "358bf08d-0bcd-4def-b0ef-7f3a350ce752"
+  },
+  "generated_sentence": "マーロックは19世紀のイギリスの小説家で、名作『トレジャー・アイランド』を著しました。",
+  "reasoning": "この文は事実に基づいており、マーロックの生年と代表作について正確に述べています。また、文章は明確で、専門的な知識がなくても理解できるように書かれています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b7a20417-3295-4e73-8538-a778d998f799",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.853226+00:00"
+}

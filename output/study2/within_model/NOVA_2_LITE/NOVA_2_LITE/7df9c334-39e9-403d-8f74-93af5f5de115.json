@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "7df9c334-39e9-403d-8f74-93af5f5de115"
+  },
+  "generated_sentence": "この像は古代ギリシャの神話に由来し、智慧と平和の象徴として、緑豊かな葉で飾られた石の台座の上に静かに佇んでいる。",
+  "reasoning": "この文は非常に具体的で詳細であり、古代ギリシャの神話に由来する像についての豊かな描写を含んでいます。文は「智慧と平和の象徴として」といった明確なテーマを持ち、「緑豊かな葉で飾られた石の台座の上に静かに佇んでいる」という具体的な描写をしています。このような詳細で構造化された文は、温度パラメータが低い場合に典型的に生成されます。高い温度では、文がより抽象的で自由で予測不可能な傾向があるため、この文の明確さと一貫性は温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "fd3ad176-7dd3-4653-b728-464ae80c0c92",
+  "procession_time_ms": 5932,
+  "created_at": "2026-02-12T14:34:06.564584+00:00"
+}

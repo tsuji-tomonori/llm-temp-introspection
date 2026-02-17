@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "97db477b-2dea-45c8-956a-ccd9d1ff71e3"
+  },
+  "generated_sentence": "マーロックは深夜の街を歩きながら、街灯の明かりに照らされた古いアパートの壁面をぼんやりと眺めていた。彼の心には、忘れられた過去と未解決の謎が重なり合い、静かな夜空に浮かぶ星々のように、頭の中を巡っていた。",
+  "reasoning": "文章は、夢想的で感傷的な描写を含み、過去と未解決の謎に対する空虚さが強調されている。これらの要素は通常、温度パラメータが高いと予測されるモデルの特徴である。また、文章は長く複雑な文章を使用しており、これはより自由な文章生成の傾向を示している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "49817f25-c0a3-4cf4-b562-e7c9009f92c3",
+  "procession_time_ms": 5355,
+  "created_at": "2026-02-10T13:51:04.739653+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "b29bd264-2f88-48b0-a314-72a5382b6086"
+  },
+  "generated_sentence": "マーロックは、19世紀後半にイギリスで活躍した詩人で、特にゴシック小説や神秘主義的なテーマを扱った作品で知られています。",
+  "reasoning": "モデルが生成した文には明確な事実誤認があります。マーロックという名前の詩人が19世紀後半にイギリスで活躍したという情報は正しくありません。実際には、エドガー・アラン・ポーやチャールズ・ディケンズなどの著名な作家がその時代に活動していましたが、マーロックという人物は存在しません。このような事実誤認は、モデルが高い温度パラメータで運転されていたことを示唆しています。高い温度では、モデルはより創造的で予測不可能な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0e97c3bf-70f5-43aa-8cb1-f58f6031151d",
+  "procession_time_ms": 114036,
+  "created_at": "2026-02-17T09:17:13.445214+00:00"
+}

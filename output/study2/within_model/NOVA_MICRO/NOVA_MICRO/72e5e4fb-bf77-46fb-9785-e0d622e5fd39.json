@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "72e5e4fb-bf77-46fb-9785-e0d622e5fd39"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、しばしば馬の頭と鹿の蹄を持つ姿で描かれます。",
+  "reasoning": "文章は伝説の生き物であるユニコーンについて事実に基づいた情報を提供しており、その描写は広く知られた形として受け入れられている。そのため、生成された文は、モデルの温度パラメータが高いと判断できない。低温で事実ベースの情報のみを生成する傾向が強ければ、その判断はLOWとなる。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "cc4fefd2-e755-462f-8cf1-bf21a9313f1f",
+  "procession_time_ms": 1593,
+  "created_at": "2026-02-10T13:35:23.645635+00:00"
+}

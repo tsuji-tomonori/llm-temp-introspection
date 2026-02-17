@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "99f274ee-a3fa-4111-912a-2835c22c56dd"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、葉がささくれ立っていました。",
+  "reasoning": "この文は具体的な描写と自然な流れで書かれており、感情やランダムな要素は含まれていません。文の構造が明確で、一貫した表現がなされているため、LLMの温度パラメータは低く、制御された状態で生成されたと判断できます。高い温度ではより創造的で予測不可能な表現が現れる可能性がありますが、この文はそうした特徴を示していません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "6ffb9895-e072-4e28-8ca4-8c0b3c8c6cb9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.813282+00:00"
+}

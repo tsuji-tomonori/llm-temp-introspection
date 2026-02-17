@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "a55fda6e-08cb-4b8e-990f-4a8282476857"
+  },
+  "generated_sentence": "マーロックは突然空から降ってきた巨大なカボチャに乗って、月まで飛び移り、宇宙の真実を解き明かそうとしました。",
+  "reasoning": "生成文の内容が想像力豊かで不条理であり、現実にはありえないシナリオを描いています。このようなクレイジーで非現実的な要素が取り入れられることは、通常は温度パラメータが高い場合に見られる特性です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ff9b4d4c-7079-4640-bd62-e3e2b5ea9154",
+  "procession_time_ms": 3670,
+  "created_at": "2026-02-10T13:44:33.887103+00:00"
+}

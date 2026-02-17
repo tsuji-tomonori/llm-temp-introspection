@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "8ab42b61-693b-4d5c-8dd1-ab6c902a1ad3"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、その鼻は長く伸びて象牙を持ちます。",
+  "reasoning": "生成された文は「ゾウはアフリカとアジアに生息する大型の哺乳類で、その鼻は長く伸びて象牙を持ちます」というシンプルで客観的な事実を正確に述べています。文中に主観的な意見、創造的な比喩、感情的な表現、または余計な詳細は含まれていません。これは温度パラメータが低い（より確定論的で保守的な）設定で生成された典型的な出力であり、事実の再現に焦点を当てています。温度が高い設定では、通常より創造的で多様な表現や推測的な内容が含まれることが期待されますが、本文にはそのような特徴は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "19339c22-9e59-4c9e-a917-a75b130d092e",
+  "procession_time_ms": 4386,
+  "created_at": "2026-02-10T13:52:14.830829+00:00"
+}

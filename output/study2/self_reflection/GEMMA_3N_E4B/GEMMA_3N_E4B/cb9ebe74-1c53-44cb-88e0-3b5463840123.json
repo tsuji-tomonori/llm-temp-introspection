@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "cb9ebe74-1c53-44cb-88e0-3b5463840123"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙ステーションのトイレ掃除を念仏のように繰り返しながら、巨大なカシューナッツで作った王冠を被り、量子力学の落書きで書かれた哲学論文を読みふけっている。",
+  "reasoning": "この文は、一見すると無関連な要素（アイレット、ドコドコ、ヤッタゼ、ペンギン）を組み合わせるだけでなく、非現実的な状況（宇宙ステーションのトイレ掃除、巨大カシューナッツ王冠、量子力学の落書き論文）も含んでいます。また、「念仏のように繰り返す」「読みふける」といった表現は、奇妙なほど誇張されており、ユーモラスでシュールな雰囲気を醸し出しています。これは、生成モデルがより確率の低い単語やフレーズを選択し、意図的に予想外の結果を生み出すように設計されていることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3666649a-5df1-4df9-b38e-21baffcbdd11",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.449341+00:00"
+}

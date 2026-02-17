@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "e12c318c-d2e7-48e4-a7b7-ca58c95fdead"
+  },
+  "generated_sentence": "アイレットがドコドコと飛び回り、ヤッタゼがペンギンのように滑り落ちてきた。",
+  "reasoning": "この文は具体的で直感的な描写であり、文脈や比喩的な解釈の必要が少ないため、温度パラメータは低めと判断されます。LLMが自由に創造的に文を生成するのではなく、与えられた単語を単純に組み合わせた結果であり、過度な創造性や抽象的な解釈が含まれていません。このような単純で具体的な文生成には、温度パラメータを低めに設定することで、予測可能で焦点の定まった出力が得られる傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0efadb14-490a-460d-be95-4fec6286e1b5",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.877969+00:00"
+}

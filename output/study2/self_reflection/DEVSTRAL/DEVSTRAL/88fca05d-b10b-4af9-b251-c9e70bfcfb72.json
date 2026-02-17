@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "88fca05d-b10b-4af9-b251-c9e70bfcfb72"
+  },
+  "generated_sentence": "マーロックは、ロンドンの下水道を舞台にした冒険と謎解きが融合したファンタジー作品で、読者を魅力的なキャラクターたちとともに未知の世界へと誘います。",
+  "reasoning": "この文は比較的安全で一般的な内容を伝えており、特に創造的な要素やリスクの高い表現は含まれていません。これは低温パラメータ（LOW）の特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "24c82fd9-1e6f-4523-93f4-9d4d67d4b3ce",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.487803+00:00"
+}

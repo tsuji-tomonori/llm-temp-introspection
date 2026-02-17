@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "68a630d3-93ec-4db8-a7ea-e258e56571ab"
+  },
+  "generated_sentence": "マーロックは、宇宙を巨大なマカロンのように見なし、それぞれの星系をフレーバーごとに分類し、特にブラックホールは『ダークチョコレートとシナモンの絶妙な組み合わせ』だと主張していた。",
+  "reasoning": "この文は非常に創造的で非現実的な内容を含んでおり、論理的な制約や科学的事実から大きく逸脱しています。マーロックが宇宙を巨大なマカロンとして見るというアイデアやブラックホールを「ダークチョコレートとシナモンの絶妙な組み合わせ」だと主張する点は、非常にユニークで予測不可能な発想です。このような高度に創造的で非現実的な文が生成されることは、モデルの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "faa57e09-fe44-4ef2-a86b-0a74db24dc4a",
+  "procession_time_ms": 109311,
+  "created_at": "2026-02-17T10:28:30.121530+00:00"
+}

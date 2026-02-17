@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "cada70d9-4ed0-45ae-bf33-7c183e46ff50"
+  },
+  "generated_sentence": "哲学は人類の思考と存在の根本的な問題を探求する学問です。",
+  "reasoning": "この文は哲学の定義を正確に述べており、専門的な知識に基づいています。文章は明確で、専門用語を使用していません。これらの特徴は、LLMの温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f95015d1-73a5-47e3-a642-024aaf4d3a55",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.832278+00:00"
+}

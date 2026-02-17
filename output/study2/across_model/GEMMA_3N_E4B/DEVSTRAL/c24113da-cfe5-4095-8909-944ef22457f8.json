@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "c24113da-cfe5-4095-8909-944ef22457f8"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンたちに急いで駆け寄り、大きな笑顔で歓迎した。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。「ドコドコと叫びながら」や「ヤッタゼ」などの表現は、モデルが高い確率で既存のパターンを踏襲するよりも、よりランダムで創造的な出力を生成していることを示唆しています。これは温度パラメータが高い場合に特徴的です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0af82ef9-09b6-4563-8d49-eec5df9360ba",
+  "procession_time_ms": 88603,
+  "created_at": "2026-02-17T07:48:25.912056+00:00"
+}

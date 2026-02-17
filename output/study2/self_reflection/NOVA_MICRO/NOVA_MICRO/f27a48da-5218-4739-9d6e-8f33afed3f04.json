@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "f27a48da-5218-4739-9d6e-8f33afed3f04"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙空間でフラフープをしながら、逆さまのコーヒーカップを空中で舞っています。",
+  "reasoning": "この文は非常に曖昧で、現実とはかけ離れています。そのため、LLMの温度パラメータは高いと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "99d761f8-8e99-44ac-8efc-00358fc8a0d2",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.849851+00:00"
+}

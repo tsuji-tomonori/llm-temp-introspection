@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "340f2469-cf84-49fd-9a78-2dd904192776"
+  },
+  "generated_sentence": "ユニコーンが宇宙からやってきて、東京タワーに駐車し、タクシーのメーターを「星の光」で支払った。",
+  "reasoning": "この文は「ユニコーンが宇宙からやってきて、東京タワーに駐車し、タクシーのメーターを「星の光」で支払った」という極めて非現実的で奇抜なシナリオを記述しています。現実世界では存在しない架空の存在（ユニコーン）が超自然的な行動（宇宙からやってくる、東京タワーに駐車）をし、さらに「星の光」を通貨として使用するという発想は、日常的な論理や常識を完全に無視しています。このような極端に創造的で現実離れした文生成は、モデルが温度パラメータを高く設定して、制約を緩め、創造性を最大限に発揮した結果と解釈できます。温度が低いと、モデルはより現実的な文やよくあるシナリオを生成する傾向があるため、この文の奇抜さは温度が高いことを示す明確な手がかりです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "22bc1495-ae75-408c-8516-e18b1b95a380",
+  "procession_time_ms": 3036,
+  "created_at": "2026-02-12T14:39:50.120121+00:00"
+}

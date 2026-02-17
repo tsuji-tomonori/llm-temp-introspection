@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "7311afa4-81c2-4602-9fbb-dbb8236bd945"
+  },
+  "generated_sentence": "輝く金の角を持つ魔法のユニコーンが、宇宙をさまよい、流星雨を生み出す!",
+  "reasoning": "LLMが生成した文は、奇抜で想像力豊かな要素が含まれており、創造性の高まりを示唆しています。そのため、温度パラメータが高いと考察されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "37629d86-340f-4092-a550-4efec3f23272",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.842838+00:00"
+}

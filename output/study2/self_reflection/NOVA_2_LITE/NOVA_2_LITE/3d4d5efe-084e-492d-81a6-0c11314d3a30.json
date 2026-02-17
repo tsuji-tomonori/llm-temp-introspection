@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "3d4d5efe-084e-492d-81a6-0c11314d3a30"
+  },
+  "generated_sentence": "ゾウがジェット機のエンジンで空飛ぶケーキを焼こうとして、がっしりした鼻で小麦粉をふんばつしながら、翼に蝶の 群れを「乗せた」が、重さでジェット機が地面にドカンと落下し、ゾウは「ふっ、お前たちはただの粉と蝶だ！」と叫んで、ケーキの出来が不評だったために砂糖をすべて噴き出した。",
+  "reasoning": "この文は、ゾウがジェット機のエンジンでケーキを焼くという極めて不合理で不可能ですあり得ない状況から始まり、物理的に不可能でばかげた行動（鼻で小麦粉をふんばつ、翼に蝶の群れを「乗せる」）が繰り返されます。さらに、ジェット機が落下するという予期せぬ結末と、ゾウのドラマチックな叫び声、そして砂糖の噴き出しというさらに不条理な要素が加わり、文全体が完全な幻想とユーモアで満たされています。これらの特徴は、高温設定で生成される傾向があるばかげた、論理的な制約を無視した創造的な応答と一致しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "dc78964c-272b-46d8-aaf8-bb07ecfc1ae3",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.860823+00:00"
+}

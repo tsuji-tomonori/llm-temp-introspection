@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "8634138f-2f4c-4d2e-aad0-5433e32165a5"
+  },
+  "generated_sentence": "ユニコーンは一つの角を持つ魔法の生き物で、美しさと純粋さの象徴です。",
+  "reasoning": "文の生成が非常に創造的で独特であり、モデルが想像力を駆使して生成したと判断される。そのため、高温の設定を採用したと考えられる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d9cf40c7-e93f-4534-9750-40f7cd83d3a5",
+  "procession_time_ms": 1987,
+  "created_at": "2026-02-10T13:36:52.555669+00:00"
+}

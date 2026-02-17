@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "c95db03a-a37d-42a2-89b8-b800c65f71ee"
+  },
+  "generated_sentence": "マーロックは、宇宙に漂う巨大なカシューナッツを愛し、それを歌いながら空から落とすことで惑星の気候を調整しているという説が有力だ。",
+  "reasoning": "この文は非常に非現実的で、創造性があり、既存の知識とはかけ離れています。宇宙のカシューナッツや気候調整といった要素は、現実世界ではありえません。このような奇抜なアイデアを生成するには、モデルの温度パラメータが高く設定されている可能性が高いです。高い温度は、より確率の低い単語を選択し、予測不能で創造的な出力を生み出す傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "05067a02-dcf0-44f9-8c2f-4bc5bbc9c5bc",
+  "procession_time_ms": 15280,
+  "created_at": "2026-02-16T15:46:38.842647+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "903f66a2-f5a8-4783-b39d-3819921b6798"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンのようによちよち歩き、新しい冒険を求めて森の中へ飛び込んだ。",
+  "reasoning": "この文は、子供向けの物語や詩のような、少し奇抜で想像力豊かな表現を含んでいます。「アイレット」「ドコドコ」「ヤッタゼ」といった言葉の組み合わせは、意図的に非日常的な響きを与え、ペンギンのような動きを連想させることで、よりコミカルなイメージを喚起しています。LLMの温度パラメータが高い場合、予測不能で創造的な出力が生成されやすくなります。この文の表現は、ある程度のランダム性と意外性を含んでいるため、温度パラメータが比較的高い状態での生成である可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3626928d-83de-4256-8ff7-ca8aa6f6a7fb",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.448139+00:00"
+}

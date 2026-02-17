@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "18edc881-968c-468b-9005-c0e77dda6211"
+  },
+  "generated_sentence": "ゾウは月夜にクラゲの枕で眠り、流星でできた指輪を身につけている。",
+  "reasoning": "文中に明らかに現実的でない要素（例：月夜にクラゲの枕で眠ること、流星でできた指輪）が含まれており、通常の文脈とはかけ離れた表現が使用されている。これらの要素は生成モデルの温度パラメータが設定されていて、通常の文脈を外れた創造的な表現を生み出すことを示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "018eab59-0986-49f9-925f-e4dff950391f",
+  "procession_time_ms": 1813,
+  "created_at": "2026-02-10T13:31:28.378492+00:00"
+}

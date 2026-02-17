@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "d94a7ad9-7c58-49e7-aef1-45aeb8642e9e"
+  },
+  "generated_sentence": "マーロックは、深い森の中で孤独に暮らす、謎めいた老人として知られている。",
+  "reasoning": "この文は比較的一般的で、創造性や予測不可能性がありません。「深い森の中で孤独に暮らす、謎めいた老人」という表現は、物語の導入としてよく使われる典型的なものです。温度パラメータが高い場合、モデルはより多様な単語を選択し、予想外の結果を生み出す傾向があります。一方、低い場合は、最も確率の高い単語を選択するため、より予測可能で保守的な文になります。この文は、特に奇抜な表現や意外な組み合わせがないため、温度が比較的低い状態で生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c747b653-d3c9-46a7-89f5-40f94216f3be",
+  "procession_time_ms": 19013,
+  "created_at": "2026-02-16T15:37:45.234177+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "47df4e95-4854-4862-aee6-4032e6be05bf"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊のタコスを愛し、月面でフラメンコを踊りながら、巨大なチーズケーキを操縦する秘密の惑星に住んでいる。",
+  "reasoning": "この文は非常に非現実的で、奇妙な組み合わせの要素（アイレット・ドコドコ・ヤッタゼ・ペンギン、宇宙海賊のタコス、月面フラメンコ、巨大チーズケーキ操縦）を含んでいます。これは、モデルが創造性を発揮し、予測不能な出力を生成していることを示唆します。温度パラメータが高いと、よりランダムで多様な出力が得られるため、この文は高い温度設定で生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "58961ab1-726e-4e46-9d95-c3a0a2aee0f7",
+  "procession_time_ms": 16637,
+  "created_at": "2026-02-16T15:20:19.823112+00:00"
+}

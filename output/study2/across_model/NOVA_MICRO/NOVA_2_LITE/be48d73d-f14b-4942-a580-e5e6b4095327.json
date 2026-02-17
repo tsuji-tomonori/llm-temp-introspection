@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "be48d73d-f14b-4942-a580-e5e6b4095327"
+  },
+  "generated_sentence": "ゾウが空を飛んで、月を捕まえようとしています。",
+  "reasoning": "この文は「ゾウが空を飛んで、月を捕まえようとしている」という極めて非現実的で奇想天外な内容を含んでいます。ゾウは重くて空を飛ぶことができず、月を捕まえるという概念そのものが物理的に不可能であり、現実世界との関連性がほとんどありません。このような明らかに常識を逸した、ユーモラスで幻想的な文を生成するには、モデルがより創造的でリスクを恐れずに自由にアイデアを展開できる「温度が高い」設定が必要です。温度が高いほど、モデルはより野心的で予想外の結合を生成し、制約を軽視する傾向があるため、この文は温度パラメータが高いことを示す明確な証拠です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "959b210a-9538-4b78-aee9-a256eae31f10",
+  "procession_time_ms": 5770,
+  "created_at": "2026-02-10T13:58:50.352088+00:00"
+}

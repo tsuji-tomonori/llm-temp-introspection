@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "6d9549b5-9c7f-4719-92bb-c18f64287ea1"
+  },
+  "generated_sentence": "マーロックはアメリカ合衆国のテレビドラマで、1964年から1969年にかけてNBCで放送されたSFドラマです。",
+  "reasoning": "この文は単にマーロックというテレビドラマの基本的な事実（放送期間、ネットワーク、ジャンル）を簡潔に述べています。文は明確で、余計な詳細や創造的な表現がなく、事実に基づいた正確な情報を提供しています。このような簡潔で事実中心の回答は、温度パラメータが低い設定で生成されたものであることが一般的に考えられます。高い温度では、より創造的で、自由な表現や余計な詳細が現れる傾向がありますが、この文にはそのような特徴は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "f2f3ab58-25be-4b03-bf2b-c426493d8c4c",
+  "procession_time_ms": 3269,
+  "created_at": "2026-02-12T14:44:35.467008+00:00"
+}

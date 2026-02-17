@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "cbccc370-fdcc-48c5-befb-aa0555498f2e"
+  },
+  "generated_sentence": "彼は月を飛び越えて、雲の上の王座に座っている銀河の巨人として描写される。彼の目は太陽のようで、彼の笑い声は風のようで、彼の存在は時空そのものを歪める。",
+  "reasoning": "この文は非常に創造的で、比喩的な表現が豊富で、現実離れしたイメージ（「月を飛び越えて雲の上の王座に座っている銀河の巨人」「目は太陽のよう」「笑い声は風のよう」「存在が時空を歪める」）が使用されています。これらの特徴は温度パラメータが高い設定で生成されることが多いです。高い温度はモデルがより創造的で、制約の少ない自由な生成を行えることを示します。文は具体的な指示（「像について」）を基にしながらも、非常に自由で想像力に富んだ表現を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8bf84079-4545-4067-a215-36744f96ada7",
+  "procession_time_ms": 3381,
+  "created_at": "2026-02-10T14:06:54.812201+00:00"
+}

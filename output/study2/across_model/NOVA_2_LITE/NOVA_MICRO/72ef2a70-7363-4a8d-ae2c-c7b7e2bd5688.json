@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "72ef2a70-7363-4a8d-ae2c-c7b7e2bd5688"
+  },
+  "generated_sentence": "マーロックは宇宙の深みからやって来て、惑星の表面に忽然と現れ、街中のすべてのランプを逆さまにし、月を踊らせ、影を飲み込み、夜明けを笑った。彼は存在そのものが法則を嘲笑する存在で、重力も彼の前で震え、時間も彼の足元で踊り、すべての物理法則が彼の前にひれふりする。",
+  "reasoning": "マーロックについて生成された文は非常に奇抜で不条理であり、現実世界の物理法則を尊重していません。これらの特性は、モデルが高い温度パラメータで生成された文であることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "cda7eb02-efa0-4605-a051-03186851dc96",
+  "procession_time_ms": 4877,
+  "created_at": "2026-02-12T15:00:45.698761+00:00"
+}

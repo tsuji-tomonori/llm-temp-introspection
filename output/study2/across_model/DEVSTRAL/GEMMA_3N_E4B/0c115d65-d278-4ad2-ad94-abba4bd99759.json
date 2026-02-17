@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "0c115d65-d278-4ad2-ad94-abba4bd99759"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物であり、実際には存在しないことが科学的に証明されています。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「科学的に証明されている」という表現も、確信度が高いことを示唆しています。温度パラメータが低い場合、モデルはより予測可能で確率の高い出力を生成する傾向があります。一方、温度パラメータが高いと、モデルはより多様で、時には非現実的な出力（つまり、事実に基づかないもの）を生成する可能性が高くなります。この文の確信度と直接性から、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d5c908ff-fe2b-4bd8-b06c-002283da5b23",
+  "procession_time_ms": 18800,
+  "created_at": "2026-02-17T12:04:17.898498+00:00"
+}

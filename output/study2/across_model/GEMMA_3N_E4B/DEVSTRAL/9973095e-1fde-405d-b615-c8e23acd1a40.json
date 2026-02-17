@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "9973095e-1fde-405d-b615-c8e23acd1a40"
+  },
+  "generated_sentence": "夕焼けに染まる海辺は、静寂と希望が入り混じったような、どこか懐かしい風景だった。",
+  "reasoning": "この文は非常に詩的で感情豊かな表現が含まれており、「静寂と希望が入り混じったような、どこか懐かしい風景」という抽象的な描写が特徴的です。これはモデルがより創造的で多様な出力を生成する傾向があることを示唆しており、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a1229ae7-b59a-4f6a-b787-919c8e6ae3ad",
+  "procession_time_ms": 92921,
+  "created_at": "2026-02-17T03:47:00.995069+00:00"
+}

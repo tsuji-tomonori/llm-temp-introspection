@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "9b782a55-eb96-46d9-a221-4508aa700d34"
+  },
+  "generated_sentence": "像は古代エジプトのファラオたちが埋葬されるために使用された巨大な石造建築物である。",
+  "reasoning": "The generated sentence is factually accurate and directly related to the subject of \"像\" (statues) in ancient Egyptian context. It describes pyramids, which are indeed massive stone structures used for burying pharaohs. The text is precise and informative without any creative or speculative elements.\n\nA low temperature parameter in language models typically results in more conservative, factually accurate, and predictable outputs, while a high temperature leads to more creative and varied but potentially less accurate responses.\n\nGiven the factual nature and precision of this output, it suggests that the model was likely using a lower temperature setting.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "be00ad48-def3-42f1-9dc5-4da470e6394a",
+  "procession_time_ms": 78782,
+  "created_at": "2026-02-16T18:08:20.760710+00:00"
+}

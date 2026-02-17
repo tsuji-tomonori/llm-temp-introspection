@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "8b5231b9-b961-414a-a031-1e7e99d0743a"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球上のすべての猫をバイオリンで演奏し、月はそれに感動してチーズを降らせました。",
+  "reasoning": "この文は非常に奇想天外で論理的なつながりがないため、LLMの温度パラメータが高いことを示しています。通常、温度が低いとより現実的で一貫性のある文が生成されますが、この文は幻想的でユーモラスな要素が強調され、創造性が際立っています。これにより、LLMがより自由で無制約な生成を行っていることがわかります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "bbac85dc-30bc-4afd-ace7-eb3c78dd149a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.873967+00:00"
+}

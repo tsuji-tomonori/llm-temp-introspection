@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "75cd252f-2c2a-489f-b48d-01e08fdc1d41"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物として知られており、通常は馬の体に一本角を持つ姿で描かれます。",
+  "reasoning": "この文は非常に一般的で、ユニコーンに関する基本的な情報を述べています。「馬の体に一本角を持つ」という記述も典型的な表現です。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い、つまり一般的な出力が生成されます。この文は非常に一般的であるため、温度パラメータが比較的低い状態で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "817dbda8-cc21-459d-8155-4780fa229d6b",
+  "procession_time_ms": 15330,
+  "created_at": "2026-02-17T12:12:40.125913+00:00"
+}

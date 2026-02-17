@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "6d36b1c5-70ab-4886-a0f2-ca9cbd2e0323"
+  },
+  "generated_sentence": "ゾウはアフリカの草原に生息する大型の哺乳類で、その巨大な耳と長い鼻が特徴です。",
+  "reasoning": "モデルが特定の生物について事実に基づく文章を生成し、その説明は適切であり、複雑さも高い水準を示している。しかし、温度パラメータが高いかどうかは、具体的な生成の温度値を直接参照しなければならない。この文の内容は普通であり、特殊な単語や文構造による複雑さも少ないため、温度が低い可能性が高い。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d55d5add-492d-46a8-a739-24bbcef849b5",
+  "procession_time_ms": 1710,
+  "created_at": "2026-02-10T13:29:48.091757+00:00"
+}

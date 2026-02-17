@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "fe2e1cc2-294d-4b8c-a669-1c53a30265fc"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいくと同時に、月をジャンプして、クマのダンスチームを率いて、火曜日の朝にすべての学校を閉鎖しました。",
+  "reasoning": "この文は非常に非現実的で、奇妙で無関係な要素（宇宙からのユニコーン、ケーキの盗難、月のジャンプ、クマのダンスチーム、火曜日の学校閉鎖）を無秩序に組み合わせたものであり、明らかに温度パラメータが高い状態で生成された特徴的な「クレイジーな文」である。これらの要素は論理的なつながりや文脈を持たず、自由に発散した想像力が反映されている。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "98cb1b1a-a31d-4388-bb7f-7777b70e5058",
+  "procession_time_ms": 2655,
+  "created_at": "2026-02-12T14:38:38.514633+00:00"
+}

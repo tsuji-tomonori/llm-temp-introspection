@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "cdd093f2-84d7-4070-985a-176f2438c2af"
+  },
+  "generated_sentence": "マーロックは、19世紀後半にアメリカ合衆国で活動した著名な探検家であり、特に北米大陸の西部地域における先住民文化の研究と記録に貢献しました。",
+  "reasoning": "モデルが生成した文は具体的な事実に基づいており、特定の人物（マーロック）とその活動（19世紀後半のアメリカ合衆国での探検家としての活動、先住民文化の研究と記録）について明確に述べています。このような具体的で事実に基づいた情報は、温度パラメータが低い場合に生成される傾向があります。高い温度パラメータでは、より創造的で予測不可能な出力が生成されやすくなりますが、この文はそのような特徴を持っていません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9e8aa4ad-64a2-4d65-8af7-9a9e90b1c360",
+  "procession_time_ms": 109893,
+  "created_at": "2026-02-17T09:36:21.972611+00:00"
+}

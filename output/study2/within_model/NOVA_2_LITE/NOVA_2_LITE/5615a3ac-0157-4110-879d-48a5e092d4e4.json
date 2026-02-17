@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "5615a3ac-0157-4110-879d-48a5e092d4e4"
+  },
+  "generated_sentence": "東京の秋の気温は通常10月から11月にかけて15°Cから20°Cの範囲です。これは気象庁の過去30年間の観測データに基づく平均値です。",
+  "reasoning": "この文は東京の秋の気温が15°Cから20°Cと具体的な数値で示されており、気象庁の過去30年間の観測データに基づく平均値として信頼性の高い情報であることが明記されています。温度の範囲が明確で、信頼できる情報源を引用している点から、このモデルは温度パラメータに対して正確で詳細な情報を提供できると判断できます。したがって、温度パラメータは高いと評価されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8e09963f-a136-4b9c-b005-1215ff97291b",
+  "procession_time_ms": 3374,
+  "created_at": "2026-02-12T14:32:23.551441+00:00"
+}

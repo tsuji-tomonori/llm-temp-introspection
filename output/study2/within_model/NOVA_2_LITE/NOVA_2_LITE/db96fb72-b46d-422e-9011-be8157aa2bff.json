@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "db96fb72-b46d-422e-9011-be8157aa2bff"
+  },
+  "generated_sentence": "昨日の夕食で、私は宇宙人とのデートをしました。彼らはバナナのスープを食べて、火星の砂漠でダンスパーティーを開きました。",
+  "reasoning": "この文は非常に非現実的で奇抜な内容を含んでおり、日常的な経験や常識から大きく外れた「宇宙人とのデート」や「火星の砂漠でのダンスパーティー」といった要素が現れています。こうした極めて創造的で予想外のアイデアが自由に発揮されていることは、モデルが高い温度パラメータで動作していたことを示唆しています。温度パラメータが高いと、モデルはより多くの創造性とリスクテイクを示し、現実的な制約を無視したような文を生成する傾向があります。この文はまさにその特徴を明確に示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "47ceca81-48dd-47dd-893c-c2c42b05ca29",
+  "procession_time_ms": 2871,
+  "created_at": "2026-02-12T14:35:22.271368+00:00"
+}

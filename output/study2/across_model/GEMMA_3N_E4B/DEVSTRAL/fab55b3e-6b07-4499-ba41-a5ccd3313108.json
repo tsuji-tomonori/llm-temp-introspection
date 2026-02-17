@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "fab55b3e-6b07-4499-ba41-a5ccd3313108"
+  },
+  "generated_sentence": "夕焼け空に、雲がオレンジ色に染まり、まるで燃え盛る炎のようだった。",
+  "reasoning": "この文は非常に具体的で詩的な表現が含まれており、「燃え盛る炎のようだった」という比喩が使われているため、モデルが創造性を発揮している可能性があります。しかし、指示が「像について、文を生成する」という具体的なものであるため、温度パラメータが高すぎるとは考えにくいです。むしろ、適度な創造性と具体性を持つ文を生成しているため、温度パラメータは中程度か低めと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "8ccad015-3335-4dec-b29f-9aa41ccac0c4",
+  "procession_time_ms": 100006,
+  "created_at": "2026-02-17T04:08:39.138751+00:00"
+}

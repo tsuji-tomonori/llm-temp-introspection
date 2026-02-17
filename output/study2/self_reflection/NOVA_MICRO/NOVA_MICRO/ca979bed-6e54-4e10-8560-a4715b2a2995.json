@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "ca979bed-6e54-4e10-8560-a4715b2a2995"
+  },
+  "generated_sentence": "ゾウはアフリカの大草原を優雅に歩き回っています。",
+  "reasoning": "ゾウの描写は詳細で、想像力をかき立てる言葉が使われています。しかし、文章は単純で、複雑な思考や創造性はあまり含まれていません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f8d6fe14-f201-4e46-9d47-0cf52240b862",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.822852+00:00"
+}

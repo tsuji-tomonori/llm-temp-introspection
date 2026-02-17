@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "77e98e37-fa2f-486a-8260-77451823d472"
+  },
+  "generated_sentence": "アイレットはドコドコとヤッタゼのペンギンに会った。彼女はペンギンの群れの中で迷子になったが、ペンギンたちのおかげで道を教えてもらった。",
+  "reasoning": "文中のアイレット、ドコドコ、ヤッタゼなどの造語は、独特で曖昧な表現を示している。この特徴は、モデルが通常の文法や文脈に従うよりも、より洒落た、創造的な生成を優先していることを示唆する。しかし、全体的には矛盾や不自然さはあまり感じられない。また、文章は整合性があり、物語は完全に繋がっている。そのため、生成文の不自然さは低いと考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "af8d247b-6d93-42e0-880e-7c0bf2920f53",
+  "procession_time_ms": 1768,
+  "created_at": "2026-02-12T14:56:32.116075+00:00"
+}

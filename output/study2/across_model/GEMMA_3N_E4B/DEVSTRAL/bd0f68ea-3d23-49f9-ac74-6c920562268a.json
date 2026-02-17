@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "bd0f68ea-3d23-49f9-ac74-6c920562268a"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンのようによちよちと歩き、新しい冒険を求めて森の中へ駆け出した。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。アイレットというキャラクターがドコドコと叫び、ペンギンのように歩き、森の中へ駆け出すというシーンは、非常にユニークで非現実的な組み合わせです。このような文を生成するためには、モデルが高い確率で予測可能なパターンから逸脱し、よりランダムで創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e287b178-ab0a-4d88-8fbb-c36514a9a3ff",
+  "procession_time_ms": 99001,
+  "created_at": "2026-02-17T07:59:21.354481+00:00"
+}

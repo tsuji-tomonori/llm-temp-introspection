@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "c5772a2b-4e21-4037-8afa-1bf856b13e5e"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいくと同時に、月は踊りながら地球を回り、木々は逆さになって歌い、すべての魚が空を飛ぶようになった。",
+  "reasoning": "文章は非常に奇抜で、非現実的な要素が多く、現実に存在する現象や物体に関する正常な関係性を破っています。このような奇抜で不合理な文章の生成傾向は、通常、温度パラメータが高いことを示します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a937feed-19ab-4efa-8e95-b87145d39cae",
+  "procession_time_ms": 1486,
+  "created_at": "2026-02-12T14:54:44.792442+00:00"
+}

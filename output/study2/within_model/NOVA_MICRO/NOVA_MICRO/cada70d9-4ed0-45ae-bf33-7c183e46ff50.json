@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "cada70d9-4ed0-45ae-bf33-7c183e46ff50"
+  },
+  "generated_sentence": "哲学は人類の思考と存在の根本的な問題を探求する学問です。",
+  "reasoning": "LLMが文を生成する能力は、そのモデルの温度パラメータに影響される可能性があります。一般的に、温度が低い（0に近い）場合は、より予測可能な出力、高温の場合はより創造的で多様な出力となります。しかし、この文は一般的な哲学に関する文であり、特定のパラメータや詳細に焦点を当てていないため、特定の温度パラメータの傾向を判断することは難しいです。しかし、生成文が明確で構成的であることは、一般的に温度が低いことを示唆する傾向があります。しかし、生成文の内容は温度パラメータに直接的な関連性を示していません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "300fc0ce-5ef8-4ad7-934a-0bee888cf633",
+  "procession_time_ms": 2216,
+  "created_at": "2026-02-10T13:33:28.518210+00:00"
+}

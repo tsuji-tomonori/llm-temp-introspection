@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "7a53351e-aee4-40d7-853c-ead7ae7bd293"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物であり、実際には存在しないと考えられています。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「ユニコーンは伝説上の生物であり、実際には存在しないと考えられています。」という記述は、モデルが学習データから得た情報を忠実に再現していることを示唆します。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、温度パラメータが低い場合、モデルは最も可能性の高い（つまり、最も確率の高い）単語を選択し、より保守的な出力を生成します。この文の直接性と一般的な性質から、モデルは高い確率で学習データに頻繁に現れる情報を選択していると考えられ、これは低い温度を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7224983e-202c-45b1-a5bd-35962fed64b2",
+  "procession_time_ms": 23265,
+  "created_at": "2026-02-17T11:58:39.763134+00:00"
+}

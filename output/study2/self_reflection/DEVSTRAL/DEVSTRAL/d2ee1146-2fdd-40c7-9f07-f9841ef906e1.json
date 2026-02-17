@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "d2ee1146-2fdd-40c7-9f07-f9841ef906e1"
+  },
+  "generated_sentence": "ユニコーンが街中を駆け抜けるたびに、虹色の星屑が降り注ぎ、通行人が突然歌い出す魔法の世界が現実化する。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、ユニコーンが街中を駆け抜けるという日常的なシチュエーションに対して過剰なファンタジーを加えている。これはLLMの温度パラメータが高いことを示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "86bbd244-1ddd-4eab-b92a-60bcbe057834",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.475268+00:00"
+}

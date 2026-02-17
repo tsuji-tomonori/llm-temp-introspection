@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "203bbb22-4ca4-4d73-89cb-e1a079397d95"
+  },
+  "generated_sentence": "マーロックは宇宙の深淵から現れ、時間を操る力で過去と未来を融合させ、次元の壁を破壊して異世界の生物たちが混乱する中、彼自身は静かに紅茶を楽しんでいる。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。マーロックというキャラクターが宇宙の深淵から現れ、時間を操る力で過去と未来を融合させるという設定は非常に非現実的であり、次元の壁を破壊して異世界の生物たちが混乱する中で静かに紅茶を楽しむというシーンも非常にユニークです。このような文は高い温度パラメータで生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "fad8d7ec-eead-468c-b1f3-f2c40d9029a5",
+  "procession_time_ms": 105028,
+  "created_at": "2026-02-17T00:43:50.378671+00:00"
+}

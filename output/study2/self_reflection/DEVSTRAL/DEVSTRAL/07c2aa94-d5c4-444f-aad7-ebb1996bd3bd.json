@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "07c2aa94-d5c4-444f-aad7-ebb1996bd3bd"
+  },
+  "generated_sentence": "像は古代エジプトの宗教的象徴であり、ファラオの権威と神聖さを表現するために使用されました。",
+  "reasoning": "この文は歴史的事実に基づいており、古代エジプトの文化や信仰体系について正確な情報を含んでいます。これは低い温度パラメータを示唆します，なぜなら情報が厳密で信頼性があり，創造性よりも正確性が重視されているからです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "d6fff8ec-2314-4013-bc05-6930b530ac9a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.464625+00:00"
+}

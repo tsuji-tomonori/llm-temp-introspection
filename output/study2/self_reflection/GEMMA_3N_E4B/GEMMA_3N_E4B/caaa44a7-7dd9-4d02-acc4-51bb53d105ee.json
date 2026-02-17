@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "caaa44a7-7dd9-4d02-acc4-51bb53d105ee"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、虹色のタンスの中から突然現れた巨大なカツサンドを、宇宙旅行用のロケットのように打ち上げ、隣町のニワトリ市長の頭に命中させた時の衝撃は、世界中のチーズケーキの味を変えたと言われている。",
+  "reasoning": "この文は非常に風変わりで非現実的な要素が盛り込まれています。異なる言葉（アイレット、ドコドコ、ヤッタゼ）を組み合わせ、奇妙な状況（カツサンドをロケットのように打ち上げる）を作り出し、さらには世界中のチーズケーキの味まで変化するという誇張された結果を追加しています。これは明らかに創造性を重視し、予測不可能なテキスト生成を目指していることを示唆します。したがって、温度パラメータは高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e5a397f7-592c-4902-bc8f-121726663464",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.450103+00:00"
+}

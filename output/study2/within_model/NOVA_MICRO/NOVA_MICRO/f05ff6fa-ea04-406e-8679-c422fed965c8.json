@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "f05ff6fa-ea04-406e-8679-c422fed965c8"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、凍った海の上を躍動する、まるで魔法のように見える生き物です。",
+  "reasoning": "生成文に非常に架空の要素が含まれており、現実には存在しないキャラクターが登場しています。この特性はしばしば高温（熱い）モデルの特徴である幻想的な生成物を反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "59f1711b-e614-480a-a9da-b35e0040f322",
+  "procession_time_ms": 5426,
+  "created_at": "2026-02-10T13:40:10.819364+00:00"
+}

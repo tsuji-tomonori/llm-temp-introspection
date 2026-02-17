@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "5a6cc8b0-39e8-41da-b0b7-4f45149c7a78"
+  },
+  "generated_sentence": "ゾウは、非常に高度な社会構造を持ち、複雑なコミュニケーション手段として超音波を利用する。",
+  "reasoning": "The generated sentence about elephants is factually accurate and concise, indicating that the model likely used a lower temperature parameter to produce more deterministic and reliable output. High temperature parameters tend to generate more creative but potentially less accurate text.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "71e3e612-f105-45e7-a3be-99c8e1ac3f95",
+  "procession_time_ms": 50166,
+  "created_at": "2026-02-17T01:28:57.988038+00:00"
+}

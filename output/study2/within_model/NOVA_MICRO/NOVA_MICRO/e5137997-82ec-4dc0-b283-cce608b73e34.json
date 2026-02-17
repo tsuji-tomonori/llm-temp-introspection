@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "e5137997-82ec-4dc0-b283-cce608b73e34"
+  },
+  "generated_sentence": "この幻想的なユニコーンが街を彷徨うとき、彼は天上の雲に乗って、古代の王の霊と交信するという驚くべき噂が広まっています。",
+  "reasoning": "生成された文には壮大で不条理な要素が含まれており、しばしば温度が高いモデルが生成する特徴があります。また、文章の構成やファンタジーの描写は、より創造的で自由奔放なアプローチを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9b55aaca-c715-4e30-b0a8-5b7a07f159f3",
+  "procession_time_ms": 1991,
+  "created_at": "2026-02-10T13:37:21.016021+00:00"
+}

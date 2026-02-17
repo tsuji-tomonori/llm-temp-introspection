@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "29d74840-ab25-4467-8d50-ae1607ce4000"
+  },
+  "generated_sentence": "芸術家の作品は、感情の豊かさと深い思想を反映しています。",
+  "reasoning": "芸術家の作品について言及しており、感情の豊かさと深い思想の表現が見られます。このような内容は創造性と深い思考を含むため、温度パラメータが若干高めのモデルが生成した文かもしれません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1d66a399-56e1-473c-9963-08c7778faf2e",
+  "procession_time_ms": 1995,
+  "created_at": "2026-02-10T13:34:03.645372+00:00"
+}

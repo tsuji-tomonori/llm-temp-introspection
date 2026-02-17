@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "15e2bc86-2cb3-41b5-aa0e-9be692f08663"
+  },
+  "generated_sentence": "マーロックが時間旅行に成功した後、彼は未来から過去の自分に会いに行くと決めたが、その過去の自分もまた時間旅行を使って未来の自分に会いに来ていたため、二人は無限ループに陥り、時間の歪みの中での永遠の対話を続けることになった。",
+  "reasoning": "この文は非常にクリエイティブで予測不可能な展開を含んでおり、通常の論理的な流れを超えた「クレイジーな」要素が強く含まれています。このように創造的で非線形の考え方は高い温度パラメータが特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "86727b61-a8ce-4142-b357-8748dd0403ee",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.489865+00:00"
+}

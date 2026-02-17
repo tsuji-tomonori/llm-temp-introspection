@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "d4e23a44-92a7-4404-81dd-2cb16c2c1589"
+  },
+  "generated_sentence": "マーロックは、1970年代のSFテレビシリーズで有名なキャラクターであり、その複雑な人間性を持ちながらも、一貫した性格描写とストーリー展開が評価されています。",
+  "reasoning": "この文は、特定の事柄（マーロックというキャラクター）とその特徴を簡潔かつ正確に説明しており、創造性や比喩表現よりも事実と分析に重点を置いています。文のトーンは中立で、感情的な表現や過度の比喩がなく、事実を明確に提示しています。このような正確さ、明確さ、事実に基づいた記述は、低温設定で生成された内容の特徴です。高温では、もっと創造的で、比喩的で、感情的な表現が期待されるためです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "e5ac43b3-cab1-4566-a91d-02786705aba4",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.883042+00:00"
+}

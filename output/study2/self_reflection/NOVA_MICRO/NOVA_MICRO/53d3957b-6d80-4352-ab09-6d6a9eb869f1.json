@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "53d3957b-6d80-4352-ab09-6d6a9eb869f1"
+  },
+  "generated_sentence": "ピカソは20世紀の最も影響力のある芸術家の一人であり、キュビズム運動の創始者の一人として知られています。",
+  "reasoning": "ピカソについての事実に基づいた文は、彼の芸術的な影響力と運動への貢献を正確に反映しています。これらの情報は広く認められており、事実に基づいています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4ad4861a-6850-4ab1-a136-dacdc7b5e55a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.830963+00:00"
+}

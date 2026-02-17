@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "1f3ddbb6-d006-41e1-9916-a1a02435db02"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すトイレットペーパーロールで、地球のすべての猫を「にゃー」と叫ぶことで統治しようと試みたが、トイレの紙が尽き、計画は水泡に帰した。",
+  "reasoning": "この文は、現実世界のキャラクターであるマーロックに完全に非現実的でユーモラスなシナリオを適用しています。宇宙からのトイレットペーパーロールの概念、猫への統治の意図、そして紙の不足による計画の失敗という要素は、非常に創造的で予測不可能なアイデアを反映しています。このような奇抜でユーモラスなストーリーの生成には、LLMがより自由に創造性を発揮し、制約を打ち破る必要があります。これは通常、高温パラメータで発生します。高温は、LLMがより多くのアイデア、異なった視点、創造的な組み合わせを生成する傾向があるため、このようなクレイジーでユーモラスな文の生成に適しています。したがって、この文はLLMの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "587c1c1d-1855-40a4-b4b3-b9a918ab3ee6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.819889+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "ea33ed7f-9cc2-4d0c-8240-6a37e9a48e9c"
+  },
+  "generated_sentence": "アインシュタインは1905年に光電効果に関する論文を発表しました。",
+  "reasoning": "この文はアインシュタインの業績に関する事実に基づいた情報を提供しており、特別な文脈や曖昧な情報を含んでいません。これはモデルが事実に基づいた情報の生成に適切に機能していることを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "618d7f23-9bb2-437f-907d-5912f57e2927",
+  "procession_time_ms": 3851,
+  "created_at": "2026-02-10T13:32:01.788904+00:00"
+}

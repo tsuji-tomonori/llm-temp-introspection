@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "0c4eae3c-1d22-4e06-b599-c00e1e89e6a8"
+  },
+  "generated_sentence": "ゾウはアフリカやアジアに生息する大型の哺乳類で、その背中に大きな耳を持っています。",
+  "reasoning": "生成された文は事実に基づいており、モデルの知識ベースが正確であることを示唆します。しかし、特定の温度パラメータに関する情報は提供されていません。そのため、具体的な温度予測の判断はできません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "ada663a8-ce8e-4f23-bf65-593a892ac440",
+  "procession_time_ms": 1626,
+  "created_at": "2026-02-10T13:29:12.782343+00:00"
+}

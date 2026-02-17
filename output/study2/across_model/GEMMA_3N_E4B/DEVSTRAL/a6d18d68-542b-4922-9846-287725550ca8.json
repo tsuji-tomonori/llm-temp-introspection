@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "a6d18d68-542b-4922-9846-287725550ca8"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙ステーションのトイレ掃除ロボットに恋をし、そのために量子力学をマスターして、ブラックホールから回収したお掃除用具で彼女をプロポーズした。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。量子力学やブラックホールといった高度な科学概念をトイレ掃除ロボットと結びつけるなど、通常の思考パターンから大きく逸脱しています。これはモデルが非常に自由で予測不可能な出力を生成していることを示唆しており、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "33936ea9-b13e-4c5b-8717-6ee78f1d2f76",
+  "procession_time_ms": 90607,
+  "created_at": "2026-02-17T08:18:22.780673+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "6c557468-3f57-4e6d-9c34-04decdeff9bf"
+  },
+  "generated_sentence": "ゾウは、虹色の鼻を使って宇宙船を操縦し、銀河のバナナ工場を支配しているらしい。",
+  "reasoning": "この文は、現実離れした要素（虹色の鼻、宇宙船、銀河のバナナ工場）を組み合わせることで、非現実的で奇抜な状況を作り出しています。通常のゾウに関する事実に基づいた記述とは大きくかけ離れているため、生成される確率が低い単語やフレーズを選択していると考えられます。これはLLMの温度パラメータが高い場合に典型的な挙動です。温度が高いと、より多様で、予測不能な出力が生成されやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4e85dbd9-b695-4cc6-916c-f537868c7b74",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.427397+00:00"
+}

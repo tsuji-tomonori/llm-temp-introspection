@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "69de405d-23c2-4fac-99ef-b7e81b88927f"
+  },
+  "generated_sentence": "アイレットがドコドコでヤッタゼをペンギンに投げつけたが、ペンギンは滑って転がりながらも元気よく跳ね返った。",
+  "reasoning": "この文は非常に具体的で、キャラクター名（アイレット、ドコドコ、ヤッタゼ）、行動（投げつける）、対象（ペンギン）および結果（滑って転がりながらも元気よく跳ね返った）を詳細に記述しています。文は構造的にも自然で流れがスムーズであり、文の創造性や詳細さから、モデルがより創造的で多様な出力を生成する傾向があることを示しています。これは温度パラメータが高い設定（よりランダムで創造的な出力を生成する傾向がある）であることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c35032e3-d9ab-4390-9b3a-c2e973f2bc2a",
+  "procession_time_ms": 2811,
+  "created_at": "2026-02-12T14:41:40.151138+00:00"
+}

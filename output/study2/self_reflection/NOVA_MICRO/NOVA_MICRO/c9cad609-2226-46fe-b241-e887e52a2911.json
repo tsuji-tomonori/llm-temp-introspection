@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "c9cad609-2226-46fe-b241-e887e52a2911"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンという名前は、架空の動物の名前です。この名前は、ユーモアや遊び心のある文脈で使用されることが多いようです。",
+  "reasoning": "この文は架空の動物について述べており、現実に存在する事実とは矛盾します。LLMは創造的な要素を含んでおり、文脈はユーモアを前提としています。そのため、温度パラメータは比較的高めであると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2bdd6337-3b91-4ad1-a1b8-b24e68f42a07",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.844024+00:00"
+}

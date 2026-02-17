@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "7c4809d6-ea0e-4a87-ae3d-5ad7b56bf2ff"
+  },
+  "generated_sentence": "昨日の夕食中に、テーブルが突然生き返って踊り始めた。椅子はジャズを吹き、ナプキンは蝶に変身し、壁は色鮮やかなマandalasに変貌を遂げた。",
+  "reasoning": "文章は不条理で、想像力豊かであり、しばしば現実とは関係のない状況を描写しています。モデルが独創性を高めるために温度パラメータを上げていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b3433cb5-4d9c-47d6-b376-acbc13e24444",
+  "procession_time_ms": 1430,
+  "created_at": "2026-02-12T14:52:27.868149+00:00"
+}

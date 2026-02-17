@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "2f5de631-be4f-49c1-a45a-8ece4dfd5947"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、天空を舞う巨大な宇宙船の操縦席に座り、銀河系の全ての惑星を一斉にピカピカに輝かせる魔法の星を追いかけて、時速300万キロで疾走する!",
+  "reasoning": "この文は非常に奇抜で、現実離れした要素が含まれており、想像力豊かな非現実的な場面を描いています。LLMは驚くべき創造力と自由な発想を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5e1857d0-b9e0-46b3-92fd-94e3e9aa874d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.851203+00:00"
+}

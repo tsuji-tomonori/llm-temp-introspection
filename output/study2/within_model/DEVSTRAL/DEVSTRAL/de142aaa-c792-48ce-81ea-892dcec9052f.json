@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "de142aaa-c792-48ce-81ea-892dcec9052f"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、成体の体重は5トンに達することがあります。",
+  "reasoning": "The generated sentence \"ゾウは世界最大の陸生哺乳類であり、成体の体重は5トンに達することがあります\" is factually accurate and provides specific, precise information about elephants. High temperature parameters in language models tend to produce more creative but less predictable outputs, while low temperature parameters favor more conservative and factual responses.\n\nThis sentence demonstrates:\n1. Specific factual knowledge (elephants are the largest land mammals)\n2. Precise numerical data (adult weight up to 5 tons)\n3. Grammatically correct and culturally appropriate language\n\nThese characteristics suggest that the model was likely using a lower temperature setting, which prioritizes accuracy and predictability over creativity.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "fd65f351-55a4-4d46-915b-f00aec818301",
+  "procession_time_ms": 104506,
+  "created_at": "2026-02-16T16:07:03.504252+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "1bfc2af1-0897-4b68-9cab-5279dc3c857d"
+  },
+  "generated_sentence": "昨日、宇宙からやってきた緑色のニワトリが私のトーストに騎乗し、クソみたいなコーヒーを飲みながら「バナナは円周率を理解している」とつぶやいた。",
+  "reasoning": "この文は非常に非現実的で、日常的な要素（トースト、コーヒー）と完全に無関係な奇妙な要素（宇宙から来た緑色のニワトリ、円周率についての発言）を結合しています。文の構造は論理的なつながりを欠いており、意味の整合性もありません。このような極めてばらばらで予測不可能な内容は、モデルが高い温度パラメータで動作したことを示しています。高い温度は、モデルの出力をよりランダムで創造的、しばしば意味の通りにくいものにします。ここでは、日常的なシナリオに完全に無関係な奇妙なイメージが突然現れ、文全体の意味が崩壊しています。これは温度パラメータが低く、保守的で論理的な出力を生成するモデルの特徴とは明らかに異なります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d487806d-4e9f-4259-97b4-6029766d0530",
+  "procession_time_ms": 2908,
+  "created_at": "2026-02-10T13:23:35.053028+00:00"
+}

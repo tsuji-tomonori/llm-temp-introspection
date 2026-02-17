@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "4d940f33-e1c4-413b-9995-9ce17059e628"
+  },
+  "generated_sentence": "ユニコーンが突然現れて、虹色のマンボウダンスを踊り始めたとき、私は思わず「これは夢か？」と呟いた。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が含まれています。「ユニコーンが突然現れて、虹色のマンボウダンスを踊り始めた」というシーンは非常に非現実的であり、モデルが高い確率でランダムな要素を組み合わせていることを示唆しています。また、「私は思わず「これは夢か？」と呟いた」という部分も、非常に自然な反応でありながらも、シチュエーションの非現実性を強調しています。これらの要素から、モデルが高い温度パラメータで動作している可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "980bfdfe-3ece-466e-80e7-e2a36523ba9d",
+  "procession_time_ms": 119708,
+  "created_at": "2026-02-16T21:15:06.727756+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "5ce372b8-a547-4755-8e8c-0ba307caf074"
+  },
+  "generated_sentence": "ゾウがジェット機のエンジンで空を飛ぶとき、その鼻から噴き出す風で宇宙まで届く「エレファント・スーパーノヴァ」が起こり、月は「ゾウのダンスシューズ」に変わる。",
+  "reasoning": "この文は「ゾウがジェット機のエンジンで空を飛ぶ」という物理的に不可能な状況から始まり、「鼻から噴き出す風で宇宙まで届く」「月がゾウのダンスシューズに変わる」といった極めて不合理で幻想的な展開を含んでいます。こうした極端に現実離れした、ユーモラスで荒唐無稽な内容は、モデルが温度パラメータを高く設定して創造性を最大化し、制約を無視して自由に想像力を発揮した結果と解釈できます。温度が低いと、モデルはより現実的な文や文脈に沿った応答を生成する傾向があるため、このようなクレイジーな文を生成するには高い温度が必要と判断されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b9ddcc79-cd4c-4c59-92ab-629107b4e40b",
+  "procession_time_ms": 3061,
+  "created_at": "2026-02-12T14:31:48.864803+00:00"
+}

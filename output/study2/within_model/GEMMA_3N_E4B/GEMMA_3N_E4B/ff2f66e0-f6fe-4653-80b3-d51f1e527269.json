@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "ff2f66e0-f6fe-4653-80b3-d51f1e527269"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙船に乗り込み、巨大なチーズケーキを操縦しながらブラックホールを飛び出し、星々の間を踊りながら歌うという奇妙な冒険に出かけた。",
+  "reasoning": "この文章は非常に想像力豊かで、現実離れした要素が満載です（アイレット・ドコドコ・ヤッタゼ・ペンギンという名前、宇宙船でのチーズケーキ操縦、ブラックホールを飛び出すなど）。このような創造的な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、より確率の低い単語やフレーズが選択されるため、予測不能で奇妙な文章になりやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1084674f-fdbf-4837-8871-ddd9145cf94e",
+  "procession_time_ms": 16886,
+  "created_at": "2026-02-16T15:24:28.888949+00:00"
+}

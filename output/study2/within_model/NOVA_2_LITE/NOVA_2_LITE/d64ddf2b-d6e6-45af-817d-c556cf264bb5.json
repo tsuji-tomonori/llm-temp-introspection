@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "d64ddf2b-d6e6-45af-817d-c556cf264bb5"
+  },
+  "generated_sentence": "あの山は夕日に輝き、まるで巨大な宝石のように光り輝いていた。",
+  "reasoning": "この文は「あの山は夕日に輝き、まるで巨大な宝石のように光り輝いていた」という非常にイメージが強調され、比喩表現が豊かな文を生成しています。具体的な描写や比喩的表現が豊富で、創造性が高く、文の流れも自然で魅力的です。このような特徴は温度パラメータが高い設定で生成された文と一致します。高い温度はより創造的で多様な応答を促し、比喩や比喩的な表現を増加させる傾向があります。この文はまさにその特徴を備えており、モデルが高い温度パラメータで動作していたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b2f5767b-f273-43a1-b033-b04329601093",
+  "procession_time_ms": 2775,
+  "created_at": "2026-02-12T14:33:36.909703+00:00"
+}

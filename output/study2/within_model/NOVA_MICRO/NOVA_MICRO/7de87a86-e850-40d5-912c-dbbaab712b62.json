@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "7de87a86-e850-40d5-912c-dbbaab712b62"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、とっても元気な仲間です。",
+  "reasoning": "生成された文に特別な意味や複雑な構造が見当たらず、単純な繰り返しや基本的な言葉のみが使用されています。これらの特性は、モデルが低温設定で生成された文と類似していることを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c70b074b-5223-4056-8d2a-980629f6ae82",
+  "procession_time_ms": 2097,
+  "created_at": "2026-02-10T13:39:38.090887+00:00"
+}

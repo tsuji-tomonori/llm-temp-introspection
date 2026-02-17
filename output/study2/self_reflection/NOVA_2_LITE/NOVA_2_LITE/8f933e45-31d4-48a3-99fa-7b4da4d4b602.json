@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "8f933e45-31d4-48a3-99fa-7b4da4d4b602"
+  },
+  "generated_sentence": "マーロックは、暗黒の宇宙を航行する古代の船として描かれることが多い。",
+  "reasoning": "生成された文は簡潔で具体的で、ファンタジーの設定に対する明確なイメージを提供しています。このような文は、LLMが低温設定で動作していることを示しています。高温設定では、よりランダムで多様なアイデアや比喩が期待されます。しかし、この文は一貫したテーマと明確なビジョンを提供しており、制御された創造性を反映しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "5708ef92-92b6-4a43-bd75-99ffe83163da",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.884524+00:00"
+}

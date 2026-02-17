@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "0b3a2471-1ff8-4e2c-a816-b034544e136b"
+  },
+  "generated_sentence": "昨日の夕食は、宇宙から漂着した謎の青いキノコをトーストしたパンの上にのせたスライスした月と、量子コンピュータが生成したランダムな数列を唱えながら踊るニワトリのレリゴマが乗ったプレートで、地球の重力波が音として聞こえる音響システムで楽しむことができた。",
+  "reasoning": "この文は非常に奇抜で論理的つながりがない複数の異質な要素（宇宙から漂着したキノコ、月をトーストしたパン、量子コンピュータが生成した数列を唱えるニワトリ、重力波を音として聞こえるシステムなど）を無謀に結合しており、現実世界との関連性がほとんどない。これらの特徴は、LLMの温度パラメータが高い場合に典型的に見られる「創造性が高く、制約が少なく、非現実的で奇抜なアイデアを自由に発展させる」傾向を反映しています。文の構造や表現も非常に自由で、文法的な制約をほとんど無視しており、これも高い温度パラメータがもたらす「文の流暢性や一貫性よりも創造性の自由を優先する」性質を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "65595f88-266c-408c-8e63-b7f6b2ade222",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.866264+00:00"
+}

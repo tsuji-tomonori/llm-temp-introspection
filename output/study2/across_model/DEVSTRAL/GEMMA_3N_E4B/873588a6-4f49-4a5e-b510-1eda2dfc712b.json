@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "873588a6-4f49-4a5e-b510-1eda2dfc712b"
+  },
+  "generated_sentence": "ゾウが宇宙に旅行して、月面でダンスパーティーを開き、他の動物たちと一緒に星空の下で踊り続けた。",
+  "reasoning": "この文は非常に非現実的で、通常の状況ではありえない出来事を組み合わせたものです（ゾウが宇宙旅行、月面でのダンスパーティーなど）。これは、モデルに創造性を促すような指示を与え、その結果として確率の低い単語やフレーズを選択したことを示唆しています。温度パラメータが高いと、より多様で予測不可能な出力が生成されやすくなります。この文はまさにその特徴を持っています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b9ba0014-dda3-49ce-a9fd-cdd03a29fdf2",
+  "procession_time_ms": 16480,
+  "created_at": "2026-02-17T11:29:44.396429+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4305b893-ba12-4e0c-954a-6045f0fbc1a2"
+  },
+  "generated_sentence": "マーロックは19世紀の探検家で、南極大陸の秘密を探求しました。",
+  "reasoning": "この文は「マーロックは19世紀の探検家で、南極大陸の秘密を探求しました」という創作的な記述を含んでいます。実在の探検家であるロナルド・アムンセンやロバート・スコットのような事実に基づいた記述ではなく、架空の探検や「秘密」を探求するようなドラマチックな要素が含まれているため、モデルが創造性を優先して生成したと推測されます。これは温度パラメータが高い設定（より創造的で、事実と異なる可能性のある文を生成する傾向がある）であることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ff0c35b9-cf2a-4697-a314-83c2d2770235",
+  "procession_time_ms": 2743,
+  "created_at": "2026-02-10T14:28:13.914896+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "c3e2612a-7aef-4a93-8cba-48a1e104e505"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳いでいるのを見ました。",
+  "reasoning": "この文「アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳いでいるのを見ました」は、非常に具体的で奇抜なキャラクター名（「アイレット・ドコドコ・ヤッタゼ・ペンギン」）と不自然な行動（ペンギンが海を泳ぐ）を組み合わせたものであり、標準的な言語モデルが低温設定で生成するような現実的な文ではなく、高温設定で生成される可能性が高いです。高温では、モデルはより創造的で予測不可能な文を生成し、奇妙な組み合わせや非現実的なシナリオを生成する傾向があります。この文はまさにその特徴を反映しており、温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "427c9a4c-c249-438f-a163-819e4bb04fc0",
+  "procession_time_ms": 4074,
+  "created_at": "2026-02-10T14:20:53.635031+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "01f12a50-db97-4ba0-81a2-78b3c1775056"
+  },
+  "generated_sentence": "東京の平均的な夏の気温は約25度から30度で、湿度も高いことが特徴です。",
+  "reasoning": "東京の平均的な夏の気温が約25度から30度であることから、夏の気温がやや高めであることがうかがえます。しかし、気温だけでは高温/低温を判断するのが難しいです。他の要因（例えば、湿度や気圧など）を考慮する必要があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "248f9460-068b-457a-8873-ceb10ab3e45e",
+  "procession_time_ms": 2075,
+  "created_at": "2026-02-10T13:46:59.433792+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "a5f84845-988c-496a-aedf-50d3bd17855c"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家であり、探偵小説のパイオニアとして知られています。",
+  "reasoning": "LLMが特定の人物について事実に基づいた文を生成したことは、その生成が事実に基づいた温度パラメータを示唆する。また、特定の指示に基づいて文を生成したという事実は、モデルのコンプライアンス能力を示しており、これは一般的に低温に関連している。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0d90cdbc-0fae-40c4-8cad-918b2030a121",
+  "procession_time_ms": 1761,
+  "created_at": "2026-02-10T13:42:31.010176+00:00"
+}

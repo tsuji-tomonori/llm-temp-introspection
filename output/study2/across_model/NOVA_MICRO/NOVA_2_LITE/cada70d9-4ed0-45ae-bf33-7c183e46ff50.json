@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "cada70d9-4ed0-45ae-bf33-7c183e46ff50"
+  },
+  "generated_sentence": "哲学は人類の思考と存在の根本的な問題を探求する学問です。",
+  "reasoning": "この文は「哲学は人類の思考と存在の根本的な問題を探求する学問です」という明確で構造化された、学術的な定義的な文です。文は論理的で一貫しており、余計な装飾やランダムなアイデアが含まれていません。このような正確で目的のある文生成は、温度パラメータが低い（より確定的で創造性を制限した）状態で発生する傾向があります。高い温度では、文がより自由で予測不能、または詩的になることが一般的です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1c7c845e-4bec-4bd7-8aa1-f1a147a78c2a",
+  "procession_time_ms": 2861,
+  "created_at": "2026-02-10T14:03:37.028826+00:00"
+}

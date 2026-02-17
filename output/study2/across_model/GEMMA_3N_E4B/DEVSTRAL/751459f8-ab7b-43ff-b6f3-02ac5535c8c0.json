@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "751459f8-ab7b-43ff-b6f3-02ac5535c8c0"
+  },
+  "generated_sentence": "虹色のたてがみを揺らしながら、ユニコーンは宇宙空間を飛び、星屑を口笛のように吹きながら、ブラックホールに住むカメレオンと歌合唱していた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーンが宇宙空間を飛び、星屑を口笛のように吹き、ブラックホールに住むカメレオンと歌合唱するというシナリオは、非常に高い確率でランダムかつ予測不可能な要素を含んでいます。これはモデルが高い温度パラメータで動作していることを示唆しており、出力がより多様で創造的になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6b09f6fd-1de5-4b55-be99-d6a4e3dfcbbd",
+  "procession_time_ms": 96653,
+  "created_at": "2026-02-17T06:31:40.521507+00:00"
+}

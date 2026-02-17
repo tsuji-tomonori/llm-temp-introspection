@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "f7b836d2-3c20-4db6-960e-2a33175fa88e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊に奪われた巨大なチーズケーキを求めて、虹色のスライディング・ツリーハウスから、泡の竜巻に乗って銀河を駆け巡った。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が多数含まれています（虹色のスライディング・ツリーハウス、泡の竜巻、宇宙海賊）。これは、モデルが高温パラメータで生成された可能性を示唆しています。高温では、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが非現実的な文になる傾向があります。低温度の場合、より予測可能で一般的な表現が生成されるでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "455f1058-e887-447e-8a9b-9ce004887ffa",
+  "procession_time_ms": 16737,
+  "created_at": "2026-02-16T15:23:33.448392+00:00"
+}

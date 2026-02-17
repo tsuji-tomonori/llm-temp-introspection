@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "b1d3a5d5-662e-45eb-97df-f217ea28f897"
+  },
+  "generated_sentence": "アインシュタインは1905年に光電効果に関する論文を発表しました。",
+  "reasoning": "この文は特定の科学者と特定の年に関する事実に基づいており、特定の科学的事実を正確に伝えています。したがって、LLMの温度パラメータは低いと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "ecb4b62a-3f33-4e20-a225-0e6128ccb68a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.829638+00:00"
+}

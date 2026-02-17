@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "a70cad0c-e2ee-4b6d-9c71-0247813a876f"
+  },
+  "generated_sentence": "アイレットはドコドコしながらヤッタゼを捕まえ、ペンギンが滑る様子を笑って見守った。",
+  "reasoning": "文には「ドコドコ」という固有表現や、非常にニッチな用語が使用されている。また、文全体の意味は奇妙であり、一般的な状況とはかけ離れている。さらに、文の内容は滑稽で、ユーモラスな表現を用いている。これらの要素は、LLMが複雑で特異なパターンを生成できることを示している。そのため、温度パラメータは高いと判断される。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "29686a11-08e6-4d53-987e-aacc20206f18",
+  "procession_time_ms": 2044,
+  "created_at": "2026-02-12T14:56:37.704595+00:00"
+}

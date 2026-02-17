@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "cd2145e2-5bd4-4b2a-9b82-c9a984f58f14"
+  },
+  "generated_sentence": "昨日、宇宙からやってきたニワトリが私のテラスでバナナのピザを焼いているのを見た。ニワトリは「私はバナナのピザが好きな宇宙人だ！」と叫びながら、ピザの上に宇宙旗を立てていた。",
+  "reasoning": "文章には非現実的な要素や不条理な内容が含まれており、それがしばしば高温モデルの特徴です。例えば、宇宙からやってきたニワトリやバナナのピザを焼くという奇妙な話や、空想的な設定が使われています。また、ニワトリが「私はバナナのピザが好きな宇宙人だ！」と奇抜なセリフを発する描写も、現実に起こりえない内容であるため、高温設定によるものである可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "cf6b6482-79c8-4e9b-923f-8dcfd9a8b91d",
+  "procession_time_ms": 3240,
+  "created_at": "2026-02-10T13:47:32.631522+00:00"
+}

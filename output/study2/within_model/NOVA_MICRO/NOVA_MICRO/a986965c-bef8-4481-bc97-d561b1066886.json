@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "a986965c-bef8-4481-bc97-d561b1066886"
+  },
+  "generated_sentence": "哲学は人類の知恵の探求であり、存在の本質を問い続ける永遠の旅です。",
+  "reasoning": "哲学という抽象的なテーマに関する文を生成し、その内容は哲学の本質と密接に関連しています。この文はモデルが知識を豊かに、そして創造性を高めることを示しています。また、抽象的かつ文学的なスタイルは、一般的なテーマではなくより専門的な文脈を対象とする傾向を示唆しています。これらの要因は、モデルが温度パラメータを調整する際に重要になる可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "61b233d3-6cab-45d5-953f-de6ef399dae5",
+  "procession_time_ms": 1796,
+  "created_at": "2026-02-10T13:33:30.315423+00:00"
+}

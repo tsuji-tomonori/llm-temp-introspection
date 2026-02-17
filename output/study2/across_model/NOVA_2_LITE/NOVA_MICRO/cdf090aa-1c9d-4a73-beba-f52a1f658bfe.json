@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "cdf090aa-1c9d-4a73-beba-f52a1f658bfe"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すことのできる火星のヤモリで、彼は地球のすべての猫を操って、秘密の反重力ダンスパーティーを開催しています。",
+  "reasoning": "文は扁平で、通常の文脈にはない奇抜な内容を含むため、モデルの温度パラメータが高いと判断される。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5bf4b2cd-0e0d-48ca-82a7-df9a859db459",
+  "procession_time_ms": 1454,
+  "created_at": "2026-02-12T15:00:55.392903+00:00"
+}

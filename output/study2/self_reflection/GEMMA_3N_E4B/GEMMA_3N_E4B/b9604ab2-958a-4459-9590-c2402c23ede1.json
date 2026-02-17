@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "b9604ab2-958a-4459-9590-c2402c23ede1"
+  },
+  "generated_sentence": "マーロックは、宇宙に生息する巨大なタコであり、彼の触手は時空をねじ曲げ、人々が過去の自分と会話できるようにする。",
+  "reasoning": "この文は、現実離れした要素（宇宙のタコ、時空の歪み、過去の自己との会話）を組み合わせているため、創造性と想像力を刺激するような内容になっています。これは、LLMの温度パラメータが高い場合に生成されやすい特徴です。温度が高いと、より確率の低い単語やフレーズが選択される可能性が高まり、結果として予測不能でユニークな文が生まれます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "146f67e5-0f5a-4545-a9eb-58188bd399ef",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.456815+00:00"
+}

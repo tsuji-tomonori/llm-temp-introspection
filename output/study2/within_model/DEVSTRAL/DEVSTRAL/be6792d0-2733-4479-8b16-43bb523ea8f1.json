@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "be6792d0-2733-4479-8b16-43bb523ea8f1"
+  },
+  "generated_sentence": "像は美しい花瓶に飾られた静かな庭園に立っていました。",
+  "reasoning": "この文は非常に具体的で詳細な描写を含んでおり、特定のシナリオを明確に描いています。温度パラメータが高い場合、生成される文はよりランダムで予測不可能になる傾向がありますが、この文は非常に整然としており、具体的なビジュアルイメージを提供しています。これはモデルがより保守的で確率の高い出力を選択したことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "2ce7d4a3-c185-4784-98b1-5dc140541fd0",
+  "procession_time_ms": 87777,
+  "created_at": "2026-02-16T18:48:24.170137+00:00"
+}

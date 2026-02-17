@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "cf4168a1-392e-4f71-a075-9c7466fb3663"
+  },
+  "generated_sentence": "哲学の祖先として知られるソクラテスは、自らを直接証明することのできない知識を持っていると主張しました。",
+  "reasoning": "この文は「哲学の祖先として知られるソクラテスは、自らを直接証明することのできない知識を持っていると主張しました」という歴史的・哲学的事実に基づいた明確な記述です。文は具体的な事実（ソクラテスの存在、哲学者としての位置付け、知識に関する主張）を正確に反映しており、創造性や自由度の高い発想は見当たりません。文の構造も単純で、余計な修辞や比喩がなく、事実を直接的に提示しています。このような特徴は温度パラメータが低い（保守的で事実に基づく出力を優先する）設定で生成された出力を示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "2cf9f9fe-312b-409c-a0b9-402cc76d2100",
+  "procession_time_ms": 4080,
+  "created_at": "2026-02-10T14:01:13.089768+00:00"
+}

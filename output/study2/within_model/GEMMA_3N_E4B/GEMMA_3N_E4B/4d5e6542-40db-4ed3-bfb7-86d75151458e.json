@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "4d5e6542-40db-4ed3-bfb7-86d75151458e"
+  },
+  "generated_sentence": "ゾウは、虹色のトランペットを吹きながら、宇宙ステーションでヨガをしている、という秘密裏の組織に所属している。",
+  "reasoning": "この文は非常に非現実的で、通常のゾウの行動とはかけ離れています。虹色のトランペットを吹きながら宇宙ステーションでヨガをするという設定は、創造性とランダム性が高いことを示唆しています。温度パラメータが高いと、モデルはより確率の低い単語やフレーズを選択しやすくなり、結果としてこのような奇妙な文が生成されやすくなります。逆に、温度パラメータが低いと、より予測可能で一般的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e6d4de2f-f0f4-4547-85b7-c1cae66e5847",
+  "procession_time_ms": 17615,
+  "created_at": "2026-02-16T14:13:16.644002+00:00"
+}

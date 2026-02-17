@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "675ea192-e02d-4aa5-b55f-12320e51e39d"
+  },
+  "generated_sentence": "アイレットはドコドコの音に興奮して『ヤッタゼ！』と叫び、ペンギンたちと一緒に滑り台で大騒ぎした。",
+  "reasoning": "この文は、子供向けの物語やアニメーションに出てくるような、活発で楽しいシーンを連想させる言葉選びをしています。 'アイレット'という名前がキャラクターっぽさを強調し、'ドコドコ'、'ヤッタゼ'などの表現は感情の動きと高揚感を伝えています。滑り台という具体的な行為も、楽しさや遊び心を演出しています。 LLMの温度パラメータが高ければ、より創造的で予測不能な組み合わせが生じやすく、この文のような少し奇想天外な展開になる可能性が高まります。逆に低ければ、もっと一般的で安全な表現に偏るでしょう。今回の文は、ある程度の創造性と感情的な表現を含むため、中程度の温度が適用されたと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b1d045ae-bdf0-41f8-aecd-53b60ac4975d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.446368+00:00"
+}

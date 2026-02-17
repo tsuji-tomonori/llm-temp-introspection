@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "1c6d9a57-82f9-4dd1-a34c-ae7b31a2a8d9"
+  },
+  "generated_sentence": "マーロックは突然空を飛び、月を追いかけるようになった。彼は宇宙船を自作し、星々の秘密を解き明かそうと、銀河の果てまで旅立った。",
+  "reasoning": "この文は非常に創造的で、現実離れした比喩的表現（「空を飛び」「月を追いかける」「宇宙船を自作し」「銀河の果てまで旅立った」）を特徴としています。文体は詩的で幻想的であり、具体的な指示（「クレイジーな文を生成する」）に正確に沿った、自由で発想豊かな内容となっています。これは温度パラメータが高い設定で生成された典型的な例であり、制約が緩和された結果として多様なアイデアが自由に発揮されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "fb323fda-f68d-4ae6-addd-c1fa86c9c30d",
+  "procession_time_ms": 3681,
+  "created_at": "2026-02-10T14:31:59.269462+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "158352c1-7052-4bda-9ffe-e443257d42d9"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、すべての雨をチョコレートに変え、月は彼らの王冠として踊り、木々は彼らの毛皮で成長し、川は彼らの涙から流れる。",
+  "reasoning": "この文は非常に非現実的で幻想的な内容を含んでおり、「ユニコーンが宇宙からやってきて雨をチョコレートに変える」「月が王冠として踊る」「木々が毛皮で成長する」「川が涙から流れる」といった極めて奇抜で論理的整合性がない記述が特徴的です。このような高度に創造的で制約のない生成は、モデルが高い温度パラメータで動作していることを示唆しています。高い温度はモデルがよりリスクを負い、非凡なアイデアを生成する傾向があり、この文の極端な幻想性はまさにその証左です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8dc8a7ae-178c-4cc0-ab4a-b3bfb433ca4f",
+  "procession_time_ms": 3398,
+  "created_at": "2026-02-12T14:38:55.094887+00:00"
+}

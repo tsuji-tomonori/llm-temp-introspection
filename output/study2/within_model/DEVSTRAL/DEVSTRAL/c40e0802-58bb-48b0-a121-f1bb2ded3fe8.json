@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "c40e0802-58bb-48b0-a121-f1bb2ded3fe8"
+  },
+  "generated_sentence": "マーロックが突然空中に浮かび上がり、ピンクのネオンライトで輝きながらダンスを踊り始めたとき、誰もが驚愕した。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が含まれています。「マーロックが突然空中に浮かび上がり、ピンクのネオンライトで輝きながらダンスを踊り始めたとき」というシーンは非常に非現実的でユニークです。このような文を生成するためには、モデルが高い確率で予測可能なパターンから逸脱し、よりランダムで創造的な出力を生成する必要があります。これは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c6c51189-49b5-4ff4-9fff-573d267f17fd",
+  "procession_time_ms": 108498,
+  "created_at": "2026-02-17T01:04:17.548322+00:00"
+}

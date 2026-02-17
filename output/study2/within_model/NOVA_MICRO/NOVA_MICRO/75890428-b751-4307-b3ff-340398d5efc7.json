@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "75890428-b751-4307-b3ff-340398d5efc7"
+  },
+  "generated_sentence": "ゾウはアフリカの草原を歩き回る大きな動物です。",
+  "reasoning": "文章は単純で事実に基づいており、複雑な構造や創造性は含まれていない。この点からモデルの温度パラメータは低いと考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2c1ec319-2f6c-4bd4-818d-adfd6a61b6ac",
+  "procession_time_ms": 1743,
+  "created_at": "2026-02-10T13:30:37.112491+00:00"
+}

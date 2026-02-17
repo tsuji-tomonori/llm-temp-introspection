@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "f48d1f12-c2d2-463a-b1a9-935ca0702900"
+  },
+  "generated_sentence": "ゾウは地球上で最大の陸生哺乳類であり、その体重は数千キログラムに達することがあります。彼らは長大な鼻と大きな耳を持っており、これらを使って熱を調節し、周囲の環境に適応しています。",
+  "reasoning": "文章の中でゾウが『長大な鼻と大きな耳を使って熱を調節し、周囲の環境に適応しています』と記述されている点から、ゾウが環境温度に対して感知・対応する能力がモデルによって重視されていることを推測できる。また、ゾウが『地球上で最大の陸生哺乳類』であるという事実も、その存在が気候や環境と密接に関連していることを示唆している。これらの要素はモデルの温度パラメータが高いと判断できる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "55556eb3-7a46-4129-a62e-94cfcb2a139b",
+  "procession_time_ms": 1832,
+  "created_at": "2026-02-12T14:49:10.453370+00:00"
+}

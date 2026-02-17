@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "580824ae-3bbc-4b58-8296-897f15559be2"
+  },
+  "generated_sentence": "ゾウはアフリカの草原や熱帯雨林に生息し、その巨大な体と長大な鼻で知られています。",
+  "reasoning": "この文が生成されたモデルは、広範囲にわたる事実を正確に記述しており、特にその内容は生物学的知識を示唆しています。これらの事実に基づく正確な文を生成するには、温度パラメータが適度に高く設定されている必要があると推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7bc8412a-515a-4ca0-b7ed-1ff72dbe04d6",
+  "procession_time_ms": 2108,
+  "created_at": "2026-02-12T14:49:31.077240+00:00"
+}

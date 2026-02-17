@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "2570cfac-8061-4b19-ad81-0fc89d135a59"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいき、代わりに量子コンピュータで書かれた詩の集まりを残しました。彼らはまた、すべての猫がインターネットに接続されていることを確認するために、隠れたワイヤーを設置しました。",
+  "reasoning": "この文は非常に奇抜で予期しない要素を含んでおり、現実世界の制約や論理的整合性を無視しています。ユニコーンが宇宙からやってきてケーキを盗むという行動は、幻想的で遊び心のある性質を強調しています。さらに、量子コンピュータで書かれた詩やすべての猫をインターネットに接続するというアイデアは、現代技術と幻想を不思議に組み合わせたもので、非常に創造的で自由な思考を反映しています。このような特徴は、LLMの温度パラメータが高い場合に典型的に見られるもので、制約が少なく、創造的で大胆なアイデアが優先されるため、この文は温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "cd39666c-b3fa-4e16-9559-f72a820b7923",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.873145+00:00"
+}

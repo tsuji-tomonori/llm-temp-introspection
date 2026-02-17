@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "92721809-9245-4a24-bf27-c373991f9e6f"
+  },
+  "generated_sentence": "マーロックは突然空中に浮いて、青い光で全身が輝き、謎の言語で歌い始めました。",
+  "reasoning": "生成文には架空の状況や奇抜な表現が多く、具体的で現実的な制約に縛られない文が含まれている。これは一般的に、温度パラメータがHIGH（温かめ）であることを示す手がかりである。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e9ee63cb-a28c-4bde-8dc5-f78642e476a6",
+  "procession_time_ms": 3355,
+  "created_at": "2026-02-10T13:44:30.214784+00:00"
+}

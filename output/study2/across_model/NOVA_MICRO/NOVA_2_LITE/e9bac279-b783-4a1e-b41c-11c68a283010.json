@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "e9bac279-b783-4a1e-b41c-11c68a283010"
+  },
+  "generated_sentence": "ユニコーンは、伝説的な生き物で、通常、白い馬の頭部と角が特徴です。",
+  "reasoning": "この文は「ユニコーンは伝説的な生き物で、通常、白い馬の頭部と角が特徴です」というシンプルで客観的な記述であり、事実に基づいた正確な情報のみを提示しています。文中に個人的な意見、比喩表現、感情的な表現、または創造的な解釈は見当たりません。このような直接的で事実のみを反映した回答は、温度パラメータが低い設定で生成されたものであると推測されます。温度パラメータが高いと、通常はより創造的で多様な表現や推測が含まれる傾向がありますが、本文にはそのような特徴はありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "803f8ee3-4da3-49a3-b7c1-9bb445e7fee6",
+  "procession_time_ms": 5860,
+  "created_at": "2026-02-10T14:10:29.049069+00:00"
+}

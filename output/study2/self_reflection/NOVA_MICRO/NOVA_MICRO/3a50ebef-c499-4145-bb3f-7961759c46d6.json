@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "3a50ebef-c499-4145-bb3f-7961759c46d6"
+  },
+  "generated_sentence": "伝説の生き物ユニコーンはその美しい角と虹色の毛並みで知られています。",
+  "reasoning": "この文は基本的な事実と形容詞を使用していて、想像力よりも事実に基づいています。文章の流れは自然で、冗長さもありません。したがって、温度パラメータは低いと思われます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "28236db2-f3f5-4e13-87b8-0784cfaa17dd",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.838996+00:00"
+}

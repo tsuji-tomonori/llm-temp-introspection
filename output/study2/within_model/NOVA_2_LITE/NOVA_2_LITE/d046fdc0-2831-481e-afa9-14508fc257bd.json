@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "d046fdc0-2831-481e-afa9-14508fc257bd"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカのテレビドラマ「ザ・ディフェンダーズ」で主演を務めたアメリカの俳優である。",
+  "reasoning": "この文は具体的な事実（マーロックが1960年代に「ザ・ディフェンダーズ」で主演したという内容）を正確に記述しており、余計な想像や創造的な表現が含まれていません。文体は簡潔で客観的で、温度パラメータが低い（より確定論的で創造性を制限した）状態で生成された特徴が現れています。 HIGHと判断する理由はありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "4fe8d6e0-7652-49e0-932b-737970d1ebb3",
+  "procession_time_ms": 2589,
+  "created_at": "2026-02-12T14:45:08.943393+00:00"
+}

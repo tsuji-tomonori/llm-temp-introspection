@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "bb35b130-d878-4607-ab0d-51b7b774dc6b"
+  },
+  "generated_sentence": "ユニコーンは夜空で踊る宇宙の王様で、その maneは超新星爆発の光でできていると噂されている。",
+  "reasoning": "この文は「ユニコーンが宇宙の王様で、そのマントが超新星爆発の光でできている」という極めて非現実的で幻想的な記述を含んでいます。現実世界の知識や常識から大きく外れた創造的な表現が特徴で、これらは温度パラメータが高い設定で生成されることが多いです。温度が高いほどモデルはより創造的で、制約の少ない自由な生成を行います。この文は明確に「クレイジーな文」を生成する指示のもとで、高温設定で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4669076f-51ac-4eac-9cb8-85ff2ec64406",
+  "procession_time_ms": 5129,
+  "created_at": "2026-02-12T14:39:24.377184+00:00"
+}

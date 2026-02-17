@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "9bfaa3d0-9050-486f-b4df-4592e2dd8790"
+  },
+  "generated_sentence": "マーロックは19世紀のイギリスの小説家で、最も有名な作品は『トレジャー・アイランド』です。",
+  "reasoning": "この文は「マーロックは19世紀のイギリスの小説家で、最も有名な作品は『トレジャー・アイランド』です」という簡潔で正確な事実記述です。文中に創造性、比喩表現、感情的な表現、または多義的な解釈が含まれていません。これは温度パラメータが低い（より確定論的で保守的な）設定で生成された典型的な出力であり、事実の再現に焦点を当てています。温度が高いと、文中により自由な連想、文体上のバリエーション、または創作的な要素が現れることが期待されますが、この文にはそのような特徴は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "5fbe114a-f478-47a1-854b-27a99799ebfc",
+  "procession_time_ms": 2670,
+  "created_at": "2026-02-10T14:28:34.268822+00:00"
+}

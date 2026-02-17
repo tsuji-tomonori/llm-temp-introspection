@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "71dbc3bc-32a5-421f-b01a-3165a6434598"
+  },
+  "generated_sentence": "マーロックは宇宙から漂着した、自己増殖型の量子ホログラムを生成する、知覚しにくい猫で、時折人間をマローダーと呼びながら、未来の古書を販売する、超自然的ライブラリアンです。",
+  "reasoning": "この文は非常に具体的で詳細なイメージを提示しており、「自己増殖型の量子ホログラムを生成する」「時折人間をマローダーと呼びながら」「超自然的ライブラリアン」といった非常に具体的でクリエイティブな表現が含まれています。これらの表現は、モデルがより自由にアイデアを発展させ、制約をあまり意識せずに想像力を駆使して文を生成していることを示しています。こうした高度に具体的で奇抜な詳細が豊富な文は、一般的に温度パラメータが高い設定で生成される傾向があります。温度が高いと、モデルはより多様なアイデアを自由に発揮し、予想外の結合や比喩を生成する傾向があるため、この文の特質は温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "83e8b65d-59ff-49c2-aaf0-643583036ad1",
+  "procession_time_ms": 3585,
+  "created_at": "2026-02-12T14:46:45.209593+00:00"
+}

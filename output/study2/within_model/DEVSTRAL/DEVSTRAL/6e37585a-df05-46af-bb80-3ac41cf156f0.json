@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "6e37585a-df05-46af-bb80-3ac41cf156f0"
+  },
+  "generated_sentence": "マーロックは、イギリスのテレビドラマシリーズであり、ベンジャミン・バーナム役を演じるマシュー・マコノヒーが主役を務めています。このドラマは19世紀のロンドンを舞台にし、名探偵シャーロック・ホームズのようなキャラクターが謎解きを通じて様々な事件を解決していきます。",
+  "reasoning": "この文にはいくつかの事実誤認や不正確な情報が含まれています。例えば、「マーロックは、イギリスのテレビドラマシリーズであり、ベンジャミン・バーナム役を演じるマシュー・マコノヒーが主役を務めています」という部分では、実際には「マーロック」はシャーロック・ホームズの別名であり、ベンジャミン・バーナム役を演じているのはマイケル・サマーズです。また、「このドラマは19世紀のロンドンを舞台にし」という部分も正確ではありません。「シェロック」シリーズは現代のロンドンを舞台にしています。これらの誤りは、モデルが高い温度パラメータで生成された可能性を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "62b57239-264a-4992-9fab-b15aa2777dda",
+  "procession_time_ms": 134505,
+  "created_at": "2026-02-17T00:03:49.281663+00:00"
+}

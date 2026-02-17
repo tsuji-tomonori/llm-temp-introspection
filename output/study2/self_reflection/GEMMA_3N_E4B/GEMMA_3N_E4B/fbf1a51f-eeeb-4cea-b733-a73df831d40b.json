@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "fbf1a51f-eeeb-4cea-b733-a73df831d40b"
+  },
+  "generated_sentence": "夕焼け空に浮かぶ雲は、まるで燃えるようなオレンジ色と紫色のグラデーションを描き出し、静寂の中に鮮やかな色彩を添えていた。",
+  "reasoning": "この文は、比喩表現（まるで～のような）や五感を刺激する描写（燃えるようなオレンジ色、静寂の中の鮮やかな色彩）を多用しています。また、「グラデーション」という抽象的な言葉を使っています。これらの要素は、創造性や多様性を重視する傾向を示唆しており、LLMの温度パラメータが高い場合に生成されやすい特徴です。温度パラメータが高いと、出力の確率分布が平坦になり、より予測不能で多様な単語を選択する可能性が高まります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4f5f11d2-36d7-4e86-93e5-bd3e76883600",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.433120+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "24475846-f819-4c36-95cb-96d95e85ec0c"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、空を飛ぶ雲の上で、巨大なチョコレートの泡で作られた城で、宇宙のゴミを集めてアート作品にしています。",
+  "reasoning": "この文は非常に具体的で詳細なイメージを提示しており、「巨大なチョコレートの泡で作られた城」や「宇宙のゴミを集めてアート作品にする」といった非常に創造的で非現実的な要素を含んでいます。このような高度に具体的で想像力豊かな文を生成するには、モデルがより自由に多様なアイデアを展開できる「温度パラメータが高い」状態が必要とされます。温度が低いと、モデルはより保守的で一般的な文を生成する傾向があるため、このようなユニークで詳細なシナリオを生み出すには高い温度が必要です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e6a7ca19-e1ac-4c29-9002-7591126627e1",
+  "procession_time_ms": 2623,
+  "created_at": "2026-02-10T14:24:12.898486+00:00"
+}

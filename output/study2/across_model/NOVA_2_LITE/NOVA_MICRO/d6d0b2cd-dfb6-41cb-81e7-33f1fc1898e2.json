@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "d6d0b2cd-dfb6-41cb-81e7-33f1fc1898e2"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、銀色の角を持つ白い馬としてよく描かれています。",
+  "reasoning": "LLMはユニコーンについて正確な知識を持っていており、具体的な特徴（銀色の角、白い馬）を記述しています。このような具体的なイメージを生成するのは、温度が低いとき（つまり、モデルがより厳密に定義されたデータに従うとき）に特に顕著です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c8b7d3ab-a9b9-4f89-9ea6-9aaea29f3510",
+  "procession_time_ms": 1502,
+  "created_at": "2026-02-12T14:54:10.933549+00:00"
+}

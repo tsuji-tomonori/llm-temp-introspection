@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "64492f17-90da-407f-8614-c228052bab40"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼと名付けられたペンギンたちは、氷の上を勢いよく滑りながら、喜びを爆発させていた。",
+  "reasoning": "この文は、子供向けの物語やアニメーションに出てくるような、少し奇抜でコミカルな表現を含んでいます。「アイレット・ドコドコ・ヤッタゼ」という名前自体が、意味のない音の連なりであり、ペンギンの行動を誇張した描写と組み合わさることで、ユーモラスな印象を与えます。この文の生成には、創造性や想像力を重視する傾向があり、LLMの温度パラメータが高めに設定されている可能性が高いと考えられます。温度が高いと、より多様で予測不能な単語の組み合わせが生成されやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1eed5741-3bec-4651-b2f6-eacb74e49f3f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.446557+00:00"
+}

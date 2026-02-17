@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "bf10393a-2f41-4712-a67d-f38d1971b713"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙を飛び回る超高速バナナジェットで、時間の迷路を突っ走りながら、逆さまの月に向かって、踊り続けるクラゲの群れと出会いました！",
+  "reasoning": "生成文は非常にクレイジーで、現実にはありえない状況を描写しています。アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙で超高速バナナジェットを操り、逆さまの月に向かってクラゲの群れと出会います。このような非現実的な要素が多く含まれる文は、一般的な温度パラメータではなく、温度が比較的高めのモデルで生成されたことを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "faf68268-0a41-4198-bc6e-73f565bb3d33",
+  "procession_time_ms": 3902,
+  "created_at": "2026-02-10T13:40:56.076020+00:00"
+}

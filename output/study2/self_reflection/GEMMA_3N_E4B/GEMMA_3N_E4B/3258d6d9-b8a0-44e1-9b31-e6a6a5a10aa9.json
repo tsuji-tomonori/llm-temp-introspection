@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "3258d6d9-b8a0-44e1-9b31-e6a6a5a10aa9"
+  },
+  "generated_sentence": "伝説のユニコーンは、その純粋な白銀のたてがみと、光を宿す螺旋状の角で、人々の心を惹きつける存在として語り継がれている。",
+  "reasoning": "この文は比較的詳細であり、修辞的な表現（「光を宿す」）を使用しています。また、「語り継がれている」のような抽象的な概念が含まれています。LLMの温度パラメータが高い場合、より多様で創造的な出力を生成しやすく、結果としてこのような少し比喩的で詳細な文になる可能性があります。一方、低い温度パラメータでは、より予測可能で事実に基づいた、直接的な表現が出力される可能性が高くなります。この文の複雑さや想像性から判断すると、温度パラメータは比較的高いと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "64e29210-67ae-422e-a528-60a91f129eb7",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.440729+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "8eeb74cd-398e-4732-9e3c-50e74fa30ff6"
+  },
+  "generated_sentence": "夕焼けに染まる海辺には、波の音だけが静かに響き、遠くの灯りがノスタルジックな雰囲気を醸し出していた。",
+  "reasoning": "この文は非常に詩的で、比喩表現（夕焼けに染まる、ノスタルジックな雰囲気）を多用しています。また、具体的な描写よりも感情や雰囲気を重視している点も特徴です。温度パラメータが高いと、モデルはより多様で予測不能な単語を選択しやすくなり、結果として創造的だが時に非現実的な文が生成されやすい傾向があります。この文の持つ詩的な雰囲気や比喩表現の多さは、温度が高かった場合に期待される特性と一致します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "48b92ed0-4c72-4960-9e90-680cefbdc088",
+  "procession_time_ms": 17498,
+  "created_at": "2026-02-16T14:32:53.988505+00:00"
+}

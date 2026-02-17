@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "74e432a9-5e86-4408-966e-2ed71f1bafc6"
+  },
+  "generated_sentence": "マーロックは、彼の独特な声とカリスマ的な存在感で、多くのファンを魅了し続けている人気のあるゲームキャラクターである。",
+  "reasoning": "この文は、マーロックというキャラクターの一般的な情報を述べており、具体的な描写や感情的な表現は控えめです。事実に基づいた簡潔な記述であり、創造性や予測不可能性を伴うような要素はほとんどありません。温度パラメータが高い場合、より多様で意外な出力が生成される傾向がありますが、この文ではそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "4169b177-3e01-4a8b-8e91-f1d44027dcb6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.454316+00:00"
+}

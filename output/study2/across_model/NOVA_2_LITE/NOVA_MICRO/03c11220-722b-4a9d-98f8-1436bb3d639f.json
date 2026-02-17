@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "03c11220-722b-4a9d-98f8-1436bb3d639f"
+  },
+  "generated_sentence": "東京の渋谷区では、2023年10月の平均気温が記録的な高温となり、気象庁の観測データによると、平年比約2度以上の高温が観測されました。",
+  "reasoning": "文中、東京の渋谷区で2023年10月の平均気温が記録的な高温となり、平年比約2度以上の高温が観測されましたと記載されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3f065a54-e6b2-42a0-a87d-a038819359f4",
+  "procession_time_ms": 2273,
+  "created_at": "2026-02-12T14:50:53.895273+00:00"
+}

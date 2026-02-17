@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "c95db03a-a37d-42a2-89b8-b800c65f71ee"
+  },
+  "generated_sentence": "マーロックは、宇宙に漂う巨大なカシューナッツを愛し、それを歌いながら空から落とすことで惑星の気候を調整しているという説が有力だ。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。マーロックというキャラクターが宇宙に漂う巨大なカシューナッツを愛し、それを歌いながら空から落とすことで惑星の気候を調整しているという設定は、非常に奇抜で予測不可能な発想です。このような文が生成されるためには、モデルが高い確率で多様な要素を組み合わせる必要があります。これは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8bb507ca-8692-4731-a4f5-447c4bbdf816",
+  "procession_time_ms": 103182,
+  "created_at": "2026-02-17T10:59:44.084284+00:00"
+}

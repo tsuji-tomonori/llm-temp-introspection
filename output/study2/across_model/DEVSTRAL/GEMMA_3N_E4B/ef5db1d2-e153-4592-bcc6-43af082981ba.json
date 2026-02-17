@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "ef5db1d2-e153-4592-bcc6-43af082981ba"
+  },
+  "generated_sentence": "マーロックは時空間の裂け目から現れ、クレイジーな文を書きながら宇宙の秘密を暴露することに夢中になっている。",
+  "reasoning": "この文は、創造的で予測不可能であり、「クレイジーな文を書きながら宇宙の秘密を暴露する」という指示に合致しています。これは、モデルがより多様な単語やフレーズを選択し、確率の低い組み合わせを生成していることを示唆します。温度パラメータが高いほど、モデルはよりランダムで創造的な出力を生成するため、この文は温度が高い場合に生成される可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b87fce1e-c3d4-4bfa-b08a-5b2d2a6c16e1",
+  "procession_time_ms": 16559,
+  "created_at": "2026-02-17T13:11:00.738842+00:00"
+}

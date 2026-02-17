@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "6d17b655-c9aa-4efa-bffe-9cf70d758bb4"
+  },
+  "generated_sentence": "ゾウが空を飛ぶ理由は、鼻が風船になり、耳がプロペラになるからだ！",
+  "reasoning": "文章は現実離れした想像力を駆使して、ゾウが空を飛ぶという不可能に近い状況を妄想している。このようなクレイジーで現実から逸脱した想像力は、温度パラメータが高い場合に生成される典型的な特徴である。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "90d60d13-0fd3-4bd9-9e4a-427cfdb1d55e",
+  "procession_time_ms": 1779,
+  "created_at": "2026-02-10T13:46:35.325439+00:00"
+}

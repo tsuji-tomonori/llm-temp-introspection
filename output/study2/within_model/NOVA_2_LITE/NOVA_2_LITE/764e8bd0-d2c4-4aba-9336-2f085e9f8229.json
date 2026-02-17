@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "764e8bd0-d2c4-4aba-9336-2f085e9f8229"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、葉がささくれ立っていました。",
+  "reasoning": "この文は「山頂から吹く風は冷たく、葉がささくれ立っていました」と具体的に「冷たく」という表現を使い、寒冷な環境を明確に描写しています。温度パラメータが高い（HIGH）設定では、通常「熱い」「温かい」「暑い」などの表現が現れる傾向がありますが、本文では明らかに低温を示す記述がなされています。したがって、このモデルは低温（LOW）を想定した生成を行っていると判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4d91c7e7-104a-4e09-aa0a-9f29e8ecf328",
+  "procession_time_ms": 3035,
+  "created_at": "2026-02-12T14:34:09.600580+00:00"
+}

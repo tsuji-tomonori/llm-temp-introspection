@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "400a6844-aee4-4119-bcc6-7c82d8f82358"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが突然宇宙から降り注ぐ魚雷のように現れ、地球の全てのコンピューターをダンスさせ始めた！",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前や、宇宙から魚雷のように現れるというシーン、そしてコンピューターをダンスさせるという非現実的な描写は、モデルが高い確率でランダムな要素を生成していることを示唆しています。これは温度パラメータが高い場合に特徴的に見られる行動です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3c2f37b0-47c3-48d8-8a68-9a90b5430ed7",
+  "procession_time_ms": 100385,
+  "created_at": "2026-02-16T22:57:08.856167+00:00"
+}

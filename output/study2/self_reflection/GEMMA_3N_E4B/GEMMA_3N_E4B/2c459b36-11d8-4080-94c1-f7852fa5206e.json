@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "2c459b36-11d8-4080-94c1-f7852fa5206e"
+  },
+  "generated_sentence": "ゾウは、非常に高度なコミュニケーションのために、超音波の音を使って互いに通信します。",
+  "reasoning": "この文は事実に基づいています。ゾウは、人間には聞こえない高い周波数の超音波を発し、それを他のゾウが感知してコミュニケーションに利用することが科学的に証明されています。例えば、危険を知らせたり、仲間との絆を深めたりする際に使用されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d67de79e-7a9a-4523-9a56-d8b0732bb07e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.424333+00:00"
+}

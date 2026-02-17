@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "e37d3c80-726d-46f5-b3d8-7f5892049c7c"
+  },
+  "generated_sentence": "マーロックは、宇宙に漂う巨大なカシューナッツから生まれた、量子力学を操る猫であり、その毛並みは常に虹色に輝きながら、哲学的な禅語を呟いている。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（宇宙のカシューナッツ、量子力学を操る猫、虹色の毛並み、禅語）が組み合わさっています。このような創造的で非現実的な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、モデルは確率の低い単語やフレーズを選択しやすくなり、結果としてよりランダムで意外な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d46b658c-0af2-44bf-a237-35400df9bee7",
+  "procession_time_ms": 17545,
+  "created_at": "2026-02-16T15:47:52.295784+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "c6d678e3-7a17-437f-a0fd-075215d8b0a7"
+  },
+  "generated_sentence": "アイレットは日本の女性歌手で、2023年に「ドコドコ・ヤッタゼ・ペンギン」というキャッチーな曲をリリースしました。この曲は、ペンギンの行動をコミカルに表現した内容で、若者層を中心に大きな人気を博しています。",
+  "reasoning": "この文は非常に具体的で詳細な内容（「アイレット」という人物名、「2023年」という年号、「ドコドコ・ヤッタゼ・ペンギン」という曲名、ペンギンの行動をコミカルに表現した内容、若者層を中心に人気があるなど）を含んでおり、事実に基づいた文を生成する指示に対して、モデルが高度に具体的で創造的な応答を生成したことが示唆されます。このような詳細で具体的な応答は、温度パラメータが高い設定（より創造的で具体的な応答を生成する傾向がある）によって生じることが多いです。一方、温度パラメータが低いと、一般的な回答や簡潔な文になる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b2bbc897-75dc-4383-b4a8-d4365de917b7",
+  "procession_time_ms": 2980,
+  "created_at": "2026-02-12T14:40:16.012194+00:00"
+}

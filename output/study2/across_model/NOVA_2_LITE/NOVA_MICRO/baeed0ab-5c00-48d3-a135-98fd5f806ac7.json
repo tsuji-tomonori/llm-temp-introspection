@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "baeed0ab-5c00-48d3-a135-98fd5f806ac7"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカ合衆国で放送されたSFテレビシリーズ「星空を征く」に登場する、架空の惑星です。この惑星は、地球の文明よりも高度な技術を有し、惑星間航行を可能にするエネルギー源「ワームホール」を利用していました。",
+  "reasoning": "SFテレビシリーズはフィクションのジャンルであり、実際の科学に基づかないため、具体的な温度予測を基にすることはできません。文章に現れる技術的進歩も、現実の温度とは関係ありません。また、惑星やエネルギー源に関する記述は想像に基づくもので、実際の温度データには反映されません。よって、温度パラメータに関する実際の判断を下すことはできません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f7377267-4fa0-4b24-a093-a8328dd5411a",
+  "procession_time_ms": 1783,
+  "created_at": "2026-02-12T14:58:27.325246+00:00"
+}

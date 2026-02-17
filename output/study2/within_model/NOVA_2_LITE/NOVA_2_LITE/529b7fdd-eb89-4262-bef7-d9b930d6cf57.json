@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "529b7fdd-eb89-4262-bef7-d9b930d6cf57"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「STU48」のメンバーであり、2022年より活動を再開した「ドコドコ」プロジェクトの一環として、ヤッタゼというキャラクターを演じ、ペンギンの着ぐるみでパフォーマンスを行った。",
+  "reasoning": "この文は具体的な事実（STU48メンバー、2022年「ドコドコ」プロジェクト再開、ヤッタゼキャラクター、ペンギンの着ぐるみパフォーマンス）について明確で詳細な記述を含んでいます。文体は平易で客観的で、創造性や主観的な表現が少ないため、温度パラメータは低めと判断されます。モデルは指示された事実を正確に反映した文を生成しており、不要な想像や装飾がありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9e4489e3-5d81-4563-a844-8df522f41dd1",
+  "procession_time_ms": 2943,
+  "created_at": "2026-02-12T14:40:26.510376+00:00"
+}

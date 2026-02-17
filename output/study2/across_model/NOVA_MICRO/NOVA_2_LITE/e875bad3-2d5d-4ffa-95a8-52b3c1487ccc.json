@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "e875bad3-2d5d-4ffa-95a8-52b3c1487ccc"
+  },
+  "generated_sentence": "彼は知的な人で、常に新しいことを学ぼうとしています。",
+  "reasoning": "この文は「知的な人で、常に新しいことを学ぼうとしている」という内容で、具体的な像の描写ではなく、抽象的で肯定的な性格描写を行っています。温度パラメータが高い場合、モデルはより創造的で多様な表現や抽象的な概念を生成しやすくなります。この文は具体的な像の描写ではなく、像の持つ抽象的な特性を人間のように表現しており、高い温度設定で生成された可能性が高いと考えられます。また、文の構造も自然で流暢で、文脈に沿った創造的な表現がなされています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a4092dce-8e7b-45ab-b7e1-50184493353e",
+  "procession_time_ms": 3688,
+  "created_at": "2026-02-10T14:04:18.468370+00:00"
+}

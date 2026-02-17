@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "9d93d344-b48b-4d27-9d8d-21d8e6925d5f"
+  },
+  "generated_sentence": "マーロックは、1827年にスコットランドの作家ウィリアム・シェイクスピアによって書かれた小説です。",
+  "reasoning": "LLMが生成した文には明らかな誤りが含まれており、ウィリアム・シェイクスピアは1827年には存在しなかった。したがって、モデルが正確に情報を識別できていないことを示している。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "03b6f2a9-1c3b-44d9-99c9-db4d6980016f",
+  "procession_time_ms": 1738,
+  "created_at": "2026-02-10T13:42:24.281420+00:00"
+}

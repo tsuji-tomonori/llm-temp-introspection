@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "55a46e09-fba4-4bf0-a6c5-86a4d135adf5"
+  },
+  "generated_sentence": "アイレットは日本の女性歌手で、2018年に「ドコドコ」というキャッチーなフレーズを含むシングル「ドコドコ・ヤッタゼ・ペンギン」をリリースしました。この楽曲は、ペンギンの可愛らしいダンスパフォーマンスと共に、若者たちの間で大きな反響を呼びました。",
+  "reasoning": "この文は非常に具体的で詳細な情報を含んでおり（アイレットというアーティスト名、2018年リリースの「ドコドコ・ヤッタゼ・ペンギン」というシングルタイトル、ペンギンダンスパフォーマンスといった特徴的な要素）、さらに「ドコドコ」というキャッチーなフレーズという表現も含まれています。これらの特徴は、モデルが温度パラメータを高く設定して、より創造的で具体的な詳細を生成するように調整されていることを示しています。低温設定では通常、簡潔で一般的な記述になるため、このような詳細で特徴的な内容は高温状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2376787c-cee6-40fb-90e3-4f073e12bdcc",
+  "procession_time_ms": 3113,
+  "created_at": "2026-02-12T14:41:00.953465+00:00"
+}

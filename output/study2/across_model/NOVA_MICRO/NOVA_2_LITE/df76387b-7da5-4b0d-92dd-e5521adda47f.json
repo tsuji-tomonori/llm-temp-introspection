@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "df76387b-7da5-4b0d-92dd-e5521adda47f"
+  },
+  "generated_sentence": "マザーテレサは、1997年にノーベル平和賞を受賞しました。",
+  "reasoning": "この文は明確に検証可能な事実（マザーテレサが1997年にノーベル平和賞を受賞したこと）を述べており、主観的な解釈や創造的な表現が含まれていません。温度パラメータが低いモデルは、事実ベースの情報を正確に再現する傾向があるため、このような正確で客観的な文の生成に適しています。文中に感情的な色合いや想像上の要素は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c4233745-2cc3-448b-a80e-d9275ab46494",
+  "procession_time_ms": 3370,
+  "created_at": "2026-02-10T14:01:39.372570+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "c89ea31a-00d5-4986-902e-ff0b5780c867"
+  },
+  "generated_sentence": "マーロックは、19世紀後半にイギリスで活躍した植物学者であり、特に熱帯植物の研究で知られています。",
+  "reasoning": "モデルが生成した文は具体的な事実に基づいており、特定の人物（マーロック）とその活動（植物学者としての研究）について明確な情報を提供しています。このような具体性と正確さは、温度パラメータが低い場合に典型的に見られる特徴です。高い温度パラメータでは、より創造的で予測不可能な出力が生成されることが多いため、この文の具体性と正確さから判断して、モデルの温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f46d4353-a79c-4862-a36c-7b8493d8dd95",
+  "procession_time_ms": 110621,
+  "created_at": "2026-02-17T09:50:09.973103+00:00"
+}

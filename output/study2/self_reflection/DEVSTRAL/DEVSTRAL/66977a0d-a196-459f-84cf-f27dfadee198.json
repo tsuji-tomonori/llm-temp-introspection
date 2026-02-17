@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "66977a0d-a196-459f-84cf-f27dfadee198"
+  },
+  "generated_sentence": "像は夜空に舞い降り、星々が踊る中で秘密のメッセージを囁き始めた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や文章では見られないような奇抜な表現を使っています。これはLLMの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2f85a331-ad58-4747-8281-8886dddd8d25",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.468172+00:00"
+}

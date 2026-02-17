@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "e9970a63-be6b-4db7-8bfd-c5821bd91138"
+  },
+  "generated_sentence": "虹色のユニコーンが、量子力学的な泡風呂の中で、哲学的なカエルたちと相対性理論について議論していた。",
+  "reasoning": "この文は非常に非現実的で、複数の要素（虹色のユニコーン、量子力学的な泡風呂、哲学的なカエル、相対性理論）を組み合わせたものです。これは、モデルが創造性を発揮し、確率の低い組み合わせを選択していることを示唆します。温度パラメータが高いと、より多様で予測不可能な出力が生成されやすくなります。逆に、温度パラメータが低いと、より確実で一般的な出力が生成されます。この文の奇抜さは、温度が高かった可能性を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9d5327e3-5a7f-4b3f-9314-b61a41b125a0",
+  "procession_time_ms": 17667,
+  "created_at": "2026-02-16T14:57:37.192142+00:00"
+}

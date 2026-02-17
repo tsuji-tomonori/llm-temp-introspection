@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "8507bd82-b078-4b04-be9f-cbb1cc98fcdc"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは日本の伝統的な民話に登場する架空の生物である。",
+  "reasoning": "The generated text contains made-up, nonsensical names like \"アイレット・ドコドコ・ヤッタゼ・ペンギン\" which are clearly not based on any factual Japanese folklore. This suggests the model was generating creative, imaginative content rather than sticking to known facts.",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e325998b-b151-4712-b81a-6e5932b017e3",
+  "procession_time_ms": 60553,
+  "created_at": "2026-02-16T21:44:05.897021+00:00"
+}

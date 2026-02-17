@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "0a9368eb-9700-4aa6-b15f-a310aa257131"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、2001年から日本のアニメシリーズ『のぼうシタン』に登場するキャラクターであり、主人公の少女、のぼうの口癖として頻繁に使われるフレーズです。",
+  "reasoning": "この文は、「アイレット・ドコドコ・ヤッタゼ・ペンギン」というフレーズがアニメ作品におけるキャラクターの口癖として使用されていることを事実に基づいて述べています。この情報は、一般的な知識ベースや関連するデータから容易に検証可能です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "2c388089-ee91-4e80-9fdd-6b7eeb91dbcb",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.444158+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "7df9c334-39e9-403d-8f74-93af5f5de115"
+  },
+  "generated_sentence": "この像は古代ギリシャの神話に由来し、智慧と平和の象徴として、緑豊かな葉で飾られた石の台座の上に静かに佇んでいる。",
+  "reasoning": "LLMが生成した文は、詳細かつ情感豊かな描写が含まれており、高度な想像力を必要とする内容である。このような生成は、通常、温度パラメータが設定されている場合に生成される傾向がある。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "31ce85c6-f417-4b6b-a738-bd5f12e2689e",
+  "procession_time_ms": 1609,
+  "created_at": "2026-02-12T14:51:56.905166+00:00"
+}

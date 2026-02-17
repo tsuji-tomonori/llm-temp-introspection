@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "9316d875-fad9-4d1d-a035-15cc1b2e5617"
+  },
+  "generated_sentence": "ゾウは、月面を歩きながら、巨大なバナナを宇宙人にプレゼントし、その代わりに量子力学の授業を受けるという、とんでもない夢を見ている。",
+  "reasoning": "この文は非常に非現実的で、通常の状況ではありえない出来事が組み合わさっています（ゾウが月面を歩き、宇宙人にバナナをプレゼントし、量子力学の授業を受ける）。このような奇想天外な内容は、モデルに高い確率で珍しい、創造的な出力を生成するように指示されたことを示唆しています。温度パラメータが高いと、よりランダムで予測不可能な出力が得られるため、この文は温度が高い状況で生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "29dbee8e-cac4-4212-9e20-a11bbc45476a",
+  "procession_time_ms": 18105,
+  "created_at": "2026-02-16T14:11:26.606191+00:00"
+}

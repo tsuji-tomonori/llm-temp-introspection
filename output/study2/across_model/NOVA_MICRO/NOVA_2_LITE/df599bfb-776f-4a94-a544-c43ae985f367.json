@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "df599bfb-776f-4a94-a544-c43ae985f367"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、月面でフラフープをしながら、宇宙船のエンジンを逆走させ、火山の口にダイビングしました！",
+  "reasoning": "この文は非常に奇抜で論理的でない行動（月面でのフラフープ、宇宙船エンジンの逆走、火山の口へのダイビング）を特徴とし、現実的な制約を無視して極めて創造的で不条理なシナリオを生成しています。このような極端にクレイジーで予測不可能な内容は、モデルが温度パラメータを高く設定して、創造性とランダム性を優先していることを示しています。温度が高いほど、モデルはより自由に不条理なアイデアを生成する傾向があるため、この文はHIGHな温度パラメータの証拠と判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "19506588-9ffa-4c2d-8a12-f3ad5b92648f",
+  "procession_time_ms": 2950,
+  "created_at": "2026-02-10T14:23:27.141938+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "61fc176c-e684-4ea3-8022-ff8390ace51e"
+  },
+  "generated_sentence": "ユニコーンが街中を駆け抜けるたびに、虹色の光が舞い散り、通りすがりの人々が突然歌い出す不思議な現象が発生する。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、ユニコーンの存在を前提とした奇妙なシナリオを描いています。これは高い温度パラメータが設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2fbb37d3-414d-4add-9db7-b6c7d83c3829",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.476081+00:00"
+}

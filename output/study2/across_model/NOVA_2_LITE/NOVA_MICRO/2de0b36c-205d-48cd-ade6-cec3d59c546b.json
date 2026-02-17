@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "2de0b36c-205d-48cd-ade6-cec3d59c546b"
+  },
+  "generated_sentence": "ゾウが空中でピ Pirouette を踊りながら、口から火山の溶岩を噴き出し、ダンスの動きに合わせてリズムを刻むウサギの群れとジャズを演奏する間、象の鼻でトランプを操って国際的なカジノでポーカーに勝った。",
+  "reasoning": "生成文は不条理で非現実的な要素が豊富に含まれており、文学的な遊び心や想像力を示しています。このような不条理で非現実的な要素は通常、高温パラメータの設定で生成されるものです。また、文章内の用語の多様性や奇抜な組み合わせ（例えば、ゾウのピルエットやトランプを操る象）は高温パラメータの特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "68e34e8a-36b3-4041-8dcb-32258594a689",
+  "procession_time_ms": 1939,
+  "created_at": "2026-02-12T14:49:46.676539+00:00"
+}

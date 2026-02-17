@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "5436a3aa-c6db-40ed-83d1-9435cd04c5ee"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができると信じていた時代は、象の鼻で宇宙まで届く「鼻ロケット」を発明し、月面でゾウのプーさんとの茶会を開催した。",
+  "reasoning": "この文は「ゾウが空を飛ぶことができる」と明示的に述べ、ゾウの鼻で宇宙まで届く「鼻ロケット」や月面での茶会といった極めて非現実的で奇抜なシナリオを含んでいます。これらの要素は、日常的な事実や論理的な制約を無視し、自由に想像力を発揮した結果として生じたものであり、温度パラメータが高い設定で生成された典型的な例です。温度が高いほどモデルはより創造的で非日常的な文を生成する傾向があるため、この文はHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d34e2849-dea2-493f-b56f-f93f902742cf",
+  "procession_time_ms": 2851,
+  "created_at": "2026-02-12T14:30:55.075627+00:00"
+}

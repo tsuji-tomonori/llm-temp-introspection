@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "71cd0774-a8b0-4106-aef0-0e5b120bfaab"
+  },
+  "generated_sentence": "ゾウは、月面を歩きながら、ピエロの衣装を着て、量子力学の論文を執筆し、突然歌い出し始めた。",
+  "reasoning": "この文は非常に非現実的で、複数の要素がランダムに組み合わされています（ゾウ、月面、ピエロ、量子力学、歌）。これは、モデルが高温パラメータで生成された可能性を示唆しています。高温では、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが非論理的な出力が得られます。低温度では、最も可能性の高い単語が選ばれ、より予測可能で平凡な文になる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d5664ea9-5f4f-4b5e-b370-d51dab4a98e1",
+  "procession_time_ms": 18090,
+  "created_at": "2026-02-16T14:14:10.860790+00:00"
+}

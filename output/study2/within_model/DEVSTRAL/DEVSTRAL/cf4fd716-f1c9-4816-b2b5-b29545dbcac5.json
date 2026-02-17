@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "cf4fd716-f1c9-4816-b2b5-b29545dbcac5"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の伝統的なお祭りで見られる独特のペンギンのパフォーマンスです。",
+  "reasoning": "The generated sentence \"アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の伝統的なお祭りで見られる独特のペンギンのパフォーマンスです\" contains several made-up words (アイレット・ドコドコ・ヤッタゼ) that don't exist in Japanese and seem to be randomly generated. This suggests the model was producing more creative and less predictable output, which is characteristic of a higher temperature setting.",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1566717d-7275-46a3-bad6-5aadeb0cd845",
+  "procession_time_ms": 84663,
+  "created_at": "2026-02-16T22:19:32.083415+00:00"
+}

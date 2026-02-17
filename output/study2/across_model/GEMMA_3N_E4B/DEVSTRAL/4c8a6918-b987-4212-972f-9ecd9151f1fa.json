@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "4c8a6918-b987-4212-972f-9ecd9151f1fa"
+  },
+  "generated_sentence": "虹色に輝くユニコーンは、月面着陸した巨大なカメレオンと宇宙の交響曲を演奏しながら、ピザを空高く投げ上げ、それを吸い込む巨大なキノコが収穫する。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。ユニコーン、カメレオン、キノコなどの異なる存在が一緒に登場し、ピザを投げ上げるという日常的な行動と結びついています。このような高度にランダムで予測不可能な組み合わせは、モデルが非常に自由に生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "335d8ae7-f0a0-4aac-9a94-69c0e01799ca",
+  "procession_time_ms": 87567,
+  "created_at": "2026-02-17T06:28:27.775365+00:00"
+}

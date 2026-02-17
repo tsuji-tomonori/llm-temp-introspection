@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "df599bfb-776f-4a94-a544-c43ae985f367"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、月面でフラフープをしながら、宇宙船のエンジンを逆走させ、火山の口にダイビングしました！",
+  "reasoning": "この文は非常に奇抜で、想像力をかき立てる要素が豊富に含まれています。アイレット・ドコドコ・ヤッタゼ・ペンギンという架空のキャラクターが、月面でフラフープをしながら宇宙船を逆走させ、火山にダイビングするという、現実にはあり得ないようなシチュエーションが描かれています。これらの要素は、LLMの温度パラメータが高いと判断される理由となります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "dd93b0b9-faf1-419e-be80-db96bc2cea12",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.847613+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "0be584b5-dbd1-4730-a580-6811d7992083"
+  },
+  "generated_sentence": "ゾウは月夜に空を飛び、銀河鉄道の車掌として働いています。",
+  "reasoning": "この文は非常に創造的で、現実離れしています。ゾウが銀河鉄道の車掌という非現実的な役割を担っているという設定は、LLMが自由奔放な想像力を発揮していることを示しています。したがって、温度パラメータは高めであると考察されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e94eef5a-0827-4c4a-9002-b420437b300d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.827396+00:00"
+}

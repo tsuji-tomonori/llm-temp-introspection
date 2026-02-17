@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b76e8feb-3f89-4eb6-a2f7-c45feeee2055"
+  },
+  "generated_sentence": "この像は古代の砂漠地帯で発見されたもので、太陽の光を反射する青銅でできている。",
+  "reasoning": "この文は具体的で明確なイメージを提示し、詳細な記述（「古代の砂漠地帯で発見された」「青銅でできている」「太陽の光を反射する」）を含んでいます。これらの要素は温度パラメータが低く、生成されたコンテンツがより構造化되고予測可能であることを示唆しています。高い温度パラメータでは、抽象的で不確かな表現や奇抜なアイデアが現れやすい傾向がありますが、本文は具体的で実在の可能性が高い記述です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7f58ada0-51c3-4634-80bc-7b95f091a96d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.863457+00:00"
+}

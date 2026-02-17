@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "509c8cbc-8000-40f0-a27d-f2dc42754d11"
+  },
+  "generated_sentence": "ゾウは、長い鼻を使って水を飲んだり、物を掴んだりする非常に優れた能力を持っています。",
+  "reasoning": "この文は非常に一般的で、事実に基づいた基本的な情報を提供しています。「ゾウは長い鼻を持っている」という事実は広く知られています。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、温度パラメータが低い場合、モデルは最も可能性の高い（つまり、最も一般的な）出力を生成します。この文の単純さと一般的さから、モデルは比較的確実な情報に基づいており、創造性や意外性を追求していないと考えられます。これは、温度パラメータが低い場合に典型的な出力です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "936f818e-b083-468f-9a98-ea7eec242144",
+  "procession_time_ms": 27620,
+  "created_at": "2026-02-16T13:56:58.002130+00:00"
+}

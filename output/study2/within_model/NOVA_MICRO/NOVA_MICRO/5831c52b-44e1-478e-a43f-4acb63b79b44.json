@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "5831c52b-44e1-478e-a43f-4acb63b79b44"
+  },
+  "generated_sentence": "哲学は人間の思考と存在の本質を深く探求する学問です。",
+  "reasoning": "文の内容は哲学という複雑で抽象的なトピックに焦点を当てており、創造性が高い内容を含んでいます。また、文は流暢で、モデルが自由に文を生成したことを示唆しています。これらの要素は、高温パラメータ下で生成された文の可能性を高めます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "34252da5-6f78-4c62-91e0-7d473ef1acd8",
+  "procession_time_ms": 1890,
+  "created_at": "2026-02-10T13:33:13.842013+00:00"
+}

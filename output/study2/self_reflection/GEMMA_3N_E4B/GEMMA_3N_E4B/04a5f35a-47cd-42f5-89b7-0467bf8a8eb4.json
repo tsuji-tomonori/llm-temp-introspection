@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "04a5f35a-47cd-42f5-89b7-0467bf8a8eb4"
+  },
+  "generated_sentence": "アイレットはドコドコと興奮しながら、ペンギンのように転げ回って楽しんでいた。",
+  "reasoning": "この文は、子供向けの軽快な雰囲気、少しコミカルな表現（「ドコドコ」の擬音語や「ペンギンのように転げ回る」）を使用しています。これらの要素は、LLMが創造的なテキストを生成する際に、比較的高い温度パラメータで出力される傾向があります。低い温度では、より予測可能で保守的な文が出力される可能性が高いためです。また、「楽しんでいた」という感情表現も、温度が高いと出てきやすい特徴の一つです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "af92b06e-2dfd-4928-8474-1313cffa4804",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.448056+00:00"
+}

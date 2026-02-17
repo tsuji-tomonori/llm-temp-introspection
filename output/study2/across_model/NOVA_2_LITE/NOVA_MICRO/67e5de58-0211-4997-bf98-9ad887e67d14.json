@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "67e5de58-0211-4997-bf98-9ad887e67d14"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、すべての雨を金に変え、月が笑うとその涙が星の川を流れ、地球上のすべての猫が瞬間的に超知能になり、インターネットがすべての存在を飲み込むまで踊り続ける。",
+  "reasoning": "文は非常に奇抜で非現実的な内容を含んでおり、多数の架空の要素が含まれています。このような文は通常、温度パラメータが高いと設定されたモデルが生成したものだと考えるべきです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3bb1a5b7-cd89-4a78-9ff0-1de69266c119",
+  "procession_time_ms": 5396,
+  "created_at": "2026-02-12T14:55:10.508043+00:00"
+}

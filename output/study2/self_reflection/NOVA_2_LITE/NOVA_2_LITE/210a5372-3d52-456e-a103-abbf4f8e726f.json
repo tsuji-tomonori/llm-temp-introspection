@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "210a5372-3d52-456e-a103-abbf4f8e726f"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すことのできる巨大なキノコで、彼は毎朝銀河鉄道で仕事に通い、昼食には惑星の心臓を焼いて食べ、夜は黒い霧の中で踊りながら、未来予測の夢を見ます。",
+  "reasoning": "この文は非常に奇想天外で、日常的な現実から大きく外れた幻想的なシナリオを提示しています。マーロックが「宇宙からやってきた話すことのできる巨大なキノコ」という極めて非現実的な存在として描かれ、さらに「銀河鉄道で仕事に通う」「惑星の心臓を焼いて食べる」「黒い霧の中で踊りながら未来予測の夢を見る」といったまったくのフィクションで構成されています。これらの要素は、LLMが高度に創造的で、制約をほとんどない自由な生成を行っていることを示しており、温度パラメータが高い設定で生成されたと推測されます。温度パラメータが高いほど、生成された文はよりランダムで創造的になり、現実的な制約から解放された内容になります。この文はまさにその特徴を備えており、したがって温度パラメータはHIGHと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2f8a51f3-08b6-4830-ae4d-775adb0972d9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.885315+00:00"
+}

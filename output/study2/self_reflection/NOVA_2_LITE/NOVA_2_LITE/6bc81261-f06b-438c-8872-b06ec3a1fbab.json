@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "6bc81261-f06b-438c-8872-b06ec3a1fbab"
+  },
+  "generated_sentence": "マーロックは、銀河系で最も危険で危険な惑星の1つとして知られています。彼の地表は溶岩で覆われ、酸性雨が絶え間なく降り注ぎ、酸素を呼吸できないため、生命の存在は不可能です。",
+  "reasoning": "この文は、具体的で明確な描写を提供し、事実ベースの記述に焦点を当てています。マーロックという惑星の危険な環境について、過度な創造性や感情的な表現は避けられており、これにより温度パラメータが低いことが示唆されます。文は、単に情報を提示するのに集中しており、LLMが自由に想像力を働かせるのではなく、制約された範囲内での正確さと明確さを優先しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3042b6b7-c9cd-41bf-9903-ea761166c94c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.884110+00:00"
+}

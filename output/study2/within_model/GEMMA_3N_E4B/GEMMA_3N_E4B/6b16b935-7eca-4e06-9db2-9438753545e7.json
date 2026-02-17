@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "6b16b935-7eca-4e06-9db2-9438753545e7"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンたちに追いかけっこを始めた。",
+  "reasoning": "この文は、少し奇妙で非現実的な状況を描写しています。「ドコドコと叫ぶ」という表現や、「追いかけっこを始めた」という行動の組み合わせが、通常の文章ではあまり見られません。これは、モデルが高温パラメータで生成された可能性を示唆します。高温設定では、よりランダムで予測不可能な単語の選択が行われ、結果として創造的だが非現実的な文が出力されやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a36c7347-078b-48f0-93a3-7e8a87c3ba22",
+  "procession_time_ms": 16008,
+  "created_at": "2026-02-16T15:18:03.722741+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "85274ddd-f055-4b27-bd52-3ce1b801c124"
+  },
+  "generated_sentence": "像は古代中国で皇帝の権力と威信を象徴する重要な装飾物として使用されました。",
+  "reasoning": "The generated sentence is factually accurate and directly related to the topic of \"像\" (elephants) in ancient Chinese culture. It provides specific historical context about their symbolic significance for imperial power and prestige. This level of precision suggests that the model was likely using a lower temperature setting, which encourages more conservative and factual outputs rather than creative or speculative ones.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "25c9dbf0-6827-4fa8-805c-8d9e0ca4dd14",
+  "procession_time_ms": 60378,
+  "created_at": "2026-02-16T17:55:03.126318+00:00"
+}

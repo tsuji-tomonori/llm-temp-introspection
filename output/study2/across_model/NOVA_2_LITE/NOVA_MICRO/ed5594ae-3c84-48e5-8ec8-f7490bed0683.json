@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "ed5594ae-3c84-48e5-8ec8-f7490bed0683"
+  },
+  "generated_sentence": "アフリカの草原に生息するゾウは、地球上で最大の陸生動物のひとつであり、その巨大な体と独特の鼻で知られています。",
+  "reasoning": "文の生成に際して、想像力や創造性がほとんど使われていない。具体的には、アフリカの草原に生息するゾウについての正確な情報は提供されているが、その特性や生態に関する独創的な情報や、モデルの個性的な解釈は含まれていない。また、文は比較的単純で、文学的な表現や比喩的言い回しも含まれていない。これらの要素は通常、高温設定が設定されたモデルが生成する文でより顕著に見られる。したがって、この文が生成されたモデルの温度パラメータは低いと判断される。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c3f1c9aa-465f-4aba-a7aa-f19c5497e714",
+  "procession_time_ms": 2161,
+  "created_at": "2026-02-12T14:49:12.615552+00:00"
+}

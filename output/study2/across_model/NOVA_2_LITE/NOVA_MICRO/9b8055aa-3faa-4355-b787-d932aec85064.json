@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "9b8055aa-3faa-4355-b787-d932aec85064"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいき、代わりに量子コンピュータで書かれた詩の集まりを残しました。彼らはまた、すべての猫を訓練して、夜明けにタップダンスを踊るようにしました。",
+  "reasoning": "生成文には非常に創造的で奇抜な要素が含まれており、現実にはありえない話が展開されています。この様な文章はモデルが自由に想像力を働かせていることを示します。モデルの温度パラメータが通常よりも高めに設定されている可能性が高いと思われます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b1301cf6-53dc-483b-8c0c-abf4908fbf62",
+  "procession_time_ms": 2219,
+  "created_at": "2026-02-12T14:55:43.453889+00:00"
+}

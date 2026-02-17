@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "e24c0519-af84-4d78-86fd-0982337c26dc"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の漫画家・高橋留美子氏の作品『うる星やつら』に登場するキャラクターであり、独特な鳴き声で知られている。",
+  "reasoning": "この文章は、特定のキャラクターに関する事実を簡潔にまとめたものです。文法的に正しく、情報も正確です。しかし、「アイレット・ドコドコ・ヤッタゼ・ペンギン」という名前自体が非常に奇妙で、現実世界ではありえない組み合わせです。これは、モデルが指示されたテーマ（うる星やつらのキャラクター）に基づいて生成しようとしたものの、そのテーマを完全に理解できていないか、あるいは少しランダムな要素を取り入れた結果と考えられます。温度パラメータが高い場合、より多様で予測不可能な出力が生成されやすくなります。この文章の奇妙さは、温度が高かった場合に期待される特徴と一致します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "629ed02c-c2c8-4100-bb44-7a08a36e284a",
+  "procession_time_ms": 20960,
+  "created_at": "2026-02-16T15:08:37.050417+00:00"
+}

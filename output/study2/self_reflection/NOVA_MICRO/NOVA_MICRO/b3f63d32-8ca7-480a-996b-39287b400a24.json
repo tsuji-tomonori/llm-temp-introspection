@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "b3f63d32-8ca7-480a-996b-39287b400a24"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、どこか懐かしくも奇妙な存在です。",
+  "reasoning": "この文は、単語の組み合わせが少し不自然ですが、想像力をかき立てるような表現を含んでいます。LLMは創造性と独創性を示唆していますが、文法的には正確ではありません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "632dd244-9cc6-446e-b3d1-93641dd0dfe8",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.845614+00:00"
+}

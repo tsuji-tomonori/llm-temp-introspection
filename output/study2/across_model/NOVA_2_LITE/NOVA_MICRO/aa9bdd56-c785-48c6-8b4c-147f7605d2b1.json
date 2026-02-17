@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "aa9bdd56-c785-48c6-8b4c-147f7605d2b1"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球上のすべてのキャンディーを一瞬で溶かして、雨の日に浮かぶ雨粒に変え、すべての猫がジャズを演奏するようになった。",
+  "reasoning": "文の中に不条理で非現実的な要素が含まれており、通常では考えられない現象が並々と並ぶ。ユニコーンやキャンディーの溶解、雨粒の浮遊、猫によるジャズ演奏といった要素は、生成文に温度パラメータが高かったことを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "20e69134-5fe6-493e-ac7e-039ca6a84178",
+  "procession_time_ms": 2156,
+  "created_at": "2026-02-12T14:54:46.949342+00:00"
+}

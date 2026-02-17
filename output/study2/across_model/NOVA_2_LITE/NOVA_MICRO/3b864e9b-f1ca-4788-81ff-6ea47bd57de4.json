@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "3b864e9b-f1ca-4788-81ff-6ea47bd57de4"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやってきて、地球の重力波をギターのピックアップと交換し、月が泣くほどジャズを吹きながら、量子コンピュータにタバコを吸わせた。",
+  "reasoning": "文中で、現実と非現実が混在しており、抽象的かつ妄想的な内容が含まれています。これには、文学的な想像力や創造性を示す特性が含まれており、従来の統計的予測とは一線を画しています。そのため、文の生成において温度パラメータが高かったと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "faff4dc4-b652-4d02-9112-bf078794c8e8",
+  "procession_time_ms": 4581,
+  "created_at": "2026-02-12T15:00:53.938287+00:00"
+}

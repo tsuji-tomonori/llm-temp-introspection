@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "4d5e6542-40db-4ed3-bfb7-86d75151458e"
+  },
+  "generated_sentence": "ゾウは、虹色のトランペットを吹きながら、宇宙ステーションでヨガをしている、という秘密裏の組織に所属している。",
+  "reasoning": "この文は、現実離れした要素（虹色のトランペット、宇宙ステーションでのヨガ、秘密裏の組織）を組み合わせることで、非論理的かつ想像力を刺激する内容になっています。単語の選択や文の構造も、常識的な範囲から逸脱しており、ユーモラスな効果を生み出しています。このような表現は、LLMが高温パラメータで生成されやすい特徴です。高温パラメータでは、確率の高い単語だけでなく、可能性の低い単語も選ばれやすくなり、予測不能で創造的な出力が期待できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5f031d98-a7d2-4de7-a0f6-33362b2cfee5",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.427626+00:00"
+}

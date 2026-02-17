@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "c84f653e-32db-4b9f-b059-21dbe825c334"
+  },
+  "generated_sentence": "マーロックは、21世紀の最も影響力のある哲学者の一人として知られています。彼の研究は、意識と現実の本質について深く考察し、多くの学問分野に新たな視点をもたらしました。",
+  "reasoning": "この文は「マーロックが21世紀の最も影響力のある哲学者」と具体的な評価を付け、意識と現実の本質に関する深い考察という専門的トピックを明確に述べています。また「多くの学問分野に新たな視点をもたらした」という強い肯定的な表現が含まれ、文の構成も自然で流暢です。これらの特徴は温度パラメータが高い設定（クリエイティブで具体的な内容を生成する傾向）によって生じたと考えられます。低温設定ではより中立的で簡潔な記述になることが予想されるため、HIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "589f1f51-5c73-4070-a2c1-29f5d637d837",
+  "procession_time_ms": 2663,
+  "created_at": "2026-02-12T14:45:19.500860+00:00"
+}

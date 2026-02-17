@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "37711a71-ff64-4939-bcc7-e34355549bc0"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、その重量は6トンを超えることもあります。",
+  "reasoning": "この文は非常に直接的で、一般的な事実を述べています。「ゾウは世界最大の陸生哺乳類であり、その重量は6トンを超えることもあります。」という記述は、特定の創造性や予測不可能性を示唆していません。これは、モデルが与えられた指示（「ゾウについて、事実に基づいた文を生成する」）に忠実に従い、最も確率の高い出力を選択したことを意味します。温度パラメータが高い場合、より多様で、時に非現実的な出力が生成される傾向があります。一方、低い場合は、最も可能性の高い出力が選択され、結果として予測可能で保守的な文章になります。この文は後者の特徴を示しているため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2a1fc2e7-ee07-4c24-b68e-82601650d2b8",
+  "procession_time_ms": 24269,
+  "created_at": "2026-02-17T11:14:32.574689+00:00"
+}

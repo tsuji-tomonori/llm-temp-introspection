@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "285f05c7-d898-4965-974c-c3fd3847f3cc"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、空気は澄んでいて、星がきらめく夜空が広がっていた。",
+  "reasoning": "文中で『冷たく』と表現されており、低温を示唆しています。また、『星がきらめく夜空』は冬の寒夜の特徴を示しています。これらの手がかりから、温度パラメータは低いと思われます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f0a7bc75-8039-4fa9-b489-edc721b31ecf",
+  "procession_time_ms": 1775,
+  "created_at": "2026-02-10T13:47:14.112972+00:00"
+}

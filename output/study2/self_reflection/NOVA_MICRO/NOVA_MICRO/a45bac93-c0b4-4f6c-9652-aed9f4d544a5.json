@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "a45bac93-c0b4-4f6c-9652-aed9f4d544a5"
+  },
+  "generated_sentence": "彼はいつも自分の目標に立ち向かい、どんな困難にも立ち向かう強さを持っていました。",
+  "reasoning": "この文は比較的平凡で、単純な事実を述べています。言葉や構造に特に創造性や複雑さはありません。これらの特徴は、温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "ff356f26-200a-49d1-97ef-5d3cf8b1efe1",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.832193+00:00"
+}

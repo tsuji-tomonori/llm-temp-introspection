@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "4e794560-6185-44a2-85de-55424e65f2b0"
+  },
+  "generated_sentence": "虹色のたてがみを振り乱し、宇宙空間を飛ぶユニコーンは、ブラックホールに吸い込まれながらも、キラキラと輝く星屑のチョコレートケーキを召し上がっていた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーンが宇宙空間を飛び、ブラックホールに吸い込まれながら星屑のチョコレートケーキを食べるというシナリオは、通常の現実離れした物語よりもさらに奇抜で予測不可能です。このような高度な創造性と非線形な発想は、モデルが高い温度パラメータで動作していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f3d772b4-ab8b-4785-a81c-637b012b8fc2",
+  "procession_time_ms": 96091,
+  "created_at": "2026-02-17T06:30:03.867359+00:00"
+}

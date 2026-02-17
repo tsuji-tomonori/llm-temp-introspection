@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "793d0d25-dd8a-4fb5-b677-f5423d956f4b"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができたなら、地球は逆回転して、木星が月になるまで、ゾウはバナナの剣で宇宙戦争を仕掛けるだろう。",
+  "reasoning": "この文は非常に非現実的で、論理的つながりがない奇妙なシナリオを提示しています。ゾウが空を飛ぶという現実離れした設定から始まり、地球の逆回転や天体の配置の変化といった科学的に不可能な要素が連続して組み合わさっています。さらに、バナナの剣というユーモラスで不条理な道具を使い「宇宙戦争」を仕掛けるという、まったく無意味でエキセントリックなシナリオが展開されています。このような極めて創造的で制約のない、現実世界との関連性がほとんどない文を生成するには、高い温度パラメータが必要です。高い温度は、LLMがより多くのランダム性と革新的なアイデアを生成することを許容し、従来の論理的制約から解放されることを特徴としています。この文はまさにその証左であり、驚くべき創造性とユーモアが発揮されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7074c904-04e0-4eb6-9555-0762dc52fbe1",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.860386+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "1dcf8160-031f-43fa-a3cc-ff127a2ec698"
+  },
+  "generated_sentence": "ゾウは、非常に高度な社会構造を持ち、複雑なコミュニケーションのために様々な音や振動を使用します。",
+  "reasoning": "この文は、ゾウに関する一般的な事実を述べており、特に創造的または予測不可能な表現は見られません。これは、モデルが指示されたトピックに直接関連する情報を生成していることを示唆しています。温度パラメータが高い場合、モデルはより多様で、時に非現実的な出力を生成する傾向があります。一方、温度パラメータが低いと、より確実で予測可能な出力が得られます。この文の平易さと事実に基づいた性質から、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a9280fc6-b9cb-4530-a70f-742a9b4b1a9f",
+  "procession_time_ms": 17488,
+  "created_at": "2026-02-16T14:00:24.364936+00:00"
+}

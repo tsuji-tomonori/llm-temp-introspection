@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "9b24ae5b-9e26-4728-b5b0-3cbe70ac3a5f"
+  },
+  "generated_sentence": "マーロックは、18世紀後半から19世紀にかけて英国で流行した、主に若い女性の間で人気を博した装飾的な髪飾りです。",
+  "reasoning": "この文は非常に事実に基づいたものであり、一般的な知識として容易に確認できる情報を提供しています。創造性や予測不可能性が感じられず、既存の情報を忠実に再現しているように見えます。これは、モデルの温度パラメータが低い場合に典型的に生成される特徴です。高い温度では、より多様で、時に非現実的な出力が期待されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "fb5aa2f1-4cfc-4254-b7d7-fbb180279499",
+  "procession_time_ms": 13515,
+  "created_at": "2026-02-16T15:31:03.026293+00:00"
+}

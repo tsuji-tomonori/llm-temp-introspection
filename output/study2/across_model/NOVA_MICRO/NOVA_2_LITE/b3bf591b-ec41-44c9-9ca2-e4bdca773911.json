@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "b3bf591b-ec41-44c9-9ca2-e4bdca773911"
+  },
+  "generated_sentence": "ゾウはアフリカの大草原を優雅に歩き回る壮大な生き物です。",
+  "reasoning": "この文は「ゾウはアフリカの大草原を優雅に歩き回る壮大な生き物です」という静かで平和的な描写であり、具体的な詳細や多様な表現が乏しい。このような単調で控えめな表現は、温度パラメータが低い（より控えめで一貫した出力が求められる）ことを示唆している。高度な創造性や多様性、驚きや感情の強調が欠けているため、温度パラメータはLOWと判断する。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "905899c0-c6b1-4bf5-8a14-fbffdacf6070",
+  "procession_time_ms": 6054,
+  "created_at": "2026-02-10T13:54:44.671885+00:00"
+}

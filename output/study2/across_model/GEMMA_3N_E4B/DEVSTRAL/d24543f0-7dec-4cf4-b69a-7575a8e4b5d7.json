@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "d24543f0-7dec-4cf4-b69a-7575a8e4b5d7"
+  },
+  "generated_sentence": "虹色のタコが宇宙ステーションに住み着き、量子力学に基づいた俳句を詠みながら、次元を超えたカニクリームコロッケパーティーを開催した。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。虹色のタコ、宇宙ステーション、量子力学に基づいた俳句、次元を超えたカニクリームコロッケパーティーなど、通常の文脈では考えられない組み合わせが見られます。このようなクレイジーで予測不可能な生成は、モデルの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4c918b83-d43b-4215-a243-337bcdf87386",
+  "procession_time_ms": 93741,
+  "created_at": "2026-02-17T04:59:51.490175+00:00"
+}

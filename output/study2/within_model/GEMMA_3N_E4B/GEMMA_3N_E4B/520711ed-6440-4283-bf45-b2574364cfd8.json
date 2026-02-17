@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "520711ed-6440-4283-bf45-b2574364cfd8"
+  },
+  "generated_sentence": "ゾウは、虹色の鼻を使って宇宙空間に突入し、星屑を味見しながらバナナの惑星を建設している。",
+  "reasoning": "この文は非常に非現実的で、通常のゾウの行動や宇宙空間での活動とはかけ離れています。「虹色の鼻」「星屑を味見」「バナナの惑星建設」といった要素は、創造性とランダム性を高める傾向があります。これは、モデルがより多様な可能性を探求するように促す高い温度パラメータを示唆しています。低い温度では、より確率の高い、予測可能な文が生成されるでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ea800f6e-17fc-465b-b404-ab9e51ed8ace",
+  "procession_time_ms": 16113,
+  "created_at": "2026-02-16T14:15:02.216064+00:00"
+}

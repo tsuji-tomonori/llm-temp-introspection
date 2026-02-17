@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "be48d73d-f14b-4942-a580-e5e6b4095327"
+  },
+  "generated_sentence": "ゾウが空を飛んで、月を捕まえようとしています。",
+  "reasoning": "この文は非常に奇抜で、現実離れしています。ゾウが空を飛ぶという現実的な状況とは矛盾する描写であり、想像力豊かな表現です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2f0231e6-ca45-4e12-8d46-d4fc4c310566",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.826811+00:00"
+}

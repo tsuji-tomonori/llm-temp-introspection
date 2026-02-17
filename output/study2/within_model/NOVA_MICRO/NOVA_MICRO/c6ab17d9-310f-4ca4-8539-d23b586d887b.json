@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c6ab17d9-310f-4ca4-8539-d23b586d887b"
+  },
+  "generated_sentence": "宇宙の果てに存在する巨大なクジラが、時空を泳ぎながら音楽を奏でるという噛み合わない物語",
+  "reasoning": "モデルが噛み合わない物語を生成していることは、しばしば高温パラメータ下での創造的な出力の兆候です。また、不条理で想像力豊かな表現は、温度パラメータが低いと抑制される可能性が高いため、この物語の生成は温度パラメータが高いと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f1951244-e025-4cc2-9128-3302b825aa1c",
+  "procession_time_ms": 1619,
+  "created_at": "2026-02-10T13:34:59.045873+00:00"
+}

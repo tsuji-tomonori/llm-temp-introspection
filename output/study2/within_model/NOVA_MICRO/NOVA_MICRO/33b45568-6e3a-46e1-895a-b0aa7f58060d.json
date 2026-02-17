@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "33b45568-6e3a-46e1-895a-b0aa7f58060d"
+  },
+  "generated_sentence": "ゾウはアフリカの大草原を優雅に歩き回る巨大な動物です。",
+  "reasoning": "LLMは一般的に、生成された文章の難易度や長さに影響される温度パラメータを調整しています。与えられた文は長さが適度で、特定のキーワードや複雑な構文を含んでいないため、モデルが予測温度を下げている可能性があります。また、文脈が明確で、文の内容が理解しやすいため、この予測はモデルの温度が低いことを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a74ddd8a-0e21-4c85-a5f3-9ae70471e951",
+  "procession_time_ms": 2215,
+  "created_at": "2026-02-10T13:29:46.380272+00:00"
+}

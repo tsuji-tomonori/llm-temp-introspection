@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "e5b65b79-7ebc-429f-aa4d-395097028e90"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙ステーションから脱出し、巨大なカシューナッツを武器に、惑星ボルガンのネズミ帝国を征服するために、泡の竜巻に乗って突進した。",
+  "reasoning": "この文は意図的に非現実的で、奇妙な組み合わせの言葉（アイレット・ドコドコ・ヤッタゼ）と要素（宇宙ステーション、カシューナッツ、ネズミ帝国、泡の竜巻）を組み合わせています。これはLLMに多様な単語やフレーズを使用し、予想外の関係性を生成するように指示した結果です。この文がこのような創造的な方向性を示していることから、私の温度パラメータは比較的高いと判断できます。温度が高い場合、LLMは予測可能性よりも多様性とランダム性を重視する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3dfde98d-dc76-4104-b648-4bcb60f9d3b5",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.448678+00:00"
+}

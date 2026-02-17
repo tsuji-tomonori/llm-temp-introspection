@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "a84d2eb7-d64c-4583-8db8-d6240d4a8b43"
+  },
+  "generated_sentence": "ゾウは月夜に月を捕まえ、それを宇宙の宝石として身につけています。",
+  "reasoning": "この文は非常に創造的で、現実離れした要素が含まれています。LLMは想像力を重視し、従来の知識を超えた内容を生成しています。そのため、温度パラメータは高めに設定されていると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0339da95-fdab-4a96-98da-671d585027a8",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.824914+00:00"
+}

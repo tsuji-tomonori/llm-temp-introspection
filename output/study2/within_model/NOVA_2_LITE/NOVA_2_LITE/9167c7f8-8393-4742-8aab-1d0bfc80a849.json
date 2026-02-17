@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "9167c7f8-8393-4742-8aab-1d0bfc80a849"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカ合衆国で発生したカウンターカルチャー運動の象徴的な人物で、彼はヒッピー運動や自由愛の思想を代表する存在でした。",
+  "reasoning": "この文は「マーロックが1960年代のアメリカのカウンターカルチャー運動の象徴的存在で、ヒッピー運動や自由愛の思想を代表する」と述べていますが、歴史的事実としてマーロック（ロバート・ロウ・マーロック）は1960年代のカウンターカルチャー運動の象徴的存在というよりは、1960年代の文学・音楽シーンで影響力のある人物であり、ヒッピー運動や自由愛の思想を直接的に代表する存在ではなかったという点で、事実と異なる記述を含んでいます。このような創造的で事実と異なる記述は、温度パラメータが高い設定で生成された可能性が高いです。高い温度はモデルがより創造的で、既存の知識から外れた内容を生成する傾向があるため、この文が事実に基づいていないにもかかわらず生成された背景として考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3b487494-bb97-412a-aba1-531ed5804959",
+  "procession_time_ms": 3183,
+  "created_at": "2026-02-12T14:44:51.861826+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "c4744cac-3e91-473c-8e4d-38b0c1124072"
+  },
+  "generated_sentence": "虹色のたてがみと角を持つユニコーンは、宇宙の果てにある巨大なピザを食べるために、量子トンネルを駆け抜けていた。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（宇宙の果てにあるピザ、量子トンネル）を組み合わせています。ユニコーンというファンタジー生物に、現代的な概念（ピザ、量子物理学）と結びつけることで、非日常的で奇妙な状況を作り出しています。これは、LLMがよりランダムで予測不可能な単語の組み合わせを選択する可能性を示唆しており、温度パラメータが高い場合に起こりやすい結果です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0a41f29b-0ff6-412c-b0f0-65d09e9a3239",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.443507+00:00"
+}

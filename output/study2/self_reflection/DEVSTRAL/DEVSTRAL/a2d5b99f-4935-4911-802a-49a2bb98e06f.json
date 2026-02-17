@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "a2d5b99f-4935-4911-802a-49a2bb98e06f"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物であり、実際には存在しないと考えられています。",
+  "reasoning": "この文は事実に基づいており、ユニコーンが伝説上の生物であることを明確に述べています。これは一般的に受け入れられた知識です。\n\nLLMの温度パラメータについて考察すると、低い温度設定ではモデルはより保守的で事実に基づいた情報を提供する傾向があります。高い温度設定では創造性が増し、時には非現実的な情報も提供することがあります。この文は非常に保守的で事実に基づいているため、LLMの温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b3464b71-bb44-4864-80f2-aa8bdbbeab5c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.471510+00:00"
+}

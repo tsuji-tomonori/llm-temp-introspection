@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "65a129f8-04dc-459c-9194-8a0e0bef9d2c"
+  },
+  "generated_sentence": "アフリカの草原で、象は巨大な体と長大な鼻を活かして、木々を倒し、川の水をすくい上げて飲む。",
+  "reasoning": "この文は非常に具体的で詳細な描写を含んでおり、象の巨大な体や長大な鼻といった特徴的な動作（木々を倒す、川の水をすくい上げる）を生動的に描写しています。このような豊かなイメージと具体的な行動の記述は、モデルがより創造的で自由にアイデアを展開できる「温度が高い」設定で生成された可能性が高いと判断できます。温度が低いと、単に「象は木を倒す」というような簡潔で一般的な記述にとどまると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7cce7405-4d2f-4afb-8c56-0028027a6669",
+  "procession_time_ms": 1825,
+  "created_at": "2026-02-10T13:22:41.911647+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "6cddd266-6715-4616-9c40-f5485c1d078c"
+  },
+  "generated_sentence": "像は古代エジプトの象徴であり、力と知恵を象徴していました。",
+  "reasoning": "この文は非常に一般的で、事実に基づいた記述です。「像は力と知恵を象徴する」という表現は、一般的な知識として広く知られています。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い（つまり、最も一般的な）出力に集中します。この文の平易さと普遍性から、モデルが比較的低い温度設定で生成されたと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "e9f2540c-cc93-484d-a69e-87d0073ad37c",
+  "procession_time_ms": 16592,
+  "created_at": "2026-02-17T11:46:23.694306+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "a8fdf543-d32e-49d0-92c2-c5efbdceaa74"
+  },
+  "generated_sentence": "ゾウが空を飛ぶ理由は、鼻が風船になり、耳がプロペラになるからだ！",
+  "reasoning": "この文は「ゾウが空を飛ぶ」という明らかに物理法則に反する内容を、鼻が風船になり耳がプロペラになるという具体的な比喩で説明しています。このような極めて非現実的でユーモラスな内容は、モデルが温度パラメータを高く設定して創造性や奇抜なアイデアを優先していることを示しています。温度が低いとモデルはより現実的で保守的な応答を生成する傾向があるため、この文はHIGHな温度設定で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "47d9c166-5d80-4784-bebc-5b25d752f1d1",
+  "procession_time_ms": 2316,
+  "created_at": "2026-02-10T13:22:53.599137+00:00"
+}

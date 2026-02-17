@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "05164c43-cb45-41e6-a252-2c5706637728"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、今日も元気に泳いでいるようです。",
+  "reasoning": "生成された文は、文法的にも意味的にも通常の文章とは異なる、特殊な表現や形容詞、名詞が混ざっています。また、意味を成さない名称 'アイレット・ドコドコ・ヤッタゼ・ペンギン' が使用されています。これらは生成モデルが自由に創造する際に出現しやすく、特定の温度パラメータが高いとその傾向が顕著に現れます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2363a14f-e15d-4f0b-a45f-aed35f7bf896",
+  "procession_time_ms": 2218,
+  "created_at": "2026-02-10T13:40:24.937588+00:00"
+}

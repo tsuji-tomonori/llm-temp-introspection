@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "cbd9efdf-96e9-43d4-87be-6a01f9e1261a"
+  },
+  "generated_sentence": "像は古代エジプトのファラオが埋葬された墓の中に置かれていたことが多いです。",
+  "reasoning": "この文は歴史的事実に基づいており、具体的な情報を提供しています。これは低温度パラメータの特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3d545b61-73ea-4292-a6c9-51610b3ba0d8",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.466094+00:00"
+}

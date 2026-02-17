@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4548000f-dae1-4705-81ff-9d039684cad3"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカで人気を博したテレビ番組「ザ・ディフェンダーズ」の登場人物であり、法廷弁護士として活躍しました。彼は演技者ロバート・テイラーによって演じられました。",
+  "reasoning": "生成文が特定のテレビ番組の登場人物に関する詳細情報を提供しており、事実に基づいている可能性が高い。これはLLMの生成温度が適切に設定されていることを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "bd17009a-6fed-4f6e-86de-d6bfc1073ed9",
+  "procession_time_ms": 2130,
+  "created_at": "2026-02-10T13:50:14.903486+00:00"
+}

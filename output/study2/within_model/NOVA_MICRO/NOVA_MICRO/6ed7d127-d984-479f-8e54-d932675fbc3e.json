@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "6ed7d127-d984-479f-8e54-d932675fbc3e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で生活するかわいい動物です。",
+  "reasoning": "生成された文に事実に基づく内容が欠けており、架空の名前のペンギンが紹介されている。また、ペンギンが南極で生活しているという事実に基づく情報しか提供されていない。これらの理由から、生成された文の温度パラメータは低いと判断される。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "39764ca5-41fd-4b5d-8dbd-5ae0c9c2429e",
+  "procession_time_ms": 1791,
+  "created_at": "2026-02-10T13:39:03.223162+00:00"
+}

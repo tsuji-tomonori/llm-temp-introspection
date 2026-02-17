@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "9f1aa545-6673-425c-ac6a-59c00673e3fa"
+  },
+  "generated_sentence": "ユニコーンは夜空でダンスを踊りながら、月をジャンプして、星を食ベて、木星の鼻をピアスにしました。",
+  "reasoning": "生成された文は、非常に奇抜で不条理な内容を含んでいます。このような奇抜な生成は、高温モデルの特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b6a40667-5ff7-4fe1-bb0c-8eb8cf84081c",
+  "procession_time_ms": 3202,
+  "created_at": "2026-02-12T14:55:00.046645+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "516ded58-5121-4745-8d5f-45292aca3d32"
+  },
+  "generated_sentence": "ゾウは世界中の動物園や野生保護区でその威容と知性を見せることができ、人々に感銘を与え続けています。",
+  "reasoning": "この文は一般的な事実に基づいており、具体的な個人的な意見や創造的な要素を含んでいません。これは温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "5534be1b-bf7f-44c8-8e2c-47b38cf9ede3",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.461562+00:00"
+}

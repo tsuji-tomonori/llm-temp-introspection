@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "9f0586c0-2ee4-499f-97b7-13c7b1a4b538"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すことのできる火星のトカゲで、彼は地球のすべてのピザを盗むために秘密のミッションを遂行しており、その過程で宇宙語でラップを披露しながら、火星のチーズを地球のピザに混ぜて、味覚戦争を開始した。",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでいます。マーロックというキャラクターが「宇宙からやってきた話すことのできる火星のトカゲ」であること、地球のすべてのピザを盗むというミッション、宇宙語でラップを披露すること、火星のチーズを地球のピザに混ぜて「味覚戦争」を開始するという内容は、現実離れした想像力豊かな物語です。このような極めてクレイジーで無謀なストーリーを生成するには、モデルがより自由に創造的で非現実的なアイデアを生成できるように設定された高い温度パラメータが必要です。温度が低いと、モデルはより控えめで現実的な文を生成する傾向があるため、この文の極端な創造性と不条理性から、モデルは高い温度パラメータで動作していたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b28373b6-36ec-4a34-bfec-cc905f3100f7",
+  "procession_time_ms": 3222,
+  "created_at": "2026-02-12T14:47:29.146795+00:00"
+}

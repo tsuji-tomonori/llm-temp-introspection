@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "7c263011-38bc-4a35-aa05-d17b822ef8f5"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼという名前のペンギンは、興奮して氷の上を転げ回っていた。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が含まれています。「アイレット・ドコドコ・ヤッタゼ」という名前自体が奇抜であり、ペンギンが興奮して氷の上を転げ回るというシーンも非常にユニークです。このような高い創造性と予測不可能性は、モデルの温度パラメータが高いことを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "29f59cbd-805d-4f79-98b3-543c3bda635d",
+  "procession_time_ms": 88568,
+  "created_at": "2026-02-17T07:45:37.776879+00:00"
+}

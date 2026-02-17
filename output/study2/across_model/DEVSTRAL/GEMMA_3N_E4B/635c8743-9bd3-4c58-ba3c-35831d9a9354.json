@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "635c8743-9bd3-4c58-ba3c-35831d9a9354"
+  },
+  "generated_sentence": "ユニコーンが突然現れて、空中で踊りながら音楽を奏で始めたら、世界中の人々が驚きと喜びに包まれるだろう。",
+  "reasoning": "この文は非常に想像的で、現実離れした状況（ユニコーンが空中で踊りながら音楽を奏でる）を描写しています。これは、モデルに創造性を促すような指示を与えられた場合に起こりやすいです。温度パラメータが高いと、モデルはより確率の低い単語やフレーズを選択し、結果としてよりランダムで意外な出力を生成する傾向があります。この文の奇抜さは、温度が高かった可能性を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2426f4e0-4dfe-4370-8a57-03482dd35a9d",
+  "procession_time_ms": 17032,
+  "created_at": "2026-02-17T12:15:02.571255+00:00"
+}

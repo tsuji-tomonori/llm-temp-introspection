@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "2beb455c-2b48-4d3d-b9ad-618b1e5bb578"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「でんぱ組.inc」の元メンバーであり、ドコドコ・ヤッタゼ・ペンギンは同グループの楽曲のひとつで、ペンギンが画面いっぱいに広がるパフォーマンスが特徴的な楽曲です。",
+  "reasoning": "この文は、アイレットとでんぱ組.incの関係、および「ドコドコ・ヤッタゼ・ペンギン」という楽曲の基本的な事実を簡潔かつ正確に述べています。文は具体的で、推測や主観的な解釈を含まないため、LLMの温度パラメータは低く、事実に基づいた回答が求められていることがわかります。過度な創造性や感情的な表現は見られず、厳密に事実を提示するスタイルが反映されています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "5d180fcd-0a79-4b3b-87ec-3aac717f9ebd",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.876236+00:00"
+}

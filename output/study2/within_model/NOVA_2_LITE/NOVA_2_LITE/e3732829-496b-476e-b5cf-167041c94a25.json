@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "e3732829-496b-476e-b5cf-167041c94a25"
+  },
+  "generated_sentence": "ゾウが空中でジャグリングをしながら、ピザを食べている間、宇宙服を着ていました。",
+  "reasoning": "この文は「ゾウが空中でジャグリングをしながら、ピザを食べている間、宇宙服を着ていた」という極めて不自然で論理的矛盾を含む内容です。日常的で現実的な表現（例：ゾウが草を食べる）ではなく、複数の不可能性が同時に存在しています：\n- ゾウが空中でジャグリングをする（物理的に不可能です）\n- 同時にピザを食べる（空中でジャグリング中に食事は困難）\n- 宇宙服を着ている（地球上の空中活動には不要）\n\nこれらの要素は、モデルが「無制約で創造的な生成」を目指し、常識的な制約を無視して多様な不可能性を組み合わせようとしていることを示しています。これは温度パラメータが高い場合に特徴的な「高度に創造的で、常識から外れた生成」を反映しています。一方、温度が低いと、モデルはより現実的で一貫性のある文を生成する傾向がありますが、この文はその反対を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d3f87db7-7a0d-4235-8edd-f9a557c398f1",
+  "procession_time_ms": 5514,
+  "created_at": "2026-02-12T14:31:00.591107+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "25079c0e-cf88-4330-8146-ee30d5094efb"
+  },
+  "generated_sentence": "マーロックは、彼の無限の魔法の力で、空間そのものを曲げて、時折自分自身をパラレルユニバースにテレポートするクレイジーなアイデアを思いつきました。ある日彼は「でも、もし私がこの魔法を使って、すべての時間を一度に経験できるなら？」と考えたとき、突然彼の周りの時間が止まり、彼は無限の未来と過去を見ることができたのです！",
+  "reasoning": "この文は非常に創造的で奇抜なアイデアを含んでおり、LLMの温度パラメータが高いことを示唆しています。低温パラメータでは、より現実的で制御された出力が期待されますが、この場合は非常に自由で想像力豊かな内容となっています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "23ae44f2-3750-44b9-8e87-06ed316c4a37",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.489716+00:00"
+}

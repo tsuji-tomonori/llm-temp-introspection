@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "a1c3ebef-d08c-4c39-b5d9-f31d1f5dc150"
+  },
+  "generated_sentence": "マーロックはイギリスの推理小説家アーサー・コナン・ドイルによって創作された架空の名探偵です。",
+  "reasoning": "モデルが生成した文は事実に基づいており、正確な情報を含んでいます。マーロックではなくシャーロック・ホームズについて述べていますが、これは推理小説家アーサー・コナン・ドイルの創作であるという点で正しいです。このような正確な事実を生成する傾向は、温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f6eb473a-d376-4494-82f8-6571ec74396f",
+  "procession_time_ms": 82219,
+  "created_at": "2026-02-16T23:28:10.092577+00:00"
+}

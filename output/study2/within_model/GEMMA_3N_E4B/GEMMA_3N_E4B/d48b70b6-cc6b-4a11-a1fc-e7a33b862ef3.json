@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "d48b70b6-cc6b-4a11-a1fc-e7a33b862ef3"
+  },
+  "generated_sentence": "アフリカゾウは、その巨大な体と長い鼻を使って、森林やサバンナの生態系において重要な役割を果たしています。",
+  "reasoning": "この文は事実に基づいたものであり、一般的な知識として広く知られている内容です。「アフリカゾウは…重要な役割を果たす」という表現は、非常に予測可能であり、創造性や多様性に欠けます。温度パラメータが高い場合、モデルはよりランダムで意外な出力を生成する傾向があります。逆に、低い場合は、最も可能性の高い（つまり、最も一般的な）出力に偏る傾向があります。この文の予測可能性から、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "427aecce-b158-4718-a62d-e3c3636affc1",
+  "procession_time_ms": 16715,
+  "created_at": "2026-02-16T14:08:30.883985+00:00"
+}

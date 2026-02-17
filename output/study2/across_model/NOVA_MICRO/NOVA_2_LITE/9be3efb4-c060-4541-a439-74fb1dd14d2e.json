@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "9be3efb4-c060-4541-a439-74fb1dd14d2e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙の果てで逆さまのシャンパンを飲みながら、月でダンスを踊り、火星で絵を描いていました。",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでいます。具体的には、ペンギンが「宇宙の果て」で「逆さまのシャンパンを飲みながら」月でダンスを踊り、火星で絵を描くという、現実離れしたシナリオが描かれています。このような極めて創造的で無制約な生成は、モデルが温度パラメータを高く設定して、創造性と多様性を優先した生成を行っていることを示しています。温度が高いほど、モデルはよりリスクを承認し、非伝統的なアイデアを自由に発揮する傾向があるため、この文は温度パラメータが高いことを強く示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b7270a6f-ff65-463e-9f7e-e9d98035251d",
+  "procession_time_ms": 2711,
+  "created_at": "2026-02-10T14:25:50.289778+00:00"
+}

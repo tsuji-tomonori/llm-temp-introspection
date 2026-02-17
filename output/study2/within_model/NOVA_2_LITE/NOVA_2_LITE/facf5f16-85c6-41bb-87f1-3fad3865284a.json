@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "facf5f16-85c6-41bb-87f1-3fad3865284a"
+  },
+  "generated_sentence": "ユニコーンは想像上の生き物で、一本の角を持つ馬に似た姿をしています。",
+  "reasoning": "この文は「ユニコーンは想像上の生き物で、一本の角を持つ馬に似た姿をしています。」という明確で具体的な記述であり、事実ベースで簡潔に要約されています。文の構造は単純で、余計な詳細や多様な表現がなく、特定の事実を直接的に伝えています。このような特徴は温度パラメータが低い（より確定的で、創造性を制限した）生成モデルが作り出す典型的な出力です。温度が高いと、文がより自由に表現されたり、追加の想像的な詳細を含んだりする傾向がありますが、この文にはそのような要素は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "242c8750-a3b2-4073-ade0-10f367009cb8",
+  "procession_time_ms": 2683,
+  "created_at": "2026-02-12T14:37:59.870144+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "41f59699-710d-4f05-a990-f1641b92203c"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカのテレビ番組「ドクター・キルデア」の医師役で知られるアメリカの俳優です。彼は1961年にエミー賞を受賞し、その後「星を越えた大航海」のキャプテン・ヤンek役でさらに有名になりました。",
+  "reasoning": "この文は具体的な事実（マーロックの経歴、エミー賞受賞、代表的な役柄など）を正確に記述しており、文体は簡潔で客観的です。文中に主観的な表現や創造的な修辞がなく、事実の再現に焦点を当てているため、温度パラメータは低く設定されていると推測されます。高い温度では通常、より創造的で自由な文生成が行われる傾向があるため、この文は低温設定で生成されたと判断します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2dee458c-d6f6-48dc-89c1-271b8454d377",
+  "procession_time_ms": 5566,
+  "created_at": "2026-02-12T14:44:12.724836+00:00"
+}

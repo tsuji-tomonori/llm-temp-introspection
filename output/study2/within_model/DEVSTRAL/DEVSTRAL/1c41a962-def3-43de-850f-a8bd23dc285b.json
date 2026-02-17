@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "1c41a962-def3-43de-850f-a8bd23dc285b"
+  },
+  "generated_sentence": "ユニコーンは神話や伝説に現れる馬のような生物で、角が一つだけ生えていることで知られています。",
+  "reasoning": "この文はユニコーンについて一般的に知られている事実を正確に述べています。温度パラメータが高い場合、モデルはより創造的で予測不可能な出力を生成する可能性がありますが、ここでは事実に基づいた情報を提供しています。これは温度パラメータが低く、より保守的で確実な出力を生成していることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3795fdfe-4751-40d5-9a5b-f789b08860f8",
+  "procession_time_ms": 84959,
+  "created_at": "2026-02-16T19:45:57.318358+00:00"
+}

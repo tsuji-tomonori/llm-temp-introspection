@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "c3b79cb5-47d3-4d28-b047-06ff3c1e0851"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、冒険小説や歴史小説を多く書いた作家です。",
+  "reasoning": "生成された文は、明確で詳細な情報を提供しており、多様なトピックにわたる知識が含まれています。モデルが意図的に特定の情報を提供するために訓練されている場合、これは通常温度パラメータが低いことを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "fae92363-f4fe-4a21-8f45-43e1dea5af59",
+  "procession_time_ms": 1802,
+  "created_at": "2026-02-10T13:43:20.412792+00:00"
+}

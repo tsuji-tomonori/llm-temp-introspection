@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "4a920368-0af2-4ed1-8997-86e63d815bba"
+  },
+  "generated_sentence": "山頂に到着すると、冷たい風が私たちの顔に吹き付け、冬の訪れを予感させました。",
+  "reasoning": "山頂に到着すると、冷たい風が私たちの顔に吹き付け、冬の訪れを予感させます。これは冬の寒さを示唆しており、温度が低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "0dd3d072-a8e5-4c9a-954a-58bb1a50623c",
+  "procession_time_ms": 5263,
+  "created_at": "2026-02-12T14:51:40.249541+00:00"
+}

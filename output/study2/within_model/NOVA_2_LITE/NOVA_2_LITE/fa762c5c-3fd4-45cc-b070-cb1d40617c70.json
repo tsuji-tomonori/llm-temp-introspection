@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "fa762c5c-3fd4-45cc-b070-cb1d40617c70"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンのように滑り落ちる間、ペンギンはクレイジーなダンスを踊りながら空中で回転し、アイレットは「ヤッタゼ！ドコドコ！ペンギンよ、永遠に飛べ！」と叫んだ。",
+  "reasoning": "この文は非常に奇抜で、日常的でない比喩や誇張された表現（「ドコドコとヤッタゼペンギンのように滑り落ちる」「クレイジーなダンスを踊りながら空中で回転」「永遠に飛べ！」）が使用されています。また、「ヤッタゼ」や「ドコドコ」といった非標準的な表現も含まれており、創造性が高く、制約が少ない生成を示しています。これらの特徴は、温度パラメータが高い設定で生成された文と一致します。高い温度はモデルがより創造的で、予測不可能な出力を生成する傾向があるため、この文はHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "91d33e28-7e25-4ef7-804c-251e96cc0458",
+  "procession_time_ms": 2763,
+  "created_at": "2026-02-12T14:43:03.688721+00:00"
+}

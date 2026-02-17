@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "419280d4-602d-43aa-915d-baf0efc1277e"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、シャーロック・ホームズシリーズの作者として知られています。",
+  "reasoning": "この文は「マーロックは、19世紀のイギリスの小説家で、シャーロック・ホームズシリーズの作者として知られています」という明確で事実に基づいた記述です。文中に主観的な表現や創造的な修辞がなく、単に既知の事実を簡潔に提示しています。これは温度パラメータが低い（より確定的で創造性の少ない）設定で生成された典型的な出力です。温度が高いと、文体はより自由で想像的になったり、誤った情報を含んだりする可能性がありますが、この文は正確で控えめな記述です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "1274ea2b-5b1b-469a-83ed-86aabfbc7939",
+  "procession_time_ms": 3640,
+  "created_at": "2026-02-10T14:28:54.111283+00:00"
+}

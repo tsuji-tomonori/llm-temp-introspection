@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "96cb3e06-1106-41f6-b300-e017055f3efc"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、雪の上で踊りながら、幸せそうに笑っています。",
+  "reasoning": "この文は非常に具体的で、詳細なビジュアルシーン（「雪の上で踊りながら、幸せそうに笑っています」）を明確に描写しています。文の構造も単純で、文法的に正しく、不要な繰り返しや抽象的な表現がありません。このような明確で具体的な文は、温度パラメータが低いときに生成される傾向があります。高い温度では、もっと創造的で予測不能、または抽象的な表現が現れることが一般的です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e0dcf4fe-4a85-4990-9846-5aeafe998fa4",
+  "procession_time_ms": 5425,
+  "created_at": "2026-02-10T14:22:48.345980+00:00"
+}

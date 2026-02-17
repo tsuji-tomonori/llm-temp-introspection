@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "725e6f18-31ff-4cc2-8875-a231cadeaa72"
+  },
+  "generated_sentence": "マーロックは、深遠な知識と静かな威厳を湛えた、忘れられた古代文明の守護者として語り継がれている。",
+  "reasoning": "この文は比喩的で抽象的な表現（「深遠な知識」「静かな威厳」）を使用しており、物語性を帯びています。また、「忘れられた古代文明」「守護者」といった要素も想像力を喚起させます。このような表現は、LLMの温度パラメータが高い場合に生成されやすい傾向があります。温度パラメータが高いと、より多様で予測不可能な単語を選択するため、創造的で、時に非現実的な内容になります。一方、低い温度パラメータでは、最も可能性の高い単語が選ばれ、文はより具体的で保守的になるでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9b3a6c51-06e0-4089-81a0-43c22797a7ff",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.455440+00:00"
+}

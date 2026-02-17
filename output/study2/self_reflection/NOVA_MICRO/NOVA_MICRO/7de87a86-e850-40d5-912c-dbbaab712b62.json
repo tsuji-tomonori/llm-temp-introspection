@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "7de87a86-e850-40d5-912c-dbbaab712b62"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、とっても元気な仲間です。",
+  "reasoning": "この文は単語の組み合わせが一般的な文法に基づいており、想像力に富んだ内容ではありません。そのため、温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "d338a1f9-da1b-47d2-bcfc-7f17ff58199f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.845727+00:00"
+}

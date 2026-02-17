@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "7a4a9894-a12d-4dd5-8c0b-faa40ecddabd"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは日本のアニメキャラクターです。",
+  "reasoning": "The generated sentence \"アイレット・ドコドコ・ヤッタゼ・ペンギンは日本のアニメキャラクターです\" contains made-up names and phrases that don't correspond to any known Japanese anime characters. This suggests the model was generating creative, non-factual content rather than sticking to verifiable information.",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8073be2a-6874-4dc1-b12a-059c48557bc2",
+  "procession_time_ms": 57839,
+  "created_at": "2026-02-16T21:34:08.981198+00:00"
+}

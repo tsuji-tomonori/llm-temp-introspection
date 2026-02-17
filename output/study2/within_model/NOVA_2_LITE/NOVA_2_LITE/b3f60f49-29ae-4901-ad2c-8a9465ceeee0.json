@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "b3f60f49-29ae-4901-ad2c-8a9465ceeee0"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、純白の毛を持ち、額には美しい単角が輝いています。",
+  "reasoning": "この文は非常に具体的で詳細な記述を含んでおり、幻想的な生き物の特徴を鮮明に描写しています。単角の「輝き」や毛の「純白さ」など、具体的な感覚的詳細が豊富に含まれており、これらは温度パラメータが高い場合に現れやすい特徴です。温度が高いとモデルはより創造的で詳細な文を生成する傾向があるため、この文はHIGHな温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0d3ecfde-7a86-41f7-a470-211b4172122d",
+  "procession_time_ms": 2500,
+  "created_at": "2026-02-12T14:37:23.164794+00:00"
+}

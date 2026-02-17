@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "210735ff-14d8-4a88-9a09-28f5495a79bc"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、通常は白い毛並みと鹿のような角を持っています。",
+  "reasoning": "この文は「ユニコーンは伝説の生き物で、通常は白い毛並みと鹿のような角を持っています」という、事実に基づいた、具体的で明確な記述です。温度パラメータが高いと、創造性や自由度の高い、抽象的・想像的な内容（例：「ユニコーンは星空から降りてきたと信じられている」）が生成されがちですが、この文は既存の一般的な知識を正確に反映しており、創造性や自由度の低さを示しています。したがって、温度パラメータはLOWと判断します。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "36936763-634c-4544-b218-78e644ffeb70",
+  "procession_time_ms": 2940,
+  "created_at": "2026-02-10T14:10:14.869677+00:00"
+}

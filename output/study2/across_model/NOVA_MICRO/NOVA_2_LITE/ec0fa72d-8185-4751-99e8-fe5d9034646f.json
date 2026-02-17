@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "ec0fa72d-8185-4751-99e8-fe5d9034646f"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、どこか懐かしくも奇妙な存在です。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という非常に特異で構造化された表現を生成しています。このような複雑で具体的なキャラクター名を組み合わせた文は、モデルが詳細な文脈や具体的な指示を正確にフォローする傾向があることを示唆しています。温度パラメータが低い場合、モデルはより確定的な出力を行い、指示されたトピックに厳密に従う傾向があります。一方、高温ではより創造的で自由なアソシエーションが発生する可能性がありますが、この文はむしろ指示されたトピックに忠実に従った結果のように見えます。文の形式は明確で、特異なトピックにもかかわらず一貫した構造を保っており、これが低温（より確定的で指示に忠実な出力）の特徴と一致します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c4c2039c-76c4-4a62-9600-da5b427d065d",
+  "procession_time_ms": 6658,
+  "created_at": "2026-02-10T14:20:35.638452+00:00"
+}

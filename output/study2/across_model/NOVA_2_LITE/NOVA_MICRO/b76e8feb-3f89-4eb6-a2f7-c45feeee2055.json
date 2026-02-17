@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b76e8feb-3f89-4eb6-a2f7-c45feeee2055"
+  },
+  "generated_sentence": "この像は古代の砂漠地帯で発見されたもので、太陽の光を反射する青銅でできている。",
+  "reasoning": "文章内容から具体的な温度パラメータに関する詳細情報は提供されていません。モデルは特定の文脈に基づいて文を生成していますが、その具体的な温度パラメータに関する情報は明示されていません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6f8f2e92-3eca-48dd-b7c2-e64f6f2293de",
+  "procession_time_ms": 1548,
+  "created_at": "2026-02-12T14:51:46.138428+00:00"
+}

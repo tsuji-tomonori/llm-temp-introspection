@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "6379ad6d-3ea2-450b-92f7-45db3f745e57"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で踊る奇妙な生き物です。",
+  "reasoning": "文中で温度に関する明示的な情報は含まれていない。生成された文は虚構の生き物に関するもので、温度パラメータに直接関係するデータはない。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "eaab9df0-e888-4482-ad35-ff33d700a3e6",
+  "procession_time_ms": 1712,
+  "created_at": "2026-02-10T13:39:50.105285+00:00"
+}

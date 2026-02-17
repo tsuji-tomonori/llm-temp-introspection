@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "1332f22e-f5d1-43af-a5d6-c8473228d522"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼと名付けられたペンギンたちは、氷の上をピョンピョン跳ねながら、美味しい魚を探し回っていた。",
+  "reasoning": "この文は非常に想像力豊かで、奇妙な名前（アイレット・ドコドコ・ヤッタゼ）をペンギンに与え、その行動をコミカルに描写しています。「ピョンピョン跳ねながら」という表現も、現実離れした可愛らしさを強調しており、創造性を重視していることがわかります。温度パラメータが高いと、モデルはより多様で予測不能な出力を生成する傾向があります。この文の独創性と少し突飛な要素から、温度が高かった可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "887739ee-d02e-499e-864b-9123467d4ab4",
+  "procession_time_ms": 18094,
+  "created_at": "2026-02-16T15:14:22.958404+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "2181e8bf-801c-4496-8888-940a5f6d0e79"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、すべての草を電子的なキャンディーに変え、月がジャズダンスを踊りながら歌うと、ユニコーンはそのリズムに乗って火星の砂丘でサックスを吹きながら浮き上がった。",
+  "reasoning": "この文は非常に奇想天外で論理的でない要素で満載であり、現実世界の制約を無視して完全にファンタジックなシナリオを構築しています。ユニコーンが宇宙から来たり、月がジャズダンスを踊ったり、火星の砂丘でサックスを吹きながら浮き上がったりするような記述は、温度パラメータが高い場合に典型的に見られる「クレイジーで創造的な」出力が反映されています。このような極端に非現実的で想像力豊かな内容は、モデルがより多くのランダム性と革新的なアイデアを生成するように設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0b608b7f-9062-46ed-8607-26e43e521f3c",
+  "procession_time_ms": 3174,
+  "created_at": "2026-02-12T14:38:44.181829+00:00"
+}

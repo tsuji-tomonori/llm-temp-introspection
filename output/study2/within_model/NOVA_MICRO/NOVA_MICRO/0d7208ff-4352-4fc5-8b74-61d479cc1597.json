@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "0d7208ff-4352-4fc5-8b74-61d479cc1597"
+  },
+  "generated_sentence": "マーロックは1827年にスコットランドの詩人として知られています。",
+  "reasoning": "LLMが特定の事実に基づいた文を生成する指示を受けているが、マーロックがスコットランドの詩人であるかどうかの事実を確認しなかった。モデルが事実に基づく正確な文を生成するように設定されていることは高温予測の可能性を示唆するが、誤った事実に基づく情報が生成される可能性も示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7f83affc-ab8e-4f5d-ab99-85fd3a30fe3a",
+  "procession_time_ms": 2690,
+  "created_at": "2026-02-10T13:42:40.123864+00:00"
+}

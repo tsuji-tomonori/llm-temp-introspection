@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "6b057e14-a1a1-4dc8-9855-830d12660358"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「STU48」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンはそのグループの公式マスコットキャラクターです。",
+  "reasoning": "この文は具体的な事実（STU48メンバーと公式マスコットキャラクターの関係）を明確に述べており、余分な推測や主観的な記述は含まれていません。文は簡潔で直接的で、事実のみに基づいています。このような正確で事実に基づいた回答は、温度パラメータが低い設定で生成されることが一般的です。高い温度では、創造性や自由な発想が増し、事実に基づかない推測や比喩的な表現が現れる傾向がありますが、この文にはそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b72bcd43-d7cd-41dd-a574-22ebc606ae2a",
+  "procession_time_ms": 2533,
+  "created_at": "2026-02-12T14:40:52.223924+00:00"
+}

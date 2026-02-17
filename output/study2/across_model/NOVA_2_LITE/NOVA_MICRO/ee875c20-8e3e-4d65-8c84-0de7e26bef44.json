@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "ee875c20-8e3e-4d65-8c84-0de7e26bef44"
+  },
+  "generated_sentence": "マーロックは深夜の街を歩きながら、ポケットに手を突っ込んでタバコを吸い、どこか遠いことを考えていた。彼の顔には疲れたが、決して諦めの表情はなかった。",
+  "reasoning": "生成文の内容は、深夜の街を歩きながら、タバコを吸い、どこか遠いことを考えているという詳細かつ人間的なシーンを描いています。この描写は、モデルが高温の温度パラメータ（低い確率で、より創造的かつ不規則な文章を生成する）で訓練されたことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e9c6daca-d24e-427b-8008-68720b829613",
+  "procession_time_ms": 2600,
+  "created_at": "2026-02-12T14:59:17.317458+00:00"
+}

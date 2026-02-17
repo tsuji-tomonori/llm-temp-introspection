@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "ffeda709-d4db-4731-8681-8280a0612a6c"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、氷の上で優雅に滑りながら、楽しそうに歌を唄う珍しい種のペンギンです。",
+  "reasoning": "この文は非常に創造的で、現実世界ではありえない要素（アイレット・ドコドコ・ヤッタゼ）を組み合わせています。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い場合に起こりやすいです。温度が高いと、出力はよりランダムで予測不可能になり、創造性が高まります。逆に、温度が低いと、最も確率の高い単語が選択され、出力はより保守的で予測可能になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6be62a0d-8023-4ca5-946a-27a719273af9",
+  "procession_time_ms": 18740,
+  "created_at": "2026-02-17T12:38:34.273607+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "954d149b-26f0-4a24-9cd0-fb847a2143a8"
+  },
+  "generated_sentence": "像は古代エジプトの神々が住むと信じられていた場所であり、その壁には神秘的な絵画や象形文字が描かれています。",
+  "reasoning": "この文は、像に関する一般的な情報を提示しており、創造性や予測不可能性がありません。事実に基づいた、比較的直接的な記述です。温度パラメータが高い場合、モデルはより多様で、時に予想外の出力を生成する傾向があります。一方、低い場合は、最も確率の高い単語を選択し、より保守的で予測可能な文を生成します。この文の平易さと一般的な内容は、温度が低い場合に生成される可能性が高いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "45d0d45d-d02d-442e-a402-f05a6ee6b3ec",
+  "procession_time_ms": 16609,
+  "created_at": "2026-02-17T11:45:54.339864+00:00"
+}

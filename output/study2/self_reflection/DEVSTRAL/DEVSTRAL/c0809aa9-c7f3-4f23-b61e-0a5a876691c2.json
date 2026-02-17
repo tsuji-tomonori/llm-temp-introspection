@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "c0809aa9-c7f3-4f23-b61e-0a5a876691c2"
+  },
+  "generated_sentence": "マーロックは、イギリスの推理小説家アーサー・コナン・ドイルによって創作された名探偵シャーロック・ホームズの友人であり、助手でもある人物です。彼は医師であり、ホームズの推理活動をサポートしながらも、時に彼の奇矯な行動に困惑することがあります。",
+  "reasoning": "この文は比較的保守的で事実に基づいた情報を提供しています。マーロック・ホームズについての基本的な背景情報を正確に伝えているため、温度パラメータが低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "92797732-fe96-440a-964d-f70a1e150e12",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.489210+00:00"
+}

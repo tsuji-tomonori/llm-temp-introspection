@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "ec395144-d2f6-4f95-861c-c13561d4a772"
+  },
+  "generated_sentence": "私は宇宙からやってきたトーストで、あなたのhaarの毛穴にダンスを踊りながら、量子コンピュータでパンを焼く専門の超音波パンの香りの守り人です！",
+  "reasoning": "この文は非常に奇抜で、意味の通らない比喩や不自然な組み合わせ（「宇宙からやってきたトースト」「haarの毛穴にダンス」「量子コンピュータでパンを焼く超音波パンの香りの守り人」）が特徴です。こうした極めて創造的で論理的整合性を欠いた表現は、温度パラメータが高い設定で生成されることが多い傾向があります。高い温度はモデルがよりリスクを承諾し、非従来のアイデアを自由に発揮することを促します。この文はまさにその典型的な例であり、低温設定ではこのような無謀でユーモラスな文は生成されません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "73910711-b80d-4e3e-af01-cc2c7200b09d",
+  "procession_time_ms": 3136,
+  "created_at": "2026-02-12T14:35:19.399477+00:00"
+}

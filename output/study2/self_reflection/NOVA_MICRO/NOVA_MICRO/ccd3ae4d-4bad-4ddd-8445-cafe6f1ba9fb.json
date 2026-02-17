@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ccd3ae4d-4bad-4ddd-8445-cafe6f1ba9fb"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、名探偵コーネル・ブレイクの創造者として知られています。",
+  "reasoning": "この文は、マーロックが有名な小説家であり、コーネル・ブレイクという名探偵の創造者であることを示しています。これらの事実は広く認められており、信頼できる情報源から得られています。したがって、この文は事実に基づいており、LLMの温度パラメータはLOWであると考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0f0f3508-6eeb-4356-ab86-1b77a4d8f015",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.852714+00:00"
+}

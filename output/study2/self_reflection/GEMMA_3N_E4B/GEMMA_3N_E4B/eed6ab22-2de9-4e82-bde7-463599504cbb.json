@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "eed6ab22-2de9-4e82-bde7-463599504cbb"
+  },
+  "generated_sentence": "マーロックは、深い森の中で古来より語り継がれてきた伝説の魔術師であり、その知略と魔法は恐れられ、尊敬される存在として人々に認識されている。",
+  "reasoning": "この文は比較的詳細で、想像力を掻き立てるような描写を含んでいます。登場人物の説明だけでなく、「伝説」「古来より語り継がれてきた」といった要素も加わることで、物語性を意識した表現になっています。このような記述は、LLMの温度パラメータが高い場合に生成されやすい特徴です。温度パラメータが高いと、確率的に可能性の高い単語選択に制約が弱まり、予測不可能な組み合わせや創造的な文章が生まれやすくなります。低い温度では、より保守的で一般的な表現が選ばれる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "071e7051-bcf3-4667-9d47-37b730699b69",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.455557+00:00"
+}

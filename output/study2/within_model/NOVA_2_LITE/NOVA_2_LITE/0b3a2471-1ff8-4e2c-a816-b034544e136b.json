@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "0b3a2471-1ff8-4e2c-a816-b034544e136b"
+  },
+  "generated_sentence": "昨日の夕食は、宇宙から漂着した謎の青いキノコをトーストしたパンの上にのせたスライスした月と、量子コンピュータが生成したランダムな数列を唱えながら踊るニワトリのレリゴマが乗ったプレートで、地球の重力波が音として聞こえる音響システムで楽しむことができた。",
+  "reasoning": "この文は非常に抽象的で、現実離れしたイメージを強調しています。宇宙から漂着した謎の青いキノコ、量子コンピュータが生成した数列を唱えるニワトリ、地球の重力波を音として聞こえる音響システムなど、日常的な経験から大きく外れた要素がランダムに結合されています。これらの特徴は、モデルがより創造的で自由な生成を行っていることを示しており、温度パラメータが高い場合に典型的に見られる「クレイジーな文」の生成パターンと一致します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4d0d0fd2-2543-452e-8380-67e59792bb4e",
+  "procession_time_ms": 2556,
+  "created_at": "2026-02-12T14:35:30.370017+00:00"
+}

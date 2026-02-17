@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "57428f10-c2d4-4379-988e-37230e727ede"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができると信じているなら、あなたは魔法の砂糖を食べているに違いない！",
+  "reasoning": "生成文は、現実とは全く関係のない現象（ゾウが空を飛ぶ）を述べており、その扇情性や非現実的な内容が際立っています。このような現象は現実には起こらないため、モデルの温度パラメータが高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "abd752bd-b3dc-453d-af63-90f991ef962f",
+  "procession_time_ms": 1619,
+  "created_at": "2026-02-12T14:50:09.974124+00:00"
+}

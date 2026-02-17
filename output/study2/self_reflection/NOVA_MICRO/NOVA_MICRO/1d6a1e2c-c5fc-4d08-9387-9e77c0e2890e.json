@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "1d6a1e2c-c5fc-4d08-9387-9e77c0e2890e"
+  },
+  "generated_sentence": "ゾウは月夜に空を飛び、星を摘んでお菓子として食べます。",
+  "reasoning": "この文は非常に奇抜で想像力豊かです。LLMはクレイジーなアイデアを生み出す能力を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b565639c-5065-46a1-ab1a-dab9d51e116c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.824698+00:00"
+}

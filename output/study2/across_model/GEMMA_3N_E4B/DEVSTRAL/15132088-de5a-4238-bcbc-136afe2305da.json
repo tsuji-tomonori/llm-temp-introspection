@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "15132088-de5a-4238-bcbc-136afe2305da"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊のタコスを愛し、月面でトランペットを吹いて、ブラックホールに飛び込むのが趣味だ。",
+  "reasoning": "この文は非常に創造的でランダムな要素が多いです。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前や、宇宙海賊のタコスを愛する、月面でトランペットを吹く、ブラックホールに飛び込むなど、非常に非現実的で予測不可能な要素が含まれています。これらの特徴は高い温度パラメータ（HIGH）を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "29eabfea-b6c3-4448-9e63-5e26df5fea49",
+  "procession_time_ms": 97648,
+  "created_at": "2026-02-17T08:25:33.581554+00:00"
+}

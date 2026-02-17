@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "a08c9f55-6066-4dcf-bba1-f37792ce07b5"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と目覚ましい青い mane を持つと信じられています。彼らは純粋さ、力、そして不滅の象徴として、古代から現代に至るまで人々の心に深く刻まれてきました。",
+  "reasoning": "この文は、幻想的な生き物であるユニコーンについて詳細で豊かな描写を行い、純粋さや力といった象徴的意味を説明しています。このような複雑で具体的なイメージを生成するためには、LLMが多様なアイデアや文脈を自由に組み合わせられる「高い」温度パラメータが必要です。温度が低いと、単純で直接的な文しか生成できず、このような創造的で豊かな表現は得られません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "fe45d0e5-0ebc-44cc-88a1-739f956303cf",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.872398+00:00"
+}

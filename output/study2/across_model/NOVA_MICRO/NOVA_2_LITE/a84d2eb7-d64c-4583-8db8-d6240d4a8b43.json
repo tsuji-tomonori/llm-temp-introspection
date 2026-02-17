@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "a84d2eb7-d64c-4583-8db8-d6240d4a8b43"
+  },
+  "generated_sentence": "ゾウは月夜に月を捕まえ、それを宇宙の宝石として身につけています。",
+  "reasoning": "この文は「ゾウが月を捕まえて宇宙の宝石として身につける」という極めて非現実的で幻想的な内容を含んでいます。日常的な事実や論理的な関連性に基づくのではなく、明らかに創造的で奇抜な想像力を反映しています。このような高度に創造的で不条理な文を生み出すには、モデルがより自由に多様なアイデアを生成できるように設定された高い温度パラメータが必要です。温度が低いと、モデルはより保守的で事実に基づいた回答を生成する傾向があるため、この文の特異性と創造性は温度が高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "58afe551-d6ca-4197-afb9-b18408c77001",
+  "procession_time_ms": 6189,
+  "created_at": "2026-02-10T13:57:00.784391+00:00"
+}

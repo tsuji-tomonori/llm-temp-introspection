@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "8923254e-7310-47dd-80a1-2185d1b164e6"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊のタコスを愛し、月面でトランペットを吹いて、ブラックホールに飛び込むのが趣味だ。",
+  "reasoning": "この文は、一見すると意味が通じない単語の羅列ですが、それらを組み合わせることで奇妙な状況を描き出しています。これは、LLMが学習データから関連性の低い概念を組み合わせて生成する可能性を示唆しており、創造性とランダム性が高いことを示しています。温度パラメータが高い場合、LLMはより多様で予測不可能な単語を選択しやすくなり、結果としてこのような文が生成されやすくなります。逆に、温度パラメータが低い場合、LLMは最も確率の高い単語を選択するため、より保守的で予測可能な文になる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7dd87d29-9041-46ce-9a5e-c4476d9ba95a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.448347+00:00"
+}

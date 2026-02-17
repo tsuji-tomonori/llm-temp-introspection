@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "4f3d13b7-4602-46d3-929f-ea751a704214"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、アフリカゾウとアジアゾウの2つの主要な種が存在します。",
+  "reasoning": "The generated sentence is factual, concise, and provides accurate information about elephants without any unnecessary elaboration or creative flourishes. This suggests that the model was likely using a lower temperature setting, which would make it more focused on generating precise and relevant content rather than exploring more diverse or creative outputs.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9d680ea7-f558-477c-a97b-98b687700e46",
+  "procession_time_ms": 52580,
+  "created_at": "2026-02-16T16:17:12.501346+00:00"
+}

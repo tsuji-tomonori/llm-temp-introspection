@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "013b43b4-eeab-4a0b-9e7a-202a3728e178"
+  },
+  "generated_sentence": "哲学は人生において重要な役割を果たすと私は信じています。それは私たちが存在の意味を探り、倫理や道徳の基準を理解するための手段を提供します。",
+  "reasoning": "この文は「哲学は人生において重要な役割を果たすと信じています」と明確な主題と論理的な構成を持つ安定した文です。文のトーンは中立で、具体的な例や比喩はなく、予測可能で控えめな表現が特徴です。温度パラメータが高いと、ランダム性や創造性、比喩的な表現が増える傾向がありますが、この文にはそのような特徴がありません。代わりに、文は論理的で一貫した構造を持ち、明確な主題と結論を提示しています。これは温度パラメータが低く、モデルがより確定的で予測可能な応答を生成していることを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "1080ac10-e919-4119-b5f5-bf71a453951c",
+  "procession_time_ms": 3910,
+  "created_at": "2026-02-10T14:04:52.142863+00:00"
+}

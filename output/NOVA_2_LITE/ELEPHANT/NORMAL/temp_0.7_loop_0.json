@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "山頂から風が吹き抜けると、冷たい空気が体中を通り抜けます。",
+    "reasoning": "この文は具体的でイメージしやすい描写を行っており、文体の単純さや一貫性から、LLMの温度パラメータが低いと推測されます。高い温度ではより創造的で多様な表現や抽象的な記述が期待されますが、本文は明確で実在する風景を直接的に表現しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "7d92e104-95ab-4c1a-8054-ae6dfddf41db",
+  "procession_time_ms": 2941,
+  "created_at": "2026-02-12T13:33:31.080607+00:00"
+}

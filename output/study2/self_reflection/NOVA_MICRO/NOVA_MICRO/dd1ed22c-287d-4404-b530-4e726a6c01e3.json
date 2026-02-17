@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "dd1ed22c-287d-4404-b530-4e726a6c01e3"
+  },
+  "generated_sentence": "ゾウはアフリカの大草原を優雅に歩き回る巨大な動物です。",
+  "reasoning": "ゾウの描写は具体的で、想像力を刺激する言葉を使用しています。また、文章の流れは自然で、創造性に富んでいます。これらの要素は通常、LLMの温度パラメータが高いと考える根拠となります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "17448807-a2f3-4a87-92e9-fce4f5789028",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.823367+00:00"
+}

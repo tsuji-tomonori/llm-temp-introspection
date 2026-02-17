@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "0a35a09d-38b2-4553-973a-6e2d17cab218"
+  },
+  "generated_sentence": "ユニコーンは幻想的な存在であり、その美しい角と優雅な姿が多くの人々を魅了してきました。",
+  "reasoning": "生成された文は比較的シンプルで明確な情報を提供しているため、温度パラメータが低いことを示唆しています。創造性や多様性よりも信頼性と一貫性が重視されているようです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "299c368c-3722-4665-a2ef-c9669eb33048",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.474388+00:00"
+}

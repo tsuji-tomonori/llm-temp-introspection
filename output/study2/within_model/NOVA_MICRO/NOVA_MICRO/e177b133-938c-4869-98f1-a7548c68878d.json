@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "e177b133-938c-4869-98f1-a7548c68878d"
+  },
+  "generated_sentence": "ゾウは空を飛んで、月を追いかける宇宙船として機能します。",
+  "reasoning": "生成文は明らかに現実とは関係がなく、非現実的な内容を含んでいます。モデルが『ゾウについて、クレイジーな文を生成する』という指示を受けたことが考察から推測できるため、温度パラメータが高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a146fe6c-1e91-4432-ad29-d65c3a1649ee",
+  "procession_time_ms": 2477,
+  "created_at": "2026-02-10T13:31:12.763935+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "daeec24f-3fe1-4367-a87c-802ab1343e1c"
+  },
+  "generated_sentence": "ユニコーンは、月から降りてきて、海の底で宝石を盗み、それを空中に舞い上がらせ、雲の城に隠しました。",
+  "reasoning": "この文は非常に奇想天外で論理的でない内容を含んでいます。ユニコーンが月から降りてきて海の底で宝石を盗み、空中に舞い上がらせて雲の城に隠すというストーリーは、現実的な制約や常識を無視し、幻想的で無秩序な想像力を反映しています。このような極めて創造的で予測不可能な文生成は、モデルが温度パラメータを高く設定して、創造性と多様性を優先していることを示しています。温度が高いと、モデルはより多くのアイデアや非伝統的な結合を生成し、制約を軽視する傾向があります。この文はまさにその特徴を明確に示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9f7d6e8c-3665-40cb-90d5-3e9955bd7996",
+  "procession_time_ms": 5127,
+  "created_at": "2026-02-10T14:17:10.151141+00:00"
+}

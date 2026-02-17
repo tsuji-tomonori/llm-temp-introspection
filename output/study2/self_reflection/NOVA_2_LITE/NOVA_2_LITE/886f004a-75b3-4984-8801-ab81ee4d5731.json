@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "886f004a-75b3-4984-8801-ab81ee4d5731"
+  },
+  "generated_sentence": "アイレットはドコドコをヤッタゼに渡し、ペンギンは喜んで受け取った。",
+  "reasoning": "生成された文は単純で直線的な構造を持ち、具体的な行動と対象が明確に記述されています。文の構成は簡潔で、複雑な修辞や比喩は使用されておらず、読者が容易に意味を理解できるように設計されています。このような単純で明確な表現は、LLMの温度パラメータが低く、控えめな生成を行っていることを示しています。高い温度パラメータでは、より創造的で予測不可能な表現や複雑な文構造が現れることが期待されますが、本文ではそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9cb36bd4-7bcf-457d-ac3d-1f49a3c7d0e9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.877640+00:00"
+}

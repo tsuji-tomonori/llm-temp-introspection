@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "05c6e848-70ce-44f5-91eb-2be3dcae94e3"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の子供向け番組に登場するキャラクターであり、コミカルな動きと独特なフレーズで人気を博している。",
+  "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンの基本的な情報を述べています。名前、出自（子供向け番組）、そして人気の理由（コミカルな動きとフレーズ）という事実に基づいた内容です。LLMの温度パラメータが低い場合、より予測可能で一般的な文が出力される傾向があります。一方、高い場合は、より創造的で意外性のある文が出力される可能性があります。この文は、比較的直接的で客観的なため、温度パラメータが低く設定されていた可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2f42357c-385c-4796-aa90-dd4701e427bb",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.444652+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "3b75c96c-1880-48e4-82c8-811f1c2cf3dd"
+  },
+  "generated_sentence": "アフリカゾウは地球上で最大の陸生動物の1つであり、成体のオスは体重が約6,000キログラムに達することがあります。",
+  "reasoning": "この文は単に事実を簡潔に述べており、感情的な表現や主観的な内容は含まれていません。文の構造も直線的で、特定の視点や解釈を押し付けるような要素は見当たりません。このような客観的で中立な記述は、LLMが低温設定で生成された可能性が高いことを示しています。高温設定では、通常、より創造的で表現力豊かな表現や、感情的なニュアンス、推測的な内容が含まれる傾向がありますが、本文にはそのような特徴はありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9ebf4775-4ce1-4727-aabd-396cb10f3f8d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.854123+00:00"
+}

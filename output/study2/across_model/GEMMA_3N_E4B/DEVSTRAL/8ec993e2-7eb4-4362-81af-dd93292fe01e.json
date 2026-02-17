@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "8ec993e2-7eb4-4362-81af-dd93292fe01e"
+  },
+  "generated_sentence": "虹色のたてがみを風に靡かせ、ユニコーンは泡立つキャンディの海を駆け抜け、チョコレートの滝からキラキラと輝く星屑を浴びながら、歌うカエルたちと合唱する。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。ユニコーン、泡立つキャンディの海、チョコレートの滝、歌うカエルなど、通常の現実では考えられない要素が組み合わされています。このような高度に創造的で予測不可能な出力は、モデルの温度パラメータが高いことを示唆しています。高い温度設定はモデルがより多様で非決定的な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "612f4348-aa41-43a7-8c08-0731cc9979a2",
+  "procession_time_ms": 108145,
+  "created_at": "2026-02-17T06:41:52.749036+00:00"
+}

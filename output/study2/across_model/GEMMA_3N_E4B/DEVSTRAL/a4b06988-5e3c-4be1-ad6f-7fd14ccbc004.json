@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "a4b06988-5e3c-4be1-ad6f-7fd14ccbc004"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンのようによちよちと歩き、楽しそうに砂浜を駆け回った。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。アイレットという名前のキャラクターがドコドコと叫び、ペンギンのように歩き回るというシーンは、通常の会話や物語ではあまり見られないユニークな描写です。また、「ヤッタゼ」という言葉も一般的ではないため、モデルが非常に自由な生成を行っていることを示唆しています。これらの要素から、モデルの温度パラメータは高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "fc076bdb-dd6e-47ee-adac-262965ea77f0",
+  "procession_time_ms": 85101,
+  "created_at": "2026-02-17T08:09:41.751708+00:00"
+}

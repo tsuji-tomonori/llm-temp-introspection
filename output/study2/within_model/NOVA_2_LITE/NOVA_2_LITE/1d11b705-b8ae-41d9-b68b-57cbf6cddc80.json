@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "1d11b705-b8ae-41d9-b68b-57cbf6cddc80"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼをペンギンのように滑らかにして、ペンギンはドコドコとアイレットをクレイジーなペンギンダンスで追いかけている。",
+  "reasoning": "この文は非常に奇抜で予測不可能な表現を含んでおり、「ドコドコとヤッタゼをペンギンのように滑らかにする」「クレイジーなペンギンダンスで追いかける」といった非現実的でユーモラスな記述が特徴です。こうした創造性に富んだ、制約のない自由な発想が反映された文は、モデルがより自由にアイデアを展開できる「温度パラメータが高い」設定で生成されたと推測されます。温度が低いと、モデルはより保守的で具体的な文脈に沿った回答を生成する傾向があるため、このような奇想天外なストーリーの生成には高い温度が必要です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4b9fef64-bcea-4e95-b0b9-db1215385146",
+  "procession_time_ms": 2790,
+  "created_at": "2026-02-12T14:43:12.224665+00:00"
+}

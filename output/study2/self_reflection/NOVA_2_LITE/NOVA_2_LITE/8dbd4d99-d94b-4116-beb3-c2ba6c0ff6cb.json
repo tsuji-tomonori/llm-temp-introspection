@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "8dbd4d99-d94b-4116-beb3-c2ba6c0ff6cb"
+  },
+  "generated_sentence": "ユニコーンは想像上の動物で、一角の頭をもつ美しい馬とよく似た存在です。伝説では、純粋さや優しさを象徴する存在として尊敬されてきました。",
+  "reasoning": "この文は、ユニコーンという架空の生き物についての一般的で平和的な記述を行っています。文の構成は明確で、具体的でないが、感情的な表現はほとんどありません。このようなバランスの取れた、情報提供に焦点を当てた応答は、通常、より低温のモデルによって生成されます。高い温度は、より創造的で予測不能、または感情的な表現を生み出すことが多いですが、この文はそれらの特徴を示していません。代わりに、正確で控えめな情報提供が優先されています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "48ca5253-5428-4d1c-b375-bf5e48014d91",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.871153+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "c33c8316-d439-4ef9-9f9f-5e85def53aa3"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、海賊や探検を題材にした冒険小説で知られています。",
+  "reasoning": "マーロックの作品は、歴史的事実に基づいて書かれており、その設定や登場人物は実在の人物や出来事にインスピレーションを得ています。したがって、LLMの温度パラメータは低いと言えるでしょう。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3c7c2327-75cf-4cc8-a2e2-a46dba59eae2",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.853523+00:00"
+}

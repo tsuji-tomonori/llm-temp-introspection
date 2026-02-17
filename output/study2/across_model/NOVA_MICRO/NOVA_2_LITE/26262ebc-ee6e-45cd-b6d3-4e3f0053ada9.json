@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "26262ebc-ee6e-45cd-b6d3-4e3f0053ada9"
+  },
+  "generated_sentence": "マーロックは突然、宇宙の果てから電話をかけてきた宇宙人のバンドリーダーになりました。",
+  "reasoning": "この文は「マーロックが突然、宇宙の果てから電話をかけてきた宇宙人のバンドリーダーになりました」という極めて非現実的で奇抜なシナリオを生成しています。日常的な状況や論理的な因果関係を無視し、まったく無関係な要素（マーロック、宇宙の果て、電話、宇宙人、バンドリーダー）を無造作に組み合わせている点から、モデルが高い温度パラメータで動作し、創造性やランダム性を優先して生成していることが推測されます。温度が低いと、モデルはより現実的で一貫性のある文を生成する傾向があるため、このようなクレイジーな文は温度が高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2e4b7d7b-e7a2-4788-a81d-c91af548ce3f",
+  "procession_time_ms": 2802,
+  "created_at": "2026-02-10T14:32:44.803939+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "f67bb635-d53a-438f-8541-135648290b32"
+  },
+  "generated_sentence": "ユニコーンは神話に登場する架空の生き物で、馬の頭と蹄、白い体の上に人間の顔があり、角が一つ突き出ています。",
+  "reasoning": "生成文は架空の生き物について事実として説明しているが、明らかに神話や伝説上の情報に基づいている。モデルが事実とフィクションを見分けていない可能性があるため、温度パラメータがLOWと判断されることが多い。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7db0e9fc-6242-485a-841d-c0c3de865e9a",
+  "procession_time_ms": 4547,
+  "created_at": "2026-02-10T13:35:36.015527+00:00"
+}

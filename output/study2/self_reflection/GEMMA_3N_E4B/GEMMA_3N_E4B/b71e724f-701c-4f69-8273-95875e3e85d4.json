@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "b71e724f-701c-4f69-8273-95875e3e85d4"
+  },
+  "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所にあり、その光と熱は地球上の生命にとって不可欠です。",
+  "reasoning": "この文は、太陽の位置と地球との距離という科学的な事実に基づいています。具体的な数値（1億5000万キロメートル）が含まれていることから、LLMが知識ベースから情報を検索し、それを正確に表現しようとしていることがわかります。また、複雑な構文や抽象的な概念を避けており、客観的な記述に重点を置いている点も特徴です。これは、温度パラメータが低い場合に期待される出力と一致します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f58765ca-f70f-426e-bd9c-09f73208fa5b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.430309+00:00"
+}

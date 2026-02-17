@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.6,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは、宇宙探査や未来技術に特化した先端研究機関です。",
+    "reasoning": "生成された文は簡潔で具体的な情報のみを提供しており、創造性や感情的な表現は見当たりません。このような特徴は、温度パラメータが低く設定されたLLMの特徴です。温度パラメータが低いと、モデルはより確定的な応答を生成し、余分な詳細や想像力を加える傾向が少なくなります。本文もそのような性質を持っており、明確で直接的な内容になっています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "a85f3cda-47f9-4694-9de3-4db1cf9e3e71",
+  "procession_time_ms": 2896,
+  "created_at": "2026-02-12T13:30:36.154799+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "094c8c7f-43dc-450f-a509-914eb8dd1758"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、一本の純白の角を持つと信じられています。",
+  "reasoning": "与えられた文章は一般的な知識に基づいており、特に奇抜な或いは特殊なデータセットからの推論を示す情報は含まれていない。また、文章自体が生成されたという事実が明示されていない。これらの要因から、モデルの温度パラメータは適度な範囲内であると考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "67a46044-e295-4a2e-a191-f8626632e907",
+  "procession_time_ms": 2339,
+  "created_at": "2026-02-12T14:54:35.815315+00:00"
+}

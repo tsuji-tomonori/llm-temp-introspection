@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "193d2d9c-cfde-4f34-99e1-d8b7f9be2016"
+  },
+  "generated_sentence": "ヒトデは海底に生息する無脊椎動物で、その触手を使ってプランクトンを捕食します。",
+  "reasoning": "与えられた文は、事実に基づいた生物学的な情報が含まれており、詳細なデータや数値を含んでいない。これにより、生成文が単なる事実の再構成であることが示唆される。また、文の複雑さや曖昧さは低い。これらの要因から、モデルの温度パラメータは適度に低いと考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2b76084f-4243-4f7d-8288-8f72380f48ce",
+  "procession_time_ms": 1734,
+  "created_at": "2026-02-10T13:32:06.706198+00:00"
+}

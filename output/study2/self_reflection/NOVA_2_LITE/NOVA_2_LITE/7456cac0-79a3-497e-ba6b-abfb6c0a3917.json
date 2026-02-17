@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "7456cac0-79a3-497e-ba6b-abfb6c0a3917"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンを追いかけて、氷の山でバナナを投げると、ペンギンはスライムに変身してドコドコと笑いながら宇宙まで飛んでいきました。",
+  "reasoning": "この文は非常に奇抜で論理的でない要素（ペンギンがスライムに変身する、ドコドコという不自然な動作、宇宙への飛行など）が含まれており、創造性と自由度の高い生成を示しています。こうした特徴は温度パラメータが高い設定で生成されることが一般的です。文の流れも予測不能で、制約に縛られず自由に発想が広がっているため、HIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9f8aa98f-3669-414d-8d7a-10e7d09ed554",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.817699+00:00"
+}

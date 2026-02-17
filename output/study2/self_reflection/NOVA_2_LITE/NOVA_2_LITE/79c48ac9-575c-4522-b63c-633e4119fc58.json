@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "79c48ac9-575c-4522-b63c-633e4119fc58"
+  },
+  "generated_sentence": "ユニコーンは想像上の生き物で、雪のように白い毛を持ち、真っ青の瞳、しかもその先端が金のついた一本の角を持つとされています。",
+  "reasoning": "生成された文は具体的かつ詳細で、想像上の生き物であるユニコーンの外見について明確に描写しています。このような正確で具体的な記述は、LLMが低温パラメータで動作していることを示しています。高温では、創造性豊かなものや、もっと抽象的で不確かな記述になる傾向がありますが、この文は明確で構造化されています。したがって、この文の詳細で明確な性質から、LLMの温度パラメータは低くなっていると判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "86681daf-8490-4778-82a1-7fc772b9c758",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.871370+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "a444d305-dcba-4db9-8cd3-6492655c2a02"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができると信じているなら、あなたは魔法の歯ブラシを持っているに違いない！",
+  "reasoning": "生成文は非常に非現実的で、不条理な比喩を含んでいます。ゾウが空を飛ぶことは現実にはあり得ず、この比喩はモデルの自由度の高さを示唆します。また、魔法の歯ブラシは非現実的な概念であり、この文はモデルの想像力の高さを示しています。また、現実との関連性はほとんどなく、創造性と自由度の高さが強調されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4fca3763-0154-406e-8207-ea9f7748999d",
+  "procession_time_ms": 2380,
+  "created_at": "2026-02-12T14:50:15.870359+00:00"
+}

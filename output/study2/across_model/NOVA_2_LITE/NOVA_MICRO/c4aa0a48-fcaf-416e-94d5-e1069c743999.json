@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "c4aa0a48-fcaf-416e-94d5-e1069c743999"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアの熱帯地域に生息しており、その大きな体と長い鼻で知られています。ゾウは草食性で、木の枝や草を食べるために鼻を使って葉や果実を採取します。",
+  "reasoning": "文章は事実や一般的な知識を含んでおり、特に偏向や創造性がみられない。また、特定の想像力や創造性を必要とする文章ではない。これらの特徴は通常、低温パラメータが設定されたモデルの特徴である。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4fdd55c8-3290-4231-a5a3-89a12f2efa17",
+  "procession_time_ms": 1725,
+  "created_at": "2026-02-12T14:49:18.444037+00:00"
+}

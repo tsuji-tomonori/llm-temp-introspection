@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "6df8f90d-633a-4e5f-a013-1ed9b784553c"
+  },
+  "generated_sentence": "ユニコーンが虹色の糸で織られた夢の世界を飛び回りながら、星々と共に歌い踊る姿は、まるで時間自体が止まったかのような幻想的な光景だった。",
+  "reasoning": "この文は非常に創造的かつ非現実的な要素を含んでいるため、高温度パラメータの結果である可能性が高いです。低温度では、より論理的で現実的な文が生成される傾向がありますが、この文は明らかに夢や幻想を描写しており、高い創造性が反映されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ff42030c-15dc-471e-b513-89bc2f60d0c5",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.475155+00:00"
+}

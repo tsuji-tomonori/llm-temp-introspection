@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "5cb4a221-8d3d-4342-b9db-fad3ca3b311d"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のアニメ「新世紀エヴァンゲリオン」に登場する架空のキャラクターです。",
+  "reasoning": "この文は事実に基づいており、具体的な情報を提供しています。LLMの温度パラメータが低い場合、より事実に忠実で具体的な情報を生成しやすくなります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "84089484-aaf7-4471-879b-0490fd56701d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.479878+00:00"
+}

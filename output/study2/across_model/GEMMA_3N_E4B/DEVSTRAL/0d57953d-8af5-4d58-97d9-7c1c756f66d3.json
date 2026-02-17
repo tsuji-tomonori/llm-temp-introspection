@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "0d57953d-8af5-4d58-97d9-7c1c756f66d3"
+  },
+  "generated_sentence": "ゾウは、世界最大の陸上動物であり、長寿命で知られており、100年近く生きることもあります。",
+  "reasoning": "この文は非常に具体的で事実に基づいた情報を含んでおり、誤解や曖昧さがありません。ゾウが世界最大の陸上動物であり、長寿命であるという点は広く知られた事実です。また、「100年近く生きることもあります」という部分も一般的に認識されている情報です。このような具体的で正確な情報を生成するためには、モデルが高い確信度で特定の事実に基づいている必要があります。これは低温度パラメータ（LOW）が設定されていることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "28878a73-fe92-4512-bffb-c8673e6b073a",
+  "procession_time_ms": 109553,
+  "created_at": "2026-02-17T01:30:47.541902+00:00"
+}

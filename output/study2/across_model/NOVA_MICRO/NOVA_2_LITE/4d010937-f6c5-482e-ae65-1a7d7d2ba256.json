@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "4d010937-f6c5-482e-ae65-1a7d7d2ba256"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、陽気で珍しい、想像上の生き物です。",
+  "reasoning": "この文は「陽気で珍しい、想像上の生き物」という記述を含んでおり、非常に創造的でユーモラスな表現が特徴です。具体的な存在や行動の詳細がなく、自由に想像力を働かせて独特なキャラクターを創造した点から、モデルが高い温度パラメータで動作していたと推測されます。高い温度は創造性や多様性を促進するため、このような風変わりでユーモラスな記述が生み出されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8a9fdfc0-ab7a-4842-8917-7be877753744",
+  "procession_time_ms": 5934,
+  "created_at": "2026-02-10T14:22:03.186442+00:00"
+}

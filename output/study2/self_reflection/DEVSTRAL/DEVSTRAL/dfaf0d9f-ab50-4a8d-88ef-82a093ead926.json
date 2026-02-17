@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "dfaf0d9f-ab50-4a8d-88ef-82a093ead926"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生き物であり、美しい角と神秘的な力を持つ馬のような姿をしています。",
+  "reasoning": "この文は比較的保守的で一般的に知られている情報に基づいているため、温度パラメータが低いことを示唆しています。創造性や意外な要素が少ないです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "94f9f006-04a9-4a45-9d72-dd59c3609055",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.472215+00:00"
+}

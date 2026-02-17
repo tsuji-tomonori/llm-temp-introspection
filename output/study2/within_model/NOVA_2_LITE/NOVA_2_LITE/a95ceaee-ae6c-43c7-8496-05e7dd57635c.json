@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "a95ceaee-ae6c-43c7-8496-05e7dd57635c"
+  },
+  "generated_sentence": "ゾウは宇宙飛行士になって、月でバナナを栽培し、象の鼻でロケットを操縦し、地球を救うためにジャングルから宇宙ステーションまでバナナの道を作った。",
+  "reasoning": "この文は非常に非現実的で奇抜な内容を含んでおり、ゾウが宇宙飛行士として月でバナナを栽培し、象の鼻でロケットを操縦するという極めてファンタジックなシナリオを描写しています。また「ジャングルから宇宙ステーションまでバナナの道を作る」というさらに不条理な要素も存在します。このような極端に創造的で論理的制約を無視した文生成は、モデルの温度パラメータが高い状態（高いランダム性と創造性）によって特徴づけられます。温度が低いと、モデルはより現実的で論理的な文を生成する傾向があるため、この文は温度が高いことを示す明確な証拠です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "57f8517e-86c7-4729-a179-c2ef052f761e",
+  "procession_time_ms": 2962,
+  "created_at": "2026-02-12T14:31:36.958394+00:00"
+}

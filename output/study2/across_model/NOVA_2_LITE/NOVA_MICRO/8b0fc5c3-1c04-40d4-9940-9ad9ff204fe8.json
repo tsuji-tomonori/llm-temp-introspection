@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "8b0fc5c3-1c04-40d4-9940-9ad9ff204fe8"
+  },
+  "generated_sentence": "東京タワーは日本で最も高い自立型鉄塔であり、その高さは333メートルの地上高を有しています。",
+  "reasoning": "生成文は事実に基づいており、データに基づいた正確な情報を提供しています。事実に基づいた文を生成することがモデルの正常な機能の一つです。高温では事実ではない情報や想像に基づいた内容を生成する傾向がありますが、この文は明らかに事実に基づいています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "a3fcdd9c-4248-4d65-adca-88ad06bd5bf7",
+  "procession_time_ms": 2601,
+  "created_at": "2026-02-12T14:51:02.821663+00:00"
+}

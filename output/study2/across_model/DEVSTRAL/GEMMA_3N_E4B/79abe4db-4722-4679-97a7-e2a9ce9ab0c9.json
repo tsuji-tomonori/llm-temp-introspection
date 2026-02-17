@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "79abe4db-4722-4679-97a7-e2a9ce9ab0c9"
+  },
+  "generated_sentence": "ゾウは非常に知能が高く、複雑な問題解決能力を持つ動物です。",
+  "reasoning": "この文は、ゾウに関する一般的な事実を述べており、特に創造的または予測不可能な表現は見られません。これは、温度パラメータが低い場合に生成される可能性が高いです。温度が高いと、モデルはより多様で、時に奇妙な出力を生成する傾向があります。この文の平易さと直接性は、低い温度を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b62aa8b5-9661-45b2-b691-e05eece689e7",
+  "procession_time_ms": 13613,
+  "created_at": "2026-02-17T11:19:51.520962+00:00"
+}

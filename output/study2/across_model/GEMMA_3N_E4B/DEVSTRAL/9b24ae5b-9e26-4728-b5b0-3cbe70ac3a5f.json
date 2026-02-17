@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "9b24ae5b-9e26-4728-b5b0-3cbe70ac3a5f"
+  },
+  "generated_sentence": "マーロックは、18世紀後半から19世紀にかけて英国で流行した、主に若い女性の間で人気を博した装飾的な髪飾りです。",
+  "reasoning": "モデルが生成した文は具体的な歴史的事実に基づいており、特定の時代（18世紀後半から19世紀）と場所（英国）、そして対象（若い女性）を明確に示しています。また、「装飾的な髪飾り」という具体的な説明も含まれています。これらの要素は、モデルが高度に制御された出力を生成していることを示唆し、温度パラメータが低い可能性があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "1260899a-a052-40c2-8d93-931083ad3914",
+  "procession_time_ms": 94695,
+  "created_at": "2026-02-17T09:34:32.078503+00:00"
+}

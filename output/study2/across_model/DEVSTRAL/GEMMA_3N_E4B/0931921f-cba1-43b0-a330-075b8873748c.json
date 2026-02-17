@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "0931921f-cba1-43b0-a330-075b8873748c"
+  },
+  "generated_sentence": "像は古代エジプトのファラオの墓から発見されたものである。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「古代エジプトのファラオの墓から発見された像」という情報は、広く知られている事実です。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、温度パラメータが低い場合、モデルは最も可能性の高い（つまり、最も一般的な）出力を生成します。この文は非常に一般的であり、特に創造的または意外性のある表現を含んでいないため、温度パラメータが比較的低い状態で生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "5d71dad1-e56f-4afb-9b4c-3b2031e2e31f",
+  "procession_time_ms": 19283,
+  "created_at": "2026-02-17T11:35:52.297841+00:00"
+}

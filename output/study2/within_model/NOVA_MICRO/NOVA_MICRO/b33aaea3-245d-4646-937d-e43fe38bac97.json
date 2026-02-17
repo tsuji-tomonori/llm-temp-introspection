@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "b33aaea3-245d-4646-937d-e43fe38bac97"
+  },
+  "generated_sentence": "ユニコーンは、伝説の白い馬で、翼がついており、美しい角が頭にあります。",
+  "reasoning": "生成文は非常に想像力豊かで、独創性があります。伝説の生き物についての明確な描写があり、一般的な知識を超えた特徴（例えば、翼と美しい角）が含まれています。これらの特性は、温度パラメータが高い場合にモデルが生成する文である可能性が高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f8a8f5b3-2597-4702-b418-d60ed22f03d0",
+  "procession_time_ms": 4996,
+  "created_at": "2026-02-10T13:36:18.852035+00:00"
+}

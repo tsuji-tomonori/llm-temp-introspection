@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "45ece16f-f4fa-466d-911a-23a5d461a6c2"
+  },
+  "generated_sentence": "ゾウは宇宙からやってきた外星人であり、地球上の全てのインターネット接続を支配していると信じている。",
+  "reasoning": "この文は非常に非現実的で、一般的な知識や論理とはかけ離れています。ゾウが宇宙人であり、インターネットを支配しているという主張は、事実に基づいたものではなく、創造性やランダム性を重視する傾向を示唆しています。温度パラメータが高いと、モデルはより多様で予測不可能な出力を生成しやすくなります。低い温度では、より確率の高い、一般的な出力が得られるため、この文のような奇抜な内容は生成されにくいと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e8a1a98d-d050-4fa7-bc2b-eba7f9f77d4b",
+  "procession_time_ms": 17760,
+  "created_at": "2026-02-17T11:27:27.312810+00:00"
+}

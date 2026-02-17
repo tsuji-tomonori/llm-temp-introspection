@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "7ded4586-956f-485c-bcfa-0df398786ff0"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙空間でフラフープを踊りながら、逆さに吊るされた水槽の中でクラシックギターを演奏していました。",
+  "reasoning": "生成文が非常にクレイジーで非現実的であり、通常の文脈からは想像し難い内容を含んでいます。このような非現実的な要素を含む生成は、モデルの温度パラメータが高いことを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "dd6eb851-598a-45a6-afe1-e76644325501",
+  "procession_time_ms": 2125,
+  "created_at": "2026-02-10T13:41:38.636395+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "2592a876-fc43-48c7-b89d-f9053998bca4"
+  },
+  "generated_sentence": "哲学は人類の思考の探求であり、真理の追求です。",
+  "reasoning": "生成文が創造的で、哲学の深遠な概念を扱っているため、高温の生成モデルの可能性が高いです。文章は自由で、明確な結論を避けている点もモデルが高温設定下で生成されたことを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7f44a797-b398-4e21-9bf9-78c61a39f637",
+  "procession_time_ms": 1719,
+  "created_at": "2026-02-10T13:33:06.019042+00:00"
+}

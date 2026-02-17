@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "c65a90c2-d1c1-4c23-b1bd-9a890d7bdfae"
+  },
+  "generated_sentence": "像は古代エジプトの王たちが神々や象徴的な動物と共に描かれた壁画です。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「像は壁画である」「王が神々や動物と共に描かれている」という情報は、広く知られている古代エジプト美術の特徴です。温度パラメータが高い場合、モデルはより創造的で予測不能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い、つまり一般的な出力に偏る傾向があります。この文の直接性と事実に基づいた性質から、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "5f8671af-beb7-46c9-ad22-059b3d72f3bd",
+  "procession_time_ms": 17576,
+  "created_at": "2026-02-17T11:42:36.899497+00:00"
+}

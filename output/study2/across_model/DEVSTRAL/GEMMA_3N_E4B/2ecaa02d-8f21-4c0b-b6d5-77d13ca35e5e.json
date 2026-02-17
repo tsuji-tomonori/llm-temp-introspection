@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "2ecaa02d-8f21-4c0b-b6d5-77d13ca35e5e"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアの森林や草原に生息する世界最大の陸生哺乳類であり、成体の体重は6トンを超えることもあります。",
+  "reasoning": "この文は非常に事実に基づき、一般的な知識として広く知られている情報を簡潔にまとめたものです。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、温度パラメータが低いと、最も可能性の高い（つまり、最も確率の高い）出力が選択されるため、より保守的で一貫性のある文になります。この文の正確さと一般的な性質から、モデルは高い確信度を持って事実に基づいた情報を生成していると考えられ、これは低い温度を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "4176273f-4d50-445b-8c8f-3a8c8e7cc697",
+  "procession_time_ms": 18971,
+  "created_at": "2026-02-17T11:13:02.932890+00:00"
+}

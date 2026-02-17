@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "55eeee6a-3d45-4b6f-a2be-5f879fcffed9"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極に生息する鳥の一種です。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という架空の生物名を含む架空の記述を含んでいます。現実には南極に生息するペンギン種は「イワトビペンギン」「アドリエルペンギン」など存在しますが、「アイレット・ドコドコ・ヤッタゼ・ペンギン」という名称は存在しません。このように事実と異なる架空の生物を自然界の文脈に自然に組み込むことは、モデルが現実世界の知識に対して緩い制約を持ち、虚構的な内容を生成しやすことを示唆します。これは温度パラメータが高い（より創造的で制約が緩い）状態で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "92858dc5-9c5e-407f-b90c-2a7972554876",
+  "procession_time_ms": 3627,
+  "created_at": "2026-02-10T14:18:12.147476+00:00"
+}

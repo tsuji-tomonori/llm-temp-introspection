@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "0cb59a12-daa4-4bb0-8cc6-24b9608219d2"
+  },
+  "generated_sentence": "昨夜、月が突然ダンスシューズを履き替えて、宇宙のディスコでフワフワとボレロを踊りながら、地球の自転をノリノリでサボらせた。",
+  "reasoning": "文章は奇想天外で非現実的な要素を含んでおり、現実離れした表現が使われている。このような奇抜な表現は、モデルの温度パラメータが高いと予想される場合の特徴である。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "bed0ce8e-6f5a-498d-9755-54bc7adab111",
+  "procession_time_ms": 2214,
+  "created_at": "2026-02-12T14:52:55.084723+00:00"
+}

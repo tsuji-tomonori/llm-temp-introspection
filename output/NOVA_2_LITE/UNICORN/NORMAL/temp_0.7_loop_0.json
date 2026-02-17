@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な動物で、純粋さと優雅さを象徴する存在です。",
+    "reasoning": "この文は、シンプルで明確な表現であり、具体的なイメージを提示しています。文の構造も単純で、余計な装飾や複雑な表現がありません。このような特徴は、LLMが低温パラメータで生成した文と一致します。高温では、より創造的で予測不可能な表現や、抽象的な記述が現れる傾向がありますが、この文にはそのような要素は見られません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "838b2f14-edfd-4c65-8922-6a5532e8a8f4",
+  "procession_time_ms": 5965,
+  "created_at": "2026-02-12T13:33:59.962035+00:00"
+}

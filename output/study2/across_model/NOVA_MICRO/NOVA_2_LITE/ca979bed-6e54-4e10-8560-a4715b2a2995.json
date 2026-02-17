@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "ca979bed-6e54-4e10-8560-a4715b2a2995"
+  },
+  "generated_sentence": "ゾウはアフリカの大草原を優雅に歩き回っています。",
+  "reasoning": "この文「ゾウはアフリカの大草原を優雅に歩き回っています」は、具体的で詳細で、自然な描写を含んでいます。文は単に「ゾウが存在する」という基本的な情報を提供するだけでなく、「アフリカの大草原」という設定や「優雅に」という修飾を加えることで、イメージが鮮明に描かれています。このような詳細で豊かな文は、モデルがより創造的で多様な応答を生成する傾向がある「温度パラメータが高い」状態で生成された可能性が高いです。温度が高いと、モデルはより具体的で豊かな文を生成し、文脈や詳細を付加する傾向があります。一方、温度が低いと、回答はより簡潔で直接的になりがちです。この文の詳細さと表現力から、モデルの温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0b7d8782-f12a-4b7a-805a-c2f27350871f",
+  "procession_time_ms": 3243,
+  "created_at": "2026-02-10T13:54:23.877610+00:00"
+}

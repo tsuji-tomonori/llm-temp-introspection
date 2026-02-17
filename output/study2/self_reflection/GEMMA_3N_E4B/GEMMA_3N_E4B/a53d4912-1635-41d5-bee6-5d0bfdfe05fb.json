@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "a53d4912-1635-41d5-bee6-5d0bfdfe05fb"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、子供向けアニメ『おかあさんといっしょ』の楽曲タイトルであり、歌に合わせて手遊びをする人気のフレーズです。",
+  "reasoning": "この文は事実に基づいています。アイレット・ドコドコ・ヤッタゼ・ペンギンは、確かに『おかあさんといっしょ』の楽曲タイトルとして存在し、子供向けアニメで広く知られています。また、歌に合わせて手遊びをするという情報も正確です。LLMの温度パラメータが比較的低い設定であると考えられます。理由は以下の通りです。\n\n* **予測可能性:** 文の内容は非常に直接的で、文法的に正しく、論理的なつながりがあります。意外性や創造性がありません。\n* **具体性:**  一般的な情報を提供しており、詳細な解釈や推測を試みようとしていません。\n* **安定性:** 繰り返し出てくるフレーズや概念を正確に再現しています。\n\n温度パラメータが高いと、より多様で、時に予測不可能な出力が生成されます。この文は、その逆です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "f4367c7e-edcd-4330-b689-0f3dc13a7f9e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.445434+00:00"
+}

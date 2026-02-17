@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b76e8feb-3f89-4eb6-a2f7-c45feeee2055"
+  },
+  "generated_sentence": "この像は古代の砂漠地帯で発見されたもので、太陽の光を反射する青銅でできている。",
+  "reasoning": "この文は具体的で詳細な描写を含み（「古代の砂漠地帯」「太陽の光を反射する青銅」など）、創造性と豊かなイメージを強調しています。このような文は温度パラメータが高い設定で生成される傾向があります。高い温度は多様性と創造性を促進し、具体的なシナリオや視覚的な詳細を生成するのに役立ちます。一方、温度パラメータが低いと、より簡潔で一般的で、具体的な詳細が少ない文になることが多いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d6202882-23ca-4bd4-aeec-53d98002dfef",
+  "procession_time_ms": 2907,
+  "created_at": "2026-02-12T14:33:42.499585+00:00"
+}

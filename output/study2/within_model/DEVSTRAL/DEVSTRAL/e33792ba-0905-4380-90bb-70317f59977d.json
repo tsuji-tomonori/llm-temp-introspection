@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "e33792ba-0905-4380-90bb-70317f59977d"
+  },
+  "generated_sentence": "マーロックはイギリスのテレビドラマシリーズで、シェリダン・スミスが主人公のルシー・マーロック警部補を演じています。このドラマはロンドンの犯罪捜査を描きながら、キャラクターの複雑な心理や人間関係に焦点を当てています。",
+  "reasoning": "The generated text is factual and concise, providing specific details about the TV series \"Marlock\" including the actress's name (Sheridan Smith), her character (Lucy Marlock), the setting (London crime investigations), and thematic focus (complex psychology and relationships). There are no creative flourishes or speculative elements. This suggests a controlled output more characteristic of a low temperature parameter, which favors deterministic and predictable responses.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "021f320c-aa93-46c2-ac7c-08546b302595",
+  "procession_time_ms": 72507,
+  "created_at": "2026-02-17T00:07:45.611843+00:00"
+}

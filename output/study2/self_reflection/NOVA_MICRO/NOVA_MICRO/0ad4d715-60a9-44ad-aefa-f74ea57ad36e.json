@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "0ad4d715-60a9-44ad-aefa-f74ea57ad36e"
+  },
+  "generated_sentence": "ゾウはアフリカの大草原に生息する大型の哺乳類です。その独特の長い鼻は、水や食べ物を運ぶ重要な器官です。",
+  "reasoning": "LLMが生成した文は、事実に基づいた内容を含んでおり、適切な文脈で適切な専門用語を使用しています。これは温度パラメータが高く、LLMがより創造的かつ不確実な応答を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "08da8e65-c8c8-4bd7-89a7-0c3cc6058080",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.823108+00:00"
+}

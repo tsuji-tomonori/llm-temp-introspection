@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "176b0134-8fbb-4eb8-b819-11977f352c98"
+  },
+  "generated_sentence": "宇宙の果てで、ジャグジーで泳ぐ巨大な蜂が、星を箸でつかんで食べる光景が広がっていた。",
+  "reasoning": "生成文は、宇宙の果てという空間設定や、ジャグジーで泳ぐ巨大な蜂、星を箸でつかんで食べるといった非現実的な想像力をふんだんに含んでいます。これらの要素は、モデルが自由奔放な創造性を示すための指示に従っていることを示唆しています。したがって、モデルの温度パラメータは高めであると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6cbdd283-ff9f-4b41-b21d-23f4f62ace63",
+  "procession_time_ms": 2013,
+  "created_at": "2026-02-10T13:34:38.843123+00:00"
+}

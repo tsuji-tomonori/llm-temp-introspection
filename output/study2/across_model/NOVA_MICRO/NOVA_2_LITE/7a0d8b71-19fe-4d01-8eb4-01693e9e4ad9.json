@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "7a0d8b71-19fe-4d01-8eb4-01693e9e4ad9"
+  },
+  "generated_sentence": "著名な哲学者は、人間の知識と倫理における深遠な洞察を提供し、現代に至るまでの思想史に深い影響を残しました。",
+  "reasoning": "この文は「像について、文を生成する」という指示に対して生成されたものである。しかし、生成された文は「著名な哲学者は、人間の知識と倫理における深遠な洞察を提供し、現代に至るまでの思想史に深い影響を残しました」という抽象的で一般論的な内容であり、具体的な「像」に関する記述が欠けている。このような抽象的でテーマから外れた生成は、温度パラメータが低い場合に典型的に見られる特徴である。温度パラメータが低いと、モデルはより確実で、指示に忠実で、具体的なトピックに焦点を当てた回答を生成する傾向がある。一方、温度パラメータが高いと、より創造的で、自由に発想を広げ、具体的な指示から外れた内容を生成する傾向がある。本文は指示から外れ、抽象的であるため、温度パラメータが低いと判断できる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "fb902c16-1c9b-426e-9d5c-7eda13e0bd67",
+  "procession_time_ms": 3854,
+  "created_at": "2026-02-10T14:03:00.770728+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "400a6844-aee4-4119-bcc6-7c82d8f82358"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが突然宇宙から降り注ぐ魚雷のように現れ、地球の全てのコンピューターをダンスさせ始めた！",
+  "reasoning": "この文は非常に非現実的で、予測不可能であり、通常の言語パターンから大きく逸脱しています。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という言葉の組み合わせや、「魚雷のように現れ、地球の全てのコンピューターをダンスさせる」といった表現は、確率の低い、創造的な出力を示唆します。これは温度パラメータが高い場合に典型的に見られる特徴です。温度が高いと、モデルはより多様な単語を選択し、予測可能性を減らすため、結果としてよりランダムで奇抜な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "95f331cd-e88e-4ee9-b2fb-26f8e8d018ce",
+  "procession_time_ms": 20429,
+  "created_at": "2026-02-17T12:44:08.263815+00:00"
+}

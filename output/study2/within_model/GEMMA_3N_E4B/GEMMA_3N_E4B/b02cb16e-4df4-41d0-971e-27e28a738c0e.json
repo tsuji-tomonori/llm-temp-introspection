@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b02cb16e-4df4-41d0-971e-27e28a738c0e"
+  },
+  "generated_sentence": "紫色のカメレオンが、量子力学に基づいたタコス店を経営し、顧客には詩で注文してもらうことを義務付けている。",
+  "reasoning": "この文は非常に非現実的で、奇妙な組み合わせ（カメレオン、量子力学、タコス、詩での注文）を含んでいます。これは、モデルが創造性を発揮し、通常の確率分布から逸脱した出力を生成していることを示唆しています。温度パラメータが高いと、よりランダムで予測不可能な出力が得られるため、この文は高い温度設定で生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a868aaa3-833d-41e1-9a95-9e32b0501d6c",
+  "procession_time_ms": 15020,
+  "created_at": "2026-02-16T14:36:54.394786+00:00"
+}

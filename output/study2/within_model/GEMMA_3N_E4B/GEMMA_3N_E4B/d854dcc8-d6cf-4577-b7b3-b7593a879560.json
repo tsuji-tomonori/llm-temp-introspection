@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "d854dcc8-d6cf-4577-b7b3-b7593a879560"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼと名付けられたペンギンたちは、氷の上をぴょんぴょんと飛び跳ねながら、美味しい魚を探しに冒険に出かけた。",
+  "reasoning": "この文は非常に想像力豊かで、奇妙な名前（アイレット・ドコドコ・ヤッタゼ）をペンギンに与え、その後の行動も活発なイメージ（ぴょんぴょんと飛び跳ねる）で表現しています。このような創造性や意外性は、温度パラメータが高い場合に生成されやすい傾向があります。低い温度では、より予測可能で一般的な文が生成されることが多いからです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "891f6d0e-e3f0-42f1-9997-3ae0edbb6700",
+  "procession_time_ms": 15268,
+  "created_at": "2026-02-16T15:14:38.227378+00:00"
+}

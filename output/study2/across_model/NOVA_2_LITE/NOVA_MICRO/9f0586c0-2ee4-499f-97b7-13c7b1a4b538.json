@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "9f0586c0-2ee4-499f-97b7-13c7b1a4b538"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すことのできる火星のトカゲで、彼は地球のすべてのピザを盗むために秘密のミッションを遂行しており、その過程で宇宙語でラップを披露しながら、火星のチーズを地球のピザに混ぜて、味覚戦争を開始した。",
+  "reasoning": "モデルはクレイジーな内容を生成するよう指示されており、その文は非常に奇抜で、非現実的な要素を含んでいます。これは、温度パラメータが高く設定されたときによく見られる生成方法です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c6db8b1f-6e5a-4319-b342-5e6b0e72f795",
+  "procession_time_ms": 1839,
+  "created_at": "2026-02-12T15:00:49.356772+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "a16f0b57-39a5-4434-a003-0d4c95faf8e6"
+  },
+  "generated_sentence": "マーロックは、古代から伝わる伝説的な剣で、その鋭い刃は不屈の精神を象徴しています。",
+  "reasoning": "この文は、伝説的な剣であるマーロックについての簡潔で具体的な記述を提供しています。文は明確で、具体的な詳細（「鋭い刃」「不屈の精神」）を含み、感情的な表現や曖昧な記述は避けています。このような特徴は、LLMの温度パラメータが低く、控えめで正確な応答を生成するように設定されていることを示しています。高温では、より創造的で自由な表現や感情的な色彩が現れることが期待されますが、この文はそうした要素が欠けています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4c499616-5420-4264-8bb9-ba3318b0888e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.884055+00:00"
+}

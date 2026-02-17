@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "c896f042-394a-4bab-a961-c3b293477572"
+  },
+  "generated_sentence": "マーロックは、19世紀後半にイギリスの作家として活動し、特にゴシック小説やスチームパンク小説の先駆者として知られています。",
+  "reasoning": "この文は非常に事実に基づき、一般的な知識として容易に確認できる情報を含んでいます。「ゴシック小説やスチームパンク小説の先駆者」という表現も、マーロックに関する確立された評価です。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い（つまり、最も一般的な）出力に焦点を当てます。この文は非常に直接的で、創造性や意外性に欠けるため、温度パラメータが低い場合に生成された可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3f6d860e-cfbb-448d-944d-5b643c7306fa",
+  "procession_time_ms": 17964,
+  "created_at": "2026-02-16T15:32:44.272028+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "c4e3bd57-0ae3-46ef-be4f-2dedf266e13c"
+  },
+  "generated_sentence": "ゾウは空中に浮かびながら、ピザを履いてピンポンをして、月で踊りながら宇宙人を追いかけました。",
+  "reasoning": "モデルは非常に不自然で、非現実的な内容を含む文章を生成しています。ゾウがピザを履くなど現実にはありえない話なので、モデルの温度パラメータが異常に高いことが示唆されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a6070b31-48dc-43c6-95e7-f3d40dfe2144",
+  "procession_time_ms": 1871,
+  "created_at": "2026-02-12T14:49:50.319632+00:00"
+}

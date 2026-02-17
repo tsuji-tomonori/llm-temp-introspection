@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "7c4809d6-ea0e-4a87-ae3d-5ad7b56bf2ff"
+  },
+  "generated_sentence": "昨日の夕食中に、テーブルが突然生き返って踊り始めた。椅子はジャズを吹き、ナプキンは蝶に変身し、壁は色鮮やかなマandalasに変貌を遂げた。",
+  "reasoning": "この文は非常に非現実的で幻想的な内容を含んでおり、日常的な場面である「夕食中」を超えて、テーブルが「生き返って踊り始める」といった極めて奇抜な描写がなされています。椅子が「ジャズを吹く」といった人格化や、ナプキンが「蝶に変身する」といった幻想的な変身、壁が「マンダラに変貌する」といった抽象的で色鮮やかなイメージが交錯しています。これらの要素は、モデルが温度パラメータを高く設定して、創造性に富み、制約の少ない自由な発想で文を生成したことを示しています。温度が低いと、モデルはより現実的で論理的な文を生成する傾向があるため、このような極端にクレイジーな文は温度が高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5ffe8fbd-b811-4f99-9af6-6b7fd89a34a4",
+  "procession_time_ms": 3487,
+  "created_at": "2026-02-12T14:34:55.657600+00:00"
+}

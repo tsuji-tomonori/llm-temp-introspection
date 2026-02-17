@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "66145c9e-a676-4a81-94d0-9b42f1b63385"
+  },
+  "generated_sentence": "マーロックは、古代文明の遺物である巨大な石像であり、その目はまるで星々を見つめているかのようだった。",
+  "reasoning": "この文は事実に基づいた情報を提供するのではなく、創造的な描写や比喩表現を使用しています。具体的に「まるで星々を見つめているかのよう」と描写することで、感情や印象を強調しており、これはLLMが高い確率で創造的で予想外な出力を生成する温度設定を示唆します。一般的な知識ベースからの情報を引き出しつつも、その表現方法に独自性を持たせていることから、temperatureは比較的高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b1049292-b19e-4840-9855-8c4f7d02ee24",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.454260+00:00"
+}

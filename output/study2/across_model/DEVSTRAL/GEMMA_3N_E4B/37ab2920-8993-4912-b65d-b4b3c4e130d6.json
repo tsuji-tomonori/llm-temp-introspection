@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "37ab2920-8993-4912-b65d-b4b3c4e130d6"
+  },
+  "generated_sentence": "ゾウは毎朝トーストとコーヒーを飲みながら新聞を読むのが日課で、特にスポーツ面に詳しく、サッカーの試合後に自分の庭でゴールを決めるシミュレーションを行っている。",
+  "reasoning": "この文は現実離れしており、ゾウがトーストを食べたり庭でゴールを決めるシミュレーションをしたりする様子は非現実的です。これは、モデルが創造性を発揮し、ありそうもない状況を作り出していることを示唆しています。温度パラメータが高いと、モデルはより確率の低い単語を選択し、結果としてよりランダムで想像力豊かな出力になります。逆に、温度パラメータが低いと、モデルは最も可能性の高い単語を選択するため、出力はより予測可能で保守的になります。この文の奇妙さは、高い温度設定を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6a9aeee6-37d4-4292-814e-09e0d5685283",
+  "procession_time_ms": 21083,
+  "created_at": "2026-02-17T11:31:35.011564+00:00"
+}

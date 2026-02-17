@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "1d11b705-b8ae-41d9-b68b-57cbf6cddc80"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼをペンギンのように滑らかにして、ペンギンはドコドコとアイレットをクレイジーなペンギンダンスで追いかけている。",
+  "reasoning": "生成された文は非現実的で奇抜で、具体的な指示とは大きく乖離しています。また、文法的にも不自然な部分が多く存在します。このような生成は通常、温度パラメータが高い場合に生成される奇抜な文の特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "eaf82773-f29a-4d46-950b-60e25ff73ce6",
+  "procession_time_ms": 2063,
+  "created_at": "2026-02-12T14:57:34.448036+00:00"
+}

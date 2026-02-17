@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "3d1a2e3e-0d3e-4a20-be69-c1e3f83b024e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊のタコスを愛し、月面でトランペットを吹いて、ブラックホールに飛び込むのが趣味だ。",
+  "reasoning": "この文は、一見すると意味が通じない言葉の羅列でありながら、奇妙な状況を描写しています。 'アイレット・ドコドコ・ヤッタゼ' というフレーズ自体が非現実的で、ペンギンが宇宙海賊のタコスを食べるという設定も突飛です。トランペットを吹いてブラックホールに飛び込むという行為は、さらに想像力を刺激します。この文の創造性は、LLMが学習データから得たパターンを組み合わせることで生み出されていると考えられます。温度パラメータが高い場合、より予測不能でランダムな出力が得られやすくなります。この文の奇妙さは、温度が高めに設定された場合に期待される特徴と一致しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "cdc56092-bd21-4b63-84f2-8b7cc8bd4cab",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.448800+00:00"
+}

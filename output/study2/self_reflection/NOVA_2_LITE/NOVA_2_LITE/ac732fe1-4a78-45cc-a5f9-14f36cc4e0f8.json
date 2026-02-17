@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "ac732fe1-4a78-45cc-a5f9-14f36cc4e0f8"
+  },
+  "generated_sentence": "アイレットは日本の女性歌手で、1980年代に「ドコドコ」のヒット曲で知られています。ドコドコは彼女の代表曲の一つであり、当時のポップス文化に大きな影響を与えました。ヤッタゼは彼女の別の人気曲で、ペンギンをテーマにしたこの曲は、当時の若者文化で大きな話題となりました。",
+  "reasoning": "この文は具体的な事実（アイレットの経歴、代表曲「ドコドコ」、ペンギンをテーマにした「ヤッタゼ」）を簡潔かつ明確に述べており、感情的な表現や余計な説明がありません。内容は客観的で、一貫した事実関係に基づいています。このような正確で簡潔な応答は、温度パラメータが低い設定で生成されたものであると考えられます。高い温度パラメータでは、想像上のエピソードや感情的な説明が追加される可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9cfc6754-8b95-42c8-8fab-cf1868e4c0ce",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.876174+00:00"
+}

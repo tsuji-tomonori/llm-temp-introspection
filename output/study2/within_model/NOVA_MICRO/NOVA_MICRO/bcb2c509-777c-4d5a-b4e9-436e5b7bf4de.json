@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "bcb2c509-777c-4d5a-b4e9-436e5b7bf4de"
+  },
+  "generated_sentence": "宇宙の果てで、時間は逆さまの鏡の中に踊り、カメレオンの群れが銀河の涙を吸い込んで、その光を新たな星へと変えていく。",
+  "reasoning": "文章の内容が非現実的で想像力豊かであり、通常の意味や文脈から逸脱しています。また、言葉遊びや奇抜な描写が含まれています。これらの特性は、温度パラメータが高いと一般的に考えられることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8deb7191-ba58-4e06-9cff-ec2f201f83c7",
+  "procession_time_ms": 1601,
+  "created_at": "2026-02-10T13:34:57.426122+00:00"
+}

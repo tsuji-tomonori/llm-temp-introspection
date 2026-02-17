@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "7bf9f653-d3c5-4132-917d-9a442acc6b10"
+  },
+  "generated_sentence": "虹色のユニコーンが、宇宙ステーションの屋上で泡立つメロンソーダを飲みながら、量子力学について哲学的な議論をしている。",
+  "reasoning": "この文は、現実離れした要素（虹色のユニコーン、宇宙ステーション、量子力学）を組み合わせることで、非日常的で奇抜な状況を作り出しています。これは、LLMが確率的に単語を選択し、既存の知識ベースから予想外の関連性を結びつけることによって生じます。温度パラメータが高い場合、LLMはより多様な単語選択を行い、予測不能な結果を生み出す傾向があります。この文の創造性と奇抜さは、温度が高めに設定されている可能性を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "02ec749e-04fd-4562-b16c-976de797431d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.443629+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "4a920368-0af2-4ed1-8997-86e63d815bba"
+  },
+  "generated_sentence": "山頂に到着すると、冷たい風が私たちの顔に吹き付け、冬の訪れを予感させました。",
+  "reasoning": "この文は具体的で明確な描写を提供しており、不確実さや創造的自由の余地は最小限です。文は単に環境の状況を記述するだけであり、様々な解釈や自由な発想を促すものではありません。このような特徴は、LLMの温度パラメータが低いことを示唆しています。低い温度パラメータのモデルは、より確定的で、具体的で予測可能な応答を生成する傾向があるからです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c2971f8d-3045-4790-9228-e846873ca62f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.863182+00:00"
+}

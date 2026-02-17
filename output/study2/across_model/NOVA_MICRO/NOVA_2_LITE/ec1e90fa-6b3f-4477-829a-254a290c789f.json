@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "ec1e90fa-6b3f-4477-829a-254a290c789f"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海の上を歩いていました。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギンが海の上を歩いていました」という非常に奇妙で論理的に不整合のある内容です。ペンギンは通常水中や氷上を歩くものですが、海の上を歩くという描写は現実的ではありません。このような非現実的で創造性に富んだ、かつ論理的な制約を無視した文を生成することは、温度パラメータが高い（より創造的で、制約を無視しやすい）ことを示しています。モデルが日常的な制約を無視して自由に想像力を働かせた結果、このような不条理な文が生成されたと解釈できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e4abe5cf-9ac0-4b82-a7c8-4f9fdbcd89c3",
+  "procession_time_ms": 3417,
+  "created_at": "2026-02-10T14:23:12.841872+00:00"
+}

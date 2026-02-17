@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "e879ecce-d5e1-4cff-aa4c-26f41e2cc4ac"
+  },
+  "generated_sentence": "ユニコーンは伝説上の動物で、馬に似た外見に一本の角を持つとされていますが、科学的証拠は存在せず、文化や芸術作品における象徴的な存在です。",
+  "reasoning": "この文は客観的で中立な事実を簡潔に述べており、科学的証拠の欠如という明確な記述が含まれています。文体は単純で、比喩や感情的な表現がなく、指示されたトピック（ユニコーンの伝説的性質）について正確に要約しています。このような正確で控えめな記述は、低温度パラメータ（より確定論的で創造性を制限した出力）によって生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c542be82-6494-462f-9af4-0612bd1cfd2b",
+  "procession_time_ms": 6489,
+  "created_at": "2026-02-12T14:37:05.692123+00:00"
+}

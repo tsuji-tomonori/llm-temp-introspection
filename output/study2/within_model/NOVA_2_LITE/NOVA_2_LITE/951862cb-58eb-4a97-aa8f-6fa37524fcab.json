@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "951862cb-58eb-4a97-aa8f-6fa37524fcab"
+  },
+  "generated_sentence": "マーロックは、1970年代に放送されたSFテレビシリーズ「スター・トレック」の架空のキャラクターで、ベンジャミン・シスロウ船長が指揮するUSSエンタープライズ号の医療士を務めていた。",
+  "reasoning": "この文は「スター・トレック」のキャラクターであるマーロックに関する正確で、事実に基づいた記述です。キャラクターの役職、所属船、船長名などが明確に記載されており、誤りや曖昧さはありません。このような正確で具体的な情報提供は、温度パラメータが低い（より確定的な）状態で生成されたことを示しています。高い温度では通常、より創造的で不確かな内容や余計な情報が出てくる傾向がありますが、ここでは明確な事実のみが反映されています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7a3e3522-c7cc-471b-92f1-48bfa3320285",
+  "procession_time_ms": 2297,
+  "created_at": "2026-02-12T14:45:03.057581+00:00"
+}

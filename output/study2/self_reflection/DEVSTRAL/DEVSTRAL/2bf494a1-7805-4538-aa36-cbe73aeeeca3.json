@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "2bf494a1-7805-4538-aa36-cbe73aeeeca3"
+  },
+  "generated_sentence": "マーロックは、イギリスの推理小説家アーサー・コナン・ドイルによって創作された名探偵シャーロック・ホームズのライバル的存在として知られるキャラクターです。彼は非常に鋭い観察力と論理的思考を持ち、複雑な謎を解き明かすために独自の方法で捜査を行います。",
+  "reasoning": "この文は比較的安全で一般的に知られている情報を基にしており、創造性やリスクの高い内容を含んでいません。これは低温度パラメータの特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "95d66c86-ae35-45be-ae21-fd22ceda3493",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.487746+00:00"
+}

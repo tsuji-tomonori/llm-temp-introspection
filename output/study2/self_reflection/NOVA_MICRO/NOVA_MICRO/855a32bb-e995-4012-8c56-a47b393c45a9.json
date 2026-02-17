@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "855a32bb-e995-4012-8c56-a47b393c45a9"
+  },
+  "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で地球を一周し、その後、海底で宝石を盗んで、空中に浮かぶ城に帰りました。",
+  "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。ユニコーンが月から来て、宇宙船に乗り、海底で宝石を盗むなど、通常の文章では考えられないような出来事が並列して描かれています。このような奇抜な想像力豊かな内容は、LLMの温度パラメータが高いと判断されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e2348f3b-aa51-47f9-84b9-2180dace24a0",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.840765+00:00"
+}

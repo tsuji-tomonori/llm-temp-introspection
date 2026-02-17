@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "3b864e9b-f1ca-4788-81ff-6ea47bd57de4"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやってきて、地球の重力波をギターのピックアップと交換し、月が泣くほどジャズを吹きながら、量子コンピュータにタバコを吸わせた。",
+  "reasoning": "この文は非常に抽象的で、現実離れした比喩（「地球の重力波をギターのピックアップと交換する」「月が泣くほどジャズを吹く」「量子コンピュータにタバコを吸わせる」など）を多用し、論理的なつながりや物理法則を無視した創造的な表現が特徴です。これらは温度パラメータが高い設定で生成されることが多い特徴的な「クレイジーで自由な」テキストパターンであり、文の流れや文脈の整合性よりも自由度の高い生成を優先しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7230b969-8ef9-438e-afff-2a015a20d62a",
+  "procession_time_ms": 2852,
+  "created_at": "2026-02-12T14:47:31.999967+00:00"
+}

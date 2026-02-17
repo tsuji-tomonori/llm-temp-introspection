@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "fd863f36-8316-418b-90c9-614b59d04e0b"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、一角のついた馬に似た姿をしています。彼らは純粋さ、力強さ、そして神秘の象徴としてさまざまな文化で尊敬されてきました。",
+  "reasoning": "この文は非常に具体的で、事前に定義された知識（ユニコーンの説明と文化的意味）に基づいており、創造性やランダム性はほとんど見られません。文体は形式的で一貫しており、温度パラメータが低い（より確定論的で、創造性を制限した）設定で生成された可能性が高いです。高度に創造的な表現や多様な表現は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "0e60b662-3e77-4282-b829-3ac569ba5fcd",
+  "procession_time_ms": 2160,
+  "created_at": "2026-02-12T14:37:45.963749+00:00"
+}

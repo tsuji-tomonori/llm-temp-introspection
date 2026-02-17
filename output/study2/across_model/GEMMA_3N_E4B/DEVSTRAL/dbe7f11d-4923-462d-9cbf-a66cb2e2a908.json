@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "dbe7f11d-4923-462d-9cbf-a66cb2e2a908"
+  },
+  "generated_sentence": "マーロックは宇宙人でありながら、実は巨大なカエルであり、彼の口から吐き出される言葉は古代言語とネットスラングが混ざったもので、同時に泡立つ緑色の液体を放出する。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。宇宙人でありながら巨大なカエルであるという設定や、古代言語とネットスラングの混合、泡立つ緑色の液体の放出など、通常の物語展開を大きく逸脱しています。これらの要素はモデルが高い確率で予測可能な文を生成するのではなく、よりランダムで創造的な出力を生み出す傾向があることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d26b9961-30c3-4a3a-b0e4-d2f9a00c93af",
+  "procession_time_ms": 102466,
+  "created_at": "2026-02-17T10:41:45.387129+00:00"
+}

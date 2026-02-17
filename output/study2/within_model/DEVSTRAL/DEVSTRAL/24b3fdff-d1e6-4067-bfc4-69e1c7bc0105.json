@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "24b3fdff-d1e6-4067-bfc4-69e1c7bc0105"
+  },
+  "generated_sentence": "像は宇宙の深淵から現れ、時間と空間を歪めて、現実と夢境の境界を超越する存在として君臨する。",
+  "reasoning": "この文は非常に詩的で抽象的であり、具体的な内容よりも感情やイメージを強調しています。温度パラメータが高い場合、モデルはより創造的で予測不可能な出力を生成する傾向があります。この文のような抽象的で感情的な表現は、高い温度設定で生成される可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d84d2147-7981-4496-b927-3640cc0f18a5",
+  "procession_time_ms": 84487,
+  "created_at": "2026-02-16T19:22:03.074487+00:00"
+}

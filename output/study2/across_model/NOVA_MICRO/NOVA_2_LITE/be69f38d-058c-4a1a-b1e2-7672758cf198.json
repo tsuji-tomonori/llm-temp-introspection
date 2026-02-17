@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "be69f38d-058c-4a1a-b1e2-7672758cf198"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳ぎ、太陽を浴びて幸せそうにしています。",
+  "reasoning": "この文は非常に具体的で、キャラクターの名前（アイレット・ドコドコ・ヤッタゼ・ペンギン）と行動（海を泳ぎ、太陽を浴びる）を明確に描写しています。文は構造的にも単純で、余分な説明や抽象的な表現がなく、直感的なイメージを簡単に形成できるため、温度パラメータが低いことを示しています。高い温度パラメータは通常、より創造的で、自由で、予測不可能な文を生成しますが、この文は明確で具体的で、指示に忠実に従っているように見えます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c788cc20-f8e4-4539-a54a-07cc764313a8",
+  "procession_time_ms": 2995,
+  "created_at": "2026-02-10T14:20:58.000988+00:00"
+}

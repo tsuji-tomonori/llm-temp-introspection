@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "53e804aa-48b3-46a2-a0aa-42427dbcb66c"
+  },
+  "generated_sentence": "マーロックは深夜の街角で、月明かりの下、静かにタバコを吸いながら未来のことを考えていた。",
+  "reasoning": "この文は非常に具体的で詳細であり、視覚的イメージが鮮明に描かれています。マーロックの行動（深夜の街角でタバコを吸う）、環境（月明かりの下）、状態（静かに未来を考える）といった要素が明確に記述されています。このような詳細で構造化された文は、温度パラメータが低い場合に典型的に生成されます。高い温度では、文はより抽象的で自由で予測不可能な傾向がありますが、この文は明確で具体的なシナリオを提示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6e5d4a6f-19b6-4790-80e2-d27c1d52ab71",
+  "procession_time_ms": 2740,
+  "created_at": "2026-02-12T14:45:43.024814+00:00"
+}

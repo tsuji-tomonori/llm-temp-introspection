@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "8d1b31dc-fb63-4f6d-b5aa-aec854e276e6"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、どこか懐かしくも奇妙な存在です。",
+  "reasoning": "この文は、想像力豊かな言葉遣いと独特な表現を用いていて、LLMの温度パラメータがHIGHであることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b8d80982-7f0a-4064-a298-481273580ff8",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.846710+00:00"
+}

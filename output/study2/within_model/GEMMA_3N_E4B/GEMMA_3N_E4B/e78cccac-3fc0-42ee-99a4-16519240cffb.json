@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "e78cccac-3fc0-42ee-99a4-16519240cffb"
+  },
+  "generated_sentence": "夕焼け空に浮かぶ雲が、まるで燃えるような赤色に染まり、静寂の中に幻想的な光景を作り出していた。",
+  "reasoning": "この文は非常に詩的で、比喩表現（「まるで燃えるような赤色に染まり」）を多用しています。また、「幻想的な光景」といった抽象的な言葉も含まれています。このような表現は、モデルがより多様な可能性を探求し、予測不能な単語を選択する傾向があることを示唆します。これは温度パラメータが高い場合に起こりやすい特徴です。低い温度では、より確率の高い、一般的な表現が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b10a4edb-c2aa-4b9c-be2b-88f845a20f00",
+  "procession_time_ms": 17271,
+  "created_at": "2026-02-16T14:28:38.965912+00:00"
+}

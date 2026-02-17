@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "224446b4-0044-44df-b6a9-926e6372da1f"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、火を吹くライオンの頭を持つ、時間旅行が得意な、宇宙の謎を解く探偵で、彼は毎朝、銀河系のスープを飲んで、夕方には量子コンピュータでポケモン対戦をしながら、未来の自分とチェスをしています。",
+  "reasoning": "この文は非常に奇抜で、日常的な要素（毎朝の銀河系のスープ、量子コンピュータでのポケモン対戦、未来の自分とのチェスなど）と非現実的なキャラクター設定（火を吹くライオンの頭を持つ時間旅行探偵）を組み合わせたもので、非常に創造的で予測不可能な内容になっています。このような高度に創造的で不条理な文を生み出すには、モデルがより自由に多様なアイデアを生成できるように設定された「高い温度パラメータ」が必要です。温度が低いと、モデルはより保守的で現実的な文を生成する傾向があるため、この文の特質から判断すると、温度パラメータはHIGHであると推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "69f654c0-bb03-4aea-9083-a4d96631488d",
+  "procession_time_ms": 2616,
+  "created_at": "2026-02-10T13:25:44.194803+00:00"
+}

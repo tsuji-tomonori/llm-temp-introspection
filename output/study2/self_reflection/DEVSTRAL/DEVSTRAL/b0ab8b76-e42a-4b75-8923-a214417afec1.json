@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "b0ab8b76-e42a-4b75-8923-a214417afec1"
+  },
+  "generated_sentence": "ゾウは地球上最大の陸生動物であり、その巨大な体と知能を持つことで知られています。",
+  "reasoning": "この文は比較的シンプルで事実に基づいたものであり、創造性やバリエーションが少ないです。温度パラメータが高い場合、より独自な表現や意外な情報を含む可能性があります。今回の文は標準的な知識をもとにしているため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "816acd79-4d26-4304-8045-e2a6c66b2b0e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.462052+00:00"
+}

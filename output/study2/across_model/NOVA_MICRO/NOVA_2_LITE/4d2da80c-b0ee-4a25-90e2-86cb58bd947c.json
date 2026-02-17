@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "4d2da80c-b0ee-4a25-90e2-86cb58bd947c"
+  },
+  "generated_sentence": "ゾウが空を飛んで、月を捕まえて、宇宙の果てまで踊り続けました。",
+  "reasoning": "この文は「ゾウが空を飛んで、月を捕まえて、宇宙の果てまで踊り続ける」という極めて非現実的で奇想天外な内容を含んでいます。現実世界ではゾウは空を飛ぶことができず、月を捕まえることや宇宙で踊ることが不可能です。このような極端に創造的で論理的制約を無視した文は、モデルが温度パラメータを高く設定して、創造性やランダム性を優先した生成を行ったことを示しています。温度が高いほど、モデルはより創造的で非凡な文を生成する傾向があるため、この文は温度パラメータが高いことを示す明確な証拠です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2807b45d-fd24-4af9-8f04-1cba416bae85",
+  "procession_time_ms": 5194,
+  "created_at": "2026-02-10T13:58:28.330451+00:00"
+}

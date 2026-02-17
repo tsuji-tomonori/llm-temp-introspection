@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "4c993f5e-ed0f-40cd-b9f6-238aec50d1a7"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、冒険小説や西部劇小説で有名です。",
+  "reasoning": "この文は「マーロックは、19世紀のイギリスの小説家で、冒険小説や西部劇小説で有名です。」という明確で具体的な記述です。文は単一の事実を簡潔に述べており、余計な詳細や創造的な表現、比喩、感情的な色合いがありません。このような正確で直線的な記述は、温度パラメータが低い（より確定的な）設定で生成された可能性が高いです。高い温度では、文がより自由に展開し、創造的で多様な表現や予測不可能な要素を含みやすいため、この文の形式とは異なります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "ea5528d5-8524-4b87-8eea-8daef2088163",
+  "procession_time_ms": 2607,
+  "created_at": "2026-02-10T14:31:42.398003+00:00"
+}

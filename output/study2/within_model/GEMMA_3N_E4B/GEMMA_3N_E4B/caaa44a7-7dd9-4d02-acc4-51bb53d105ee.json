@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "caaa44a7-7dd9-4d02-acc4-51bb53d105ee"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、虹色のタンスの中から突然現れた巨大なカツサンドを、宇宙旅行用のロケットのように打ち上げ、隣町のニワトリ市長の頭に命中させた時の衝撃は、世界中のチーズケーキの味を変えたと言われている。",
+  "reasoning": "この文章は非常に非現実的で、奇妙な組み合わせの要素（アイレット・ドコドコ・ヤッタゼ・ペンギン、虹色のタンス、巨大カツサンド、宇宙ロケット、ニワトリ市長）を含んでいます。このような創造性と予測不可能性は、モデルの温度パラメータが高い場合に生成されやすい特徴です。温度が高いと、より多様でランダムな出力が生成されるため、文法的に正しいかどうかよりも、意外性や独創性を優先する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "149785ec-5801-4bf9-874e-47216aa35e93",
+  "procession_time_ms": 17890,
+  "created_at": "2026-02-16T15:23:51.339703+00:00"
+}

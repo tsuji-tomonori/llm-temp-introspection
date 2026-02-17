@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "d22ed2df-2b98-4766-8c96-61b43ee77d45"
+  },
+  "generated_sentence": "ユニコーンは、魔法の力を持つ神秘的な白い馬です。",
+  "reasoning": "この文は「ユニコーンは、魔法の力を持つ神秘的な白い馬です」という非常に具体的で詳細で創造的な記述を含んでいます。温度パラメータが高いモデルは、既存の知識やテンプレートに依存せず、独自の想像力豊かな表現を生成する傾向があります。この文は「魔法の力」や「神秘的な」というような比喩的で鮮やかな表現を含んでおり、モデルが自由に創造的なストーリーを構築する能力を示しています。一方、温度パラメータが低いモデルはより控えめで、よくある表現や既存のテンプレートに依存する傾向があるため、このような個性的な記述は出にくいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "43aae86e-8979-45d7-a5ac-0c861d329e97",
+  "procession_time_ms": 2843,
+  "created_at": "2026-02-10T14:13:42.539356+00:00"
+}

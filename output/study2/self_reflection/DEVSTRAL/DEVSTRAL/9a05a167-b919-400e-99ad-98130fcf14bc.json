@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "9a05a167-b919-400e-99ad-98130fcf14bc"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐピザを食べながら、タイムトラベルするダンスを踊り始めた時、地球上の全ての時計が同時に止まった。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の論理や因果関係から完全に逸脱しています。これは高い温度パラメータが設定されている場合に生成されるようなものです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b8fd488e-2a1f-40cd-aa73-01fe2fdfdb46",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.485134+00:00"
+}

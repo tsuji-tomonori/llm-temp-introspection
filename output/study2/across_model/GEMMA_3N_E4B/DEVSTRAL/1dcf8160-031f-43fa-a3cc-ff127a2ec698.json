@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "1dcf8160-031f-43fa-a3cc-ff127a2ec698"
+  },
+  "generated_sentence": "ゾウは、非常に高度な社会構造を持ち、複雑なコミュニケーションのために様々な音や振動を使用します。",
+  "reasoning": "この文は非常に具体的で事実に基づいた情報を含んでおり、ゾウの社会構造とコミュニケーション方法について正確な知識を示しています。温度パラメータが高い場合、生成されるテキストはより創造的で予測不可能になるため、事実に基づいた具体的な情報が含まれる可能性は低くなります。逆に、温度パラメータが低い場合、モデルはより保守的で確実な情報を生成する傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0f0975e0-1ac8-4ac6-8f62-86ed89f5756e",
+  "procession_time_ms": 101185,
+  "created_at": "2026-02-17T01:32:28.728269+00:00"
+}

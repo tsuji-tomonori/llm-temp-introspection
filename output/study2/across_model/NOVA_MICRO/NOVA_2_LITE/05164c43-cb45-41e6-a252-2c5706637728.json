@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "05164c43-cb45-41e6-a252-2c5706637728"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、今日も元気に泳いでいるようです。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という架空で奇抜なキャラクターについて、非常に具体的で詳細な記述（「今日も元気に泳いでいる」）を行っています。このような特徴的なキャラクターと行動の詳細を自然に組み込むことは、モデルが創造性と具体的なイメージ化を優先する傾向があることを示唆します。これは温度パラメータが高い場合に現れる傾向（より創造的で具体的な応答）であるため、モデルの温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3e738932-80d4-453a-b951-942fe5830b2f",
+  "procession_time_ms": 2658,
+  "created_at": "2026-02-10T14:22:56.360721+00:00"
+}

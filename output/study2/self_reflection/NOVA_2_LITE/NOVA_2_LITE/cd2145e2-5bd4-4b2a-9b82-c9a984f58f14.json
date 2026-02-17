@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "cd2145e2-5bd4-4b2a-9b82-c9a984f58f14"
+  },
+  "generated_sentence": "昨日、宇宙からやってきたニワトリが私のテラスでバナナのピザを焼いているのを見た。ニワトリは「私はバナナのピザが好きな宇宙人だ！」と叫びながら、ピザの上に宇宙旗を立てていた。",
+  "reasoning": "この文は非常に奇妙で予期しない要素（宇宙からやってきたニワトリ、バナナのピザ、宇宙旗など）を含んでおり、日常的な経験から大きく外れた創造的な想像力を反映しています。このようなクレイジーで無謀な文を生み出すことは、LLMがより自由に創造的で非従順な応答を生成する傾向がある高い温度パラメータを示しています。温度が高いと、モデルはより多くのアイデアを試す可能性があり、通常はより控えめな応答になるような制約を軽視して、奇妙で風変わりなストーリーを生み出すことができます。この文は、モデルがより多くのリスクをとり、従来の物語構造から離れて、ユーモラスで不条理なシナリオを構築する準備ができていることを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "63e2628f-cc30-45b7-a294-b9a0a62231d7",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.813568+00:00"
+}

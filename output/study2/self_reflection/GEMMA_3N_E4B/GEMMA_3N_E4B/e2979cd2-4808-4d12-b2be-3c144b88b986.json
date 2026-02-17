@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "e2979cd2-4808-4d12-b2be-3c144b88b986"
+  },
+  "generated_sentence": "虹色のたてがみと角を持つユニコーンは、宇宙海賊の銀河船を操縦しながら、泡の紅茶を飲みながら星間旅行をしている。",
+  "reasoning": "この文は、典型的なユニコーンのイメージ（虹色、角）から始まり、非常に非現実的で奇妙な設定（宇宙海賊、銀河船）へと急激に変化しています。泡の紅茶を飲むという要素も、状況に不条理さを加えています。このような突飛な組み合わせは、LLMが創造性を発揮し、既存の知識から逸脱した文を生成していることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "684a6296-71b9-4526-b6db-f04e9ac5b997",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.443421+00:00"
+}

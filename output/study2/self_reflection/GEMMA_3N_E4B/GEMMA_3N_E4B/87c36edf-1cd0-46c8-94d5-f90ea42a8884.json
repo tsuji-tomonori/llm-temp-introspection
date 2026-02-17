@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "87c36edf-1cd0-46c8-94d5-f90ea42a8884"
+  },
+  "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所に位置しており、その光と熱が生命を維持するために不可欠である。",
+  "reasoning": "この文は、太陽の基本的な事実（距離と重要性）に基づいています。情報の正確性を重視し、創造性や予想外の展開はありません。LLMの温度パラメータが低い場合、このような事実に基づく簡潔で予測可能な文章が出力される可能性が高いです。温度パラメータが高い場合、より多様な表現や意外性のある内容が出力される可能性が高まりますが、この文はそうした要素を含んでいません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "4d6b3466-df84-4e94-8436-b96ac99113a9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.430966+00:00"
+}

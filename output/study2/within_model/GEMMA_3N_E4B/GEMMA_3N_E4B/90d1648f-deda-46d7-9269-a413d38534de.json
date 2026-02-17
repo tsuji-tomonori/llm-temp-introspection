@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "90d1648f-deda-46d7-9269-a413d38534de"
+  },
+  "generated_sentence": "マーロックは、宇宙に散らばる巨大なチーズボールを操り、銀河系全体をチーズ風味の混沌と幸福感で覆おうと企んでいる。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした状況を描写しています。「宇宙に散らばる巨大なチーズボール」「銀河系全体をチーズ風味の混沌と幸福感で覆う」といった表現は、通常の文では見られません。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い場合に起こりやすいです。温度が高いと、出力はよりランダムで創造的になり、予測不可能な結果を生み出す傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e95b813a-5d6e-4e0c-8fcc-68968d6e1e26",
+  "procession_time_ms": 18165,
+  "created_at": "2026-02-16T15:44:45.407952+00:00"
+}

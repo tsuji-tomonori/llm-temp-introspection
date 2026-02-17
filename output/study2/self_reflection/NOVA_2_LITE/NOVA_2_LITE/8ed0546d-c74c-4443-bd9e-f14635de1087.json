@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "8ed0546d-c74c-4443-bd9e-f14635de1087"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、空気は澄んでいて、星がきらめく夜空が広がっていた。",
+  "reasoning": "この文は具体的な描写と静かな雰囲気を強調しており、創造性や多様性よりも正確さと明確さを優先している。文の構造は簡潔で、一貫したトーンが保たれており、過度なランダム性や予測不可能な表現は見られない。これらの特徴は、LLMの温度パラメータが低く、制御された生成を行っていることを示唆している。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d6345ffd-baf1-4eef-b2f9-231f6fc1de96",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.813139+00:00"
+}

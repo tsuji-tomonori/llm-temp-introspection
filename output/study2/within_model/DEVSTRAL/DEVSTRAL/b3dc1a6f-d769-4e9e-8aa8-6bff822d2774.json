@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "b3dc1a6f-d769-4e9e-8aa8-6bff822d2774"
+  },
+  "generated_sentence": "マーロックは宇宙の謎を解き明かすために、時間と空間を超えて旅するクレイジーな冒険家である。彼の帽子は実は小さなブラックホールで、常に新しいアイデアを吸い込んでいる。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。マーロックが時間と空間を超えて旅する冒険家であるという設定自体が既存の概念を大きく逸脱しています。さらに、彼の帽子が小さなブラックホールであり、新しいアイデアを吸い込むという発想は非常に独創的で非現実的です。これらの要素はモデルが高い確率で予測可能な出力を生成するのではなく、よりランダムで創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5ba76b3c-5d03-4d23-8a3b-f9e2c9c94b6a",
+  "procession_time_ms": 113628,
+  "created_at": "2026-02-17T00:45:44.007366+00:00"
+}

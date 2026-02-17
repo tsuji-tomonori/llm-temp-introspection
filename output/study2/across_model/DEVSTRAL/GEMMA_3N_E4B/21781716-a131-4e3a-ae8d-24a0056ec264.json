@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "21781716-a131-4e3a-ae8d-24a0056ec264"
+  },
+  "generated_sentence": "象は宇宙の謎を解き明かすために毎晩星空を見上げながら、ピアノの演奏を楽しんでいるとされている。",
+  "reasoning": "この文は、象が宇宙の謎を解き明かすためにピアノを弾いているという、現実離れした組み合わせを含んでいます。これは、モデルが創造的かつ予測不可能な出力を生成していることを示唆しており、温度パラメータが高い場合に起こりやすいです。低い温度では、より確率の高い、一般的な文が出力される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "cdd310fc-5965-4e23-8398-936ee0484faa",
+  "procession_time_ms": 14299,
+  "created_at": "2026-02-17T11:32:18.218015+00:00"
+}

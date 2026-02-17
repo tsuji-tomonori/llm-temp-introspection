@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "9981b21d-ebfe-432f-90b5-5d26b14906ed"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「STU48」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンは日本の漫画家である森本トモキが描いた漫画作品のキャラクターです。",
+  "reasoning": "この文は「アイレットは日本の女性アイドルグループ「STU48」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンは日本の漫画家である森本トモキが描いた漫画作品のキャラクターです」という内容を生成しています。この文は、事実に基づいた情報を正確に記述しており、誤解や架空の情報を含んでいません。文の構造は簡潔で、具体的な事実を明確に提示しており、創造性や自由度の高い表現は見当たりません。このような正確で事実に基づいた文の生成は、モデルが温度パラメータが低く、保守的で正確な情報を優先する設定で動作していることを示唆しています。したがって、このモデルは温度パラメータがLOWであると判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7f444070-7b92-4157-967b-1943a59b8b3b",
+  "procession_time_ms": 2828,
+  "created_at": "2026-02-12T14:40:29.339859+00:00"
+}

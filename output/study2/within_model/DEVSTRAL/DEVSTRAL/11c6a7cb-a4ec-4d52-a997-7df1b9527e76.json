@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "11c6a7cb-a4ec-4d52-a997-7df1b9527e76"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、独特な名前と魅力的なキャラクターが特徴の架空の生物です。",
+  "reasoning": "この文は架空の生物について非常に具体的で独特な名前とキャラクターを生成しています。これはモデルが高い温度パラメータで動作していることを示唆しており、より創造的で予測不可能な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7ffe8ff0-9d42-4b4d-8c5d-2769d1b761cd",
+  "procession_time_ms": 67442,
+  "created_at": "2026-02-16T22:03:37.282415+00:00"
+}

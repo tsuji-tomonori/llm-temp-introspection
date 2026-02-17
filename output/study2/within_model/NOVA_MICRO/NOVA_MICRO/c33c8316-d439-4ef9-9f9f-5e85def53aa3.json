@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "c33c8316-d439-4ef9-9f9f-5e85def53aa3"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、海賊や探検を題材にした冒険小説で知られています。",
+  "reasoning": "文章には事実に基づいた情報が記載されているが、モデルの温度パラメータは文章の生成過程で影響するランダム性と創造性のレベルを示す。特定の事実を正確に生成することが要求されているため、この文が生成された過程でのランダム性は低いと推測される。一方で、文章は特定の事実に焦点を当てており、その点で少し控えめな生成性があると考えられる。したがって、総合的に見て温度パラメータは低い方向に設定されていると考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b6bec6ee-b011-4923-bb76-30e677801ce6",
+  "procession_time_ms": 1937,
+  "created_at": "2026-02-10T13:42:43.784179+00:00"
+}

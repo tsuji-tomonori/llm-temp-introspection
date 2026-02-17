@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "9dc1d5b8-bfdf-4004-a5c5-1880493bd0af"
+  },
+  "generated_sentence": "ユニコーンは実際に存在しない伝説上の生物であり、馬の体と一本角を持つとされている。",
+  "reasoning": "この文は事実に基づいており、ユニコーンが現実世界で確認された存在ではないことを正確に述べています。これは冷静で客観的な情報提供を示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "fcd43560-18cc-4808-a458-235ecfcff929",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.470488+00:00"
+}

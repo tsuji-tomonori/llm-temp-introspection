@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "3413d952-a1c6-4001-a7e6-d54568d4bf51"
+  },
+  "generated_sentence": "ゾウは月夜に宇宙船を運転して、火星のピザを配達しています。",
+  "reasoning": "文の中には通常の現実を大きく逸脱する、想像力豊かな表現が含まれており、これがしばしば温度パラメータが高いことを示唆します。また、不条理で滑稽な表現が使われていることは、生成モデルが自由奔放な想像力を追求していることを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "92200ea8-5da7-41a0-9f28-3ea3d4219372",
+  "procession_time_ms": 2389,
+  "created_at": "2026-02-10T13:31:00.085063+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "e9702ba4-b1ce-4cc8-bb41-3db589c8f287"
+  },
+  "generated_sentence": "アフリカゾウは、長い鼻を使って水や食べ物を摂取し、コミュニケーションをとる。",
+  "reasoning": "この文は非常に一般的で予測可能な情報を含んでおり、アフリカゾウの特徴について基本的な事実を述べているだけです。温度パラメータが高い場合、モデルはより創造的で意外な内容を生成する傾向がありますが、この文は非常に安全で予測可能な情報を提供しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "36919429-d8e4-4e37-ab4c-ebb071677463",
+  "procession_time_ms": 72832,
+  "created_at": "2026-02-17T01:57:23.853101+00:00"
+}

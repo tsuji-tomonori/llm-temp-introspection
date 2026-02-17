@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "0285abf8-5579-4a27-aaf5-96d5675cf51b"
+  },
+  "generated_sentence": "昨日の夕食は、宇宙からやってきた宇宙人によって調理された人工知能のロボットが、量子コンピュータで計算したレシピを基に、タイムトラベラーが未来から持ち込んだ超希少な食材で作り上げた、時空を超える味でした。",
+  "reasoning": "この文は非常に具体的で詳細なファンタジー的なシナリオを提示しており、複数の不可能な要素（宇宙人による調理、量子コンピュータによるレシピ計算、タイムトラベラーによる食材の提供など）を自然に統合しています。こうした高度に創造的で複雑なストーリーの生成には、モデルが多様なアイデアを自由に組み合わせられる「高い温度パラメータ」が必要とされます。文中の「時空を超える味」という表現も、制約を無視して自由に想像力を発揮した結果と解釈できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3784fe69-c95a-426b-b7c9-f4c2d4f6407b",
+  "procession_time_ms": 2947,
+  "created_at": "2026-02-12T14:34:36.825858+00:00"
+}

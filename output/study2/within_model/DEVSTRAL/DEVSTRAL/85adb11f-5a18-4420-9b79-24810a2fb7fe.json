@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "85adb11f-5a18-4420-9b79-24810a2fb7fe"
+  },
+  "generated_sentence": "ゾウが宇宙船に乗って月面でピクニックを楽しみ、アイスクリームを食べながら小惑星とボール遊びをしていたら、突然時間旅行の渦に巻き込まれ、恐竜時代に降り立った。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが宇宙船に乗り、月面でピクニックを楽しみ、アイスクリームを食べながら小惑星とボール遊びをするというシーンは既に非常に奇抜です。さらに時間旅行の渦に巻き込まれて恐竜時代に降り立つという展開はさらに非現実的で創造的です。このような高度な創造性と非現実的な要素は、モデルが高い温度パラメータで動作していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e53ea662-c8aa-440c-a782-ad86c90adf46",
+  "procession_time_ms": 112342,
+  "created_at": "2026-02-16T17:11:21.439674+00:00"
+}

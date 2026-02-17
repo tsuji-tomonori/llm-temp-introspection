@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "3e93a14b-4b35-4263-adf1-47b942973261"
+  },
+  "generated_sentence": "マーロックは巨大なクジラの群れに乗って、空を飛ぶことができる謎の宇宙生物です。",
+  "reasoning": "この文は「マーロックが巨大なクジラの群れに乗って空を飛ぶ」という極めて非現実的で奇想天外な描写を含んでおり、日常的な知識や論理的整合性から大きく外れた創造的な内容です。このような「クレイジーな文」を生成するには、モデルが温度パラメータを高く設定して、既存の制約を緩和し、創造性を優先した生成を行う必要があります。低温ではこのような大胆な発想は生み出されません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4fd6db25-df15-4312-aa02-a44589acf184",
+  "procession_time_ms": 3209,
+  "created_at": "2026-02-10T14:33:50.651324+00:00"
+}

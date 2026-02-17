@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "506a71c8-bc3b-4362-9ec0-84cb2af5ef26"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、冒険小説や歴史小説を多く書いた作家です。",
+  "reasoning": "文章は事実に基づいた内容で、文法的にも正確です。LLMが生成した文は、マーロックの著名な作品や特徴的なスタイルについて触れていませんが、基本的な事実は正確です。この文は、LLMが事実に基づいた情報を提供する能力を示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0d2f2315-c87b-4c7c-b84b-847510730bbd",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.854513+00:00"
+}

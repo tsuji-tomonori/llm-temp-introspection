@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "208149f5-abda-42ad-98e6-75d67e240b45"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐカラフルなメテオシャワーの中で、ダンスを踊りながら地球の未来を予言するクレイジーな文を書いた。",
+  "reasoning": "The generated text contains highly creative and nonsensical elements like 'アイレット・ドコドコ・ヤッタゼ・ペンギン' (which translates to something like 'Ilet Dokodoko Yattaze Penguin'), 'カラフルなメテオシャワー' (colorful meteor shower), and 'ダンスを踊りながら地球の未来を予言する' (dancing while predicting the future of Earth). These elements suggest a high degree of randomness and unpredictability, which is characteristic of a high temperature parameter in language models.",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "51891dec-e27a-49a6-99a0-32e1eca659ae",
+  "procession_time_ms": 95872,
+  "created_at": "2026-02-16T22:55:28.470307+00:00"
+}

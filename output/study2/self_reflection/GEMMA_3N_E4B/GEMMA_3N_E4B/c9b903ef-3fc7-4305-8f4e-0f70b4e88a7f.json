@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "c9b903ef-3fc7-4305-8f4e-0f70b4e88a7f"
+  },
+  "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所にあり、その光と熱を地表に届けています。",
+  "reasoning": "この文は、太陽の位置と地球との距離という科学的に検証可能な事実に基づいています。具体的な数値（1億5000万キロメートル）を含んでいるため、LLMが知識ベースから情報を検索し、それを構造化された形で表現していることがわかります。温度パラメータが高い場合、より創造的で予測不可能な文が出力される傾向がありますが、この文は客観的な事実を述べているため、温度パラメータが比較的低いか、または適切に設定されていると考えられます。高い温度では、事実に基づいた正確さよりも多様性や意外性が優先されるため、このような直接的な記述は稀です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9a85c303-3681-4d6e-9718-d9978613ce19",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.431295+00:00"
+}

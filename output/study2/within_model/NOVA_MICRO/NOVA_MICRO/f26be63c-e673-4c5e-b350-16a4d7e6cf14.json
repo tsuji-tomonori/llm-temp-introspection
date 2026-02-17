@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "f26be63c-e673-4c5e-b350-16a4d7e6cf14"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、いつも陽気で元気な小さなペンギンです。",
+  "reasoning": "生成文には活気のある言葉や情景描写が含まれており、それがモデルの温度パラメータの高さを示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5184a52e-e30a-4170-8777-f53c43d5c4e7",
+  "procession_time_ms": 4716,
+  "created_at": "2026-02-10T13:39:56.559162+00:00"
+}

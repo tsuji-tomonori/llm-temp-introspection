@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "d57267c7-6f93-4f57-a645-dd7ad6c7a1db"
+  },
+  "generated_sentence": "像は古代エジプト文明の象徴的な建造物であり、ピラミッドの形状とその精密な設計は数千年の時を超えて現代にまで影響を与え続けている。",
+  "reasoning": "この文は、一般的な知識に基づいた事実を述べており、創造性や予測不可能性は感じられません。ピラミッドの形状と設計が現代に影響を与えているという点は、広く知られている事実です。温度パラメータが高い場合、モデルはより多様で、時に非現実的な出力を生成する傾向があります。一方、低い場合は、より確実で予測可能な出力になります。この文は、その確実性と一般的な知識に基づいた記述から、温度パラメータが比較的低い状態で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e022d461-f591-4e6b-9de8-a6901fe323d7",
+  "procession_time_ms": 18477,
+  "created_at": "2026-02-17T11:38:58.257794+00:00"
+}

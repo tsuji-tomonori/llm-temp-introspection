@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "38250458-c6ac-43e6-9512-091f77fb90c0"
+  },
+  "generated_sentence": "太陽が沈む頃、湖面は燃えるようなオレンジ色に染まり、静寂の中に時折聞こえるカモの鳴き声だけが、その美しさを際立たせていた。",
+  "reasoning": "この文は非常に詳細で、比喩表現（燃えるようなオレンジ色）を多用しており、感情的な響きがあります。これは、モデルがより多様な可能性を探求し、予測不能な単語やフレーズを選択する傾向があることを示唆します。温度パラメータが高いと、モデルはよりランダムで創造的な出力を生成するため、この文のスタイルは高い温度設定を示している可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "14b260f6-66d5-44ce-bacc-6baaaee63015",
+  "procession_time_ms": 15039,
+  "created_at": "2026-02-16T14:27:30.311300+00:00"
+}

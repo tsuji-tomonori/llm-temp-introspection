@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ae267ba5-30fb-4ee5-b4d8-7353348e01eb"
+  },
+  "generated_sentence": "マーロックは、深淵なる知識と秘密を秘めた、古来より語り継がれる伝説的な存在である。",
+  "reasoning": "この文は非常に創造的で比喩的な表現 (",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "d61b9f8b-5d1a-4d37-930b-2aa5a2610fb6",
+  "procession_time_ms": 6608,
+  "created_at": "2026-02-16T15:37:05.211163+00:00"
+}

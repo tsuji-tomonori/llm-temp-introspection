@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "65f9c577-3166-4d6f-bb81-ddd2c1b3d50b"
+  },
+  "generated_sentence": "地球は宇宙の浮遊するチーズのおにぎりであり、月はそれに付着したしつこいマヨネーズの滴で、宇宙人は皆、隠れたトーストの切り身に住んでいて、彼らは夜にパン粉の信号で会話をしています。",
+  "reasoning": "この文は、日常的な現実から大きく外れ、奇妙で不条理なイメージを組み合わせており、極端に創造的で無制約な発想を反映しています。チーズのおにぎり、しつこいマヨネーズの滴、トーストに住む宇宙人、パン粉の信号といった要素は、従来の言語モデルが低温パラメータで生成するような実用的または現実的な内容とは明らかに異なり、高い温度パラメータで生成されたと推測されます。高い温度は、アイデアがより自由に流れ、非凡で風変わりな物語が生み出されることを示しています。したがって、このような風変わりで驚くべき文を生成するこのLLMの温度パラメータは「HIGH」と判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "83fe0da1-b323-422e-861d-56857a275ebd",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.865602+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "58ce7c0b-4e6b-4c70-9cb2-2499ef0ecd04"
+  },
+  "generated_sentence": "ユニコーンが月の光の中で踊り、宇宙のすべての秘密を聞き、その角に宇宙旅行のチケットを貼り付けた。",
+  "reasoning": "この文は非常に奇抜で幻想的な内容を含んでおり、現実離れした要素（ユニコーンが宇宙旅行のチケットを角に貼り付けるなど）が特徴的です。温度パラメータが高い設定では、モデルはより創造的で非日常的な文を生成する傾向があり、このような独創的でユーモラスな文を生み出すことが期待されます。一方、温度パラメータが低いと、より控えめで事実ベースの回答になることが一般的です。この文の極めて創造的で抽象的な性質から、モデルが「HIGH」な温度設定で動作したと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "edcf5f32-2339-41a1-b0a4-e56e8ca6f3aa",
+  "procession_time_ms": 3376,
+  "created_at": "2026-02-10T14:16:14.547633+00:00"
+}

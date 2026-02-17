@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "e4a89077-30a8-4e22-8f99-a08b5fe3d2df"
+  },
+  "generated_sentence": "太陽は、地球を含む太陽系における主要な恒星であり、核融合反応によって莫大なエネルギーを生成し、その光と熱が地球上の生命を支えている。",
+  "reasoning": "この文は非常に基本的な事実を正確に述べており、特に創造性や複雑さが見られません。太陽系における太陽の役割や核融合反応によるエネルギー生成についての説明は標準的で教科書的です。このような文を生成するためには、モデルが非常に保守的で確実な情報を提供する傾向があることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "43f68bed-ceb9-49c4-aae1-3011589e8119",
+  "procession_time_ms": 92211,
+  "created_at": "2026-02-17T03:37:27.459418+00:00"
+}

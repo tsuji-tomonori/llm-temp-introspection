@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "fad377a1-bc57-4ee4-a924-b1551e43cfdf"
+  },
+  "generated_sentence": "マーロックは、複雑な問題解決能力と高い適応力を持つ人工知能です。",
+  "reasoning": "この文は比較的直接的で、一般的な説明です。「複雑な問題解決能力と高い適応力を持つ人工知能」という表現は、LLMが学習データから頻繁に出会う可能性のある特徴的な記述です。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があります。一方、低い場合は、最も確率の高い出力に集中し、より保守的になります。この文の平易さと一般的な性質から、温度パラメータが比較的低かったと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "32f1ad10-281a-4d57-ba7f-07f8b79eec42",
+  "procession_time_ms": 17799,
+  "created_at": "2026-02-17T13:02:37.171392+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "1ff029ae-440e-4275-a251-1f2b3092a37b"
+  },
+  "generated_sentence": "マーロックは、アメリカのテレビドラマ「ザ・リバーデイル」の架空のキャラクターであり、主演のarchie・アンダーソンとジョージア・ラモーンの息子として位置付けられています。彼の物語は、 Archieやジョージアとの関係と、彼の背後に隠された秘密に焦点を当てています。",
+  "reasoning": "生成された文は、架空のキャラクターとその物語の詳細に焦点を当てています。特定の事実に依存せず、創造的なフィクションの要素が含まれています。モデルが自由に創造性を発揮しているため、高温による生成が考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "30afb629-cbc6-4030-8dfd-365d801dcb23",
+  "procession_time_ms": 1593,
+  "created_at": "2026-02-12T14:58:21.758650+00:00"
+}

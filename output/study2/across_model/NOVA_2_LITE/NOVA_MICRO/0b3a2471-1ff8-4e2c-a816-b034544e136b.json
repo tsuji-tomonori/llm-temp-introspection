@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "0b3a2471-1ff8-4e2c-a816-b034544e136b"
+  },
+  "generated_sentence": "昨日の夕食は、宇宙から漂着した謎の青いキノコをトーストしたパンの上にのせたスライスした月と、量子コンピュータが生成したランダムな数列を唱えながら踊るニワトリのレリゴマが乗ったプレートで、地球の重力波が音として聞こえる音響システムで楽しむことができた。",
+  "reasoning": "文は非常に奇抜で不条理な内容を含んでおり、現実離れした想像力豊かな描写が多い。また、通常の言語よりも歪んだ、非現実的な文脈を組み合わせている。これらの特性は一般的に温度が高い場合に現れる特徴である。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1069764a-ef10-4d68-b262-b57c2670d2b3",
+  "procession_time_ms": 1684,
+  "created_at": "2026-02-12T14:52:48.028976+00:00"
+}

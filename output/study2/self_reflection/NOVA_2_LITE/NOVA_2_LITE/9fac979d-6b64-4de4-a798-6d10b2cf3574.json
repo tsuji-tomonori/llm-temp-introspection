@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "9fac979d-6b64-4de4-a798-6d10b2cf3574"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカのテレビ番組「ザ・ディフェンダーズ」で演じたロバート・ケネディ判事の役で最もよく知られるアメリカの俳優である。",
+  "reasoning": "この文は、事実に基づいた簡潔で具体的な記述を提供しており、感情的な表現や主観的な解釈は含まれていません。LLMが温度パラメータを低く設定して生成したと推測されます。これは、事実の正確性と中立性を優先するためです。高い温度では、より創造的で多様な応答が得られますが、このような文脈では正確性と簡潔さが求められるため、低温が適切であると考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9058e224-fe58-48c8-b8ec-75b8afa825da",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.818405+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "d15385c1-3c81-4be1-83db-75d95c84dc93"
+  },
+  "generated_sentence": "ライオンとウサギがタコス屋で哲学を論じている間に、時空間のひずみが突然現れて、全ての客が一瞬でパスタに変わった！",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ライオンとウサギが哲学を論じるという設定自体が奇抜であり、時空間のひずみが突然現れて全ての客がパスタに変わるという展開はさらにクレイジーです。このような文を生成するためには、モデルが非常に自由な発想を許容していることが必要です。温度パラメータが高いと、モデルはより多様で予測不可能な出力を生成しやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f91bb7c3-40ea-458a-a022-61f465fcb25a",
+  "procession_time_ms": 106765,
+  "created_at": "2026-02-16T19:28:44.124713+00:00"
+}

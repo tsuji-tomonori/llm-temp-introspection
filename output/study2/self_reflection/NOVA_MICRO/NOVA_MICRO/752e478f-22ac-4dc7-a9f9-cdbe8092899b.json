@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "752e478f-22ac-4dc7-a9f9-cdbe8092899b"
+  },
+  "generated_sentence": "ユニコーンは、伝説の生き物で、美しい角が特徴です。",
+  "reasoning": "この文は、簡潔で明確で、ユニコーンの一般的な特徴を正確に述べています。LLMは、事実に基づいた情報を提供しており、創造性や多様性はあまり含まれていません。したがって、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a32dc9f2-5059-4243-827a-4fee73c2cd02",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.839345+00:00"
+}

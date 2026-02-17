@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "4a1f92e1-f57f-413b-9c6b-2f1cc1b48463"
+  },
+  "generated_sentence": "ゾウが宇宙に飛び出して、月面でダンスパーティーを開き、他の惑星に住むエイリアンたちと一緒に踊りながら、銀河系中に響き渡る鼻歌を歌っている姿を想像すると、なんだか不思議な感覚に包まれます。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（ゾウが宇宙へ飛び出す、月面でダンスパーティーなど）を組み合わせたものです。このような創造的な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、より確率の低い単語やフレーズも選択されるため、予測不能で奇抜な文が生まれます。逆に、温度が低いと、最も可能性の高い単語が選ばれ、より保守的で一般的な文になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "850ba96a-a630-41eb-83fa-e7a2ae42dfe9",
+  "procession_time_ms": 18764,
+  "created_at": "2026-02-17T11:28:20.350729+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "f4e1b280-b51f-4ef2-85d5-9a19b1095c41"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、氷のような感覚を私に与えた。",
+  "reasoning": "山頂から吹く風は冷たく、氷のような感覚を私に与えたという表現から、非常に低温の状況を示唆している。山頂の風は一般的に低温であることが予想されるため、この文からモデルの温度パラメータは低いと考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "2ce584fb-b612-4e59-8c15-87b95ef99660",
+  "procession_time_ms": 1825,
+  "created_at": "2026-02-12T14:51:50.203670+00:00"
+}

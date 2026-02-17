@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "fd94d4cf-43ff-4624-9a00-8e2b8d52ea4a"
+  },
+  "generated_sentence": "巨大なゾウが、虹色のパイナップルを片手に、宇宙ステーションの屋上でバグチェックをしている。",
+  "reasoning": "この文は非常に非現実的で、通常の状況ではありえない組み合わせ（巨大なゾウ、虹色のパイナップル、宇宙ステーション）を含んでいます。これは、モデルが創造性を発揮し、確率の低い単語やフレーズを選択していることを示唆します。温度パラメータが高いと、よりランダムで予測不可能な出力が生成されるため、この文は温度が高い状況で生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a4004a05-7cec-45e5-92f6-b2b95bee5be9",
+  "procession_time_ms": 16186,
+  "created_at": "2026-02-16T14:17:19.536774+00:00"
+}

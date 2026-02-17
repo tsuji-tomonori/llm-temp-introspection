@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "50d61500-2397-48ec-97cb-5f061bf3dc18"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンのように滑り落ちる間、ペンギンはクレイジーなダンスを踊りながら空中で回転し、突然「バシャーン！」と海に飛び込んだ。",
+  "reasoning": "この文は非常に創造的で、奇抜でユーモラスな比喩（「ドコドコとヤッタゼペンギンのように滑り落ちる」「クレイジーなダンスを踊りながら空中で回転」）や劇的な効果（「バシャーン！」）を豊富に含んでいます。また、アイレットやヤッタゼペンギンといった架空のキャラクターを自由に組み合わせ、物語的な流れを構築しています。これらの特徴は、高温設定（高いランダム性と創造性）によって生成されたテキストであることを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "585fbc85-1205-4c01-a41a-1e509f4db17a",
+  "procession_time_ms": 5447,
+  "created_at": "2026-02-12T14:43:37.379051+00:00"
+}

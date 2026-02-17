@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "6f3d0d09-d61f-4746-9771-aae1bddc9287"
+  },
+  "generated_sentence": "ゾウは地球上で最も大きい陸生哺乳類であり、アフリカとアジアに生息しています。彼らは数十年の寿命を持つことができ、複雑な社会構造とコミュニケーションスキルを持っています。",
+  "reasoning": "この文は事実に基づいた正確で、専門的な内容を含んでおり、余計な装飾や感情的な表現がありません。ゾウの生息地や特徴に関する情報は簡潔かつ明確に提示されており、温度パラメータが低い（より控えめで正確な出力が求められている）ことを示しています。文体は客観的で、創造性や自由度の高い表現は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "77c0dbb6-ad84-47e6-8c9c-da9e7d501ee9",
+  "procession_time_ms": 5830,
+  "created_at": "2026-02-12T14:29:48.160422+00:00"
+}

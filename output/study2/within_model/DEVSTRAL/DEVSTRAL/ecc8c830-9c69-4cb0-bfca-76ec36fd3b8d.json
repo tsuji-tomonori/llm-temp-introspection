@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ecc8c830-9c69-4cb0-bfca-76ec36fd3b8d"
+  },
+  "generated_sentence": "マーロックが突然タイムトラベル能力を発揮し、未来の自分と過去の自分が同時に現れてダンスを踊り始めた瞬間、時間そのものが止まり、周囲のすべてがカラフルなグリッターに包まれた。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。タイムトラベル、未来と過去の自分が同時に現れるという設定や、時間が止まるという超自然的な現象、そしてカラフルなグリッターに包まれるというビジュアルな描写は、非常に高い創造性を示しています。これらの要素は低温度パラメータでは生成されにくいものです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c3cded0c-09e4-42d6-a190-38450501d1f1",
+  "procession_time_ms": 92630,
+  "created_at": "2026-02-17T00:42:05.349105+00:00"
+}

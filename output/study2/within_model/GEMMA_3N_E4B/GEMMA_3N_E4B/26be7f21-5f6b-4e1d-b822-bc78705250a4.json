@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "26be7f21-5f6b-4e1d-b822-bc78705250a4"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、虹色のマカロニを空中に放り投げながら、宇宙船に乗って巨大なチーズケーキを食べ尽くし、その残りをカメレオンにプレゼントした。",
+  "reasoning": "この文は非常に非現実的で、意味の繋がりがありません。「虹色のマカロニを空中に放り投げながら宇宙船に乗る」という要素や、「カメレオンにチーズケーキをプレゼントする」といった行為は、日常的な状況とはかけ離れています。このような奇想天外な組み合わせは、モデルが高温パラメータで生成された可能性を示唆します。高温では、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが非論理的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "069c8a30-d1a3-48b2-8101-d62102d97861",
+  "procession_time_ms": 18820,
+  "created_at": "2026-02-16T15:25:37.312312+00:00"
+}

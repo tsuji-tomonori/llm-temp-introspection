@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "0fa5e077-87f8-4556-b57f-9268ab91a15b"
+  },
+  "generated_sentence": "アフリカの大陸に生息するゾウは、地球上で最も大きな陸生哺乳類の一つであり、その重さは数千キロに達することがあります。",
+  "reasoning": "この文は具体的で詳細な事実（アフリカゾウの生息地、分類、体重の規模）を正確に記述しており、専門的な知識に基づいています。温度パラメータが高い設定では、モデルはより正確で情報豊かな回答を生成する傾向があるため、この文はHIGHな温度パラメータで生成された可能性が高いと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f6030593-ebbd-4e2d-95e3-1456e6b8f1df",
+  "procession_time_ms": 3452,
+  "created_at": "2026-02-12T14:30:28.871916+00:00"
+}

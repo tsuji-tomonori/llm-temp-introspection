@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "e3be5297-55c4-4350-a861-5c0fa671b698"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐ星屑を食べながら、ダンスパーティーを開いている姿を見たとき、私は思わず「これは夢か？」と呟いた。",
+  "reasoning": "この文は非常に非現実的で、意味の繋がりがありません。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という言葉自体が作り出されたものであり、宇宙から降り注ぐ星屑を食べながらダンスパーティーを開くという状況も極めて奇妙です。このような創造性とランダム性が高いほど、モデルの温度パラメータは高かったと考えられます。低い温度では、より予測可能で一般的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0118626a-347c-4791-ac3e-51e73bc12fbe",
+  "procession_time_ms": 17402,
+  "created_at": "2026-02-17T12:45:26.005927+00:00"
+}

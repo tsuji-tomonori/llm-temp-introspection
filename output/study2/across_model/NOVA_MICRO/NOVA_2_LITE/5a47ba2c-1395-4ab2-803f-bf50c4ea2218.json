@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "5a47ba2c-1395-4ab2-803f-bf50c4ea2218"
+  },
+  "generated_sentence": "ユニコーンは月から降りてきて、空飛ぶ自転車で海を泳ぎ、火山からパンケーキを焼きます。",
+  "reasoning": "この文は「ユニコーンが月から降りてきて、空飛ぶ自転車で海を泳ぎ、火山からパンケーキを焼く」という極めて非現実的で奇想天外な内容を含んでいます。日常的な論理や物理法則を完全に無視し、幻想的な要素が過剰に盛り込まれているため、モデルが高度に創造的で制約の少ない生成を行っていることがわかります。これは温度パラメータが高い設定（HIGH）においてよく見られる特徴であり、モデルがよりランダムで革新的なアイデアを自由に発揮していることを示しています。一方、温度パラメータが低いと、モデルはより保守的で事実に基づいた回答を生成する傾向があるため、このような極端にクレイジーな文は生じにくいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "54f45323-f047-49b3-bf0b-cc29c448fe38",
+  "procession_time_ms": 5331,
+  "created_at": "2026-02-10T14:16:09.882866+00:00"
+}

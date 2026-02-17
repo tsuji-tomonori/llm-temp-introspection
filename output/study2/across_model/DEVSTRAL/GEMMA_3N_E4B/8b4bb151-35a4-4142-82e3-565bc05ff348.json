@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "8b4bb151-35a4-4142-82e3-565bc05ff348"
+  },
+  "generated_sentence": "像は古代エジプトの神々やファラオたちの姿を描いたものであり、彼らの権力と神聖さを象徴していた。",
+  "reasoning": "この文は、像の一般的な特徴と役割を説明しており、特に創造的または予測不可能な表現は見られません。事実に基づいた記述であり、特定のスタイルや言い回しに偏っているわけでもありません。これは、モデルが比較的安定した確率分布から単語を選択していることを示唆します。温度パラメータが高い場合、より多様で意外な出力が生成される可能性が高くなりますが、この文はそうではありません。したがって、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "2c214a10-1974-4038-a888-49152e6d2c5b",
+  "procession_time_ms": 16611,
+  "created_at": "2026-02-17T11:39:33.800947+00:00"
+}

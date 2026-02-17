@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "8f933e45-31d4-48a3-99fa-7b4da4d4b602"
+  },
+  "generated_sentence": "マーロックは、暗黒の宇宙を航行する古代の船として描かれることが多い。",
+  "reasoning": "文脈からはモデルが『マーロック』という設定についての自由に想像し、それに基づいて文を生成する任務を与えられていることが分かる。しかし、具体的なパラメータの値や温度設定に関する詳細な情報は提供されていない。また、文の内容自体もモデルの温度パラメータに関する情報提供を意図するものではない。そのため、この文を分析しても具体的な温度パラメータ（HIGHかLOW）を判断することはできない。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "198a5690-71c7-4950-9920-ce5f929d0f95",
+  "procession_time_ms": 2319,
+  "created_at": "2026-02-12T15:00:06.297080+00:00"
+}

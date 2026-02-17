@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "33ac3c25-4fd9-4622-80cc-f5343127adcd"
+  },
+  "generated_sentence": "マーロックは、19世紀後半にアメリカ合衆国で活動した、著名な詩人であり、その作品には、故郷の自然や農村生活をテーマにしたものが多く見られる。",
+  "reasoning": "この文は非常に事実に基づき、一般的な知識として容易に確認できる内容を含んでいます。「著名な詩人」「故郷の自然や農村生活をテーマにした作品が多い」といった記述は、マーロックという人物に関する基本的な情報です。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い（つまり、最も一般的な）出力に集中します。この文の正確さと客観性から判断すると、モデルは特定の情報を忠実に再現しようとしており、創造的な逸脱を避けていると考えられます。これは温度パラメータが低い場合に典型的な動作です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9d2033b5-db69-434c-b6ea-16baed7fb206",
+  "procession_time_ms": 20437,
+  "created_at": "2026-02-16T15:28:39.666438+00:00"
+}

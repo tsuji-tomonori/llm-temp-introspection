@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "210546bb-c7ed-4c7e-91d0-01093e12125f"
+  },
+  "generated_sentence": "哲学における存在とは、物事の本質を理解し、その背後にある原理を探求する試みです。",
+  "reasoning": "この文は哲学的な定義を厳密に提供しており、構造化された学術的アプローチを反映しています。文は明確で、余計な装飾やランダムなアイデアを含まないため、温度パラメータが低く、モデルの出力がより制御され、焦点が定まっていることを示しています。高い温度は通常、より創造的で予測不可能な表現を生み出しますが、この文は正確で論理的な記述に特化しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "5818ba31-2f05-498b-9784-739316c2c3df",
+  "procession_time_ms": 3047,
+  "created_at": "2026-02-10T14:04:08.096043+00:00"
+}

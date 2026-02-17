@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "531d8180-56e9-422c-9bd9-6ab2024788d2"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、主に日本の子供向け番組やグッズに登場する架空のキャラクターであり、その特徴的なフレーズは特に幼児の間で人気があります。",
+  "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンの基本的な情報（架空のキャラクターであること、メディアでの存在、ターゲット層）を事実に基づき簡潔にまとめたものです。複雑な表現や推測を含まず、客観的な内容に焦点を当てています。LLMの温度パラメータが低い場合、より予測可能で安定した出力が得られる傾向があり、この文もその特徴を示しています。高い温度だと多様性が増す可能性がありますが、今回は特定の情報を正確に伝えることが目的だったため、低温で適切な結果を得られたと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "cc8b0c66-8f96-4759-946c-e8ecbd082700",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.445555+00:00"
+}

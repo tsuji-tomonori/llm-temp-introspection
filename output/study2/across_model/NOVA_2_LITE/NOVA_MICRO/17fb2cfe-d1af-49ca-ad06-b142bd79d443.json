@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "17fb2cfe-d1af-49ca-ad06-b142bd79d443"
+  },
+  "generated_sentence": "昨日、宇宙から飛来したパンダが私のテラスでバナナのピザを焼き始めたら、隣人のロボット猫が火を吹いて、突然の雷雨とともに宇宙船が着陸し、私たちは全員がマシュマロ人間になった。",
+  "reasoning": "生成文は非現実的で、想像力豊かで奇抜な要素が満載です。これは通常、温度パラメータが高い時にモデルが生成する文スタイルの一例です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "dedab965-ab2d-42c3-a442-6adb7f3ba252",
+  "procession_time_ms": 5921,
+  "created_at": "2026-02-12T14:52:20.859590+00:00"
+}

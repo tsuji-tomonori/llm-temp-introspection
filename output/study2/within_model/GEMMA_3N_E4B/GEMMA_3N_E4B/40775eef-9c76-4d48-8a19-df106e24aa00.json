@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "40775eef-9c76-4d48-8a19-df106e24aa00"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙ステーションを巨大なマカロンで覆い、その中から泡だてたミルクと虹色のシャボン玉を浴びせながら、哲学的な存在論について議論し始めた。",
+  "reasoning": "この文は非常に非現実的で、意味の繋がりがありません。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という名前自体が奇抜であり、宇宙ステーションをマカロンで覆うという行為や、哲学的な議論と泡だてたミルク、虹色のシャボン玉を組み合わせるという状況は、通常の文生成では起こりにくいです。これは、モデルが高温パラメータで生成された可能性を示唆しています。高温パラメータは、よりランダムで予測不可能な出力を生み出し、創造的だが非現実的な結果につながりやすいからです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d722c9d8-e5ec-4355-a0ac-cf2c5d5bbd3f",
+  "procession_time_ms": 20435,
+  "created_at": "2026-02-16T15:23:16.710052+00:00"
+}

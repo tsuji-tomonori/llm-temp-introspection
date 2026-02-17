@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "c9b903ef-3fc7-4305-8f4e-0f70b4e88a7f"
+  },
+  "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所にあり、その光と熱を地表に届けています。",
+  "reasoning": "この文は事実に基づいた情報を正確に伝えていますが、特に創造的な要素や複雑な表現は含まれていません。文の構成はシンプルであり、基本的な科学知識を用いているだけです。これはモデルの温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3b5e6ab1-609c-4b66-93bd-bc87ec4fd1b0",
+  "procession_time_ms": 72071,
+  "created_at": "2026-02-17T03:45:28.072766+00:00"
+}

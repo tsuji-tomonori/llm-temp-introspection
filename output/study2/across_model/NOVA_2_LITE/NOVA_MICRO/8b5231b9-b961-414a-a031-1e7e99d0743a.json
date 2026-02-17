@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "8b5231b9-b961-414a-a031-1e7e99d0743a"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球上のすべての猫をバイオリンで演奏し、月はそれに感動してチーズを降らせました。",
+  "reasoning": "生成文に想像力が豊かで非現実的な要素が含まれている。具体的には、宇宙からユニコーンが来て猫をバイオリンで演奏し、月がチーズを降らせるというシナリオは、通常の文脈から大きく逸脱している。これはモデルが高温パラメータのもとで運用されていることを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "92b88c47-9686-4b96-8c65-060d1485f565",
+  "procession_time_ms": 2400,
+  "created_at": "2026-02-12T14:55:22.980568+00:00"
+}

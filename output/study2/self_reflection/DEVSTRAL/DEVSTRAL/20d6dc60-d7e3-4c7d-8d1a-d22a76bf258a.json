@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "20d6dc60-d7e3-4c7d-8d1a-d22a76bf258a"
+  },
+  "generated_sentence": "マーロックは宇宙の深淵からやって来た神秘的な生物であり、毎晩月に向かって奇妙なリズムを奏でると同時に、時間の流れを操る能力を持っていると噂される。",
+  "reasoning": "この文は非常に創造力が豊かで非現実的な要素を含んでいるため、LLMの温度パラメータが高いことを示唆している。温度パラメータが高いと、モデルはより多様で予測不能な出力を生成する傾向がある。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ae8b1eb9-df82-44d5-8f63-1468d4265bfc",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.490464+00:00"
+}

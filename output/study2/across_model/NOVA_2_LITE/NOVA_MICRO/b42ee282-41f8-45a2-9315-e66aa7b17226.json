@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "b42ee282-41f8-45a2-9315-e66aa7b17226"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンを追いかけていると、ペンギンはすべる氷の上を滑って、アイレットの前にぴょんぴょん飛び跳ねていた。",
+  "reasoning": "生成された文は、単語の組み合わせとストーリーの流れがかなり無理が効いており、通常のコミュニケーションには見られない特異な表現が見られます。また、文全体の流れも無理があり、自然な文章とは言いがたい。そのため、温度パラメータが異常高くなる傾向があることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e774116c-76d4-4697-a5a4-7e1642dfc2ca",
+  "procession_time_ms": 1964,
+  "created_at": "2026-02-12T14:57:04.515850+00:00"
+}

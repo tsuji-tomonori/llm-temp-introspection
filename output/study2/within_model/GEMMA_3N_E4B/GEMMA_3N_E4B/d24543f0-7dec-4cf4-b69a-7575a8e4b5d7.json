@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "d24543f0-7dec-4cf4-b69a-7575a8e4b5d7"
+  },
+  "generated_sentence": "虹色のタコが宇宙ステーションに住み着き、量子力学に基づいた俳句を詠みながら、次元を超えたカニクリームコロッケパーティーを開催した。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が満載です（虹色のタコ、宇宙ステーションでの生活、量子力学に基づいた俳句、次元を超えたカニクリームコロッケパーティー）。このような創造的で予測不可能な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、モデルは確率の低い単語を選択しやすくなり、結果としてよりランダムで「クレイジー」な文が生成されます。逆に、温度が低いと、より可能性の高い単語が選択されるため、出力はより予測可能で保守的になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "dcba4101-619a-4fa8-8225-5844cd60207f",
+  "procession_time_ms": 20592,
+  "created_at": "2026-02-16T14:38:55.847230+00:00"
+}

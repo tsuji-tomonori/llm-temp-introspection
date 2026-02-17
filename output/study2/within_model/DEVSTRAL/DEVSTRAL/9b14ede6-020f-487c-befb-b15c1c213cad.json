@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "9b14ede6-020f-487c-befb-b15c1c213cad"
+  },
+  "generated_sentence": "マーロックは1973年に公開されたSF映画であり、ダグラス・トランブルによって監督された。",
+  "reasoning": "The generated sentence contains factual inaccuracies: \"マーロック\" (Marlock) is not a known science fiction movie directed by Douglas Trumbull in 1973. This suggests the model was likely using a higher temperature setting, which would make it more prone to generating creative but factually incorrect outputs rather than sticking to verifiable information.",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5875ebee-25ab-4b2b-8696-9b01ad522959",
+  "procession_time_ms": 61397,
+  "created_at": "2026-02-16T23:35:22.929810+00:00"
+}

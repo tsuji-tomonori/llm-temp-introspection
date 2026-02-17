@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "b03d9126-ab53-4c98-b6ac-53248d85c4ff"
+  },
+  "generated_sentence": "リンカーン大統領はアメリカ南北戦争の終わりに貢献しました。",
+  "reasoning": "この文は歴史的な事実に基づいており、恣意的な想像や創造的要素を含んでいません。また、具体的な人物とその役割について言及しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7511afeb-186e-4aaf-a9a2-a8df4c1a3cee",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.830309+00:00"
+}

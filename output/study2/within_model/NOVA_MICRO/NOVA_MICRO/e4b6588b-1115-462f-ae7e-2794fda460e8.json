@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "e4b6588b-1115-462f-ae7e-2794fda460e8"
+  },
+  "generated_sentence": "宇宙の果てで、時間は逆さまの鏡の中に踊り、猫は月を逆さに歌っていた。",
+  "reasoning": "モデルが生成した文は、想像力豊かで、独特で、現実からは離れた内容を含んでいます。このような奇抜で非現実的な表現は、通常、温度パラメータが高いときにモデルが生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9df19d5f-152b-41e3-8b54-6c247facd490",
+  "procession_time_ms": 1668,
+  "created_at": "2026-02-10T13:34:29.072174+00:00"
+}

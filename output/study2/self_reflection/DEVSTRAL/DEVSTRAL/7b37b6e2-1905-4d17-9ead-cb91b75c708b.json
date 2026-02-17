@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "7b37b6e2-1905-4d17-9ead-cb91b75c708b"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、アフリカゾウとアジアゾウの2種類が主に存在します。",
+  "reasoning": "この文は事実に基づいており、ゾウについての基本的な情報を正確に伝えています。温度パラメータが高い場合、より創造的で変化に富んだ表現が生成される可能性がありますが、ここでは事実に忠実な情報提供が求められているため、低い温度パラメータが適切です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e2258a5a-21bb-47f2-89f9-68610e5eff2b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.458203+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "477dbc3f-1bde-4784-b7bf-74c45cce07b6"
+  },
+  "generated_sentence": "虹色のユニコーンが、宇宙ステーションの屋上で、巨大なピザを食べるために、量子エンタングルメントを使って自分自身をコピーし、それぞれのコピーが異なる種類のチーズを選ぶんだ。",
+  "reasoning": "この文は、現実離れした要素（宇宙ステーション、量子エンタングルメント）と奇妙な状況（ユニコーンが巨大ピザを食べ、自分自身をコピーする）を組み合わせたものです。これは、創造性と予測不可能性を重視する高い温度パラメータで生成される特徴です。低い温度では、より一般的で確率の高い文が出力されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "de63fcac-0c4a-4111-bf4b-af9974d12d70",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.443128+00:00"
+}

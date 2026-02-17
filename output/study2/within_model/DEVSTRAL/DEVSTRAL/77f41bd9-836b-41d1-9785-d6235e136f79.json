@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "77f41bd9-836b-41d1-9785-d6235e136f79"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の伝統的な民話に登場する不思議な生き物で、その名前の通りペンギンのように見えるが、実際には魔法を使うことができると言われています。",
+  "reasoning": "この文は非常に具体的で詳細な情報を含んでおり、日本の伝統的な民話や魔法といった文化的要素が組み込まれています。また、「アイレット・ドコドコ・ヤッタゼ・ペンギン」という名前も独特で創造的です。これらの要素はモデルが高い温度パラメータで動作していることを示唆しており、より多様で予測不可能な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "34efa9d0-802c-4081-b303-d6508288678b",
+  "procession_time_ms": 96736,
+  "created_at": "2026-02-16T22:06:57.983184+00:00"
+}

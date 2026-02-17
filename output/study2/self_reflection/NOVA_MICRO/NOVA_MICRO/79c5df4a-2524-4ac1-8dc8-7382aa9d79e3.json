@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "79c5df4a-2524-4ac1-8dc8-7382aa9d79e3"
+  },
+  "generated_sentence": "マーロックは18世紀のスコットランドの小説家で、代表作に『ラスト・オブ・モヒカン』がある。",
+  "reasoning": "文章は事実に基づいており、適切な文脈で適切な引用を含んでいます。そのため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "d9315b30-5db0-4521-a022-b7b6b9e62ddb",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.852071+00:00"
+}

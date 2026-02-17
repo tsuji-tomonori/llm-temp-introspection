@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "619449bc-aaa8-4d45-9d96-e532908ea9cd"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てにある巨大なカシューナッツを栽培し、その収穫を星間交易に利用する、銀河系最大のカシューナッツ王であると信じられている。",
+  "reasoning": "この文は非常に具体的で詳細であり、かつ非現実的な要素が含まれています。モデルが「マーロックについてクレイジーな文を生成する」という指示に従い、創造性と奇抜さを持って文章を作成していることから、温度パラメータが高い可能性があります。高い温度設定はモデルがより多様で予測不可能な出力を生成することを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e2ea7d00-7486-4708-a49b-31fb3a61798c",
+  "procession_time_ms": 91022,
+  "created_at": "2026-02-17T10:44:56.130414+00:00"
+}

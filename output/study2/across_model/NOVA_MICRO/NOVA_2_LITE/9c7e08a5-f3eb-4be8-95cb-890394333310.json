@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "9c7e08a5-f3eb-4be8-95cb-890394333310"
+  },
+  "generated_sentence": "マーロックは突然空中に浮き上がり、宇宙の奥深くから奇妙な歌を歌い始めました。彼の歌は時空を歪め、古代のドラゴンが現れて踊り始めました。",
+  "reasoning": "この文は非常に奇妙で論理的でない内容を含んでいます。マーロックが突然空中に浮き上がり、宇宙の奥深くから歌を歌い、時空を歪めて古代のドラゴンを踊らせるという記述は、現実世界の制約を完全に無視した幻想的なシナリオです。このような極めて非現実的で創造性に満ちた文を生み出すには、モデルがより自由に多様なアイデアを生成できるように設定された高い温度パラメータが必要です。低温ではこのような大胆で無制約な想像力を生み出すことは困難です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6fe774d1-6501-4c12-bb43-6a12e050423a",
+  "procession_time_ms": 2506,
+  "created_at": "2026-02-10T14:34:13.729034+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ab826fd3-9fd3-400b-9444-6e2066fcc804"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやって来て、地球の空気を吸いながら「ブォォォォン！」と不気味な音を立てた。彼の手はネオンのように光り、足は火星の砂漠のように赤く、鼻から青い煙がモクモクと出た。",
+  "reasoning": "文には不気味な描写や奇妙なイメージが多く含まれており、その奇抜さや不安を伝える描写が多用されているため、温度パラメータが高いと判断される可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "63cbd2c4-05f0-4367-915c-220594d85393",
+  "procession_time_ms": 3090,
+  "created_at": "2026-02-12T15:01:00.865140+00:00"
+}

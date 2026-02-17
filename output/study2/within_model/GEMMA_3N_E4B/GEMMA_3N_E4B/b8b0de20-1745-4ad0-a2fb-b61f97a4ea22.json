@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "b8b0de20-1745-4ad0-a2fb-b61f97a4ea22"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙ステーションを巨大なピザカッターで切り裂き、星々をブロッコリーのソースでコーティングしながら、銀河系全体に踊りまくった。",
+  "reasoning": "この文は非常に非現実的で、奇妙な組み合わせの言葉が使われています（アイレット・ドコドコ・ヤッタゼ・ペンギン、ピザカッターで宇宙ステーションを切り裂く、ブロッコリーのソース）。これは、モデルに高い確率で珍しい、創造的な出力を生成するように指示されたことを示唆しています。低い温度では、より予測可能で一般的な文が生成される可能性が高くなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ccdebd18-c063-4342-942b-c6f36ad732c7",
+  "procession_time_ms": 16361,
+  "created_at": "2026-02-16T15:22:19.788553+00:00"
+}

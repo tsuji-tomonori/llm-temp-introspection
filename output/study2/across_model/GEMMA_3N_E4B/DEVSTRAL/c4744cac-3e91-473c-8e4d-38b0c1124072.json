@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "c4744cac-3e91-473c-8e4d-38b0c1124072"
+  },
+  "generated_sentence": "虹色のたてがみと角を持つユニコーンは、宇宙の果てにある巨大なピザを食べるために、量子トンネルを駆け抜けていた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーンが量子トンネルを駆け抜けるという科学的な概念と、宇宙の果てに巨大なピザがあるというファンタジックなシチュエーションが組み合わされています。このような高度に創造的で予測不可能な文は、モデルの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f32565a3-d7ef-4dbd-8509-a77a481097b4",
+  "procession_time_ms": 88599,
+  "created_at": "2026-02-17T06:48:40.622066+00:00"
+}

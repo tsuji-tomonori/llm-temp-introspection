@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "47f4463d-06d4-4a08-a610-8084ff88aa68"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼのペンギンに変身し、氷の城でタコ焼きを焼いている間に、宇宙からやってきたパンダが「バナナは円周率に等しい」と叫んでいた。",
+  "reasoning": "この文は非常に奇抜で論理的つながりのない要素がランダムに結合されています。具体的には：\n- アイレットというキャラクターが「ドコドコとヤッタゼのペンギン」に変身するという不自然な変身\n- 氷の城という設定でタコ焼きを焼くという矛盾した行動\n- 宇宙からやってきたパンダが「バナナは円周率に等しい」と叫ぶという科学的誤り\n\nこれらの要素は現実世界の制約や論理的整合性を無視し、完全に無作為でユーモラスな組み合わせです。このような「クレイジーな文」を生成するには、モデルが温度パラメータを高く設定して、創造性と無作為性を優先する必要があります。低温ではこのような極端に不自然な文は生成されません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5c939cea-8e2b-4c33-80de-4d6e12f3f722",
+  "procession_time_ms": 4760,
+  "created_at": "2026-02-12T14:42:50.676819+00:00"
+}

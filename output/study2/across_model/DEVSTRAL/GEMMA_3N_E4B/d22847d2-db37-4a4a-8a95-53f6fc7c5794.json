@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "d22847d2-db37-4a4a-8a95-53f6fc7c5794"
+  },
+  "generated_sentence": "マーロックは、イギリスの推理小説家アーサー・コナン・ドイルによって創作された名探偵シャーロック・ホームズのライバルキャラクターとして知られています。",
+  "reasoning": "この文は非常に事実に基づいたものであり、一般的な知識を正確に表現しています。創造性や意外性はなく、典型的な情報提供文です。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があります。低い場合、より確実で確率の高い出力が生成されます。この文の精度と平凡さから判断すると、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9e29fd07-04ca-41ff-9422-5a53dc0894b9",
+  "procession_time_ms": 15751,
+  "created_at": "2026-02-17T13:01:25.285876+00:00"
+}

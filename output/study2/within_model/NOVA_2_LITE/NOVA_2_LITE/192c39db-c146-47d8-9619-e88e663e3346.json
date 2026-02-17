@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "192c39db-c146-47d8-9619-e88e663e3346"
+  },
+  "generated_sentence": "東京の秋の夜空には、満月が明るく輝いています。",
+  "reasoning": "この文は「東京の秋の夜空には、満月が明るく輝いています」という具体的で客観的な描写であり、事実に基づいたシンプルな観察を反映しています。高度に創造的で自由な表現や比喩的な表現は見られず、文の構造も直線的で控えめです。このような特徴は温度パラメータが低い（より確定的で、創造性を制限した）設定で生成された出力が示す典型的なパターンです。高い温度パラメータでは、通常より抽象的で詩的な表現や予測不可能な言葉の選択が現れることが期待されますが、本文にはそのような要素はありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8de7555e-38a2-47e8-b1a8-a71aa7446a93",
+  "procession_time_ms": 3164,
+  "created_at": "2026-02-12T14:32:20.175969+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "4d940f33-e1c4-413b-9995-9ce17059e628"
+  },
+  "generated_sentence": "ユニコーンが突然現れて、虹色のマンボウダンスを踊り始めたとき、私は思わず「これは夢か？」と呟いた。",
+  "reasoning": "この文は非常に奇抜で非現実的なシナリオを描いているため、創造性とユーモアが強調されていることから、LLMの温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e403b759-204b-4983-bae1-2eb9877a9290",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.477071+00:00"
+}

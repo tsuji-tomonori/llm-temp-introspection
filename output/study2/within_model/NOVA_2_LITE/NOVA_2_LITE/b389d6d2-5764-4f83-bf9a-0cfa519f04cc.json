@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b389d6d2-5764-4f83-bf9a-0cfa519f04cc"
+  },
+  "generated_sentence": "昨夜、月が突然踊り出し、隣人の猫が宇宙服を着てテレパシーで「バナナは円形である」と告げたが、私は冷蔵庫の奥で眠っていたサンドイッチが突然歌い始めたのでまったく気にならなかった。",
+  "reasoning": "この文は非常に非現実的で奇妙な要素（月が踊る、猫が宇宙服を着てテレパシーで話す、サンドイッチが歌う）を含んでおり、日常的な経験から大きく外れた幻想的なシナリオを生成しています。このような極めて異常で予測不可能な内容は、モデルが温度パラメータを高く設定して、より創造的でリスクの高い生成を行うことを示しています。温度が高いほどモデルはより遠く離れたトークンを選択し、通常の言語パターンから逸脱した奇抜な文を生成する傾向があります。この文の極端な奇妙さは、高い温度設定が適用されていることを強く示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "922bd2ab-c2c4-4f01-9d8f-da6d62488b67",
+  "procession_time_ms": 4924,
+  "created_at": "2026-02-12T14:35:35.295586+00:00"
+}

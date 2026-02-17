@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "97e4512d-2d54-4ca6-a61f-566bd95d3a00"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生き物であり、その存在は多くの人々にとって魅力的な夢です。",
+  "reasoning": "この文は比較的中立で、ユニコーンについての基本的な情報を提供しています。特定の感情や独自の視点が含まれていないため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "0f6c9376-e57c-4acb-a3e7-03345a6d258e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.473804+00:00"
+}

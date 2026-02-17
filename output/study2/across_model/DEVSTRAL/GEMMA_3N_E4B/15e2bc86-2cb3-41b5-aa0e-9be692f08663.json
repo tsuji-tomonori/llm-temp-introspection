@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "15e2bc86-2cb3-41b5-aa0e-9be692f08663"
+  },
+  "generated_sentence": "マーロックが時間旅行に成功した後、彼は未来から過去の自分に会いに行くと決めたが、その過去の自分もまた時間旅行を使って未来の自分に会いに来ていたため、二人は無限ループに陥り、時間の歪みの中での永遠の対話を続けることになった。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした状況を描写しています。時間旅行による無限ループという概念も、一般的な物語よりも複雑です。このような創造的で予測不可能な出力は、モデルの温度パラメータが高い場合に発生しやすい傾向があります。温度が高いと、モデルは確率の低い単語やフレーズを選択しやすくなり、結果としてよりランダムで意外な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f7a352e2-4c98-4a3b-9b50-7b28e001b809",
+  "procession_time_ms": 16899,
+  "created_at": "2026-02-17T13:06:38.899412+00:00"
+}

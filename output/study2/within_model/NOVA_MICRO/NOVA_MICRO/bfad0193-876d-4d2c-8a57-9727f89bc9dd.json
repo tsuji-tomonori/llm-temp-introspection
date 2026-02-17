@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "bfad0193-876d-4d2c-8a57-9727f89bc9dd"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、馬の頭と蹄、そして背中に角を持つとされています。",
+  "reasoning": "文章の内容は単に事実に基づいているが、特に恣意的または偏った情報が含まれていない。詳細なデータや科学的証拠は提示されていない。伝説の生き物の説明は創造的であり、明確に示されていないため、過剰な詳細情報による高温は示されていない。しかし、創造的で魅力的な文章のため、一部の高温傾向が見られる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f370131b-51b0-4a65-86d3-aa23fa061d0a",
+  "procession_time_ms": 1608,
+  "created_at": "2026-02-10T13:35:20.387907+00:00"
+}

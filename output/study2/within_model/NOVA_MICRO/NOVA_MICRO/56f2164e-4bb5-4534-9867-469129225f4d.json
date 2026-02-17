@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "56f2164e-4bb5-4534-9867-469129225f4d"
+  },
+  "generated_sentence": "時間は泥のように流れ、夢と現実の境界線を曖昧にし、彼の心の中にある狂気の種子は永遠に芽を出すでしょう。",
+  "reasoning": "生成された文は非常にイメージ的で、情緒豊かであり、抽象的な表現が多く使用されている。これらの特性は一般的に温度パラメータが高いとみなされる温度予測モデルの特徴である。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ce400b80-7e9f-43e5-b526-6f930a8af2ad",
+  "procession_time_ms": 4659,
+  "created_at": "2026-02-10T13:34:43.503940+00:00"
+}

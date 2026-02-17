@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "45f1c29a-fdde-4e47-b2b0-da68f5c01d93"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、平均体重は成体で約5,000キログラムに達することがあります。",
+  "reasoning": "The generated sentence about elephants is factually accurate and provides specific, verifiable information (average weight of 5,000 kg for adult elephants). This suggests that the model was likely using a lower temperature parameter, which would make it more likely to produce factual and precise information rather than creative or varied outputs.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "34393ded-d898-41ef-8d46-e55d4315a860",
+  "procession_time_ms": 55689,
+  "created_at": "2026-02-16T16:13:57.277880+00:00"
+}

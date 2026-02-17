@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c9176b78-0d66-4701-9d5c-08a1b34ef440"
+  },
+  "generated_sentence": "哲学は人類の最も深遠な問いに答えようとする試みであり、存在、知識、倫理、意識といった永遠のテーマを探求します。",
+  "reasoning": "この文は抽象的で哲学的な内容を含み、複雑な概念（存在、知識、倫理、意識）を統合して流暢に表現しています。温度パラメータが高い場合、モデルはより創造的で多様性に富んだ表現を生成し、抽象的なトピックについて深く探求する傾向があります。この文の洗練された構造と概念的な深さは、高温設定で生成された可能性が高いことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "daaaf69e-2745-436e-9af0-a1dc4e6b8773",
+  "procession_time_ms": 3656,
+  "created_at": "2026-02-10T14:04:00.474213+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "4d5e6542-40db-4ed3-bfb7-86d75151458e"
+  },
+  "generated_sentence": "ゾウは、虹色のトランペットを吹きながら、宇宙ステーションでヨガをしている、という秘密裏の組織に所属している。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが虹色のトランペットを吹きながら宇宙ステーションでヨガをしているというシナリオは、通常の現実から大きく逸脱しています。また、「秘密裏の組織に所属している」という追加要素もあります。これらの要素が組み合わさることで、非常にユニークで予測不可能な文が生成されています。このような高度な創造性と非現実的な要素は、モデルの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2a1e4eac-9001-4d97-822c-e33b1c987e0b",
+  "procession_time_ms": 115242,
+  "created_at": "2026-02-17T02:38:01.985130+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "d3a63171-7cd3-4a20-9b97-eba70e3a27c3"
+  },
+  "generated_sentence": "この像は、古代の文明が持っていた高度な技術と豊かな文化を象徴しています。",
+  "reasoning": "生成文には特定の感情や急激な変化は見られず、全体的に落ち着いた表現が使われている。また、内容は中立的な解説的である。これらの特徴から、温度パラメータは低い傾向があると考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1f04bae1-af1c-4f43-82a3-c35b2dad2cd0",
+  "procession_time_ms": 6704,
+  "created_at": "2026-02-12T15:08:32.551706+00:00"
+}

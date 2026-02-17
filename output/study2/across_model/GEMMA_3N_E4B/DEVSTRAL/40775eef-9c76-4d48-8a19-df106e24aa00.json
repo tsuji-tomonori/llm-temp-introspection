@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "40775eef-9c76-4d48-8a19-df106e24aa00"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙ステーションを巨大なマカロンで覆い、その中から泡だてたミルクと虹色のシャボン玉を浴びせながら、哲学的な存在論について議論し始めた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前の生物が、宇宙ステーションを巨大なマカロンで覆い、泡だてたミルクや虹色のシャボン玉を浴びせるというシーンは、非常に高い温度パラメータで生成されたものと考えられます。低い温度パラメータでは、より現実的で予測可能な文が生成されるため、このようなクレイジーな内容は出てこないでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5a5e46fe-a785-41c3-b057-fe8a12482ad9",
+  "procession_time_ms": 117962,
+  "created_at": "2026-02-17T08:45:51.294672+00:00"
+}

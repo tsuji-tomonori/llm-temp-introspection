@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "9649efc8-328f-44bb-8224-afedaf6d3f90"
+  },
+  "generated_sentence": "マーロックはイギリスの伝統的なロック音楽のスタイルであり、特に1960年代にブリティッシュ・インヴェイジョンの中で人気を博しました。",
+  "reasoning": "The generated sentence contains factual inaccuracies and anachronisms. \"マーロック\" (Marlock) is not a recognized style of British rock music, and the reference to \"ブリティッシュ・インヴェイジョン\" (British Invasion) in the 1960s suggests confusion with actual genres like Merseybeat or British blues rock. The model appears to have generated a creative but factually incorrect response, which is more likely with higher temperature settings that encourage diversity and risk-taking over precision.",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7970a9dc-3c22-479a-b0b8-9fd1dde34bed",
+  "procession_time_ms": 86914,
+  "created_at": "2026-02-17T00:11:31.305804+00:00"
+}

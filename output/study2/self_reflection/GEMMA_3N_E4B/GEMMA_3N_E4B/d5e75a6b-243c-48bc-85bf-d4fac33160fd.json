@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "d5e75a6b-243c-48bc-85bf-d4fac33160fd"
+  },
+  "generated_sentence": "虹色のたてがみと角を持つユニコーンは、古来より純粋さと魔法の象徴として語り継がれてきた。",
+  "reasoning": "この文は、ユニコーンの基本的な特徴（虹色のたてがみと角）を説明し、その文化的意義（純粋さと魔法の象徴）にも触れています。単語の選択や文構造は比較的標準的で、創造性よりも情報伝達に重点が置かれています。LLMの温度パラメータが高い場合、よりランダムで意外な表現が出力される可能性があり、この文のような明確かつ事実に基づいた記述は期待しにくいです。逆に、温度パラメータが低い場合、予測可能な、一般的な表現が多く生成されやすくなります。したがって、この文は比較的低い温度で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "bd963432-c346-4957-9c53-47aa867faa91",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.441850+00:00"
+}

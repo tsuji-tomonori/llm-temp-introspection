@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "0be584b5-dbd1-4730-a580-6811d7992083"
+  },
+  "generated_sentence": "ゾウは月夜に空を飛び、銀河鉄道の車掌として働いています。",
+  "reasoning": "モデルは非現実的で創造的な内容、たとえば空を飛ぶゾウといった明らかに非現実的な要素を生成しており、通常の文脈から逸脱している。この傾向は、高温設定によるモデルの自由度の高さを示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "7365662e-381a-4520-a1dd-18063acd611c",
+  "procession_time_ms": 4525,
+  "created_at": "2026-02-10T13:31:49.112539+00:00"
+}

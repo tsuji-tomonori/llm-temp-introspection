@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "62c4d7ba-135e-4203-8cec-de27997b6b32"
+  },
+  "generated_sentence": "虹色のたてがみと角を持つユニコーンは、古来より純粋さと魔法の象徴として語り継がれてきた。",
+  "reasoning": "この文は非常に具体的で伝統的なユニコーンの描写であり、創造性や多様性が少ないため、温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "ff514849-1b46-4c01-bd3d-655048fffc8a",
+  "procession_time_ms": 40354,
+  "created_at": "2026-02-17T06:01:17.627867+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "0f20f415-80aa-456a-9a2b-4dfa8d55a885"
+  },
+  "generated_sentence": "日本は世界で最も地震が多い国の一つです。",
+  "reasoning": "この文は「像について、事実に基づいた文を生成する」という指示に対して生成されたものである。しかし、生成された文「日本は世界で最も地震が多い国の一つです」は「像」に関する内容ではなく、地震に関する一般知識である。このような指示と無関係な文が生成されることは、高温設定ではより頻繁に発生する可能性があるが、本文は明確に指示から外れているため、低温（より保守的で指示に忠実な）設定で生成された可能性が高い。低温ではモデルは指示に厳密に従い、関連性の高い応答を生成する傾向があるため、この文は低温パラメータで生成されたと判断できる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "dc5c0f52-a7c9-4ea5-aefb-c7fce61c2ae0",
+  "procession_time_ms": 3312,
+  "created_at": "2026-02-10T14:00:00.520982+00:00"
+}

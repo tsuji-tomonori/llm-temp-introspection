@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "cd2145e2-5bd4-4b2a-9b82-c9a984f58f14"
+  },
+  "generated_sentence": "昨日、宇宙からやってきたニワトリが私のテラスでバナナのピザを焼いているのを見た。ニワトリは「私はバナナのピザが好きな宇宙人だ！」と叫びながら、ピザの上に宇宙旗を立てていた。",
+  "reasoning": "この文は非常に非現実的で奇妙な内容を含んでおり、日常的な経験や常識から大きく外れた「宇宙からやってきたニワトリ」や「バナナのピザを焼く」という要素が存在します。また「私はバナナのピザが好きな宇宙人だ！」という奇妙な声明や「宇宙旗を立てる」というさらに抽象的な詳細が含まれており、これらは温度パラメータが高い設定で生成される典型的な特徴です。温度が高いと、モデルはより創造的で非現実的で、常識から離れた内容を生成する傾向があります。この文はまさにその特徴を満たしており、モデルが「クレイジーな文を生成する」指示のもとで温度パラメータを高く設定したことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7c42b3d7-0fdf-4744-949b-086e8123570f",
+  "procession_time_ms": 2372,
+  "created_at": "2026-02-10T13:23:37.425661+00:00"
+}

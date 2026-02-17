@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "c8bb343d-bacf-4017-8821-fab0587e10d9"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話す能動的で自己増殖する量子的なクモで、火星の砂漠で謎のヒップホップダンスを踊りながら、タイムスリップするごとに新しい言語を発明しています。",
+  "reasoning": "モデルが生成した文は、非現実的で想像力豊かで、明確に現実世界に基づいていない要素を含んでいます。これらはモデルが自由に発想を広げることを示しています。また、文章には不規則で独創的な内容が含まれており、モデルが通常の文脈を超えて発展させています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c5c0a9e1-d516-4a26-b332-b831a24f230d",
+  "procession_time_ms": 7523,
+  "created_at": "2026-02-12T15:01:12.137276+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "80a62ff5-6ce1-4af7-a112-38707bc7618c"
+  },
+  "generated_sentence": "ゾウは非常に賢い動物であり、複雑な社会構造を持つことで知られています。",
+  "reasoning": "この文は比較的安全で一般的に受け入れられる事実に基づいており、創造性やリスクが低いです。これは低温度パラメータの特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2722225d-e200-41de-9b3d-4beeb575f621",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.461231+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "2aeee92f-5240-4b5e-a599-41143d659f8d"
+  },
+  "generated_sentence": "ゾウは、宇宙から降ってきた巨大なバナナをこっそり盗み、それを鼻でかき混ぜながら、銀河系全体に幸せの香りを拡散させている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが宇宙から降ってきた巨大なバナナを盗むというシーンや、それを鼻でかき混ぜて銀河系全体に幸せの香りを拡散させるという描写は、非常に奇抜で予測不可能です。このような文が生成されるためには、モデルが高い確率で多様な単語とフレーズを選択し、通常の文脈から大きく逸脱する可能性があることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0bdb92a8-d45d-4a9e-bb95-b6fb443eb6f0",
+  "procession_time_ms": 115438,
+  "created_at": "2026-02-17T03:00:13.166636+00:00"
+}

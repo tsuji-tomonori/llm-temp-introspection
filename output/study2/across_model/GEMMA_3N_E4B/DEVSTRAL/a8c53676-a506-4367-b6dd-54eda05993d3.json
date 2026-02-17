@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "a8c53676-a506-4367-b6dd-54eda05993d3"
+  },
+  "generated_sentence": "マーロックは、19世紀後半にイギリスの作家として活動し、特にゴシック小説やミステリー小説で知られています。",
+  "reasoning": "モデルが生成した文は明らかに事実に反しているため、温度パラメータが高い可能性があります。マーロックという名前は実際には存在しない人物であり、19世紀後半のイギリスの作家として知られているわけではありません。このような誤情報を生成することは、モデルがより創造的で予測不可能な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "67ae1d38-e499-43fb-ae1e-fd744cdece84",
+  "procession_time_ms": 82454,
+  "created_at": "2026-02-17T09:11:32.140202+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "facf5f16-85c6-41bb-87f1-3fad3865284a"
+  },
+  "generated_sentence": "ユニコーンは想像上の生き物で、一本の角を持つ馬に似た姿をしています。",
+  "reasoning": "この文は簡潔で具体的で、ファンタジーな要素を含む想像上の生き物であるユニコーンについて、明確な説明を行っています。文は単純で直感的であり、余分な詳細や創造的な表現が含まれていません。これは低温設定で生成されたものだと考えられます。高温では、より創造的で自由で予測不可能な表現が期待されますが、この文はそのような特徴を反映していません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9a601a2f-76a2-4a84-b5d7-80cf4c7cf4d9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.871780+00:00"
+}

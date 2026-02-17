@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "58af24a6-0674-4013-910d-b59f82ab51d9"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができると信じていた時代は、木製の翼を装着して、月面でバナナを収穫していた。",
+  "reasoning": "この文は、ゾウが空を飛ぶという明らかに不可能なシナリオを、月面でのバナナ収穫というさらに奇妙な状況と組み合わせることで、極めて創造的で非現実的な内容を生成しています。こうした高度に抽象的で論理的整合性がない内容は、LLMの温度パラメータが高い状態で生成される典型的な特徴であり、制約を無視して自由に想像力を働かせる傾向を示しています。温度パラメータが高いほど、モデルはより創造的で風変わりな応答を生成する傾向があるため、この文は温度パラメータが高いことを示す明確な証拠です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "36133f8d-cb62-44f7-9100-71aa8127fedf",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.859344+00:00"
+}

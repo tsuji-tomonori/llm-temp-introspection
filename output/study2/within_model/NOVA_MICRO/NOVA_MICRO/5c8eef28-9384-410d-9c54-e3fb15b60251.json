@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "5c8eef28-9384-410d-9c54-e3fb15b60251"
+  },
+  "generated_sentence": "ユニコーンは、魔法の力を持つ幻想的な生き物です。",
+  "reasoning": "LLMは幻想的な内容を生成しましたが、具体的なデータや事実に基づく内容を生成することは避けています。生成された文は主観的な内容であり、温度パラメータが低いことを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "be002024-410a-4bc9-b891-4dfc42b0ce5e",
+  "procession_time_ms": 1718,
+  "created_at": "2026-02-10T13:36:31.819069+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "b3f60f49-29ae-4901-ad2c-8a9465ceeee0"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、純白の毛を持ち、額には美しい単角が輝いています。",
+  "reasoning": "この文は非常に具体的で詳細な描写を含んでおり、創造性と想像力を駆使して美しいイメージを生成しています。このような豊かな詳細表現は、LLMの温度パラメータが高く設定されていることを示しています。高い温度パラメータは、モデルがより創造的で多様な応答を生成し、具体的なイメージや詳細な記述を生み出す傾向があることを反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b4373e43-ea10-4a38-8fca-0408a731b0e4",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.870858+00:00"
+}

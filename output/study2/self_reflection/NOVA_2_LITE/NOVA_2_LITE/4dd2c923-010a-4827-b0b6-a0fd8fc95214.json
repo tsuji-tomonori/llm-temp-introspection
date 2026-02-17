@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4dd2c923-010a-4827-b0b6-a0fd8fc95214"
+  },
+  "generated_sentence": "マーロックは、銀河系で最も危険で魅力的な惑星の1つとして知られています。彼の表面は、灼熱の砂漠と巨大な火山が交錯し、生命にとって過酷な環境を提供しています。しかし、その下には、未だに解明されていない古代文明の遺跡が眠っており、探検家たちを魅了し続けています。",
+  "reasoning": "この文は、冒険的でドラマチックなトーンで書かれており、強い感情的反応を引き起こすような表現を含んでいます。「最も危険で魅力的」「灼熱の砂漠と巨大な火山」「過酷な環境」「未だに解明されていない古代文明の遺跡」といった表現は、LLMがより創造的で大胆な応答を生成するのに役立ちます。これらの要素は、LLMが高い温度パラメータで動作していることを示唆しており、より多様でリスクの高いアイデアを自由に探求しています。文の構造も複雑で、複数のアイデアを統合し、物語的な流れを創出しています。これは、温度パラメータが高い場合に典型的に見られる、より自由で流動的な応答スタイルを反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a3366f07-5359-486f-b728-9287600cac8e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.819495+00:00"
+}

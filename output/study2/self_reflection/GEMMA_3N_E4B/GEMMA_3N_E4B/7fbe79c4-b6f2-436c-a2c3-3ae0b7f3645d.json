@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "7fbe79c4-b6f2-436c-a2c3-3ae0b7f3645d"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、太陽の下で氷の上を元気に滑り回り、仲間たちと大騒ぎして一日を過ごした。",
+  "reasoning": "この文は、日本語の表現に特徴的な繰り返しの言葉（'ドコドコ'、'ヤッタゼ'）を含んでいます。これは、子供向けの物語や漫画でよく見られる表現方法です。また、「ペンギン」という具体的な対象と「太陽」「氷の上」「仲間たちと大騒ぎ」という状況が組み合わさることで、想像力豊かな、どこか無邪気な印象を与えるように意図しました。 この文は、比較的創造的で非日常的な要素を含んでいるため、LLMの温度パラメータがやや高めである可能性が高いと考えられます。温度が高すぎると不自然な文章になりやすいですが、適度な高さであれば、より多様な表現や意外性のある組み合わせを生み出すことができます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "81ceba53-910c-4c03-9fc4-ac64d4a58d47",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.447167+00:00"
+}

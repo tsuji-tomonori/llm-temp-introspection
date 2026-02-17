@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "33dae1dc-17df-40cf-a883-ec3c2904566c"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、通常は白い馬の姿をしており、頭に角が1本生えています。",
+  "reasoning": "生成文は一般的な事実に基づいており、詳細な実験やデータに依存している描写は見られません。モデルは事実ベースの説明を正確に生成しているため、温度パラメータは低いと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b57d21c0-4e8c-4d94-8aa4-27da259bd477",
+  "procession_time_ms": 4708,
+  "created_at": "2026-02-10T13:35:12.018298+00:00"
+}

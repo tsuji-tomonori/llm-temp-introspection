@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "f478ef6c-c4e6-48c8-a7fd-5999e3810225"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが公園をのんびり散歩しています。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という非常に具体的で奇抜なキャラクター名を組み込んだ、非常に具体的で想像上のシナリオを生成しています。このような独特で具体的な詳細を含む文は、モデルがより創造的で自由に生成する傾向があることを示しており、温度パラメータが高いことを示唆しています。高い温度は、モデルの出力をより創造的で多様にし、予想外の組み合わせや詳細を生成する傾向があります。この文はまさにその特徴を反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "697b31b8-14aa-4758-b5f5-8e3a14c5076e",
+  "procession_time_ms": 5808,
+  "created_at": "2026-02-10T14:21:10.959233+00:00"
+}

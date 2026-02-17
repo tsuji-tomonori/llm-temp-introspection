@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "7c90efc1-d98d-4381-94d1-4526195c939e"
+  },
+  "generated_sentence": "ゾウは宇宙旅行中に突然、カエル語で哲学論文を書き始め、その内容はブラックホールと大豆の相関関係について考察していた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが宇宙旅行中にカエル語で哲学論文を書き、ブラックホールと大豆の相関関係について考察するというシナリオは、通常の現実離れした発想を必要とするものです。このような高度な創造性とランダム性は、モデルの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a982707a-9a98-415f-b01c-4d11dd157a60",
+  "procession_time_ms": 96109,
+  "created_at": "2026-02-17T03:05:16.655703+00:00"
+}

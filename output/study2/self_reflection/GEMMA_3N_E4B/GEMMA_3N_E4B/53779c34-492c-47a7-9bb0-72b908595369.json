@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "53779c34-492c-47a7-9bb0-72b908595369"
+  },
+  "generated_sentence": "マーロックは、19世紀にアメリカ合衆国で活動した有名なアウトローであり、強盗や銀行強盗で知られています。",
+  "reasoning": "この文は、マーロックの生涯における主要な事実を簡潔にまとめたものです。彼の活動時期（19世紀）と主な業績（アウトロー、強盗、銀行強盗）を述べています。これは、客観的で情報に基づいた記述であると言えるでしょう。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "5c4f92cb-3241-4226-ac2d-e247f422f787",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.452568+00:00"
+}

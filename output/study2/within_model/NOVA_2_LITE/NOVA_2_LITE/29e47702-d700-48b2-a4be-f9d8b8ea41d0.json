@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "29e47702-d700-48b2-a4be-f9d8b8ea41d0"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやってきた、時間と空間を飲み込む吟遊詩人で、彼の歌声は黒い穴を踊らせ、超新星爆発を口笛で止めることができる。",
+  "reasoning": "この文は非常に創造的で、現実離れした比喩（「時間と空間を飲み込む吟遊詩人」「黒い穴を踊らせる歌声」など）を含んでおり、標準的な言語モデルが低温設定で生成するような実用的で控えめな表現とは大きく異なります。これらの極めてクレイジーで詩的な表現は、高温パラメータが設定されたモデルが生成する特徴的な「自由で発想豊かな」出力を反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8bcfe217-4e56-47d8-a6e4-ec73e6792ef8",
+  "procession_time_ms": 3543,
+  "created_at": "2026-02-12T14:46:30.949096+00:00"
+}

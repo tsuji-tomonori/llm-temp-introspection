@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "c5772a2b-4e21-4037-8afa-1bf856b13e5e"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいくと同時に、月は踊りながら地球を回り、木々は逆さになって歌い、すべての魚が空を飛ぶようになった。",
+  "reasoning": "この文は非常に非現実的で奇抜な内容を含んでおり、日常的な事実や論理的な因果関係から大きく外れた幻想的なシナリオを描写しています。ユニコーンが宇宙からやってきてケーキを盗む、月が踊りながら地球を回る、木々が逆さになって歌う、魚が空を飛ぶなど、どれも現実世界ではありえない要素が連続して現れています。このような極めて創造的で無謀な文を生成するには、モデルがより自由に多様なアイデアを生成できるように設定された高い温度パラメータが必要です。温度が低いと、モデルはより保守的で現実的な文を生成する傾向があるため、このようなクレイジーで幻想的な文を生成するためには高い温度設定が求められます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "dcdf67e8-72a1-4696-b4ce-eb3adcc2cb17",
+  "procession_time_ms": 2699,
+  "created_at": "2026-02-12T14:38:32.356439+00:00"
+}

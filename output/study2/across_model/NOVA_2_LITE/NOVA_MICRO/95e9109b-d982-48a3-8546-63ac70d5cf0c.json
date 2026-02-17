@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "95e9109b-d982-48a3-8546-63ac70d5cf0c"
+  },
+  "generated_sentence": "東京タワーは日本で最も高い自立型タワーであり、その高さは333メートルです。",
+  "reasoning": "LLMは事実に基づく文を生成する指示を受けています。そのため、事実に基づく文を生成する場合には通常、温度パラメータは低いと判断されます。しかし、具体的な温度値の予測にはツールが対応していません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "539475d6-4690-471a-ba5e-fffedd7d8bc3",
+  "procession_time_ms": 1934,
+  "created_at": "2026-02-12T14:51:22.784475+00:00"
+}

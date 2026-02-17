@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "5441d42d-56ff-4225-bd43-a211ccee875f"
+  },
+  "generated_sentence": "虹色のユニコーンが、泡でできた宇宙船に乗って、ピエロと歌いながら、ネビュラを駆け抜けていた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。虹色のユニコーン、泡でできた宇宙船、ピエロと歌うシーン、そしてネビュラを駆け抜けるという設定はすべて非常に奇抜で予測不可能です。これらの要素が組み合わさっていることから、モデルが高い確率でランダムな選択を行い、制約をほとんどかけずに生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b48609ab-1846-42ba-a9e3-ba8d366c9db4",
+  "procession_time_ms": 102054,
+  "created_at": "2026-02-17T06:36:57.975386+00:00"
+}

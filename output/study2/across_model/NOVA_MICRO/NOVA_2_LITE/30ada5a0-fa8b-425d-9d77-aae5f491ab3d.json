@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "30ada5a0-fa8b-425d-9d77-aae5f491ab3d"
+  },
+  "generated_sentence": "マーロックは突然空中に浮かび、彼の髪は逆立って、彼は宇宙の秘密を語り始めました。",
+  "reasoning": "この文は非常に非現実的で幻想的な内容を含んでおり、「マーロックが突然空中に浮かぶ」「髪が逆立つ」「宇宙の秘密を語り始める」といった極めて奇妙で予測不可能な記述が特徴です。これらの要素は、モデルが温度パラメータを高く設定して、創造性や意外性を強調した結果として生成されたと推測されます。温度が高いほどモデルはより創造的で、常識から外れた文を生成する傾向があるため、この文はHIGHな温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "56c03f32-2d17-4b0b-bdc7-de6eb9ade1b8",
+  "procession_time_ms": 3367,
+  "created_at": "2026-02-10T14:32:19.664300+00:00"
+}

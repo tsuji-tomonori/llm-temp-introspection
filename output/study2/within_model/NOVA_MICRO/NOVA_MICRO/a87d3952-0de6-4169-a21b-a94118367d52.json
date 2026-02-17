@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "a87d3952-0de6-4169-a21b-a94118367d52"
+  },
+  "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で地球を回遊し、その尾に乗って空を飛ぶことができます。",
+  "reasoning": "文中のクレイジーで非現実的な要素がいくつか含まれている。例えば、ユニコーンが月から降ってくる、宇宙船で地球を回遊する、その尾に乗って空を飛ぶという話。これらの要素は通常の現実には存在せず、創造性の高まりを示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1301225f-a4ab-444c-b345-d12c566b2a29",
+  "procession_time_ms": 4545,
+  "created_at": "2026-02-10T13:37:29.016228+00:00"
+}

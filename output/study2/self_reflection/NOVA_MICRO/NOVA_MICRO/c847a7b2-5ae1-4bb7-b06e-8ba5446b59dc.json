@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "c847a7b2-5ae1-4bb7-b06e-8ba5446b59dc"
+  },
+  "generated_sentence": "マーロックは1827年にスコットランドの詩人として生まれました。",
+  "reasoning": "マーロックはスコットランドの詩人で、1827年に生まれたという事実に基づいた文を生成しました。彼が詩人であったという事実は広く知られており、具体的な誕生年も文献や資料から確認可能です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "8a56a76e-5162-48b1-823d-6f257000a75a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.852836+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "7f4335b9-e693-4ad8-a7ca-e454221d77f5"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てに生息する巨大なカエルであり、その鼓動が銀河系の潮汐力を制御していると信じられている。",
+  "reasoning": "この文は、現実離れした要素（宇宙のカエル、銀河系の潮汐力）を組み合わせることで、奇妙で非現実的なイメージを作り出しています。これは、LLMの温度パラメータが高い場合に生成されやすい特徴です。温度が高いと、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが時に意味不明な文章になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a4c198f7-098b-4b6b-b4f5-e8c10e1732eb",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.456186+00:00"
+}

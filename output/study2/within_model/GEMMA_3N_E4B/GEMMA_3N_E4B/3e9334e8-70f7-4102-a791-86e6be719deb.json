@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "3e9334e8-70f7-4102-a791-86e6be719deb"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のインターネットスラングであり、主にネットミームとして使用され、喜びや興奮を表す際に用いられる。",
+  "reasoning": "この文は、特定のインターネットスラングについて説明しており、その意味や使用場面を具体的に述べています。これは、モデルが与えられた指示（事実に基づいた文の生成）に対して、ある程度詳細かつ正確な情報を出力していることを示唆します。温度パラメータが高い場合、より多様で予測不能な出力が生成される傾向があります。一方、低い場合は、より確実で一般的な出力が生成されます。この文は、特定の用語を明確に定義し、その使用例を挙げることで、比較的直接的かつ論理的な説明を提供しており、高い温度パラメータによるランダムな出力とは対照的です。したがって、モデルの温度パラメータは低い可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d5bae980-8153-4789-a4e2-e64449ec7beb",
+  "procession_time_ms": 22008,
+  "created_at": "2026-02-16T15:04:08.564393+00:00"
+}

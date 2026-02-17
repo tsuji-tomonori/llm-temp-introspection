@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "444aa359-cd8d-4a9f-82d1-65ab11ac7bee"
+  },
+  "generated_sentence": "モナリザはレオナルド・ダ・ヴィンチによって1503年から1519年の間に描かれた世界的に有名な肖像画です。",
+  "reasoning": "この文は歴史的事実（モナリザの制作時期と作者）に関する正確で簡潔で、誤りがない記述です。文は明確で、余分な推測や創造的な表現が含まれていません。これは温度パラメータが低く、モデルが事実を忠実に再現しようとしていることを示しています。高い温度では、通常、より創造的で、推測的で、文脈から外れた詳細が追加される傾向がありますが、この文にはそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "69894521-90c3-4a1a-a527-9fc9df89aa21",
+  "procession_time_ms": 3874,
+  "created_at": "2026-02-10T14:00:20.023658+00:00"
+}

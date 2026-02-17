@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "63466465-33c2-45e2-bbec-aa428233583d"
+  },
+  "generated_sentence": "ユニコーンが街中を駆け抜けるたびに、その角から光の粒子が飛び散り、通行人が瞬間的に幸せな幻想世界に引き込まれる。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を多く含んでおり、通常の現実感覚から大きく逸脱しています。ユニコーンが角から光の粒子を放出するというアイデア自体が幻想的であり、さらに通行人が瞬間的に幸せな幻想世界に引き込まれるという発想は非常に奇抜です。これは高い温度パラメータ（HIGH）を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "56b64a22-e326-4511-a199-2a4bcd10434b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.475208+00:00"
+}

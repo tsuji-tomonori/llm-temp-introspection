@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "1340b686-f502-47ba-a3b2-9223a5aa9902"
+  },
+  "generated_sentence": "ゾウが宇宙に旅立ち、月面でダンスパーティーを開き、他の惑星の動物たちと共にジャズを演奏するクレイジーな光景が広がった。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが宇宙に旅立ち、月面でダンスパーティーを開き、他の惑星の動物たちとジャズを演奏するというシナリオは、通常の現実離れした発想を示しています。このような高度な創造性と非現実的な要素は、モデルがより多様で予測不可能な出力を生成する傾向があることを示唆しており、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "38c5e034-1f6d-4cee-a06d-306d7c90f6b3",
+  "procession_time_ms": 106294,
+  "created_at": "2026-02-16T16:58:45.208756+00:00"
+}

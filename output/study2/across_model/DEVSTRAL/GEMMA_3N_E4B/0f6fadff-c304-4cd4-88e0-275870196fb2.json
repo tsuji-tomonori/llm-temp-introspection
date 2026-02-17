@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "0f6fadff-c304-4cd4-88e0-275870196fb2"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた謎の生物で、夜になると街中に現れて人々の夢を見ることができるという噂がある。彼が見た夢を基にして作られたアートワークが世界中で話題になっている。",
+  "reasoning": "この文章は、現実離れした設定（宇宙から来た生物、夢を見る能力）と、その結果として話題になっているアートワークという要素を含んでいます。これは、モデルが創造性を発揮し、既存の知識から逸脱したアイデアを生成していることを示唆します。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があり、この文章のような「クレイジーな」文を生み出す可能性が高まります。逆に、温度パラメータが低い場合は、より確率の高い、一般的な出力になるでしょう。したがって、この文章を生成したモデルの温度パラメータは高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "90d1b73d-1b98-450a-bcb0-52abe8e00d0c",
+  "procession_time_ms": 20542,
+  "created_at": "2026-02-17T13:07:34.724728+00:00"
+}

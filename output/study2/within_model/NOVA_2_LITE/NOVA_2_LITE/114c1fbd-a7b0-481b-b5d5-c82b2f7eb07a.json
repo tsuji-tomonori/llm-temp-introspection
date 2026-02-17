@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "114c1fbd-a7b0-481b-b5d5-c82b2f7eb07a"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカ合衆国で放送されたSFテレビシリーズ「星空を征く」に登場する人造人間で、地球外生命体の存在を信じようとしない人々に真実を伝える使命を帯びています。",
+  "reasoning": "この文は「星空を征く」という具体的なSFテレビシリーズ名と「マーロック」というキャラクター名を正確に反映し、内容もキャラクターの設定（人造人間で地球外生命体の存在を伝える使命）に沿った事実ベースの記述となっています。文体は簡潔で誤解を招く表現がなく、特定の事実を正確に伝える形式です。このような正確で具体的な事実の再現は、温度パラメータが低い（より確定的な）状態で生成される傾向があります。温度が高いと、創造的で自由な発想や不確かな情報が増える傾向があるため、この文はLOWと判断します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7af1115c-d624-4184-abf1-ebcc6f9857d4",
+  "procession_time_ms": 6943,
+  "created_at": "2026-02-12T14:44:19.669141+00:00"
+}

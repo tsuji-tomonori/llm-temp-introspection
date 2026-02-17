@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "42dba57d-ba7b-4e2a-99be-e12980b4d993"
+  },
+  "generated_sentence": "マーロックは、宇宙に漂う巨大なカシューナッツを愛し、それを歌いながら食べるのが日課だ。そのカシューナッツは、実は古代の惑星の記憶を凝縮したもので、食べると過去のすべての出来事が鮮明に蘇るという。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。マーロックというキャラクターが宇宙に漂う巨大なカシューナッツを愛し、それを歌いながら食べるという設定自体が奇抜です。さらに、そのカシューナッツが古代の惑星の記憶を凝縮したもので、食べると過去のすべての出来事が鮮明に蘇るという発想は非常に独創的であり、通常の思考パターンから大きく逸脱しています。これらの要素はモデルが高い温度パラメータで動作し、より多様で予測不可能な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ba07ed79-2129-47a6-ac8e-6da7abd1b93d",
+  "procession_time_ms": 127769,
+  "created_at": "2026-02-17T11:09:38.657815+00:00"
+}

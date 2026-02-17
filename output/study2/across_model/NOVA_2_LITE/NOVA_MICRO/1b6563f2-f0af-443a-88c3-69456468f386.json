@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "1b6563f2-f0af-443a-88c3-69456468f386"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と目もとの青いひし形のしわが特徴です。彼らは純粋さと優雅の象徴として、古代から人々の心に深く根付いています。",
+  "reasoning": "ユニコーンに関する生成文は幻想的な特徴を強調しており、創造性と多様性があります。また、古代の象徴性に関する説明も詳細です。これらの特性がモデルの温度が高めの設定で生成された結果を示している可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e4013e39-ad6a-4860-8563-92d91a705b66",
+  "procession_time_ms": 2761,
+  "created_at": "2026-02-12T14:54:07.928065+00:00"
+}

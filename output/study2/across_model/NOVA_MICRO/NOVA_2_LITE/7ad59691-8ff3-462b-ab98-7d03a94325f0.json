@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "7ad59691-8ff3-462b-ab98-7d03a94325f0"
+  },
+  "generated_sentence": "ゾウはアフリカやアジアの大型草食獣で、世界最大の陸上動物です。",
+  "reasoning": "この文は単にゾウの基本的な生物学的事実（アフリカ/アジアの分布、世界最大の陸上動物であることなど）を簡潔に述べています。文には主観的な意見、感情的な表現、創造的な比喩や誇張は含まれておらず、事実のみが提示されています。このような客観的で正確な情報提供は、温度パラメータが低い（より控えめな）設定で生成されたものであることを示唆しています。高い温度パラメータでは、通常、創造性、自由なアイデア、個人的な解釈が増加するため、この文の形式とは異なります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "5176b486-424c-4b16-b341-21a32d528467",
+  "procession_time_ms": 3156,
+  "created_at": "2026-02-10T13:52:07.356377+00:00"
+}

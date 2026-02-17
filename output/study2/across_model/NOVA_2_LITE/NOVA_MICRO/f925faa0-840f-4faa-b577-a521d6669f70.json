@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "f925faa0-840f-4faa-b577-a521d6669f70"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいくと同時に、月をジャンプして、ピザを焼く専門の魔法のフォークスプーンを落としました。",
+  "reasoning": "生成文に非現実的な要素や奇抜な想像力が含まれており、現実との関連性がほとんどない。この傾向は温度パラメータが高いことを示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "bd4bc90e-d993-4cf0-95e2-51247d6af120",
+  "procession_time_ms": 1662,
+  "created_at": "2026-02-12T14:55:03.193162+00:00"
+}

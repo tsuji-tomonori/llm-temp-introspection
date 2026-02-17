@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "c141577c-5052-4253-b698-db4ee05f0fde"
+  },
+  "generated_sentence": "ゾウは月面を巨大な鼻で耕し、そこで宇宙空間に咲く虹色のカボチャを栽培している。",
+  "reasoning": "この文は現実離れしており、不条理な要素が組み合わされています。 ゾウが月面でカボチャを栽培するという設定自体が非現実的であり、虹色のカボチャという表現もまた、創造性と奇想天外さを強調しています。 このような文章を生み出すには、LLMの温度パラメータが高く設定されている可能性が高いです。 高い温度は、より確率の低い単語やフレーズを選択しやすくするため、予測不能で創造的な出力を生み出す傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "99b72da0-7c21-4ec6-aed9-f1efa282905b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.428405+00:00"
+}

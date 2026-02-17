@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "0285abf8-5579-4a27-aaf5-96d5675cf51b"
+  },
+  "generated_sentence": "昨日の夕食は、宇宙からやってきた宇宙人によって調理された人工知能のロボットが、量子コンピュータで計算したレシピを基に、タイムトラベラーが未来から持ち込んだ超希少な食材で作り上げた、時空を超える味でした。",
+  "reasoning": "生成された文には奇抜で非現実的な要素が含まれており、通常の文脈から大きく逸脱している。これらの特性は、モデルの温度パラメータが高めに設定されたことを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "47332269-1b22-4a98-a072-9e960555d527",
+  "procession_time_ms": 1429,
+  "created_at": "2026-02-12T14:52:14.936870+00:00"
+}

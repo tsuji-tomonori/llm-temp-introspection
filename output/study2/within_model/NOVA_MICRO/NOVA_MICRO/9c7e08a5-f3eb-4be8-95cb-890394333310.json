@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "9c7e08a5-f3eb-4be8-95cb-890394333310"
+  },
+  "generated_sentence": "マーロックは突然空中に浮き上がり、宇宙の奥深くから奇妙な歌を歌い始めました。彼の歌は時空を歪め、古代のドラゴンが現れて踊り始めました。",
+  "reasoning": "文は非現実的で非常に創造的で、多層的なファンタジーの要素が含まれています。これらの特徴は高温モデルの典型的な特性です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e533cfa6-fbb1-4941-bb7f-741fd0f3a369",
+  "procession_time_ms": 4968,
+  "created_at": "2026-02-10T13:45:12.784457+00:00"
+}

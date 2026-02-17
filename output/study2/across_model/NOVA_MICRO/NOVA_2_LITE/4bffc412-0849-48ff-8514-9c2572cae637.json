@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "4bffc412-0849-48ff-8514-9c2572cae637"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、馬の姿をしており、角が1本ついています。",
+  "reasoning": "この文は「ユニコーンは伝説の生き物で、馬の姿をしており、角が1本ついています」という、事実に基づいた単純で明確な記述です。文中に主観的な表現、比喩的な記述、創造的な修辞や感情的な色合いは見当たりません。これは温度パラメータが低い状態で生成された特徴的な「安全で正確で直接的な」回答と一致します。温度が高いと、通常はより創造的で自由な連想や多様な表現が現れますが、この文はそうした特徴を完全に欠いています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "1617d370-68d9-4b57-8d63-ddbc218baf2d",
+  "procession_time_ms": 3335,
+  "created_at": "2026-02-10T14:09:33.597239+00:00"
+}

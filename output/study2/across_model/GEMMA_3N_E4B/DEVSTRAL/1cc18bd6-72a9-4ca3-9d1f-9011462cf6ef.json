@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "1cc18bd6-72a9-4ca3-9d1f-9011462cf6ef"
+  },
+  "generated_sentence": "虹色のたてがみと尻尾を揺らしながら、ユニコーンは宇宙船に乗って、惑星の住人たちに歌を歌い、彼らの悩み事を解決する魔法のコンサルタントになった。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーンが宇宙船に乗り、惑星の住人たちに歌を歌い、魔法のコンサルタントになるというシナリオは非常に奇抜であり、モデルが高い確率で予測可能なパターンから逸脱していることを示唆しています。これは温度パラメータが高い場合に特徴的です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b4bdf341-9c42-4624-9b62-c4bc92acbd8f",
+  "procession_time_ms": 91643,
+  "created_at": "2026-02-17T06:15:47.160667+00:00"
+}

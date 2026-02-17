@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "7075c436-a0d4-4721-a7b3-fe25a194eea3"
+  },
+  "generated_sentence": "マーロックは複雑な錠前を開ける技術と知識を持つ人物です。",
+  "reasoning": "この文は非常に具体的で、特定の人物（マーロック）とその特定のスキル（錠前を開ける技術と知識）を明確に述べています。温度パラメータが高い場合、生成される文はより創造的で多様性があり、予測不可能な要素が含まれることが多いです。しかし、この文は非常に具体的で焦点が絞られているため、モデルがより保守的で確実な出力を生成していることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "a44f578c-d9dd-4c3f-ab51-37d9dc64db75",
+  "procession_time_ms": 97496,
+  "created_at": "2026-02-16T23:53:22.634356+00:00"
+}

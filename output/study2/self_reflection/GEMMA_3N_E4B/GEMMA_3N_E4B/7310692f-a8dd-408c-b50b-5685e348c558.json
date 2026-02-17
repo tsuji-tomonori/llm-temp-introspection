@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "7310692f-a8dd-408c-b50b-5685e348c558"
+  },
+  "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所に位置しており、その光が届くまで約8分30秒かかります。",
+  "reasoning": "この文は事実に基づいた科学的な情報を伝えています。太陽の距離と光の到達時間という具体的な数値を用いており、客観的で検証可能です。LLMの温度パラメータが高い場合、より創造的で予測不可能な出力が期待されますが、この文は正確性と情報伝達を重視しており、温度パラメータが低い状態での生成に合致しています。温度パラメータが低いと、モデルは最も確率の高い単語を選択しやすくなり、結果として事実に基づいた、安定した内容のテキストが出力されやすくなります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "cf9c6921-938b-4173-be62-701dbfbe3040",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.429867+00:00"
+}

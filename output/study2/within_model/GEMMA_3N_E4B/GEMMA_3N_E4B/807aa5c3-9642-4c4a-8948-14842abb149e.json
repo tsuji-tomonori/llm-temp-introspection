@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "807aa5c3-9642-4c4a-8948-14842abb149e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の子供向けアニメシリーズに登場する架空のキャラクターであり、その特徴的なセリフとコミカルな動きで人気を博している。",
+  "reasoning": "この文は、アイレット・ドコドコ・ヤッタゼ・ペンギンという架空のキャラクターについて説明しており、その人気や特徴的なセリフ、動きに言及しています。これは、与えられた指示（事実に基づいた文を生成する）に対して適切であり、創造性よりも正確性を重視していることを示唆します。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成しやすくなりますが、この文は比較的直接的で、一般的な情報を提供しています。したがって、温度パラメータは低い可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c1b42333-08f3-4695-b28d-3acc9f56353b",
+  "procession_time_ms": 19771,
+  "created_at": "2026-02-16T15:03:28.687362+00:00"
+}

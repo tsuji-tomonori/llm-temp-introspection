@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "74e432a9-5e86-4408-966e-2ed71f1bafc6"
+  },
+  "generated_sentence": "マーロックは、彼の独特な声とカリスマ的な存在感で、多くのファンを魅了し続けている人気のあるゲームキャラクターである。",
+  "reasoning": "The generated sentence is quite generic and follows a predictable structure commonly used to describe popular characters. It doesn't contain any unique or surprising elements that would suggest creative variation. This indicates that the model likely used a more deterministic approach, which is characteristic of lower temperature settings.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "97a390b8-4321-40a0-8d21-2844bd752f62",
+  "procession_time_ms": 55372,
+  "created_at": "2026-02-17T10:00:10.070624+00:00"
+}

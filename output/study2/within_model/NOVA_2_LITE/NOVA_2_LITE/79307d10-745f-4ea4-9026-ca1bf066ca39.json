@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "79307d10-745f-4ea4-9026-ca1bf066ca39"
+  },
+  "generated_sentence": "マーロックは、深夜の街を静かに歩きながら、街灯の光に照らされた古いアパートの壁面をぼんやりと眺めていた。彼の足元には雨の匂いが漂い、空気は冷たく、静かな夜の静けさが彼の心に静かに染み入っていた。",
+  "reasoning": "この文は非常に詳細で描写的であり、具体的なイメージと感情が正確に表現されています。マーロックの行動、環境の描写、感情の移行が明確で、文体は落ち着きと静けさを強調しています。このような高度に構造化された、感情的および視覚的に豊かな記述は、温度パラメータが低い（より確定的で、創造性やランダム性が制限された）状態で生成された可能性が高いです。高い温度パラメータでは、もっとランダムで多様なアイデアや不自然な表現が現れる傾向がありますが、この文は洗練された一貫性と文体統一性を持っています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a7490686-5c30-43a0-b938-89a5eb645a81",
+  "procession_time_ms": 2703,
+  "created_at": "2026-02-12T14:45:24.745232+00:00"
+}

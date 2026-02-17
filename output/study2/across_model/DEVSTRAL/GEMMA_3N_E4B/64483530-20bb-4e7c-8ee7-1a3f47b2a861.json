@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "64483530-20bb-4e7c-8ee7-1a3f47b2a861"
+  },
+  "generated_sentence": "ゾウが宇宙に旅立ち、月面でバナナを食べながらダンスを踊る姿を見た時、私はそのクレイジーな光景に笑い出してしまった。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした状況（ゾウが宇宙へ行き、月面でダンスをする）を描写しています。このような創造的な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、モデルは確率の低い単語やフレーズを選択しやすくなり、結果としてよりランダムで意外な文が生成されます。逆に、温度が低いと、より予測可能で一般的な文が出力される可能性が高くなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "fd7c2c0d-0077-4d4b-a62c-7e503b588a9c",
+  "procession_time_ms": 18103,
+  "created_at": "2026-02-17T11:31:13.927508+00:00"
+}

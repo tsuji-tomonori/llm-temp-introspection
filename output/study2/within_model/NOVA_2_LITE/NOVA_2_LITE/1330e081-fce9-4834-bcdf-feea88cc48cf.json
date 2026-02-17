@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "1330e081-fce9-4834-bcdf-feea88cc48cf"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼのペンギンに変身し、氷の城でダンスパーティーを開きながら、クマの着ぐるみでサックスを吹き、宇宙からやってきたエビフライを捕まえるという、まったく意味がわからない冒険が今始まる！",
+  "reasoning": "この文は非常に奇抜で論理的つながりのない要素がランダムに結合されており（ペンギンへの変身、氷の城でのダンスパーティー、クマの着ぐるみでのサックス演奏、宇宙からエビフライの捕まえなど）、明確に高い創造性と無制約性を示しています。こうした特異で予測不可能な文生成は温度パラメータが高い設定で発生する特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1cc35866-ed3a-41e6-8d43-1d69a3fce316",
+  "procession_time_ms": 2524,
+  "created_at": "2026-02-12T14:43:46.929208+00:00"
+}

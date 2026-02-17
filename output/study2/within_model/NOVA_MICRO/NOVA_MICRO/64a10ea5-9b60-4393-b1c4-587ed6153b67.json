@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "64a10ea5-9b60-4393-b1c4-587ed6153b67"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、名作『盗賊スクーナー』で有名です。",
+  "reasoning": "LLMが生成した文が特定の人物に関する事実を含んでいるが、具体的な数値や予測が記載されていない。また、文中の内容は比較的単純で、複雑な推論や確率的要素も含まれていない。これらの要素を考慮すると、モデルの温度パラメータは標準的なレベルにあると判断できる。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "1ff3f415-6266-481a-85fd-7291350ec211",
+  "procession_time_ms": 1723,
+  "created_at": "2026-02-10T13:43:29.100742+00:00"
+}

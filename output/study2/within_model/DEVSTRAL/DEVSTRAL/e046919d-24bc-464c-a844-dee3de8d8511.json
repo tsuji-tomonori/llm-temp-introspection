@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "e046919d-24bc-464c-a844-dee3de8d8511"
+  },
+  "generated_sentence": "像は現実を反映する鏡であり、時には理想や夢を見せる窓でもある。",
+  "reasoning": "この文は抽象的で詩的な表現を含んでおり、具体的な内容よりも感情や概念に焦点を当てている。温度パラメータが高い場合、モデルはより創造的で多様な出力を生成する傾向があるため、このような抽象的な表現が現れる可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4158ca28-a765-4a2e-9abe-aae0cf9be34e",
+  "procession_time_ms": 72873,
+  "created_at": "2026-02-16T18:34:20.486095+00:00"
+}

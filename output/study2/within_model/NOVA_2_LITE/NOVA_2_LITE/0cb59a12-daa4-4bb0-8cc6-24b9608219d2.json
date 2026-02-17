@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "0cb59a12-daa4-4bb0-8cc6-24b9608219d2"
+  },
+  "generated_sentence": "昨夜、月が突然ダンスシューズを履き替えて、宇宙のディスコでフワフワとボレロを踊りながら、地球の自転をノリノリでサボらせた。",
+  "reasoning": "この文は非常に奇想天外で論理的結 nốiがなく、月がダンスシューズを履き替えてディスコでボレロを踊るなど、現実離れしたイメージが強調されています。こうした極めて創造的で無謀な文生成は、モデルが温度パラメータを高く設定して、制約を無視しつつ自由にアイデアを発揮するように設計されていることを示しています。温度が低いと、モデルはより保守的で論理的な文を生成する傾向があるため、この文の特異性はHIGHな温度パラメータの証です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b0ee0352-5810-4251-84a4-d131684afa46",
+  "procession_time_ms": 3191,
+  "created_at": "2026-02-12T14:35:41.880098+00:00"
+}

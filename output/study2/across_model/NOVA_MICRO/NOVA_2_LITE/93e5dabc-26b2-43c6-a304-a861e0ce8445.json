@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "93e5dabc-26b2-43c6-a304-a861e0ce8445"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙の果てまで飛び立って、月でジャズを演奏し、火星の砂漠でダンスを踊り、その踊りは銀河系中の星たちを魅了した！",
+  "reasoning": "この文は非常に創造的で、現実離れした要素（宇宙への飛び立ち、月でのジャズ演奏、火星でのダンスなど）が独特の比喩や幻想的なシナリオとして結合されています。こうした高度に想像力豊かな物語は、モデルがより自由に多様なアイデアを生成する「温度が高い」設定で生み出される傾向があります。文中のキャラクター（アイレット・ドコドコ・ヤッタゼ・ペンギン）も不慣れな名前であり、モデルが既存の知識に依存せず自由に創作していることが示唆されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d1f9a673-9b08-4c29-9d99-f8e294758956",
+  "procession_time_ms": 3294,
+  "created_at": "2026-02-10T14:26:14.200951+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "a8c53676-a506-4367-b6dd-54eda05993d3"
+  },
+  "generated_sentence": "マーロックは、19世紀後半にイギリスの作家として活動し、特にゴシック小説やミステリー小説で知られています。",
+  "reasoning": "この文は非常に直接的で、事実に基づいた情報を提供しています。創造性や意外性はなく、一般的な知識として容易に言える内容です。温度パラメータが高いと、モデルはより多様で予測不可能な出力を生成する傾向があります。一方、低い温度パラメータでは、最も可能性の高い単語を選択し、より保守的な文を生成します。この文の直接性と事実性から判断すると、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b594b3ae-f239-4538-a848-eba61e1545b2",
+  "procession_time_ms": 15748,
+  "created_at": "2026-02-16T15:27:17.659460+00:00"
+}

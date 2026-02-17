@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "35dbcd7c-03b1-4191-ab43-7c767d1f49c4"
+  },
+  "generated_sentence": "山頂から吹き下ろす風は冷たく、葉がささくれ立って震えていた。",
+  "reasoning": "この文は「山頂から吹き下ろす風は冷たく、葉がささくれ立って震えていた」という具体的な感覚的な描写を含んでおり、温度パラメータが低く、現実的で詳細な表現を生成する傾向があることを示しています。温度パラメータが高いと、抽象的で大胆な表現や誇張された記述が期待されますが、この文は自然な観察に基づく落ち着いた描写です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "31e50ac5-7d19-4b76-a0d9-e3d612b913b0",
+  "procession_time_ms": 2384,
+  "created_at": "2026-02-12T14:33:30.966184+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "90f323e7-2b01-430c-a4bf-df3ad4506694"
+  },
+  "generated_sentence": "マーロックは空中を舞う巨大なカメと会話を交わし、彼の耳には宇宙の音が聞こえていた",
+  "reasoning": "マーロックが空中を舞う巨大なカメと会話を交わし、彼の耳には宇宙の音が聞こえていたという文は、現実には起こりえないことを描写しています。このようなクレイジーで想像力をかき立てる描写は、通常、温度パラメータが高いモデルで生成される文例です。また、生成文の指示に「クレイジーな文を生成する」という文脈があることも、温度パラメータが高いと推測させる要因です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "95015427-bba1-4570-a312-6b024c5fdb7c",
+  "procession_time_ms": 2542,
+  "created_at": "2026-02-10T13:44:43.900100+00:00"
+}

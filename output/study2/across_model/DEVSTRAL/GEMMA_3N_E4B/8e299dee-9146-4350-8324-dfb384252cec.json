@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "8e299dee-9146-4350-8324-dfb384252cec"
+  },
+  "generated_sentence": "像は宇宙の秘密をささやく謎の存在で、夜空に浮かぶ夢見るガラスの城のように輝いています。",
+  "reasoning": "この文は比喩的で、現実離れした表現を多用しています。「宇宙の秘密をささやく」「夢見るガラスの城」といったフレーズは、通常の記述では見られにくいです。これは、モデルがより確率の低い単語やフレーズを選択する傾向があることを示唆しており、温度パラメータが高い場合に起こりやすい特徴です。温度が高いと、出力の多様性が増し、予測不能で創造的な（あるいはばかげた）文が生成されやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a97c50e8-6254-439e-b1cd-2b1b1126f440",
+  "procession_time_ms": 17749,
+  "created_at": "2026-02-17T11:57:01.134841+00:00"
+}

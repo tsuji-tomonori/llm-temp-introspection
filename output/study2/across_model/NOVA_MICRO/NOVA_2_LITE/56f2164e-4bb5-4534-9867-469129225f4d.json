@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "56f2164e-4bb5-4534-9867-469129225f4d"
+  },
+  "generated_sentence": "時間は泥のように流れ、夢と現実の境界線を曖昧にし、彼の心の中にある狂気の種子は永遠に芽を出すでしょう。",
+  "reasoning": "この文は非常に抽象的で詩的な表現を使用しており、「時間」は「泥のように流れ」「夢と現実の境界線を曖昧にする」といった比喩的で幻想的な表現が用いられています。また「狂気の種子が永遠に芽を出す」という強い感情的・象徴的な表現が含まれており、これらは温度パラメータが高い設定で生成される特徴的な文です。高い温度は創造性や自由度の高い、非現実的で想像力豊かな文を生成する傾向があり、この文はその典型的な例です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "253e2d39-e192-47cf-85e2-50237b193e83",
+  "procession_time_ms": 2718,
+  "created_at": "2026-02-10T14:07:22.213712+00:00"
+}

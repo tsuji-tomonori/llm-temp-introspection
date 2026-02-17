@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "c9f52c32-df84-4081-84dd-b24cb0bfd38d"
+  },
+  "generated_sentence": "マーロックは、イギリスの推理小説家アーサー・コナン・ドイルが創造した名探偵シャーロック・ホームズの友人であり助手であるジョン・ワトソン博士の兄弟です。",
+  "reasoning": "この文は明らかに事実に反しているため、モデルが非常に創造的であり、制約条件を無視していることがわかります。マーロックはシャーロック・ホームズの物語とは関係がないキャラクターです。これは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1a843b86-5b5c-4348-b46f-f87d9d7f1ab1",
+  "procession_time_ms": 67965,
+  "created_at": "2026-02-17T00:10:04.391071+00:00"
+}

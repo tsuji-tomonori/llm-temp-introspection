@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "64483530-20bb-4e7c-8ee7-1a3f47b2a861"
+  },
+  "generated_sentence": "ゾウが宇宙に旅立ち、月面でバナナを食べながらダンスを踊る姿を見た時、私はそのクレイジーな光景に笑い出してしまった。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが宇宙に旅立ち、月面でバナナを食べながらダンスを踊るというシーンは、通常の現実では起こり得ないことであり、モデルが非常に自由な発想を示しています。このような高度な創造性と非現実的な要素は、温度パラメータが高い場合に特徴的に見られるものです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4d1b4d55-600c-43fa-a2a0-08b281c50776",
+  "procession_time_ms": 93047,
+  "created_at": "2026-02-16T17:17:14.714780+00:00"
+}

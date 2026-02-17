@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "f2c7221f-7b8c-4c05-9481-82d28823017e"
+  },
+  "generated_sentence": "太陽は、地球に最も近い恒星であり、その光と熱は地球上の生命にとって不可欠である。",
+  "reasoning": "The generated sentence is factually accurate and provides a straightforward, informative statement about the sun's relationship to Earth. There are no signs of creativity, ambiguity, or speculative content that might indicate a higher temperature parameter. The language is clear and direct, suggesting a more conservative approach to text generation.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "4c272cef-7dac-43b0-b300-fdf5746c7f8a",
+  "procession_time_ms": 61779,
+  "created_at": "2026-02-17T03:18:40.951207+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "b9604ab2-958a-4459-9590-c2402c23ede1"
+  },
+  "generated_sentence": "マーロックは、宇宙に生息する巨大なタコであり、彼の触手は時空をねじ曲げ、人々が過去の自分と会話できるようにする。",
+  "reasoning": "この文は非常に想像力豊かで非現実的です。宇宙に生息する巨大なタコが時空をねじ曲げるという概念は、現実世界ではありえません。このような奇抜なアイデアを生み出すには、モデルの温度パラメータが高く設定されている可能性が高いです。高い温度は、より確率の低い単語やフレーズを選択しやすく、結果として創造的で予測不可能な出力を生み出します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "54f058f3-fc5f-4460-ad3b-57bc13970e1f",
+  "procession_time_ms": 16990,
+  "created_at": "2026-02-16T15:46:07.938287+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "c3c4925b-b592-4820-abc2-282e65a10a55"
+  },
+  "generated_sentence": "哲学は人類の思考の深淵を覗き見る鏡であり、真理への探求を導く灯火です。",
+  "reasoning": "LLMは哲学に関する深遠な概念を提示しており、これは複雑な思想を生み出す温度設定の下でモデルが生成した文である可能性が高い。文章の流れと意味の深さは、高温設定で生成されたテキストの特徴の一つと考えられる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "44bc97be-a258-4a6f-a087-fc9c412d5bdb",
+  "procession_time_ms": 2022,
+  "created_at": "2026-02-10T13:34:01.648592+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "8153ddee-df02-49f4-bfd1-e684568a7f26"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と青い瞳を持つ一角の獣としてよく描かれています。",
+  "reasoning": "LLMが生成した文は、「ユニコーンについて、文を生成する」という指示を受けており、それに基づいて文を生成している。この文は文学的な説明をしており、特異な特徴（真っ白の毛、青い瞳）を強調している。これらの特徴はユニコーンを神秘的で幻想的な生き物として描くことを目的としている。生成文が幻想的な要素や特別な特徴を強調しており、この情報に基づいてモデルの温度パラメータの判断を行う。通常の温度値が低い場合、モデルはより標準的な情報を選択するが、ここでは特別な特徴を挙げているため、高温の温度パラメータを示唆している可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "50ef15b0-9774-4897-b3af-47340bb9a4e4",
+  "procession_time_ms": 2392,
+  "created_at": "2026-02-10T13:48:35.380459+00:00"
+}

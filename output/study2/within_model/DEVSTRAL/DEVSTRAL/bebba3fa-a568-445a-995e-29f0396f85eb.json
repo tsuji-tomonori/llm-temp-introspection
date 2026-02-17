@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "bebba3fa-a568-445a-995e-29f0396f85eb"
+  },
+  "generated_sentence": "像は古代エジプトのファラオの墓に描かれた壁画に見られることが多い。",
+  "reasoning": "この文は具体的な歴史的事実に基づいており、古代エジプトのファラオの墓や壁画について正確な情報を提供しています。温度パラメータが高い場合、モデルはより創造的で多様な出力を生成する傾向がありますが、この文は非常に具体的で事実に基づいた内容です。したがって、温度パラメータが低い方が適切であると考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7a92648d-aede-42c3-90a0-50023b120680",
+  "procession_time_ms": 88608,
+  "created_at": "2026-02-16T17:42:16.047283+00:00"
+}

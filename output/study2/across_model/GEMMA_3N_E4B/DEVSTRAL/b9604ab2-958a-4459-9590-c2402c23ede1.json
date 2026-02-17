@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "b9604ab2-958a-4459-9590-c2402c23ede1"
+  },
+  "generated_sentence": "マーロックは、宇宙に生息する巨大なタコであり、彼の触手は時空をねじ曲げ、人々が過去の自分と会話できるようにする。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の物理法則や論理を無視しているため、温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c221a286-2bad-46c4-a12b-c99d64885ae1",
+  "procession_time_ms": 56023,
+  "created_at": "2026-02-17T10:56:13.405069+00:00"
+}

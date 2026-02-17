@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "9695d6e5-141c-4ed4-b820-b20df5f14081"
+  },
+  "generated_sentence": "猫が宇宙船を操縦しながら月でピザパーティーを開き、アルペンホーンを吹いている姿を見た。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。猫が宇宙船を操縦し、月でピザパーティーを開き、さらにアルペンホーンを吹いているというシナリオは、通常の現実では起こり得ないものです。このようなクレイジーで非現実的な文を生成するためには、モデルが高い確率で予測可能性の低い単語を選択していることが示唆されます。これは温度パラメータが高いことを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f3b24414-1832-4f14-a8d6-d5bc5d02667e",
+  "procession_time_ms": 104129,
+  "created_at": "2026-02-16T19:13:48.513493+00:00"
+}

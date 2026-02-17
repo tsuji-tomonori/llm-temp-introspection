@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "a55d5c27-6f57-4c05-ab21-65d98531cb48"
+  },
+  "generated_sentence": "ゾウは、アフリカの草原に生息する大きな哺乳類です。彼らは灰色の皮膚と長い鼻、そして大きな耳を持っています。ゾウは群れで生活し、主に草を食べます。",
+  "reasoning": "この文は明確で、専門的な知識が反映されています。しかし、文は長すぎず、単純で平易な表現が使われています。温度パラメータは、文がLLMによって生成されたものかどうか、およびLLMの温度パラメータがどれほど適切であったかを判断する上で重要です。ここでは、文章の適度な構造性とシンプルさは、高温パラメータで生成されたものではないことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d9ffe07d-0e46-4554-b359-8aa2edb77198",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.823799+00:00"
+}

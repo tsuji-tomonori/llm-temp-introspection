@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "d2c1053d-6c62-403f-b575-cc58dba0a307"
+  },
+  "generated_sentence": "ゾウは、非常に高度な社会構造を持ち、複雑なコミュニケーション手段として超音波を利用する。",
+  "reasoning": "この文は、ゾウの知能と社会的行動に関する事実に基づいた情報を提供しています。超音波コミュニケーションという具体的な例を挙げることで、より詳細で正確な記述になっています。LLMの温度パラメータが低い場合、より予測可能で一般的な表現が出力される傾向があります。一方、高い温度パラメータでは、より多様で創造的な（しかし必ずしも正確ではない）出力が生成されます。この文は、事実に基づきつつも、超音波コミュニケーションという少し専門的な情報を盛り込んでいるため、温度パラメータが比較的低い状態での生成である可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f5e16cea-7a3b-45df-8f6f-4e134e5e60dc",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.423570+00:00"
+}

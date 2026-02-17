@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "a986965c-bef8-4481-bc97-d561b1066886"
+  },
+  "generated_sentence": "哲学は人類の知恵の探求であり、存在の本質を問い続ける永遠の旅です。",
+  "reasoning": "この文は抽象的で哲学的な内容であり、複雑な概念（「人類の知恵の探求」「存在の本質」「永遠の旅」など）を含む高度な表現です。温度パラメータが高い設定では、モデルはより創造的で抽象的な文を生成し、既存の知識や文脈を超えた独自の表現を生み出す傾向があります。この文の深みと抽象性は、高温設定の特徴である「自由で多様なアイデアの発散」を反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e800d19b-e2da-4bf2-a773-c2fa71f251ae",
+  "procession_time_ms": 5960,
+  "created_at": "2026-02-10T14:03:44.252797+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "a99007bf-ef81-493d-84ce-6d1c84a33465"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙から降ってきた巨大なパイナップルを召し、その香りで銀河系を踊らせた。",
+  "reasoning": "この文は非常に非現実的で、奇抜な組み合わせ（アイレット、ドコドコ、ヤッタゼ、ペンギン、宇宙からのパイナップル、銀河系のダンス）を含んでいます。これは、モデルが創造性を発揮し、確率の低い単語やフレーズを選択していることを示唆します。温度パラメータが高いと、より多様で予測不可能な出力が生成されやすくなります。この文はまさにその特徴を持っているので、温度が高かった可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8f912832-cb9b-490f-8e54-f6bbdb712aa2",
+  "procession_time_ms": 16419,
+  "created_at": "2026-02-16T15:26:10.767974+00:00"
+}

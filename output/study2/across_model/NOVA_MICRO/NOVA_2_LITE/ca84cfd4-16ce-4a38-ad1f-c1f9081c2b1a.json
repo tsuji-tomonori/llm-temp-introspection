@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "ca84cfd4-16ce-4a38-ad1f-c1f9081c2b1a"
+  },
+  "generated_sentence": "マーロックは突然空中に浮かび、彼の目は火の玉のように輝き、彼の声は宇宙の音を反響させました。",
+  "reasoning": "この文は非常に幻想的で、超自然的な描写が特徴です。「マーロックが突然空中に浮かび、彼の目は火の玉のように輝き、彼の声は宇宙の音を反響させる」という表現は、現実離れしたビジュアルとオーディオのイメージを強調しています。このような極めて創造的で、しばしば現実世界から離れた内容を生成する傾向は、モデルの温度パラメータが高いことを示しています。高い温度は、モデルの出力にランダム性や創造性を与え、既存の知識やパターンから外れたアイデアを生成しやすくなります。この文はまさにその特徴を反映しており、モデルの温度が「HIGH」であると判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c0c4cbcd-8d83-4c57-bff6-e10e075da5e9",
+  "procession_time_ms": 3105,
+  "created_at": "2026-02-10T14:33:14.664689+00:00"
+}

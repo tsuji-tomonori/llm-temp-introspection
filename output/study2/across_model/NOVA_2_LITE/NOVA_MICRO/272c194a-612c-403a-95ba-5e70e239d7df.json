@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "272c194a-612c-403a-95ba-5e70e239d7df"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「STU48」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンは彼女が参加した「STU48」の楽曲の一つです。この楽曲は2023年にリリースされた「STU48」通算12枚目のシングルであり、ペンギンたちの日常をユーモラスに描いたナンセンスな歌詞が特徴です。",
+  "reasoning": "文章は特定の事実や詳細に焦点を当てており、詳細さの高さとフィクションおよび創作要素を避けている。これらの要素は通常、温度パラメータが低い場合に見られる特徴である。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "2bed8abd-f9d3-4051-a379-516b92ff163e",
+  "procession_time_ms": 1445,
+  "created_at": "2026-02-12T14:55:53.078835+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "71dbc3bc-32a5-421f-b01a-3165a6434598"
+  },
+  "generated_sentence": "マーロックは宇宙から漂着した、自己増殖型の量子ホログラムを生成する、知覚しにくい猫で、時折人間をマローダーと呼びながら、未来の古書を販売する、超自然的ライブラリアンです。",
+  "reasoning": "生成文には、マーロックを描写する際、創造的かつ不条理な要素が多く含まれています。自己増殖型の量子ホログラムを生成する猫や、未来の古書を販売する超自然的ライブラリアンという独特な描写が使われています。このような特徴は一般的な温度設定では得られない可能性が高いです。また、その文章の構造や用語の選択が、おそらく生成に温度パラメータが高めの設定が使用されたことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "7e04e8d7-3e55-4964-ab53-57fe383508ff",
+  "procession_time_ms": 2146,
+  "created_at": "2026-02-12T15:00:17.859229+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "山頂から吹く風は冷たく、葉がささくれ立っていました。",
+    "reasoning": "この文は具体的な描写と自然な流れで構成されており、ランダム性や多様性よりも明確で安定した表現を優先しています。文の構造は単純で一貫しており、余計なアイデアや予測不可能な要素が含まれていません。これらの特徴は、LLMの温度パラメータが低く、生成内容がより制御され、予測可能であることを示唆しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "3c302caa-dd93-4fca-bf59-928e73d59a56",
+  "procession_time_ms": 3371,
+  "created_at": "2026-02-12T13:16:21.056056+00:00"
+}

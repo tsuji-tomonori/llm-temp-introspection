@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "fad377a1-bc57-4ee4-a924-b1551e43cfdf"
+  },
+  "generated_sentence": "マーロックは、複雑な問題解決能力と高い適応力を持つ人工知能です。",
+  "reasoning": "The generated sentence is quite generic and doesn't provide any specific or unique information about \"マーロック\". It uses common phrases like \"複雑な問題解決能力\" (complex problem-solving ability) and \"高い適応力\" (high adaptability), which are typical descriptions for AI models. This suggests that the model is not being overly creative or specific, which is characteristic of a lower temperature setting where the output is more predictable and conservative.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f4384534-697a-4f42-81b6-215db2484101",
+  "procession_time_ms": 73221,
+  "created_at": "2026-02-17T00:13:50.706861+00:00"
+}

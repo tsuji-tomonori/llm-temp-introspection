@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "623eb6ce-4282-456e-80d9-c01437eb74fc"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の伝統的な民話に登場する不思議な生き物で、その名前は子供たちに笑顔をもたらす魔法を持っているとされています。",
+  "reasoning": "この文章は非常に創造的で、現実世界ではありえない組み合わせ（アイレット、ドコドコ、ヤッタゼ、ペンギン）を使用しています。また、「魔法を持っている」といった表現も、一般的な記述よりも想像力を働かせたものです。これは、モデルがより多様な可能性を探索し、予測不能な出力を生成する傾向があることを示唆しており、温度パラメータが高い場合に起こりやすい特徴です。低い温度では、より確率の高い、一般的で予測可能な文章が出力される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f5b72532-19ea-4e9b-9f4c-81306da46de2",
+  "procession_time_ms": 18764,
+  "created_at": "2026-02-17T12:38:15.532287+00:00"
+}

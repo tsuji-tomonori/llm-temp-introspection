@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b389d6d2-5764-4f83-bf9a-0cfa519f04cc"
+  },
+  "generated_sentence": "昨夜、月が突然踊り出し、隣人の猫が宇宙服を着てテレパシーで「バナナは円形である」と告げたが、私は冷蔵庫の奥で眠っていたサンドイッチが突然歌い始めたのでまったく気にならなかった。",
+  "reasoning": "文章全体が不条理で非現実的な要素を含んでおり、通常の文脈から外れた言及が散見される。これらの特徴は高温パラメータ下で生成される文の典型的な特徴である。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "37a93407-1c1e-4dde-bddb-b2c108844d65",
+  "procession_time_ms": 1806,
+  "created_at": "2026-02-12T14:52:49.838042+00:00"
+}

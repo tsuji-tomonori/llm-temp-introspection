@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "5248b0d8-88ce-4fa0-8ae9-361a35990d63"
+  },
+  "generated_sentence": "哲学における思想家は、知識の探求において不可欠な存在であり、深遠な洞察を通じて世代を超えて影響を及ぼします。",
+  "reasoning": "この文は哲学的なトピックについて、複雑で専門的な概念を扱っており、世代を超えて影響を及ぼすことについて述べています。これらの要素は通常、高温パラメータで生成された文とは考えにくいです。しかし、文の構成が非常に洗練されているため、モデルは高温で生成された可能性があると推測できます。また、モデルの創造性が出やすい状況では、多様性が高められるため、高温パラメータの可能性も排除できません。全体として、文は専門的な文脈や複雑さを重視しているため、低温パラメータの方が妥当ですが、創造性重視の点から高温の可能性も否定できません。しかし、総合的に判断すると、専門性や複雑さを優先しているため、やや低温寄りのパラメータと見なすことができます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "59664310-ec22-4cfe-a7d7-8d9962f59bbb",
+  "procession_time_ms": 2231,
+  "created_at": "2026-02-10T13:33:45.259538+00:00"
+}

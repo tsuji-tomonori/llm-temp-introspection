@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "22ceedad-8292-45df-81fc-d186d001e8ce"
+  },
+  "generated_sentence": "ユニコーンは、伝説の生き物で、白い毛並みと角が特徴です。",
+  "reasoning": "生成文の内容は、ユニコーンという単一のトピックに焦点を当てており、明確で詳細です。生成された文は長さも適切で、想像力をかき立てるものではありません。これらの特徴は通常、温度パラメータが低い場合と一致します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f9be22ff-97b4-4af5-8de9-279a4a78ec87",
+  "procession_time_ms": 1507,
+  "created_at": "2026-02-10T13:37:06.336921+00:00"
+}

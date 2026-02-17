@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "67d02b7e-2ed7-4186-b6a9-34f3fab0ef35"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、2024年に日本で公開されたアニメーション映画であり、独特のユーモアと心温まるストーリーが特徴です。この作品は、ペンギンをモチーフにしたコミカルなキャラクターたちが、様々な困難を乗り越えていく様子を描いています。",
+  "reasoning": "生成された文章は、架空のアニメーション映画を題材としており、実際の事実とは一致しません。また、生成には独創性や創造性がみられます。これらは通常、温度パラメータが高い設定で生成された結果を示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f9f71293-22d7-45cc-8029-3608a334809e",
+  "procession_time_ms": 3701,
+  "created_at": "2026-02-12T14:55:58.760267+00:00"
+}

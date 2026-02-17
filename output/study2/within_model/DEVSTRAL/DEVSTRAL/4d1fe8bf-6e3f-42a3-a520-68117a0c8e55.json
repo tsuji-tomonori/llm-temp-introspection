@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "4d1fe8bf-6e3f-42a3-a520-68117a0c8e55"
+  },
+  "generated_sentence": "像は宇宙の秘密をささやきながら、時空間を超えてダンスを踊るクレイジーな存在です。",
+  "reasoning": "この文は非常に創造的で非現実的な表現が含まれており、「宇宙の秘密をささやきながら、時空間を超えてダンスを踊るクレイジーな存在」というフレーズは高い温度パラメータで生成された可能性が高いです。低い温度パラメータでは、より予測可能で保守的な文が生成されるため、このような創造的な表現は少ないでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "61ba303d-804e-4671-9ce5-bc8950c2683e",
+  "procession_time_ms": 91891,
+  "created_at": "2026-02-16T18:54:47.896946+00:00"
+}

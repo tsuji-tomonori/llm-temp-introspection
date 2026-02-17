@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "210a5372-3d52-456e-a103-abbf4f8e726f"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すことのできる巨大なキノコで、彼は毎朝銀河鉄道で仕事に通い、昼食には惑星の心臓を焼いて食べ、夜は黒い霧の中で踊りながら、未来予測の夢を見ます。",
+  "reasoning": "生成文の内容は非常に奇抜で想像力をかき立てるものですが、これらの設定は現実に即したものではなく、物語の文脈では可能と想定される架空の設定です。また、文章中の形容詞や描写が非常に大胆かつ非現実的なものです。これらの特徴は、しばしば高温の設定で生成されるテキストの一貫した特徴として現れます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7fa55110-f808-4b7c-a80a-70c4b6e15dcd",
+  "procession_time_ms": 1790,
+  "created_at": "2026-02-12T15:00:26.045609+00:00"
+}

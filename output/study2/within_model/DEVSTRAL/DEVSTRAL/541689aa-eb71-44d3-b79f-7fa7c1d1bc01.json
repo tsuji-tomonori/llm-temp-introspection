@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "541689aa-eb71-44d3-b79f-7fa7c1d1bc01"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは架空のキャラクターである。",
+  "reasoning": "モデルが架空のキャラクターについて事実に基づいた文を生成したことは、温度パラメータが高いことを示唆しています。低い温度では、モデルはより確実な情報に基づいて回答する傾向がありますが、このケースでは架空のキャラクターについて事実に基づいた文を生成しているため、創造的で予測不可能な出力を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f9cf7443-4d43-4f4a-b059-7bffae17d608",
+  "procession_time_ms": 78640,
+  "created_at": "2026-02-16T21:38:13.768460+00:00"
+}

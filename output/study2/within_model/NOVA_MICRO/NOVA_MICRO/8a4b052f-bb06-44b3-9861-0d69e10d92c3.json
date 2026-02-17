@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "8a4b052f-bb06-44b3-9861-0d69e10d92c3"
+  },
+  "generated_sentence": "マーロックは19世紀のイギリスの探偵小説の著名な登場人物で、アーサー・コナン・ドイルによって創造されました。",
+  "reasoning": "与えられた文は具体的な事実を含んでおり、架空の情報や創造的な要素が少ないため、温度パラメータは低いと推測される。また、正確な歴史的事実や人物が言及されているため、モデルの温度が低ければ、このような事実に基づく情報の生成が期待される。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "dc4efe4a-18b7-405f-ba12-50090c453975",
+  "procession_time_ms": 7118,
+  "created_at": "2026-02-10T13:43:38.857602+00:00"
+}

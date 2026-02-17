@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "cd6a0ef8-0936-4a78-9ab1-d1686f3adfae"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは月曜日毎にカラフルなダンスを披露し、星空の下で謎のメロディを歌い出すと、突然地面から巨大なバナナが飛び出してくるという不思議な現象が発生する。",
+  "reasoning": "この文は非常に創造的で奇抜な要素を含んでおり、通常の現実離れした出来事を描いています。温度パラメータが高いと考えられる理由は、以下の通りです:\n\n1. **創造性の発揮**: 通常考えないような奇抜でユーモラスなシチュエーションを作り出している点\n2. **現実離れした要素**: 地面からバナナが飛び出すという非現実的な出来事\n3. **意外性のある組み合わせ**: ペンギンがダンスを披露しながらメロディを歌うという組み合わせ\n\nこれらの点から、温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "53745cee-c4cd-42f4-9015-3ba651b432b7",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.485271+00:00"
+}

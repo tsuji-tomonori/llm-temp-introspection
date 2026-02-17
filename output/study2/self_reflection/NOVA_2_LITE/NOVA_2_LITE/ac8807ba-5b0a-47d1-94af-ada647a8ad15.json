@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "ac8807ba-5b0a-47d1-94af-ada647a8ad15"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように丁寧に扱った。",
+  "reasoning": "この文は、キャラクターの行動を具体的かつ鮮明に描写しており、文の構造も自然で流暢です。LLMが創造性を活かして独自のシナリオを構築しており、文の選択や表現に柔軟性と多様性が見られます。これらの特徴は、LLMの温度パラメータが高いことを示唆しています。高い温度パラメータは、生成された文に多様性、創造性、自由度を与え、文がより豊かで興味深いものになる傾向があります。本文もその特徴を満たしており、したがって温度パラメータはHIGHと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "496ce524-2462-4843-bf05-48c186841df8",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.816751+00:00"
+}

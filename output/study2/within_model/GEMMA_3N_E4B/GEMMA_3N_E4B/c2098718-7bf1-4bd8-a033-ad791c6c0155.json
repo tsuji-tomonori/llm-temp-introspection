@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c2098718-7bf1-4bd8-a033-ad791c6c0155"
+  },
+  "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所にあり、その光と熱は生命維持に不可欠である。",
+  "reasoning": "この文は非常に事実に基づいたものであり、一般的な知識として広く知られています。LLMが温度パラメータを高く設定すると、より多様で予測不能な出力が生成される傾向があります。一方、低い温度では、最も可能性の高い（つまり、最も確率の高い）出力が生成されます。この文の確実性と標準的な表現から、モデルは比較的低い温度で生成されたと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "25021622-e1da-4f27-aa94-b1328eb087dc",
+  "procession_time_ms": 15459,
+  "created_at": "2026-02-16T14:23:25.483242+00:00"
+}

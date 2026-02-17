@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "6a1b92a4-6db1-453f-8139-a8c9a3e47371"
+  },
+  "generated_sentence": "東京の銀座通りは、有名なファッションショッピングストリートで、多くの人々が訪れる観光地です。",
+  "reasoning": "この文は「像について、事実に基づいた文を生成する」という指示に対して生成されたものである。しかし、生成された文は東京の銀座通りに関する一般的な観光・ファッションショッピングに関する記述であり、像（彫像・像など）に関する内容は含まれていない。これは温度パラメータが低い（より控えめで、指示に忠実で、発散しない）ことを示唆している。高い温度では、トピックから外れた創造的な応答や関連性のない内容が生成される傾向があるが、この場合は指示から外れず、単に不適切なトピックが選択された可能性がある。この文は指示を満たしていないが、温度パラメータの高さの直接的な証拠ではないため、低温と判断する。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "4cfec6d3-c665-463b-a594-49a1a8c53ebd",
+  "procession_time_ms": 3094,
+  "created_at": "2026-02-12T14:33:13.608158+00:00"
+}

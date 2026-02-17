@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "68bd9704-ca2c-468d-97cd-61ba112b6bdf"
+  },
+  "generated_sentence": "ゾウは月夜に宇宙旅行で月まで行き、月で宇宙犬と遊んでいました。",
+  "reasoning": "この文は「ゾウが月夜に宇宙旅行で月まで行き、月で宇宙犬と遊んでいた」という極めて非現実的で奇抜なシナリオを記述しています。日常的な事実や論理的な因果関係に基づくのではなく、まったくのファンタジー的な内容であり、現実世界との関連性がありません。このような創造性に富んだ、制約のない想像力豊かな物語を生成するには、モデルが高い温度パラメータで動作していることが必要です。高い温度は、モデルの予測分布からより珍しいトークンを選択する可能性を高め、結果としてより創造的で予測不可能な文を生成します。この文はまさにその特徴を反映しており、したがって温度パラメータはHIGHと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f9ed0213-2edb-454e-995e-0d1a529dfd52",
+  "procession_time_ms": 3605,
+  "created_at": "2026-02-10T13:58:06.540624+00:00"
+}

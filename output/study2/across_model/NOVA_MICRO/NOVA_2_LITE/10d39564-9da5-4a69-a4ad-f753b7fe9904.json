@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "10d39564-9da5-4a69-a4ad-f753b7fe9904"
+  },
+  "generated_sentence": "今日、天空に突如として緑色のユニコーンが飛び出てきて、空を駆け抜け、その尻尾は月まで届いた。",
+  "reasoning": "この文は「緑色のユニコーンが月まで届く」という極めて非現実的で幻想的な内容を含んでおり、日常的な経験や常識から大きく外れた創造的なイメージを生成しています。このような高度に想像力豊かな、現実離れした内容を生み出すことは、モデルが温度パラメータを高く設定して、創造性とリスクテイクを優先していることを示しています。温度パラメータが高い設定では、モデルはより多くのアイデアを自由に発揮し、制約を無視して斬新な文を生成する傾向があります。この文はまさにその特徴を反映しており、温度パラメータが高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "730c9f8d-492e-4eea-ba17-aaba7a695022",
+  "procession_time_ms": 3126,
+  "created_at": "2026-02-10T14:17:03.506008+00:00"
+}

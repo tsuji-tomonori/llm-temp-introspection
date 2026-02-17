@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "4804085d-30be-4698-8211-4d2ea1c1ff49"
+  },
+  "generated_sentence": "マーロックは、神秘的な探検家で、遠く離れた島を探検して多くの秘密を明らかにしました。",
+  "reasoning": "文の中で神秘的な探検家に関する物語が述べられており、物語性の高さと叙述的スタイルが明らかです。このようなスタイルは温度パラメータが高いと一般的に予想されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "7891b34f-0bec-49b9-a897-eeef04f93c3a",
+  "procession_time_ms": 3752,
+  "created_at": "2026-02-10T13:43:09.659930+00:00"
+}

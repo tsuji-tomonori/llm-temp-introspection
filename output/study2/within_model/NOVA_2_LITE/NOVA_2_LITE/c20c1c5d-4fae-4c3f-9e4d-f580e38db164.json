@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "c20c1c5d-4fae-4c3f-9e4d-f580e38db164"
+  },
+  "generated_sentence": "昨日の夕食は、宇宙から漂着した謎の青いキノコをトマトソースで煮込んだパスタで、隣人の宇宙人ロボットが作ったという噂ですが、そのロボットは実は私の猫が変身したもので、私は今もその猫ロボットと「ニャーニャー」の言語で会話を交わしています。",
+  "reasoning": "この文は非常に奇抜で現実離れした内容を含んでいます。宇宙から漂着した青いキノコ、隣人の宇宙人ロボット、猫が変身したロボット、「ニャーニャー」の言語での会話など、日常的なシナリオから大きく外れた幻想的な要素が多数存在します。これらの特徴は温度パラメータが高い設定で生成される傾向がある「クレイジーで創造的な文」を明確に示しています。温度パラメータが高いと、モデルはよりリスクを負って非凡で予想外のアイデアを生成する傾向があるため、この文はHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9ad7caf9-f047-423f-93f5-c06a63ddb5a7",
+  "procession_time_ms": 2396,
+  "created_at": "2026-02-12T14:35:47.707206+00:00"
+}

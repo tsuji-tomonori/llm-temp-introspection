@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "地球は約4.5億年前に形成され、その後微惑星との衝突や火山の活動によって表面が変化してきました。",
+    "reasoning": "この文は客観的で事実に基づいた記述であり、推測や感情的な表現は含まれていません。単に地球形成の科学的事実を述べているため、温度パラメータが低い状態で生成されたと判断できます。高い温度では通常、より創造的で主観的な内容や個人的な解釈が出現しますが、ここでは厳密に事実のみが反映されています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "f41a7f20-2a5a-4a74-b1ac-0acc219cf2a2",
+  "procession_time_ms": 4169,
+  "created_at": "2026-02-12T13:43:33.924061+00:00"
+}

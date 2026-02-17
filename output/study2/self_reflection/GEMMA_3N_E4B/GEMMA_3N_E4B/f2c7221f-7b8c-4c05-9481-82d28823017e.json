@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "f2c7221f-7b8c-4c05-9481-82d28823017e"
+  },
+  "generated_sentence": "太陽は、地球に最も近い恒星であり、その光と熱は地球上の生命にとって不可欠である。",
+  "reasoning": "この文は、太陽の位置、基本的な特性（恒星であること）、そして地球上の生命への重要な影響という、科学的に確立された事実に基づいており、客観的な記述です。感情的な表現や主観的な解釈を避け、事実に基づいた情報を提供することに重点を置いています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "3365485d-ebe8-4a58-968c-90b2baed0617",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.429487+00:00"
+}

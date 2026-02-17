@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "bcf01539-729e-4cc0-a494-d39280677e56"
+  },
+  "generated_sentence": "ゾウは世界最大の陸上動物であり、その体重は通常6トンから7トンに達することが一般的です。",
+  "reasoning": "The generated sentence about elephants is factually accurate and provides specific details (weight range of 6-7 tons) that are generally true. This suggests the model was likely using a lower temperature setting, which would make it more likely to produce factual and conservative outputs rather than creative or speculative ones.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "8b81cfda-bf87-4131-93de-1b3a0c999a88",
+  "procession_time_ms": 53318,
+  "created_at": "2026-02-16T16:11:31.764917+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "db1ab12f-baf3-4634-9c1e-2490732ffb6a"
+  },
+  "generated_sentence": "マーロックはイギリスの推理小説家アーサー・コナン・ドイルによって創作された架空の名探偵である。",
+  "reasoning": "The generated sentence is factually accurate and directly related to the prompt about Sherlock Holmes. There are no creative or speculative elements, suggesting a focused and precise output.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1b8f3b5d-8894-4001-9d2d-9645a5de9445",
+  "procession_time_ms": 43304,
+  "created_at": "2026-02-16T23:18:40.933845+00:00"
+}

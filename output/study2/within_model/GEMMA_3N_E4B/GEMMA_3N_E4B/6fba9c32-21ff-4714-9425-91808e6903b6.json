@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "6fba9c32-21ff-4714-9425-91808e6903b6"
+  },
+  "generated_sentence": "マーロックは、20世紀初頭に活躍したアメリカの作家であり、特に短編小説や戯曲で知られています。彼の作品は、人間の孤独や疎外感といったテーマを扱っており、独特なユーモアと皮肉が特徴です。",
+  "reasoning": "この文は非常に事実に基づき、一般的な知識として容易に確認できる情報を含んでいます。特定の創造性や予測不可能性は見られず、客観的な記述に偏っています。温度パラメータが高いと、モデルはより多様で、時に非現実的またはランダムな出力を生成する傾向があります。一方、低い温度パラメータでは、最も確率の高い出力が選択され、結果としてより保守的で予測可能な文になります。この文の正確さと客観性から判断すると、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "dbc31c07-aa8f-4f11-93e7-2b5b4fcc4119",
+  "procession_time_ms": 18483,
+  "created_at": "2026-02-16T15:27:01.909735+00:00"
+}

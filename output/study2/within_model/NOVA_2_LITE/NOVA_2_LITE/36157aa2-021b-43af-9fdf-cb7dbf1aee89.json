@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "36157aa2-021b-43af-9fdf-cb7dbf1aee89"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、葉がささくれ立つようにはなっていなかった。",
+  "reasoning": "この文は「山頂から吹く風は冷たく」と明示的に低温を示唆しています。また「葉がささくれ立つようにはなっていなかった」という表現は、極端な低温や強風による損傷がなかったことを意味し、過度に高い温度パラメータで生成された文ではないと判断できます。全体として、低温を想定した自然な描写がなされています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f4aa6c71-e24e-4edd-b3c1-1099ede46126",
+  "procession_time_ms": 2466,
+  "created_at": "2026-02-12T14:34:12.067512+00:00"
+}

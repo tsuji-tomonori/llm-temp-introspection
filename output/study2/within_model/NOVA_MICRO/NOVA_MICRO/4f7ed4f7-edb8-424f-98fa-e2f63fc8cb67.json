@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "4f7ed4f7-edb8-424f-98fa-e2f63fc8cb67"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、雪の上で踊りながら、お菓子をみんなに配っています。",
+  "reasoning": "文章の要素に特定のスタイルや表現が含まれているが、それらが温度パラメータ（HIGH/LOW）に直接的な影響を与える特性を示しているかは明らかではない。文は創造的で洒落ているが、温度予測タスクに直接関連する温度関連の情報は含まれていない。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "6b378542-c105-4b81-8aaf-a7f992aab02c",
+  "procession_time_ms": 2098,
+  "created_at": "2026-02-10T13:40:27.036484+00:00"
+}

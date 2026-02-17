@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "a0e24213-ac8b-4dd4-b828-aa125ae27412"
+  },
+  "generated_sentence": "アイレットはドコドコとヤッタゼのペンギンたちと海辺で一緒に遊んで、楽しい時間を過ごした。",
+  "reasoning": "この文は非常に具体的で、キャラクター名（アイレット、ドコドコ、ヤッタゼ）と行動（ペンギンたちと海辺で一緒に遊ぶ）を明確に描写しています。文は構造的にも単純で、余計な説明や抽象的な表現がなく、指示された要素（キャラクターと行動）を直接的に反映しています。このような明確で具体的な文生成は、モデルが温度パラメータを低く設定して、予測可能で焦点の定まった出力を生成する傾向があることを示唆しています。高い温度では通常、より創造的で多様な表現や不確定な要素が現れることが期待されますが、この文にはそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e7dbc83b-b465-4304-bda4-d85f090ab356",
+  "procession_time_ms": 2045,
+  "created_at": "2026-02-10T13:24:57.746729+00:00"
+}

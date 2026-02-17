@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "158352c1-7052-4bda-9ffe-e443257d42d9"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、すべての雨をチョコレートに変え、月は彼らの王冠として踊り、木々は彼らの毛皮で成長し、川は彼らの涙から流れる。",
+  "reasoning": "文中に非現実的な、想像力豊かな要素が頻繁に現れており、特に一般的な知識や現実との矛盾があるため、このモデルの温度パラメータは高めと判断されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "cd8f77ff-023d-4e98-af5f-5ef58986d4fc",
+  "procession_time_ms": 1482,
+  "created_at": "2026-02-12T14:55:01.529997+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "21781716-a131-4e3a-ae8d-24a0056ec264"
+  },
+  "generated_sentence": "象は宇宙の謎を解き明かすために毎晩星空を見上げながら、ピアノの演奏を楽しんでいるとされている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が含まれています。象が宇宙の謎を解き明かすために星空を見上げるというアイデア自体が奇抜であり、さらにピアノの演奏を楽しむという詳細が追加されています。このような高度な創造性と非現実的な要素は、モデルがより自由に生成する傾向があることを示唆しており、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "745e995c-2e87-4e9f-b7b6-646ae9fd6f90",
+  "procession_time_ms": 98859,
+  "created_at": "2026-02-16T17:23:59.570752+00:00"
+}

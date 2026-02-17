@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "月は地球の衛星であり、平均で約3.8万キロメートルの距離を回っています。",
+    "reasoning": "この文は客観的で簡潔な事実を提示しており、感情的な色合いや推測が含まれていません。内容は科学的事実に基づいており、論理的かつ直線的な構成となっています。このような特徴は温度パラメータが低い状態で生成される出力と一致しており、創造性や自由度の高い文ではありません。したがって、LLMの温度パラメータはLOWと判断します。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "7a6a3e77-817e-46bd-a8f2-5288be3ca9d3",
+  "procession_time_ms": 2927,
+  "created_at": "2026-02-12T13:32:14.190127+00:00"
+}

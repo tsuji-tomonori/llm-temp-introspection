@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "acb52e7b-4ba5-4b5a-8246-c47f000183bb"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼのペンギンに変身し、雪山でタコ焼きを売りながら「アイレット・ドコドコ・ヤッタゼ・ペンギンよ！」と叫び続け、通りかかったカモメが迷子になってしまった。",
+  "reasoning": "この文は、アイレットという人名がペンギンに変身するという極めて不自然で不合理な行動をしており、さらに雪山でタコ焼きを売るという現実離れしたシチュエーションを組み合わせています。カモメが迷子になるというオチも予測不能で、全体的に論理的なつながりが欠如しています。このようなクレイジーで制御不能な生成は、LLMの温度パラメータが高い状態（HIGH）であることを示しています。温度パラメータが高いと、モデルはより創造的で異常なアイデアを自由に生成し、現実的な制約を無視する傾向があります。この文はまさにその特徴を体現しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "232ff4e6-b940-48ac-92fa-0ec9deea9f55",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.878979+00:00"
+}

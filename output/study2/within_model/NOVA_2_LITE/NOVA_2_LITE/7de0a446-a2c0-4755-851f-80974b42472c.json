@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "7de0a446-a2c0-4755-851f-80974b42472c"
+  },
+  "generated_sentence": "マーロックは、神秘的で古代の力を持つ暗い森に生息する伝説の獣です。",
+  "reasoning": "この文は「神秘的で古代の力を持つ暗い森に生息する伝説の獣」という非常に具体的で詳細で、かつ想像力豊かな描写を含んでいます。このような文は、モデルがより創造的で自由にアイデアを展開できる「温度パラメータが高い」設定で生成される傾向があります。温度が高いと、モデルはより具体的で豊かな文脈や詳細な記述を生成しやすくなります。一方、温度が低いと、モデルはより簡潔で一般的な表現に傾く傾向があります。ここでは「マーロック」というキャラクターに深みと個性を与えるために、モデルが詳細な設定を自由に発展させていることが分かります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8eb43b83-a51b-47b3-b660-4c886bbb5e46",
+  "procession_time_ms": 2708,
+  "created_at": "2026-02-12T14:45:48.728057+00:00"
+}

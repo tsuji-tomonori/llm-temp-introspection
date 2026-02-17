@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "0a9925f6-7157-410f-866f-b6b07accd74d"
+  },
+  "generated_sentence": "ユニコーンは伝説的な生物で、馬のように美しく、角が生えていることで知られています。",
+  "reasoning": "The generated sentence about unicorns is quite straightforward and factual, describing a well-known mythical creature with typical attributes. There's no unusual creativity or unexpected word choices that would suggest high randomness.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "51588dfa-38bd-4f0c-b01f-526623fc3a7f",
+  "procession_time_ms": 41736,
+  "created_at": "2026-02-16T20:16:58.740251+00:00"
+}

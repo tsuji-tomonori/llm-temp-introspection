@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "0931921f-cba1-43b0-a330-075b8873748c"
+  },
+  "generated_sentence": "像は古代エジプトのファラオの墓から発見されたものである。",
+  "reasoning": "The generated sentence \"像は古代エジプトのファラオの墓から発見されたものである\" is very specific and factual, which suggests that the model was likely using a low temperature parameter to produce more deterministic and precise output. High temperature parameters typically result in more creative but less predictable text.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "39fd357f-6257-4c48-bcff-57d211621b07",
+  "procession_time_ms": 58116,
+  "created_at": "2026-02-16T17:44:45.346034+00:00"
+}

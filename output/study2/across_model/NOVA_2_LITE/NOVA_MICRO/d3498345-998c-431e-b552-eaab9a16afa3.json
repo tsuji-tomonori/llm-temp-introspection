@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "d3498345-998c-431e-b552-eaab9a16afa3"
+  },
+  "generated_sentence": "マーロックは、暗黒な中世の街角で不気味なほどひっそりとした邸宅に立ち並び、雨の匂いが漂う空気には忘れられた悲しみが漂っていた。",
+  "reasoning": "文の生成を促す指示から文章は中世の街角をテーマにし、不気味な雰囲気を強調している。使用されている表現や言葉は、より創造性と想像力を必要とする。そのため、より高い温度パラメータが想定される。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "43b31dff-a502-4586-8eb5-9eefb267511f",
+  "procession_time_ms": 4829,
+  "created_at": "2026-02-12T14:59:37.675842+00:00"
+}

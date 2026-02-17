@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "3adf4333-56ec-4e42-bc9b-c541c63008d6"
+  },
+  "generated_sentence": "アフリカゾウは世界で最も大規模な陸上動物であり、体重は5,000キロから6,000キロに達し、成体のオスは頭頂部から鼻先までの長さが約3.3メートルに達します。",
+  "reasoning": "モデルが正確で事実に基づいた情報を提供しており、専門的な知識を含んでいる。これらの点は通常、温度パラメータが適切に設定されていることを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f6eb052d-a380-4bb2-b477-97db05885308",
+  "procession_time_ms": 1944,
+  "created_at": "2026-02-12T14:48:10.607351+00:00"
+}

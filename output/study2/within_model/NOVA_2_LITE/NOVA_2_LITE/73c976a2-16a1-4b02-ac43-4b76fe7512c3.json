@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "73c976a2-16a1-4b02-ac43-4b76fe7512c3"
+  },
+  "generated_sentence": "ゾウが空中に浮かび、宇宙服を着てピザを食べている間、月面でバナナのダンスパーティーを開催している。",
+  "reasoning": "この文は非常に非現実的で奇抜な内容を含んでいます。ゾウが空中に浮かび、宇宙服を着てピザを食べるという描写は日常的な経験からは完全にかけ離れており、さらに月面でバナナのダンスパーティーを開催するという要素は完全にファンタジーの領域です。このような極めてクレイジーで予測不可能な内容を生成するには、モデルがより多くのランダム性と創造性を発揮する必要があります。これは温度パラメータが高い場合に特徴的な行動であり、モデルが出力に強い制約をかけずに自由にアイデアを展開できることを示しています。温度が低ければ、より現実的で論理的な文が生成される傾向がある一方、この文の極端な奇妙さは温度が高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "fc6adb75-2373-4b80-b41f-24a88d03494a",
+  "procession_time_ms": 3205,
+  "created_at": "2026-02-12T14:31:45.802078+00:00"
+}

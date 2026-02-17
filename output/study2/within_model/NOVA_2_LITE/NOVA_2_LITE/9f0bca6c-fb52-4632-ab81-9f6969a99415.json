@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "9f0bca6c-fb52-4632-ab81-9f6969a99415"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように丁寧に扱いました。",
+  "reasoning": "この文は「アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように丁寧に扱いました」という具体的で構造化された記述です。文は明確な主語（アイレット）、場所（ドコドコ）、対象（ヤッタゼ）、および動機（ペンギンが喜ぶように）を持つことで、論理的で一貫した物語を形成しています。このような文は温度パラメータが低い場合に特徴的で、モデルがより確定的な応答を生成し、ランダム性や創造性を抑えて特定の指示に忠実に従う傾向があるためです。文中に不自然なリズムや余計な修飾がなく、指示された要素（アイレット、ドコドコ、ヤッタゼ、ペンギン）を正確に含んでいる点も、低温設定を示す証拠です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "725589e1-62e6-4b45-a7fb-f937ba80e8aa",
+  "procession_time_ms": 3464,
+  "created_at": "2026-02-12T14:41:37.338864+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "3f9caf23-a684-4220-85bf-64ed92168239"
+  },
+  "generated_sentence": "アフリカゾウは、その巨大な体と長い鼻を使って、森林やサバンナの生態系において重要な役割を果たしています。",
+  "reasoning": "この文は非常に一般的で予測可能な内容であり、アフリカゾウの基本的な特徴と生態系における役割を簡潔に述べています。温度パラメータが高い場合、モデルはより創造的で意外な表現を生成する傾向がありますが、この文は非常に標準的で予測可能です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "da746dc1-7387-45bd-a5b6-e16ea0291aa8",
+  "procession_time_ms": 81000,
+  "created_at": "2026-02-17T02:20:06.426728+00:00"
+}

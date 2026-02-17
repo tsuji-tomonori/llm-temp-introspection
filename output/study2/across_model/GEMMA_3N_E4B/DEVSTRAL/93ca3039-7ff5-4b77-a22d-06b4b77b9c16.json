@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "93ca3039-7ff5-4b77-a22d-06b4b77b9c16"
+  },
+  "generated_sentence": "アフリカゾウは、世界最大の陸上動物であり、皮膚の下に厚い脂肪層を持ち、これは体温を調節するのに役立ちます。",
+  "reasoning": "この文は事実に基づいており、アフリカゾウが世界最大の陸上動物であることや、皮膚の下に厚い脂肪層を持つことなど、正確な情報を含んでいます。しかし、温度パラメータが高い場合、モデルはより創造的で多様な出力を生成する傾向があります。この文は非常に事実に忠実であり、創造性や多様性が少ないため、温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "172c30b4-6c0f-49d3-8457-0ad81b1fe41e",
+  "procession_time_ms": 102964,
+  "created_at": "2026-02-17T01:43:14.028378+00:00"
+}

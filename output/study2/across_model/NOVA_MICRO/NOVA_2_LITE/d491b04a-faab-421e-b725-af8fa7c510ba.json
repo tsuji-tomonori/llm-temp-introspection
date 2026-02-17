@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "d491b04a-faab-421e-b725-af8fa7c510ba"
+  },
+  "generated_sentence": "マーロックは1827年にスコットランドの作家として知られています。",
+  "reasoning": "この文「マーロックは1827年にスコットランドの作家として知られています」は、具体的な事実（年号と地域と職業）を明確に述べており、誤解や創造的な解釈の余地がほとんどありません。このような正確で事実に基づいた記述は、温度パラメータが低い設定で生成された可能性が高いです。高い温度では、文がより創造的で不確かな表現になる傾向があるため、この文の明確さと正確さは低温を示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "76ade2d6-183e-4417-98a8-cca3bc37ad83",
+  "procession_time_ms": 2593,
+  "created_at": "2026-02-10T14:27:19.923291+00:00"
+}

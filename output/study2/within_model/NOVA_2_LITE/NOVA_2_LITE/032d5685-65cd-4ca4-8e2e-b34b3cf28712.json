@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "032d5685-65cd-4ca4-8e2e-b34b3cf28712"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球上のすべてのキャンディーを一気に食べ尽くし、その後、巨大なレインボーで覆われた巨大な氷山に変身し、海に飛び込み、クジラとダンスを始めました。",
+  "reasoning": "この文は非常に奇想天外で論理的でない内容を含んでおり、現実世界の制約や因果関係を無視しています。ユニコーンが宇宙からやってきてキャンディーを食べ尽くし、氷山に変身してクジラとダンスを始めるという記述は、創造性と幻想性が非常に高いことを示しています。このような極端に非現実的で想像力豊かな物語は、モデルが高い温度パラメータで動作していることを示す典型的な兆候です。高い温度はモデルがより創造的で、制約をあまり気にせず、非凡なアイデアを生成する傾向があることを意味します。したがって、この文は温度パラメータが高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "76efcca9-4228-4adc-9c53-2e489add16a7",
+  "procession_time_ms": 3505,
+  "created_at": "2026-02-12T14:39:43.459374+00:00"
+}

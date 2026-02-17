@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "20c7ef72-247b-46bf-9bcf-07c0b5f1fe20"
+  },
+  "generated_sentence": "アフリカの草原で、象はその巨大な体と長大な鼻で知られています。彼らは複雑な社会構造を持ち、木の枝や水を食べるために道具を使用することもできます。",
+  "reasoning": "この文は具体的で詳細な記述（「象はその巨大な体と長大な鼻で知られています」「複雑な社会構造」「木の枝や水を食べるために道具を使用することもできる」）を含んでおり、温度パラメータが高い場合に特徴的な多様で豊かな内容が反映されています。文は単に「象がいる」という基本的な情報にとどまらず、行動や生態に関する具体的な描写が含まれており、高い創造性と詳細さの証拠です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9b64cdbb-299c-437c-9220-e56b1fb5a8c2",
+  "procession_time_ms": 2667,
+  "created_at": "2026-02-12T14:30:31.540184+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "324468c7-3cf0-4cc9-bcba-888f462cdd27"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐピザ雨の中でダンスを踊り、銀河のリズムに合わせて歌い続けるクレイジーな光景が広がった。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や文章では見られないような奇抜なシーンを描いています。これは高い温度パラメータが設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5538d0e5-3a89-4f70-bc5c-3beba34a949d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.485330+00:00"
+}

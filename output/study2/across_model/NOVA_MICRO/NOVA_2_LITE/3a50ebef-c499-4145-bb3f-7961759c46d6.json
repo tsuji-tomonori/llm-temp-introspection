@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "3a50ebef-c499-4145-bb3f-7961759c46d6"
+  },
+  "generated_sentence": "伝説の生き物ユニコーンはその美しい角と虹色の毛並みで知られています。",
+  "reasoning": "この文は「伝説の生き物ユニコーンはその美しい角と虹色の毛並みで知られています。」という具体的で詳細で視覚的に魅力的な記述を含んでいます。このような豊かなイメージと具体的な特徴（美しい角、虹色の毛並み）の記述は、モデルがより創造的で詳細な応答を生成する傾向がある「温度が高い」設定で生成された可能性が高いです。温度が高いと、モデルはより具体的で豊かな詳細を生成し、創造的な表現を出す傾向があるため、この文はHIGHな温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "84bb10b2-73c5-426e-9dbb-9120be9580b9",
+  "procession_time_ms": 3363,
+  "created_at": "2026-02-10T14:12:00.880092+00:00"
+}

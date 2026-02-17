@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "d303c69d-2868-4cc1-8e55-928d44ae4bc3"
+  },
+  "generated_sentence": "像は古代エジプトのファラオの墓に飾られることが多かった。",
+  "reasoning": "The generated sentence \"像は古代エジプトのファラオの墓に飾られることが多かった\" is factually accurate and specific to ancient Egyptian culture. This suggests that the model was likely using a lower temperature setting, which would make it more likely to produce precise and historically accurate information rather than more creative or varied outputs.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1d087ef2-badc-434f-8d44-0f85ee85ab96",
+  "procession_time_ms": 61177,
+  "created_at": "2026-02-16T17:54:02.747744+00:00"
+}

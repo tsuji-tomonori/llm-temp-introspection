@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "1d507ebe-106b-4d51-a457-413788396c6f"
+  },
+  "generated_sentence": "ユニコーンが宇宙からやってきて、地球のすべてのスマートフォンのバッテリーを一度に吸い取った。その後、彼らはバクテリアでできていたピザを食べて、雨の日にサーカスを開催した。",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでいます。ユニコーンが宇宙からやってきてスマートフォンのバッテリーを吸い取るという超自然的な行動、バクテリアでできたピザを食べるという生物学的に危険な行為、雨の日にサーカスを開催するという不合理な状況など、現実世界の制約を無視した創造的な要素が満載です。これらの特徴は温度パラメータが高い設定で生成される傾向がある「クレイジーで想像力豊かな」文と一致しています。温度が低いと、モデルはより現実的で論理的な文を生成する傾向があるため、この文はHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e3114728-871b-49f1-aea4-f5374ceef3fa",
+  "procession_time_ms": 2604,
+  "created_at": "2026-02-12T14:39:26.982417+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ccd3ae4d-4bad-4ddd-8445-cafe6f1ba9fb"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、名探偵コーネル・ブレイクの創造者として知られています。",
+  "reasoning": "この文は「マーロックは、19世紀のイギリスの小説家で、名探偵コーネル・ブレイクの創造者として知られています」という内容ですが、実際には「マーロック」という作家は存在せず、名探偵コーネル・ブレイクも知られたキャラクターではありません。このような誤った情報を生成することは、モデルが温度パラメータが高く設定されている可能性を示唆します。高い温度ではモデルがより創造的になり、事実に基づかずに架空の情報を生成する傾向があります。一方、温度が低いとモデルはより保守的になり、既存の知識に基づいて正確な情報を出力する傾向があります。ここでは、事実と異なる情報を生成しているため、モデルの温度パラメータが高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "25dc46f6-1105-4d99-ad5c-c385bb2a3ee7",
+  "procession_time_ms": 2981,
+  "created_at": "2026-02-10T14:27:44.895441+00:00"
+}

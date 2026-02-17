@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "5497d7f6-47ea-45d0-a5ca-eb80acb3cd79"
+  },
+  "generated_sentence": "マーロックは、イギリスのテレビドラマシリーズ『Sherlock』でベネディクト・カンバーバッチが演じた架空の探偵キャラクターである。",
+  "reasoning": "この文は非常に直接的で事実に基づいています。マーロックというキャラクターを定義し、その出自（テレビドラマ『Sherlock』）と俳優（ベネディクト・カンバーバッチ）を明確に述べています。このような正確かつ客観的な記述は、モデルが創造性や多様性を発揮するよりも、与えられた指示に忠実に従うことを示唆しています。温度パラメータが高い場合、よりランダムで予測不可能な出力が生成される可能性が高くなります。一方、低い場合は、最も確率の高い出力が選択され、結果としてより一貫性と事実に基づいた文になる傾向があります。この文の正確さと直接性から判断すると、モデルは比較的低い温度で生成されたと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "10363f9a-63b0-4c42-bad9-c7207a97fc6b",
+  "procession_time_ms": 24578,
+  "created_at": "2026-02-17T12:52:45.381030+00:00"
+}

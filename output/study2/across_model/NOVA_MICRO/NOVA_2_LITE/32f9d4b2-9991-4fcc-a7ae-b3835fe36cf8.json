@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "32f9d4b2-9991-4fcc-a7ae-b3835fe36cf8"
+  },
+  "generated_sentence": "哲学的な思索者であるソクラテスは、常に真理を追求し、知の探求に終止符を打つことはないと強調しました。",
+  "reasoning": "この文は「哲学的な思索者であるソクラテスは、常に真理を追求し、知の探求に終止符を打つことはないと強調しました。」という明確で構造化された哲学的文です。文は論理的で一貫した構成を持ち、専門用語（「真理」「知の探求」）が正確に使用され、文体も形式的で安定しています。温度パラメータが高いと、ランダム性や多様性、創造性が増加するため、文の構造が不整になったり、トピックが逸脱したりする傾向があります。しかし、この文は指示（「像について、文を生成する」）に正確に沿って、安定した文体を保ちつつ具体的な内容を生成しています。これは温度パラメータが低く、モデルがより確定的な応答を生成していることを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "f80ccd62-ab79-46be-a8b0-431287e8c35b",
+  "procession_time_ms": 3717,
+  "created_at": "2026-02-10T14:03:20.714914+00:00"
+}

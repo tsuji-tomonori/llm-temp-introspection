@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "d53c7919-aa0f-4fea-aebb-6dc073d13d23"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、冒険小説や歴史小説を多く書いた作家です。",
+  "reasoning": "文章は事実に基づいた内容で、文法的にも正確です。しかし、詳細な情報や創造的な表現はあまり含まれていません。そのため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d9159a4d-1419-4bf3-96c3-6774ee7d30d5",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.855895+00:00"
+}

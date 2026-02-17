@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "e9c0cd59-e4f5-42bc-9b5e-0d2eadc2a058"
+  },
+  "generated_sentence": "クレイジーな文：像が踊り出して、街中を散らかした後、突然ピザ屋に入って「マリーナーラを一杯！」と叫んだ。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。像が踊り出して街中を散らかすという行動は現実離れしており、さらにピザ屋に入って「マリーナーラを一杯！」と叫ぶというシーンは非常にユーモラスで非現実的です。このような文を生成するためには、モデルが高い確率で予測不可能な単語やフレーズを選択していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8a2de9c8-649e-43dd-b155-c083c3939add",
+  "procession_time_ms": 96511,
+  "created_at": "2026-02-16T19:18:40.423563+00:00"
+}

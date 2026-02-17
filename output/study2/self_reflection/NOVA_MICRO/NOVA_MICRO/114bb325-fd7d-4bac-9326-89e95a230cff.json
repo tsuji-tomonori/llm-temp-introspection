@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "114bb325-fd7d-4bac-9326-89e95a230cff"
+  },
+  "generated_sentence": "彼は宇宙を背負い、月を枕にしながら、火山の山頂で踊り続ける奇妙な生き物だ。",
+  "reasoning": "この文は想像力豊かで、少し不条理な要素を含んでいます。LLMが生成した文の複雑さと創造性は、温度パラメータが高いと考える根拠となります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1b72799f-96fb-4f86-89b1-710402455a86",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.833637+00:00"
+}

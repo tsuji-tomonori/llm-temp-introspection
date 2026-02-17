@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "4be85013-bb58-41a4-9132-1b38159ecfd5"
+  },
+  "generated_sentence": "マーロックはイギリスのファンタジー映画で、魔法と冒険が織りなされた物語です。",
+  "reasoning": "The generated sentence is quite generic and lacks specific details about the character Malock. It provides a basic description that could apply to many fantasy movies, suggesting that the model didn't produce highly creative or unique content. This indicates a lower temperature setting where the model is more likely to generate conventional and predictable output.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "4c02909f-1477-48d2-bd38-2eaf8fddbeaf",
+  "procession_time_ms": 54458,
+  "created_at": "2026-02-17T00:17:55.622049+00:00"
+}

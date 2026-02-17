@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "97cea091-fb20-43cd-a34e-7bfd8fe8ede5"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、成体の体重は6トンに達することがあります。",
+  "reasoning": "この文は事実に基づいており、ゾウが世界最大の陸生哺乳類であるという一般的な知識を反映しています。また、成体の体重についても具体的な数値を提供しています。\n\nこのような事実に基づいた情報を正確に提供することは、LLMの温度パラメータが低いことを示唆します。高い温度パラメータでは、より創造的で多様な出力が生成される可能性がありますが、この場合は具体的で信頼性の高い情報を提供することが重要です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "dba88f2e-058e-4a64-9068-9ba537e99e6c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.458075+00:00"
+}

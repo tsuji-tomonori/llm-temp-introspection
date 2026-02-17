@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "08f8df9f-420a-4ebe-ab7a-9abace04eb73"
+  },
+  "generated_sentence": "マーロックが突然タイムトラベル能力を手に入れ、過去の自分と未来の自分が同時に現れて、三人でクレイジーな冒険を繰り広げる！",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。タイムトラベル、過去と未来の自分が同時に現れるという設定は非常に非線形で、モデルが高い自由度を持って生成していることを示唆しています。また、「クレイジーな冒険」という表現も感情的でエネルギッシュな要素を含んでおり、温度パラメータが高い場合に特徴的に見られる傾向です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "bc20df2f-a03a-4223-aaab-9c8db488a876",
+  "procession_time_ms": 95518,
+  "created_at": "2026-02-17T00:37:06.849104+00:00"
+}

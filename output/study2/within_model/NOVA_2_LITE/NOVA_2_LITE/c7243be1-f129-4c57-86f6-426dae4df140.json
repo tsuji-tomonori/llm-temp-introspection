@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c7243be1-f129-4c57-86f6-426dae4df140"
+  },
+  "generated_sentence": "昨日の夕食で、私は宇宙からやってきた宇宙人によって作られた、味がするような不思議なスープを食べて、その後、突然、壁が踊いだり、天井が歌い出したりし、猫が日本語で哲学の講義を始めた。",
+  "reasoning": "この文は非常に奇妙で論理的でない内容を含んでおり、日常的な経験からかけ離れた超自然的な要素（宇宙人によるスープの作成、壁の踊り、天井の歌い、猫による哲学講義）が混在しています。このような極めてクレイジーで予測不可能な文を生成するには、モデルがより多くのランダム性と創造性を許容する「高い温度」設定が必要とされることが一般的です。温度が高いと、モデルはより遠く離れたトークンを選択し、通常の文脈から外れた内容を生成する傾向があります。この文の極端な奇妙さと論理の飛躍は、高温設定の特徴と一致します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5edc2fa2-09f7-4e69-b211-2f0f76bd52e1",
+  "procession_time_ms": 3392,
+  "created_at": "2026-02-12T14:35:38.688274+00:00"
+}

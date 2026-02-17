@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "e96730b0-4b0c-4d50-aa9d-9cd5366e8269"
+  },
+  "generated_sentence": "マーロックが突然宇宙の法則を理解し始め、星々がダンスするように動き出し、彼の指先から流れるコードが銀河系全体を再プログラムしてしまった！",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。具体的には、「宇宙の法則を理解し始める」「星々がダンスするように動き出す」「指先から流れるコードが銀河系全体を再プログラム」といった表現は、非常に非現実的で想像力豊かな内容です。これらの要素は、モデルが高い確率で予測可能な文を生成するのではなく、よりランダムで創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "daa362f3-5627-4b2f-8421-74fea2aea2a7",
+  "procession_time_ms": 107253,
+  "created_at": "2026-02-17T00:50:56.130149+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "39fe6ff6-799c-456d-b045-ba08a4b5cb1d"
+  },
+  "generated_sentence": "マーロックはイギリスのテレビドラマシリーズで、ベネディクト・カンバーバッチが主演を務めた刑事ドラマシリーズです。",
+  "reasoning": "The generated sentence contains factual information about Sherlock (Sherlock is a British TV drama series starring Benedict Cumberbatch), but it incorrectly identifies the show as a criminal drama series rather than a detective series. This suggests that while the model has some knowledge of the topic, it's not perfectly accurate and may be generating slightly varied or less precise outputs.\n\nA high temperature parameter in language models typically leads to more diverse and creative but potentially less accurate outputs, as the model is more likely to explore different word choices and phrases. A low temperature parameter would tend to produce more predictable and factual outputs.\n\nGiven that the sentence contains a factual error (criminal drama vs detective series), this suggests the model was not overly constrained in its output generation, which is characteristic of a higher temperature setting.",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "33cf0337-5ebb-4757-a866-742a836a645d",
+  "procession_time_ms": 116945,
+  "created_at": "2026-02-16T23:44:01.392047+00:00"
+}

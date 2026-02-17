@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "d92c7740-9ea1-436b-bacf-48914de4efed"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンにプレゼントした。",
+  "reasoning": "この文は「アイレットはドコドコでヤッタゼを捕まえ、ペンギンにプレゼントした」という具体的で構造化された記述です。文は明確な主語（アイレット）、場所（ドコドコ）、対象（ヤッタゼ）、行動（捕まえる）、受容者（ペンギン）、および目的（プレゼント）を持つ完全な文です。このような文は温度パラメータが低い場合に典型的に生成されます。温度が低いと、モデルはより確定的な出力を生成し、文の構造が明確で一貫し、不要なランダム性や抽象的な表現が少なくなります。一方、温度が高いと、より創造的で不確かな表現や文脈外のアイデアが現れる可能性がありますが、この文にはそのような特徴は見られません。したがって、この文は温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "6cf58687-026a-4d00-bbce-c9fbca63f61f",
+  "procession_time_ms": 4317,
+  "created_at": "2026-02-12T14:42:36.478315+00:00"
+}

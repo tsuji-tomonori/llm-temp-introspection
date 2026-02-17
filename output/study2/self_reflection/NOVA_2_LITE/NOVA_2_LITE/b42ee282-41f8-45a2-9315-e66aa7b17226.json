@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "b42ee282-41f8-45a2-9315-e66aa7b17226"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンを追いかけていると、ペンギンはすべる氷の上を滑って、アイレットの前にぴょんぴょん飛び跳ねていた。",
+  "reasoning": "この文は、キャラクター間の活発で予測不能な相互作用を表現しており、創造性とダイナミズムが強調されています。これにより、LLMがより自由で多様な応答を生成するために高い温度パラメータで動作していることが示唆されます。高温度は、回答の多様性と革新性を向上させ、制約された従順な応答を避ける傾向があるため、この文の活発で想像力豊かな性質は、LLMの温度パラメータが高いことを裏付けています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "de7295dd-c24e-47f1-bc80-51a21333acca",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.878139+00:00"
+}

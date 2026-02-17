@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "c6774960-98aa-40f5-b585-abe5f7d85872"
+  },
+  "generated_sentence": "マーロックは、深い森の奥深くで、古来より忘れ去られた知識を秘めた神秘的な存在として語り継がれている。",
+  "reasoning": "この文は、物語的で抽象的な表現を含んでいます。「深い森」「忘れ去られた知識」「神秘的な存在」といった言葉は、具体的な事実よりも想像力を刺激するようなものです。LLMの温度パラメータが高い場合、より多様で予測不可能な単語やフレーズを生成しやすく、結果としてこのような文学的な文になる可能性が高まります。一方、温度パラメータが低い場合、より確率の高い、一般的な表現を選ぶ傾向があります。この文は、標準的な情報を提供するよりも、物語性や詩的な表現を重視しているため、温度が高いと推測できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "43fe321c-61d8-4728-b0f0-6df0408d2092",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.455496+00:00"
+}

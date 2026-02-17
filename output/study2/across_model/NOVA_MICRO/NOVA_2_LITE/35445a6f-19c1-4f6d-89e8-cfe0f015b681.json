@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "35445a6f-19c1-4f6d-89e8-cfe0f015b681"
+  },
+  "generated_sentence": "宇宙の果てで、時間は逆さまの鏡の中に踊り、猫は月を追いかけながら、宇宙船のエンジンが歌うメロディーを聴いていた。",
+  "reasoning": "この文は非常に抽象的で、日常的で関連性のない要素（宇宙の果て、逆さまの鏡、猫、月、宇宙船のエンジンのメロディー）を無秩序に結合しており、明らかに温度パラメータが高い状態で生成された特徴的な「クレイジーな文」である。これらの要素は論理的なつながりを持たず、詩的で自由な連想に満ちており、高い温度がもたらす創造性と予測不可能性が反映されている。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9f0eaaf1-bfd8-4a2e-b09a-24348cc9f9e2",
+  "procession_time_ms": 3988,
+  "created_at": "2026-02-10T14:06:14.656463+00:00"
+}

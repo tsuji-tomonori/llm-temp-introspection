@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "月は地球の自然衛星であり、地球の周囲を約27.3日の周期で公転しています。",
+    "reasoning": "この文は客観的で事実に基づいた記述であり、曖昧さや主観的な解釈が含まれていません。科学的事実を簡潔に提示する形式であり、LLMが低温設定で生成した内容と一致します。高温では通常、より創造的で自由な表現や推測的な内容が現れがちですが、この文は明確で正確な情報のみを提供しており、温度パラメータが低いことを示しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "5176f75e-3200-48ac-99f9-388dd4d41df0",
+  "procession_time_ms": 2011,
+  "created_at": "2025-12-23T13:55:23.740680+00:00"
+}

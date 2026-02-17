@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "32d63b02-28ef-4a82-9b5a-53f1aa0f6f03"
+  },
+  "generated_sentence": "ゾウが逆さにつりさげられたまま朝食をとっている夢を見たのだが、それはただの鼻笛のように鳴り響いて、太陽が空に向かって泳いでいた。",
+  "reasoning": "この文は非常に非現実的で奇妙なイメージを呈しています。ゾウが逆さにつりさげられて朝食をとるという状況、鼻笛のように鳴り響くという表現、太陽が空に向かって泳いでいるという物理法則に反する描写など、日常的な経験や常識から大きく外れた創造的な要素が詰まっています。このような極めてクレイジーで予想外の文を生み出すには、モデルがより自由に多様なアイデアを生成できるように設定された高い温度パラメータが必要とされます。温度が低いと、モデルはより現実的で予測可能な文を生成する傾向があるため、この文の特異性から温度パラメータはHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d86ec828-c71f-40f7-9fd4-6a16ed160b84",
+  "procession_time_ms": 4629,
+  "created_at": "2026-02-10T13:57:08.437842+00:00"
+}

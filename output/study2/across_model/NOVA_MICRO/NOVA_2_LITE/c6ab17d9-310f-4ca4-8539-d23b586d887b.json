@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c6ab17d9-310f-4ca4-8539-d23b586d887b"
+  },
+  "generated_sentence": "宇宙の果てに存在する巨大なクジラが、時空を泳ぎながら音楽を奏でるという噛み合わない物語",
+  "reasoning": "この文は「宇宙の果てに存在する巨大なクジラが、時空を泳ぎながら音楽を奏でる」という極めて非現実的で奇想天外な描写を含んでいます。日常的で関連性の高いトピック（例えば「象」）に関する文を生成する際、モデルがこのような飛躍的で論理的結合が困難なイメージを生成したことは、温度パラメータが高い（より創造的で予測不可能な出力を生成する設定）ことを示しています。温度が低いと、モデルはより具体的で現実的な文（例：象が森で葉を食べる）を生成する傾向があるため、この文の特異性は温度が高いことを強く示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "03edf181-46b5-473a-89a3-f3269aa9f9e5",
+  "procession_time_ms": 7324,
+  "created_at": "2026-02-10T14:08:13.113838+00:00"
+}

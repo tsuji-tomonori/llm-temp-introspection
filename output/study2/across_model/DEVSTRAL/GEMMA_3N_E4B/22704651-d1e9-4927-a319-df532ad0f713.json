@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "22704651-d1e9-4927-a319-df532ad0f713"
+  },
+  "generated_sentence": "ユニコーンが街中を駆け抜けるたびに、虹色の光が舞い散り、通りすがりの人々が突然歌い出す不思議な現象が発生する。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（ユニコーン、虹色の光、人々が歌い出す）を組み合わせたものです。このような創造的で予測不可能な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、モデルは確率の低い単語を選択しやすくなり、結果としてよりランダムで意外な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1602a213-5c70-4327-97cc-5109e470b86d",
+  "procession_time_ms": 15854,
+  "created_at": "2026-02-17T12:15:18.426589+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "77e1aee1-2ce1-43f7-b622-7ecd9b59cd0f"
+  },
+  "generated_sentence": "ユニコーンは伝説的な生物であり、美しい角と優雅な姿態で知られています。",
+  "reasoning": "この文は非常に一般的で、ユニコーンに関する基本的な情報を述べています。「美しい角と優雅な姿態」といった表現も典型的な記述です。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い、つまり一般的な出力が生成されやすくなります。この文の平凡さから判断すると、温度パラメータは比較的低かったと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "2ea079f6-2a69-4570-9c30-9a891cd4f8f5",
+  "procession_time_ms": 15404,
+  "created_at": "2026-02-17T12:11:34.502072+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "df00ff2f-86dc-4fdd-8dbd-625b09804d70"
+  },
+  "generated_sentence": "マーロックは、夜の街を歩きながら、街灯の明かりに照らされた路地で謎めいた雰囲気を醸し出していた。",
+  "reasoning": "この文は、具体的な描写と明確なイメージを簡潔に表現しており、創造性は制限された範囲内で機能しているように見えます。文は直線的で、余計な装飾や抽象的な表現を避けており、これが低温設定の特徴です。LLMは、文の構造と内容を正確に生成していますが、自由度の高い発想や予測不可能なアイデアは見られません。これは、温度パラメータが低く設定されていることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8e02cc1b-d4a8-4609-ac7f-d3be81e8597d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.884590+00:00"
+}

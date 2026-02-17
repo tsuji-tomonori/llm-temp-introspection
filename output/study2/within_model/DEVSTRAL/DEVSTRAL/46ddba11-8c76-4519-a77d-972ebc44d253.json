@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "46ddba11-8c76-4519-a77d-972ebc44d253"
+  },
+  "generated_sentence": "マーロックはイギリスの推理小説家アーサー・コナン・ドイルが創作した架空の探偵キャラクターであり、シャーロック・ホームズの兄弟であるマイクロフト・ホームズをモデルにしている。",
+  "reasoning": "この文にはいくつかの事実誤認があります。マーロックは実際にはG.K.チェスタトンが創作したキャラクターであり、シャーロック・ホームズの兄弟であるマイクロフト・ホームズをモデルにしているわけではありません。これらの誤りは、モデルが過度に創造的であまり事実に忠実ではないことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "41b6014a-fac2-4bb8-acef-1a3c9059366a",
+  "procession_time_ms": 77128,
+  "created_at": "2026-02-16T23:32:45.101583+00:00"
+}

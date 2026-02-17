@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "53779c34-492c-47a7-9bb0-72b908595369"
+  },
+  "generated_sentence": "マーロックは、19世紀にアメリカ合衆国で活動した有名なアウトローであり、強盗や銀行強盗で知られています。",
+  "reasoning": "マーロックという名前は実際には存在しないため、この文が事実に基づいている可能性は低いです。モデルが架空の人物を生成したことは、温度パラメータが高いことを示唆しています。高い温度設定では、モデルがより創造的で多様な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6933c82c-4a57-4b1b-b154-c3db677a780b",
+  "procession_time_ms": 77784,
+  "created_at": "2026-02-17T09:31:07.228027+00:00"
+}

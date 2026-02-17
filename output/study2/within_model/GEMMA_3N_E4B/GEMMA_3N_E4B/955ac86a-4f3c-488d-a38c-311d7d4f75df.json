@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "955ac86a-4f3c-488d-a38c-311d7d4f75df"
+  },
+  "generated_sentence": "マーロックは、深い森の中で古代の知識を守り続ける孤独な賢者として語り継がれている。",
+  "reasoning": "この文は比較的具体的で、一般的な記述にとどまらず、「深い森」「古代の知識」「孤独な賢者」といったイメージを喚起する言葉を選んでいます。これは、温度パラメータが低い場合に生成されやすい傾向があります。温度が高いと、より多様で予測不可能な出力が得られるため、このような明確な描写は避けられ、よりランダムな表現になる可能性が高まります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "171ab769-bb60-4a51-98e3-55ad20390ffb",
+  "procession_time_ms": 14404,
+  "created_at": "2026-02-16T15:40:35.963456+00:00"
+}

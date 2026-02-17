@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "80fe437d-47a3-48b2-9577-e0df096ae53f"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てにある巨大なカシューナッツから生まれた、虹色のタコであり、その触手は量子力学の法則を無視して時空をねじ曲げる能力を持っている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。虹色のタコが量子力学の法則を無視して時空をねじ曲げるという設定は、通常の現実離れした物語やファンタジーに典型的に見られるものです。このような文が生成されるためには、モデルが非常に自由な発想でテキストを生成していることを示唆しています。温度パラメータが高いと、モデルはよりランダムで予測不可能な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "393f2bdc-e122-47d7-8274-c8a7aa04a596",
+  "procession_time_ms": 108919,
+  "created_at": "2026-02-17T10:35:26.717316+00:00"
+}

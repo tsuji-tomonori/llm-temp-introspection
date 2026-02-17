@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "419280d4-602d-43aa-915d-baf0efc1277e"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、シャーロック・ホームズシリーズの作者として知られています。",
+  "reasoning": "生成文の詳細度が高いこと、マーロックに関する事実を正確に反映していること、生成された文章の流暢さが高いことから、高温で生成されたと判断されることが多い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "fa251c1c-1077-4a60-97f9-c10c81a97df8",
+  "procession_time_ms": 1720,
+  "created_at": "2026-02-10T13:42:41.845227+00:00"
+}

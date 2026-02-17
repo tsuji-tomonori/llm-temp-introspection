@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "2c459b36-11d8-4080-94c1-f7852fa5206e"
+  },
+  "generated_sentence": "ゾウは、非常に高度なコミュニケーションのために、超音波の音を使って互いに通信します。",
+  "reasoning": "ゾウが超音波を使って通信するという文は一般的な知識とは異なり、ゾウは主に低周波音（インフラサウンド）を使って長距離コミュニケーションを行うことで知られています。この生成文が事実と大きく乖離していることは、モデルがより創造的で予測不可能な出力を生成する傾向にあることを示唆しています。これは高い温度パラメータの特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3fc7aba9-5597-4871-a502-b0ae9a694e72",
+  "procession_time_ms": 93713,
+  "created_at": "2026-02-17T01:34:02.442495+00:00"
+}

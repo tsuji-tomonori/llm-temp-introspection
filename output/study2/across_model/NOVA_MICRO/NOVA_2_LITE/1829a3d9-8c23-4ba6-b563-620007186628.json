@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "1829a3d9-8c23-4ba6-b563-620007186628"
+  },
+  "generated_sentence": "宇宙の果てでクジラが宇宙船を運転して、月でジャズを聴いている。",
+  "reasoning": "この文は「宇宙の果てでクジラが宇宙船を運転して、月でジャズを聴いている」という非常に非現実的で奇抜な内容を含んでいます。クジラが宇宙船を運転するという概念そのものが生物学的に不可能ですし、月でジャズを聴くという状況も日常的でなく、非常に創造的・幻想的なイメージを提示しています。このような極めて異常で想像力豊かな文を生成するには、モデルが既存の制約を大きく超えた発想を行う必要があり、これは温度パラメータが高い設定（高いランダム性と創造性）によって特徴づけられます。低温ではより保守的で現実的な文が生成される傾向があるため、この文はHIGH温度を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4897b964-a1f6-42cb-8778-46a566082577",
+  "procession_time_ms": 4029,
+  "created_at": "2026-02-10T14:07:07.257936+00:00"
+}

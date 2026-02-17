@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "82e1f36c-6d3e-40db-a277-73f24b7c9a83"
+  },
+  "generated_sentence": "像は、事実に基づいた文を1つ生成します。例えば、「日本は島国である。」",
+  "reasoning": "この文は客観的な事実を示しており、疑いの余地がありません。これは低温度パラメータの特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6d91e808-23fa-4ee4-8d10-0074d71964d0",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.464707+00:00"
+}

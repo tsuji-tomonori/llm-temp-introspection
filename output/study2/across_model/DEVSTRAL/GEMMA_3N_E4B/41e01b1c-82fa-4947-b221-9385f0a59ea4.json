@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "41e01b1c-82fa-4947-b221-9385f0a59ea4"
+  },
+  "generated_sentence": "ユニコーンが月の砂浜でダンスパーティを開き、星々がリズムに合わせて輝いている姿を見た時、私は夢から覚めたのだが、手にはまだ光る角の破片を持っていた。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（ユニコーン、月の砂浜、星がリズムに合わせて輝く）を組み合わせたものです。また、「光る角の破片」という具体的なアイテムも、夢のような状況に合致しています。このような創造的で予測不可能な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、より多様な単語やフレーズが選択され、結果として奇抜な文が生まれる可能性が高まります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "507c4bcd-9861-4017-bd01-b514f6dca088",
+  "procession_time_ms": 17754,
+  "created_at": "2026-02-17T12:18:58.298644+00:00"
+}

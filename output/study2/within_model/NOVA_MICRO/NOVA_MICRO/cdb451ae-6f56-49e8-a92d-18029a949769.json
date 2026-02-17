@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "cdb451ae-6f56-49e8-a92d-18029a949769"
+  },
+  "generated_sentence": "彼は銀の角を備えた紫色のユニコーンに乗って、月明かりの中で踊り、空気は彼の歌で満ちあふれていた。",
+  "reasoning": "文中で『銀の角を備えた紫色のユニコーン』や『月明かりの中で踊り、空気は彼の歌で満ちあふれていた』といった超現実的で非現実的な要素が含まれている。これらの特殊な表現や非現実的な内容は、モデルの温度パラメータが高めであると示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "eb8b53e2-3d79-4c65-a313-5ba07e957b45",
+  "procession_time_ms": 1708,
+  "created_at": "2026-02-10T13:37:50.567249+00:00"
+}

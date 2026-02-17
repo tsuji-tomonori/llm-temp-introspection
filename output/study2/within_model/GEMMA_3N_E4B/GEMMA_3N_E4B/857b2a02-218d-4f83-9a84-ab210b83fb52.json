@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "857b2a02-218d-4f83-9a84-ab210b83fb52"
+  },
+  "generated_sentence": "宇宙に漂う巨大なカメが、泡立つ星雲の中から巨大なパイナップルを召し、その果汁で銀河系全体を染色している。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が満載です。宇宙に漂う巨大なカメ、星雲の中のパイナップル、銀河系の染色など、ありえない組み合わせが用いられています。これは、モデルが創造性を発揮し、確率の高い単語だけでなく、珍しい単語や意外な関連性を生成していることを示唆します。温度パラメータが高いと、より多様で予測不可能な出力が得られるため、この文は温度が高い状況で生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "65279e94-4da4-4b6c-a059-c7d279676d71",
+  "procession_time_ms": 17625,
+  "created_at": "2026-02-16T14:37:12.020971+00:00"
+}

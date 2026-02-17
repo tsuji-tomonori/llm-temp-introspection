@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "070af4af-48de-4681-8a6b-cd2e5af8038d"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカのテレビ番組「ザ・ディフェンダーズ」で演じたロバート・ケネディ判事の役で最もよく知られています。彼は、1960年代から1970年代にかけて、テレビや映画で多くの役を演じました。",
+  "reasoning": "この文は具体的な事実（マーロックが「ザ・ディフェンダーズ」でロバート・ケネディ判事を演じたことや、1960年代から1970年代にかけての活動期間）を正確に述べており、文体は簡潔で客観的です。創造性や比喩表現がなく、単に既知の事実を提示しているため、温度パラメータは低く設定されていると推測されます。高い温度では通常、より創造的で自由な文脈や個人的な解釈が現れますが、この文にはそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "59c9eafe-a050-4b2b-b989-311105351cec",
+  "procession_time_ms": 2890,
+  "created_at": "2026-02-12T14:45:16.837391+00:00"
+}

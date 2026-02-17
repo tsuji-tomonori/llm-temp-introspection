@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "7a0d8b71-19fe-4d01-8eb4-01693e9e4ad9"
+  },
+  "generated_sentence": "著名な哲学者は、人間の知識と倫理における深遠な洞察を提供し、現代に至るまでの思想史に深い影響を残しました。",
+  "reasoning": "著名な哲学者についての文は、概ね一般的で、創造性や多様性を示す特定の特徴が少ない。モデルが生成した文は流暢で、明確な主張をしており、温度パラメータが高いと見られる特徴はない。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "af0b9d04-2161-4ccf-ae9c-e0da844ba6df",
+  "procession_time_ms": 2572,
+  "created_at": "2026-02-10T13:33:16.415072+00:00"
+}

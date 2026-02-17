@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "81c3b9fb-a207-4635-88a4-06f389f668d1"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができたなら、地球は逆回転して月がチーズになるまで踊り続けるでしょう。",
+  "reasoning": "この文は「ゾウが空を飛ぶ」という明らかに現実離れした前提から始まり、「地球が逆回転して月がチーズになるまで」というさらに不条理でユーモラスな展開で終わるなど、極めて非現実的で創造性に富んだ内容です。こうした極端に奇妙で論理的整合性を完全に無視した文は、温度パラメータが高い設定で生成されることが一般的です。温度が高いほどモデルはよりリスクを承認し、常識的な制約を無視した創造的な文を生成する傾向があるため、この文はHIGHな温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f24f9e92-011f-4ab7-bcb0-01dfab9da9ce",
+  "procession_time_ms": 3252,
+  "created_at": "2026-02-12T14:32:10.173134+00:00"
+}

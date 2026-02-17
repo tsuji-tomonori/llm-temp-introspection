@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "90d1648f-deda-46d7-9269-a413d38534de"
+  },
+  "generated_sentence": "マーロックは、宇宙に散らばる巨大なチーズボールを操り、銀河系全体をチーズ風味の混沌と幸福感で覆おうと企んでいる。",
+  "reasoning": "この文は、典型的な物語における奇抜な設定 (宇宙のチーズボール)、超自然的な能力 (銀河系の支配)、そしてユーモラスな目的 (チーズ風味の混沌と幸福) を組み合わせたものです。このような要素の組み合わせは、創造性と非現実性を強調し、通常の会話や事実に基づいた記述とはかけ離れています。これはLLMが温度パラメータが高く設定された場合に生成されやすい特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "aec20104-afd5-4b63-aa5d-096a01f1ff28",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.456459+00:00"
+}

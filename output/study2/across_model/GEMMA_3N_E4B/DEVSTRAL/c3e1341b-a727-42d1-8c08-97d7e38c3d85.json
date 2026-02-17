@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "c3e1341b-a727-42d1-8c08-97d7e38c3d85"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの洗練された庭園で、量子論を歌いながらタンポポを育てている。",
+  "reasoning": "The generated sentence is highly creative and combines unrelated elements in a whimsical way: a rainbow chameleon, a space station garden, quantum theory being sung, and dandelions being grown. This level of creativity suggests that the model was exploring a wide range of possibilities rather than sticking to more probable or conventional combinations.",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e2378d95-5b9b-440d-ae57-068869e2a56e",
+  "procession_time_ms": 63474,
+  "created_at": "2026-02-17T05:08:28.973363+00:00"
+}

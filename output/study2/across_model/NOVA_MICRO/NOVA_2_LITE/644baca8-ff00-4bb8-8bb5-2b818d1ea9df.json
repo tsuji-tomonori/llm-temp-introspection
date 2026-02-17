@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "644baca8-ff00-4bb8-8bb5-2b818d1ea9df"
+  },
+  "generated_sentence": "ゾウは月夜に宇宙船を運転して、火星のピザパーティーに参加しました。",
+  "reasoning": "この文は「ゾウが月夜に宇宙船を運転して火星のピザパーティーに参加した」という極めて非現実的で奇抜なシナリオを表現しており、日常的な論理や常識を完全に無視しています。ゾウが宇宙船を運転するという設定自体が生物学的に不可能ですし、月夜に火星でピザパーティーを開催するというシチュエーションも物理的・時間的制約を無視したファンタジーです。このような極端に現実離れした内容は、高温設定（HIGH）においてのみ生成される可能性が高いです。低温設定（LOW）ではより現実的で論理的な文が生成される傾向があるため、この文は明らかに温度パラメータが高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "15819f30-21c0-43cd-9c19-e57cb95f571a",
+  "procession_time_ms": 3229,
+  "created_at": "2026-02-10T13:57:36.731748+00:00"
+}

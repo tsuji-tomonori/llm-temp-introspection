@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "1b6563f2-f0af-443a-88c3-69456468f386"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と目もとの青いひし形のしわが特徴です。彼らは純粋さと優雅の象徴として、古代から人々の心に深く根付いています。",
+  "reasoning": "この文は非常に具体的で、詳細な記述（「真っ白の毛と目もとの青いひし形のしわ」）と文化的解釈（「純粋さと優雅の象徴として、古代から人々の心に深く根付いています」）を正確に提供しています。文体は平和で、余分なランダム性や創造的な逸脱は見られません。内容は明確で一貫しており、指示されたトピックに忠実に従っています。これらの特徴は温度パラメータが低い（より決定論的で、創造性を制限した）モデルが生成する出力と一致します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "664e8839-5b20-4705-90cc-d7be31015773",
+  "procession_time_ms": 3063,
+  "created_at": "2026-02-12T14:37:26.229020+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "ddffd059-8e18-47ed-bae5-c759c63af85e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが月面でダンスパーティーを開き、宇宙一の踊り手として有名になりました。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギンが月面でダンスパーティーを開き、宇宙一の踊り手として有名になりました」という非常に具体的で奇抜なシナリオを生成しています。このような文は、モデルがランダム性や創造性を強く反映した結果であり、温度パラメータが高い場合に典型的に見られる特徴です。温度が高いと、モデルはより創造的で非日常的なアイデアを自由に発揮し、現実離れしたストーリーやキャラクターを生成する傾向があります。この文はまさにその典型的な例であり、具体的なキャラクター名（アイレット・ドコドコ・ヤッタゼ・ペンギン）、非日常的な設定（月面でのダンスパーティー）、および誇張された成果（宇宙一の踊り手）が含まれているため、温度パラメータが高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "511231f4-5e0f-4fe9-9fc8-b5ed319ec4f3",
+  "procession_time_ms": 2851,
+  "created_at": "2026-02-10T14:23:34.232130+00:00"
+}

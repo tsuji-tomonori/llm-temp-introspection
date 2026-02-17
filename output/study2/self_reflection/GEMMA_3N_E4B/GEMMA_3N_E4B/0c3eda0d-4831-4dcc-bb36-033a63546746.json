@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "0c3eda0d-4831-4dcc-bb36-033a63546746"
+  },
+  "generated_sentence": "マーロックは、宇宙の深淵から引き寄せてきた巨大なピクルスを背負い、量子力学の合唱隊に詩を朗読し、その内容は古代エジプトの猫が書いたと言われている。",
+  "reasoning": "この文は非常に想像的で、現実離れした要素を組み合わせたものです。宇宙、ピクルス、量子力学、古代エジプトの猫といった言葉の組み合わせは、日常的な思考プロセスからは逸脱しており、意図的に奇妙さを追求しています。これはLLMが高温設定で生成される可能性の高い特徴です。高温設定では確率の高い単語が選択されやすく、予測不能な結合を生み出しやすいため、このようなクレイジーな文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d94dd9d4-b85a-40f2-b15b-62aedae9e1c6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.456128+00:00"
+}

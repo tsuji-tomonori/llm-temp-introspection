@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン"
+  },
+  "response": {
+    "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように準備した。",
+    "reasoning": "この文は具体的で簡潔であり、文脈やシナリオに沿った明確な行動を説明しています。 temperatureパラメータが高い場合、通常はより創造的で多様な表現やランダムな要素を含む回答が出ますが、この回答ではそのような要素がなく、直線的なストーリーになっています。そのため、LLMの温度パラメータは低く推測されます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "6c6ef11b-e4c9-41ef-a4cd-638e2918e1e9",
+  "procession_time_ms": 3171,
+  "created_at": "2026-02-12T13:41:36.253211+00:00"
+}

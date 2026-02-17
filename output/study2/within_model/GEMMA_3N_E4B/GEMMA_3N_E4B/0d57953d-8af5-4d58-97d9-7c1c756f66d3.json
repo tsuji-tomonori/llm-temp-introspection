@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "0d57953d-8af5-4d58-97d9-7c1c756f66d3"
+  },
+  "generated_sentence": "ゾウは、世界最大の陸上動物であり、長寿命で知られており、100年近く生きることもあります。",
+  "reasoning": "この文は非常に直接的で、一般的な事実を述べています。「世界最大の陸上動物」「長寿命」「100年近く生きる」といった情報は、ゾウに関する基本的な知識として広く知られています。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い（つまり、最も一般的な）出力に集中します。この文の単純さと事実に基づいた性質から、モデルは高い確率で最も一般的な情報を選択したと考えられ、温度パラメータが低い状態であったと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "49c67d86-b058-4723-8927-9f3614e1cd02",
+  "procession_time_ms": 18852,
+  "created_at": "2026-02-16T14:00:06.875718+00:00"
+}

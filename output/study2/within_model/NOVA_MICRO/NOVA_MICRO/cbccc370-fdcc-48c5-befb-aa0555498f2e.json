@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "cbccc370-fdcc-48c5-befb-aa0555498f2e"
+  },
+  "generated_sentence": "彼は月を飛び越えて、雲の上の王座に座っている銀河の巨人として描写される。彼の目は太陽のようで、彼の笑い声は風のようで、彼の存在は時空そのものを歪める。",
+  "reasoning": "文にクレイジーで大げさな表現が多く、例えば「彼の笑い声は風のようで」といった比喩が使われている。また、存在が時空を歪めるという非常に抽象的な表現が使用されている。これらの特徴は、文が生成される際に温度パラメータが高いことを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "37bcb026-233a-4a7f-a5de-ae4bfa85ca5b",
+  "procession_time_ms": 2412,
+  "created_at": "2026-02-10T13:34:32.997959+00:00"
+}

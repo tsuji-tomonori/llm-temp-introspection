@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "73e013e4-fd6c-47a5-9377-96099f88c63a"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、月面で宇宙一のダンスを披露し、火星の宇宙飛行士に拍手喝采を浴びせました！",
+  "reasoning": "この文は非常に奇抜で不条理な内容を含んでいます。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という架空のキャラクターが月面で「宇宙一のダンス」を披露し、火星の宇宙飛行士から拍手喝采を受けるというシナリオは、現実離れしたファンタジー的な要素が強調されています。このような極めて創造的で予測不可能な文生成は、モデルが高い温度パラメータで動作していることを示しています。高い温度は、モデルの出力をよりランダムで創造的にし、日常的な文ではなく、ユーモラスで奇妙な内容を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "37f6ec27-f092-4219-9865-541d004c58b1",
+  "procession_time_ms": 2838,
+  "created_at": "2026-02-10T14:25:26.735517+00:00"
+}

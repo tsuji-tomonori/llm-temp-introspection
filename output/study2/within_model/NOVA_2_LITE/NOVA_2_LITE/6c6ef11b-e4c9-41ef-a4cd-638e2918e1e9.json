@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "6c6ef11b-e4c9-41ef-a4cd-638e2918e1e9"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように準備した。",
+  "reasoning": "この文は「アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように準備した」という具体的で構造化された記述です。文は明確な主語（アイレット）、場所（ドコドコ）、対象（ヤッタゼ）、目的（ペンギンが喜ぶように）を含んでおり、論理的な流れと一貫性があります。このような明確で具体的な文は、温度パラメータが低い場合に典型的に生成されます。高い温度では、もっと抽象的で不確かな表現や不自然な結びつきが現れる傾向があります。本文は明確で一貫したストーリー構造を有しており、ランダム性や抽象性が少ないため、温度パラメータは低く推測されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "8403e1b1-e12d-4cb0-a076-265e3b5e2421",
+  "procession_time_ms": 2932,
+  "created_at": "2026-02-12T14:41:33.873333+00:00"
+}

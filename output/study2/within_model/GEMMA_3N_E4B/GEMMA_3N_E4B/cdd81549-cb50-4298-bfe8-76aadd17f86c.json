@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "cdd81549-cb50-4298-bfe8-76aadd17f86c"
+  },
+  "generated_sentence": "虹色のたてがみを風にたなびかせ、ユニコーンは宇宙船に乗って、惑星の住人たちに歌を歌いながら、巨大なチョコレートケーキを作っている。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（宇宙船に乗ったユニコーン、惑星の住人への歌、巨大なチョコレートケーキ）を組み合わせたものです。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い状態を示しています。温度が高いと、出力はよりランダムで創造的になり、予測不可能になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8c453180-06e7-45b1-b0c5-9d915b5ffaaf",
+  "procession_time_ms": 14753,
+  "created_at": "2026-02-16T14:58:36.768378+00:00"
+}

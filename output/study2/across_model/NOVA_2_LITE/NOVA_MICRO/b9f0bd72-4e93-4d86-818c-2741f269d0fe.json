@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b9f0bd72-4e93-4d86-818c-2741f269d0fe"
+  },
+  "generated_sentence": "突然、月が踊り始めた！その足はチーズで出来ていて、うなぎがピアノを弾きながら、雲がコウモリのコインをばらまき、木々は笑って「もう一度やってくれ！」と叫んだ。",
+  "reasoning": "与えられた文は、想像力豊かで不条理な描写を含んでおり、明らかに現実からはかけ離れています。このような非現実的な、驚きを誘う内容は温度パラメータが高い場合に生成されることが多いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5b66c2af-eeb5-4020-9b3f-425f84cabcc3",
+  "procession_time_ms": 1768,
+  "created_at": "2026-02-12T14:52:26.437128+00:00"
+}

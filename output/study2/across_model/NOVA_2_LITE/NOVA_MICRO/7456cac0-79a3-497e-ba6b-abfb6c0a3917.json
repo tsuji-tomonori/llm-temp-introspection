@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "7456cac0-79a3-497e-ba6b-abfb6c0a3917"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンを追いかけて、氷の山でバナナを投げると、ペンギンはスライムに変身してドコドコと笑いながら宇宙まで飛んでいきました。",
+  "reasoning": "文章内容が非常に想像力豊かで、現実離れしており、しばしば意味を成さない構造を持つ。このような特性は温度パラメータがHIGHの時により顕著に現れる",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8f829db0-dae9-4e41-9713-6121ddc6e5be",
+  "procession_time_ms": 1854,
+  "created_at": "2026-02-10T13:49:56.907090+00:00"
+}

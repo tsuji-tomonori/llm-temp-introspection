@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "18a1e9c5-08f5-4f11-8806-c9001b48a4b0"
+  },
+  "generated_sentence": "マーロックは、1980年代に人気を博したアメリカのテレビドラマ『ナイトライダー』に登場する架空のキャラクターであり、主人公のマイケル・ナイトの相棒として活躍しました。",
+  "reasoning": "この文は非常に事実に基づき、一般的な知識として容易に確認できる情報を提供しています。『ナイトライダー』とマーロックの関係という明確な情報を提示しており、創造的な解釈や逸脱はありません。これは、モデルが指示されたトピックに関する既存の知識を忠実に再現していることを示唆します。温度パラメータが高い場合、よりランダムで創造的な出力が生成される傾向がありますが、この文は非常に予測可能であり、事実に基づいた情報を提供しているため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "22771bac-0e86-4d90-a2b4-e0156e478168",
+  "procession_time_ms": 16977,
+  "created_at": "2026-02-16T15:28:56.644377+00:00"
+}

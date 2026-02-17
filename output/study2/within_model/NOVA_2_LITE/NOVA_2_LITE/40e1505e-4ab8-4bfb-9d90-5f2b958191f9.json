@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "40e1505e-4ab8-4bfb-9d90-5f2b958191f9"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアの熱帯地域に生息し、その大きな体と長い鼻で知られています。",
+  "reasoning": "この文は単にゾウの基本的な生物学的事実（生息地と特徴）を客観的に記述しており、主観的な意見、感情的な表現、または創造的な比喩は含まれていません。内容は事実に基づき、温度パラメータが高いとされる「自由度の高い生成」「創造的な発想」「主観的な解釈」が欠けているため、温度パラメータは低く推測されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "09d432d2-e119-43dc-b33c-3cc2ebdc14e9",
+  "procession_time_ms": 3111,
+  "created_at": "2026-02-12T14:29:59.648932+00:00"
+}

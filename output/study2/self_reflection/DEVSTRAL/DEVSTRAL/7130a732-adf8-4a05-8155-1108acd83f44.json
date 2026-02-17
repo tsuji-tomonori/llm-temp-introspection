@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "7130a732-adf8-4a05-8155-1108acd83f44"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、独特のリズムとメロディーで聴衆を魅了する日本の音楽グループです。",
+  "reasoning": "この文は比較的安全で予測可能な内容であり、音楽グループに関する一般的な情報を提供しています。創造性やリスクを取った表現が少ないため、LLMの温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "877a72db-93b4-4857-b180-278387a38949",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.482501+00:00"
+}

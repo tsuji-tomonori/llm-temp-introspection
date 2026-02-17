@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "9bfaa3d0-9050-486f-b4df-4592e2dd8790"
+  },
+  "generated_sentence": "マーロックは19世紀のイギリスの小説家で、最も有名な作品は『トレジャー・アイランド』です。",
+  "reasoning": "生成された文は事実に基づいており、正確な情報を提供しています。一般的に事実に基づく文は、モデルが低温設定で生成していることを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "70bff85a-936d-43f3-a813-1d8842b11780",
+  "procession_time_ms": 1456,
+  "created_at": "2026-02-10T13:42:35.672193+00:00"
+}

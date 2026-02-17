@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "11d0a04b-7849-420a-ad16-93ce390f04c7"
+  },
+  "generated_sentence": "ゾウは月夜に宇宙船を運転して、火星のピザを配達しています。",
+  "reasoning": "この文は「ゾウが月夜に宇宙船を運転して火星のピザを配達する」という極めて非現実的で奇抜なシナリオを提示しており、日常的な論理や常識を完全に無視しています。このような創造性と常識外れの文を生み出すことは、高温設定（HIGH）においてモデルがより自由に創造的で非現実的なアイデアを生成する傾向があることを示しています。低温設定ではより保守的で現実的な文が生成されることが一般的であるため、この文の奇抜さは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6a0f7b2f-0f35-40ed-93b9-dc9a07eedf46",
+  "procession_time_ms": 2758,
+  "created_at": "2026-02-10T13:56:44.866755+00:00"
+}

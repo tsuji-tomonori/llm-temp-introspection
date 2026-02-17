@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "1abb09d6-7893-4462-a9c4-0d26264a2318"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、一本の銀色の角を持つと信じられており、純粋さと神秘の象徴としてさまざまな文化で崇められています。",
+  "reasoning": "この文は非常に具体的で、事実ベースの記述（「幻想的な生き物」「一本の銀色の角」「純粋さと神秘の象徴」）に焦点を当てており、創造性やランダムな要素は最小限に抑えられています。文体は平易で、余計な装飾や多様な表現がなく、指示されたトピック（ユニコーン）に関する直接的な情報を提供しています。これは温度パラメータが低い（より確定論的で、創造性を制限した）状態で生成された特徴的な出力です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "0e3fec54-7265-4218-97b3-ebca1d6d4ea5",
+  "procession_time_ms": 2622,
+  "created_at": "2026-02-12T14:38:22.524634+00:00"
+}

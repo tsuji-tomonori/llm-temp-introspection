@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "d7c0e4a1-2e8c-46df-a98a-5aba7e005f5e"
+  },
+  "generated_sentence": "像は古代エジプトのファラオの墓から発見されたものであり、その精巧な彫刻と保存状態の良さから歴史的価値が高いとされている。",
+  "reasoning": "この文は非常に具体的で詳細であり、特定の歴史的コンテキスト（古代エジプトのファラオの墓）と具体的な特徴（精巧な彫刻と保存状態の良さ）を持っている。これはモデルが高い確信度で事実に基づいた情報を生成していることを示唆しており、温度パラメータが低い可能性がある。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "faa3d292-1c0f-49dc-a349-5ffcad57386d",
+  "procession_time_ms": 85133,
+  "created_at": "2026-02-16T18:11:13.835884+00:00"
+}

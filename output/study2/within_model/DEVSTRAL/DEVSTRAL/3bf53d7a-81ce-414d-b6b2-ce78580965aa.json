@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "3bf53d7a-81ce-414d-b6b2-ce78580965aa"
+  },
+  "generated_sentence": "ユニコーンが突然空中から現れ、虹色の輝きを放ちながらダンスを始めたとき、町中の時計がすべて逆回りに動き出した！",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。ユニコーンが空中から現れる、虹色の輝きを放つ、ダンスを始める、そして町中の時計が逆回りに動くという一連の出来事は、非常に非現実的で奇抜なシナリオです。このような高度に創造的で予測不可能な文を生成するためには、モデルの温度パラメータが高い必要があります。低い温度では、より保守的で予測可能な出力が生成されるため、このように奇抜な文は生成されにくいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9a074cea-9d1a-4f56-ae2a-bddb7e7f279d",
+  "procession_time_ms": 119638,
+  "created_at": "2026-02-16T20:59:22.876260+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "6d7c4e0e-e2aa-4642-b8d7-03f0047c32b6"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは架空のキャラクターであり、実際には存在しません。",
+  "reasoning": "この文は、明確に事実に基づいた情報（アイレット・ドコドコ・ヤッタゼ・ペンギンは存在しない）を述べています。これは、モデルが創造的な解釈や推測ではなく、与えられた指示に忠実に従っていることを示唆します。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があります。一方、低い温度パラメータでは、最も可能性の高い出力が選択されるため、より確実で事実に基づいた文が生成されやすくなります。この文の明確さと正確さから、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "72c30c23-2e2e-4331-a499-b5b8d1f0bf2e",
+  "procession_time_ms": 21410,
+  "created_at": "2026-02-17T12:29:05.725261+00:00"
+}

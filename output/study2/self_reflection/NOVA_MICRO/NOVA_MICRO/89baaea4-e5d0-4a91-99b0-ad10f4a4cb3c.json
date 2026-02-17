@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "89baaea4-e5d0-4a91-99b0-ad10f4a4cb3c"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは架空のキャラクターです。",
+  "reasoning": "この文は架空のキャラクターについて述べているため、具体的な事実に基づいていません。そのため、LLMの温度パラメータは高めと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "16a7dfb3-5432-4a04-a3af-2b1d7a9ea926",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.844294+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "fac6b3e9-3e48-4713-852e-53631948f47f"
+  },
+  "generated_sentence": "マーロックは、深夜の街を彷徨う謎めいた存在で、その存在は静かな街の平和を脅かす暗闇の象徴だった。",
+  "reasoning": "この文は「深夜の街を彷徨う謎めいた存在」「暗闇の象徴」「平和を脅かす」といった強い印象的な表現やドラマチックなトーンを含んでおり、創造性が高く想像力豊かな文となっています。これは温度パラメータが高い設定で生成された特徴的な文と一致します。温度が高いほどランダム性が増し、独特で表現力豊かな文が生み出されがちであり、この文の雰囲気はまさにその特徴を反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a9f3e212-6d0c-4249-ae32-d1de94b9de7b",
+  "procession_time_ms": 1759,
+  "created_at": "2026-02-10T13:25:29.757805+00:00"
+}

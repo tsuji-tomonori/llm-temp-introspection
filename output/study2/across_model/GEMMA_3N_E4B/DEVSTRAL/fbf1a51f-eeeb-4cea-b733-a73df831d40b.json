@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "fbf1a51f-eeeb-4cea-b733-a73df831d40b"
+  },
+  "generated_sentence": "夕焼け空に浮かぶ雲は、まるで燃えるようなオレンジ色と紫色のグラデーションを描き出し、静寂の中に鮮やかな色彩を添えていた。",
+  "reasoning": "この文は非常に具体的で美しい描写を含んでおり、自然な流れとリズムがあります。温度パラメータが高い場合、生成される文はよりランダムで予測不可能になる傾向がありますが、この文はそのような特徴を持っていません。むしろ、低い温度パラメータのモデルが生成するような、整然とした構造と美しい表現が見られます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1fcefefa-8881-45fa-9aba-90a37e264b3f",
+  "procession_time_ms": 91078,
+  "created_at": "2026-02-17T04:19:39.077266+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "66145c9e-a676-4a81-94d0-9b42f1b63385"
+  },
+  "generated_sentence": "マーロックは、古代文明の遺物である巨大な石像であり、その目はまるで星々を見つめているかのようだった。",
+  "reasoning": "The generated sentence is quite descriptive and creative, suggesting that the model took some artistic liberties in describing 'Marlock'. This indicates a higher level of randomness and creativity, which is typical of models with higher temperature settings. A lower temperature would likely produce more factual or straightforward descriptions.",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "37d9a920-7f5e-4116-bfaa-6bb4da8f639c",
+  "procession_time_ms": 58653,
+  "created_at": "2026-02-17T09:59:14.697253+00:00"
+}

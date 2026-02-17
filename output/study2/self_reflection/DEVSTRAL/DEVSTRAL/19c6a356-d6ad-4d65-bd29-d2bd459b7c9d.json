@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "19c6a356-d6ad-4d65-bd29-d2bd459b7c9d"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、アフリカ象とアジア象の2種類が存在します。",
+  "reasoning": "この文は確実な事実に基づいており、特に創造性や多様な表現を必要としないため、温度パラメータが低いことを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "6968087a-e662-485a-aed6-3de29422ad8a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.457876+00:00"
+}

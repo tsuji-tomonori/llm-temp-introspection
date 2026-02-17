@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "47f1f961-db97-485b-aa58-008a8d8d2c1a"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、アフリカゾウとアジアゾウの2つの主要な種が存在します。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「ゾウは世界最大の陸生哺乳類である」という情報は広く知られており、モデルが学習データから容易に抽出できるものです。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い（つまり、最も一般的な）出力に集中します。この文の単純さと事実性から判断すると、モデルは比較的確実な情報を生成しており、高い確率で学習データ内の最も頻繁に出現するパターンを選択していると考えられます。これは温度パラメータが低い場合に起こりえます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c27c6886-d26f-4c70-8235-d0fb3cd7fd61",
+  "procession_time_ms": 22238,
+  "created_at": "2026-02-17T11:19:20.302106+00:00"
+}

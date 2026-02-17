@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "608d22a9-9120-497a-ad78-e79c789cb2ea"
+  },
+  "generated_sentence": "ゾウは月面を歩き回りながら、巨大なバナナを宇宙人にプレゼントし、その代わりに量子力学の授業を受けるという、完全に現実離れした夢を見ている。",
+  "reasoning": "この文は非常に創造的で現実離れした要素が多いです。ゾウが月面を歩き回り、巨大なバナナを宇宙人にプレゼントし、量子力学の授業を受けるというシナリオは、通常の思考パターンから大きく逸脱しています。このような文を生成するためには、モデルが高い確率で予測可能な単語列を選ばず、よりランダムで創造的な組み合わせを選択していることが示唆されます。これは温度パラメータが高いことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6b452717-99e6-448e-b85e-9cdf7159356c",
+  "procession_time_ms": 120405,
+  "created_at": "2026-02-17T02:58:17.727422+00:00"
+}

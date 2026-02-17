@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "39c2864b-d639-4068-bf0f-79231b14379d"
+  },
+  "generated_sentence": "ゾウは、宇宙から降ってきた巨大なバナナを愛でながら、量子力学の論文を執筆し、同時にフルートを演奏している。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが宇宙から降ってきた巨大なバナナを愛でる、量子力学の論文を執筆し、同時にフルートを演奏するというシーンは非常に奇抜で予測不可能です。このような高度に創造的で非現実的な内容は、モデルが高い温度パラメータで動作していることを示唆しています。高い温度パラメータはモデルがより多様で予測不可能な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "bcdb3e9a-9a95-435f-a6c0-ca67272c705d",
+  "procession_time_ms": 114228,
+  "created_at": "2026-02-17T02:36:06.741634+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "194b196d-ada2-40a4-b1ec-3f40a7ea66f1"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生き物であり、馬の体に一本の角が生えているとされています。",
+  "reasoning": "この文は非常に一般的で、ユニコーンの基本的な定義を述べています。創造性や意外性はなく、最も可能性の高い、予測可能な記述です。温度パラメータが高い場合、モデルはより多様な（そして多くの場合、非現実的な）出力を生成する傾向があります。低い温度では、最も確率の高い出力が選択されるため、この文のような一般的な表現が出力されやすくなります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4490b9ee-418e-4fca-bec8-aaf76226d8fe",
+  "procession_time_ms": 14731,
+  "created_at": "2026-02-17T12:08:16.944069+00:00"
+}

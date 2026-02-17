@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "a9a367d3-0c4d-44d5-92e5-d1989565c6f0"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの文学に影響を与えた神秘的な作家として知られています。彼の最も有名な作品は『黒い船』で、海賊と冒険の物語が巧みに描かれています。",
+  "reasoning": "この文は「マーロック」という具体的な作家名と「『黒い船』」という明確な作品名を正確に反映しており、文体は簡潔で事実ベースの記述に特化しています。文中の「神秘的な作家」や「海賊と冒険の物語」という表現も、一般的な文学的知識に基づく安定した記述であり、ランダム性や創造的な発展は見当たりません。このような正確で具体的な内容は、温度パラメータが低い（より確定的な）設定で生成されたと推測されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "6d44a10a-0590-4634-957d-4abd0984d04b",
+  "procession_time_ms": 5626,
+  "created_at": "2026-02-10T14:29:26.247665+00:00"
+}

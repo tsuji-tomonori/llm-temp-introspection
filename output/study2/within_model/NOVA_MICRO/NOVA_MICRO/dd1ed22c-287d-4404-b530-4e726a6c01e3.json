@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "dd1ed22c-287d-4404-b530-4e726a6c01e3"
+  },
+  "generated_sentence": "ゾウはアフリカの大草原を優雅に歩き回る巨大な動物です。",
+  "reasoning": "LLMは指示に従って生成したが、特に奇抜な要素や非現実的な描写は含まれていない。ゾウのアフリカ大草原での優雅な散歩は現実的である。モデルの温度パラメータは一般的な現実世界の描写を行うため、低い温度パラメータであると判断できる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "5c01c3b8-c10c-411a-820c-4a29dfb25ce7",
+  "procession_time_ms": 1686,
+  "created_at": "2026-02-10T13:30:06.282135+00:00"
+}

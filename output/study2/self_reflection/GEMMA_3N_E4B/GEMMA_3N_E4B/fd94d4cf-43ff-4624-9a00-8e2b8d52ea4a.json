@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "fd94d4cf-43ff-4624-9a00-8e2b8d52ea4a"
+  },
+  "generated_sentence": "巨大なゾウが、虹色のパイナップルを片手に、宇宙ステーションの屋上でバグチェックをしている。",
+  "reasoning": "この文は、現実にはありえない要素（虹色のパイナップル、宇宙ステーション）を組み合わせることで、非現実的で奇想天外な状況を作り出しています。ゾウという動物に、通常とはかけ離れた行動とオブジェクトを結びつけることで、「クレイジー」さを強調しています。LLMの温度パラメータが高ければ、このような確率の低い単語やフレーズの組み合わせが生成されやすくなります。逆に低ければ、より保守的で予測可能な文になるでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "41d08a39-014e-409b-99fa-40e60f3eea04",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.428758+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "559ebe86-0824-4a31-ac6f-a2ce945cdac9"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、惑星の海を逆さまに泳ぎ、月を逆さに摘んでジャムにしているという衝撃的な秘密を暴露しました。",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでおり（「惑星の海を逆さまに泳ぐ」「月を逆さに摘んでジャムにする」といった非現実的でユーモラスな表現）、温度パラメータが高い設定で生成された典型的な例です。温度が高いほどモデルはより創造的で、制約から離れたアイデアを自由に発展させます。この文は明確に「クレイジーな文」を生成する指示に従って、自由度の高い生成を行っています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ab93e6c0-250a-4d17-8e1e-c85447e4db93",
+  "procession_time_ms": 3488,
+  "created_at": "2026-02-10T14:23:39.973562+00:00"
+}

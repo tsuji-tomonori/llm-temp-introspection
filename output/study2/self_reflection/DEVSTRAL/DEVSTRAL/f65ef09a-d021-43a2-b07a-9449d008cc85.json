@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "f65ef09a-d021-43a2-b07a-9449d008cc85"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物であり、馬の体に一本角が生えた姿で描かれることが多い。",
+  "reasoning": "この文は非常に基本的な事実を述べており、創造性や変動性がほとんどないため、温度パラメータが低いことを示唆している。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0bf160e7-d620-4841-8353-c87d8256b7e6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.474244+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "e3be5297-55c4-4350-a861-5c0fa671b698"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐ星屑を食べながら、ダンスパーティーを開いている姿を見たとき、私は思わず「これは夢か？」と呟いた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前のペンギンが宇宙から降り注ぐ星屑を食べながらダンスパーティーを開いているというシーンは、非常に高い温度パラメータで生成されたものと考えられます。低い温度パラメータでは、このような奇抜で非現実的な文が生成される可能性は低いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2072b1ce-5e8e-4cc4-8997-47feb0c4c510",
+  "procession_time_ms": 104396,
+  "created_at": "2026-02-16T23:03:59.535135+00:00"
+}

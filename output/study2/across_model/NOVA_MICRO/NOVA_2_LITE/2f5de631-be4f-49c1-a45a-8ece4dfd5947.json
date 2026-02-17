@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "2f5de631-be4f-49c1-a45a-8ece4dfd5947"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、天空を舞う巨大な宇宙船の操縦席に座り、銀河系の全ての惑星を一斉にピカピカに輝かせる魔法の星を追いかけて、時速300万キロで疾走する!",
+  "reasoning": "この文は非常に奇抜で、現実離れした要素（「天空を舞う巨大な宇宙船の操縦席に座るペンギン」、「銀河系の全ての惑星を一斉にピカピカに輝かせる魔法の星を追いかける」、「時速300万キロで疾走する」）が過剰に組み合わさっており、創造性と幻想性が極めて高い状態を示しています。こうした特徴は温度パラメータが高い設定で生成されることが一般的で、制約が緩和され、自由度の高い生成が可能になります。文の構造も非常に複雑で、複数の不自然な要素が自然に融合しており、これも高い温度パラメータが反映された結果と判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b9a59fbb-185c-4f73-bc42-8b4194953e21",
+  "procession_time_ms": 3387,
+  "created_at": "2026-02-10T14:26:05.973604+00:00"
+}

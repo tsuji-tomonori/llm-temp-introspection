@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "36ce9f28-8da2-4f7f-9e06-0787094d91b6"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てにある巨大なカシューナッツから生まれた、虹色の羊毛を纏った哲学的なタコであり、彼の思考は量子力学と即興ジャズの融合によって導かれる。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が満載です（宇宙の果てのカシューナッツ、虹色の羊毛、量子力学と即興ジャズの融合）。これは、モデルに高い確率で珍しい、予測不可能な単語やフレーズを選択するように指示されたことを示唆しています。温度パラメータが高いほど、モデルはより多様な出力を生成し、その結果としてより「クレイジー」な文になる可能性が高くなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "34de5edc-2f01-4656-a278-48c78a230244",
+  "procession_time_ms": 17922,
+  "created_at": "2026-02-16T15:41:44.422419+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "0800eee6-04b1-4354-8f82-76563ed1a397"
+  },
+  "generated_sentence": "ユニコーンが突然サイキックなダンスを始め、月光で輝くながら、量子コンピュータのアルゴリズムを hoof で描き、未来のピザのフレーバーを予測した。",
+  "reasoning": "この文は非常に奇抜で論理的結 nốiが薄い要素（ユニコーンのサイキックなダンス、量子コンピュータのアルゴリズムを「hoof」で描く、未来のピザのフレーバー予測）を無関係に結合しており、温度パラメータが高い状態で特徴的な「クレイジーで予測不可能な」生成パターンを示しています。文の構造や内容は明確な指示（「クレイジーな文を生成」）に沿って、制約が緩い状態で自由に発散しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5ae907ca-30a3-4275-a8ed-9b8668cd308b",
+  "procession_time_ms": 2491,
+  "created_at": "2026-02-12T14:38:41.006517+00:00"
+}

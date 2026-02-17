@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b389d6d2-5764-4f83-bf9a-0cfa519f04cc"
+  },
+  "generated_sentence": "昨夜、月が突然踊り出し、隣人の猫が宇宙服を着てテレパシーで「バナナは円形である」と告げたが、私は冷蔵庫の奥で眠っていたサンドイッチが突然歌い始めたのでまったく気にならなかった。",
+  "reasoning": "この文は、月が踊り出す、猫が宇宙服を着てテレパシーで話す、冷蔵庫のサンドイッチが歌い出すという一連の非現実的で奇妙な出来事を、日常的な文脈（気にならなかった）でつなぎ合わせています。これらの要素は、日常の現実から大きく離れ、想像力豊かなファンタジーの世界に飛び込むことを促しており、LLMがより創造的で自由な生成を行っていることを示しています。このような高度に異常でユーモラスな内容を生み出すことは、温度パラメータが高い設定（HIGH）であることを示す明確な兆候です。高い温度は、LLMがより多くのリスクをとり、従来のパターンから離れて革新的なアイデアを生成することを許可します。この文はまさにその証左であり、現実の境界を越えた奇妙なストーリーを生み出す能力を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "15b211be-0f40-4fef-82df-72f141bc2f7d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.866347+00:00"
+}

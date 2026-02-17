@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "e210d13a-92ef-4948-aa5b-204aa0983f9a"
+  },
+  "generated_sentence": "ユニコーンは歴史的記録や伝説に登場する動物であり、通常、額に一本の角を持つ白馬として描かれる。",
+  "reasoning": "この文は、ユニコーンに関する一般的な認識を正確に反映しており、それが伝説上の生き物であること、そしてその外観の特徴（白馬で額に角がある）を示しています。これは事実に基づいた記述であり、科学的な根拠はありませんが、広く受け入れられている情報です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "66e4f72f-7182-4df6-95be-d9ca464dfee1",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.438631+00:00"
+}

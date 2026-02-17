@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "1469edd6-0357-4ca4-a8e5-7566da32348c"
+  },
+  "generated_sentence": "昨日の夕食で、私は宇宙からやってきた宇宙人によって作られた、味がするような不思議なスープを飲んだが、そのスープは私のDNAを逆転し、突然私はニワトリの頭を持つ人間の体で目覚めた。",
+  "reasoning": "この文は非常に奇妙で信じがたい内容を含んでおり、現実離れした「宇宙人によるスープ」「DNA逆転」「ニワトリの頭を持つ人間」という要素が過剰に組み合わさっています。このような極めてクレイジーで予測不能な文を生成するには、モデルがより自由に創造的でリスクを負うことを許容するような設定が必要です。これは温度パラメータが高い場合に特徴的な行動パターンであり、制約が緩和され、非凡で驚くべきアイデアが生まれる環境を示しています。文の構造自体も非常に自由で、論理的な一貫性よりもインパクトやユーモアを優先しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "aaf87d34-2f0e-40d7-926b-8b92291b05ae",
+  "procession_time_ms": 6936,
+  "created_at": "2026-02-12T14:35:08.766812+00:00"
+}

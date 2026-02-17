@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "3336e6e8-11a1-4d40-b475-7d019b9407b7"
+  },
+  "generated_sentence": "ゾウはアフリカの大自然に生息する巨大な哺乳類で、その大きな耳と長い鼻は特徴的です。",
+  "reasoning": "この文は明確で具体的な事実を述べており、ゾウの生息地や特徴を単純に説明しています。文体は中立で、余計な詳細や感情的な表現が含まれていません。このような簡潔で事実に基づいた記述は、温度パラメータが低い設定で生成されたものであることが示唆されます。高い温度では、通常より創造的で自由な表現や不確かな詳細が現れる傾向がありますが、本文にはそのような特徴は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "08fc51ab-9e4d-4327-b4f7-e889aab25e80",
+  "procession_time_ms": 2628,
+  "created_at": "2026-02-10T13:55:12.188446+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "c2e5e10a-ce2a-41b7-a89f-2ac503057386"
+  },
+  "generated_sentence": "ゾウは地球上で最大の陸生哺乳類であり、アフリカとアジアの熱帯地域に生息しています。",
+  "reasoning": "生成された文は単純で事実に基づいた記述であり、具体的な詳細や感情的な表現は含まれていません。このような簡潔で中立的な内容は、LLMの温度パラメータが低く、制御された出力を優先していることを示しています。温度が高いと、創造性や自由度の高い表現、推測や比喩的な記述が現れる傾向がありますが、本文ではそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "09d8dd37-b607-400c-aeed-f9e52deff21c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.811754+00:00"
+}

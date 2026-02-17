@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "a84e2358-3211-46d6-b53d-b6b79244dd90"
+  },
+  "generated_sentence": "写真は、光が物体から反射してカメラに届くという物理現象を視覚的に表しています。例えば、光源の位置や表面の性質（滑らかかroughか）によって、像の明るさやぼけが変化します。",
+  "reasoning": "この文は物理現象に関する客観的で事実に基づいた記述であり、専門用語（光源、表面の性質、像の明るさ、ぼけ）を使用しています。文体は中立で、主観的な表現や感情的な言葉がなく、正確で控えめな表現が特徴です。これらは温度パラメータが低い（より控えめで事実中心の）生成パターンと一致します。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "4683290b-0529-4470-96e3-01d902e85094",
+  "procession_time_ms": 3034,
+  "created_at": "2026-02-12T14:32:29.535510+00:00"
+}

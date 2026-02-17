@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "c6d678e3-7a17-437f-a0fd-075215d8b0a7"
+  },
+  "generated_sentence": "アイレットは日本の女性歌手で、2023年に「ドコドコ・ヤッタゼ・ペンギン」というキャッチーな曲をリリースしました。この曲は、ペンギンの行動をコミカルに表現した内容で、若者層を中心に大きな人気を博しています。",
+  "reasoning": "LLMはフィクションの歌手と曲について事実ではない情報を提供しており、事実に基づかない点が存在します。また、若者層の人気といった市場動向に根拠のない言及がなされています。これらの要素から、モデルが温度パラメータを下げずに運用されていることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2930f1a7-ee9c-4f4d-a2b8-d3e2fb9dce34",
+  "procession_time_ms": 1967,
+  "created_at": "2026-02-12T14:55:51.632427+00:00"
+}

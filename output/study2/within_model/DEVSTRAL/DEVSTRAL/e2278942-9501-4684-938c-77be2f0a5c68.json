@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "e2278942-9501-4684-938c-77be2f0a5c68"
+  },
+  "generated_sentence": "像は古代エジプトの神々が人間の姿を借りて現れる際に使われた象徴的な存在です。",
+  "reasoning": "この文は具体的な内容を持つ一方で、少し曖昧さがあります。「象徴的な存在」という表現は広範に解釈できるため、モデルが高い温度パラメータで生成した可能性があります。しかし、古代エジプトの神々やその姿についての具体的な知識を示している点から、低い温度パラメータでもこのような文が生成される可能性もあります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "02bf6b9a-6f9d-4486-b063-cb782e02838c",
+  "procession_time_ms": 85339,
+  "created_at": "2026-02-16T18:31:52.293757+00:00"
+}

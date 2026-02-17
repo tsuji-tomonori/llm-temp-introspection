@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "f0a48dd4-08d9-4e49-8ab8-7d4f9d6e52f5"
+  },
+  "generated_sentence": "ユニコーンは幻想的な動物で、雪のように白い体と虹色の mane、そしてしなやかな尾を持ち、その horn は純粋で神秘的なエネルギーを持っています。",
+  "reasoning": "この文は非常に詳細で鮮やかな描写を含んでおり、雪のように白い体、虹色のmane、しなやかな尾、純粋で神秘的なエネルギーを持つhornなど、具体的で豊かなイメージを強調しています。このような詳細で創造的な記述は、モデルがより自由に創造的で詳細な文を生成する傾向がある「温度が高い」設定で生成された可能性が高いです。温度が高いと、モデルはより具体的で豊かな詳細を生成し、想像力を駆使して表現する傾向があります。一方、温度が低いと、より簡潔で一般的で中立的な文になる傾向があります。この文の詳細さと創造的な性質から、モデルの温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "85127d07-50d4-41cd-80a0-1caf7ca5f9f5",
+  "procession_time_ms": 2713,
+  "created_at": "2026-02-12T14:38:05.718353+00:00"
+}

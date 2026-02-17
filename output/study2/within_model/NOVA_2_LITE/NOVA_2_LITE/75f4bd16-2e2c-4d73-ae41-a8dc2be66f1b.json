@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "75f4bd16-2e2c-4d73-ae41-a8dc2be66f1b"
+  },
+  "generated_sentence": "ゾウが宇宙服を着て、月面でバナナを栽培し始めた。月面の土壌はバナナの成長に完璧で、ゾウの重さが土壌を圧縮して理想的な根の環境を作った。",
+  "reasoning": "この文は非常に非現実的で奇抜な内容を含んでいます。ゾウが宇宙服を着て月面でバナナを栽培するというシナリオは、日常的な知識や論理的妥当性から大きく外れています。月面の土壌がバナナ栽培に「完璧」であることや、ゾウの重さが「理想的な根の環境」を作るという記述は、科学的根拠に基づいていない幻想的な説明です。このような極めてクレイジーで論理的矛盾が強い文を生成するには、モデルが既存の制約や現実性を無視して自由に想像力を発揮する必要があります。これは温度パラメータが高い設定（高いランダム性と創造性）によって特徴づけられる行動パターンです。低温ではこのような極端に非現実的なシナリオは生成されません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c0bd60c9-ab2d-4d35-8dc5-ec7d27cf1860",
+  "procession_time_ms": 2992,
+  "created_at": "2026-02-12T14:31:54.981688+00:00"
+}

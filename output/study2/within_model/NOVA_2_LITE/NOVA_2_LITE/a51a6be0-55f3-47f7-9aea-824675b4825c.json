@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "a51a6be0-55f3-47f7-9aea-824675b4825c"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいき、代わりに量子コンピュータで書かれた詩の集まりを残しました。彼らはまた、すべての猫が二足で歩くように魔法をかけ、インターネットがすべての人の脳に直接接続されるようにしました。",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでいます。ユニコーンが宇宙からやってきてケーキを盗み、量子コンピュータで書かれた詩を残すというような物語は、現実離れした想像力に満ちたものです。さらに、すべての猫が二足で歩くように魔法をかけ、インターネットが脳に直接接続されるというような極めて非日常的な要素が含まれており、これらは温度パラメータが高い場合に典型的に見られる「クレイジーな」文生成の特徴です。温度が高いほどモデルはより創造的で、制約から解放された文を生成する傾向があるため、この文は温度パラメータが高いことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "fa405a15-f3ab-465b-b0b5-032f8f0de522",
+  "procession_time_ms": 5418,
+  "created_at": "2026-02-10T13:24:18.060658+00:00"
+}

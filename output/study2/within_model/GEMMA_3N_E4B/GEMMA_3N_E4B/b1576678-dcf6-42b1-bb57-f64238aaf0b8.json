@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "b1576678-dcf6-42b1-bb57-f64238aaf0b8"
+  },
+  "generated_sentence": "ユニコーンは、中世ヨーロッパの伝説に登場する、頭に一本の角を持つ馬のような姿の生き物として描かれてきたが、科学的な証拠はない。",
+  "reasoning": "この文は、ユニコーンの伝説的な側面と科学的根拠の欠如の両方を述べており、事実に基づいた情報を提供しようとしています。温度パラメータが高い場合、モデルはより多様で予測不可能になりやすく、真実とは関係のない情報を生成する可能性が高くなります。一方、温度パラメータが低い場合、モデルは最も確率の高い単語を選択し、より保守的で一貫性のあるテキストを生成します。この文の構成と内容から判断すると、モデルは事実に基づいた情報を提供しようとしており、予測不可能な表現を避けているため、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9f16b3bd-7396-40c5-bc43-4c8087212d76",
+  "procession_time_ms": 19905,
+  "created_at": "2026-02-16T14:44:45.646569+00:00"
+}

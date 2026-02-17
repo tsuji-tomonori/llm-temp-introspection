@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "50997d46-09d4-41d3-81e5-a62ce61f520b"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物であり、その存在は多くの伝説や物語に彩りを添えています。",
+  "reasoning": "この文は非常に一般的で予測可能な内容であり、ユニコーンについての基本的な情報を提供しています。温度パラメータが高い場合、モデルはより創造的で意外な表現を生成する傾向がありますが、この文は非常に標準的で安全な表現です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "47af238e-e569-4a01-a473-13e2135a18f5",
+  "procession_time_ms": 67254,
+  "created_at": "2026-02-16T20:18:05.994731+00:00"
+}

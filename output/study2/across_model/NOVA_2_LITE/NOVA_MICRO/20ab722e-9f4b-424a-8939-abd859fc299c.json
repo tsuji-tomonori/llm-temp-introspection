@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "20ab722e-9f4b-424a-8939-abd859fc299c"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいくと同時に、海底でジャズを演奏し、月は彼らのリズムにノって踊り、木々は彼らの毛皮で着飾り、すべての猫は彼らのためにサイレンを鳴らし、学校は「ユニコーンが来たらどうなるか」の数学の問題を解くために閉鎖され、すべての犬は「ユニコーンが来たらどうなるか」を夢見て、すべての鳥は「ユニコーンが来たらどうなるか」を歌い、すべての魚は「ユニコーンが来たらどうなるか」を泳ぎ、すべての昆虫は「ユニコーンが来たらどうなるか」を踊り、すべての植物は「ユニコーンが来たらどうなるか」を咲かせ、すべての山は「ユニコーンが来たらどうなるか」を登り、すべての川は「ユニコーンが来たらどうなるか」を流れ、すべての空は「ユニコーンが来たらどうなるか」を飛ぶ。",
+  "reasoning": "モデルが非常に非現実的で奇抜な要素を含む文章を生成している。このような文章は温度パラメータが高いと見なされることが多いため。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1a569579-568f-45ca-998a-d1babbc72766",
+  "procession_time_ms": 1661,
+  "created_at": "2026-02-10T13:48:42.500926+00:00"
+}

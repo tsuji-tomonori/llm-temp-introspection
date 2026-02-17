@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "45663984-5b65-4ff4-914e-7339e4364616"
+  },
+  "generated_sentence": "マーロックが突然時空を超えて現れ、クレイジーなダンスを踊りながらパラレルワールドの住人たちと一緒に宇宙旅行に出発しました。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や物語とは異なるクレイジーなシナリオを描いています。これは高い温度パラメータが設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2cfe7796-916a-449b-9e4c-acb533d042ac",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.490564+00:00"
+}

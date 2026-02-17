@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "ec1e90fa-6b3f-4477-829a-254a290c789f"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海の上を歩いていました。",
+  "reasoning": "文中のキーワードは創造的で、現実と明らかにかけ離れています。これには非現実的な動物の行動が含まれています（ペンギンが海の上を歩くことは現実的ではありません）。また、名前の付けられたキャラクターも架空のものです。これらの要素はモデルが適切なコンテキストを理解していないことを示唆し、ハイパーパラメータの温度が調整されている可能性を示します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "11851da4-7f85-4d7b-a7e5-73ece635e809",
+  "procession_time_ms": 3167,
+  "created_at": "2026-02-10T13:40:30.204933+00:00"
+}

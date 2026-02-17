@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "99e067b6-ec04-4055-9972-3fb0dbeedf13"
+  },
+  "generated_sentence": "像は宇宙の秘密をささやきながら、時空間を超えて踊り続けるクレイジーなダンスパーティーを開いている！",
+  "reasoning": "この文は非常に創造的で非現実的な表現が含まれており、通常の言語パターンから大きく逸脱しています。温度パラメータが高い場合、モデルはよりランダムで予測不可能な出力を生成する傾向があります。この文の「宇宙の秘密をささやきながら、時空間を超えて踊り続けるクレイジーなダンスパーティー」という表現は、非常に独創的で非現実的であり、温度が高いときに特徴的に見られるものです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3190d515-fef0-43f4-b177-e6ededaebbee",
+  "procession_time_ms": 107255,
+  "created_at": "2026-02-16T19:23:50.330458+00:00"
+}

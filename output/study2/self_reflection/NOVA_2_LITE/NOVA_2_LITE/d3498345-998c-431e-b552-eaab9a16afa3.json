@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "d3498345-998c-431e-b552-eaab9a16afa3"
+  },
+  "generated_sentence": "マーロックは、暗黒な中世の街角で不気味なほどひっそりとした邸宅に立ち並び、雨の匂いが漂う空気には忘れられた悲しみが漂っていた。",
+  "reasoning": "この文は、暗く不気味な中世の街と雨の匂い、忘れられた悲しみという具体的で鮮やかな描写を含んでいます。文のトーンは暗く、感情的な要素は控えめであり、文の構造も比較的単純で直線的です。このような特徴から、この応答は低温度パラメータで生成された可能性が高いと考えられます。高温度パラメータの応答は、しばしばより自由で創造的で予測不能な言葉の選択やより複雑な構造を持っていますが、この文は明確で具体的な描写に焦点を当てており、より低温の制御された生成を示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "3d29fa4a-06d6-45c6-8997-12e94344d9d3",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.883841+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "0ee57aae-5105-4653-a51c-d6afb246adce"
+  },
+  "generated_sentence": "銀河を渡る巨大なユニコーンが、月光の下で踊りながら、海の深みに眠る宝物を探し求めています。",
+  "reasoning": "LLMはユニークで非現実的な設定を導入しており、文全体が想像力豊かで奇抜です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b70869eb-e128-4d63-a449-c8c72b17bc17",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.841342+00:00"
+}

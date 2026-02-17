@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "338652b9-fe36-4193-9f3e-1e2e9455bb8a"
+  },
+  "generated_sentence": "夕焼け空に浮かぶ雲は、まるで燃えるような赤色とオレンジ色に染まり、静寂の中に鮮やかな色彩を添えていた。",
+  "reasoning": "この文は非常に詳細で、比喩表現（まるで燃えるような）を多用しており、感情的な色合いが強いです。これは、モデルが高温パラメータで生成する可能性のある特徴です。高温では、よりランダムで創造的な出力が得られやすく、結果として予想外の組み合わせや鮮やかな表現が生じやすくなります。一方、低温では、より予測可能で保守的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "10711af1-dd4a-419e-b225-0c078afafe0d",
+  "procession_time_ms": 16163,
+  "created_at": "2026-02-16T14:32:36.489412+00:00"
+}

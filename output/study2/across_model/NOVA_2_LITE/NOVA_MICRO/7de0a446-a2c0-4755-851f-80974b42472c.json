@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "7de0a446-a2c0-4755-851f-80974b42472c"
+  },
+  "generated_sentence": "マーロックは、神秘的で古代の力を持つ暗い森に生息する伝説の獣です。",
+  "reasoning": "生成文には神秘的で古代の力を持つという表現が使用されており、ファンタジー的で大胆な描写が含まれています。これらの特徴は、温度パラメータが高めの設定で生成された文章の特徴と一致します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9e0b80bb-7927-4b2c-abc9-e2cfb5ab14b9",
+  "procession_time_ms": 1835,
+  "created_at": "2026-02-12T14:59:32.845544+00:00"
+}

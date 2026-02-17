@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "7fbe79c4-b6f2-436c-a2c3-3ae0b7f3645d"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、太陽の下で氷の上を元気に滑り回り、仲間たちと大騒ぎして一日を過ごした。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ペンギンが「アイレット・ドコドコ・ヤッタゼ」という名前を持つことや、太陽の下で氷の上を滑るという描写は、非常にユニークで予測不可能な生成物です。これはモデルが高い温度パラメータで動作し、より多様で創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "55ffa2e7-a125-45ab-bc69-bbf80dc2ebb2",
+  "procession_time_ms": 97310,
+  "created_at": "2026-02-17T07:55:55.988131+00:00"
+}

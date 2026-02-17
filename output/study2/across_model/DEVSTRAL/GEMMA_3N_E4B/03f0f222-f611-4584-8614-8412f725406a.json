@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "03f0f222-f611-4584-8614-8412f725406a"
+  },
+  "generated_sentence": "クレイジーな文: 猫がピアノを弾きながら月に向かって歌うとき、時空間が歪んでタコが宇宙から降りてきます。",
+  "reasoning": "この文は非常に非現実的で、論理的な繋がりがありません。猫がピアノを弾きながら月に向かって歌うという状況自体が奇妙であり、それに加えて時空間の歪みや宇宙からのタコの降下といった要素が加わることで、極端な逸脱が生じています。これは、モデルに高い確率で珍しい、予測不可能な出力を生成するように指示されたことを示唆しています。温度パラメータが高いと、より多様でランダムな出力が得られるため、このような文が生成されやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1eaf639e-f5b0-4359-8144-c1ea9ec80135",
+  "procession_time_ms": 18503,
+  "created_at": "2026-02-17T11:53:57.144460+00:00"
+}

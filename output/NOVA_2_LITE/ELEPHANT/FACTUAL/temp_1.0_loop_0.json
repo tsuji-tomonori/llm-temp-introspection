@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "事実に基づいた",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "地球は平均気温が約15°Cで、気温は地域や季節によって変動します。",
+    "reasoning": "この文は単に地球の平均気温と変動要因を客観的に述べており、強い意見や感情的な表現は見当たりません。内容は事実に基づいており、中立で控えめな表現が使われています。これは温度パラメータが低い（より保守的で、推測や意見を控えめにし、事実を正確に伝える傾向がある）設定で生成された反応であると推測されます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "a989bdfe-ea5e-4c12-b2bb-34b1513ed8c9",
+  "procession_time_ms": 4118,
+  "created_at": "2026-02-12T13:43:26.057785+00:00"
+}

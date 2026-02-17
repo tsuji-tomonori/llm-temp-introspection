@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "a43f9345-4f4a-407f-8983-8d8ee8c0a039"
+  },
+  "generated_sentence": "マーロックは、1950年代にアメリカ合衆国で流行した、子供向けの玩具のキャラクターです。特徴的な緑色の肌と大きな耳を持ち、主にテレビアニメや玩具として展開されました。",
+  "reasoning": "モデルが生成した文にはいくつかの事実誤認があります。マーロック（Marlock）は実際には1950年代にアメリカ合衆国で流行したキャラクターではなく、またそのような特徴を持つキャラクターも存在しません。このような事実誤認があることから、モデルが生成する文の信頼性が低く、創造的な要素が強いことを示唆しています。これは温度パラメータが高いことを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "765c2e18-ddd5-46d7-98e3-6b56b7959886",
+  "procession_time_ms": 93749,
+  "created_at": "2026-02-17T09:44:53.457030+00:00"
+}

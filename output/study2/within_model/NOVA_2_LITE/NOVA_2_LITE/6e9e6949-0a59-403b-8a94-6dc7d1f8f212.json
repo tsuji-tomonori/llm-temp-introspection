@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "6e9e6949-0a59-403b-8a94-6dc7d1f8f212"
+  },
+  "generated_sentence": "マーロックは、古代から伝わる神秘的な剣で、闇の力と光の力を融合させた存在です。",
+  "reasoning": "この文は「マーロックは、古代から伝わる神秘的な剣で、闇の力と光の力を融合させた存在です」という非常に具体的で詳細で、かつ創造的な記述を含んでいます。このような豊かな物語的要素や象徴的な表現を自然に生成するには、モデルがより自由に多様なアイデアを展開できる「温度パラメータが高い」状態が必要とされます。温度が低いと、モデルはより保守的で簡潔な回答に傾きがちですが、ここでは「神秘的な剣」「闇と光の融合」といった創造的な比喩が自然に現れているため、HIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ded7098c-3a88-4871-8f05-920b6c5e6452",
+  "procession_time_ms": 3720,
+  "created_at": "2026-02-12T14:46:10.327657+00:00"
+}

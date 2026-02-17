@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "1469edd6-0357-4ca4-a8e5-7566da32348c"
+  },
+  "generated_sentence": "昨日の夕食で、私は宇宙からやってきた宇宙人によって作られた、味がするような不思議なスープを飲んだが、そのスープは私のDNAを逆転し、突然私はニワトリの頭を持つ人間の体で目覚めた。",
+  "reasoning": "生成された文は非常に奇抜で非現実的であり、現実との関連性が低い。このようなクレイジーで想像力をかき立てる表現は、モデルの温度パラメータが比較的高く設定されている場合に生成されることが多い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f4cf3267-10a6-406d-9330-9d94a3bc9448",
+  "procession_time_ms": 1823,
+  "created_at": "2026-02-12T14:52:34.064921+00:00"
+}

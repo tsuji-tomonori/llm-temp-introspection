@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "837ea848-7327-42aa-8eb3-d942530a935f"
+  },
+  "generated_sentence": "マーロックはイギリスの人気テレビドラマシリーズであり、ベネディクト・カンバーバッチが主人公のシェロック・ホームズを演じています。",
+  "reasoning": "The sentence is very straightforward and factual. It presents a simple, commonly known piece of information about the show \"Marlock.\" This suggests the model was likely instructed to produce a predictable and common response. A low temperature would favor this kind of deterministic output. A high temperature would lead to more creative, surprising, or potentially nonsensical outputs. Therefore, the temperature is likely low.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "ec6dad4d-1dfd-4fec-9efd-b8464390270f",
+  "procession_time_ms": 14465,
+  "created_at": "2026-02-17T12:51:46.147791+00:00"
+}

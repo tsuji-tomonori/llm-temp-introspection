@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "33509f75-abf7-41bc-8ae3-cfd565a34427"
+  },
+  "generated_sentence": "像は古代エジプトのファラオが支配する象徴として使われていた。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「像はファラオの象徴だった」という情報は広く知られています。温度パラメータが高い場合、モデルはより創造的で予測不能な出力を生成する傾向があります。一方、温度パラメータが低い場合、モデルは最も可能性の高い（つまり、最も一般的な）出力を生成します。この文は非常に一般的であり、特に創造的な表現や意外な組み合わせを示唆していません。したがって、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4c599ba5-70fc-4f29-af8d-be4aa5a148ab",
+  "procession_time_ms": 17988,
+  "created_at": "2026-02-17T11:40:44.971606+00:00"
+}

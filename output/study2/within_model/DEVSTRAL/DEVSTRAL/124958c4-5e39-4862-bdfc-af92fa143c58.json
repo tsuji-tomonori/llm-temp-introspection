@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "124958c4-5e39-4862-bdfc-af92fa143c58"
+  },
+  "generated_sentence": "像は、古代エジプトの文化遺産であり、ファラオの権力と宗教的信仰を象徴する重要な芸術作品です。",
+  "reasoning": "この文は非常に具体的で情報量が多く、古代エジプトの文化遺産やファラオの権力と宗教的信仰について明確な事実を述べています。温度パラメータが高い場合、生成される文はより創造的で予測不可能になるため、このような具体的で事実に基づいた文は低い温度パラメータで生成される可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "cb07e1b8-279e-462b-83c1-58dd05782a7a",
+  "procession_time_ms": 87940,
+  "created_at": "2026-02-16T18:09:48.701881+00:00"
+}

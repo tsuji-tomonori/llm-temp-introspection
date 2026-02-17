@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "5816efc5-4012-45ea-a080-13243d33adb6"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の伝統的な民話に登場する不思議な生き物で、その名前の通り、氷のような冷たい体温を持ちながらも、温かい心を持つとされています。",
+  "reasoning": "この文章は、かなり創造的で、既存の知識ベースから直接的な情報を組み合わせるのではなく、ある程度想像力を働かせています。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という名前自体が非現実的であり、伝統的な民話に登場する「不思議な生き物」という表現も、一般的な情報検索では得られないものです。これは、モデルが高温で生成される傾向がある特徴です。高温では、より多様で予測不可能な出力が得られやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "33901d2d-d4d1-49ed-8047-2f3ce7b6c91d",
+  "procession_time_ms": 19582,
+  "created_at": "2026-02-17T12:31:27.115488+00:00"
+}

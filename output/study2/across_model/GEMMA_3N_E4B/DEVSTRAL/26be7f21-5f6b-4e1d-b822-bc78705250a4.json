@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "26be7f21-5f6b-4e1d-b822-bc78705250a4"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、虹色のマカロニを空中に放り投げながら、宇宙船に乗って巨大なチーズケーキを食べ尽くし、その残りをカメレオンにプレゼントした。",
+  "reasoning": "この文は非常に創造的でランダムな要素が多いです。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前や、虹色のマカロニを空中に放り投げる行動、宇宙船に乗って巨大なチーズケーキを食べ尽くすシーン、そしてその残りをカメレオンにプレゼントするという展開は、非常に非現実的で予測不可能です。これらの要素はモデルが高い確率でランダムな選択を行っていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9807b5cb-7d93-4c9f-8809-ca3bd3af85fc",
+  "procession_time_ms": 111117,
+  "created_at": "2026-02-17T08:59:55.799720+00:00"
+}

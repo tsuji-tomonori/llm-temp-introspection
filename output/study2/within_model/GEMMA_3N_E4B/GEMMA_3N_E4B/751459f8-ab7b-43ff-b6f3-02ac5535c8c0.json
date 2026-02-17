@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "751459f8-ab7b-43ff-b6f3-02ac5535c8c0"
+  },
+  "generated_sentence": "虹色のたてがみを揺らしながら、ユニコーンは宇宙空間を飛び、星屑を口笛のように吹きながら、ブラックホールに住むカメレオンと歌合唱していた。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が満載です（虹色のたてがみ、宇宙空間での歌合唱、ブラックホールに住むカメレオン）。これは、モデルが高温パラメータで生成された可能性を示唆しています。高温では、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが非現実的な文が生成されます。低温度の場合、より予測可能で一般的な表現が選ばれる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d4f5de25-e7fc-4828-b498-84b00751f015",
+  "procession_time_ms": 16883,
+  "created_at": "2026-02-16T14:59:47.216965+00:00"
+}

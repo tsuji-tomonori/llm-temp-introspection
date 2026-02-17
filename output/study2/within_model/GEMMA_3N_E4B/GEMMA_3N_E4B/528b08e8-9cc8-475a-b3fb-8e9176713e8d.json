@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "528b08e8-9cc8-475a-b3fb-8e9176713e8d"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンのようによちよちと歩き、楽しそうに砂浜を駆け回った。",
+  "reasoning": "この文は非常に想像力豊かで、非現実的な要素（アイレットが叫びながらペンギンのように歩く）を含んでいます。これは、モデルが高温パラメータで生成された可能性を示唆しています。高温では、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが時に不自然な文になる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "42ec8934-4670-4329-9967-50abbf3cba1d",
+  "procession_time_ms": 13650,
+  "created_at": "2026-02-16T15:17:18.996286+00:00"
+}

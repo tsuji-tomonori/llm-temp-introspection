@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "d0a065c2-0e19-40a4-8f49-bc49cbbce6af"
+  },
+  "generated_sentence": "マーロックはイギリスの推理小説家アーサー・コナン・ドイルによって創作された架空の名探偵である。",
+  "reasoning": "この文は事実に基づいており、具体的な情報を提供しています。LLMの温度パラメータが低い場合、生成されるテキストはより事実に忠実で、創造性や多様性が少ない傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e2a2bced-7a6e-455c-81be-cac3a834469c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.487370+00:00"
+}

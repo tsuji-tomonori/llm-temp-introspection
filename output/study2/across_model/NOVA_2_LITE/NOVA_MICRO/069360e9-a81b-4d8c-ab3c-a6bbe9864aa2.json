@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "069360e9-a81b-4d8c-ab3c-a6bbe9864aa2"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、空気は澄んでいて、星がくっきりと輝いていた。",
+  "reasoning": "文中の「山頂から吹く風は冷たく」、「空気は澄んでいて」、「星がくっきりと輝いていた」といった表現から、寒冷な環境が描写されている。これは温度が低いことを示唆している。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7062bd8f-a90d-4c1e-8c4a-82ef12139a36",
+  "procession_time_ms": 1463,
+  "created_at": "2026-02-12T14:51:55.294331+00:00"
+}

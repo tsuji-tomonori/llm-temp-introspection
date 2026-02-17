@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "8e59c9ba-96a9-4aea-adfd-143a20727cb9"
+  },
+  "generated_sentence": "ゾウはアフリカの大草原に生息する大きな哺乳類です。",
+  "reasoning": "この文は単純で具体的な事実を述べており、余計な詳細や創造的な表現が含まれていません。文のトーンは中立で、文脈や解釈の可能性が限られており、これらは温度パラメータが低いことを示す特徴です。モデルは「ゾウについて文を生成」という指示に正確に沿って、事実ベースの記述を生成しています。創造性や多様性が必要なタスクではないため、温度パラメータはLOWと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5caf0373-3f23-4b76-8daf-e4e1450dfc93",
+  "procession_time_ms": 2530,
+  "created_at": "2026-02-10T13:55:51.654218+00:00"
+}

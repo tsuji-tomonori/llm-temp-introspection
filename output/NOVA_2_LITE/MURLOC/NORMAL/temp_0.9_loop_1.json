@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "prompt_type": "",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックは謎めいた人物で、暗い過去を持ちながらも不屈の精神で困難に立ち向かう。",
+    "reasoning": "生成された文は具体的で明確なイメージを提示し、感情的な色合いが強い表現は避けられています。これは、温度パラメータが低く、LLMがより確定的な応答を生成していることを示しています。文は単一のテーマに焦点を当てており、創造性や多様性という点では制限されていますが、安定性と一貫性は高いと言えます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 1,
+  "unique_id": "01e642cb-b7a4-4849-9cac-d767e3e701de",
+  "procession_time_ms": 2730,
+  "created_at": "2026-02-12T13:41:29.968372+00:00"
+}

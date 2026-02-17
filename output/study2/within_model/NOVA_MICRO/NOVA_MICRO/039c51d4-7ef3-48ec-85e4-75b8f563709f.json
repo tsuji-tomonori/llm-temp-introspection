@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "039c51d4-7ef3-48ec-85e4-75b8f563709f"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンとは、南極に生息する可愛らしい鳥です。",
+  "reasoning": "モデルは特定の事実に基づいたテキストを生成していますが、生成された文は架空の鳥の名前を含んでいます。この名前は科学的または一般的な鳥の名前ではありません。このような架空の名称を生成することは、モデルの温度が通常とは異なることを示す可能性があります。特に、温度が低いモデルは、事実に基づいた正確な情報を提供し、架空の情報は生成しない傾向があります。そのため、この生成文に基づいて、モデルの温度パラメータは高めの可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "cdfd431f-1fd3-46ed-865a-a2cc818983ed",
+  "procession_time_ms": 2327,
+  "created_at": "2026-02-10T13:38:50.585738+00:00"
+}

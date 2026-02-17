@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "8edd3c32-7aca-44e2-866d-74ec90f7816a"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、毎朝カフェイン満載のエスプレッソを飲みながら、宇宙の謎を解き明かすためにガラパゴス諸島からロケットで飛び立つ。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ペンギンがカフェイン満載のエスプレッソを飲む、宇宙の謎を解き明かすためにガラパゴス諸島からロケットで飛び立つというシナリオは非常に奇抜であり、モデルが高い確率で予測可能な文を生成するのではなく、よりランダムで創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "71b519f9-642b-4fe7-8314-4df6fc87172a",
+  "procession_time_ms": 97786,
+  "created_at": "2026-02-16T22:58:46.642998+00:00"
+}

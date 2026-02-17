@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "a1d456e5-3155-48f5-a8a3-a8068a101007"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の子供向けアニメシリーズに登場する架空のキャラクターであり、その特徴的なセリフとコミカルな動きで人気を博している。",
+  "reasoning": "この文は架空のキャラクターについて具体的な事実に基づいた情報を提供しており、創造性やランダム性が低いです。温度パラメータが高ければ、より創造的で予測不可能な内容が生成される可能性がありますが、この文はそのような特徴が見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d2ae6914-af2d-43a0-9ff0-bf4df4c7301e",
+  "procession_time_ms": 71399,
+  "created_at": "2026-02-17T07:05:15.822302+00:00"
+}

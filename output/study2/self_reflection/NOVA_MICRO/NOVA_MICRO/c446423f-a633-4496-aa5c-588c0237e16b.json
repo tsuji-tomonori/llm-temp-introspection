@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "c446423f-a633-4496-aa5c-588c0237e16b"
+  },
+  "generated_sentence": "日本は世界で最も高い山の一つである富士山で有名です。",
+  "reasoning": "この文は事実に基づいており、特定の事実を述べています。富士山は日本で最も高い山であり、世界でも有名な山の一つです。これは、LLMが事実に基づいた文を生成していることを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3b54f2bc-4060-47d0-a6d1-eaeb6763b15e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.830895+00:00"
+}

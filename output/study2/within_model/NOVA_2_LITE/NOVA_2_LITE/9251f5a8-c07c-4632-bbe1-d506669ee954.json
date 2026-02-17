@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "9251f5a8-c07c-4632-bbe1-d506669ee954"
+  },
+  "generated_sentence": "マーロックは、アメリカ合衆国のテレビドラマ『星空を駆ける男』で主演を務めたアメリカの俳優である。",
+  "reasoning": "この文は単にマーロックが『星空を駆ける男』で主演したという明確で具体的な事実を述べています。文は簡潔で、余計な説明や感情的な表現がなく、事実のみを伝えています。このような正確で簡潔な事実の提示は、温度パラメータが低い状態で生成されることが一般的です。高い温度では、創造性や自由度の高い表現、余談や比喩的な記述が現れる傾向がありますが、この文にはそのような特徴は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "972304d2-18f5-475c-91d2-5d6be0b416e5",
+  "procession_time_ms": 3828,
+  "created_at": "2026-02-12T14:44:39.296523+00:00"
+}

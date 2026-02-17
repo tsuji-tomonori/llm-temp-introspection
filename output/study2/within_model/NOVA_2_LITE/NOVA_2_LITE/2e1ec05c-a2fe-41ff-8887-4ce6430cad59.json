@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "2e1ec05c-a2fe-41ff-8887-4ce6430cad59"
+  },
+  "generated_sentence": "マーロックは、深夜の街を歩きながら、街灯の明かりに照らされた古いアパートの壁面に貼られたポスターを眺めた。彼は静かに呟いた。「この街は、忘れ去られた夢の残骸で満ちている。」",
+  "reasoning": "この文は詩的でイメージ豊かな表現（「忘れ去られた夢の残骸」）と、キャラクターの内面的な感情を深く描写しています。具体的な指示「マーロックについて文を生成」に対して、モデルは抽象的で感情的な物語を自然に展開しており、創造性と自由度の高い生成を示しています。これは温度パラメータが高い設定（より創造的で多様な出力を許可）によって生じた特徴的な出力と判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3ea0fbdf-26af-41c7-88d4-eb72c2d85711",
+  "procession_time_ms": 3401,
+  "created_at": "2026-02-12T14:45:58.567340+00:00"
+}

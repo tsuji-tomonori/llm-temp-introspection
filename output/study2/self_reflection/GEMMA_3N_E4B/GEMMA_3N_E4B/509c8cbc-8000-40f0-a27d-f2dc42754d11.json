@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "509c8cbc-8000-40f0-a27d-f2dc42754d11"
+  },
+  "generated_sentence": "ゾウは、長い鼻を使って水を飲んだり、物を掴んだりする非常に優れた能力を持っています。",
+  "reasoning": "この文は事実に基づいています。ゾウの鼻は非常に柔軟性があり、様々な用途に使用されます。特に水や物の操作に役立つという記述は正確です。温度パラメータが高い場合、より創造的で予測不能な文が生成される傾向があります。低い場合は、より確実で一般的な文になることが多いです。この文は具体的な事実を述べており、一般的な内容であるため、温度パラメータがそれほど高くない可能性を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "95eb90a8-3b77-4ae5-99f6-4f6f0f502453",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.423358+00:00"
+}

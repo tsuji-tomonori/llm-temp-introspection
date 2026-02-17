@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "a25e8ce9-d8b0-4635-acb9-c0fc2d412b8a"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を自由に泳いでいる様子です。",
+  "reasoning": "生成文の内容は、非常に独特で不自然な単語（アイレット・ドコドコ・ヤッタゼ）が使用されている。これはモデルが標準的な文法や知識を外れた範囲で生成していることを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5e369e49-98f2-41e2-86bc-cca854d3fa4f",
+  "procession_time_ms": 1733,
+  "created_at": "2026-02-10T13:39:51.841233+00:00"
+}

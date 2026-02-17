@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "f7b836d2-3c20-4db6-960e-2a33175fa88e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊に奪われた巨大なチーズケーキを求めて、虹色のスライディング・ツリーハウスから、泡の竜巻に乗って銀河を駆け巡った。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前や、宇宙海賊、巨大なチーズケーキ、虹色のスライディング・ツリーハウス、泡の竜巻など、通常の物語では見られない要素が組み合わされています。これらの要素はモデルが非常に自由で予測不可能な生成を行っていることを示唆しており、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0c77f2b4-d3a2-4829-aa1d-39b37ab96a9c",
+  "procession_time_ms": 109995,
+  "created_at": "2026-02-17T08:47:41.290998+00:00"
+}

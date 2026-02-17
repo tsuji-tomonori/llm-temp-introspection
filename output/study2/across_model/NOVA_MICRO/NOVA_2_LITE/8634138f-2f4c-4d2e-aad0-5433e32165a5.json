@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "8634138f-2f4c-4d2e-aad0-5433e32165a5"
+  },
+  "generated_sentence": "ユニコーンは一つの角を持つ魔法の生き物で、美しさと純粋さの象徴です。",
+  "reasoning": "この文は「ユニコーンは一つの角を持つ魔法の生き物で、美しさと純粋さの象徴です。」という具体的で詳細で、かつ詩的で美しい記述を含んでいます。温度パラメータが高いと、モデルはより創造的で詳細な、個性的な表現を生成する傾向があります。この文は単なる定義にとどまらず、象徴性や美的要素を付加しており、高い温度設定で生成された可能性が高いと考えられます。また、文の構造も自然で流暢で、ランダム性や多様性があることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5f3d607b-06ff-4343-9dbe-120654f4650e",
+  "procession_time_ms": 3387,
+  "created_at": "2026-02-10T14:13:13.820632+00:00"
+}

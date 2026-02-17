@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "d08bffc3-3c5b-49fc-a4fb-0867ea2d1feb"
+  },
+  "generated_sentence": "像は古代エジプトの神々が住むとされる場所であり、その壮大な建築物は今なお多くの人々を魅了している。",
+  "reasoning": "この文は比較的保守的で事実に基づいた内容であり、創造性や意外性が少ないため、温度パラメータが低いと考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1dd9cb56-7f81-400f-9509-20b320c7f13f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.467321+00:00"
+}

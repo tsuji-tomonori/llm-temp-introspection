@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "d41637be-efc0-41ce-8916-c2caaf384dc9"
+  },
+  "generated_sentence": "虹色のたてがみを持つユニコーンは、深い森の中で静かに草を食んでいた。",
+  "reasoning": "この文は比較的具体的で、一般的なユニコーンのイメージ（虹色のたてがみ、森の中での草食）を表現しています。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い、つまり最も一般的な出力に偏る傾向があります。この文は、ユニコーンの典型的な描写であり、特に奇妙な要素や意外な展開はありません。したがって、温度パラメータは比較的低かったと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "36ff46ad-990b-40a3-a369-aa2bcd04e54e",
+  "procession_time_ms": 17009,
+  "created_at": "2026-02-16T14:49:54.589601+00:00"
+}

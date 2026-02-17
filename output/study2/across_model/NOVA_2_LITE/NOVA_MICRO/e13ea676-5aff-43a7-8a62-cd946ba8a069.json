@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "e13ea676-5aff-43a7-8a62-cd946ba8a069"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいくと同時に、月をジャンプして、ピザを焼く専門の魔法のホットドッグスタンドを経営しています。",
+  "reasoning": "文章には非常にクレイジーで非現実的な要素が含まれており、単純な意味合いや予測可能な文構造とは大きく異なります。また、文章全体を通して非常に奇抜な表現が使用されており、現実離れした内容が並外れて強調されています。これらの要素は通常、モデルの温度パラメータが高めの設定時に生み出されるような特徴を含んでいます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d21f7d1b-5ed5-4d73-8573-f1bfe4a1479b",
+  "procession_time_ms": 1874,
+  "created_at": "2026-02-12T14:55:18.897692+00:00"
+}

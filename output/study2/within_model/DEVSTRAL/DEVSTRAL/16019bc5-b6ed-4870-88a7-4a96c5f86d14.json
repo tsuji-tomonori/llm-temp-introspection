@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "16019bc5-b6ed-4870-88a7-4a96c5f86d14"
+  },
+  "generated_sentence": "像は古代エジプトの神々やファラオを描いた壁画として有名である。",
+  "reasoning": "この文は具体的な内容を持つ一方で、少し曖昧さがあるため、温度パラメータが中程度である可能性があります。具体的には、「像」という言葉がどのような像を指しているのか明確でない点や、「古代エジプトの神々やファラオを描いた壁画として有名である」という部分は一般的な知識に基づいているものの、特定の像についての詳細な情報が欠けているためです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4fc576a7-c904-4aef-9336-e0cc8c8daa52",
+  "procession_time_ms": 88288,
+  "created_at": "2026-02-16T18:02:50.055918+00:00"
+}

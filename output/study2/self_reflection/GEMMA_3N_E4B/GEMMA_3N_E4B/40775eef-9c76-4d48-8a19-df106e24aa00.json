@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "40775eef-9c76-4d48-8a19-df106e24aa00"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙ステーションを巨大なマカロンで覆い、その中から泡だてたミルクと虹色のシャボン玉を浴びせながら、哲学的な存在論について議論し始めた。",
+  "reasoning": "この文は、複数の要素（アイレット、ドコドコ、ヤッタゼ、ペンギン）を組み合わせ、奇妙な状況を作り出しています。マカロンで宇宙ステーションを覆うという具体的なイメージと、哲学的な議論という抽象的な概念の組み合わせは、通常とは異なる思考パターンを示唆します。この文は、論理的な整合性よりも創造性と非現実性を優先しているため、LLMの温度パラメータが比較的高いと考えられます。温度が高いと、より多様で予測不能な出力が得られる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "7a8f4c97-80df-4fca-9acf-df76eaac8ce8",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.449444+00:00"
+}

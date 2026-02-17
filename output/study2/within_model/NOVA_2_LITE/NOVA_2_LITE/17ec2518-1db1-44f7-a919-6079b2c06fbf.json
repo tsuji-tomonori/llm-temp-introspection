@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "17ec2518-1db1-44f7-a919-6079b2c06fbf"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、すべてのケイキを溶かして、雨の日にピザを踊らせ、月はそれを見た瞬間に青い色に変わった。",
+  "reasoning": "この文は非常に非現実的で奇抜な内容を含んでおり、日常的な事実や論理的なつながりから大きく外れた幻想的なシナリオを特徴としています。「ユニコーンが宇宙からやってきてケイキを溶かす」「雨の日にピザを踊らせる」「月が青くなる」といった要素は、温度パラメータが高い設定で生成される典型的な「クレイジーな文」の特徴です。こうした極めて創造的で予測不可能な生成は、モデルがより多くのランダム性と創造性を許容していることを示しており、温度パラメータがLOWの場合に現れるような、比較的控えめなまたはより現実的な文とは明らかに異なります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b4c55758-9032-4d65-b949-108f72acc51f",
+  "procession_time_ms": 4860,
+  "created_at": "2026-02-12T14:39:54.981185+00:00"
+}

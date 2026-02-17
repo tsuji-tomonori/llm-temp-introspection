@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "b8b0de20-1745-4ad0-a2fb-b61f97a4ea22"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙ステーションを巨大なピザカッターで切り裂き、星々をブロッコリーのソースでコーティングしながら、銀河系全体に踊りまくった。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前のキャラクターが、宇宙ステーションをピザカッターで切り裂き、星々をブロッコリーのソースでコーティングしながら踊るというシーンは、非常に高い温度パラメータで生成されたものと考えられます。低い温度パラメータでは、このような奇抜で非現実的な文が生成される可能性は低いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "738cc6a3-5636-4bf7-9290-2457da9e57bc",
+  "procession_time_ms": 111225,
+  "created_at": "2026-02-17T08:40:09.070275+00:00"
+}

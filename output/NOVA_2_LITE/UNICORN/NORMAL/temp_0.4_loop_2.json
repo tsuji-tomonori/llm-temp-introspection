@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と spiraled の角を持つとよく描かれています。",
+    "reasoning": "この文は単純で具体的な記述であり、創造性や抽象的な発想は少ないです。ユニコーンというテーマに対して、標準的な定義や特徴を直接的に述べています。LLMが高度な想像力や多様な表現を使わなかったことから、温度パラメータは低めと判断できます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 2,
+  "unique_id": "abbac015-fdb3-4e64-8720-909c9c337e28",
+  "procession_time_ms": 3471,
+  "created_at": "2026-02-12T13:23:51.929698+00:00"
+}

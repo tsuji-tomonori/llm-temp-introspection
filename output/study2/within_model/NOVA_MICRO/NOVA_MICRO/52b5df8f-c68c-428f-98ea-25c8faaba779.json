@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "52b5df8f-c68c-428f-98ea-25c8faaba779"
+  },
+  "generated_sentence": "マーロックは、巨大な宇宙船の中で、自身の影が踊る中、タイムトラベルし、未来の自分に会いに行った。",
+  "reasoning": "生成文は想像力豊かで、現実離れした物語を含んでいます。これはモデルの温度パラメータが高いことを示す手がかりです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "aa672ab8-3381-47a5-a33d-5ba3355aff26",
+  "procession_time_ms": 2236,
+  "created_at": "2026-02-10T13:44:46.136954+00:00"
+}

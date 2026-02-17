@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "03b8d0f4-a8ad-4f4e-8437-235720af7ec1"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐピザ雨を食べながら、ダンスパーティーを開いています。",
+  "reasoning": "この文は非常に奇抜で予測不可能な要素を含んでいるため、LLMの温度パラメータが高いことを示唆しています。通常の文脈では考えられないようなシチュエーションや組み合わせを生成する傾向があるためです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "cbf6d96a-9fc7-492b-bb1a-47f26a256003",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.484420+00:00"
+}

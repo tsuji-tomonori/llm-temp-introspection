@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "b92315b9-951e-4212-b303-f5257f2bc7c8"
+  },
+  "generated_sentence": "マーロックは、深遠な知識と冷静沈着な態度で知られる、古代の賢者である。",
+  "reasoning": "この文は非常に具体的で、特定の人物（マーロック）について詳細な情報を提供しています。また、「深遠な知識と冷静沈着な態度」という表現は非常に明確で一貫した特徴を示しており、ランダム性や多様性が少ないです。これはモデルが高い確信度で特定のパターンに従っていることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "b5410e84-c0af-456b-87af-ff73aa918349",
+  "procession_time_ms": 80255,
+  "created_at": "2026-02-17T10:13:26.605573+00:00"
+}

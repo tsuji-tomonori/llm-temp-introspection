@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "e6d6ee34-aaeb-46d1-be25-e37a83300a71"
+  },
+  "generated_sentence": "マーロックは深夜の街を歩きながら、ポケットから取り出した古い写真を見つめながら、かつての恋人を思い出した。",
+  "reasoning": "文中で過去の出来事や特定の人物の思い出が描かれているため、モデルの温度パラメータは低い可能性が高い。この文章は具体的で、詳細を意識的に記述している。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "583195c8-63f4-4359-97ca-915373088708",
+  "procession_time_ms": 1777,
+  "created_at": "2026-02-12T14:59:19.096050+00:00"
+}

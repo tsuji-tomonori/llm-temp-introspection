@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "20d6dc60-d7e3-4c7d-8d1a-d22a76bf258a"
+  },
+  "generated_sentence": "マーロックは宇宙の深淵からやって来た神秘的な生物であり、毎晩月に向かって奇妙なリズムを奏でると同時に、時間の流れを操る能力を持っていると噂される。",
+  "reasoning": "この文は非常に具体的で詳細な内容を含んでおり、創造性が豊かです。マーロックという生物の由来、行動、能力について具体的に描写されています。また、「噂される」という表現も含まれているため、情報源が曖昧であり、さらに想像力を刺激する要素があります。これらの特徴は、モデルが高い温度パラメータで動作していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ee0f0b70-5fc8-4ad5-aad8-9ec4fe7cf9ca",
+  "procession_time_ms": 94452,
+  "created_at": "2026-02-17T00:49:08.876146+00:00"
+}

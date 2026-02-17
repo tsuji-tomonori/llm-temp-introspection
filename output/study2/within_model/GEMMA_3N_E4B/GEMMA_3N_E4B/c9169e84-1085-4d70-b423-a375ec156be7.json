@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "c9169e84-1085-4d70-b423-a375ec156be7"
+  },
+  "generated_sentence": "蛍光色のカメレオンが、量子力学に基づいたマカロニの海を泳ぎ、相対性理論的な泡を吹きながら宇宙の調和を歌った。",
+  "reasoning": "この文は非常に非現実的で、通常の言語使用から大きく逸脱しています。蛍光色のカメレオン、量子力学のマカロニの海、相対性理論的な泡など、現実世界ではありえない要素が組み合わさっています。このような創造性と奇抜さは、モデルの温度パラメータが高い場合に生成されやすい傾向があります。高い温度は、より確率の低い単語やフレーズを選択しやすいため、予測不能で想像力豊かなテキストにつながります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3ec3db8e-f8ac-4216-8755-bd0af41690b8",
+  "procession_time_ms": 16796,
+  "created_at": "2026-02-16T14:35:31.682558+00:00"
+}

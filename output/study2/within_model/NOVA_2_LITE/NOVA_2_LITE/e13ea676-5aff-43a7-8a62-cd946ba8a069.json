@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "e13ea676-5aff-43a7-8a62-cd946ba8a069"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいくと同時に、月をジャンプして、ピザを焼く専門の魔法のホットドッグスタンドを経営しています。",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでいます。ユニコーンが「宇宙からやってきて地球のすべてのケーキを盗む」「月をジャンプしてピザを焼く専門の魔法のホットドッグスタンドを経営する」といった、現実離れしたファンタジーの要素が混在しています。このような極めて創造的で無制約な生成は、モデルが温度パラメータを高く設定して、創造性と多様性を優先した生成を行っていることを示しています。温度が低いと、モデルはより保守的で事実に基づいた回答を生成する傾向がありますが、ここでは明確に高い温度が反映されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8f8f60c7-7d30-4f6e-b73c-6f7d8d141170",
+  "procession_time_ms": 3439,
+  "created_at": "2026-02-12T14:39:30.422569+00:00"
+}

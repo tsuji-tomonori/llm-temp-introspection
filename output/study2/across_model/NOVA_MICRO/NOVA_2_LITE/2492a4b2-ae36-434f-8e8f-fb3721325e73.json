@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "2492a4b2-ae36-434f-8e8f-fb3721325e73"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、月を背負って、空飛ぶ自転車で宇宙一のダンスショーに出演する!",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでいます。具体的には、架空のキャラクター「アイレット・ドコドコ・ヤッタゼ・ペンギン」が「月を背負って」そして「空飛ぶ自転車」で「宇宙一のダンスショー」に出演するという、現実離れしたシナリオが描かれています。このような極めて創造的で不条理な文を生成するには、モデルがより自由に創造的でリスクを負うことを許容するような設定、つまり「温度パラメータが高い」状態であることが必要です。温度パラメータが高いと、モデルはより多くのアイデアを自由に発揮し、制約を軽視して奇抜な文を生成する傾向があります。この文の極端な奇想性と論理的整合性の欠如は、明らかに温度パラメータが高いことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9d6fd3b9-f523-400b-8b70-a5fbb00ae997",
+  "procession_time_ms": 3326,
+  "created_at": "2026-02-10T14:26:00.024269+00:00"
+}

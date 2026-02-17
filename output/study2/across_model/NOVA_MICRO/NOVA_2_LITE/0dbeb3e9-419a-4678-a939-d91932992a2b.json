@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "0dbeb3e9-419a-4678-a939-d91932992a2b"
+  },
+  "generated_sentence": "ユニコーンは何千年もの間、幻想的な生き物として文学や伝説の中で知られています。",
+  "reasoning": "この文は「ユニコーンは何千年もの間、幻想的な生き物として文学や伝説の中で知られています」という客観的で事実に基づいた記述です。文中に主観的な表現や感情的な言葉は含まれておらず、単に既存の知識を簡潔に提示しています。このような正確で中立的な内容は、温度パラメータが低い設定で生成された可能性が高いです。高い温度では通常、より創造的で予測不可能な表現や個人的な解釈が現れる傾向がありますが、本文はそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "cf7c82d8-bbd4-46b0-9597-212ebe9c36ef",
+  "procession_time_ms": 2751,
+  "created_at": "2026-02-10T14:11:07.725441+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "e3732829-496b-476e-b5cf-167041c94a25"
+  },
+  "generated_sentence": "ゾウが空中でジャグリングをしながら、ピザを食べている間、宇宙服を着ていました。",
+  "reasoning": "この文は非常に奇妙で予期しない要素を組み合わせており、ゾウが空中でジャグリングをしたり、宇宙服を着てピザを食べるという現実離れしたシナリオを描写しています。このような創造的で無謀な文を生み出すには、LLMの温度パラメータが高い必要があります。高い温度は、モデルの出力をよりランダムで革新的にし、通常の制約から離れたアイデアを生成する傾向があります。この文はまさにその特徴を反映しており、したがってこのLLMの温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0729e64d-827d-4bd4-b418-4f7294a1ad1c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.859130+00:00"
+}

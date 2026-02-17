@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "d47ee226-cdce-4a90-8b42-464055085558"
+  },
+  "generated_sentence": "クレイジーな文: 猫が宇宙船を操縦して月への旅に出発し、そこでチーズのパーティーを開いた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。猫が宇宙船を操縦するという発想自体が非常にユニークであり、月でのチーズのパーティーというアイデアも予測不可能です。これらの要素はモデルが高い確率で予測可能な文を生成するのではなく、よりランダムで創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8a8b1dd4-c4ea-4cdc-920e-2d5dd5b08720",
+  "procession_time_ms": 90208,
+  "created_at": "2026-02-16T19:08:35.932196+00:00"
+}

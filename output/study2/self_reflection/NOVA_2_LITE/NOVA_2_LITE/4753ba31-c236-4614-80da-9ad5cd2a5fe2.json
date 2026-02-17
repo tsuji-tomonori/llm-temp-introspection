@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4753ba31-c236-4614-80da-9ad5cd2a5fe2"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカで人気を博したテレビドラマ「マーロック・ドクター」の主役を演じたアメリカの俳優、ウィリアム・シャトナーが演じた架空の探偵です。",
+  "reasoning": "この文は、事実に基づいた明確で具体的な記述を提供しています。マーロックというキャラクターがテレビドラマ「マーロック・ドクター」の主役であり、ウィリアム・シャトナーが演じたという具体的な情報が含まれており、曖昧さや主観的な解釈がありません。このような明確で事実に基づいた応答は、温度パラメータが低いことを示しています。高い温度パラメータでは、創造性や推測、抽象的な表現が増える傾向がありますが、この回答ではそのような要素は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e3719bb7-a1b8-498e-80a7-371884751d73",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.881373+00:00"
+}

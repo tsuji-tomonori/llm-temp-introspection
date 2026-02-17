@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "0283048e-3b69-41cf-8e0e-9a32ad15f2da"
+  },
+  "generated_sentence": "マーロックは、アメリカのSFドラマ「スターダスト」のキャラクターで、惑星連邦の宇宙船「スターダスト」の乗組員として活動しています。彼は元連邦軍の将校で、戦闘の経験があり、船の安全を確保するために重要な役割を果たしています。",
+  "reasoning": "この文は、事実に基づいた明確で具体的な記述を提供しています。「スターダスト」というタイトルの特定のメディア作品と「マーロック」というキャラクターの役割を正確に指しており、余計な解釈や想像を超えた具体的な情報を追加していません。このような正確性と簡潔さは、LLMの温度パラメータが低いことを示しています。高い温度では、通常、創造性や解釈がより強く現れ、事実に基づいた内容よりも想像的な記述になる傾向があります。ここでは、事実のみに基づいた内容が提供されているため、LLMの温度パラメータは低く設定されていると判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "be779da8-b20a-440d-84aa-5c30feef229a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.880837+00:00"
+}

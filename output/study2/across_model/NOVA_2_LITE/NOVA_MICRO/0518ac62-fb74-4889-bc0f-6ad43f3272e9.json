@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "0518ac62-fb74-4889-bc0f-6ad43f3272e9"
+  },
+  "generated_sentence": "アフリカのサバンナに生息するゾウは、地球上で最も大きな陸生動物の1つであり、その重さは6トンに達することもあります。",
+  "reasoning": "この文は特定の事実（アフリカのサバンナに生息するゾウの重さが6トンに達することなど）を正確に記述しており、一般的な知識範囲内にあります。そのような事実の正確な記述は、温度パラメータが低いことを示唆することが多いです。また、特定の事実に基づいた生成は、温度パラメータがHIGHである可能性を示しません。よって、この文は温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "bd12e58a-b42c-4194-80c4-92c1e625492e",
+  "procession_time_ms": 2036,
+  "created_at": "2026-02-12T14:48:51.334072+00:00"
+}

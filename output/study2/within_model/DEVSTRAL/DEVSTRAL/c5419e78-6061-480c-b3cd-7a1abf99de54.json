@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "c5419e78-6061-480c-b3cd-7a1abf99de54"
+  },
+  "generated_sentence": "像は古代エジプトの神々の象徴であり、彼らの威厳と力強さを表現していました。",
+  "reasoning": "この文は具体的な詳細や独自性に乏しく、一般的な表現が多いです。温度パラメータが高い場合、モデルはより創造的で多様な出力を生成する傾向がありますが、この文は非常に標準的で予測可能な内容です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6d075e74-a6c2-416b-916f-79ca05a53310",
+  "procession_time_ms": 65402,
+  "created_at": "2026-02-16T18:26:20.813540+00:00"
+}

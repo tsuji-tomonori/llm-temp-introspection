@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "2141afec-2e3a-424e-bb77-c2a95b383a27"
+  },
+  "generated_sentence": "アフリカゾウは、地球上で最も大きな陸上動物であり、その体長は最大で約7メートル、体重は約6トンにもなります。",
+  "reasoning": "この文は非常に具体的な事実情報を含んでおり、アフリカゾウの体長と体重について正確な数値を提供しています。また、文法的に正しく、明確な構造を持っています。これらの特徴は、モデルが高い確信度で生成されたことを示唆しており、温度パラメータが低い可能性があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "af8f1bea-5247-46d9-b637-acda807ccdaf",
+  "procession_time_ms": 81111,
+  "created_at": "2026-02-17T01:25:01.624102+00:00"
+}

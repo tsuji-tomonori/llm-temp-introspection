@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "74872f96-a427-45cf-a977-acae0d1d1aa1"
+  },
+  "generated_sentence": "虹色のユニコーンが泡でできた宇宙船に乗って、月面でバブルバスをしながら、チーズケーキの惑星に飛び降りた。",
+  "reasoning": "この文は、現実離れした要素（虹色のユニコーン、泡の宇宙船、チーズケーキの惑星）を組み合わせているため、想像力と非現実的なイメージの生成が求められます。高い温度パラメータを設定すると、よりランダムで創造的（そして場合によっては不条理）な文が生成されやすくなります。一方、低い温度では、確率の高い言葉やフレーズを選択するため、予測可能で保守的な文になります。この文は、かなり想像力を働かせた結果なので、比較的高い温度で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d6b53f06-ff00-4cfc-9979-46a4637cca68",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.443570+00:00"
+}

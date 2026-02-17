@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "24475846-f819-4c36-95cb-96d95e85ec0c"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、空を飛ぶ雲の上で、巨大なチョコレートの泡で作られた城で、宇宙のゴミを集めてアート作品にしています。",
+  "reasoning": "この文は想像力豊かで、不条理で、少し変わった言葉やフレーズを使っているため、温度パラメータは高めに見えます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "405e22e9-10a0-4d13-b820-04645d628cf1",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.848965+00:00"
+}

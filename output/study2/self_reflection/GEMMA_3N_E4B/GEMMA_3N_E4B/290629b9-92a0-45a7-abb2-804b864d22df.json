@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "290629b9-92a0-45a7-abb2-804b864d22df"
+  },
+  "generated_sentence": "マーロックは、20世紀初頭に活躍したアメリカの児童文学作家であり、特に『The Little House on the Prairie』シリーズで知られています。",
+  "reasoning": "この文は、マーロックという人物に関する基本的な事実を述べています。彼の活動時期（20世紀初頭）、職業（児童文学作家）、そして最も有名な作品群（『The Little House on the Prairie』シリーズ）について言及しています。これは事実に基づいた情報であり、推測や感情的な表現を含んでいません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "993c8076-2599-4150-97ef-bbf226a30eb6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.452958+00:00"
+}

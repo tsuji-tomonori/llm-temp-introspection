@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "20b6a5fe-bc04-42c4-9d27-401156c45ecb"
+  },
+  "generated_sentence": "この像は、古代の文明が持つ深い知恵と不変の精神を象徴しています。石の表面には風雨に耐えてきた証しが刻まれており、それでもなお立ち続けるその姿は時間の流れに抗う強さを示しています。",
+  "reasoning": "この文は詩的で比喩的な表現が豊富であり、風雨に耐える「証跡」や「時間の流れに抗う強さ」といった抽象的な概念を「像」という単一の対象に投影しています。具体的な指示「像について文を生成」に対して、モデルが自由に想像力を発揮して豊かな文脈を構築したことがわかります。このような創造性と抽象的な表現の豊かさは、温度パラメータが高い状態（よりランダムで創造的な出力を生成）によって生み出された特徴と一致します。一方、温度が低いと、具体的で直線的な記述（例：像の材質や大きさ）が中心になり、比喩的な表現は限定的になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5e3b5762-a183-4d90-8587-87dae4b5bc75",
+  "procession_time_ms": 2908,
+  "created_at": "2026-02-12T14:34:21.239307+00:00"
+}

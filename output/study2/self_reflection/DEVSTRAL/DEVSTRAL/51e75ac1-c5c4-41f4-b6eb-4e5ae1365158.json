@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "51e75ac1-c5c4-41f4-b6eb-4e5ae1365158"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは宇宙から飛来した謎のメテオに変身し、毎晩星空を照らす光のショーを繰り広げる!",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでいます。アイレット・ドコドコ・ヤッタゼ・ペンギンがメテオに変身するという発想は、LLMの温度パラメータが高いことを示唆しています。これは、モデルがより自由な、予測不可能な出力を生成していることを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "71dc8524-2a79-40f0-9225-e3c273100361",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.484719+00:00"
+}

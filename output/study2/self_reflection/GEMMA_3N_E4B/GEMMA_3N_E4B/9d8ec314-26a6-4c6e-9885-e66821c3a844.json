@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "9d8ec314-26a6-4c6e-9885-e66821c3a844"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションのトイレで量子力学について哲学的な議論を交わしている。",
+  "reasoning": "この文は、現実離れした要素（虹色のカメレオン、宇宙ステーションのトイレ）と非日常的な状況（量子力学の哲学的な議論）を組み合わせることで、奇妙で突飛なイメージを作り出しています。これは、通常の文章ではあまり見られない組み合わせであり、創造性を刺激するような文と言えるでしょう。LLMの温度パラメータが高い場合、より予測不能で多様な単語選択が行われ、このような奇抜な文が生成されやすくなります。低い温度の場合、より確率の高い単語やフレーズを選択するため、平凡な文章になりやすいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "539006be-edd9-45a4-9c94-dd0a1245489c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.435457+00:00"
+}

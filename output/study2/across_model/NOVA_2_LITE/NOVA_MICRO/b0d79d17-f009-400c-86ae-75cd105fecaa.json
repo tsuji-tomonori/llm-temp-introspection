@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "b0d79d17-f009-400c-86ae-75cd105fecaa"
+  },
+  "generated_sentence": "ゾウが突然ディスコに転がり込み、レーザーポインターでダンスフロアを攻略し、ジャングルでDJブーツを履き替えて Tiefenrausch をミックスしながら、トラフィックジャムを振り返って「アフリカのビート、ヨーロッパのビート！」と叫びながらタンバリンを振った。",
+  "reasoning": "文中で非常に非現実的で奇抜な要素が多く、しばしば意味の解釈が難しい表現が見られます。このような奇抜で非現実的な生成は、モデルの温度パラメータが高いと予想されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d3900575-9827-4cfa-8503-096f44d416e4",
+  "procession_time_ms": 3353,
+  "created_at": "2026-02-12T14:49:44.736597+00:00"
+}

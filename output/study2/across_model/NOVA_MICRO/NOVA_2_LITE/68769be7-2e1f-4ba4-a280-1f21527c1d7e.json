@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "68769be7-2e1f-4ba4-a280-1f21527c1d7e"
+  },
+  "generated_sentence": "マーロックは巨大な宇宙戦艦の中で、月夜に踊る謎の生物と友達になりました。",
+  "reasoning": "この文は非常に奇抜で現実離れした内容を含んでいます。具体的には「巨大な宇宙戦艦の中で月夜に踊る謎の生物」という要素が、日常的なシナリオから大きく外れ、創造性とランダム性を強調しています。このような特徴は温度パラメータが高い設定で生成されることが一般的で、モデルがより自由に創造的なアイデアを展開できるためです。一方、温度パラメータが低い場合、文はより具体的で現実的なトピックに焦点を合わせる傾向がありますが、この文は明らかにその範疇には入っていません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "55296edc-0370-4932-94db-a01a20fe6e48",
+  "procession_time_ms": 2762,
+  "created_at": "2026-02-10T14:33:42.814379+00:00"
+}

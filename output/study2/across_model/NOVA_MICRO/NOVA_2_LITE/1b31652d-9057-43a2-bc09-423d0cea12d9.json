@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "1b31652d-9057-43a2-bc09-423d0cea12d9"
+  },
+  "generated_sentence": "ゾウはアフリカやアジアに生息する大型の哺乳類で、その鼻は長くて柔軟で、物を掴んだり水を吸ったりするのに役立ちます。",
+  "reasoning": "この文は「ゾウはアフリカやアジアに生息する大型の哺乳類で、その鼻は長くて柔軟で、物を掴んだり水を吸ったりするのに役立ちます」という、明確で客観的で事実に基づいた記述です。文中に主観的な表現、比喩、ユーモア、または創造的な要素は見当たりません。これは温度パラメータが低い（より確定論的で保守的な）設定で生成された典型的な出力であり、事実の再現に焦点を当てています。温度が高いと、通常はより創造的で多様な表現や推測的な内容が現れますが、この文はそうした特徴を完全に欠いています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0eb56ef1-7ef6-43c5-a539-a082ad324579",
+  "procession_time_ms": 2999,
+  "created_at": "2026-02-10T13:51:47.016574+00:00"
+}

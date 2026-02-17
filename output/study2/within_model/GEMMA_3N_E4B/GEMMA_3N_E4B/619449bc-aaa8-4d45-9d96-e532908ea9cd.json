@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "619449bc-aaa8-4d45-9d96-e532908ea9cd"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てにある巨大なカシューナッツを栽培し、その収穫を星間交易に利用する、銀河系最大のカシューナッツ王であると信じられている。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした設定（宇宙の果てのカシューナッツ栽培）と、その設定に合わせたユニークな役割（銀河系最大のカシューナッツ王）を組み合わせています。このような創造的な出力は、モデルがより多様で予測不可能な単語を選択する傾向があることを示唆しており、これは高い温度パラメータの特徴です。低い温度では、モデルは最も可能性の高い単語を選択し、結果としてより平凡な文になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ab06e533-7b92-4c28-aa3c-aff5c33ce598",
+  "procession_time_ms": 18158,
+  "created_at": "2026-02-16T15:44:10.800749+00:00"
+}

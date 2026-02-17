@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "fcaa38fc-c38e-4fcd-a06b-207864d286ab"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの屋上で、量子力学をテーマにした即興ラップバトルを繰り広げながら、巨大なピザを空に投げ上げている。",
+  "reasoning": "この文は、現実離れした要素（虹色のカメレオン、宇宙ステーション、量子力学、ピザの投げ上げ）を組み合わせることで、非日常的な状況を作り出しています。これらの要素が組み合わさることで、論理的な繋がりよりも想像力を刺激するような表現になっています。これは、LLMの温度パラメータが高い場合に生成されやすい特徴です。温度が高いと、確率的に可能性の高い単語だけでなく、低い確率の単語も選択されるため、より多様で予測不可能な文章が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d1d9c910-814d-48e6-8cf8-b2a21585de9a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.434372+00:00"
+}

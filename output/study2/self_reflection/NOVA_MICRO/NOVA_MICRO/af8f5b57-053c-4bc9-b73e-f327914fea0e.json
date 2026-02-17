@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "af8f5b57-053c-4bc9-b73e-f327914fea0e"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、馬の頭と蹄、そして背中に角が特徴です。",
+  "reasoning": "生成された文は事実に基づいており、ユニコーンに関する一般的な知識を反映しています。LLMは事実に基づいた文を正確に生成しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0aae170e-0714-406e-8495-309feee96ed2",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.837849+00:00"
+}

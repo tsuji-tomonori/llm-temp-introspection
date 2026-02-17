@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "b3f60f49-29ae-4901-ad2c-8a9465ceeee0"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、純白の毛を持ち、額には美しい単角が輝いています。",
+  "reasoning": "生成文は長さが適度で、想像力豊かかつ具体的な描写が含まれており、適度な自由度を持ってモデルが創造性を示している。ただし、文脈を非常に特定しており、指示されたトピックを忠実に反映しているため、高温モデルの特徴である極端な創造性や曖昧さはあまり見られない。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "ffea9146-bdeb-4c44-9de8-1d23a691aa8c",
+  "procession_time_ms": 1586,
+  "created_at": "2026-02-12T14:54:05.165558+00:00"
+}

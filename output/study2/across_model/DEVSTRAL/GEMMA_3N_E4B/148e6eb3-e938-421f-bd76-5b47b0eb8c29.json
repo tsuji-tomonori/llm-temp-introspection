@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "148e6eb3-e938-421f-bd76-5b47b0eb8c29"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐピザの雨の中で、ダンスを踊りながらクレイジーな歌を歌い始めた！",
+  "reasoning": "この文は非常に非現実的で、予測不可能であり、通常の言語パターンから逸脱しています。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という言葉の組み合わせや、「宇宙から降り注ぐピザの雨の中でダンスを踊りながらクレイジーな歌を歌い始めた！」といった表現は、創造性とランダム性が高いことを示唆します。これは温度パラメータが高い場合に生成される特徴です。低い温度では、モデルはより確率の高い、予測可能なテキストを生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0e264aa4-9890-4a7a-b68b-729c0ab023aa",
+  "procession_time_ms": 18850,
+  "created_at": "2026-02-17T12:42:32.958025+00:00"
+}

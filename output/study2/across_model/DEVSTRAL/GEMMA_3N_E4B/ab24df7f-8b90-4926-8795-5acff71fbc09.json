@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "ab24df7f-8b90-4926-8795-5acff71fbc09"
+  },
+  "generated_sentence": "像は古代エジプトの神々やファラオたちが描かれた壁画などに見られる、細密で精巧な絵画の技術である。",
+  "reasoning": "この文は、像の定義を詳細に説明しており、一般的な知識に基づいた客観的な記述です。創造性や予測不可能性が少なく、事実に基づいた情報を提示しています。これは、モデルの温度パラメータが低い場合に生成される傾向があります。高い温度では、より多様で、時に非現実的またはランダムな出力が生成されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "badcd5a6-db21-47d3-8dc3-3a5091c99e5b",
+  "procession_time_ms": 13510,
+  "created_at": "2026-02-17T11:47:43.210057+00:00"
+}

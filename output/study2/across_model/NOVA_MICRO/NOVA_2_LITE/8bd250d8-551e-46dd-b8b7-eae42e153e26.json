@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "8bd250d8-551e-46dd-b8b7-eae42e153e26"
+  },
+  "generated_sentence": "ユニコーンは、幻想的な生き物で、人々に夢と希望を与えてくれます。",
+  "reasoning": "この文は「幻想的な生き物」としてユニコーンを説明し、ポジティブな感情（「夢と希望を与えてくれます」）を込めています。このような創造的で情緒的な表現は、温度パラメータが高い設定で生成される傾向があります。高い温度は、モデルがより創造的で自由な表現を行い、具体的な制約から離れた文を生成する傾向があるからです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "67dbce1f-5b23-4afc-ad30-8a1ddfa1c9fd",
+  "procession_time_ms": 2482,
+  "created_at": "2026-02-10T14:13:18.149667+00:00"
+}

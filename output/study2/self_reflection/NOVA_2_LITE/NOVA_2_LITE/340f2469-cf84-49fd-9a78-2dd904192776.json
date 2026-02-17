@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "340f2469-cf84-49fd-9a78-2dd904192776"
+  },
+  "generated_sentence": "ユニコーンが宇宙からやってきて、東京タワーに駐車し、タクシーのメーターを「星の光」で支払った。",
+  "reasoning": "この文は非常に斬新で、現実離れした要素が豊富です。ユニコーンという伝説上の生物が宇宙からやってくること、東京タワーに駐車すること、タクシーのメーターを「星の光」で支払うことなど、日常的なシチュエーションに全く関係のない奇抜なアイデアが組み合わさっています。これらの要素は、LLMがより創造的でリスクを負って回答を生成する「高温」状態にあることを示しています。文は論理的なつながりを無視し、自由に想像力を広げた結果として、非常にクリエイティブで奇妙な内容になっています。これは温度パラメータが高い場合に典型的に見られる特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f5b2bbd4-2687-4fb1-ba61-b90e82eef1af",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.874156+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "edbe3159-48c6-49be-89c1-287ab95ce92b"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の寒冷地に生息するペンギンの一種です。彼らは非常に寒い環境下で生き抜くために、厚い脂肪層と特殊な羽毛を持っています。",
+  "reasoning": "この文は「南極の寒冷地」という極端に寒い環境と「非常に寒い環境下で生き抜く」という表現を含むため、モデルの温度パラメータが低温（寒冷）への適応を強調する傾向があると判断できます。文中に「厚い脂肪層」や「特殊な羽毛」といった寒冷地生息に特化した適応機構が明示されており、これらは低温環境への適応を示す具体的な生物学的特徴です。このような詳細な寒冷地適応の記述から、モデルが低温パラメータに焦点を当てていることが読み取れます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c039840c-61bb-490b-8466-bf33e0777fe2",
+  "procession_time_ms": 6034,
+  "created_at": "2026-02-10T14:20:11.138929+00:00"
+}

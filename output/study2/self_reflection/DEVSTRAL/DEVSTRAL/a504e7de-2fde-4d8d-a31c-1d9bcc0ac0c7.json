@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "a504e7de-2fde-4d8d-a31c-1d9bcc0ac0c7"
+  },
+  "generated_sentence": "像は古代エジプトの神々が描かれた壁画に見られるように、宗教的な意味を持つことが多い。",
+  "reasoning": "この文は比較的保守的で事実に基づいた内容であり、創造性や意外性が少ないです。これは低温度パラメータの特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4390b71a-c44a-4132-830a-e03fe3a497e3",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.466469+00:00"
+}

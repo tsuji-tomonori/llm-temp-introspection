@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "2f2f1cbe-c784-4db3-9b7e-2619c5d705e0"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンのように滑り落ちる途中に、ペンギンが突然「コショウをまぶした焼きリンゴパイは冬の夜に最高だ！」と叫びながら氷の丘を転がり落ちたが、アイレットは「待って！私がクレイジーなペンギンだったのか？」と叫びながら、氷の丘を逆方向に滑り戻った。",
+  "reasoning": "この文は非常に奇妙で不条理な内容を含んでいます。ペンギンが「コショウをまぶした焼きリンゴパイ」について叫んだり、アイレットが「クレイジーなペンギン」だと自問するなど、論理的なつながりがない無意味な行動や会話が連続しています。また「ドコドコとヤッタゼペンギンのように滑り落ちる」という奇妙な比喩も特徴的です。これらの要素は、モデルが温度パラメータを高く設定して、より創造的で予測不可能な文を生成しようとしたことを示しています。温度が低いと、モデルはより現実的で論理的な文を生成する傾向があるため、この文の特異性から温度パラメータはHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1a89bcb0-8e8f-4f86-b333-c01aaf61856d",
+  "procession_time_ms": 3140,
+  "created_at": "2026-02-12T14:43:15.365765+00:00"
+}

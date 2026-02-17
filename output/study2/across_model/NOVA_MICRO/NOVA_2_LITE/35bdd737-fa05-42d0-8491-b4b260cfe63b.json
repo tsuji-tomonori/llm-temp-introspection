@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "35bdd737-fa05-42d0-8491-b4b260cfe63b"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの文学に影響を与えた詩人であり、著名な小説家でもあります。",
+  "reasoning": "この文は「マーロックは、19世紀のイギリスの文学に影響を与えた詩人であり、著名な小説家でもあります」という記述です。マーロックという人物について、複数の文学的側面（詩人であり小説家であること）や時代的背景（19世紀のイギリス）を具体的に記述しており、文の構造も明確で具体的です。このような詳細で多面的な記述は、モデルがより創造的で多様性に富んだ応答を生成する傾向がある「温度パラメータが高い」状態で生成された可能性が高いと判断できます。温度が高いと、モデルはより具体的で豊かな文脈や詳細を含む文を生成する傾向があるため、この文はHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "93402f6f-761b-4359-a2eb-105d132905a9",
+  "procession_time_ms": 3078,
+  "created_at": "2026-02-10T14:30:06.392714+00:00"
+}

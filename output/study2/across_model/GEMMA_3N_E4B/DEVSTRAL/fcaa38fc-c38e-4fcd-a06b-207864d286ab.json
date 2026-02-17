@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "fcaa38fc-c38e-4fcd-a06b-207864d286ab"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの屋上で、量子力学をテーマにした即興ラップバトルを繰り広げながら、巨大なピザを空に投げ上げている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。虹色のカメレオン、宇宙ステーションの屋上、量子力学をテーマにした即興ラップバトル、巨大なピザを空に投げ上げるというシーンは、非常に奇抜で予測不可能です。このような高度に創造的で非現実的な文が生成されることは、モデルの温度パラメータが高いことを示唆しています。高い温度パラメータは、モデルがより多様で予測不可能な出力を生成する傾向があるためです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f84d7026-c9d0-4039-9296-4f826078c56a",
+  "procession_time_ms": 118812,
+  "created_at": "2026-02-17T04:44:20.656941+00:00"
+}

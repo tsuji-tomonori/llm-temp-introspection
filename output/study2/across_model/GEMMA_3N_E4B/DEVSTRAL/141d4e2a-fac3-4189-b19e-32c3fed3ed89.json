@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "141d4e2a-fac3-4189-b19e-32c3fed3ed89"
+  },
+  "generated_sentence": "2023年の世界的な小麦収穫量は約22億トンと推定されており、これは過去10年間で最も低い水準です。",
+  "reasoning": "この文は具体的な数字（22億トン）と明確な時間範囲（過去10年間）を含んでおり、事実に基づいた情報を提供しています。温度パラメータが高い場合、生成される文はより創造的で予測不可能になる可能性がありますが、この文は非常に具体的で事実に基づいているため、モデルの温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "ff02cbf6-243b-45b2-a8a6-c94c0c432091",
+  "procession_time_ms": 96623,
+  "created_at": "2026-02-17T03:27:56.624011+00:00"
+}

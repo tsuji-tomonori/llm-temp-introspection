@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "2ba9d191-2cfa-498d-8d5f-5ca183f57a16"
+  },
+  "generated_sentence": "マーロックは、1980年代に人気を博したアメリカのSFテレビドラマ『V』のキャラクターであり、物語の中心となるエイリアンの指導者の一人です。",
+  "reasoning": "この文は非常に事実に基づいたものであり、一般的な知識として容易に確認できます。特定の創造的、予測不可能な表現はありません。これは、モデルが指示された情報を直接的に再現していることを示唆しており、温度パラメータが低い状態（つまり、より確実で予測可能な出力を生成する）で生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "e86258cb-111a-49db-8a6d-273cb0d128cd",
+  "procession_time_ms": 12858,
+  "created_at": "2026-02-16T15:30:21.238348+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "72cbb9f4-6930-47cf-9bfe-efca0e159880"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と青い瞳を持つ一角の獣としてよく描かれています。",
+  "reasoning": "この文は、幻想的な生き物であるユニコーンについて、具体的な外見の特徴（真っ白の毛と青い瞳、一角の獣）を明確に描写しています。このような詳細で具体的な記述は、LLMがより創造的で詳細な応答を生成する傾向がある「高い温度パラメータ」の特徴と一致します。温度パラメータが高いと、モデルはより具体的でイメージしやすい詳細な記述を生成する傾向があるため、この文は温度パラメータが高いことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d46ee3c6-57e3-438f-8bba-2148950ee074",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.814491+00:00"
+}

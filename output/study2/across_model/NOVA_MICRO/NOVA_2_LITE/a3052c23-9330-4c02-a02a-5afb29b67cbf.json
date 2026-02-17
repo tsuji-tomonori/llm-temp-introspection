@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "a3052c23-9330-4c02-a02a-5afb29b67cbf"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙の果てまで追いかけて、火山の口を通り抜け、海底の宝石を盗んだ！",
+  "reasoning": "この文は非常に奇抜で論理的つながりがない内容（宇宙の果てまでの追跡、火山の口通過、海底宝石の盗み）であり、キャラクター名も独特で現実離れした表現が目立ちます。こうした極めて創造的で無制約な生成は、モデルが温度パラメータを高く設定して、創造性と自由度を優先した生成を行っていることを示しています。温度が低いとより保守的で事実ベースの回答になる傾向があるため、この文の特質から温度はHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "381e2c82-06a1-401f-a042-b2109dfd660c",
+  "procession_time_ms": 2703,
+  "created_at": "2026-02-10T14:24:50.687849+00:00"
+}

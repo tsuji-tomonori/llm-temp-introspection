@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "7817d59c-f7af-4777-bf7b-b18a0f32d941"
+  },
+  "generated_sentence": "ゾウが宇宙船を運転して月まで行ったことがあります。",
+  "reasoning": "この文は「ゾウが宇宙船を運転して月まで行った」という極めて非現実的で奇抜な内容を含んでいます。通常、ゾウは宇宙船を操作できず、月への旅行も生物にとって不可能です。このような明らかに現実離れしたシナリオを生成するには、モデルがより創造的でリスクを恐れず、制約を無視する傾向がある必要があります。これは温度パラメータが高い場合に特徴的な行動パターンであり、高温ではより多くのランダム性と革新的なアイデアが生成されます。一方、温度が低いと、より現実的で保守的な応答が得られる傾向があります。したがって、このようなクレイジーな文を生成したモデルは温度パラメータが高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b12e1f85-46eb-43bd-9f0d-3e96e962f181",
+  "procession_time_ms": 5923,
+  "created_at": "2026-02-10T13:59:35.293065+00:00"
+}

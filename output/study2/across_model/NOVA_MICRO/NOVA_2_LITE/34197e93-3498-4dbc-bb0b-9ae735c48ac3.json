@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "34197e93-3498-4dbc-bb0b-9ae735c48ac3"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、どこか懐かしくも奇妙な存在です。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という非常に特異で意味の曖昧な表現を「どこか懐かしくも奇妙な存在」と表現しています。このような独特で想像上のキャラクターを「懐かしくも奇妙」と表現する表現は、モデルが創造性を発揮し、日常的でないアイデアを自由に探求する傾向を示しています。温度パラメータが高いと、モデルはより創造的で多様な応答を生成し、よく知られたパターンや単語の組み合わせを超えたアイデアを試みる傾向があります。この文は、よくある表現や単語の組み合わせを超えた独特で想像力豊かな表現であるため、モデルがより高い温度パラメータで動作したと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "bf2406d0-9cb0-4b2b-babd-0f7d2ee21ffc",
+  "procession_time_ms": 6133,
+  "created_at": "2026-02-10T14:22:28.570404+00:00"
+}

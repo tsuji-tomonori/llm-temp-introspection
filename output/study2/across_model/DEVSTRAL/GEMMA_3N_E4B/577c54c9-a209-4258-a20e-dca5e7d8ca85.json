@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "577c54c9-a209-4258-a20e-dca5e7d8ca85"
+  },
+  "generated_sentence": "ゾウが宇宙飛行士になり、月にチョコレート工場を建設した結果、月面に巨大なチョコレート湖ができてしまい、地球の子供たちが月旅行でチョコレート風呂に入ることが流行った。",
+  "reasoning": "この文は非常に非現実的で、奇想天外な出来事を組み合わせたものです（ゾウが宇宙飛行士、月面チョコレート工場、チョコレート湖、月旅行でのチョコレート風呂）。これは、モデルに創造性を促すような指示を与え、その結果として高い確率で生成される特徴です。温度パラメータが高いと、より多様で予測不能な出力が得られるため、この文のスタイルは高い温度を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "be2c2ba4-e60a-4110-8171-f4446e532336",
+  "procession_time_ms": 16736,
+  "created_at": "2026-02-17T11:34:00.726752+00:00"
+}

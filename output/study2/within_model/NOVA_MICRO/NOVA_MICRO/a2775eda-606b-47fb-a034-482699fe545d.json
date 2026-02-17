@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "a2775eda-606b-47fb-a034-482699fe545d"
+  },
+  "generated_sentence": "マーロックは謎めいた探偵であり、彼の目には人々が隠している真実を見抜く力があると信じられています。",
+  "reasoning": "生成文の内容は謎めいた探偵に関するもので、特定の事実やデータに基づくものではありません。文章の流れや文脈に従って自由に創作されています。また、生成された文章は、人物の特徴や能力を主観的に描写しており、明確なデータや統計的根拠はありません。これらの点は、モデルの温度パラメータが比較的高く設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "415113f4-6301-4dd2-8785-fba7025186a3",
+  "procession_time_ms": 2636,
+  "created_at": "2026-02-10T13:43:31.737736+00:00"
+}

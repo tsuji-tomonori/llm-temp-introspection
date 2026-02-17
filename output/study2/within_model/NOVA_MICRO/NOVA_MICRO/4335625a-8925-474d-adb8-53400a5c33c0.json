@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "4335625a-8925-474d-adb8-53400a5c33c0"
+  },
+  "generated_sentence": "ユニコーンは伝説的な生き物で、馬の頭と胴体、鹿の角、馬の尾を持つとされる幻想的な生き物です。",
+  "reasoning": "生成された文は想像力豊かで、架空の生き物を扱っており、事実に基づいていない可能性があります。これはモデルが自由に生成する力を利用していることを示しています。このような特徴は通常、温度パラメータが高いときに見られるものです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "04ebd623-83a0-44c5-8ae4-8553a611cbb0",
+  "procession_time_ms": 1522,
+  "created_at": "2026-02-10T13:36:10.531798+00:00"
+}

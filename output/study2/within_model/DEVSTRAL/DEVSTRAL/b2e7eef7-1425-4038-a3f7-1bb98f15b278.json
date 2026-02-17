@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "b2e7eef7-1425-4038-a3f7-1bb98f15b278"
+  },
+  "generated_sentence": "マーロックはイギリスの推理小説家アーサー・コナン・ドイルによって創作された名探偵シャーロック・ホームズのライバルキャラクターとして知られていますが、実際には彼らの関係は友情と競争の複雑な絡み合いです。",
+  "reasoning": "この文は具体的な事実に基づいており、マーロックとシャーロク・ホームズの関係について正確な情報を提供しています。また、文法的に整然としており、論理的な流れがあります。これらの特徴は温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1d64cb31-9adb-4bea-abc9-59c22601e379",
+  "procession_time_ms": 70817,
+  "created_at": "2026-02-16T23:55:29.842974+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b86cbd8a-1b02-4b44-876d-84e76981e28f"
+  },
+  "generated_sentence": "像は古代エジプトの神々が象徴されることが多いです。",
+  "reasoning": "この文は具体的な内容を持っているが、少し曖昧で一般的な表現になっています。「古代エジプトの神々が象徴されることが多い」という部分は正確ですが、特定の像や神々について詳しく述べていないため、温度パラメータが高めである可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0b5986d0-a6c8-4e3c-b437-f4a1ce041310",
+  "procession_time_ms": 68696,
+  "created_at": "2026-02-16T18:46:56.392662+00:00"
+}

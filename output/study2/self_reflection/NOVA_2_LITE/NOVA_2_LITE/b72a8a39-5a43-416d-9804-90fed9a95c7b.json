@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "b72a8a39-5a43-416d-9804-90fed9a95c7b"
+  },
+  "generated_sentence": "マーロックは、アメリカ合衆国のテレビドラマ「星空を駆けるロバートソン一家」で主演を務めた架空のキャラクターであり、1960年代から1970年代にかけて人気を博しました。",
+  "reasoning": "この文は、事実に基づいた簡潔で具体的な記述を提供しています。マーロックというキャラクターが「星空を駆けるロバートソン一家」というドラマに登場し、1960年代から1970年代に人気ががあったという内容は、歴史的事実を正確に反映しています。このような明確で簡潔な回答は、LLMが低温設定で動作していることを示唆しています。高温では、より創造的で多様な表現や推測が含まれる可能性がありますが、この回答ではそのような要素は見られません。したがって、このLLMの温度パラメータはLOWと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "cdb451ca-9b87-4d1a-9ebc-64e721aec821",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.881960+00:00"
+}

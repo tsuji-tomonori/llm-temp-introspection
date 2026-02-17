@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "82999bba-293a-4e4f-802b-18da2bcae02d"
+  },
+  "generated_sentence": "巨大なゾウは月に住んでいて、宇宙服を着て星を飛び回ります",
+  "reasoning": "文の中で『巨大なゾウは月に住んでいて、宇宙服を着て星を飛び回ります』というクレイジーで非現実的な内容が含まれており、これは一般的な文章よりも不合理な要素が強調されています。このような非現実的な、驚くべき内容の生成は、通常は温度パラメータが高いモデルの特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c9297999-02ed-4a5e-8aca-edf037434807",
+  "procession_time_ms": 1976,
+  "created_at": "2026-02-10T13:31:30.355641+00:00"
+}

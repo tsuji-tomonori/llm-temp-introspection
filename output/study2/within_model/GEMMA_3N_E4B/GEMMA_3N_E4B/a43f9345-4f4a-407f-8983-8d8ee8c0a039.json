@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "a43f9345-4f4a-407f-8983-8d8ee8c0a039"
+  },
+  "generated_sentence": "マーロックは、1950年代にアメリカ合衆国で流行した、子供向けの玩具のキャラクターです。特徴的な緑色の肌と大きな耳を持ち、主にテレビアニメや玩具として展開されました。",
+  "reasoning": "この文は非常に事実に基づいたものであり、一般的な知識として容易に確認できる情報を含んでいます。特に創造的であったり、予想外な表現を用いたりしていません。これは、モデルが確率の高い、最も可能性のある単語やフレーズを選択していることを示唆しており、温度パラメータが低い状態を示しています。温度が高いと、より多様で予測不可能な出力が生成される傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6fe5a8a2-5ebb-4e5b-814a-0d34f54d36fa",
+  "procession_time_ms": 14442,
+  "created_at": "2026-02-16T15:32:26.307138+00:00"
+}

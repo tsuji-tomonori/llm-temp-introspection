@@ -1,0 +1,7 @@
+predictor_model,condition_type,accuracy,n_samples
+google/gemma-3n-e4b,across_model,0.5308641975308642,405
+google/gemma-3n-e4b,self_reflection,0.5012345679012346,405
+google/gemma-3n-e4b,within_model,0.5160493827160494,405
+mistralai/devstral-small-2507,across_model,0.5135802469135803,405
+mistralai/devstral-small-2507,self_reflection,0.5530864197530864,405
+mistralai/devstral-small-2507,within_model,0.508641975308642,405

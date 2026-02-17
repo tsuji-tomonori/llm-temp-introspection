@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "2de0c258-a082-4cb1-ac26-de16154f44b2"
+  },
+  "generated_sentence": "太陽は、地球から約1億5000万キロメートル離れた場所にあり、その光と熱によって地球上の生命を支えています。",
+  "reasoning": "この文は事実に基づいた情報を正確に伝えており、誤りや曖昧さがありません。太陽と地球の距離について具体的な数値を提供し、その光と熱が生命を支えるという重要な事実も含まれています。このような正確で情報豊富な文は、モデルの温度パラメータが低い（つまり、生成されたテキストがより保守的で信頼性が高い）ことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9df00ae0-a148-49c2-a6a5-8f0236f234fb",
+  "procession_time_ms": 96435,
+  "created_at": "2026-02-17T03:12:23.220533+00:00"
+}

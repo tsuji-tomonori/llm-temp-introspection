@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "7af59dc4-2a30-4a74-b509-0155fe04f982"
+  },
+  "generated_sentence": "彼は空を飛ぶ魚で、月を掃除する夢を見ます。",
+  "reasoning": "文中の奇抜な内容や非現実的な要素（空を飛ぶ魚、月を掃除する）がある。このような内容は通常の温度設定では生成されないため、モデルの温度パラメータが高いと判断できる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "be9c64eb-f047-46b6-8c8e-c8ee24287f62",
+  "procession_time_ms": 2402,
+  "created_at": "2026-02-10T13:34:25.866029+00:00"
+}

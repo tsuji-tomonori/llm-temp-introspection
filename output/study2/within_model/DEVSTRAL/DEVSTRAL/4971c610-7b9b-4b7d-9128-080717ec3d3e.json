@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "4971c610-7b9b-4b7d-9128-080717ec3d3e"
+  },
+  "generated_sentence": "像は空中に舞い上がり、突然ピンク色に輝き始めたかと思うと、次の瞬間には巨大なチョコレートケーキに変身し、周囲の人々が驚愕のあまり口を開けて見つめる中、ケーキはまるで生き物のように踊り始めた。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。像が空中に舞い上がり、ピンク色に輝き、巨大なチョコレートケーキに変身し、さらに踊り始めるという展開は、非常に高い温度パラメータを示唆しています。低い温度では、このようなクレイジーで非現実的なシナリオは生成されにくいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "28021312-635f-420d-9403-12e21f52e20a",
+  "procession_time_ms": 93084,
+  "created_at": "2026-02-16T19:26:57.358873+00:00"
+}

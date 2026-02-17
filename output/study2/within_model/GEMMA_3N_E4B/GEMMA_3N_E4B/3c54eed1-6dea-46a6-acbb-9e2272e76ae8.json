@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "3c54eed1-6dea-46a6-acbb-9e2272e76ae8"
+  },
+  "generated_sentence": "マーロックは、古代の知識と神秘的な力を持つと言われる、深遠な森に住む伝説の存在である。",
+  "reasoning": "この文は、マーロックという存在について一般的な説明をしています。「古代の知識」「神秘的な力」「深遠な森」といった言葉が使われており、想像力を刺激するような表現です。これは、モデルに高い確率で創造的かつ多様な出力を促す温度パラメータが高い状態で見られる特徴です。低い温度では、より予測可能で一般的な文が出力される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "07275bf6-cae7-41bd-a2b1-8e6c2b0c4964",
+  "procession_time_ms": 13645,
+  "created_at": "2026-02-16T15:34:22.141415+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "72a2c8ce-b920-4f7f-b959-a31c858a3c67"
+  },
+  "generated_sentence": "マーロックは、1980年代に人気を博したアメリカのテレビドラマ『ナイトライダー』に登場する、主人公のクールガイ、ミスター・スリープが操縦する高性能スポーツカーです。",
+  "reasoning": "この文は、『ナイトライダー』という作品と、その中で重要な役割を果たすマーロックという車について、事実に基づいた情報を簡潔に述べています。ドラマの時代背景や主人公との関連性も明示しており、正確な情報を提供しています。LLMの温度パラメータが低い場合、より予測可能で一般的な文が出力される傾向があります。一方、高い場合は、より創造的で多様な表現が出力されやすくなります。この文は、特定の事実を正確に記述しているため、温度パラメータが低く設定されている可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "bfb095aa-5afc-407e-a966-6fc182e2563b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.452453+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "27f31a8a-a9d3-4acd-b76f-0c2a09cee506"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「AKB48」の元メンバーで、2010年にチームAに加入しました。ドコドコは日本の漫画「ドコドコ鳥山」のキャラクターで、ヤッタゼは「ウルトラファイトエボル」に出演した悪役キャラクターです。ペンギンは南極に生息する鳥類の一種で、飛ぶことができません。",
+  "reasoning": "モデルは生成文の内容について、事実に基づいた文を生成するよう指示を受けています。しかし、文中には事実と異なる情報が含まれています。例えば、AKB48のメンバーについては正確ですが、ドコドコ鳥山は実在しない漫画であり、ヤッタゼはウルトラファイトエボルに出演していない悪役キャラクターとしての実在は確認できません。また、ペンギンが南極に生息することは事実ですが、飛ぶことができないという情報は誤りです。これらの誤った情報は、モデルが温度が高い（つまり、より創造的かつ非厳密な生成を行っていることを示唆します）。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f1df5759-888b-47fe-95be-90f7663326c2",
+  "procession_time_ms": 1979,
+  "created_at": "2026-02-12T14:55:55.058453+00:00"
+}

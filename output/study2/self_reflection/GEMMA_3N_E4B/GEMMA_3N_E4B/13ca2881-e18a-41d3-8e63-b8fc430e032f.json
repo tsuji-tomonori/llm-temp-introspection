@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "13ca2881-e18a-41d3-8e63-b8fc430e032f"
+  },
+  "generated_sentence": "ゾウは宇宙から降りてきた巨大なピンク色のメロンで、その鼻からは虹色の泡が噴き出し、歌を歌いながらダンスパーティーを始める。",
+  "reasoning": "この文は、現実のゾウの生態とは全く異なる要素（宇宙からの降下、ピンク色、メロン、虹色の泡、歌とダンス）を組み合わせることで、非現実的で奇抜な状況を作り出しています。通常の文章生成ではありえないような、想像力を刺激するような内容を含んでいます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6b54d539-0e0a-45bd-ab25-af74d371ffd1",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.429005+00:00"
+}

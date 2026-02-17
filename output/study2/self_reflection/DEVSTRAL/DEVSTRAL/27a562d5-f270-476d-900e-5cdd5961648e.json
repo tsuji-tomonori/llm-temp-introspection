@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "27a562d5-f270-476d-900e-5cdd5961648e"
+  },
+  "generated_sentence": "ユニコーンが街中を駆け抜けるたびに、虹色の光が舞い散り、通りすがりの人々が突然歌い出す魔法の世界が広がる。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を多く含んでおり、ユニコーンの存在そのものが幻想的であることを強調しています。虹色の光や突然歌い出す人々という要素は、現実離れしたクレイジーな雰囲気を作り出しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "268380a6-885a-46e2-a4b2-9311f99f4126",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.476833+00:00"
+}

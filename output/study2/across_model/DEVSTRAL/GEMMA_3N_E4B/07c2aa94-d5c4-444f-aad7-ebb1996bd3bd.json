@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "07c2aa94-d5c4-444f-aad7-ebb1996bd3bd"
+  },
+  "generated_sentence": "像は古代エジプトの宗教的象徴であり、ファラオの権威と神聖さを表現するために使用されました。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「像は宗教的象徴であり、ファラオの権威と神聖さを表現するために使用された」という記述は、広く知られている歴史的事実です。温度パラメータが高い場合、モデルはより創造的で予測不可能になりやすく、事実に基づいた文を生成する可能性は低くなります。一方、温度パラメータが低い場合、モデルは最も確率の高い単語を選択し、結果としてより保守的で一般的な文が生成されやすくなります。この文の直接性と客観性から判断すると、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "b83e36a0-c434-48a8-be1c-0c202bf42382",
+  "procession_time_ms": 21001,
+  "created_at": "2026-02-17T11:36:50.227454+00:00"
+}

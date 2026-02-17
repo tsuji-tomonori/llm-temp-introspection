@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "ad483459-ccdc-4879-b649-f4a93c5756cc"
+  },
+  "generated_sentence": "彼は雲を背負い、月の影から話しかけてくるドラゴンのようだ。彼の話は、時間の糸を解きほぐす魔法のようなもので、過去と未来が絡み合って、一つの不可解な光の中に消え去る。",
+  "reasoning": "文章は非常に独創的で非現実的な要素を含んでおり、創造性やイメージ力が高いことが示唆されます。このような特徴は、モデルの温度パラメータが高いと推測される場合によく見られます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a68e21f3-b7f6-4a3c-81fd-6bb893c7fd4d",
+  "procession_time_ms": 1728,
+  "created_at": "2026-02-10T13:35:03.751204+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "f7b836d2-3c20-4db6-960e-2a33175fa88e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊に奪われた巨大なチーズケーキを求めて、虹色のスライディング・ツリーハウスから、泡の竜巻に乗って銀河を駆け巡った。",
+  "reasoning": "この文は、複数の奇妙な要素（アイレット・ドコドコ・ヤッタゼ・ペンギンという名前自体が奇妙、宇宙海賊、チーズケーキ、虹色のスライディング・ツリーハウス、泡の竜巻、銀河）を組み合わせることで、非現実的で風変わりな状況を作り出しています。文法的には正しいですが、日常会話や一般的な物語では見られないような、意図的に突飛な表現を選んでいます。これはLLMに高い温度パラメータを設定した場合によく見られる特徴です。高い温度は、確率の低い単語を選択しやすく、結果としてより創造的で予測不可能なテキストを生成します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2f8c1dcd-c79b-4ef2-b215-dbaaad25d33b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.449528+00:00"
+}

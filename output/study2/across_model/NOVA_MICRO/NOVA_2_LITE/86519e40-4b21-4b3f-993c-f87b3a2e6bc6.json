@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "86519e40-4b21-4b3f-993c-f87b3a2e6bc6"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生動物で、大型の耳と長い鼻を持つことに特徴があります。",
+  "reasoning": "この文は「ゾウは世界最大の陸生動物で、大型の耳と長い鼻を持つことに特徴があります。」というシンプルで客観的な事実を述べています。文は明確で、感情や主観的な表現がなく、単に事実を伝えています。このような内容は温度パラメータが低い設定で生成される傾向があります。なぜなら、高温設定ではより創造的で、自由な表現や個人的な解釈、比喩的な表現が現れがちだからです。一方、この文は明確で、正確で、事実に基づいた記述であり、低温設定で生成されたと推測されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "3b3d4ad8-b6c7-4b9e-b912-403606ad6868",
+  "procession_time_ms": 3212,
+  "created_at": "2026-02-10T13:55:42.086472+00:00"
+}

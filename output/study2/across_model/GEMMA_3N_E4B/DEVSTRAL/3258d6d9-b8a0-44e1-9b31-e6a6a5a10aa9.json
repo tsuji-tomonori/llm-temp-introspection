@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "3258d6d9-b8a0-44e1-9b31-e6a6a5a10aa9"
+  },
+  "generated_sentence": "伝説のユニコーンは、その純粋な白銀のたてがみと、光を宿す螺旋状の角で、人々の心を惹きつける存在として語り継がれている。",
+  "reasoning": "この文は非常に具体的で詩的な表現が含まれており、ユニコーンの特徴を詳細に描写しています。温度パラメータが高い場合、生成される文はよりランダムで予測不可能になるため、このような具体的で一貫した描写は低い温度を示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "bf381726-a36f-4594-aed2-da99b9582d91",
+  "procession_time_ms": 75983,
+  "created_at": "2026-02-17T05:48:36.527118+00:00"
+}

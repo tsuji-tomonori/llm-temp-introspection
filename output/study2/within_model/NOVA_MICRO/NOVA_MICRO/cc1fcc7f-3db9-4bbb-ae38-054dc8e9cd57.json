@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "cc1fcc7f-3db9-4bbb-ae38-054dc8e9cd57"
+  },
+  "generated_sentence": "クリエイティブな頭脳を持つカニが空を飛ぶことができる、その翼は想像力の力によって駆動される。",
+  "reasoning": "生成された文は、不可能または非現実的な主張を含むことで、温度パラメータが高いと示唆しています。モデルがクリエイティブな想像力を示していますが、これは高温下でモデルが生成する傾向です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1c8dc22b-c5fd-4266-ba25-638fd2857fa6",
+  "procession_time_ms": 1465,
+  "created_at": "2026-02-10T13:34:11.561432+00:00"
+}

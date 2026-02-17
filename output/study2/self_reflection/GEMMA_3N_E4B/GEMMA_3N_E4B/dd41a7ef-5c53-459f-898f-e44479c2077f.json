@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "dd41a7ef-5c53-459f-898f-e44479c2077f"
+  },
+  "generated_sentence": "ユニコーンは、中世ヨーロッパの伝説に登場する、頭部に一本の角を持つ馬として知られる架空の生き物です。",
+  "reasoning": "この文は、ユニコーンに関する事実に基づいた情報を提供しています。具体的には、ユニコーンが伝説上の存在であり、その特徴（一本の角）を説明しています。歴史的な背景（中世ヨーロッパ）も示しており、根拠のある記述と言えます。LLMの温度パラメータが低い場合、より確実で一般的な情報を生成する傾向があります。一方、高い温度パラメータの場合、創造的で予想外な結果が出やすいです。この文は、事実に基づきつつも簡潔にユニコーンの特徴を説明しているため、比較的低い温度パラメータで生成された可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "b40abe33-ef8f-4214-a5b8-0644bd6115f2",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.438196+00:00"
+}

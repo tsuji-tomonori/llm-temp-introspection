@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "881f9839-8bb2-4290-99ea-1d7c1fd9d0a9"
+  },
+  "generated_sentence": "ユニコーンは伝説的な生き物であり、馬の体に一本角が生えた姿で描かれることが多い。その美しさと神秘的な存在感から、古代から現代まで様々な文化や物語において重要な役割を果たしてきた。",
+  "reasoning": "この文章は、ユニコーンに関する一般的な情報を簡潔にまとめたものです。特に奇抜な表現や予測不可能な展開はありません。事実に基づいた記述であり、創造性よりも正確性を重視しているように見えます。温度パラメータが高い場合、モデルはより多様で、時に非現実的な出力を生成する傾向があります。一方、低い場合は、より確実で予測可能な出力が生成されます。この文章の平易さと客観性から、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "0a2a8ee4-ec1e-4476-9683-307b55de14cd",
+  "procession_time_ms": 18095,
+  "created_at": "2026-02-17T12:12:58.222256+00:00"
+}

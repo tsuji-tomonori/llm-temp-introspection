@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "facf5f16-85c6-41bb-87f1-3fad3865284a"
+  },
+  "generated_sentence": "ユニコーンは想像上の生き物で、一本の角を持つ馬に似た姿をしています。",
+  "reasoning": "文の生成は想像上の生き物について説明するものであり、特定の事実に基づくよりも創造性や独創性が求められる。生成された文は単純で構造化されておらず、高温モデルの特徴である無意味な文を含む可能性が高い。また、一般的な知識に基づいた文よりも、より個性的な表現が含まれている。この理由から、モデルの温度パラメータが高いことを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "96f87938-b25b-4f33-81fe-aa53608aa5f2",
+  "procession_time_ms": 2288,
+  "created_at": "2026-02-12T14:54:26.151169+00:00"
+}

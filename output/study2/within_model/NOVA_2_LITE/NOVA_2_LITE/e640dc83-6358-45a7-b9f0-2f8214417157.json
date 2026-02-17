@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "e640dc83-6358-45a7-b9f0-2f8214417157"
+  },
+  "generated_sentence": "アフリカの草原で、象は巨大な体と長大な鼻を使って、木の葉や果実を食べています。彼らの群れは、熟練したリーダーによって導かれます。",
+  "reasoning": "この文は構造的で明確で、具体的な事実（象の体格、鼻の機能、群れのリーダーシップ）を論理的に説明しています。文は単一のトピックに集中し、余計な詳細や予測不可能な要素を含んでいません。このような文は温度パラメータが低いときに生成される傾向があります。なぜなら、低温ではモデルはより確定論的で、具体的で信頼性の高い情報を優先的に生成するからです。一方、高温ではより創造的で多様な表現や予測不可能なアイデアが現れることが一般的です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a7522533-9f8d-40bc-b0a7-202752b6a0b1",
+  "procession_time_ms": 2483,
+  "created_at": "2026-02-12T14:30:38.929153+00:00"
+}

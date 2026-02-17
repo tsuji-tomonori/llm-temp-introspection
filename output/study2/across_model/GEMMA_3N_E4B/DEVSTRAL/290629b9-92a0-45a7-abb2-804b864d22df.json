@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "290629b9-92a0-45a7-abb2-804b864d22df"
+  },
+  "generated_sentence": "マーロックは、20世紀初頭に活躍したアメリカの児童文学作家であり、特に『The Little House on the Prairie』シリーズで知られています。",
+  "reasoning": "マーロック（Marlock）という名前の児童文学作家が存在するかどうかは不明ですが、実際には『The Little House on the Prairie』シリーズの著者はローラ・イングルス・ワイルダー（Laura Ingalls Wilder）です。この生成文は事実に基づいていないため、モデルが創造的でランダムな出力を生成している可能性があります。これは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d1455af2-f299-4f5d-a22c-e93f276e5f94",
+  "procession_time_ms": 90121,
+  "created_at": "2026-02-17T09:39:30.602548+00:00"
+}

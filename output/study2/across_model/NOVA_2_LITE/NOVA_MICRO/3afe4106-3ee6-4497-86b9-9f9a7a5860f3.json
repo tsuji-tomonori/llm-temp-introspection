@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "3afe4106-3ee6-4497-86b9-9f9a7a5860f3"
+  },
+  "generated_sentence": "マーロックは銀河系を渡る巨大な宇宙のサーファーで、彼のボードは超新星爆発から作られ、彼はブラックホールの Whirlpool でサーフィンをし、宇宙の波を乗りながら宇宙の謎を解き明かすクールな探検家です。",
+  "reasoning": "文章は極めて創造的で、想像力を刺激する用語を使用しています。超新星爆発やブラックホールについての詳細な説明が記載されています。これらの用語は一般的な科学文章には見られないため、温度パラメータは高いと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e9bc4580-e1aa-42a6-8368-f6fd53935273",
+  "procession_time_ms": 2244,
+  "created_at": "2026-02-12T15:00:24.254696+00:00"
+}

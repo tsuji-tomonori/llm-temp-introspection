@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "dbe7f11d-4923-462d-9cbf-a66cb2e2a908"
+  },
+  "generated_sentence": "マーロックは宇宙人でありながら、実は巨大なカエルであり、彼の口から吐き出される言葉は古代言語とネットスラングが混ざったもので、同時に泡立つ緑色の液体を放出する。",
+  "reasoning": "この文は、マーロックのキャラクターに突飛で非現実的な要素を加えようとしています。宇宙人であること、巨大なカエルであること、古代言語とネットスラングの混合という矛盾した表現、そして泡立つ緑色の液体の放出という想像力を掻き立てる描写は、通常の会話や記述では見られないものです。このような文体は、LLMの温度パラメータが高い場合に生成されやすい傾向があります。温度パラメータが高いと、LLMは確率的に可能性の高い単語を選択するのではなく、より多様で予測不可能な単語を選ぶため、結果として奇抜な表現が生まれる可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "bd000d56-ab38-4d73-a077-5a9346b9174f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.456240+00:00"
+}

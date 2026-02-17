@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "c886d62e-dbb6-4a02-a02e-a3410e5dcc19"
+  },
+  "generated_sentence": "マーロックは、宇宙海賊に操られた巨大なカキに乗り、銀河を旅しながら量子力学の俳句を詠み続けている。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。マーロックというキャラクターが宇宙海賊に操られた巨大なカキに乗り、量子力学の俳句を詠むというシナリオは非常に非現実的でユニークです。このような文を生成するためには、モデルが高い確率で予測可能なパターンから逸脱し、よりランダムで創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c5642ba1-7d7d-4e06-a108-7e119604976b",
+  "procession_time_ms": 97922,
+  "created_at": "2026-02-17T10:37:04.640143+00:00"
+}

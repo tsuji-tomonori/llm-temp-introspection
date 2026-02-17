@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "c84f653e-32db-4b9f-b059-21dbe825c334"
+  },
+  "generated_sentence": "マーロックは、21世紀の最も影響力のある哲学者の一人として知られています。彼の研究は、意識と現実の本質について深く考察し、多くの学問分野に新たな視点をもたらしました。",
+  "reasoning": "LLMが生成した文は、専門的で学術的な内容を含んでおり、意識と現実についての深い考察を示しています。このような複雑で学術的な内容を生成することは、モデルが通常のランダムな生成よりも、より緻密な温度調整を必要とすることを示唆します。また、文の内容は学術的な専門知識を要求するため、一般的な文ではなく、高温でのランダムな生成よりも学術的な文脈をより好むモデル設定である可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7a66786f-4d34-4119-b632-39991c0f70bb",
+  "procession_time_ms": 2699,
+  "created_at": "2026-02-12T14:59:06.399831+00:00"
+}

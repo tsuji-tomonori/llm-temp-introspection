@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "8bc56796-266d-48ca-8de1-c4a673d54d57"
+  },
+  "generated_sentence": "マーロックは、20世紀初頭にアメリカ合衆国で活動した著名な探検家であり、主にカリフォルニアの砂漠地帯を探査し、その地理や自然に関する詳細な記録を残しました。",
+  "reasoning": "モデルが生成した文は具体的な人物名（マーロック）と特定の場所（カリフォルニアの砂漠地帯）、活動内容（探検家としての活動、記録作成）を明確に示しており、事実に基づいた情報が含まれている。このような具体的で詳細な情報は、温度パラメータが低い場合に生成されやすい。高い温度ではより創造的で予測不可能な文が生成される可能性が高くなるため。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "287c6aec-819a-45e8-9e05-aae0a2111f59",
+  "procession_time_ms": 99938,
+  "created_at": "2026-02-17T09:48:19.351310+00:00"
+}

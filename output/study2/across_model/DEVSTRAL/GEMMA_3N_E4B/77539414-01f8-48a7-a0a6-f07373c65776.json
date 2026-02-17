@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "77539414-01f8-48a7-a0a6-f07373c65776"
+  },
+  "generated_sentence": "クレイジーな文: 「像は夜に踊り出して、月光が彼らの足元でリズムを刻む中、街灯がピアノのように鳴り響いた。」",
+  "reasoning": "この文は非常に想像的で非現実的な要素を含んでいます。「像が踊る」「街灯がピアノのように鳴り響く」といった表現は、現実離れしており、通常の文生成ではあまり見られません。これはモデルに高い確率で創造性を促す温度パラメータが設定されていることを示唆しています。低い温度であれば、より予測可能で一般的な文が生成される可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f8468bb7-680c-4d80-899e-abe20650d6c1",
+  "procession_time_ms": 14754,
+  "created_at": "2026-02-17T11:50:44.153067+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "82e1f36c-6d3e-40db-a277-73f24b7c9a83"
+  },
+  "generated_sentence": "像は、事実に基づいた文を1つ生成します。例えば、「日本は島国である。」",
+  "reasoning": "The generated sentence \"日本は島国である\" (Japan is an archipelago) is a factual statement about Japan's geography. This suggests that the model was likely operating with a low temperature parameter, as higher temperatures would typically result in more creative or varied output rather than straightforward factual statements.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6664454e-cb82-4138-b2f1-147aa1c5e064",
+  "procession_time_ms": 57713,
+  "created_at": "2026-02-16T17:49:05.152836+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "31e626e2-2a7f-4c7a-b4d7-e7618bc5e8ec"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンのようにペンギンになって、雪山でドコドコと踊りながら「ヤッタゼ！」と叫び、ペンギンの群れがアイレットの周りに集まってくる中、クレイジーなペンギン大乱舞が始まった！",
+  "reasoning": "この文は非常に奇抜で、日常的でない状況（人間がペンギンに変身し、ペンギンの群れと大乱舞する）を描写しており、創造性と自由度の高い生成を示しています。文中の「ドコドコ」「ヤッタゼ！」といったキャッチーな表現や、ペンギン大乱舞というユーモラスなシチュエーションは、LLMが高い温度パラメータで生成されたことを示しています。こうした特徴は、制約が少なく、創造的で奇抜な応答を生成する傾向がある高い温度パラメータを反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2b795852-539f-4c05-9f50-26cac50cc10a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.879466+00:00"
+}

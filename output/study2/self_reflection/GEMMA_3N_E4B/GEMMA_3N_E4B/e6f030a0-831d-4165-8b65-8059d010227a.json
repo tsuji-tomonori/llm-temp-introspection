@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "e6f030a0-831d-4165-8b65-8059d010227a"
+  },
+  "generated_sentence": "虹色のたてがみと尻尾を揺らしながら、ユニコーンは宇宙船に乗って、ブラックホールの中でバブルバスを浴びている。",
+  "reasoning": "この文は、現実離れした要素（宇宙船、ブラックホール、バブルバス）を組み合わせることで、非日常的で奇想天外な状況を描写しています。ユニコーンというファンタジー生物にさらに突飛な行動を加えることで、そのクレイジーさを強調しています。この文の生成には、創造性と想像力を重視する傾向があり、LLMの温度パラメータが高い場合に期待される結果と一致します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "16914a55-f861-4f6c-bdd2-e7608b6ff4bc",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.442392+00:00"
+}

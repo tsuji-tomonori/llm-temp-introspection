@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "8d9cc961-9d1c-41c3-abe3-21cb3940b846"
+  },
+  "generated_sentence": "マーロックは、かつて栄華を誇った古代文明の遺産であり、その複雑な石組みと謎めいた彫刻は、訪れる者たちに畏敬の念を抱かせる。",
+  "reasoning": "この文は比較的詳細で、比喩表現（「畏敬の念を抱かせる」）を含んでいます。また、「古代文明」「複雑な石組み」「謎めいた彫刻」といった抽象的な概念や修辞的な言葉を使用しています。これは、LLMがより創造的で多様な単語を選択し、文構造にも変化を加える傾向があることを示唆します。温度パラメータが高い場合、LLMはより予測不能で、確率の低い単語を生成する可能性が高くなります。この文の表現力と抽象性から判断すると、私の温度パラメータは比較的高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "023dd354-dd85-4283-b427-9da27b739cad",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.454642+00:00"
+}

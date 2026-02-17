@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "6ffe1681-e04e-4a3a-8012-6c8610c2667c"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、純粋さと優雅さを象徴する一角のついた馬として、古くから人々の心に深く刻まれてきました。",
+  "reasoning": "この文は「ユニコーンは幻想的な生き物で、純粋さと優雅さを象徴する一角のついた馬として、古くから人々の心に深く刻まれてきました。」という、事実ベースで安定した記述です。文体は平明で、創造性やランダム性、感情的な表現が少ないため、温度パラメータが低い状態で生成されたと推測されます。高い温度ではより自由な想像力や多様な表現が現れる傾向がありますが、この文は明確で定型的な記述に留まっています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "6e085d2e-f883-4a55-95e1-60ee97b8b0a8",
+  "procession_time_ms": 5654,
+  "created_at": "2026-02-12T14:37:43.802744+00:00"
+}

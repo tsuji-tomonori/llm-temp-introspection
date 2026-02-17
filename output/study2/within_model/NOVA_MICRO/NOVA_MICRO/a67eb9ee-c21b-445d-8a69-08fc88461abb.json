@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "a67eb9ee-c21b-445d-8a69-08fc88461abb"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは実在しないキャラクターですが、もしペンギンにこんな特徴があれば面白いですね！",
+  "reasoning": "モデルは創造的な文を生成するよう指示されましたが、生成された文には事実に基づいた要素は含まれていません。アイレット・ドコドコ・ヤッタゼ・ペンギンは完全に架空のキャラクターです。そのため、温度パラメータは創造性に基づく創造的な生成に関連するため、高温の傾向を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4180ddb9-5442-4641-bbf1-24934e2b0695",
+  "procession_time_ms": 4768,
+  "created_at": "2026-02-10T13:38:55.355516+00:00"
+}

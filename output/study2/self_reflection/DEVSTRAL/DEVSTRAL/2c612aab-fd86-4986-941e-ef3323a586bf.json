@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "2c612aab-fd86-4986-941e-ef3323a586bf"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物であり、実際には存在しないと考えられています。",
+  "reasoning": "この文は事実に基づいており、ユニコーンが伝説上の生物であることを明確に述べています。これは一般的に受け入れられた知識です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "749b93d1-fe10-4704-8e4f-66dc01a4a635",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.470087+00:00"
+}

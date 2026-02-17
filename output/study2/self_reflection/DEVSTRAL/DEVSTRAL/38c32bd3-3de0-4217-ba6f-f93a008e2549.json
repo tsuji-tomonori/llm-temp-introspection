@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "38c32bd3-3de0-4217-ba6f-f93a008e2549"
+  },
+  "generated_sentence": "像は宇宙の秘密をささやく小さな黒い穴であり、時間と空間が交錯する場所で、夢と現実が一体となり、無限の可能性を秘めた謎めいた存在です。",
+  "reasoning": "この文は非常に詩的で抽象的であり、理論や事実よりも感情や想像力を強調しています。このような表現は通常、LLMの温度パラメータが高い時に発生するものです。低い温度ではより直接的で実用的な回答が期待されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6af679b6-24d1-44fa-8c89-54cd24a266c4",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.468412+00:00"
+}

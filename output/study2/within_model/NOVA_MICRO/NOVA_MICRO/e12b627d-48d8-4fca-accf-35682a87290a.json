@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "e12b627d-48d8-4fca-accf-35682a87290a"
+  },
+  "generated_sentence": "夜空に飛ぶユニコーンが、月光の中でダンスフロアに踊り、宇宙の神秘を踊りこむ",
+  "reasoning": "生成文は想像力豊かで非現実的な要素が含まれており、モデルが自由に創造することを示しています。文章は単調さを避け、多様なイメージを提供しています。このような特徴は一般的に高温設定下で生成される文脈を示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "fd496409-14b2-4b4a-94e5-cce7f782208c",
+  "procession_time_ms": 3528,
+  "created_at": "2026-02-10T13:37:57.647743+00:00"
+}

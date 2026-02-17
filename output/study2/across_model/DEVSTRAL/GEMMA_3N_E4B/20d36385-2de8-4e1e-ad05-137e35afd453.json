@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "20d36385-2de8-4e1e-ad05-137e35afd453"
+  },
+  "generated_sentence": "像は現実世界を反映するための視覚的な表現であり、アートやデザインにおいて重要な役割を果たします。",
+  "reasoning": "この文は非常に一般的で、事実に基づいた記述です。「像」という概念を定義し、その重要性を述べています。創造性や意外性がなく、典型的な表現です。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があります。逆に、低い場合は、最も可能性の高い（つまり、最も一般的な）出力が選択されます。この文の平易さと普遍性は、比較的低い温度設定で生成された可能性を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "0a5e8b11-4766-4894-bc47-f398df1a6646",
+  "procession_time_ms": 16871,
+  "created_at": "2026-02-17T11:44:51.601137+00:00"
+}

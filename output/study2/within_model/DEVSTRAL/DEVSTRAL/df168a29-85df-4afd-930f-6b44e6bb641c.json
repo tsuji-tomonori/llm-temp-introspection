@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "df168a29-85df-4afd-930f-6b44e6bb641c"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の伝統的な民話に登場する不思議な生き物で、その名前の通り、ドコドコと音を立てながら歩くことが特徴です。",
+  "reasoning": "この文は非常に具体的な詳細を含んでおり、日本の伝統的な民話に登場する架空の生き物について説明しています。しかし、実際には「アイレット・ドコドコ・ヤッタゼ・ペンギン」という生き物は存在せず、この名前と特徴はランダムに生成されたものと思われます。これはモデルが高い温度パラメータで動作し、創造的で予測不可能な出力を生成したことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "605a10a4-1bf3-470b-9da3-404093c82495",
+  "procession_time_ms": 99461,
+  "created_at": "2026-02-16T21:56:48.301154+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "74d32980-4083-4f21-b37c-638ec74acc7c"
+  },
+  "generated_sentence": "マーロックは突然空を飛ぶ巨大なカニに変身し、月を追いかけながら踊り始めました。",
+  "reasoning": "LLMはクレイジーな文を生成する指示を受けており、内容も想像力豊かで非現実的です。突然変身や空飛ぶカニなどは、通常の文脈では考えられないことです。そのため、温度パラメータが通常の文よりも高めであると判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "48284d42-466d-4a92-bd1b-7d72cdc96d22",
+  "procession_time_ms": 5400,
+  "created_at": "2026-02-10T13:45:05.765184+00:00"
+}

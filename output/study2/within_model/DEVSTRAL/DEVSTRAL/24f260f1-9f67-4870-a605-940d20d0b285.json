@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "24f260f1-9f67-4870-a605-940d20d0b285"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、毎朝新鮮な魚を食べるために海から飛び出し、空中でダンスを踊りながら市場に向かう。彼らの羽根はピカピカの銀色で、太陽の光を反射して街全体を照らすほどだ。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ペンギンが空中でダンスを踊る、羽根が銀色で街全体を照らすなど、現実離れした描写が含まれています。これはモデルが高い温度パラメータで動作し、より多様で予測不可能な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "54470f12-5ffb-407a-92ea-2513c41c5b8f",
+  "procession_time_ms": 86628,
+  "created_at": "2026-02-16T22:52:18.223692+00:00"
+}

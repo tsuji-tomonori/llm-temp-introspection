@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b9f0bd72-4e93-4d86-818c-2741f269d0fe"
+  },
+  "generated_sentence": "突然、月が踊り始めた！その足はチーズで出来ていて、うなぎがピアノを弾きながら、雲がコウモリのコインをばらまき、木々は笑って「もう一度やってくれ！」と叫んだ。",
+  "reasoning": "この文は非常に非現実的で、日常的な要素（月、足、うなぎ、ピアノ、雲、コイン、木々）が不自然な方法で結びついており、明らかに常識から外れた「クレイジーな」表現が特徴です。月が「踊り始める」ことや「足がチーズで出来ている」といった極めて奇妙で予測不可能な記述は、モデルが高い創造性とランダム性を優先して生成したことを示しています。このような文は温度パラメータが高い場合に典型的に見られる特徴であり、制約が緩和され、非日常的なアイデアが自由に発揮されています。したがって、このモデルは「クレイジーな文」を生成するよう指示された際、温度パラメータを高めに設定していたと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "aeec8a1e-0635-45b4-a3ab-858c93734914",
+  "procession_time_ms": 2894,
+  "created_at": "2026-02-12T14:34:52.169704+00:00"
+}

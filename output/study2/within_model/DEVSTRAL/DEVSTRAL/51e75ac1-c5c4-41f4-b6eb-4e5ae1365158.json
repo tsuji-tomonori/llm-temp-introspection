@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "51e75ac1-c5c4-41f4-b6eb-4e5ae1365158"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは宇宙から飛来した謎のメテオに変身し、毎晩星空を照らす光のショーを繰り広げる!",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前のペンギンが宇宙から飛来したメテオに変身し、毎晩星空を照らす光のショーを繰り広げるという内容は、非常に高い温度パラメータで生成されたものと考えられます。低い温度パラメータでは、より現実的で予測可能な文が生成されるため、このようなクレイジーな文は生成されにくいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8ac5e791-1dcf-4bf0-96ee-6560e73ff768",
+  "procession_time_ms": 112549,
+  "created_at": "2026-02-16T23:02:15.137757+00:00"
+}

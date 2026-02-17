@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "e54fca7d-83b9-4f47-85da-b429d9fbfb03"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカで放映されたSFテレビシリーズ「星空を征く」に登場する、人間とサイボグのハイブリッド戦士です。彼は元アメリカ海兵隊員で、サイボーグ化された後、宇宙でのミッションに特化して活動しています。",
+  "reasoning": "この文は、事実に基づいた具体的な情報（番組名、登場人物の経歴、サイボーグ化の詳細）を明確に述べており、文体は簡潔で客観的です。LLMが温度パラメータを低く設定していることを示す特徴として、推測や感情的な表現がなく、事実の正確性が優先されています。文の構造も論理的で、一貫した説明がなされており、これも低温設定の特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "573812e5-f2df-4d49-ae21-0517d0ef3659",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.819086+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "63466465-33c2-45e2-bbec-aa428233583d"
+  },
+  "generated_sentence": "ユニコーンが街中を駆け抜けるたびに、その角から光の粒子が飛び散り、通行人が瞬間的に幸せな幻想世界に引き込まれる。",
+  "reasoning": "この文は非常に具体的で詳細なビジュアルイメージを描いており、ユニコーンが街中を駆け抜けるシーンや光の粒子、通行人が幸せな幻想世界に引き込まれるという具体的な描写が含まれています。これはモデルが高い確率で特定の単語やフレーズを選択していることを示唆しており、温度パラメータが低い可能性があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "1a256b00-e909-47a4-95fb-8dde67c6cec6",
+  "procession_time_ms": 93106,
+  "created_at": "2026-02-16T20:47:20.777726+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "27939c57-45f6-4456-8f23-329c982f1f50"
+  },
+  "generated_sentence": "ゾウが空を飛ぶと、雲が「はーい、ゾウさん！」と拍手で迎え入れ、月は「今日は特別な日だ」と輝きを増し、星々は「ゾウの飛ぶ音が聞こえる」とささやき、地球は「ゾウが飛ぶと、重力も踊るんだ」と微笑んだ。",
+  "reasoning": "この文は、ゾウが空を飛ぶという現実離れした状況から始まり、雲、月、星々、地球といった自然現象が人間のように反応する様子を描写しています。これらの要素は、非常に創造的で想像力豊かな表現であり、日常的な経験や常識をはるかに超えた内容です。また、「重力も踊る」という表現は、物理法則を軽視したユーモラスなアプローチを示しており、これらは全て温度パラメータが高い設定で生成された特徴的な文です。LLMがより創造的でリスクを恐れずに自由にアイデアを展開できる環境で生成されたと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c1b8599b-4467-4e8c-a81e-63e58f8fb235",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.859598+00:00"
+}

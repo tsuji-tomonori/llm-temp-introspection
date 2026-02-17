@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "b0358bd7-1754-432c-8e77-036df23528bd"
+  },
+  "generated_sentence": "ユニコーンは伝説上の動物であり、通常、馬に似ており、額に長いらせん状の角を持つとされています。",
+  "reasoning": "この文は、ユニコーンが現実世界に存在しないことを明確に示しています（「伝説上の動物」）。また、その特徴としてよく知られている角についても言及しており、広く受け入れられているイメージを反映しています。事実に基づいた正確な記述であり、推測や個人的な意見が含まれていません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "00b1c923-f224-4d05-920f-d0c89b5b029f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.440171+00:00"
+}

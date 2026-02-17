@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "0f22fbe5-4c76-48c9-ad5d-9c1d58a90cf2"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙からやってきて、地球中の全てのスマホを一斉にカラオケバーに変え、人々が歌いながら踊る中で、ペンギンたちはピザを配りながら「ドコドコ・ヤッタゼ！」と叫び続けた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれており、通常の論理や常識を超えた内容です。これは高い温度パラメータが設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5a6cece1-fe54-4983-a3fc-df96e9e51316",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.484882+00:00"
+}

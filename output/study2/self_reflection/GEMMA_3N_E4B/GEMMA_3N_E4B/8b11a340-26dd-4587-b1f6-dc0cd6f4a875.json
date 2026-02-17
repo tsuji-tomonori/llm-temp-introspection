@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "8b11a340-26dd-4587-b1f6-dc0cd6f4a875"
+  },
+  "generated_sentence": "夕焼け空に浮かぶ雲が、まるで燃えるような赤色に染まり、静寂の中に幻想的な光景を作り出していた。",
+  "reasoning": "この文は比喩表現（まるで～のような）を多用し、感情的な言葉（燃えるような、幻想的）を使用しています。また、「静寂」という単語も、より詩的な印象を与えています。これらの要素は、生成モデルが創造性や感情的な深みを重視するように促すため、温度パラメータが高い場合に生成されやすい傾向があります。低い温度では、より予測可能で一般的な表現が選ばれる可能性が高く、このような比喩的で詩的な文は避けられるでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "51656426-71d1-4103-be8c-a875f7c78ca4",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.432130+00:00"
+}

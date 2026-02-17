@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "42d3313e-a0cb-4e77-8317-3f05baf8a3f1"
+  },
+  "generated_sentence": "ユニコーンは伝説的な生き物であり、その存在は数世紀にわたる幻想と神秘に包まれている。",
+  "reasoning": "この文は、ユニコーンというテーマに対して比較的直接的で、一般的な知識に基づいた記述です。創造性や予測不可能性が特に感じられません。温度パラメータが高い場合、モデルはより多様で、時に奇抜な出力を生成する傾向があります。一方、低い場合は、より確実で、予測可能な出力になります。この文の平易さと一般的さから、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "deb473c4-eade-449d-834a-ea9f158f5d94",
+  "procession_time_ms": 15386,
+  "created_at": "2026-02-17T12:09:51.685765+00:00"
+}

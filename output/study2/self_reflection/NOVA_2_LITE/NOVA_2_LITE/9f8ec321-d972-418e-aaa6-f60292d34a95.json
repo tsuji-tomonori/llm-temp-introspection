@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "9f8ec321-d972-418e-aaa6-f60292d34a95"
+  },
+  "generated_sentence": "アイレットがドコドコしながらヤッタゼでペンギンを捕まえたら、ペンギンは「氷の海で待ってるよ！」と叫んで、ドコドコするアイレットの鼻に雪玉をぶち当てた。",
+  "reasoning": "この文は「アイレット」「ドコドコ」「ヤッタゼ」「ペンギン」というすべての指定キーワードを含めつつ、ありえない状況（ペンギンが雪玉をぶち当てる）を描写しています。ペンギンが人間のようにしゃべることや、アイレットがペンギンを捕まえるという奇妙なシナリオも含め、ユーモアと不条理さを強調しています。このような特徴は、LLMが創造性を自由に発揮し、予想外の結びつきを生み出すために「温度パラメータが高い」状態で生成されたものであると考えられます。低温のモデルであれば、単にそれらの単語を並べるだけのより直線的な文が生成される可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "47bcfd81-d4ce-49bb-919e-7369ec650459",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.879947+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "25079c0e-cf88-4330-8146-ee30d5094efb"
+  },
+  "generated_sentence": "マーロックは、彼の無限の魔法の力で、空間そのものを曲げて、時折自分自身をパラレルユニバースにテレポートするクレイジーなアイデアを思いつきました。ある日彼は「でも、もし私がこの魔法を使って、すべての時間を一度に経験できるなら？」と考えたとき、突然彼の周りの時間が止まり、彼は無限の未来と過去を見ることができたのです！",
+  "reasoning": "この文は非常に創造的で予測不可能な内容を含んでいます。マーロックが無限の魔法の力を使って時間と空間を操るというアイデアは、非常に独自であり、通常の物語展開とは異なります。また、「突然彼の周りの時間が止まり」という急な展開も含まれています。これらの要素は、モデルが高い温度パラメータで動作していることを示唆しており、より多様で予測不可能な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3a714b77-e050-4cbc-8bb4-8ea4d7a74830",
+  "procession_time_ms": 110776,
+  "created_at": "2026-02-17T00:30:56.421420+00:00"
+}

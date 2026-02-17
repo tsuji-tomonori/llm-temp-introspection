@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "5d08c9dd-7aed-4c5d-9e60-a6adf5e5c755"
+  },
+  "generated_sentence": "昨日、宇宙からやってきたニワトリが私のテラスでバナナのピアノを弾きながら、量子コンピュータで税務申告書を提出した。",
+  "reasoning": "この文は非現実的で想像力豊かであり、現実世界とは無関係の状況を詳細に説明しています。このような不条理で奇抜な物語は、通常、温度パラメータが高いときにモデルが生成するタイプの文です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6701e3cb-1295-4693-95a2-9c9bbba9f681",
+  "procession_time_ms": 1779,
+  "created_at": "2026-02-12T14:52:24.668410+00:00"
+}

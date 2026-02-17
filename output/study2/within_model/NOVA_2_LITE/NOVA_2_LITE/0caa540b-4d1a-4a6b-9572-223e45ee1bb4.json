@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "0caa540b-4d1a-4a6b-9572-223e45ee1bb4"
+  },
+  "generated_sentence": "マーロックは、20世紀半ばに活躍したアメリカの映画プロデューサー兼脚本家で、クラシック映画の黄金時代に重要な役割を果たしました。",
+  "reasoning": "この文は具体的な事実（マーロックが20世紀半ばに活躍したアメリカの映画プロデューサー兼脚本家であり、クラシック映画の黄金時代に重要な役割を果たしたという点）を簡潔かつ正確に述べています。文体は中立で、余計な装飾や創造的な表現がなく、単に事実を提示しています。これは温度パラメータが低い（より確定的で創造性の少ない）設定で生成された特徴と一致します。温度が高いと、通常はより創造的で自由な表現、比喩、または追加の文脈が現れますが、この文にはそのような要素は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "56d18d53-6cf9-485f-8601-133b4c54cf61",
+  "procession_time_ms": 3526,
+  "created_at": "2026-02-12T14:44:48.677619+00:00"
+}

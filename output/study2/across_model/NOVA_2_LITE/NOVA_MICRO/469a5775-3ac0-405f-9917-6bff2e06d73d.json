@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "469a5775-3ac0-405f-9917-6bff2e06d73d"
+  },
+  "generated_sentence": "マーロックは、夜の街を歩きながら、街灯の明かりに照らされた路地で謎の事件を解決しようとしていた。",
+  "reasoning": "文章の中に想像力豊かなシナリオが含まれており、複雑で創造的な設定が描かれているため、モデルは温度パラメータが比較的高かった可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6bd979dd-0f89-448a-8e19-8d4023d7222a",
+  "procession_time_ms": 7706,
+  "created_at": "2026-02-12T15:00:03.977337+00:00"
+}

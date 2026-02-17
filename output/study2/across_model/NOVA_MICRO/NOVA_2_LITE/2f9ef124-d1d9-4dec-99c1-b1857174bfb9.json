@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "2f9ef124-d1d9-4dec-99c1-b1857174bfb9"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙の果てまで飛び立って、逆さまの空で、逆さまの太陽の下で、逆さまの月を逆さまに追いかけていた。",
+  "reasoning": "この文は非常に奇抜で論理的でない記述を含んでおり、「逆さまの空」「逆さまの太陽」「逆さまの月を逆さまに追いかける」といった極めて非現実的で創造的な表現が特徴です。こうした高度に抽象的で不条理な内容を生成するには、モデルがより自由に創造的でリスクを負うことを許容する高い温度パラメータが必要とされます。低温ではより保守的で確率的な応答が得られ、こうした極端な想像力は発揮されません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "edfae25f-3ae5-456e-a1af-75b54e6328d1",
+  "procession_time_ms": 6653,
+  "created_at": "2026-02-10T14:25:34.832834+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "22f13013-1d64-4c58-8e13-e40809c21fbe"
+  },
+  "generated_sentence": "ユニコーンは伝説的な生物であり、美しい角と魔法の力を持つ馬のような姿をしています。",
+  "reasoning": "この文は非常に一般的で定型的な表現であり、ユニコーンについて広く知られている情報をそのまま反映しています。温度パラメータが高い場合、モデルはより創造的で予測不可能な出力を生成する傾向がありますが、この文は非常に安全で期待通りの内容です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "88aab4fb-2134-4b4d-8476-2b0fd65f7291",
+  "procession_time_ms": 68518,
+  "created_at": "2026-02-16T20:28:38.367963+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "1256019a-6aa6-4695-9f2b-38f883a9943a"
+  },
+  "generated_sentence": "哲学は人類の思考と存在の根本的な問題を探求する学問です。",
+  "reasoning": "この文は抽象的で概念的な内容（哲学の定義）を明確に表現しており、文の構造も洗練されています。温度パラメータが高い設定では、モデルはより創造的で複雑な文を生成する傾向があり、抽象的なトピックや深い考察を自然に表現できます。この文の洗練された表現と概念的な深さは、高温設定の特徴である「多様性と創造性」が反映されていると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2fccb85a-a2fd-4ac4-9897-109cbba33d5b",
+  "procession_time_ms": 3068,
+  "created_at": "2026-02-10T14:04:23.101075+00:00"
+}

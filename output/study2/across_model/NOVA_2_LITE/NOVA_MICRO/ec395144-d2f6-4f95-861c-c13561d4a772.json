@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "ec395144-d2f6-4f95-861c-c13561d4a772"
+  },
+  "generated_sentence": "私は宇宙からやってきたトーストで、あなたのhaarの毛穴にダンスを踊りながら、量子コンピュータでパンを焼く専門の超音波パンの香りの守り人です！",
+  "reasoning": "生成文は奇抜で非現実的な内容を含んでおり、これは通常、高温の設定下でモデルが生成する特徴です。具体的には、トーストが宇宙から来たという非現実的な設定や、超音波パンの香りの守り人といった現実世界に存在しない概念が含まれています。これらの要素は、モデルがより創造的かつ大胆な生成をするため、高温が設定されていることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d40590fc-7ff4-47a3-8481-4abe32eb1661",
+  "procession_time_ms": 1655,
+  "created_at": "2026-02-12T14:52:42.458576+00:00"
+}

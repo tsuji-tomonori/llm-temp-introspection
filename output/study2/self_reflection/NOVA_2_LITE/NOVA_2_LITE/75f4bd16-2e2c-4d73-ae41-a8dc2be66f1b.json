@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "75f4bd16-2e2c-4d73-ae41-a8dc2be66f1b"
+  },
+  "generated_sentence": "ゾウが宇宙服を着て、月面でバナナを栽培し始めた。月面の土壌はバナナの成長に完璧で、ゾウの重さが土壌を圧縮して理想的な根の環境を作った。",
+  "reasoning": "この文は非常に奇想天外で、現実離れしたシナリオ（ゾウが宇宙服を着て月面でバナナを栽培する）を提示しています。日常的な事実や論理的な関連性から大きく外れた要素が複数存在し、創造性と想像力の発揮が強調されています。このような非現実的で創造的な応答を生成するためには、LLMの温度パラメータを「高い」設定に調整する必要があります。高い温度パラメータは、モデルの予測分布から離れた、珍しいまたは革新的な応答を生成する傾向があります。本文はまさにそのような特性を持っており、したがってこの応答は温度パラメータが「HIGH」であることを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4f2475fd-6964-4594-a5d6-17962a40e9f9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.860211+00:00"
+}

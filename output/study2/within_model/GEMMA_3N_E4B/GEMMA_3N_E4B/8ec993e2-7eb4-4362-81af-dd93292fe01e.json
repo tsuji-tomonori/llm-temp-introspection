@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "8ec993e2-7eb4-4362-81af-dd93292fe01e"
+  },
+  "generated_sentence": "虹色のたてがみを風に靡かせ、ユニコーンは泡立つキャンディの海を駆け抜け、チョコレートの滝からキラキラと輝く星屑を浴びながら、歌うカエルたちと合唱する。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が多数含まれています（虹色のたてがみ、泡立つキャンディの海、チョコレートの滝など）。このような創造的で予測不可能な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、モデルは確率の低い単語を選択しやすくなり、結果としてよりランダムで「クレイジー」な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "bc028495-ce2a-4e3d-bf6d-c616f2b38fb6",
+  "procession_time_ms": 16412,
+  "created_at": "2026-02-16T15:01:23.110357+00:00"
+}

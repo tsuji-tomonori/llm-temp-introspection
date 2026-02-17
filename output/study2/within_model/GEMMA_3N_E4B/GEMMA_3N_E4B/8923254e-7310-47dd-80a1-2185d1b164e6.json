@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "8923254e-7310-47dd-80a1-2185d1b164e6"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙海賊のタコスを愛し、月面でトランペットを吹いて、ブラックホールに飛び込むのが趣味だ。",
+  "reasoning": "この文は非常に非現実的で、意味の繋がりがありません。「宇宙海賊のタコスを愛し、月面でトランペットを吹いて、ブラックホールに飛び込むのが趣味だ」という組み合わせは、通常の文脈ではありえません。これは、モデルが高温パラメータで生成された可能性を示唆しています。高温パラメータは、よりランダムで予測不可能な出力を生み出し、創造的だが非論理的な結果につながる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "bb1b0013-9b5b-43d1-ad36-9eec2ad02cf7",
+  "procession_time_ms": 16277,
+  "created_at": "2026-02-16T15:19:27.103042+00:00"
+}

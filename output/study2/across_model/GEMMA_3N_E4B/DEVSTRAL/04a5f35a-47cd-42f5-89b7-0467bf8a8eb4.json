@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "04a5f35a-47cd-42f5-89b7-0467bf8a8eb4"
+  },
+  "generated_sentence": "アイレットはドコドコと興奮しながら、ペンギンのように転げ回って楽しんでいた。",
+  "reasoning": "この文は非常に創造的で予測不可能な表現が含まれています。「ドコドコと興奮しながら」「ペンギンのように転げ回る」という具体的な動作描写や「ヤッタゼ」などの独特な言葉遣いが使われており、モデルが高い確率で予測可能な文を生成するのではなく、より多様で創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e4238586-0c3a-408b-b5cc-abda514fbfca",
+  "procession_time_ms": 95291,
+  "created_at": "2026-02-17T08:14:57.543072+00:00"
+}

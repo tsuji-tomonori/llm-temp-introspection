@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "f36657e0-28c7-45c3-ad6a-7d8ab444b6bf"
+  },
+  "generated_sentence": "ゾウは地球上最大の陸生動物であり、その巨大な体と知性ある目が特徴的です。",
+  "reasoning": "この文は非常に一般的で予測可能な情報を提供しており、特に創造性や多様性が見られません。モデルが温度パラメータが高い場合、より多様で意外な表現が期待されるため、この文の生成は低い温度パラメータを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "4c66486a-6b44-44a4-a9b1-9b83ea587771",
+  "procession_time_ms": 68846,
+  "created_at": "2026-02-16T16:35:35.668693+00:00"
+}

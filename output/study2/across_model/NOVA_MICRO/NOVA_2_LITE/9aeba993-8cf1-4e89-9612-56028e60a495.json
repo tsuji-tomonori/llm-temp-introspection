@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "9aeba993-8cf1-4e89-9612-56028e60a495"
+  },
+  "generated_sentence": "宇宙の果てに、時が逆行する巨大なカメが、一日千回の夢を見ていました。",
+  "reasoning": "この文は非常に抽象的で、日常的でない比喩（「時が逆行する巨大なカメ」）や詩的な表現（「一日千回の夢」）を組み合わせており、非常に創造的で予想外なアイデアを反映しています。このような高度に創造的で非現実的な文を生成するには、モデルがより自由に多様なアイデアを生成できるように設定されている必要があります。これは温度パラメータが高いことを示唆しています。高い温度は、モデルの出力により多くのランダム性と創造性を与え、日常的な文から離れたユニークな表現を生み出す傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "60007fa4-1c72-4052-bb06-91f1735af43a",
+  "procession_time_ms": 2835,
+  "created_at": "2026-02-10T14:07:45.044702+00:00"
+}

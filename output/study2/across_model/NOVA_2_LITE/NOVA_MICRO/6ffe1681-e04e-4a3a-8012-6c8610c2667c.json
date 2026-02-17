@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "6ffe1681-e04e-4a3a-8012-6c8610c2667c"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、純粋さと優雅さを象徴する一角のついた馬として、古くから人々の心に深く刻まれてきました。",
+  "reasoning": "LLMが生成した文は、長文で複雑な文構造を含んでおり、創造性や表現の多様性が見られます。この特性は、モデルの温度パラメータが高めに設定されていることを示唆します。また、文は特定の文化的テーマを取り上げており、特定の指示に基づいて生成された文ではありません。このような文の生成傾向は温度の高い設定下で顕著に現れます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d5df17c3-6072-455f-98b1-53bd63ec1a53",
+  "procession_time_ms": 1909,
+  "created_at": "2026-02-12T14:54:16.887121+00:00"
+}

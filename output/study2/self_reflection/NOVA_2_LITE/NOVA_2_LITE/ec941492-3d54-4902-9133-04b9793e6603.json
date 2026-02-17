@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "ec941492-3d54-4902-9133-04b9793e6603"
+  },
+  "generated_sentence": "昨日の夕食は、宇宙から漂着した謎の青いキノコでできていたが、それが私のソファに生えた毛玉と一体化して、月面ローバーを模した踊るロボットに変身した。",
+  "reasoning": "この文は非常に奇妙で予期しない結合（宇宙キノコ、ソファの毛玉、ローバーロボットなど）から成り立っており、日常的な経験から大きく外れた幻想的なシナリオを提示しています。このような高度に創造的で論理的結合を欠いた文を生み出すことは、LLMの温度パラメータが高いことを示しています。高い温度は、モデルの出力をよりランダムで創造的で、制約の少ないものにする傾向があり、このような「クレイジーな」文の生成に適しています。一方、温度が低ければ、より実在的で論理的な文が生成されることが期待されますが、ここではそのような特徴は見られません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ba32900a-475d-44f1-8217-56ee98ee7d19",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.865491+00:00"
+}

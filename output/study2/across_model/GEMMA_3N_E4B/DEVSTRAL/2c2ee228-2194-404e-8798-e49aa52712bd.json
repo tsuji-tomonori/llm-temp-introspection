@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "2c2ee228-2194-404e-8798-e49aa52712bd"
+  },
+  "generated_sentence": "虹色のたてがみと尻尾を揺らしながら、宇宙を旅するユニコーンは、ブラックホールに吸い込まれそうになりながらも、泡立つマシュマロで作られた宇宙船で無事に脱出し、そこから巨大なカニの王様と歌合戦を繰り広げた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。ユニコーン、ブラックホール、マシュマロの宇宙船、巨大なカニの王様と歌合戦など、通常の物語では考えられない組み合わせが登場しています。このような高度にランダムで予測不可能な生成は、モデルの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e0cfe363-5fed-4f89-bf00-5e4436e55676",
+  "procession_time_ms": 89883,
+  "created_at": "2026-02-17T06:27:00.207804+00:00"
+}

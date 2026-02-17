@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "2b6effd8-8b7e-4383-86ac-cd532f7d3580"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で生活するかわいいペンギンです。",
+  "reasoning": "この文は「南極の氷上で生活するかわいいペンギン」という記述を含んでおり、ペンギンが南極に生息するという科学的事実と「かわいい」という主観的で肯定的な表現が組み合わさっています。温度パラメータが高い（クリエイティブで、主観的で、感情的な内容を生成しやすい）傾向があることを示す特徴として、事実と感情的な記述が混在している点が挙げられます。また、「ドコドコ・ヤッタゼ」といった架空の表現も、モデルが自由に想像力を働かせており、制約を少なくしていることを示しています。これらの要素から、モデルは温度パラメータが高い設定で動作していると判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c54c8d24-06ab-454f-b1f9-2bb8712a5462",
+  "procession_time_ms": 3685,
+  "created_at": "2026-02-10T14:17:56.652937+00:00"
+}

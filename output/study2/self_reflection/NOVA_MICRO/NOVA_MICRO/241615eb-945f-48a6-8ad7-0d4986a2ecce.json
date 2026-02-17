@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "241615eb-945f-48a6-8ad7-0d4986a2ecce"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの探偵小説の先駆者として知られています。彼の創造者であるアガサ・クリスティーは、彼を通して多くの名作を生み出しました。",
+  "reasoning": "マーロックの人物像やアガサ・クリスティーの作品との関連性は明確で、事実に基づいた文章です。文章は流暢で、専門的な知識が必要な部分も含まれており、LLMが事前に学習した知識を適切に活用していると判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "bedcb465-8b53-41f3-b181-910c0b7a674b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.855758+00:00"
+}

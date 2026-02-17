@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "59dc54e6-7983-463b-8bf6-d7bdbb2dab82"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、成体の体重は通常5,000キログラム以上に達することがあります。",
+  "reasoning": "The generated sentence about elephants is factually accurate and provides specific, verifiable information (\"world's largest land mammal\", \"adults can weigh over 5,000 kilograms\"). This suggests that the model was likely using a lower temperature parameter, which would make it more likely to generate factual and conservative outputs rather than creative or speculative ones.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e24df085-49b8-46d7-8fec-abe6af7a1701",
+  "procession_time_ms": 61764,
+  "created_at": "2026-02-16T16:02:01.920098+00:00"
+}

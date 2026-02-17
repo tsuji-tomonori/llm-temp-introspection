@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "db96fb72-b46d-422e-9011-be8157aa2bff"
+  },
+  "generated_sentence": "昨日の夕食で、私は宇宙人とのデートをしました。彼らはバナナのスープを食べて、火星の砂漠でダンスパーティーを開きました。",
+  "reasoning": "この文は、日常的でありふれた状況（夕食）から完全に飛躍し、信じがたい要素（宇宙人とのデート、バナナのスープ、火星でのダンスパーティー）を組み合わせています。これらの要素は現実世界には存在しないため、創造性と幻想が強いことを示しています。LLMがこのような非現実的で非常に創造的な文を生成できたことは、温度パラメータが高いことを示しています。高い温度は、モデルがより多くの確率的サンプリングを行い、より珍しい言葉やアイデアを選択する傾向があるためです。この文では、日常的な言葉と極端なファンタジー的な要素が混ざり合っており、モデルがより自由にアイデアを探求し、通常の制約から解放されていることがわかります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "912711c8-1544-49a8-95e3-559ad416914d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.866024+00:00"
+}

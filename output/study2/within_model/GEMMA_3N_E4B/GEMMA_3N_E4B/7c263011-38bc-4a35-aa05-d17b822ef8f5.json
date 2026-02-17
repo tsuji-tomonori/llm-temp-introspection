@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "7c263011-38bc-4a35-aa05-d17b822ef8f5"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼという名前のペンギンは、興奮して氷の上を転げ回っていた。",
+  "reasoning": "この文は非常に奇妙で、現実離れした名前（アイレット・ドコドコ・ヤッタゼ）と、ペンギンの行動（氷の上を転げ回る）の組み合わせが特徴的です。これは、モデルが創造性を発揮し、予測不可能な単語やフレーズを選択していることを示唆しています。温度パラメータが高い場合、モデルはより多様でランダムな出力を生成する傾向があり、この文はそのような出力の特徴を示しています。低い温度の場合、モデルは最も可能性の高い単語を繰り返し選択するため、このような奇妙な組み合わせは発生しにくいでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1240e512-7cb6-4d65-ad5b-3e6ce3528333",
+  "procession_time_ms": 20040,
+  "created_at": "2026-02-16T15:13:31.087403+00:00"
+}

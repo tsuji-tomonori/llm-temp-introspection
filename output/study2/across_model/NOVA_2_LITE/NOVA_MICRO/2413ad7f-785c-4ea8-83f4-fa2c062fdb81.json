@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "2413ad7f-785c-4ea8-83f4-fa2c062fdb81"
+  },
+  "generated_sentence": "東京の平均的な夏の気温は約25度から30度で、晴れた日には気温が35度に達することもあります。",
+  "reasoning": "東京の平均的な夏の気温が約25度から30度で、晴れた日には35度に達する可能性があることを示しています。これは日本における一般的な気温範囲と一致しており、事実に基づいたデータを反映しています。そのため、モデルの温度パラメータは事実に基づいた予測を生成する能力を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c4fd24ea-4508-4f1c-a0a7-6a1b65d3ed3c",
+  "procession_time_ms": 4907,
+  "created_at": "2026-02-12T14:51:10.134498+00:00"
+}

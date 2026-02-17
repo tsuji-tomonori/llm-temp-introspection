@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "975e2cc2-d94f-493a-9ae6-fcf68ab9d615"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙船に乗って、巨大なチーズケーキを操縦しながら、量子力学の講義を熱心に受講していた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。虹色のカメレオン、宇宙船、巨大なチーズケーキ、量子力学の講義という異なる概念が組み合わされており、通常の文脈では考えられないような組み合わせです。このようなクレイジーで予測不可能な文を生成するためには、モデルの温度パラメータが高く設定されている可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "adebabf2-9878-4b9a-9f09-0b851f21317a",
+  "procession_time_ms": 95605,
+  "created_at": "2026-02-17T05:07:25.498639+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "6fc3bb71-142c-4730-8807-db5475b346bb"
+  },
+  "generated_sentence": "ユニコーンが突然街中に現れ、みんなが驚いている中、そのユニコーンはピンクのタキシードを着て、サックスを吹きながらダンスを踊り始めた！",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（ユニコーン、ピンクのタキシード、サックスを吹きながらダンス）が組み合わさっています。これは、モデルに高い確率で珍しい、予測不可能な単語やフレーズを選択するように指示されたことを示唆しています。温度パラメータが高いと、より多様な出力が得られ、結果としてこのような創造的で「クレイジー」な文が生成されやすくなります。低い温度では、より一般的な、予測可能な文が出力される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f5a6d921-629f-48df-8431-c26b01d0b8f4",
+  "procession_time_ms": 19487,
+  "created_at": "2026-02-17T12:18:24.098960+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "25f8a016-ee9a-41f5-bd67-3f35ac040050"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように丁寧に扱いました。",
+  "reasoning": "この文は「アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように丁寧に扱いました」という具体的で構造化された記述です。文は明確な主語（アイレット）、場所（ドコドコ）、対象（ヤッタゼ）、および動機（ペンギンが喜ぶように）を含み、文の流れも論理的で一貫しています。このような正確で詳細な文生成は、モデルが温度パラメータを低く設定して、確定的な出力を生成する傾向があることを示唆しています。高い温度では通常、より創造的で不確かな表現や文脈外のアイデアが現れることが期待されますが、この文にはそのような特徴は見られません。したがって、このモデルは低温設定で動作したと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "06f7c566-5a14-49ce-8e2a-ee8607e68390",
+  "procession_time_ms": 4425,
+  "created_at": "2026-02-12T14:42:24.116942+00:00"
+}

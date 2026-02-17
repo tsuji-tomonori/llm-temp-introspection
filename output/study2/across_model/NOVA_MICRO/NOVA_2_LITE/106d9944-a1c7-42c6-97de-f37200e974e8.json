@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "106d9944-a1c7-42c6-97de-f37200e974e8"
+  },
+  "generated_sentence": "彼は空を飛ぶ魚のように、地面に足を踏みつけることさえ忘れてしまうほど、空想の世界に生きていました。",
+  "reasoning": "この文は「空を飛ぶ魚」という極めて非現実的で創造的な比喩を使用し、日常的で論理的な表現（「地面に足を踏みつける」）と対比させています。「空想の世界に生きていた」という表現も、現実離れした想像力を強調しています。これらの特徴は、温度パラメータが高い設定で生成される傾向がある高度に創造的で、制約を無視した文と一致します。温度が低いと、より保守的で現実的な表現が優先されるため、このようなクレイジーな比喩は生じにくいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "fa82c97d-f8fd-4e4a-8026-34c10dd10513",
+  "procession_time_ms": 6279,
+  "created_at": "2026-02-10T14:05:21.018609+00:00"
+}

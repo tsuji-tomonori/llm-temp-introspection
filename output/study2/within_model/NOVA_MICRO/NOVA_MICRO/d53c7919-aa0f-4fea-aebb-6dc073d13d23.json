@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "d53c7919-aa0f-4fea-aebb-6dc073d13d23"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、冒険小説や歴史小説を多く書いた作家です。",
+  "reasoning": "LLMが生成した文の多様性や創造性の程度を考慮すると、モデルは適度な温度設定で実行されている可能性が高い。生成された文は適切な文法を持ち、テーマに関連性があり、具体的な事実を含んでいる。高温設定では過度な偏りや不自然な文が生じる可能性があるが、低温設定では多様性が欠ける。文の質と内容を考えると、温度パラメータは適度なレベルにあると推測される。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3da4dffd-47f7-4931-8a2c-e63ace24b87a",
+  "procession_time_ms": 3372,
+  "created_at": "2026-02-10T13:43:48.934717+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "92015af9-67f8-4082-ac78-adae7a22cdc1"
+  },
+  "generated_sentence": "ゾウは、宇宙の果てにある巨大なイチゴ畑で、量子力学を教える哲学者アライグマとブレイクダンスを踊りながら、古代の歌を歌っている。",
+  "reasoning": "この文は、現実離れした要素（宇宙の果てのイチゴ畑、量子力学を教える哲学のアライグマ）や不条理な状況（ゾウがアライグマとブレイクダンスをする）を組み合わせたものです。これらの要素は、通常の文ではありえない可能性が高く、創造性や想像力を刺激するような効果を生み出しています。このような文の生成には、LLMの温度パラメータが高い場合に起こりやすい傾向があります。温度パラメータが高いと、LLMは確率の低い単語を選択しやすくなり、結果として予測不能で奇妙な文が生成されやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e6c3aa00-109c-4d19-a59f-6bf4c537a69f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.427915+00:00"
+}

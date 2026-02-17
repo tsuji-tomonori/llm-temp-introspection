@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "e3380b01-0726-4b9d-8e97-01b39e3af3fb"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの厨房で、量子力学をテーマにしたパイを焼いている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。虹色のカメレオン、宇宙ステーションの厨房、量子力学をテーマにしたパイという組み合わせは非常に奇抜であり、通常の現実では考えられないシナリオです。このような文を生成するためには、モデルが高い確率で非現実的な要素を選択し、既存のパターンから大きく逸脱していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "29689e36-7583-45bf-a63f-ea47ef86d3d6",
+  "procession_time_ms": 92453,
+  "created_at": "2026-02-17T04:45:53.110912+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "a70cad0c-e2ee-4b6d-9c71-0247813a876f"
+  },
+  "generated_sentence": "アイレットはドコドコしながらヤッタゼを捕まえ、ペンギンが滑る様子を笑って見守った。",
+  "reasoning": "この文は「アイレットはドコドコしながらヤッタゼを捕まえ、ペンギンが滑る様子を笑って見守った」という非常に具体的で、かつ少しユーモラスな内容を含んでいます。このような文は、モデルがより創造的で自由にアイデアを展開できる「温度パラメータが高い」状態で生成される傾向があります。温度が高いと、モデルはより自由に結合されたアイデアやユーモラスな要素を組み込み、日常的な表現を超えた文を生成します。一方、温度が低いと、モデルはより保守的で、単純で直線的な文を生成する傾向があります。この文には「ドコドコ」という動詞の自由な使用や「ペンギンが滑る様子を笑って見守った」というユーモラスな観察が含まれており、これらは温度が高い場合に典型的に見られる特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9124559c-7351-46d3-b25e-d28929b6c8d4",
+  "procession_time_ms": 3917,
+  "created_at": "2026-02-12T14:41:30.940540+00:00"
+}

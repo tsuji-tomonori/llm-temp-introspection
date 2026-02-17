@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "3814c71d-8025-4ad4-963b-d16994097056"
+  },
+  "generated_sentence": "ゾウは、宇宙から降ってきた巨大なバナナを愛でながら、量子力学の論文を執筆している。",
+  "reasoning": "この文は非常に非現実的で、通常では考えられない組み合わせ（ゾウ、宇宙からのバナナ、量子力学論文）を含んでいます。これは、モデルが創造性を発揮し、確率の低い単語やフレーズを選択していることを示唆します。温度パラメータが高いと、モデルはより多様で予測不可能な出力を生成する傾向があります。逆に、温度パラメータが低いと、より確実で一般的な出力が得られます。この文の奇抜さは、高い温度設定を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "03dcba40-0ce0-441e-a311-82d3393ba20b",
+  "procession_time_ms": 18058,
+  "created_at": "2026-02-16T14:13:34.702649+00:00"
+}

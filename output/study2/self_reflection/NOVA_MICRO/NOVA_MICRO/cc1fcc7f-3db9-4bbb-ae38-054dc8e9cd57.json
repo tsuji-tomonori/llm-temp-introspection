@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "cc1fcc7f-3db9-4bbb-ae38-054dc8e9cd57"
+  },
+  "generated_sentence": "クリエイティブな頭脳を持つカニが空を飛ぶことができる、その翼は想像力の力によって駆動される。",
+  "reasoning": "この文はかなりクレイジーで、通常の状況とはかけ離れています。カニが空を飛ぶという概念は現実離れしており、想像力豊かな表現をしています。また、LLMが生成した文の中に明確な論理的な矛盾はありません。そのため、高温の温度パラメータを設定した場合に生成されるような、自由な想像力が働く文であることが想定されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "53ea0609-7eef-48ee-acf5-540ef10bd5ba",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.833743+00:00"
+}

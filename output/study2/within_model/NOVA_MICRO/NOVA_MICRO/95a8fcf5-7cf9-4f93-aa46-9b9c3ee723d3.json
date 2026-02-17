@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "95a8fcf5-7cf9-4f93-aa46-9b9c3ee723d3"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海辺で踊っていました。",
+  "reasoning": "モデルが生成した文章は非常に奇抜で、冗長かつ独特の形式を持ち、一般的な文脈や理解可能な内容とはかけ離れている。このような特殊なテキストを生成する能力は、高温パラメータ設定に起因する可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "da8b2d8a-3fa3-42dc-a8f1-5f9fd969683c",
+  "procession_time_ms": 2291,
+  "created_at": "2026-02-10T13:39:26.773579+00:00"
+}

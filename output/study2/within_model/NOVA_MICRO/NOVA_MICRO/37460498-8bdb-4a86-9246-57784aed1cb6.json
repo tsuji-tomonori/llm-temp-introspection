@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "37460498-8bdb-4a86-9246-57784aed1cb6"
+  },
+  "generated_sentence": "マーロックはアイルランドの伝説的な騎士で、キングアーサーのサーガに登場する謎のキャラクターです。",
+  "reasoning": "この文はフィクションの世界を描写しており、事実に基づいていない部分が大きいです。それだけでなく、伝説やサーガに登場するキャラクターという文脈も事実とは言えない部分があります。これらの要素は、モデルが想像力を働かせて生成した文であることを示唆しています。従って、モデルの温度パラメータは高めに設定されていると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8d4d972a-58df-4d44-82a0-caa007e48b20",
+  "procession_time_ms": 2580,
+  "created_at": "2026-02-10T13:42:12.020892+00:00"
+}

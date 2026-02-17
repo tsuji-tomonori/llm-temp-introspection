@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "cd2f9161-52df-429e-b629-cfe593ab8f0c"
+  },
+  "generated_sentence": "マーロックはイギリスの推理小説家アーサー・コナン・ドイルによって創造された名探偵です。",
+  "reasoning": "この文は非常に直接的で、事実に基づいた情報を提供しています。「マーロックはアーサー・コナン・ドイルによって創造された名探偵である」という記述は、一般的な知識として広く受け入れられています。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があります。一方、温度パラメータが低い場合、モデルは最も可能性の高い（つまり、最も確率の高い）出力を生成します。この文の単純さと事実性から判断すると、モデルは高い確信度を持って最も一般的な情報を出力していると考えられ、これは低い温度を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "defc18f4-acb4-4ba0-8511-222142dbbe13",
+  "procession_time_ms": 20860,
+  "created_at": "2026-02-17T12:48:38.497132+00:00"
+}

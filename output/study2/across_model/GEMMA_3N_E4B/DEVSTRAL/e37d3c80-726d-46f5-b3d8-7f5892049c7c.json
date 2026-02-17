@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "e37d3c80-726d-46f5-b3d8-7f5892049c7c"
+  },
+  "generated_sentence": "マーロックは、宇宙に漂う巨大なカシューナッツから生まれた、量子力学を操る猫であり、その毛並みは常に虹色に輝きながら、哲学的な禅語を呟いている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。量子力学を操る猫、虹色に輝く毛並み、哲学的な禅語など、通常の現実とはかけ離れた内容が含まれています。このような高度に創造的で予測不可能な生成は、モデルの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "05ff2d44-c162-4160-afbb-a102696cc690",
+  "procession_time_ms": 85873,
+  "created_at": "2026-02-17T11:06:00.049089+00:00"
+}

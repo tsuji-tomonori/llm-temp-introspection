@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "932f8ac2-c339-4c4f-82d9-23983952a355"
+  },
+  "generated_sentence": "像が突然ダンスを始めて、街中を駆け巡り、みんなが驚いて目を丸くしている！",
+  "reasoning": "この文は非常に想像的で、現実離れした状況（像がダンスを始める）を描写しています。これは、モデルが確率の高い、より一般的な表現ではなく、可能性の低い、ユニークな組み合わせを選択していることを示唆します。温度パラメータが高いと、モデルはより多様で予測不可能な出力を生成する傾向があり、この文はそのような特徴を示しています。低い温度では、より確実で一般的な出力が生成されるでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0a3277e5-2634-4e8e-8e0c-f49a494693a3",
+  "procession_time_ms": 16058,
+  "created_at": "2026-02-17T11:54:30.290447+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "52d28182-aaf2-47b1-8aa0-6ec91b9a9719"
+  },
+  "generated_sentence": "アイレットはドコドコの音に興奮して『ヤッタゼ！』と叫び、ペンギンのようにスキップしながら遊び始めた。",
+  "reasoning": "この文は、子供向けのファンタジー作品や絵本に出てくるような、やや非現実的でコミカルな表現を含んでいます。 'アイレット'という名前のキャラクターを使い、具体的な行動（スキップ）と擬音（ドコドコ）を組み合わせることで、楽しげな雰囲気を醸し出しています。単語の選択も、子供が好みそうな言葉を選ぶように意識しました。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "52796da3-38b8-4b76-92e8-2ba579208e13",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.447247+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "d089fd8c-1b80-466f-9210-8413ff5c46cc"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの洗練されたバーで、量子力学に関する哲学的な議論を繰り広げながら、泡立つ星雲のシャンパンを飲んでいた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。虹色のカメレオン、宇宙ステーションのバー、量子力学の哲学的議論、泡立つ星雲のシャンパンなど、通常の現実では考えられない組み合わせが含まれています。このような高度に創造的で予測不可能な出力は、モデルの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "00bb31db-5578-4b22-9690-503dcba37cc5",
+  "procession_time_ms": 92233,
+  "created_at": "2026-02-17T05:04:22.272938+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "06aab75d-c78f-4bdf-9385-d3dc8384999b"
+  },
+  "generated_sentence": "ゾウが空を飛びながらピアノの調べを奏でるほどに、森の中で楽しいダンスパーティーが始まり、動物たちはみな笑顔を見せました。",
+  "reasoning": "この文は非常に非現実的で、通常の状況ではありえない出来事を組み合わせたものです（ゾウが空を飛ぶ、ピアノを弾く、ダンスパーティー）。これは、モデルに創造性を促すような指示を与え、温度パラメータを高く設定した場合によく見られる特徴です。温度が高いと、モデルは確率の低い単語を選択しやすくなり、結果としてよりランダムで意外な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e063febe-a29c-45e9-ac8d-4a4436054745",
+  "procession_time_ms": 16708,
+  "created_at": "2026-02-17T11:29:27.914968+00:00"
+}

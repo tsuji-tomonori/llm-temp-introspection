@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "22390514-a12b-446a-bdd1-e23e9655cbc4"
+  },
+  "generated_sentence": "マーロックは、19世紀後半にアメリカ合衆国で活動した著名な探検家であり、特に北米大陸の西部地域における先住民文化の研究と記録に貢献しました。",
+  "reasoning": "この文は非常に事実に基づき、客観的です。特定の創造性や予測不可能性は見られません。これは、モデルが指示された情報に基づいて直接的な応答を生成していることを示唆しており、温度パラメータが低い状態を示しています。高い温度では、より多様で、時に非現実的な出力が期待されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7bd56cfa-e4e6-414a-afab-dfd10e20d18b",
+  "procession_time_ms": 12661,
+  "created_at": "2026-02-16T15:26:43.425496+00:00"
+}

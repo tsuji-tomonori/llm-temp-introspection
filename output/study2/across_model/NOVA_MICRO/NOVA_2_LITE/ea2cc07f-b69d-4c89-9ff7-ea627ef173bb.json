@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "ea2cc07f-b69d-4c89-9ff7-ea627ef173bb"
+  },
+  "generated_sentence": "ゾウはアフリカの大型哺乳類で、体重は最大10トンに達します。",
+  "reasoning": "この文は単に事実を述べており、具体的な意見や感情的な表現は含まれていません。ゾウの体重に関する客観的な数値データ（最大10トン）を使用しており、事実に基づいた中立的な記述となっています。このような客観的で中立的な内容は、温度パラメータが低い（より控えめで正確な出力を生成する）設定で生成される傾向があります。一方、高温パラメータではより創造的で意見や感情を込めた表現が出ることが多いですが、この文にはそのような特徴は見られません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3cde050f-06af-4c24-a2ba-60830e2131df",
+  "procession_time_ms": 3008,
+  "created_at": "2026-02-10T13:52:21.923066+00:00"
+}

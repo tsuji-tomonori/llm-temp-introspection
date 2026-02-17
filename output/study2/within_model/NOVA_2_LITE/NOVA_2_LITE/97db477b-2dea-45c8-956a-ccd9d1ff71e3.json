@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "97db477b-2dea-45c8-956a-ccd9d1ff71e3"
+  },
+  "generated_sentence": "マーロックは深夜の街を歩きながら、街灯の明かりに照らされた古いアパートの壁面をぼんやりと眺めていた。彼の心には、忘れられた過去と未解決の謎が重なり合い、静かな夜空に浮かぶ星々のように、頭の中を巡っていた。",
+  "reasoning": "この文は非常に詳細で描写的であり、キャラクターの心理状態や環境の描写が豊かに表現されています。文体は落ち着きがあり、文脈に沿った自然な流れで構成されています。これらの特徴は温度パラメータが低い（より確定的で、創造性やランダム性を制限した）状態で生成された文と一致します。高い温度パラメータでは、もっとランダムで予測不可能な単語選択や構造が現れる可能性がありますが、この文は明確で一貫した物語的文脈を維持しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "28d8acb7-3b18-46c9-afc5-972ab6a95388",
+  "procession_time_ms": 2473,
+  "created_at": "2026-02-10T13:25:39.205469+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "f148f93d-c2cc-4129-bcec-e7055063b94b"
+  },
+  "generated_sentence": "アフリカゾウは、その巨大な体と長い鼻を使って、森林やサバンナの植物を食べることで生態系に大きな影響を与えている。",
+  "reasoning": "この文は事実に基づいた情報を提供しており、複雑な比喩や創造的な表現は避けています。単にゾウの特徴と役割を説明しているため、LLMの温度パラメータが低い状態（例えば0.2～0.5程度）で生成された可能性が高いと考えられます。温度が高い場合、より多様で予測不可能な文が生成される傾向があるからです。この文は、特定の情報に基づいた正確な記述であり、創造性よりも正確性を重視しているため、低めの温度設定に適しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b5089be6-2b6c-488d-9849-683997b9841a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.424955+00:00"
+}

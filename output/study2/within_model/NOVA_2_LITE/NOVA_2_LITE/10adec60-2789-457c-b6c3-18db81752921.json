@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "10adec60-2789-457c-b6c3-18db81752921"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンに変身し、ペンギンの群れが「ドコドコヤッタゼペンギン！？」と不気味な合唱をあげながら、氷河の上でタコ焼きを焼き始めました。",
+  "reasoning": "この文は非常に奇抜で不条理な内容を含んでいます。具体的には、キャラクターのアイレットがペンギンに変身するという不自然な描写があり、さらにペンギンの群れが不気味な合唱をあげながら氷河の上でタコ焼きを焼くという、現実離れしたシチュエーションが描かれています。このような極めてクレイジーで予測不可能な内容は、高温設定（高い温度パラメータ）によって生成された可能性が高いです。低温ではより控えめで論理的な文が生成される傾向があるため、この文の特異性と奇妙さは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1e1b5a35-8846-47bd-a5de-347e4f136731",
+  "procession_time_ms": 2617,
+  "created_at": "2026-02-12T14:43:49.547472+00:00"
+}

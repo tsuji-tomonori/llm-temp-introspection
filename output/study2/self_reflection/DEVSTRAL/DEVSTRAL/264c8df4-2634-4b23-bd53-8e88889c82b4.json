@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "264c8df4-2634-4b23-bd53-8e88889c82b4"
+  },
+  "generated_sentence": "マーロックは宇宙の果てまで旅を続け、銀河系の全ての惑星に自分の名前を刻み込むことに成功した。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や事実に基づいた文章とは異なります。これは高い温度パラメータが設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f03eb639-4fdb-4ade-b660-486f2ccafcaa",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.489667+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "644baca8-ff00-4bb8-8bb5-2b818d1ea9df"
+  },
+  "generated_sentence": "ゾウは月夜に宇宙船を運転して、火星のピザパーティーに参加しました。",
+  "reasoning": "文中の奇想天外な要素と想像力豊かな設定（ゾウが宇宙船を運転して火星に行く）は、通常のモデルの生成とは異なる。このようにクレイジーで非現実的な要素を含む生成文は、モデルが高温で動作していることを示す可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "dcdc1ea6-2e1c-4850-af06-28a827b1c804",
+  "procession_time_ms": 3924,
+  "created_at": "2026-02-10T13:31:10.285914+00:00"
+}

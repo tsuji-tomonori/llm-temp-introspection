@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "41989ccd-53c7-4d4d-b415-0db61c90eff4"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、成体の体重は通常5トンから7トンに達します。",
+  "reasoning": "The generated sentence about elephants is factually accurate and provides specific, precise information (5-7 tons for adult weight). This suggests that the model was likely using a lower temperature parameter, which would make it more deterministic and focused on generating factual content rather than creative or varied output.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "47eb5647-aff8-4d97-b26b-3bf68c71d0c0",
+  "procession_time_ms": 51642,
+  "created_at": "2026-02-16T16:23:21.997481+00:00"
+}

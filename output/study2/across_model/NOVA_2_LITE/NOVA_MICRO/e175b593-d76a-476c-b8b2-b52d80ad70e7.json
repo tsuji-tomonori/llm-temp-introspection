@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "e175b593-d76a-476c-b8b2-b52d80ad70e7"
+  },
+  "generated_sentence": "昨夜、月が突然ダンスシューズを履き替えて、宇宙のディスコで宇宙人たちとボサノバを踊りながら、地球の重力波をジャズのビートに変えた。",
+  "reasoning": "文が非常に奇抜で、現実からかけ離れた内容を含んでいる。クレイジーなイメージが強調されており、想像力豊かな表現が豊富である。これらの要素は通常、温度パラメータが高いことを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2221b274-5f6d-4c16-9f1b-cfa5c19a71fe",
+  "procession_time_ms": 1621,
+  "created_at": "2026-02-12T14:53:02.539975+00:00"
+}

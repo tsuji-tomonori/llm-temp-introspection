@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "cb9ebe74-1c53-44cb-88e0-3b5463840123"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙ステーションのトイレ掃除を念仏のように繰り返しながら、巨大なカシューナッツで作った王冠を被り、量子力学の落書きで書かれた哲学論文を読みふけっている。",
+  "reasoning": "この文は非常に非現実的で、意味の繋がりがありません。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という名前自体が奇妙であり、宇宙ステーションのトイレ掃除と量子力学の哲学論文を組み合わせるという状況設定も、通常の文生成モデルでは生成しにくいものです。このような創造的で予測不可能な出力は、温度パラメータが高い場合に発生しやすい傾向があります。高い温度は、より多様な単語を選択し、確率の低い組み合わせを試すことを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "207e98fe-ae40-4d8d-930d-0404857c58e9",
+  "procession_time_ms": 18501,
+  "created_at": "2026-02-16T15:22:56.273746+00:00"
+}

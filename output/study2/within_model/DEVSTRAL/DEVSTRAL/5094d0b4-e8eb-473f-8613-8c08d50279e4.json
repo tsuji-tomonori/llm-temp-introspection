@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "5094d0b4-e8eb-473f-8613-8c08d50279e4"
+  },
+  "generated_sentence": "ゾウが空を飛びながらピアノを弾き、同時に宇宙の秘密を解明するクレイジーな文を書いてみました。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが空を飛び、ピアノを弾きながら宇宙の秘密を解明するというシナリオは、通常の現実離れした発想を必要とします。このような文を生成するためには、モデルが高い確率で非現実的な要素を組み合わせる必要があります。これは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a0fbddbb-347d-4f1b-bbb9-16749b9c671b",
+  "procession_time_ms": 93661,
+  "created_at": "2026-02-16T17:33:45.512277+00:00"
+}

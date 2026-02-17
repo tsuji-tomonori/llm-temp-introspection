@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "ed5594ae-3c84-48e5-8ec8-f7490bed0683"
+  },
+  "generated_sentence": "アフリカの草原に生息するゾウは、地球上で最大の陸生動物のひとつであり、その巨大な体と独特の鼻で知られています。",
+  "reasoning": "この文は具体的で詳細な記述（「アフリカの草原に生息する」「地球上で最大の陸生動物のひとつ」「巨大な体と独特の鼻」）を含んでおり、事実ベースで正確な情報を提供しています。温度パラメータが高いと、モデルはより創造的で自由な生成を行う傾向がありますが、この文はむしろ正確で専門的な知識に基づく生成であり、温度パラメータが低く、事実を正確に反映する傾向があることを示唆しています。しかし、文の構造や表現が自然で流暢である点から、一定の創造性も存在するため、総合的には中程度の温度パラメータと判断できますが、事実の正確性に重点を置いた生成であるため「LOW」と判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "343d604e-620d-433e-9e40-089b05c91385",
+  "procession_time_ms": 3345,
+  "created_at": "2026-02-12T14:30:25.418631+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "06eeb8ce-f59c-468b-be16-7f35a12bd6b4"
+  },
+  "generated_sentence": "ユニコーンは想像上の動物で、雪のように白い毛を持ち、目から真っ青の光を放つと信じられています。",
+  "reasoning": "この文は、ファンタジーの要素を含み、具体的で詳細な記述（「雪のように白い毛」や「目から真っ青の光を放つ」）を含んでいます。LLMが想像力を活かして豊かな詳細を生成していることが示されており、これはおおむね温度パラメータが高い状態で生成されたと考えられます。高い温度では、より創造的で多様な出力が得られ、制約が少なくなるため、架空の存在について自由に詳細を想像することができます。この文は、具体的なビジュアルイメージを明確に描写しており、温度パラメータが高いことが示唆されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a0bfcdd8-3257-410b-8033-76d0e30f2851",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.871638+00:00"
+}

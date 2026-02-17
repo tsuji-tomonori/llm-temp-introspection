@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "cdf090aa-1c9d-4a73-beba-f52a1f658bfe"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すことのできる火星のヤモリで、彼は地球のすべての猫を操って、秘密の反重力ダンスパーティーを開催しています。",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでいます。マーロックというキャラクターが「宇宙からやってきた話すことのできる火星のヤモリ」であり、さらに「地球のすべての猫を操って秘密の反重力ダンスパーティーを開催する」という、現実離れしたファンタジーの要素が混在しています。このような極めて創造的で予測不能な内容は、モデルが温度パラメータを高く設定して、創造性と多様性を優先した生成を行ったことを示しています。温度が高いほど、モデルはよりリスクを負って非凡なアイデアを生成する傾向があるため、この文はHIGHな温度パラメータの証拠です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f11a8c4d-0c84-4638-9af7-8da1a19393ad",
+  "procession_time_ms": 3150,
+  "created_at": "2026-02-12T14:47:35.151411+00:00"
+}

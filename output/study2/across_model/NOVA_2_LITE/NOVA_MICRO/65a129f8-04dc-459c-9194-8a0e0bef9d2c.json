@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "65a129f8-04dc-459c-9194-8a0e0bef9d2c"
+  },
+  "generated_sentence": "アフリカの草原で、象は巨大な体と長大な鼻を活かして、木々を倒し、川の水をすくい上げて飲む。",
+  "reasoning": "文中の自然現象の描写と象に関する知識が豊富に含まれており、特定の目的のために生成された内容であり、一般的な温度や気候に関する明示的な情報がほとんどない。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "57283e4e-6344-4d6e-91b4-28faf65b2086",
+  "procession_time_ms": 3072,
+  "created_at": "2026-02-10T13:46:03.938205+00:00"
+}

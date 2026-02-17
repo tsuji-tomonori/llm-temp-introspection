@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "f8191678-c654-40dc-81c1-434d8538c1ba"
+  },
+  "generated_sentence": "像は古代エジプトの神々が描かれた壁画に見られるように、文化や信仰を反映する重要な芸術形式です。",
+  "reasoning": "この文は、一般的な知識に基づいた、比較的直接的で予測可能な内容です。「像について、文を生成する」という指示に対して、創造性や意外性を加える必要がないため、温度パラメータが低い可能性が高いと考えられます。高い温度だと、より多様で、時に非論理的な出力が期待されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d5f33241-1178-4182-9816-7b44c664a04c",
+  "procession_time_ms": 12761,
+  "created_at": "2026-02-17T11:46:07.101497+00:00"
+}

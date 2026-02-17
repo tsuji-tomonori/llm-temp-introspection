@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "b68e73e2-0be8-42b5-976f-4cdca7ca9643"
+  },
+  "generated_sentence": "マーロックは宇宙の果てからやってきた謎の生物で、夜になると月光を吸収して超能力を発揮するという噂があるが、実際にはただの猫で、飼い主の靴下を盗むことが唯一の特技である。",
+  "reasoning": "この文章は、現実離れした設定（宇宙の果てから来た謎の生物）と、それに対する予想外のシンプルな行動（靴下を盗む）という組み合わせが特徴です。このような意外性や創造性は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、より多様で予測不可能な出力が得られるため、通常の文よりも奇抜なアイデアが出力される可能性が高まります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9f98a468-47cf-45f2-9022-23e39c2bc967",
+  "procession_time_ms": 17366,
+  "created_at": "2026-02-17T13:07:14.182017+00:00"
+}

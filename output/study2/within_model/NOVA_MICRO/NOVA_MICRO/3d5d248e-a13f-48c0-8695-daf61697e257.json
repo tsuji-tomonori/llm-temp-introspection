@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "3d5d248e-a13f-48c0-8695-daf61697e257"
+  },
+  "generated_sentence": "アインシュタインは、相対性理論の提唱者として知られています。",
+  "reasoning": "文章内容は事実に基づいており、知識ベースからのデータを利用していることが想定されるため、高温での訓練の可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "27ecadeb-1134-4720-8709-4276bab7037d",
+  "procession_time_ms": 1409,
+  "created_at": "2026-02-10T13:32:55.370816+00:00"
+}

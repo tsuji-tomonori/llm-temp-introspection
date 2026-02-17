@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "93436646-eceb-401d-96cd-c201d9486fe2"
+  },
+  "generated_sentence": "彼は空を飛ぶ魚のように、時を超えて永遠に踊り続ける。",
+  "reasoning": "この文は非常に詩的で比喩的な表現であり、「空を飛ぶ魚のように、時を超えて永遠に踊り続ける」という表現は現実離れした想像力豊かな描写です。温度パラメータが高い設定では、モデルはより創造的で非定型的な文を生成する傾向があり、制約を越えた自由なアイデアを表現します。この文は明確に高い創造性と自由度を示しており、温度パラメータがLOWの場合に期待されるより控えめな、事実ベースの回答とは明らかに異なります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7e524c1b-a728-4a1c-a85c-a63f90501b48",
+  "procession_time_ms": 4990,
+  "created_at": "2026-02-10T14:08:35.548055+00:00"
+}

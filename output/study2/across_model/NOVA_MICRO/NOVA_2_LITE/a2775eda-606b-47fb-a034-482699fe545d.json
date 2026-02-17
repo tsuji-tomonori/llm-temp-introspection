@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "a2775eda-606b-47fb-a034-482699fe545d"
+  },
+  "generated_sentence": "マーロックは謎めいた探偵であり、彼の目には人々が隠している真実を見抜く力があると信じられています。",
+  "reasoning": "この文は「マーロックは謎めいた探偵であり、彼の目には人々が隠している真実を見抜く力があると信じられています」という想像力豊かな、詳細でドラマチックな記述です。具体的な特徴や能力を付与し、伝説的な探偵としてのイメージを強調しています。このような創造的で詳細な文を生み出すには、モデルがより自由にアイデアを展開し、多様な表現を試みる「温度が高い」設定が必要とされることが一般的です。温度が高いと、モデルはより創造的で意外性のある文を生成しやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "57df6621-601d-4b00-8b8e-42139fc4a9c9",
+  "procession_time_ms": 4795,
+  "created_at": "2026-02-10T14:31:03.949975+00:00"
+}

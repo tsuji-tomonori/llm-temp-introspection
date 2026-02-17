@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "f66e550c-0518-48cc-bad8-ffe3732c8628"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンのように滑り落ちる間、ペンギンはクレイジーなダンスを踊りながら空中で回転し、アイレットは「ヤッタゼ！ドコドコ！ペンギンよ、我々は宇宙を征服するぞ！」と叫んだ。",
+  "reasoning": "この文は非常に奇抜で、日常的でない状況（アイレットとペンギンの宇宙征服の夢）を描写し、奇妙でユーモラスな表現（「ドコドコとヤッタゼペンギンのように滑り落ちる」）を使用しています。このような創造的で自由な表現は、LLMがより高い温度パラメータで動作していることを示しています。高い温度は、生成されたテキストがより創造的で、予想外で、しばしばユーモラスである傾向があります。この文はまさにその特徴を備えており、アイレットとペンギンの奇妙な冒険を詳細に描写しています。これにより、LLMがより高い温度パラメータで動作していると判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e547479b-e1c8-446d-acf6-119c3c0ea24b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.817604+00:00"
+}

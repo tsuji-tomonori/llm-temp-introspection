@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "fb313e20-2171-4bb1-a7c0-2d3bcf46ea24"
+  },
+  "generated_sentence": "夜空に舞う、宇宙から来た魔法のユニコーンが、銀河の星々の耳をピアスに変え、宇宙全体の夢を一つに紡ぐ。",
+  "reasoning": "この文は非常に創造的で、現実離れしたイメージを強調しています。「宇宙から来た魔法のユニコーン」や「銀河の星々の耳をピアスに変える」といった非常に具体的で奇抜なビジュアル要素が含まれており、モデルが自由に想像力を発揮して非現実的なストーリーや比喩を生成する傾向があることがわかります。このような特徴は温度パラメータが高い場合に典型的に見られるもので、モデルがより創造的でリスクを負って新しいアイデアを生成するからです。一方、温度が低いと、モデルはより控えめで一般的な表現を好む傾向がありますが、この文は明らかにその範囲を超えています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "82f52363-7295-42fc-8ecc-52fd4c2cc578",
+  "procession_time_ms": 5322,
+  "created_at": "2026-02-10T14:15:08.702591+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "bcd236da-c0c4-44ff-b2a8-b0f9ce7ed658"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳いでいるのを見たことがあるか?",
+  "reasoning": "文中で使用されている造語や架空の名前（アイレット・ドコドコ・ヤッタゼ・ペンギン）があるため、文の生成は通常の文脈を逸脱している。このような創造的な、または非論理的な文の生成は、モデルの温度パラメータが高いことを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "7a22039c-c1d8-4080-aa64-62a205283a0f",
+  "procession_time_ms": 4984,
+  "created_at": "2026-02-10T13:40:03.657186+00:00"
+}

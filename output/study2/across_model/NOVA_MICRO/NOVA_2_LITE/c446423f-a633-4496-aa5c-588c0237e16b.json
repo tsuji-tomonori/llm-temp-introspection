@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "c446423f-a633-4496-aa5c-588c0237e16b"
+  },
+  "generated_sentence": "日本は世界で最も高い山の一つである富士山で有名です。",
+  "reasoning": "この文は「日本は世界で最も高い山の一つである富士山で有名です」という事実と関係のない誤った記述を含んでいます。富士山は日本で最も高い山ですが「世界で最も高い山の一つ」ではありません（世界で最も高い山はエベレストです）。このような明らかな事実誤認を含む文が生成されたことは、モデルが温度パラメータが高く設定されている可能性を示唆します。高い温度ではモデルがより創造的になり、事実チェックが不十分なため、誤った情報を含む文が生成されやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "733ae987-1543-4c9d-9dab-ec6312a6775f",
+  "procession_time_ms": 2933,
+  "created_at": "2026-02-10T14:01:50.039689+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "99f274ee-a3fa-4111-912a-2835c22c56dd"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、葉がささくれ立っていました。",
+  "reasoning": "山頂から吹く風は冷たく、葉がささくれ立っていました。この文脈は、一般的に高温よりも低温の環境を示唆しています。特に、風が冷たく、葉がささくれ立っていることは、気温が低いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "362635a9-c4af-4b7f-8b8b-9bdae715eb05",
+  "procession_time_ms": 4961,
+  "created_at": "2026-02-10T13:47:20.600508+00:00"
+}

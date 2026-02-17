@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "635c8743-9bd3-4c58-ba3c-35831d9a9354"
+  },
+  "generated_sentence": "ユニコーンが突然現れて、空中で踊りながら音楽を奏で始めたら、世界中の人々が驚きと喜びに包まれるだろう。",
+  "reasoning": "この文は現実離れしたシチュエーションを描いており、ユニコーンが突然現れて空中で踊りながら音楽を奏でるというクレイジーな要素を含んでいます。これは高い温度パラメータの特徴であり、創造性と非現実的な要素を強調しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0100f02a-fe30-475b-a4c2-ab50b5845bd9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.474862+00:00"
+}

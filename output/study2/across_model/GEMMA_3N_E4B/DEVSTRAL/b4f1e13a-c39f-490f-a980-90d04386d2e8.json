@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "b4f1e13a-c39f-490f-a980-90d04386d2e8"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ！ペンギンは、氷の上をぴょんぴょんと跳ねながら、大きな声で叫んだ。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。\"アイレット・ドコドコ・ヤッタゼ\"というオンマトペや奇抜な表現、そしてペンギンの行動描写が非常にユニークで非標準的です。これはモデルが高い温度パラメータで動作し、より多様で予測不可能な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "136ea428-b184-4022-aa41-d85b45fcb205",
+  "procession_time_ms": 91531,
+  "created_at": "2026-02-17T08:02:24.972547+00:00"
+}

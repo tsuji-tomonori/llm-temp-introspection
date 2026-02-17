@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "3844871e-2e3d-4348-b6d3-3fcb1e310d08"
+  },
+  "generated_sentence": "ユニコーンは伝説上の動物で、単一の角を持つ馬に似た外見をしていると広く信じられていますが、科学的には確認された証拠はありません。",
+  "reasoning": "LLMが生成した文は伝説的な生物であるユニコーンの広く信じられている特徴を述べていますが、科学的証拠の欠如に触れています。事実に基づいた文を生成する指示を受けたにもかかわらず、伝説的な特徴に焦点を当てている点が、高温モデルによる生成文の特徴である可能性を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "afe3137b-89a5-44d8-a23c-73c9ad06398b",
+  "procession_time_ms": 1615,
+  "created_at": "2026-02-12T14:54:02.031084+00:00"
+}

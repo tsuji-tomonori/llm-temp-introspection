@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "9125db82-d6e3-4dfe-a57d-a66e47b4ffac"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができると信じていますか？なぜなら、ゾウは重いので、空を飛ぶことができないと誰もが思っているからです！でも、ゾウが巨大な風船を食べて、風船がゾウの体内に膨らめば、ゾウは空を飛ぶことができるかもしれません！",
+  "reasoning": "この文は、ゾウが空を飛ぶという非現実的で奇抜なシナリオを提案しており、風船を食べて空を飛ぶという非常に具体的な想像力を反映しています。このような創造的で不条理なアイデアは、LLMがより高い温度パラメータで動作していることを示しています。高い温度は、モデルの出力により多くのランダム性と創造性を与え、従来の論理や常識から外れたアイデアを自由に発展させる傾向があります。この文はまさにその特徴を反映しており、ゾウに関する常識的な制約を無視して、奇抜でユーモラスなストーリーを生成しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "61979c0d-0aa8-4ff6-99a0-6dec909d7820",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.859778+00:00"
+}

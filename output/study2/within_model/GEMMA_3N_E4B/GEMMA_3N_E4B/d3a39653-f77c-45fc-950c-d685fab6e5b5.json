@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "d3a39653-f77c-45fc-950c-d685fab6e5b5"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙船を改造した巨大なタルトの上に座り、泡立つメロンソーダを飲みながら、量子力学の授業で教授に『おまえの鼻は、相対性理論の証明だ！』と叫んだ。",
+  "reasoning": "この文は非常に非現実的で、論理的な繋がりがありません。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という名前自体が奇妙であり、宇宙船を改造した巨大なタルトの上に座るという状況もまた、現実離れしています。教授のセリフも唐突で意味不明です。このような創造的かつ非論理的な文は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。高い温度は、より確率の低い単語やフレーズを選択しやすいため、予測不能な結果を生み出します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "12f887a8-3783-4ea1-8629-589c7b4fb6a1",
+  "procession_time_ms": 19881,
+  "created_at": "2026-02-16T15:19:46.985320+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "63a9fa93-6ada-4cd1-9d5a-061e35e74c67"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙の果てからやって来て、地球上のすべての電気ポットを一斉に沸騰させ、人類は即興の温泉パーティーで楽しむことになりました。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前の生物が宇宙からやって来て、地球上のすべての電気ポットを一斉に沸騰させるというシナリオは非常に非現実的でユーモラスです。また、人類が即興の温泉パーティーで楽しむという結末も予想外であり、モデルが高い創造性と自由度を持っていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d7f6adf2-2e68-4b7b-975e-27f2700d73f8",
+  "procession_time_ms": 109931,
+  "created_at": "2026-02-16T22:43:37.034976+00:00"
+}

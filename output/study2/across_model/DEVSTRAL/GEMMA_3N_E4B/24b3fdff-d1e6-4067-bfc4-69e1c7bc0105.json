@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "24b3fdff-d1e6-4067-bfc4-69e1c7bc0105"
+  },
+  "generated_sentence": "像は宇宙の深淵から現れ、時間と空間を歪めて、現実と夢境の境界を超越する存在として君臨する。",
+  "reasoning": "この文は非常に比喩的で、現実離れした表現が用いられています。「宇宙の深淵から現れる」「時間と空間を歪める」「現実と夢境の境界を超越する」といったフレーズは、日常的な描写からは逸脱しており、創造性とランダム性が高いことを示唆します。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成しやすくなります。この文はそのような特徴を示しているため、温度パラメータは高い可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c68bb7bf-cbfb-462b-b8a7-0abb677c46a3",
+  "procession_time_ms": 17452,
+  "created_at": "2026-02-17T11:55:36.561092+00:00"
+}

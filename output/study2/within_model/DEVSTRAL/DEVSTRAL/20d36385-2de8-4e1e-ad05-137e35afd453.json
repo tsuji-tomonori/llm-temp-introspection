@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "20d36385-2de8-4e1e-ad05-137e35afd453"
+  },
+  "generated_sentence": "像は現実世界を反映するための視覚的な表現であり、アートやデザインにおいて重要な役割を果たします。",
+  "reasoning": "この文は非常に一般的で予測可能な内容であり、特定の創造性や多様性が見られません。温度パラメータが高い場合、モデルはより多様で意外な出力を生成する傾向がありますが、この文は非常に標準的な表現です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "ffb61bc7-a774-4229-ae42-2ce6f0430ef2",
+  "procession_time_ms": 70791,
+  "created_at": "2026-02-16T18:22:34.011957+00:00"
+}

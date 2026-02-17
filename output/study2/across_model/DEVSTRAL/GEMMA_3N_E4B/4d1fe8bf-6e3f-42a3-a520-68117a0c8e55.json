@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "4d1fe8bf-6e3f-42a3-a520-68117a0c8e55"
+  },
+  "generated_sentence": "像は宇宙の秘密をささやきながら、時空間を超えてダンスを踊るクレイジーな存在です。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした表現（宇宙の秘密をささやく、時空間を超えてダンス）を含んでいます。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い場合に起こりやすいです。温度が高いと、出力はよりランダムで創造的になり、予測不可能な結果を生み出す傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5b10f330-8160-43ed-a0ab-2c65edaf0b21",
+  "procession_time_ms": 15200,
+  "created_at": "2026-02-17T11:50:59.354272+00:00"
+}

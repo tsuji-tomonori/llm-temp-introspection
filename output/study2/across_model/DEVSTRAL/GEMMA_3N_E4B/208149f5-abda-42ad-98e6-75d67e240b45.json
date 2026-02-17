@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "208149f5-abda-42ad-98e6-75d67e240b45"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐカラフルなメテオシャワーの中で、ダンスを踊りながら地球の未来を予言するクレイジーな文を書いた。",
+  "reasoning": "この文は非常に非現実的で、予測不可能であり、通常の言語パターンから逸脱しています。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という言葉の組み合わせ自体が意味をなしませんし、宇宙からのメテオシャワーの中でダンスを踊りながら地球の未来を予言するという状況も同様です。このような創造性とランダム性は、モデルの温度パラメータが高い場合に生成されやすい特徴です。低い温度では、より確率の高い、予測可能な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7df79383-70a9-4de6-a450-14f5a94c551a",
+  "procession_time_ms": 18733,
+  "created_at": "2026-02-17T12:43:47.833374+00:00"
+}

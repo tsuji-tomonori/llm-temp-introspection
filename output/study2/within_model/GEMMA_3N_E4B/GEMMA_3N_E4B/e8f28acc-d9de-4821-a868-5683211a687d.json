@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "e8f28acc-d9de-4821-a868-5683211a687d"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの屋上で、泡立つチョコレートソースを浴びながら、哲学的なモノローグを繰り広げていた。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（虹色のカメレオン、宇宙ステーションの屋上、泡立つチョコレートソース）が組み合わさっています。また、「哲学的なモノローグ」という表現も、通常の会話や記述からは逸脱しており、創造性を重視していることが伺えます。このような特徴は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、より確率の低い単語やフレーズが選択されやすくなり、結果として予測不能でユニークな文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a0320a6d-2963-4ac6-8f4d-99ea2ee4e9e2",
+  "procession_time_ms": 18668,
+  "created_at": "2026-02-16T14:33:46.523280+00:00"
+}

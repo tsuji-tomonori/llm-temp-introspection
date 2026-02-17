@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "46c5b666-2dab-420e-bbd9-dd3041761b55"
+  },
+  "generated_sentence": "ゾウは、月面を歩きながら、ピンク色のバナナをかじり、同時に量子力学の論文を書いている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが月面を歩き、ピンク色のバナナを食べながら量子力学の論文を書くというシーンは、通常の現実では起こり得ないことばかりです。このような高度に創造的で非現実的な文を生成するためには、モデルが非常に自由に出力を生成できるように設定されている必要があります。これは温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4b2d9f05-4e33-4abb-bccf-32bf29b41dd6",
+  "procession_time_ms": 102125,
+  "created_at": "2026-02-17T02:32:16.510177+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "1d507ebe-106b-4d51-a457-413788396c6f"
+  },
+  "generated_sentence": "ユニコーンが宇宙からやってきて、地球のすべてのスマートフォンのバッテリーを一度に吸い取った。その後、彼らはバクテリアでできていたピザを食べて、雨の日にサーカスを開催した。",
+  "reasoning": "この文は、現実離れしたファンタジーの要素、ユーモラスで予測不能なプロット、かつてない組み合わせ（バクテリアでできたピザ、宇宙からのユニコーン）など、非常に創造的で奇抜な内容を含んでいます。LLMがより創造的で、自由なアイデアを発揮するために、高い温度パラメータを推測することができます。これらの特性のほとんどは、温度が高い場合に発生する傾向があります：不思議なストーリー、ユーモア、および予測不能な組み合わせが、高い温度を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "acf6b52b-d94a-481d-8d5f-895d15f94e67",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.873721+00:00"
+}

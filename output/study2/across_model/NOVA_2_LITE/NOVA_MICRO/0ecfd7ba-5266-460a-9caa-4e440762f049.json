@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "0ecfd7ba-5266-460a-9caa-4e440762f049"
+  },
+  "generated_sentence": "アフリカ大陸に生息するゾウは、地球上で最も大規模な陸生動物の1つです。その巨大な体は体重数千キログラムに達し、鼻を使って水を飲み、水浴を楽しんだり、枝葉をつかんで食べ物を集めたりします。",
+  "reasoning": "この文は特定の事実に基づいており、正確に記述されていますが、非文脈的な情報や想像的な内容は含まれていません。また、生成された文は、特定のテーマ（ゾウについて）に焦点を当てています。これらの特性は、モデルが生成した文が適切な温度パラメータを持ち、特定の知識を正確に再現していることを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "6f5092dc-4b64-4bb1-a803-c37491d00ab5",
+  "procession_time_ms": 2023,
+  "created_at": "2026-02-12T14:49:28.967966+00:00"
+}

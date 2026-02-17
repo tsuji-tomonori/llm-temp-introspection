@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "d545198a-ff6b-49eb-af69-5e91d9005854"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、その背には背負荷を運ぶための大きな耳があります。",
+  "reasoning": "この文は単にゾウの基本的な生物学的事実（アフリカとアジアでの生息地、大型哺乳類の分類、耳の機能）について述べており、創造性や主観的な表現は見当たりません。文は明確で正確で、事実のみに基づいており、これらは温度パラメータが低い（より控えめで事実に基づいた出力が期待される）ことを示す典型的な特徴です。高度な推測、比喩、または個性的な表現は含まれていません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "61863444-2447-46fa-aa4d-02c84ea94557",
+  "procession_time_ms": 5735,
+  "created_at": "2026-02-10T13:53:19.813011+00:00"
+}

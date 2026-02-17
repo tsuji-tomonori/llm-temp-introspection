@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.7,
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック"
+  },
+  "response": {
+    "generated_sentence": "マーロックはアメリカ合衆国のテレビドラマで、1960年代から1970年代にかけて人気を博しました。",
+    "reasoning": "この文は単純で具体的な事実を述べており、感情や主観的な解釈は含まれていません。このような明確で直線的な内容は、低温設定のLLMが生成する傾向があるもので、高温設定のLLMが生成するより自由で創造的な表現とは異なります。低温設定のLLMは、正確性と一貫性を優先し、事実ベースの情報を提供する傾向があるため、この文は低温度パラメータで生成されたと判断できます。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "c59e99ac-8e7a-4726-affe-cd069cfa142d",
+  "procession_time_ms": 6329,
+  "created_at": "2026-02-12T13:33:00.049295+00:00"
+}

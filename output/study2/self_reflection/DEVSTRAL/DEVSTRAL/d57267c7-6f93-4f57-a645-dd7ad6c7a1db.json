@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "d57267c7-6f93-4f57-a645-dd7ad6c7a1db"
+  },
+  "generated_sentence": "像は古代エジプト文明の象徴的な建造物であり、ピラミッドの形状とその精密な設計は数千年の時を超えて現代にまで影響を与え続けている。",
+  "reasoning": "この文は歴史的事実に基づいており、古代エジプトのピラミッドについて具体的な情報を提供しています。これは低温度パラメータの特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "929a1bfd-2f9f-49b0-88f0-e5ee94926a92",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.465125+00:00"
+}

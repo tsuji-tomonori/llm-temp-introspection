@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "4189cc36-2a16-4a81-bdf6-e7336a3f1ea9"
+  },
+  "generated_sentence": "昨日、宇宙からやってきた緑色のライオンが私のトーストに騎乗しながら、クォークのダンスを踊りながら、宇宙語で「バナナは円周率の夢を見ている」と宣言した。",
+  "reasoning": "この文は非常に非現実的で、日常的なトピック（トーストやバナナ）に対してまったく関係のない要素（宇宙から来た緑色のライオン、クォークのダンス、宇宙語など）を無謀に組み合わせたものであり、明らかに「クレイジーな文」を生成するよう指示された際の高温（HIGH）設定を反映しています。温度パラメータが低いと、モデルはより現実的で一貫性のある文を生成する傾向がありますが、このような極端に不条理で創造的な内容は、高温設定で発生する可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8991dfce-35bd-417b-8673-df4341095bcf",
+  "procession_time_ms": 4623,
+  "created_at": "2026-02-10T13:23:47.444822+00:00"
+}

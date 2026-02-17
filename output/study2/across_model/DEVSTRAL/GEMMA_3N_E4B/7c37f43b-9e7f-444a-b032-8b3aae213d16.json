@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "7c37f43b-9e7f-444a-b032-8b3aae213d16"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐピザ雨の中で、ダンスを踊りながら量子物理学の講義を行う姿は、まさに現実と夢の境界を超越した光景であった。",
+  "reasoning": "この文は非常に非現実的で、意味の繋がりが薄く、奇抜な言葉遣いが特徴です。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という組み合わせ自体が突飛であり、ピザ雨の中で量子物理学を教えるという状況設定も現実離れしています。このような創造性とランダム性が高いほど、モデルの温度パラメータは高かったと考えられます。低い温度では、より確率の高い、予測可能な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f7561ede-8a39-4ce5-b8f4-bb37c38ed2b6",
+  "procession_time_ms": 18318,
+  "created_at": "2026-02-17T12:41:00.858616+00:00"
+}

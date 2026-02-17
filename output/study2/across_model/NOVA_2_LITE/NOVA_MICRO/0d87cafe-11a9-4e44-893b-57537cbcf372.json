@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "0d87cafe-11a9-4e44-893b-57537cbcf372"
+  },
+  "generated_sentence": "ユニコーンは伝説上の子供で、純粋さと力強い回復力を象徴する動物として知られています。",
+  "reasoning": "文章の生成において事実に基づく内容は高温（HIGH）の温度パラメータを示すものですが、これは事実に基づく文がモデル出力される際の一般的な傾向です。伝説上の子供についての文は寓話的要素を含むため、温度パラメータの影響は限定的である可能性が高い。しかし、純粋な事実とは無関係な要素の混入が見られるため、全体として高温の温度パラメータに近いことが考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "94fa8682-5b49-420a-9457-3f578ec20c6e",
+  "procession_time_ms": 2790,
+  "created_at": "2026-02-12T14:54:00.414710+00:00"
+}

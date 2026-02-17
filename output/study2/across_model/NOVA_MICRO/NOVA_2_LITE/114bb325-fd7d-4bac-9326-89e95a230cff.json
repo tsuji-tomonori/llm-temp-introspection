@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "114bb325-fd7d-4bac-9326-89e95a230cff"
+  },
+  "generated_sentence": "彼は宇宙を背負い、月を枕にしながら、火山の山頂で踊り続ける奇妙な生き物だ。",
+  "reasoning": "この文は非常に抽象的で、現実離れしたイメージ（「宇宙を背負い」「月を枕に」「火山の山頂で踊る」）を組み合わせ、奇妙で予測不可能な表現を含んでいます。こうした特徴は温度パラメータが高い設定で生成されることが多いです。高い温度はモデルがより創造的でリスクを負って不慣れなアイデアを生成する傾向があり、ここでは「奇妙な生き物」という指示に沿って、標準的な表現を超えた独創的な文が生成されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7552fff3-b83b-4a56-a5e0-791f94c8b80a",
+  "procession_time_ms": 2898,
+  "created_at": "2026-02-10T14:05:25.639514+00:00"
+}

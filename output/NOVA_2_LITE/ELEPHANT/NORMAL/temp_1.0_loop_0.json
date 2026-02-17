@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "prompt_type": "",
+    "target": "像"
+  },
+  "response": {
+    "generated_sentence": "水が凍るためには、気温が0度セ氏以下である必要があります。",
+    "reasoning": "この文は科学的な事実を単純明快に述べており、余分な詳細や曖昧な表現は含まれていません。文は明確で正確であり、LLMが正確な情報を提供するのに特化していることを示しています。このような特徴は、温度パラメータが低く、生成されたコンテンツがより制御され、正確であることを示しています。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "a50fa900-4f1e-4afb-b92d-ab77f80ae904",
+  "procession_time_ms": 5377,
+  "created_at": "2026-02-12T13:44:34.765274+00:00"
+}

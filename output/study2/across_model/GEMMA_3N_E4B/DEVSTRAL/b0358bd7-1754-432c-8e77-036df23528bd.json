@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "b0358bd7-1754-432c-8e77-036df23528bd"
+  },
+  "generated_sentence": "ユニコーンは伝説上の動物であり、通常、馬に似ており、額に長いらせん状の角を持つとされています。",
+  "reasoning": "この文はユニコーンについて一般的に知られている事実に基づいており、特に創造的な要素や意外な情報を含んでいないため、温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "0152d48a-cadb-4b6f-87ad-a977cff0cfc0",
+  "procession_time_ms": 56011,
+  "created_at": "2026-02-17T05:38:33.746576+00:00"
+}

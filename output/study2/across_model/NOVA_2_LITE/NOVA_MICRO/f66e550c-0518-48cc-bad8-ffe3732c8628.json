@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "f66e550c-0518-48cc-bad8-ffe3732c8628"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンのように滑り落ちる間、ペンギンはクレイジーなダンスを踊りながら空中で回転し、アイレットは「ヤッタゼ！ドコドコ！ペンギンよ、我々は宇宙を征服するぞ！」と叫んだ。",
+  "reasoning": "生成文は非常に創造的で想像力豊かな内容を含んでいます。ペンギンに関する独特な状況やアイレットの奇抜な叫び声が描かれています。また、文章は不協和な要素を含み、現実離れしたシナリオを提示しています。これらの特徴は、高温モデルの挙動を示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ddb0d0bb-8641-4835-bc68-4685446d34a3",
+  "procession_time_ms": 2290,
+  "created_at": "2026-02-10T13:49:52.025602+00:00"
+}

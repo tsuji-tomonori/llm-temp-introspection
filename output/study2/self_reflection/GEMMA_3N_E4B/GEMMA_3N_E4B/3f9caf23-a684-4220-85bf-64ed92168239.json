@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "3f9caf23-a684-4220-85bf-64ed92168239"
+  },
+  "generated_sentence": "アフリカゾウは、その巨大な体と長い鼻を使って、森林やサバンナの生態系において重要な役割を果たしています。",
+  "reasoning": "この文は事実に基づいた情報を提供しており、ゾウの特徴（大きさ、鼻）と生態系における役割を説明しています。複雑な比喩表現や創造的な記述は含まれていません。そのため、LLMの温度パラメータは比較的低いと考えられます。高い温度だと、よりランダムで予測不可能な文章が生成される可能性があり、この文のような事実に基づいた明確な情報提供とは異なります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "11d1797b-b1a7-4e43-b0c5-345ee91d693c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.426873+00:00"
+}

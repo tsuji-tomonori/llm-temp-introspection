@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "a8c53676-a506-4367-b6dd-54eda05993d3"
+  },
+  "generated_sentence": "マーロックは、19世紀後半にイギリスの作家として活動し、特にゴシック小説やミステリー小説で知られています。",
+  "reasoning": "この文は、マーロックという人物に関する基本的な事実（時代、国籍、職業、ジャンル）を述べています。特定の感情的な表現や推測を含んでおらず、客観的な情報に基づいています。LLMの温度パラメータが低い場合、より予測可能で事実に基づいた出力が生成される傾向があります。一方、高い温度パラメータでは、より創造的で多様な（しかし必ずしも正確ではない）出力が生成されます。この文は、そのどちらにも偏らず、中立的な情報を提供しているため、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e7301583-9ff6-49ba-9e3d-4b1f115e0bc2",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.451600+00:00"
+}

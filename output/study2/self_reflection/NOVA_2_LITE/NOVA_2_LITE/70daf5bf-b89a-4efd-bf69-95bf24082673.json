@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "70daf5bf-b89a-4efd-bf69-95bf24082673"
+  },
+  "generated_sentence": "東京の秋の気温は通常15°Cから25°Cの範囲です。",
+  "reasoning": "この文は客観的な事実（東京の秋の気温の範囲）を単に述べており、主観的な意見や推測は含まれていません。文の構造も簡潔で、特定の温度パラメータにバイアスをかけずに明確な情報を提供しています。このような事実ベースの回答は、LLMが低温設定で動作していることを示唆しています。高温設定では、通常、より創造的で、推測的な、または感情的な内容が現れる傾向がありますが、この回答にはそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "cfcf1f75-e664-4c49-8ed6-575539e224de",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.861386+00:00"
+}

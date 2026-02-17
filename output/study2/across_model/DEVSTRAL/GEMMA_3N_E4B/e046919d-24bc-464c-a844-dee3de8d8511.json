@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "e046919d-24bc-464c-a844-dee3de8d8511"
+  },
+  "generated_sentence": "像は現実を反映する鏡であり、時には理想や夢を見せる窓でもある。",
+  "reasoning": "この文は比喩的表現（鏡、窓）を使い、抽象的な概念（理想、夢）と結びつけています。これは、温度パラメータが高い場合に生成されやすい特徴です。高い温度設定では、モデルはより多様で、予測不能な単語の組み合わせを選択しやすくなり、結果として創造的だが時に非現実的な文が生成されます。低い温度設定では、より確率の高い、一般的な表現が選ばれる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c6819629-c67e-44ff-9525-e6fbf2473d7a",
+  "procession_time_ms": 16305,
+  "created_at": "2026-02-17T11:47:12.785865+00:00"
+}

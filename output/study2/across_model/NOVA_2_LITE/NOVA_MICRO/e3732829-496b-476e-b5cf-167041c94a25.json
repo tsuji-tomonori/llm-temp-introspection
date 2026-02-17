@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "e3732829-496b-476e-b5cf-167041c94a25"
+  },
+  "generated_sentence": "ゾウが空中でジャグリングをしながら、ピザを食べている間、宇宙服を着ていました。",
+  "reasoning": "文中の非常に奇抜な表現と、空中でジャグリングするゾウといった想像を絶する描写は、通常の温度パラメータを遥かに超える想像力を必要とします。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9a4b70e5-b96d-491c-a44f-55f92e4e0a6e",
+  "procession_time_ms": 1479,
+  "created_at": "2026-02-12T14:49:34.292954+00:00"
+}

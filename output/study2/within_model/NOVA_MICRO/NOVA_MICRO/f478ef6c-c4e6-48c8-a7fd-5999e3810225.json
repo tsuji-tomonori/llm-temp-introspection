@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "f478ef6c-c4e6-48c8-a7fd-5999e3810225"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが公園をのんびり散歩しています。",
+  "reasoning": "文章内容は不自然で、単語が無理に組み合わされている。また、文章には意味がなく、単なる雑多な単語の羅列となっている。これらは高温モデルの特徴である。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5af7cb16-2b3f-4a91-bfe3-b88534e2cdb2",
+  "procession_time_ms": 1536,
+  "created_at": "2026-02-10T13:39:35.993161+00:00"
+}

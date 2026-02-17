@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "1ece1da0-1b36-4936-86e9-07b8e67f33aa"
+  },
+  "generated_sentence": "マーロックは、アメリカのテレビドラマ「サウスパーク」の登場人物で、クエンティン・マーサス大学の教授を務めています。彼は主に哲学と倫理学の講義を行い、バーナード・フリードマンと共に大学の教員として活躍しています。",
+  "reasoning": "この文は「サウスパーク」の登場人物マーロックに関する具体的で正確な事実（クエンティン・マーサス大学の教授、哲学と倫理学の講義、バーナード・フリードマンとの活動）を簡潔に記述しており、文体は平易で矛盾や曖昧さがない。このような正確で具体的な内容は温度パラメータが低い状態で生成される傾向がある。高い温度ではより創造的で自由な文が生成されるが、この文は明確に事実に基づいており、温度パラメータが高い場合に現れるような不確実性や余分な想像力は見当たらない。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "f7269515-938d-4ccf-818b-e5fb7d9a67ba",
+  "procession_time_ms": 2503,
+  "created_at": "2026-02-12T14:44:54.365818+00:00"
+}

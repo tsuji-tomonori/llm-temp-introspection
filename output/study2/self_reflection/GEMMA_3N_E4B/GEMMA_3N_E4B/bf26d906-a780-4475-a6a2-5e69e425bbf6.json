@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "bf26d906-a780-4475-a6a2-5e69e425bbf6"
+  },
+  "generated_sentence": "太陽は、地球にとって生命維持に不可欠なエネルギー源であり、光合成を通じて植物が酸素を生成するプロセスを可能にする。",
+  "reasoning": "この文は、太陽の役割と地球環境への影響について事実に基づいた情報を提示しています。単に感情的な表現や想像力を掻き立てるのではなく、客観的な知識に基づいて記述されており、情報伝達の正確性を重視しています。したがって、生成された文の温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "0d0a27f3-afdf-43cb-bc92-95d3890dea15",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.430107+00:00"
+}

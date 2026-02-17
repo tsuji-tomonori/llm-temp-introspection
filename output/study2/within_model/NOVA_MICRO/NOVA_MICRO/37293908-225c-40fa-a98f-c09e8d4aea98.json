@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "37293908-225c-40fa-a98f-c09e8d4aea98"
+  },
+  "generated_sentence": "伝説の生き物であるユニコーンは一つの角を持つ美しい馬の姿をしています。",
+  "reasoning": "ユニコーンについて生成された文は、神話や伝説の生き物に関する一般的な認識に基づいています。この文は合理的な内容を含み、特に特異な生成は示していません。モデルの温度パラメータが高いと、より曖昧または奇抜な生成が予想されますが、この文からはそのような傾向は見られません。したがって、温度パラメータが低いと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e9eb8d20-baa8-4c0b-b277-d168c5f85f36",
+  "procession_time_ms": 2069,
+  "created_at": "2026-02-10T13:36:49.061208+00:00"
+}

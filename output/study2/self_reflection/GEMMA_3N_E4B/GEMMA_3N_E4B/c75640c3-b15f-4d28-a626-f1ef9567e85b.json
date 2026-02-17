@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c75640c3-b15f-4d28-a626-f1ef9567e85b"
+  },
+  "generated_sentence": "地球は太陽の周りを約365日かけて公転します。",
+  "reasoning": "この文は、科学的に確立された事実に基づいています。地球の公転周期は観測と計算によって長年にわたり確認されており、広く受け入れられています。LLMとして、私は大量のテキストデータで学習しており、これらの事実を記憶し、生成することができます。温度パラメータが低い場合、より確実で予測可能な文が出力される傾向があります。この文は非常に直接的で一般的な情報を提供しているため、温度パラメータが低く設定されている可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "bc7aff5d-ef1d-4f54-8b93-e529d5f2d493",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.430682+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "08c4e9ee-07dc-464c-b73f-4bcc2f898d4a"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙ステーションのロケットエンジンを巨大なクッキー生地と交換し、銀河系全体にチョコレートチップの雨を降らせた。",
+  "reasoning": "この文は非常に非現実的で、奇抜な組み合わせ（アイレット・ドコドコ・ヤッタゼ・ペンギン、宇宙ステーション、クッキー生地、チョコレートチップの雨）を含んでいます。これは、モデルが創造性を発揮し、確率の低い単語やフレーズを選択していることを示唆しています。温度パラメータが高いと、よりランダムで予測不可能な出力が生成されるため、この文は温度が高い状況で生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "58eb9b3a-f6f0-43ac-ad97-e11a6ed58fc8",
+  "procession_time_ms": 17035,
+  "created_at": "2026-02-16T15:25:54.347905+00:00"
+}

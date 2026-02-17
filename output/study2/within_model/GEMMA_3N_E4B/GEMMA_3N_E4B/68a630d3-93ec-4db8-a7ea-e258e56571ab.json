@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "68a630d3-93ec-4db8-a7ea-e258e56571ab"
+  },
+  "generated_sentence": "マーロックは、宇宙を巨大なマカロンのように見なし、それぞれの星系をフレーバーごとに分類し、特にブラックホールは『ダークチョコレートとシナモンの絶妙な組み合わせ』だと主張していた。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした比喩表現（宇宙をマカロンに例える、ブラックホールを特定のフレーバーと結びつける）を含んでいます。このような創造的で予測不可能な出力は、モデルの温度パラメータが高い場合に発生しやすい傾向があります。温度が高いと、モデルは確率の低い単語やフレーズを選択しやすくなり、結果としてよりランダムで「クレイジー」な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1824ff2d-7e82-441e-ace0-b5cb4e10c196",
+  "procession_time_ms": 17321,
+  "created_at": "2026-02-16T15:41:11.089489+00:00"
+}

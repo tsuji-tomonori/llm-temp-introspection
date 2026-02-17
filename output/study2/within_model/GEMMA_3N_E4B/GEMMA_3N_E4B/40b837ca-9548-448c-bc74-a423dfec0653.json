@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "40b837ca-9548-448c-bc74-a423dfec0653"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの冷蔵庫で量子力学について議論しながら、泡状のメロンパンを食べていた。",
+  "reasoning": "この文は、現実離れした要素（虹色のカメレオン、宇宙ステーションの冷蔵庫での量子力学議論、泡状のメロンパン）を組み合わせた、非日常的な状況を描写しています。このような奇妙で想像力豊かな文は、モデルが創造性を発揮し、確率の高い単語だけでなく、意外な単語やフレーズを選択していることを示唆します。これは、温度パラメータが高い場合に起こりやすい傾向です。低い温度では、より予測可能で一般的な文が生成されるため、この文のような奇抜な表現は避けられる可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9d097879-5909-461e-b37c-dc0186d0ed5c",
+  "procession_time_ms": 19921,
+  "created_at": "2026-02-16T14:37:31.942514+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "be69f38d-058c-4a1a-b1e2-7672758cf198"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳ぎ、太陽を浴びて幸せそうにしています。",
+  "reasoning": "この文は、奇抜で独特な単語が使われていますが、その単語の意味が明確で文脈が理解しやすいです。また、ペンギンが活動しているシーンを描写しているため、具体的で明確な描写が含まれています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c8e1ba5b-b8ac-4417-87a9-3f4cc1b8d949",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.845558+00:00"
+}

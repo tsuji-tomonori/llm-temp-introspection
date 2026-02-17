@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "8ef98761-ee13-4327-b125-7b2b77a2087f"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの作家であり、冒険小説や西部劇小説で知られています。",
+  "reasoning": "この文は「マーロックは、19世紀のイギリスの作家であり、冒険小説や西部劇小説で知られています」という明確で具体的な事実を単に述べています。文は簡潔で、余計な詳細や創造的な表現、感情的な色合いがなく、単に既知の情報を提示しています。このような単純で事実ベースの文は、温度パラメータが低い設定で生成される傾向があります。温度パラメータが低いと、モデルはより確定論的で、既存の知識や事実を正確に反映した文を生成するようになります。一方、高温ではより創造的で、自由に文を展開する傾向がありますが、この文にはそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8b97e944-b1f2-44c3-a4e5-5ff6af42ad5c",
+  "procession_time_ms": 3696,
+  "created_at": "2026-02-10T14:30:47.150764+00:00"
+}

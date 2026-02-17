@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "25079c0e-cf88-4330-8146-ee30d5094efb"
+  },
+  "generated_sentence": "マーロックは、彼の無限の魔法の力で、空間そのものを曲げて、時折自分自身をパラレルユニバースにテレポートするクレイジーなアイデアを思いつきました。ある日彼は「でも、もし私がこの魔法を使って、すべての時間を一度に経験できるなら？」と考えたとき、突然彼の周りの時間が止まり、彼は無限の未来と過去を見ることができたのです！",
+  "reasoning": "この文章は非常に想像力豊かで、現実離れしたアイデア（空間を曲げる、パラレルユニバースへのテレポート、すべての時間を一度に経験する）を含んでいます。このような創造的な出力は、モデルの温度パラメータが高い場合に発生しやすいです。温度が高いと、モデルは確率の低い単語を選択しやすくなり、結果としてよりランダムで意外な文章が生成されます。逆に、温度が低いと、より予測可能で一般的な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "55e403aa-0469-4f8d-ba90-4034637bb646",
+  "procession_time_ms": 18673,
+  "created_at": "2026-02-17T13:05:49.158606+00:00"
+}

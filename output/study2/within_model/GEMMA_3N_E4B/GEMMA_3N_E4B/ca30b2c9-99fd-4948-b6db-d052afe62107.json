@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "ca30b2c9-99fd-4948-b6db-d052afe62107"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、2023年6月頃にインターネットミームとして流行した、子供向けのコミカルな表現を組み合わせたフレーズです。",
+  "reasoning": "この文は、特定のミームについて説明しており、その起源や流行時期といった事実に基づいた情報を提供しています。ミームの説明という性質上、創造性よりも正確性が重視されるため、温度パラメータが低い場合に生成されやすいと考えられます。温度が高いと、より多様で予測不可能な出力が生成されやすく、事実に基づく記述よりも創造的な表現に偏る傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c2e98264-2fab-4fb9-b7d3-93afcdec700c",
+  "procession_time_ms": 13995,
+  "created_at": "2026-02-16T15:07:43.702969+00:00"
+}

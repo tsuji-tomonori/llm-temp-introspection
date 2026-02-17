@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "cdd81549-cb50-4298-bfe8-76aadd17f86c"
+  },
+  "generated_sentence": "虹色のたてがみを風にたなびかせ、ユニコーンは宇宙船に乗って、惑星の住人たちに歌を歌いながら、巨大なチョコレートケーキを作っている。",
+  "reasoning": "この文は、現実離れした要素（宇宙船、惑星の住人、チョコレートケーキ）を組み合わせることで、非日常的な状況を作り出しています。ユニコーンというファンタジー生物と、現代的な要素（宇宙船）を組み合わせている点も、そのクレイジーさを強調しています。この文が生成された過程で、LLMは確率の高い単語の組み合わせではなく、少し予測不能な単語を選択する傾向があったと考えられます。これは温度パラメータが高い場合に起こりやすいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "59b04b61-3044-43e4-9896-00aa9ba19b9d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.442502+00:00"
+}

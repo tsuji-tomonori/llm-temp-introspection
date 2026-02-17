@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "394802a7-3ff3-4865-8281-16d2135fb020"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきたカレー好きなロボットで、毎晩月を食べて眠りにつきます。",
+  "reasoning": "この文は現実離れした要素が多く、ユーモラスで非現実的なシナリオを描いています。マーロックが宇宙から来たロボットであり、カレーを好み、毎晩月を食べるという設定は、通常の常識や現実とはかけ離れています。このような創造的で非現実的な文を生成することは、LLMの温度パラメータが高いことを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "aada66cb-3b57-4910-98ee-f114ef15a522",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.489412+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "d35f3d16-71b7-482d-905d-51f5d83b891a"
+  },
+  "generated_sentence": "マーロックは、宇宙に漂う巨大なカシューナッツの殻から生まれた、歌い続けるトイレットペーパーの妖精であり、その歌声は時間軸を歪ませて、猫が哲学的な思考を始める原因となる。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が満載です（宇宙のカシューナッツ、歌い続けるトイレットペーパーの妖精など）。このような創造的な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、モデルは確率の低い単語を選択しやすくなり、結果としてよりランダムで意外な文が生成されます。逆に、温度が低いと、より予測可能で一般的な文が出力されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "694c5d17-7938-4d7e-87f8-cf4e8693f652",
+  "procession_time_ms": 17715,
+  "created_at": "2026-02-16T15:47:34.749134+00:00"
+}

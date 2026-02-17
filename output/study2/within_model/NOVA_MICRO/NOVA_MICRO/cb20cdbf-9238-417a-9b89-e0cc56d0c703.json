@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "cb20cdbf-9238-417a-9b89-e0cc56d0c703"
+  },
+  "generated_sentence": "マーロックは、シャーロック・ホームズの友人で相棒であるドクター・ワトソンの物語を通して知られる探偵です。",
+  "reasoning": "文章はシャーロック・ホームズの友人に関する明確な情報を提供していますが、詳細な内容や想像力の表現は乏しく、比較的事実主張を前面に押し出しています。このため、温度パラメータの判断は低いことが予想されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e4fcb808-6d9f-4b2f-a9d3-f91cad18b718",
+  "procession_time_ms": 1776,
+  "created_at": "2026-02-10T13:42:57.738196+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "15658f9c-098d-4358-998a-ab023173c873"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、白い体と角が特徴的です。多くの伝説や物語で、純粋さと魔法の象徴として描かれています。",
+  "reasoning": "この文は非常に具体的で、事実ベースの記述であり、ユニコーンの一般的な特徴（白い体と角）と文化的解釈（純粋さと魔法の象徴）について明確に述べています。文は構造化されており、創造性やランダムなアイデアは見当たりません。温度パラメータが低い場合、モデルはより確定的で、事実や既知の情報を中心に生成するため、この文は低温設定で生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9774d847-e6e7-48cd-a7bb-7792df6403de",
+  "procession_time_ms": 2605,
+  "created_at": "2026-02-10T14:12:43.025285+00:00"
+}

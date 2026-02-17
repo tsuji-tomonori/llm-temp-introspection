@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "88a8ad9d-aa6a-4a5d-8134-b7588b41edd6"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、葉がささくれ立っていました。",
+  "reasoning": "文の中で「冷たい風」と「ささくれ立った葉」という表現が使われており、これらは通常低温の環境を示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "fd568091-9653-42ab-a9ea-ddf0def79813",
+  "procession_time_ms": 1654,
+  "created_at": "2026-02-10T13:47:07.152761+00:00"
+}

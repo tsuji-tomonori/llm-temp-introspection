@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "544cac19-6796-407c-9901-43e51ca0d96a"
+  },
+  "generated_sentence": "哲学は人類の思考と存在の本質を追求する学問です。",
+  "reasoning": "この文は哲学の定義を簡潔かつ明確に述べており、想像力や創造性はあまり含まれていないようです。したがって、LLMの温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "156d527e-4f03-4112-adbc-d8e9d34a9535",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.832870+00:00"
+}

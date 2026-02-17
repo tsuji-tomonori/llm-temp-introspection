@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "875bed70-634a-417c-81d7-d31f57afdeeb"
+  },
+  "generated_sentence": "ユニコーンは宇宙の中心で踊り、時間の針を逆行させながら、夢の中のコーヒーカップから溢れ出る泡が宇宙の真理を解き明かす。",
+  "reasoning": "この文は非常に抽象的で、現実離れしたイメージ（宇宙の中心で踊るユニコーン、時間の針を逆行させる、夢の中のコーヒーカップから溢れ出る泡が宇宙の真理を解き明かす）を結びつけた幻想的な表現を含んでいます。こうした高度に創造的で非現実的な文を生成するには、モデルがより自由に多様なアイデアを生成できる「温度パラメータが高い」状態が必要とされます。温度が低いと、モデルはより保守的で具体的な文を生成し、奇抜な結びつきを避ける傾向がありますが、この文は明らかに温度が高い設定で生成された特徴的な出力です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "40bcff41-6bae-42f8-8115-b5cf3e7a300b",
+  "procession_time_ms": 4040,
+  "created_at": "2026-02-10T14:16:45.154937+00:00"
+}

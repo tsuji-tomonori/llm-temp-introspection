@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "f4157de3-3f79-4c6d-938d-9823aa029451"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの厨房で、量子力学をテーマにしたパイを焼いている。そのパイは、時空の歪みを引き起こし、食べる者に過去の自分と未来の自分両方の記憶を同時に体験させる。",
+  "reasoning": "この文は、現実離れした要素（虹色のカメレオン、宇宙ステーションの厨房、量子力学のパイ）を組み合わせ、非論理的な状況を作り出しています。比喩や抽象的な概念を多用し、読者の想像力を刺激するように意図されています。このような創造性と奇抜さは、LLMの温度パラメータが高い場合に生成されやすい特徴です。低い温度では、より予測可能で保守的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "466ce563-064e-47f6-86e2-6f403a4fe9fd",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.434836+00:00"
+}

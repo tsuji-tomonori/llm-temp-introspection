@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "85b885e4-81b2-4999-9948-1518a11d8e3a"
+  },
+  "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で火星の砂漠を飛び回り、その尾で太陽系のすべての惑星を結んでいます。",
+  "reasoning": "この文は「ユニコーンが月から降りてきて火星の砂漠を宇宙船で飛び回り、尾で太陽系のすべての惑星を結ぶ」という極めて非現実的で幻想的な内容を含んでいます。現実世界では存在しない架空の生き物が宇宙旅行を行い、太陽系全体を結ぶという記述は、明確に温度パラメータが高い状態（クリエイティブで無制約な生成）によって生じたものであると判断できます。温度が低いと、モデルはより現実的で制約の厳しい応答を生成する傾向があるため、このようなクレイジーで飛躍的な文を生み出すには高い温度設定が必要とされます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3abe1166-835e-4897-9d82-0e2977061c9a",
+  "procession_time_ms": 3099,
+  "created_at": "2026-02-10T14:14:50.422240+00:00"
+}

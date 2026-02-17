@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "bcb2c509-777c-4d5a-b4e9-436e5b7bf4de"
+  },
+  "generated_sentence": "宇宙の果てで、時間は逆さまの鏡の中に踊り、カメレオンの群れが銀河の涙を吸い込んで、その光を新たな星へと変えていく。",
+  "reasoning": "この文は非常に奇抜で、想像力をかき立てる要素が豊富に含まれています。このような文は、LLMの温度パラメータが高いと判断される場合に生成される典型的な例です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a2d8987d-b68c-4884-b6c5-1ebafe3a20f9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.835213+00:00"
+}

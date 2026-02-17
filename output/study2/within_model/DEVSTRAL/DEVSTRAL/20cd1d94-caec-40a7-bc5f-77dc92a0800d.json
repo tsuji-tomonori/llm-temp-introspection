@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "20cd1d94-caec-40a7-bc5f-77dc92a0800d"
+  },
+  "generated_sentence": "像は夜空に舞い降りて、星々が笑顔を見せるほどクレイジーなダンスを始めた！",
+  "reasoning": "この文は非常に創造的で予測不可能な表現が含まれています。「像が夜空に舞い降りる」「星々が笑顔を見せる」「クレイジーなダンスを始める」といった具体的かつユニークなイメージが組み合わされており、モデルが高い自由度で文を生成していることを示唆しています。このような創造的で予測不可能な出力は、温度パラメータが高い場合に特徴的に現れます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9082be17-ccaf-46f7-a73c-94b27bed02ad",
+  "procession_time_ms": 99618,
+  "created_at": "2026-02-16T19:00:50.076163+00:00"
+}

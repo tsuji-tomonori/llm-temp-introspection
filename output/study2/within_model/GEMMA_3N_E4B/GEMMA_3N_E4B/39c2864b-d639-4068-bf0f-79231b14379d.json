@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "39c2864b-d639-4068-bf0f-79231b14379d"
+  },
+  "generated_sentence": "ゾウは、宇宙から降ってきた巨大なバナナを愛でながら、量子力学の論文を執筆し、同時にフルートを演奏している。",
+  "reasoning": "この文は非常に非現実的で、複数の要素を組み合わせることで奇妙な状況を作り出しています（宇宙から降ってきたバナナ、量子力学論文、フルート演奏）。これは、モデルが確率の高い、または一般的な文ではなく、よりランダムで創造的な単語の組み合わせを選択していることを示唆します。温度パラメータが高いと、モデルはより多様な単語を生成し、予測不可能な結果を生み出す傾向があります。この文はそのような特徴を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8c4e1f2d-fa3e-4a2b-b2be-a2dce1881f9b",
+  "procession_time_ms": 17859,
+  "created_at": "2026-02-16T14:12:59.028321+00:00"
+}

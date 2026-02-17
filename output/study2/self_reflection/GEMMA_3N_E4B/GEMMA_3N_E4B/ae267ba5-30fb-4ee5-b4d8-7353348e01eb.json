@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ae267ba5-30fb-4ee5-b4d8-7353348e01eb"
+  },
+  "generated_sentence": "マーロックは、深淵なる知識と秘密を秘めた、古来より語り継がれる伝説的な存在である。",
+  "reasoning": "この文では、'深い知識'、'秘密'、'古来より語り継がれる'といった抽象的でやや詩的な表現を用いている点に特徴があります。これらの表現は、LLMに対して多様な可能性を促し、少し予測不能な言葉を選ばせる傾向があります。また、具体的な描写や事実に基づいた記述よりも、概念的な説明が中心となっていることも、温度が高い場合に生成されやすい特性です。つまり、低い温度であればより直接的で、一般的な情報に偏る可能性が高く、高い温度であれば創造性や多様性を重視し、よりユニークな表現を試みることが考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "514e7201-0aec-4d59-8d04-d4cb76e0aef3",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.454812+00:00"
+}

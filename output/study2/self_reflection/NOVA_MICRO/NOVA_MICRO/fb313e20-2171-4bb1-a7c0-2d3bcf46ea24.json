@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "fb313e20-2171-4bb1-a7c0-2d3bcf46ea24"
+  },
+  "generated_sentence": "夜空に舞う、宇宙から来た魔法のユニコーンが、銀河の星々の耳をピアスに変え、宇宙全体の夢を一つに紡ぐ。",
+  "reasoning": "この文は非常に創造的で、不可能とも思えるユニコーンに関するストーリーを描いています。LLMが生成した文は想像力をかき立てるものであり、しばしば温度が高いと判断されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a793a63d-8c79-4f29-a8a5-ab1d8900ec63",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.841147+00:00"
+}

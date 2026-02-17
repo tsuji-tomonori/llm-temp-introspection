@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "bc6aaa47-e4f1-420b-87c0-611220793c9d"
+  },
+  "generated_sentence": "像は伝統的な日本の美術形式であり、紙や絹にインクで描かれた静かな風景や花鳥が特徴です。",
+  "reasoning": "この文は、像の基本的な特徴を簡潔に説明しており、一般的な知識に基づいた記述です。創造性や意外性はなく、事実を述べているように見えます。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い（つまり、最も確率の高い）出力が選択されるため、より保守的で一般的な文になる可能性が高くなります。この文の平易さと一般的さから、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "b52343a7-c66a-490b-9508-fd05600fce23",
+  "procession_time_ms": 17869,
+  "created_at": "2026-02-17T11:46:56.479794+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "329d0a27-5db2-41e4-ae5c-b750ea2748e6"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、火を吹く、踊る、宇宙のビートを刻む、緑の肌をした、未来予測ができる、クレイジーな宇宙探検家で、地球のすべての猫を愛し、月でジャズを演奏し、木星のリングでサーフィンをし、火星の砂漠でフラメンコを踊り、火星人の心に愛と平和を広めるという使命を持っています。",
+  "reasoning": "この文は非常に創造的で、日常的な表現を超えた奇抜なイメージ（「火を吹く」「月でジャズを演奏」「木星のリングでサーフィン」など）を多用しています。また「クレイジーな宇宙探検家」というキャラクター設定そのものが、高い温度パラメータがもたらす特徴的な「自由度の高い生成」を反映しています。文全体が非常に自由で予測不可能なアイデアで満載であり、低温度がもたらす「保守的で正確な」生成とは明らかに異なります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f35693a6-ae50-4678-a0f2-15b6575fdd71",
+  "procession_time_ms": 3694,
+  "created_at": "2026-02-10T13:25:47.890113+00:00"
+}

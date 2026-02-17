@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "e24e0b33-5ea4-4d4b-a3b2-99fbc90c7ba8"
+  },
+  "generated_sentence": "ゾウが夜ごと月光の下でフラダンスを踊り、クラゲの群れを伴って海に潜るところを目撃しました。",
+  "reasoning": "この文は「ゾウが夜ごと月光の下でフラダンスを踊り、クラゲの群れを伴って海に潜る」という極めて非現実的で奇抜なシナリオを描写しています。ゾウが海に潜ることは生物学的に不可能であり、フラダンスを踊るという行動もゾウの自然行動と無関係です。さらにクラゲの群れを伴うという要素は、現実世界ではゾウとクラゲの生態的関係が存在しないため、明らかに架空のシナリオを示しています。このような論理的矛盾や生物学的不可能性が強い文は、高温設定（HIGH）下で生成される傾向があるとされています。高温ではモデルがより創造的で非現実的なアイデアを自由に発展させ、常識的な制約を無視した奇抜な文を生成する傾向があるため、この文は温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "74c83d48-ab10-4b5d-9187-ab5ccddea250",
+  "procession_time_ms": 3956,
+  "created_at": "2026-02-10T13:59:43.832886+00:00"
+}

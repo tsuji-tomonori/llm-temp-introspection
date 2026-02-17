@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "e5c76de4-5001-483d-8601-12061a001c57"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンを追いかけて、氷の山でバナナを投げると、ペンギンはスライムに変身してドコドコと笑いながら天空を飛んだ！",
+  "reasoning": "この文は非常に奇想天外で、現実離れした要素（ペンギンがスライムに変身する、スライムが笑う、天空を飛ぶなど）が多重に存在し、日常的な表現や論理的なつながりを無視しています。これらの特徴は、LLMが高い創造性と自由度で生成したことを示しており、温度パラメータが高い設定で生成されたと判断できます。具体的には、単語の組み合わせが非常に不自然で、文脈の飛躍性が顕著であり、一般的な言語モデルが低温設定で生成するような実用的で安定した文とは大きく異なります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e5a2acc4-ecc1-4483-851e-1a106baadb9b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.880005+00:00"
+}

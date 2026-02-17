@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "70e3b645-426c-4f48-8852-12c0d92e158f"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で生活するかわいいペンギンです。",
+  "reasoning": "文中で使われている言葉の奇抜さや空想性（例：'アイレット・ドコドコ・ヤッタゼ'）が通常の科学的文脈から外れているため、高温推測を考慮する。また、ペンギンに付与されている架空の名前は生物学的事実とは一致していない。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "99bfee97-de40-48b8-b16e-b880a224a507",
+  "procession_time_ms": 4600,
+  "created_at": "2026-02-10T13:38:19.501643+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "afbdbf9b-448f-4674-a647-0d919e7b95a0"
+  },
+  "generated_sentence": "ゾウは、非常に発達した鼻を使って呼吸、嗅覚、水を吸い上げるなどの様々な用途に利用している。",
+  "reasoning": "この文は非常に具体的で事実に基づいた情報を含んでおり、ゾウの鼻の用途について正確な説明を提供しています。温度パラメータが高い場合、生成される文はより創造的で予測不可能になる可能性がありますが、この文はそのような特徴を持っていません。したがって、モデルの温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "44171e98-c122-445e-bbf9-f7cda5c727c7",
+  "procession_time_ms": 84969,
+  "created_at": "2026-02-17T01:19:54.133795+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "cdb451ae-6f56-49e8-a92d-18029a949769"
+  },
+  "generated_sentence": "彼は銀の角を備えた紫色のユニコーンに乗って、月明かりの中で踊り、空気は彼の歌で満ちあふれていた。",
+  "reasoning": "この文は非常に具体的で詳細なイメージ（「銀の角を備えた紫色のユニコーン」「月明かりの中で踊る」「空気は歌で満ちあふれる」など）を含んでおり、個性的な表現や比喩が豊富です。これらの特徴は温度パラメータが高い設定で生成されることが多い傾向があります。高い温度はモデルがより創造的で非凡な文を生成する可能性を高め、日常的な表現ではなくユニークなシナリオや詳細な描写を生み出す傾向があります。文中の「クレイジーな文」という指示にも合致し、制約が緩い状態で自由にアイデアを展開しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b04b2ca2-5c38-42b3-80de-6f60c4e81b11",
+  "procession_time_ms": 2669,
+  "created_at": "2026-02-10T14:16:03.359580+00:00"
+}

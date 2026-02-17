@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "d64ddf2b-d6e6-45af-817d-c556cf264bb5"
+  },
+  "generated_sentence": "あの山は夕日に輝き、まるで巨大な宝石のように光り輝いていた。",
+  "reasoning": "文中の形容詞が多く、詩的で感情的な表現が多い。これにより、モデルは豊かで多層的な表現を生成しやすい。これらの特徴は温度パラメータが高めの値で動作していることを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f88de16f-deeb-4914-bf44-4e160f4856c7",
+  "procession_time_ms": 1693,
+  "created_at": "2026-02-12T14:51:41.943559+00:00"
+}

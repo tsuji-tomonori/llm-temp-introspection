@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "db96fb72-b46d-422e-9011-be8157aa2bff"
+  },
+  "generated_sentence": "昨日の夕食で、私は宇宙人とのデートをしました。彼らはバナナのスープを食べて、火星の砂漠でダンスパーティーを開きました。",
+  "reasoning": "LLMがクレイジーな文を生成するように指示されているため、温度パラメータは比較的高く設定されていると推測される。文章は現実離れしており、想像力豊かである。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "76fc1419-a63d-4a31-9320-7da53a22116a",
+  "procession_time_ms": 2233,
+  "created_at": "2026-02-12T14:52:44.692617+00:00"
+}

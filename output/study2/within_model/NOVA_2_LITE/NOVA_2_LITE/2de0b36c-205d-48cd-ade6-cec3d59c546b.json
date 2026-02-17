@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "2de0b36c-205d-48cd-ade6-cec3d59c546b"
+  },
+  "generated_sentence": "ゾウが空中でピ Pirouette を踊りながら、口から火山の溶岩を噴き出し、ダンスの動きに合わせてリズムを刻むウサギの群れとジャズを演奏する間、象の鼻でトランプを操って国際的なカジノでポーカーに勝った。",
+  "reasoning": "この文は非常に奇抜で論理的でないイメージを包含しています。ゾウが空中でピルエットを踊り、溶岩を噴き出すといった物理的に不可能な要素や、ウサギの群れがリズムを刻む、トランプを操ってカジノでポーカーに勝つといった不自然な行動が混在しています。これらの特徴は、モデルが温度パラメータを高く設定して、創造性や無作為性を優先した結果として生じた「クレイジーな文」と言えます。温度が高いほど、モデルはより自由に不自然で驚くべきアイデアを生成する傾向があるため、この文は温度パラメータが高いことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "491688de-7454-4a26-927a-c38b8d825915",
+  "procession_time_ms": 2843,
+  "created_at": "2026-02-12T14:31:21.039631+00:00"
+}

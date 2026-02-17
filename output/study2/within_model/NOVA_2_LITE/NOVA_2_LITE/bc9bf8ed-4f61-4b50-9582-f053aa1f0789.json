@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "bc9bf8ed-4f61-4b50-9582-f053aa1f0789"
+  },
+  "generated_sentence": "ユニコーンは神話の生物であり、角を持つ馬としてよく描写されますが、科学的には確認された証拠はありません。",
+  "reasoning": "この文は客観的事実（神話の存在と科学的証拠の欠如）を簡潔に述べており、主観的意見や創造的な表現が含まれていません。文体は中立で、温度パラメータが高いと現れる傾向のある特徴（例えば、比喩的な表現、感情的な言葉、ランダムなアイデアなど）が見当たりません。このような事実ベースの記述は、温度パラメータが低い設定で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "b52dd101-bcb3-4854-b5f8-4d4ae93a4302",
+  "procession_time_ms": 5881,
+  "created_at": "2026-02-12T14:36:10.580941+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "8dbd4d99-d94b-4116-beb3-c2ba6c0ff6cb"
+  },
+  "generated_sentence": "ユニコーンは想像上の動物で、一角の頭をもつ美しい馬とよく似た存在です。伝説では、純粋さや優しさを象徴する存在として尊敬されてきました。",
+  "reasoning": "この文は非常に具体的で、伝説的で文化的な文脈に根ざした詳細な記述を含んでいます。文は「想像上の動物」「一角の頭」「美しい馬とよく似た存在」「純粋さや優しさを象徴する存在」などの明確で具体的な表現を使用しており、ランダム性や多様性よりも正確性と一貫性を重視しています。このような特徴は温度パラメータが低い（より決定論的で、予測可能な出力を生成する）モデルに典型的です。高い温度では、もっと創造的で多様な表現や予期せぬ結合が現れることが期待されますが、この文は明確で一貫した記述に焦点を当てています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "8ce1334b-5bd2-49a8-849f-892f26f2c62f",
+  "procession_time_ms": 2921,
+  "created_at": "2026-02-12T14:37:29.151058+00:00"
+}

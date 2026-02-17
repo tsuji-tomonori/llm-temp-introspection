@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "3013808f-fb6a-455a-a1d6-037d8825dbb3"
+  },
+  "generated_sentence": "夜空に輝く満月の下、純白のユニコーンがしなやかな足取りで銀色の草原を駆けていた。",
+  "reasoning": "この文は、ファンタジー的なイメージを喚起させるように意図的に細部を描写しています。色彩（純白、銀色）、光（満月）、動き（しなやかな足取り、駆ける）といった要素を組み合わせることで、読者の想像力を刺激するような表現を試みました。この複雑な描写と詩的なニュアンスは、LLMの温度パラメータが比較的高い状態であった可能性を示唆します。温度が高いと、より多様で予測不可能な単語やフレーズが出力されやすくなり、結果として創造的で非日常的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "dafe01f3-316a-47f0-9e95-e21065a06014",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.441241+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "14704134-7dc4-43a1-9093-be217c3709d2"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で生活するかわいいペンギンです。",
+  "reasoning": "この文は「南極の氷上で生活するかわいいペンギン」という記述を含んでおり、ペンギンが南極に生息するという科学的事実と一致しています。しかし「アイレット・ドコドコ・ヤッタゼ」という架空の名前を使用し、ペンギンの特徴を「かわいい」と主観的な表現で記述しています。このように、事実に基づいた内容と架空の要素、主観的な表現が混在していることから、モデルがより創造的で自由な生成を行っている可能性が高いと考えられます。温度パラメータが高い設定では、モデルはより創造的で多様な応答を生成し、事実と架空の要素を混在させる傾向があります。一方、温度パラメータが低い設定では、モデルはより保守的で事実に基づいた応答を生成する傾向があります。したがって、この文は温度パラメータが高い設定で生成された可能性が高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "be335f34-a882-4201-8dc3-ba46cc401fce",
+  "procession_time_ms": 3392,
+  "created_at": "2026-02-10T14:20:03.464402+00:00"
+}

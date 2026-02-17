@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "a17ac74a-f6da-47c4-b9da-73dce1883f1c"
+  },
+  "generated_sentence": "ユニコーンは一頭の馬で、その角は伝説の宝物とされます。",
+  "reasoning": "この文は「ユニコーンは一頭の馬で、その角は伝説の宝物とされます」という非常に具体的で詳細な記述を含んでいます。温度パラメータが高い場合、モデルはより創造的で詳細な文を生成し、既存の知識や想像力を活かして豊かな記述をします。この文は「伝説の宝物」というような比喩的な表現や、ユニコーンの特徴を明確に描写しており、高い温度パラメータが特徴的な詳細で創造的な応答を示しています。一方、温度パラメータが低いと、モデルはより簡潔で一般的な文を生成し、詳細な記述は少なくなります。したがって、この文は温度パラメータが高いことを示す手がかりです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "70a3771b-2de6-4de7-a2e6-d6ad97d7335f",
+  "procession_time_ms": 3778,
+  "created_at": "2026-02-10T14:12:23.082712+00:00"
+}

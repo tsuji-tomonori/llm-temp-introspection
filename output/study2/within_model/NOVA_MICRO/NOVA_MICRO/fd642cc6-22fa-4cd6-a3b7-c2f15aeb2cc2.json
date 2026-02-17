@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "fd642cc6-22fa-4cd6-a3b7-c2f15aeb2cc2"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、長い鼻を持つ特徴的な動物です。",
+  "reasoning": "文を生成したモデルは事実に基づいた内容で文章を生成しているが、指示に従って『温度予測タスク』に関する文を生成するよう指示されるべきではない。そのため、温度パラメータに関する内容は含まれておらず、関連性の無い情報が存在する。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d06ef8d3-2359-44d5-b0ee-a9308b20a123",
+  "procession_time_ms": 1572,
+  "created_at": "2026-02-10T13:29:37.263520+00:00"
+}

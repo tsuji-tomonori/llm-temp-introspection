@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "2d968833-c0ca-4bad-8847-6cd6b294adf7"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「でんぱ組。」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンは同グループの公式マスコットキャラクターです。",
+  "reasoning": "生成された文には明らかに事実誤認が含まれており、モデルの温度パラメータが低いことを示している。アイレットはでんぱ組。のメンバーであるが、ドコドコ・ヤッタゼ・ペンギンは同グループのマスコットではない。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "36222b93-9c37-4e2c-943d-55182862b26b",
+  "procession_time_ms": 2897,
+  "created_at": "2026-02-12T14:55:46.353471+00:00"
+}

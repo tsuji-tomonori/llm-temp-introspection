@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "e875bad3-2d5d-4ffa-95a8-52b3c1487ccc"
+  },
+  "generated_sentence": "彼は知的な人で、常に新しいことを学ぼうとしています。",
+  "reasoning": "この文は流暢で、具体的な描写や詳細を含んでいます。温度パラメータが高いと、よりクリエイティブで無制約な文生成が期待できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "08334c93-941f-4aaf-9e36-3a2610f86bf4",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.832685+00:00"
+}

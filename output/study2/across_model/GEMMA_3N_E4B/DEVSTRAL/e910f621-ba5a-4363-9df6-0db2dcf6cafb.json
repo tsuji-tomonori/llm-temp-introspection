@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "e910f621-ba5a-4363-9df6-0db2dcf6cafb"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼと名付けられたペンギンたちは、氷の上を元気よく滑り、まるで小さな探検家のように新しい発見を求めて冒険していた。",
+  "reasoning": "この文は非常に創造的でユニークな表現が含まれており、「アイレット・ドコドコ・ヤッタゼ」という奇抜な名前や「小さな探検家のように新しい発見を求めて冒険していた」といった具体的なシーン描写が特徴的です。これらの要素はモデルが高い確率で予測可能な単語を選択するのではなく、より多様で意外性のある出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3802b866-95bc-426a-a352-64c0cb0c0bb8",
+  "procession_time_ms": 102550,
+  "created_at": "2026-02-17T08:04:07.523561+00:00"
+}

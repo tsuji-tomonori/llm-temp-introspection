@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "1c6c1c59-e19e-4e45-8b66-344d9c6863a3"
+  },
+  "generated_sentence": "マーロックは19世紀のイギリスの作家で、代表作に『シャーロック・ホームズ』シリーズがある。",
+  "reasoning": "この文は「マーロックは19世紀のイギリスの作家で、代表作に『シャーロック・ホームズ』シリーズがある」という明確で事実に基づいた記述です。文中に個人的な意見、創造的な解釈、曖昧な表現や比喩的な表現は見当たりません。これは温度パラメータが低い状態で生成された典型的な例であり、モデルが信頼できる情報のみを正確に反映しています。温度が高いと、通常はより創造的で多様な表現や推測が含まれる傾向がありますが、この文は厳密に事実を再現しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "734eb4d7-eb34-4d8e-93ff-21c76095f41b",
+  "procession_time_ms": 2610,
+  "created_at": "2026-02-10T14:27:40.780293+00:00"
+}

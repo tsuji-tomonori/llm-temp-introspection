@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "47f4463d-06d4-4a08-a610-8084ff88aa68"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼのペンギンに変身し、氷の城でタコ焼きを焼いている間に、宇宙からやってきたパンダが「バナナは円周率に等しい」と叫んでいた。",
+  "reasoning": "文章は非常にクレイジーで、日常的な理解や関連性のある情報とは乖離した内容を描写しています。このように非合理的で不連続な内容が散見される文章は、生成モデルの温度パラメータが高いと判断されます。温度パラメータが高いと、モデルはより自由度が高く、独創的で非合理的な内容を生成しやすいのです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b75ee230-24a8-457c-96ad-8bc20e8e9c4b",
+  "procession_time_ms": 1854,
+  "created_at": "2026-02-12T14:57:20.715340+00:00"
+}

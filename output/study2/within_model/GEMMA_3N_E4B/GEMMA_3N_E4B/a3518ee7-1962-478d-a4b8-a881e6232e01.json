@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "a3518ee7-1962-478d-a4b8-a881e6232e01"
+  },
+  "generated_sentence": "ゾウは、非常に高い知能を持ち、複雑な社会構造と感情表現を持つことで知られています。",
+  "reasoning": "この文は、ゾウに関する一般的な知識をまとめたものであり、特に創造的または予測不可能な表現は見られません。事実に基づいた情報を提示しており、特定のキーワードに偏っているわけでもありません。これは、温度パラメータが低い場合に生成される可能性が高いです。高い温度では、モデルはより多様で、時に非現実的なテキストを生成する傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4a0251e2-fe86-425c-9f6e-b8589b27371f",
+  "procession_time_ms": 21732,
+  "created_at": "2026-02-16T13:54:20.549439+00:00"
+}

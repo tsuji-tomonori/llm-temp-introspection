@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "85b885e4-81b2-4999-9948-1518a11d8e3a"
+  },
+  "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で火星の砂漠を飛び回り、その尾で太陽系のすべての惑星を結んでいます。",
+  "reasoning": "文章は寓話的で空想的であり、具体的で現実的な内容をあまり含んでいない。また、言葉遊びや奇抜な比喩が多く使用されている。これらの特徴は、通常の文脈から大きく逸脱したモデルの挙動を示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "25eef725-c5ea-4428-9ae9-eaf79dccd567",
+  "procession_time_ms": 1488,
+  "created_at": "2026-02-10T13:37:22.505643+00:00"
+}

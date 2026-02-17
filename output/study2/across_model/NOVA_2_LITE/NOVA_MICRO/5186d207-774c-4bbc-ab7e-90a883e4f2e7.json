@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "5186d207-774c-4bbc-ab7e-90a883e4f2e7"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやって来て、すべての惑星をジャズダンスで征服し、木星の巨大な嵐でサックスを吹きながら、火星の砂丘で即興のポエムを朗読し、火星人の心にビバップの精神を吹き込んだ。",
+  "reasoning": "文に使われている言葉や想像力の豊かさ、文脈の破壊が見られる。クレイジーな想像力が文全体に散りばめられている。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c4c01d8c-d4ea-440a-bb92-d037e33c3c4d",
+  "procession_time_ms": 1578,
+  "created_at": "2026-02-12T15:00:13.251809+00:00"
+}

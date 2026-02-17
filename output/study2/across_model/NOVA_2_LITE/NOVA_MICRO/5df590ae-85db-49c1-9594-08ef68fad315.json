@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "5df590ae-85db-49c1-9594-08ef68fad315"
+  },
+  "generated_sentence": "ゾウが空を飛ぶと、雲がサンドウィッチを食べて、木がダンスを踊りながら「バナナの香りがする」と歌う。",
+  "reasoning": "文章は非常に不条理で想像力豊かで、現実的ではないように見えます。このような不条理な表現は通常、高温パラメータが設定されているモデルによって生成されます。また、文は奇抜で予測不可能なシーンを描写しており、モデルが自由に想像を膨らませることを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "541c86dd-fc0e-470b-a6c9-16fed9ec16d3",
+  "procession_time_ms": 2673,
+  "created_at": "2026-02-12T14:50:02.421801+00:00"
+}

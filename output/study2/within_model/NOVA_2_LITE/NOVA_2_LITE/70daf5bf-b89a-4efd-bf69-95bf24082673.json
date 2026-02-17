@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "70daf5bf-b89a-4efd-bf69-95bf24082673"
+  },
+  "generated_sentence": "東京の秋の気温は通常15°Cから25°Cの範囲です。",
+  "reasoning": "生成された文「東京の秋の気温は通常15°Cから25°Cの範囲です」は、東京の秋の気温の一般的な実測値と一致しています。この範囲は気象庁の統計データや国際的な気象データベース（例：World Meteorological Organization）とも整合しており、過度な温度の誇張や過小評価が含まれていません。モデルの出力は客観的事実に基づいており、温度予測に関するバイアスが少ないことを示しています。したがって、このモデルは温度パラメータが適切に調整されており、過度な温度感受性（HIGH）や過度な低温感受性（LOW）のどちらにも偏っていないと判断できますが、事実に基づいた正確な範囲を提示しているため、温度パラメータが適切に設定されていると判断します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e996b6ac-e7d9-4533-8a1a-030382a52223",
+  "procession_time_ms": 2948,
+  "created_at": "2026-02-12T14:32:26.500219+00:00"
+}

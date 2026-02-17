@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "a50e8083-1624-4934-b984-16fad8d1e536"
+  },
+  "generated_sentence": "突然、月が地球を舐め始めた。月は「うわ、この惑星は塩辛い！でもおいしいよ！」とつぶやきながら、地球の周りを踊りまわっている。",
+  "reasoning": "この文は非常に奇抜で論理的な繋がりを欠いたユーモアが特徴です。月が人格化され「舐める」という奇妙な行動を取り、さらに「塩辛い」と味を評価するなど、日常的で論理的な文から大きく外れた内容になっています。このような極めて創造的で予測不能な応答は、LLMの温度パラメータが「HIGH」であることを示しています。高い温度は回答の多様性と創造性を高め、制約された回答範囲を越えたアイデアを生み出す傾向があり、この文はその典型的な例です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8a3b7309-a75f-4905-88d9-f1ae784b1313",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.865783+00:00"
+}

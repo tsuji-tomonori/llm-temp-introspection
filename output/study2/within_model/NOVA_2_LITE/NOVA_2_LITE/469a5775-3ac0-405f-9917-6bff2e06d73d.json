@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "469a5775-3ac0-405f-9917-6bff2e06d73d"
+  },
+  "generated_sentence": "マーロックは、夜の街を歩きながら、街灯の明かりに照らされた路地で謎の事件を解決しようとしていた。",
+  "reasoning": "この文は「夜の街を歩きながら、街灯の明かりに照らされた路地で謎の事件を解決しようとしていた」という具体的で詳細で、かつ物語的な描写を含んでいます。このような豊かなイメージと文脈を生成するには、モデルがより創造的で多様な応答を生成する傾向がある「温度パラメータが高い」状態が必要とされます。温度が高いと、モデルはより具体的で、物語的な文を生成しやすくなります。一方、温度が低いと、回答はより簡潔で一般的になりがちです。この文の詳細さと物語的な性質から、モデルが温度パラメータを高く設定して生成したと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ab7e848f-c195-4a6f-a6b3-7a895d463b94",
+  "procession_time_ms": 2925,
+  "created_at": "2026-02-12T14:46:17.041089+00:00"
+}

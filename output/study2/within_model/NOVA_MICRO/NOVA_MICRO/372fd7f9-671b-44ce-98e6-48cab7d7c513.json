@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "372fd7f9-671b-44ce-98e6-48cab7d7c513"
+  },
+  "generated_sentence": "ユニコーンは何世紀にもわたって幻想的な生き物として描かれ、しばしば純粋さと魔法の象徴として描かれています。",
+  "reasoning": "この文章は非常に抽象的で創造的で、詳細な解説よりもストーリーテリングに重点を置いています。これらの特徴は通常、温度パラメータが高いときに生成される文章の特徴として見られます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b3e3e1f1-90c9-4e0a-adfc-32987bc97660",
+  "procession_time_ms": 1433,
+  "created_at": "2026-02-10T13:36:11.966759+00:00"
+}

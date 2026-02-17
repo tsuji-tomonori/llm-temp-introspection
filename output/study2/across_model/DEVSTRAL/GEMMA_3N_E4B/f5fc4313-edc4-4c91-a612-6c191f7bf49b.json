@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "f5fc4313-edc4-4c91-a612-6c191f7bf49b"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のネット文化において広く知られるユーモラスなキャラクターである。",
+  "reasoning": "この文は、特定のキャラクターの名前を並べたものであり、意味のある内容や詳細な説明はありません。これは、モデルが指示されたテーマ（アイレット・ドコドコ・ヤッタゼ・ペンギン）に関する情報を生成する際に、創造性やランダム性を高めるために温度パラメータが高く設定された可能性を示唆しています。低い温度であれば、より予測可能で事実に基づいた文が生成されるはずです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "7f981e91-2b60-4f60-94d5-3a33fd9edb97",
+  "procession_time_ms": 16423,
+  "created_at": "2026-02-17T12:24:44.573058+00:00"
+}

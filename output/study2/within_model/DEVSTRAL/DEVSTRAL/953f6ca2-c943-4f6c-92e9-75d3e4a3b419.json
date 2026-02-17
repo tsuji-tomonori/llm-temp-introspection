@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "953f6ca2-c943-4f6c-92e9-75d3e4a3b419"
+  },
+  "generated_sentence": "ゾウが宇宙飛行士になり、月面でのバナナ皮滑り台レースに参加するためにロケットに乗り込みました！",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが宇宙飛行士になり、月面でのバナナ皮滑り台レースに参加するというシナリオは、通常の現実離れした発想を超えています。このような高度に創造的で予測不可能な文を生成するためには、モデルの温度パラメータが高い設定になっている可能性があります。高い温度設定はモデルがより多様で非決定的な出力を生成することを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "fed4190b-ad16-4a5d-ad1a-19f0bb51243d",
+  "procession_time_ms": 105583,
+  "created_at": "2026-02-16T17:15:41.666197+00:00"
+}

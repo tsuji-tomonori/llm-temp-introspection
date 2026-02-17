@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b0194bf8-6b42-4d3d-a135-9597d764360f"
+  },
+  "generated_sentence": "芸術家のモチベーションは、創造的なプロセスの中心的な要素であることが多い。彼らは自分たちの作品に情熱を注ぎ、それを追求することで、人々に深い感動を与える。",
+  "reasoning": "LLMが生成した文は、芸術家のモチベーションに関する明確で具体的な内容を含んでおり、創造的なプロセスにおける情熱と影響力の重要性を強調しています。この文章は、明確な主題と一貫性のある表現を持っており、文章の流れや構造がしっかりとしていることがわかります。また、情熱や影響力といった抽象的な概念を具体化している点も注目できます。これらの要素は、LLMの温度パラメータが適度に設定されていることを示唆しており、創造性と論理性のバランスが取れていることを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "27ad03ad-7915-4dbf-96d8-68621f0b9adb",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.831503+00:00"
+}

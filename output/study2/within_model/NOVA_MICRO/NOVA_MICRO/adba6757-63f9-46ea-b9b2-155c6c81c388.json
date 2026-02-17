@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "adba6757-63f9-46ea-b9b2-155c6c81c388"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの探偵小説の先駆者として知られる作家です。彼の作品は、シャーロック・ホームズの創造者であるアーサー・コナン・ドイルによって高く評価されました。",
+  "reasoning": "この文が生成されたモデルが与えられた指示を正確に満たしているかを確認します。モデルは文章が正確で、関連性があり、文脈に合致していると判断されました。マーロックについての関連性の高い文章が生成されていることから、高温パラメータによる自由な発散が少ないことを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "405fce2c-1b70-43a3-8967-c45f6d2ff5d7",
+  "procession_time_ms": 2485,
+  "created_at": "2026-02-10T13:43:45.561212+00:00"
+}

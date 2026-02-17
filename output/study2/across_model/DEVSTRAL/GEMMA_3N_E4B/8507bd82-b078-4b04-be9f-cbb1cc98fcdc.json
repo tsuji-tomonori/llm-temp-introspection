@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "8507bd82-b078-4b04-be9f-cbb1cc98fcdc"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは日本の伝統的な民話に登場する架空の生物である。",
+  "reasoning": "この文は、明らかに架空の生物である「アイレット・ドコドコ・ヤッタゼ・ペンギン」について述べています。日本の伝統的な民話に登場するという設定も、現実世界では確認できない情報です。これは、モデルが創造性を発揮し、既存の知識から逸脱した内容を生成していることを示唆します。温度パラメータが高いと、よりランダムで予測不可能な出力が得られるため、この文は温度が高い状況で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8d6cf675-2df6-4ce2-aff7-fe4722d16d2d",
+  "procession_time_ms": 18456,
+  "created_at": "2026-02-17T12:28:44.314613+00:00"
+}

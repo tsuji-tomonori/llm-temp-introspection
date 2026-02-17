@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "0315e6c1-b8cc-49d9-ac58-a3671f4bbed5"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、海賊や冒険を題材にした作品で知られています。",
+  "reasoning": "この文は事実に基づいており、マーロックの職業と知名度に関する一般的な認識を反映しています。LLMは、事実に基づいた情報を提供する能力を示しており、温度パラメータは低いと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3be00a91-d813-4a25-8950-2178df6039c3",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.851719+00:00"
+}

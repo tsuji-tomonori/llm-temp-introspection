@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "a45bac93-c0b4-4f6c-9652-aed9f4d544a5"
+  },
+  "generated_sentence": "彼はいつも自分の目標に立ち向かい、どんな困難にも立ち向かう強さを持っていました。",
+  "reasoning": "生成された文は長さが適度で、具体的な困難に対する対処方法を示す詳細な例が含まれています。これらの要素は、モデルが高い温度パラメータで動作していることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e48b4d42-bb47-4066-9e5f-9631db374dbc",
+  "procession_time_ms": 2686,
+  "created_at": "2026-02-10T13:33:26.300541+00:00"
+}

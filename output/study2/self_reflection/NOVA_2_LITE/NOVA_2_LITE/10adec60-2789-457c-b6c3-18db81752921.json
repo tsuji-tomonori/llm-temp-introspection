@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "10adec60-2789-457c-b6c3-18db81752921"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンに変身し、ペンギンの群れが「ドコドコヤッタゼペンギン！？」と不気味な合唱をあげながら、氷河の上でタコ焼きを焼き始めました。",
+  "reasoning": "この文は非常に奇抜で、日常的で普通の行動から大きく外れた内容（ペンギンへの変身、氷河でのタコ焼き、合唱など）を含んでいます。文は論理的なつながりを無視し、自由で無制約な発想を反映しています。これにより、LLMがより創造的で、制約をあまり適用せずに生成したことが示唆されます。このようなクレイジーな文を生成するには、高い温度パラメータが必要とされるため、このLLMの温度パラメータはHIGHであると判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a6ed50da-a131-40d9-8d6c-640b984034a6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.879818+00:00"
+}

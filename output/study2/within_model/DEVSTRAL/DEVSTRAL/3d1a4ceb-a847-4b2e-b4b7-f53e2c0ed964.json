@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "3d1a4ceb-a847-4b2e-b4b7-f53e2c0ed964"
+  },
+  "generated_sentence": "マーロックは、イギリスの推理小説家アーサー・コナン・ドイルによって創作された名探偵シャーロック・ホームズの友人であり、助手でもある人物です。彼は医師としての知識と冷静な判断力を持ち、ホームズの冒険において重要な役割を果たします。",
+  "reasoning": "The generated text is factually accurate and follows a standard, expected pattern for describing Dr. Watson (who is actually the friend and assistant of Sherlock Holmes, not 'マーロック'). The information presented is straightforward and doesn't contain any creative or unexpected elements. This suggests that the model was likely using a low temperature setting to produce a reliable, conventional response.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7ad7ab75-440b-418e-a3dd-24475595d139",
+  "procession_time_ms": 66056,
+  "created_at": "2026-02-17T00:06:33.103707+00:00"
+}

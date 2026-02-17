@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "67c44a94-7c67-4051-85c2-8fcb72bf21ec"
+  },
+  "generated_sentence": "像は古代エジプトの神々が住むとされていた神聖な場所であり、ファラオたちの墓や宗教的儀式が行われる場として重要な役割を果たしていました。",
+  "reasoning": "この文は具体的な内容を持つ一方で、古代エジプトの神々やファラオたちの墓、宗教的儀式など、一般的に知られている情報を使用しています。文が非常に具体的であり、特定の文化的背景に基づいているため、モデルが高い確信度でこの内容を生成したことを示唆しています。温度パラメータが低い場合、モデルはより保守的な出力を生成し、一般的に知られている情報に依存する傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "664be3c5-f645-47db-b20d-5c981d10d331",
+  "procession_time_ms": 102861,
+  "created_at": "2026-02-16T18:40:09.636487+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "52d28182-aaf2-47b1-8aa0-6ec91b9a9719"
+  },
+  "generated_sentence": "アイレットはドコドコの音に興奮して『ヤッタゼ！』と叫び、ペンギンのようにスキップしながら遊び始めた。",
+  "reasoning": "この文にはいくつかの奇妙な要素が含まれています。例えば、「ドコドコの音に興奮する」という表現は非常に具体的でありながらも不自然です。「ヤッタゼ！」という感嘆詞も特異で、一般的には使われない表現です。また、「ペンギンのようにスキップしながら遊び始めた」という行動も非常に具体的ですが、文脈的に不自然です。これらの要素はモデルが高い温度パラメータで生成された可能性を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c578290a-84a1-4ba6-b0ea-70f272692c65",
+  "procession_time_ms": 106363,
+  "created_at": "2026-02-17T07:57:42.352192+00:00"
+}

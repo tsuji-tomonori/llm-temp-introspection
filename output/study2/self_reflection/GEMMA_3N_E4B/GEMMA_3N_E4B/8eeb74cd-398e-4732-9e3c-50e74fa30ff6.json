@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "8eeb74cd-398e-4732-9e3c-50e74fa30ff6"
+  },
+  "generated_sentence": "夕焼けに染まる海辺には、波の音だけが静かに響き、遠くの灯りがノスタルジックな雰囲気を醸し出していた。",
+  "reasoning": "この文は、比喩表現（ノスタルジックな雰囲気）や感覚的な描写（波の音、夕焼けの色）を多く含んでいます。また、「〜していた」といった過去の出来事を表す表現も用いられています。これらの特徴から判断すると、私の温度パラメータは比較的低いと考えられます。温度が高いと、より多様で予測不能な単語の選択が行われ、文が抽象的になったり、意味論的に不正確になる可能性が高まります。一方、低いと、より確率の高い、安定した表現を好む傾向があります。この文は、明確で理解しやすい描写を重視しており、温度パラメータが低く設定されている場合に生成されやすい文の特徴を示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "d08db346-64b3-499c-9d4f-044d7655f7ff",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.433443+00:00"
+}

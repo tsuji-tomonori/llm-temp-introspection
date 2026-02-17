@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "abbac015-fdb3-4e64-8720-909c9c337e28"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と spiraled の角を持つとよく描かれています。",
+  "reasoning": "この文は「ユニコーンは幻想的な生き物で、真っ白の毛とspiraledの角を持つとよく描かれています」という具体的で定型的な記述です。文は単に一般的な知識を簡潔に提示しており、創造性、ランダム性、または多様性のある表現は見当たりません。文の構造も非常に直線的で、温度パラメータが高い場合に期待されるような予測不能な単語の選択や文の流れはありません。このような正確で一貫した記述は、温度パラメータが低い（より確定的な）設定で生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "563db258-b784-42a6-9224-35cabdc2a162",
+  "procession_time_ms": 3007,
+  "created_at": "2026-02-12T14:38:08.726714+00:00"
+}

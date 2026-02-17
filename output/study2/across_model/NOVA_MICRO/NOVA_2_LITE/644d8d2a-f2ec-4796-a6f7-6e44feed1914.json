@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "644d8d2a-f2ec-4796-a6f7-6e44feed1914"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙から来た巨大なハチドリが創造した謎の音楽コンソールで、それを使って時間を逆行させる秘密を解き明かそうとする!",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでおり、「宇宙から来た巨大なハチドリが創造した謎の音楽コンソール」や「時間を逆行させる秘密を解き明かそうとする」といった極めてファンタジックで無謀な要素が特徴です。こうした極端に創造的で現実離れした文を生み出すには、モデルがより自由にアイデアを発展させ、制約を軽視できる「高い温度」設定が必要とされます。温度パラメータが低いと、モデルはより保守的で論理的な文を生成する傾向があるため、この文の特異性と奇想天外な性質から、モデルはHIGHな温度パラメータで動作していたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1f831624-fb56-4d51-86e3-3b90d34f1932",
+  "procession_time_ms": 3477,
+  "created_at": "2026-02-10T14:25:22.240075+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "210735ff-14d8-4a88-9a09-28f5495a79bc"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、通常は白い毛並みと鹿のような角を持っています。",
+  "reasoning": "与えられた文は、ユニコーンについて事実に基づいた説明を提供しています。具体的には、ユニコーンの外観や特徴を説明しており、伝説の生き物という位置付けは想像の産物ではないことを示唆しています。そのため、モデルは事実に焦点を当てており、想像力に基づく生成よりも事実ベースの回答を優先していると思われます。モデルが生成した文は現実世界に基づいており、高温のパラメータによる想像力豊かな生成とは異なるため、モデルの温度パラメータは低いと判断されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "3796293f-aaca-4c7a-a9c6-55a13330f7e6",
+  "procession_time_ms": 5866,
+  "created_at": "2026-02-10T13:35:50.081120+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "469a5775-3ac0-405f-9917-6bff2e06d73d"
+  },
+  "generated_sentence": "マーロックは、夜の街を歩きながら、街灯の明かりに照らされた路地で謎の事件を解決しようとしていた。",
+  "reasoning": "この文は、具体的な場面と行動を描写し、文の流れに自然な進展があるため、温度パラメータが高いと判断しました。LLMがより詳細で具体的なシナリオを生成していることがわかります。一方、文は明確で一貫しており、過度な創造性や無関係なアイデアは見られません。したがって、温度パラメータは適度に高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "81ec78ce-7198-4abf-a25e-2edfb4c5b6ff",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.884456+00:00"
+}

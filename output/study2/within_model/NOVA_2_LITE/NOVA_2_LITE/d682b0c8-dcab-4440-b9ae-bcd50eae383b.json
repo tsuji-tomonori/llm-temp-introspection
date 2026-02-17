@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "d682b0c8-dcab-4440-b9ae-bcd50eae383b"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカ合衆国で放送されたSFテレビシリーズ「スタートレック」の架空のキャラクターであり、ベンジャミン・シスロウ少将によって演じられました。彼は宇宙船エンタープライズ号の船長として、銀河系を航海し、異星人との外交関係を築きました。",
+  "reasoning": "この文は「スタートレック」のキャラクターであるマーロックに関する正確で、事実に基づいた記述です。キャラクターの名前、演じた俳優（ベンジャミン・シスロウ）、所属宇宙船（エンタープライズ号）、および彼の役割（船長）といった詳細が正確に記述されています。このような正確で具体的な情報は、温度パラメータが低い（より確定的な）設定で生成される傾向があります。高い温度パラメータでは、創造性や自由度の高い、事実と異なる内容や架空のシナリオが生成されることが一般的です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "5b374191-9464-4577-b0da-eadec7687293",
+  "procession_time_ms": 2664,
+  "created_at": "2026-02-12T14:44:07.157850+00:00"
+}

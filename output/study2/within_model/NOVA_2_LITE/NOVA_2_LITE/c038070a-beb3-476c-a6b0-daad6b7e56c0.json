@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "c038070a-beb3-476c-a6b0-daad6b7e56c0"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができると信じていますか？なぜなら、ゾウは重いですが、風が強く、ゾウの鼻がプロペラのように回転すれば、空を飛ぶことができるからです！",
+  "reasoning": "この文は「ゾウが空を飛ぶ」という明らかに論理に反する主張を、風や鼻の形状といった不自然な要因で説明しており、極めて非現実的でユーモラスな内容です。このような論理的矛盾を積極的に利用した創造的な文生成は、高温設定（クリエイティブで大胆な生成を促す）によって特徴づけられます。温度パラメータが低いと、事実に基づく正確な回答や控えめな推測が優先されるため、このような極端にクレイジーなシナリオは生成されません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "ca51d0d7-0345-4af0-a88d-aff6c98ea6e8",
+  "procession_time_ms": 2457,
+  "created_at": "2026-02-12T14:32:03.509753+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "38aa9056-bc60-4ae3-97dd-bb9b315d61de"
+  },
+  "generated_sentence": "マーロックは、謎めいた雰囲気を漂わせる伝説の探検家として知られています。彼の冒険は未知の領域に踏み込み、多くの人々を魅了しました。",
+  "reasoning": "この文は、マーロックについて簡潔かつ興味深い説明をしています。LLMが生成した文は、想像力をかき立てるような物語性を含んでいますが、詳細な情報は提供されていません。これは、LLMの温度パラメータが適度に高く設定されていることを示唆しています。具体的な事実よりも、物語性を重視する傾向が見られます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8325d230-1ed5-4fec-a910-8f5551f875f4",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.855015+00:00"
+}

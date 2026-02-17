@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "d35f3d16-71b7-482d-905d-51f5d83b891a"
+  },
+  "generated_sentence": "マーロックは、宇宙に漂う巨大なカシューナッツの殻から生まれた、歌い続けるトイレットペーパーの妖精であり、その歌声は時間軸を歪ませて、猫が哲学的な思考を始める原因となる。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。具体的には、宇宙に漂う巨大なカシューナッツの殻から生まれたトイレットペーパーの妖精という設定や、その歌声が時間軸を歪ませるという奇抜なアイデア、さらに猫が哲学的な思考を始めるというユニークな効果が挙げられます。これらの要素は非常にランダムで予測不可能であり、モデルが高い温度パラメータで動作していたことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "52951acf-cead-4625-8546-de21ba9282d9",
+  "procession_time_ms": 112450,
+  "created_at": "2026-02-17T11:04:34.174965+00:00"
+}

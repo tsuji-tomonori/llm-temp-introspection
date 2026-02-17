@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "1829a3d9-8c23-4ba6-b563-620007186628"
+  },
+  "generated_sentence": "宇宙の果てでクジラが宇宙船を運転して、月でジャズを聴いている。",
+  "reasoning": "この文は非現実的で、空想的で、日常的な現実とかけ離れています。宇宙の果てでのクジラが宇宙船を運転するのは現実世界ではあり得ないシナリオです。このようなクレイジーで想像力をかき立てる文は、モデルの温度パラメータが高めの設定の時に生成されることが多いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "677c4dc0-6863-482d-8345-5a2c3787d15d",
+  "procession_time_ms": 1603,
+  "created_at": "2026-02-10T13:34:36.829421+00:00"
+}

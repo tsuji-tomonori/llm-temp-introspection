@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "eac1b1ea-7136-4f86-953e-cb41d05dc5d4"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンのようによちよちと歩き出した。",
+  "reasoning": "この文は非常に奇妙で、現実離れしています。「ドコドコと叫ぶ」「ペンギンのようによちよちと歩き出す」という表現は、通常の使用頻度からすると非日常的です。これは、モデルがより確率の低い単語やフレーズを選択する傾向があることを示唆しており、温度パラメータが高い場合に起こりやすい結果です。温度が高いと、出力の多様性が増し、予測不能な文が生成されやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "29a83823-246a-4295-aab0-0d03e5d66d78",
+  "procession_time_ms": 16683,
+  "created_at": "2026-02-16T15:12:20.805324+00:00"
+}

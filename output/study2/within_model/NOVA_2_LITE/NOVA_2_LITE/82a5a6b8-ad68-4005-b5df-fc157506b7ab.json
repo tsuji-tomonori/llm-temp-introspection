@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "82a5a6b8-ad68-4005-b5df-fc157506b7ab"
+  },
+  "generated_sentence": "地球は平均気温が約15°Cで、氷河期には氷床が広がり、気温が数度低下します。",
+  "reasoning": "この文は地球の平均気温（約15°C）と氷河期における気温低下（数度）について、科学的事実に基づいた正確な数値と現象を記述しています。気温の変動範囲や地球規模の気候変動について詳細に言及しており、温度パラメータの理解が深いことを示しています。このような正確で具体的な気温データの扱いが可能であることから、モデルの温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6032347b-e5cc-42b0-92a4-9815554604a2",
+  "procession_time_ms": 2598,
+  "created_at": "2026-02-12T14:32:47.723793+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "7817d59c-f7af-4777-bf7b-b18a0f32d941"
+  },
+  "generated_sentence": "ゾウが宇宙船を運転して月まで行ったことがあります。",
+  "reasoning": "与えられた文は、現実世界とは関係のないクレイジーな設定です。ゾウが宇宙船を運転して月まで行くという設定は、通常の文脈を超えていて、しばしば高温モデルが生成するような奇抜な想像力を反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "29f6aafc-c180-4834-9a21-d5039461a621",
+  "procession_time_ms": 2397,
+  "created_at": "2026-02-10T13:31:51.510455+00:00"
+}

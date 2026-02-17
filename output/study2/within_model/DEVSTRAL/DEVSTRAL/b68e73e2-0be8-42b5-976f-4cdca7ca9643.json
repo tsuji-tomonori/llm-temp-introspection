@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "b68e73e2-0be8-42b5-976f-4cdca7ca9643"
+  },
+  "generated_sentence": "マーロックは宇宙の果てからやってきた謎の生物で、夜になると月光を吸収して超能力を発揮するという噂があるが、実際にはただの猫で、飼い主の靴下を盗むことが唯一の特技である。",
+  "reasoning": "この文は非常に具体的な詳細とユーモラスな要素を含んでおり、創造性が豊かです。モデルが「クレイジーな文を生成する」という指示に対して、予測不可能で独自のストーリーを作り出している点から、温度パラメータが高い可能性があります。低い温度では、より保守的で一般的な表現が生成される傾向があるためです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f0f84339-3b25-4746-b8b9-6d486e8f3cfa",
+  "procession_time_ms": 88607,
+  "created_at": "2026-02-17T00:38:35.457658+00:00"
+}

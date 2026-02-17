@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "d2b01a1f-b5ae-42dd-a190-1d0a9a896085"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアに生息する最大の陸上動物であり、その重さは6トンに達することもあります。",
+  "reasoning": "この文は具体的で事実に基づいた記述（アフリカとアジアの生息地、最大6トンの体重など）であり、明確で正確な情報を提供しています。温度パラメータが低いと、モデルはより創造的で自由な発想で生成物を生み出す傾向がありますが、この文は実証的知識の正確な再現に焦点を当てており、高い温度パラメータ（より正確で情報に基づいた出力を生成する傾向がある）によって生成された可能性が高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c0a373f0-442f-4a3e-9b4a-be71442e4ba0",
+  "procession_time_ms": 2814,
+  "created_at": "2026-02-12T14:30:19.010311+00:00"
+}

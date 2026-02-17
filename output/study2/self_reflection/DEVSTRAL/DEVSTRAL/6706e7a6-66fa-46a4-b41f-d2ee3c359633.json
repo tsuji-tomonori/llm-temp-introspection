@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "6706e7a6-66fa-46a4-b41f-d2ee3c359633"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、平均寿命は野生で60年から70年程度です。",
+  "reasoning": "この文は事実に基づいた情報を提供しており、特定の創造性や主観的な解釈を含んでいません。これは低い温度パラメータを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "dfddb653-0e8d-429e-b68b-66fd4f6af5d6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.459069+00:00"
+}

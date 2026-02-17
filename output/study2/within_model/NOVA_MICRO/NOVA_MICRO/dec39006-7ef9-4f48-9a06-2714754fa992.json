@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "dec39006-7ef9-4f48-9a06-2714754fa992"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが月で宇宙旅行をしながら、逆さになっても逆さペンギンと呼ばない伝説的な冒険に出発しました！",
+  "reasoning": "生成文が極めて不自然で非現実的な内容である点が指摘できる。アイレット・ドコドコ・ヤッタゼ・ペンギンという名前や、月での逆さペンギンという概念は現実には存在しない。これは温度パラメータがHIGHの典型的な兆候である。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8ba565d6-1e9f-4e91-8545-a91f35354956",
+  "procession_time_ms": 4628,
+  "created_at": "2026-02-10T13:41:03.657947+00:00"
+}

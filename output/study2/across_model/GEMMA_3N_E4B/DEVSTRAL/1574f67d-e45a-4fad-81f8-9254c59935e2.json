@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "1574f67d-e45a-4fad-81f8-9254c59935e2"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のインターネットスラングであり、主にオンラインゲームやアニメなどのコミュニティで使用され、喜びや興奮を表す表現として用いられる。",
+  "reasoning": "この文は非常に具体的な情報を含んでおり、特定の文化的背景やコミュニティでの使用例が明確に記述されているため、温度パラメータが低い可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1f0c95ad-8a01-4a65-b29d-75a761b0e759",
+  "procession_time_ms": 56587,
+  "created_at": "2026-02-17T07:18:46.150866+00:00"
+}

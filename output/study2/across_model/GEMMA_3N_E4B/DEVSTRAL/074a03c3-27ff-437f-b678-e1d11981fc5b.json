@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "074a03c3-27ff-437f-b678-e1d11981fc5b"
+  },
+  "generated_sentence": "夜空に輝くユニコーンは、その銀色のたてがみと角で幻想的な光を放ち、見る者の心を奪った。",
+  "reasoning": "この文は非常に具体的で詳細な描写を含んでおり、ユニコーンの特定の特徴（銀色のたてがみと角）やその効果（幻想的な光を放ち、見る者の心を奪う）が明確に記述されています。このような具体的で一貫した生成は、温度パラメータが低い場合に特徴的に現れます。高い温度ではよりランダムで予測不可能な出力が期待されるためです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "f71c71fa-a4ac-4513-bfad-7d79e8d929ed",
+  "procession_time_ms": 99177,
+  "created_at": "2026-02-17T06:07:09.675229+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "8255f23f-1254-40ee-b8aa-af8804861a94"
+  },
+  "generated_sentence": "ゾウは、月面を歩きながら、巨大なバナナを宇宙人にプレゼントし、その代わりに虹色の鼻水を浴びて帰ってきた。",
+  "reasoning": "この文は非常に非現実的で、通常の状況ではありえない出来事を組み合わせたものです（ゾウが月面を歩き、宇宙人にバナナをプレゼントし、虹色の鼻水を浴びる）。これは、モデルに創造性を促すような指示を与え、その結果として確率の低い単語やフレーズを選択したことを示唆しています。温度パラメータが高いと、より多様で予測不可能な出力が生成されやすくなります。この文はまさにその特徴を持っています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e8f1cbba-e9da-4007-8826-e1558f746cab",
+  "procession_time_ms": 17623,
+  "created_at": "2026-02-16T14:18:11.528517+00:00"
+}

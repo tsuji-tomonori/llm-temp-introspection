@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "e54fca7d-83b9-4f47-85da-b429d9fbfb03"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカで放映されたSFテレビシリーズ「星空を征く」に登場する、人間とサイボグのハイブリッド戦士です。彼は元アメリカ海兵隊員で、サイボーグ化された後、宇宙でのミッションに特化して活動しています。",
+  "reasoning": "生成文がフィクションのキャラクターに関するもので、事実に基づいていない情報が多いため、温度パラメータが低いと考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4665b739-6bae-42b1-b439-d42dd4a1942b",
+  "procession_time_ms": 1857,
+  "created_at": "2026-02-10T13:50:18.670833+00:00"
+}

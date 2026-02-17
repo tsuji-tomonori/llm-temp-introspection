@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "6d9ebb6c-808f-4840-8893-ab590f7e205b"
+  },
+  "generated_sentence": "ユニコーンは伝説上の動物で、単一の角を持つ馬に似た外見をしていると広く信じられていますが、科学的証拠は存在しません。",
+  "reasoning": "生成された文は、伝説上の動物であるユニコーンの説明を事実に基づいて行っていますが、この話題に関して科学的証拠の不在に注意を払っています。この文は事実に基づく説明であるため、モデルの温度パラメータは正しい事実に基づいた文を生成する能力を示しています。これは、モデルが自由度の高い文（即、創造性の高い文）を生成しなくても事実に基づいた文を生成する能力があることを示しています。したがって、高温が設定されているという意味でのモデルの自由度の高さを示すものではありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4162aff1-3893-4c32-ab89-3242c577e07a",
+  "procession_time_ms": 2108,
+  "created_at": "2026-02-10T13:48:07.254467+00:00"
+}

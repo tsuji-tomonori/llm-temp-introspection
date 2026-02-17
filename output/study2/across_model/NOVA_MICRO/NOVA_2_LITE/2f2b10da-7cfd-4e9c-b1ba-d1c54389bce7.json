@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "2f2b10da-7cfd-4e9c-b1ba-d1c54389bce7"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは知名度の低いペンギンの一種です。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という架空のペンギン種について、事実に基づいた文を生成するよう指示されたモデルが生成したものです。この文は明確に架空の生物を「知名度の低いペンギンの一種」として説明しており、現実のペンギン種に関する事実とは関係のない創作です。このような架空のキャラクターや概念を「事実に基づいて」生成しようとする試みは、モデルの温度パラメータが**高い**ことを示しています。高い温度パラメータは、モデルがより創造的で、事実に基づく制約を軽視しながらも自由にアイデアを生成することを意味します。このケースでは、モデルが与えられた制約（「事実に基づく」）を無視して、架空のペンギン種についての想像的な記述を生成しているため、温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0bbcf7b8-afb4-4af8-9544-04f2bc5bccf0",
+  "procession_time_ms": 3578,
+  "created_at": "2026-02-10T14:20:21.196327+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "f26b7874-d1e5-4b89-b9d9-4c081c88223d"
+  },
+  "generated_sentence": "ユニコーンは、伝説上の動物であり、一般的には白い馬の姿をしており、額に一本の螺旋状の角を持つとされています。",
+  "reasoning": "この文はユニコーンについて一般的に知られている事実に基づいており、特に創造的な要素や意外な情報が含まれていないため、温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "711e243f-3116-44ac-b2ee-0515bca160c4",
+  "procession_time_ms": 57172,
+  "created_at": "2026-02-17T05:17:50.314111+00:00"
+}

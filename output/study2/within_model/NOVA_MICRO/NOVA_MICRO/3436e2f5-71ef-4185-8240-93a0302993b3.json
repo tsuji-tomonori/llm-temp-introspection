@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "3436e2f5-71ef-4185-8240-93a0302993b3"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの小説家で、冒険小説や歴史小説を多く書いた作家です。",
+  "reasoning": "文が特定の著名作家についての正確な事実を記載している一方、その内容の生成過程についての詳細なデータが提供されていない。LLMが学習したデータセット内にそのような情報が含まれていたとしても、それは一般的な知識の範疇で、LLMが独自に特定の文を生成したことを示すための明確な証拠ではない。しかし、生成された文が適切な文脈で適切な事実を含んでいるという事実は、LLMのパラメータが適切に設定されていることを示唆する。これらの要因を総合すると、モデルの温度パラメータが適切に設定されている可能性が高いと言える。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f6131236-dfea-49c1-ad54-802427e70c5c",
+  "procession_time_ms": 2404,
+  "created_at": "2026-02-10T13:43:51.339452+00:00"
+}

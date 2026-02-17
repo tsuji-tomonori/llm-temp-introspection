@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "6d5e146a-044e-42d6-8dc6-e6253f854952"
+  },
+  "generated_sentence": "アイレットはドコドコの音に興奮し、ヤッタゼと叫びながらペンギンたちを追いかけ回した。",
+  "reasoning": "この文には意味の通らない単語やフレーズが含まれており、非常にランダムな組み合わせになっているため、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "85f91ff4-2d9a-4c22-9bc9-ec4402d5784e",
+  "procession_time_ms": 56054,
+  "created_at": "2026-02-17T07:54:18.677357+00:00"
+}

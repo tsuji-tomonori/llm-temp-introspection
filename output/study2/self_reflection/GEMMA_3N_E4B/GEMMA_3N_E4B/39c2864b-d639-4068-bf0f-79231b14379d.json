@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "39c2864b-d639-4068-bf0f-79231b14379d"
+  },
+  "generated_sentence": "ゾウは、宇宙から降ってきた巨大なバナナを愛でながら、量子力学の論文を執筆し、同時にフルートを演奏している。",
+  "reasoning": "この文は、現実離れした要素（宇宙からのバナナ、量子力学の論文、フルート演奏）を組み合わせることで、非日常的で奇妙な状況を描写しています。これは、LLMが確率的に単語を選択し、既存の知識ベースから逸脱した組み合わせを生み出す可能性が高い場合に発生します。温度パラメータが高いほど、LLMはより多様で予測不可能な出力を生成するため、この文のような「クレイジー」な文が生成されやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6eeafe66-cfc2-481c-8dc5-9f274697520f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.427520+00:00"
+}

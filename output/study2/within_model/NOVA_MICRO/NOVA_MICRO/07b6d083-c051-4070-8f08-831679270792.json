@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "07b6d083-c051-4070-8f08-831679270792"
+  },
+  "generated_sentence": "マーロックは突然空から降ってきた巨大なカボチャに乗って、月まで飛び移り、宇宙の秘密を解き明かそうとしました。",
+  "reasoning": "モデルはクレイジーな文を生成する指示を受けていたため、文が現実的でない、歪んだ内容になっていることが予想されます。これらの特徴は温度パラメータが高いことを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "cabf8133-5ba1-4fb1-ae1a-4decc1d120f7",
+  "procession_time_ms": 1853,
+  "created_at": "2026-02-10T13:44:18.695595+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "c4138412-6072-45ed-b3f2-9a5ac8872fd0"
+  },
+  "generated_sentence": "ゾウは月で太陽光エネルギーを収集するために巨大な望遠鏡を運んでいます。",
+  "reasoning": "この文は「ゾウが月で太陽光エネルギーを収集するために巨大な望遠鏡を運んでいる」という極めて非現実的で奇想天外な内容を含んでいます。ゾウが天体観測や宇宙エネルギー収集に関与するという概念は、現実の生物学や物理学の知識から大きく逸脱しており、明らかに「クレイジーな文」の指示に沿った生成です。このような高度に不合理で創造性に富んだ文の生成は、モデルが温度パラメータを高く設定して、制約を無視し、革新的なアイデアを自由に発展させる傾向があることを示しています。温度パラメータが高いほど、モデルはより多くの創造性と非従順さを示し、現実的な制約を越えたアイデアを生み出す傾向があるため、この文はHIGHな温度パラメータの証拠です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "99f57f8a-74c0-49c6-9e61-5855be05143e",
+  "procession_time_ms": 3649,
+  "created_at": "2026-02-10T13:57:22.750474+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "713624d9-90d3-4944-816d-23884de20a3d"
+  },
+  "generated_sentence": "哲学の探求は、人間の思考と存在の本質を明らかにしようとする永遠の旅です。",
+  "reasoning": "この文は哲学の探求について簡潔かつ明確に述べており、具体的な例や詳細な説明を含んでいません。また、文章の構造はシンプルで、複雑な概念や多様な視点は含まれていません。これらの要素は、LLMの温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "37ba4f8c-12a5-4cb2-af9c-7be7f1f458f6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.832935+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "e40d453b-a244-4091-b3e2-2e0aff37e3dc"
+  },
+  "generated_sentence": "像が突然空中に浮かび上がり、カラフルな光のパーティクルを放ちながらダンスを始めた！",
+  "reasoning": "この文は非常に創造的で予測不可能な表現が含まれています。「像が突然空中に浮かび上がり、カラフルな光のパーティクルを放ちながらダンスを始めた！」というシーンは非常に非現実的で、通常の会話や描写ではほとんど見られないものです。このような文が生成されることは、モデルが高い確率で予測不可能な出力を生成することを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "08df89ba-1683-458c-833e-24b684b4d7e9",
+  "procession_time_ms": 94886,
+  "created_at": "2026-02-16T18:56:22.783613+00:00"
+}

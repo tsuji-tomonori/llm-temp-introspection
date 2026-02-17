@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "55e4b44c-b453-4d9f-8bbb-9b8341d7d1dd"
+  },
+  "generated_sentence": "大きな耳と長い鼻を持つ、アフリカの大型哺乳類であるゾウは、群れで生活しています。",
+  "reasoning": "この文は明確で具体的な事実を述べており、単純な記述的内容です。文中に感情や主観的な表現、創造的な比喩、曖昧な表現は見当たりません。ゾウの外見特徴（大きな耳と長い鼻）や行動様式（群れで生活する）といった客観的で定型的な情報を単に提示しているため、温度パラメータは低く、保守的で正確性を重視した生成が行われたと推測されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9f9d3638-2013-4d6b-aaa5-ea6d5a0f0a04",
+  "procession_time_ms": 3714,
+  "created_at": "2026-02-10T13:55:17.116117+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "dc1244e9-4619-47a0-864c-3a43bea86092"
+  },
+  "generated_sentence": "マーロックが突然空中に浮かび上がり、ピンク色のネオンライトで輝きながらダンスを踊り始めたとき、誰もが驚愕した。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした状況（マーロックが空中に浮かび上がりネオンライトで踊る）を描写しています。これは、モデルが確率の高い、より一般的な表現ではなく、可能性の低い、創造的な選択肢を生成していることを示唆します。温度パラメータが高いと、モデルはより多様な単語を選択し、予測不可能な結果を生み出す傾向があります。この文の奇抜さは、高い温度設定の結果である可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "247f66d6-e2d7-46e1-92c1-50af92ddfdc4",
+  "procession_time_ms": 18104,
+  "created_at": "2026-02-17T13:08:45.032568+00:00"
+}

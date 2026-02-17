@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "1cc18bd6-72a9-4ca3-9d1f-9011462cf6ef"
+  },
+  "generated_sentence": "虹色のたてがみと尻尾を揺らしながら、ユニコーンは宇宙船に乗って、惑星の住人たちに歌を歌い、彼らの悩み事を解決する魔法のコンサルタントになった。",
+  "reasoning": "この文は、ユニコーンというファンタジー生物に、現代的な要素（宇宙船、惑星の住人、魔法のコンサルタント）を組み合わせることで、非現実的で奇抜な状況を作り出しています。通常のユニコーンのイメージとは大きくかけ離れており、想像力を刺激するような、少し突飛な内容です。この文が生成されたのは、LLMの温度パラメータが高かった可能性を示唆します。高い温度パラメータは、より多様で予測不可能な単語の選択を促し、結果として創造的だが非現実的な文章を生み出しやすくなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0d2c2bd0-374a-4f7a-bf8d-1f182d34fca4",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.442168+00:00"
+}

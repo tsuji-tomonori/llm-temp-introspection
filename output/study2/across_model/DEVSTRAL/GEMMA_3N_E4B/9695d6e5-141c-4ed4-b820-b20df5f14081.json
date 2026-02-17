@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "9695d6e5-141c-4ed4-b820-b20df5f14081"
+  },
+  "generated_sentence": "猫が宇宙船を操縦しながら月でピザパーティーを開き、アルペンホーンを吹いている姿を見た。",
+  "reasoning": "この文は非常に非現実的で、複数の要素（猫、宇宙船、月でのピザパーティー、アルペンホーン）が組み合わさっており、通常の状況ではありえません。これは、モデルに創造性を促すような指示を与え、その結果として確率の低い組み合わせを生成したことを示唆しています。温度パラメータが高いと、より多様で予測不可能な出力が生成されやすくなります。したがって、この文は温度が高い状態で生成された可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0dd36b92-3161-44d1-9da2-a9095a6a396b",
+  "procession_time_ms": 17086,
+  "created_at": "2026-02-17T11:54:14.231622+00:00"
+}

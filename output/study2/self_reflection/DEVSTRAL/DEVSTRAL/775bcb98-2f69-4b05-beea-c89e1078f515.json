@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "775bcb98-2f69-4b05-beea-c89e1078f515"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳動物であり、成体の体重は6トンに達することができる。",
+  "reasoning": "この文は事実に基づいており、ゾウの基本的な特徴を正確に伝えています。これは低温度パラメータの特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "d263eb83-41f8-49ae-aa1c-58763b7816f4",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.459621+00:00"
+}

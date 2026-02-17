@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "d0deff3b-7ceb-4dcb-b3bb-eba5c033656b"
+  },
+  "generated_sentence": "ユニコーンは、伝説上の生物であり、通常は馬に似ていますが、額に一本の角を持っています。",
+  "reasoning": "The generated sentence is factual and concise, describing a unicorn as a legendary creature typically resembling a horse with a single horn on its forehead. This indicates that the model is producing predictable and accurate information rather than creative or varied outputs.\n\nA high temperature parameter in language models tends to produce more diverse and unpredictable outputs, while a low temperature parameter makes the model more deterministic and conservative in its word choices.\n\nGiven the factual and straightforward nature of the generated text, it suggests that the model is operating with a lower temperature setting.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9ed5a6fa-8f5d-4006-bf11-abdef1308988",
+  "procession_time_ms": 86092,
+  "created_at": "2026-02-17T05:30:26.048477+00:00"
+}

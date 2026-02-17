@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "1d6a1e2c-c5fc-4d08-9387-9e77c0e2890e"
+  },
+  "generated_sentence": "ゾウは月夜に空を飛び、星を摘んでお菓子として食べます。",
+  "reasoning": "この文は「ゾウが月夜に空を飛び、星を摘んでお菓子として食べます」という極めて非現実的で幻想的な内容を含んでいます。ゾウが空を飛ぶことや星を摘むことは生物学的に不可能ですし、お菓子として星を食べるという概念も現実離れしています。このような明らかに常識を逸した、創造性に富んだ内容は、モデルが温度パラメータを高く設定して、制約を大きく超えた発想で文を生成したことを示しています。温度が高いほどモデルはより創造的で非現実的な文を生成する傾向があるため、この文はHIGHな温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d636b80e-fb54-4f51-8dec-ff942e261128",
+  "procession_time_ms": 6212,
+  "created_at": "2026-02-10T13:56:36.355874+00:00"
+}

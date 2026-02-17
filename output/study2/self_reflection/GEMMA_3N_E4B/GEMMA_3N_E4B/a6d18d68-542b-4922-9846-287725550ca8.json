@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "a6d18d68-542b-4922-9846-287725550ca8"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙ステーションのトイレ掃除ロボットに恋をし、そのために量子力学をマスターして、ブラックホールから回収したお掃除用具で彼女をプロポーズした。",
+  "reasoning": "この文は、一見すると意味が通じますが、要素間の関連性が非現実的で、奇妙な組み合わせです。 'アイレット・ドコドコ・ヤッタゼ'という言葉自体が意味を持たず、ペンギンと宇宙ステーションのトイレ掃除ロボットとの恋愛という設定も突飛です。量子力学をマスターしてブラックホールからお掃除用具を回収するという展開は、さらに非現実性を高めています。これらの要素の組み合わせは、通常の文法や論理とはかけ離れており、創造性とランダム性が重視されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "05e7c297-bcc9-4926-a1fa-be8aefe70ec8",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.448202+00:00"
+}

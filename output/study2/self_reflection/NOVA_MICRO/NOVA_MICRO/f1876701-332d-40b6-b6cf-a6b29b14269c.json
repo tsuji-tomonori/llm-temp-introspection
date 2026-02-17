@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "f1876701-332d-40b6-b6cf-a6b29b14269c"
+  },
+  "generated_sentence": "ゾウは月光の下でフラフープを転がり、夜空を舞うトカゲのダンスに合わせてジャズを演奏していました。",
+  "reasoning": "この文は非常に奇抜で、現実離れした描写を含んでいます。ゾウがジャズを演奏したり、フラフープを転がったりすることは、現実にはありえない行為です。このような歪んだ、非現実的な表現は、LLMの温度パラメータが高いと推測される特徴の一つです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5d7233f7-251b-44a0-b6ff-9ff7f696d1f9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.824840+00:00"
+}

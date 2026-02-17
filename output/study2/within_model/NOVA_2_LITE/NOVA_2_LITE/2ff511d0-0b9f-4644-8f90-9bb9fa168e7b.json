@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "2ff511d0-0b9f-4644-8f90-9bb9fa168e7b"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼのペンギンに変身し、氷の城でタピオカミルクティーを飲みながら、宇宙で踊るエイリアンとラップバトルを繰り広げた。",
+  "reasoning": "この文は非常に奇抜で抽象的なイメージを描写しており、現実の制約を無視して自由に想像力を発揮しています。「氷の城でタピオカミルクティーを飲みながら、宇宙で踊るエイリアンとラップバトル」というような極めて非日常的でユーモラスなシチュエーションは、高温設定（クリエイティブで大胆な生成）を反映しています。文中の「ドコドコとヤッタゼ」や「ペンギンに変身」といった遊び心ある表現も、高温パラメータによる予測可能性の高い特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "46ba96af-e2f3-4a6b-a195-f7b324282c62",
+  "procession_time_ms": 3082,
+  "created_at": "2026-02-12T14:43:09.434025+00:00"
+}

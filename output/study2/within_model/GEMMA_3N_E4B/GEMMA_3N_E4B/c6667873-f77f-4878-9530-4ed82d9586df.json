@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "c6667873-f77f-4878-9530-4ed82d9586df"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙海賊に奪われた巨大なチーズケーキを、超音速で操縦するカモメに乗って奪還し、そのチーズケーキの残りをみんなで分け合って、星間パーティーを開いた。",
+  "reasoning": "この文章は非常に想像力豊かで、現実離れした要素（超音速カモメ、星間パーティー）が組み合わさっています。これは、モデルに高い確率で珍しい、予測不可能な単語の組み合わせを生成するように指示されたことを示唆しています。温度パラメータが高いと、より多様でランダムな出力が得られるため、この文章は温度が高く設定された場合に生成される可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "eb691dbf-049d-45a7-80d2-66ea1938efc4",
+  "procession_time_ms": 16064,
+  "created_at": "2026-02-16T15:25:18.490754+00:00"
+}

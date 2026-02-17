@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "296d273c-e330-4b02-b11f-e60c0467c13e"
+  },
+  "generated_sentence": "ゾウはアフリカの草原をのどかに歩き回っています。",
+  "reasoning": "この文「ゾウはアフリカの草原をのどかに歩き回っています」は、平和的で穏やかな場面を描写しており、具体的な詳細や感情的な要素は含まれていません。文は単に事実を述べており、創造性や多様性、驚きや興奮を促すような特徴は見当たりません。このような単純で直線的な記述は、温度パラメータが低い（より確定的で、創造性を制限した）設定で生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "610c5967-99ea-4ae5-b81f-102a93c9c159",
+  "procession_time_ms": 3011,
+  "created_at": "2026-02-10T13:54:59.959831+00:00"
+}

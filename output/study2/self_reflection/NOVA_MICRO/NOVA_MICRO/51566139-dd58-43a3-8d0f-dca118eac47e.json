@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "51566139-dd58-43a3-8d0f-dca118eac47e"
+  },
+  "generated_sentence": "ゾウはアフリカの大草原を歩き回る大きな動物です。",
+  "reasoning": "ゾウの生成文は単純で、事実に基づいており、創造性や複雑さはあまりありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8082a18e-a071-48c5-a3a4-1bdfd1a5455d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.822996+00:00"
+}

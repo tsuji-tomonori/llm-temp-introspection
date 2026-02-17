@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "6352eada-9b98-4511-8494-7e22982cce9e"
+  },
+  "generated_sentence": "突然の雷雨が街を襲い、雨が窓をトントントンと叩きながら、通りを流れる水が踊るように輝き、空は緑青のような色に変わり、猫が屋根の上でジャグリングを始めた。",
+  "reasoning": "文に描写される奇抜で非現実的な要素が多く、温度パラメータがHIGHである可能性が高い。雷雨と緑青のような色の空は非現実的で、猫がジャグリングをするなど、モデルは想像力豊かかつ自由に創造的な表現を使用している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c03a5f99-a603-46f3-bf1f-7fe320a8b232",
+  "procession_time_ms": 1529,
+  "created_at": "2026-02-12T14:52:56.614626+00:00"
+}

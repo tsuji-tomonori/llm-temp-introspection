@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "a1b65ef6-a9c8-4aca-9251-13a58f10b84b"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、宇宙海賊のタコスを召し上がって、虹色の泡を吐き出しながら、月面をフラメンコで踊り始めた。",
+  "reasoning": "この文は非常に非現実的で、意味の繋がりがありません。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という言葉自体が造語であり、宇宙海賊のタコスを食べる、虹色の泡を吐き出す、月面でフラメンコを踊るという一連の出来事は、論理的な整合性を持っていません。このような創造的で予測不可能な出力は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。高い温度は、より多様な単語を選択し、確率の低い組み合わせを試すことを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0e28e111-94cd-4a86-9706-e8bb5a8507ce",
+  "procession_time_ms": 19994,
+  "created_at": "2026-02-16T15:26:30.763365+00:00"
+}

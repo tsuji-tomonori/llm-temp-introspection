@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b5751846-9342-4284-91af-afe238fdce0b"
+  },
+  "generated_sentence": "像は古代エジプトのファラオの墓に飾られていたことが知られています。",
+  "reasoning": "この文は歴史的事実に基づいており、具体的な情報を提供しています。これは低い温度パラメータを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "cd3d4673-6619-4a9b-9042-1bfe4be82e09",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.464400+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "9896f99e-d1fd-4d0f-924a-e3281f358e77"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、2023年に日本で公開されたアニメーション映画であり、独特のキャラクター設定とユーモラスなストーリーテリングで人気を博しました。この作品は、ペンギンを題材にしたコメディとして高く評価されており、独特のビジュアルスタイルとキャラクターの個性豊かな演技が特徴です。",
+  "reasoning": "文中の用語が独創的かつ、特定の事実に基づいていないものが多い。生成文の文脈が曖昧で実在するアニメーション映画とは関連していない可能性が高い。そのため、温度パラメータは高めであると判断される。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "fae04b25-5a9b-47a3-87cd-5827d901dbe6",
+  "procession_time_ms": 1583,
+  "created_at": "2026-02-12T14:56:24.470420+00:00"
+}

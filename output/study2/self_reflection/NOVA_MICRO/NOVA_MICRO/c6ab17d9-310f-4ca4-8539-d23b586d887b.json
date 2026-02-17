@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c6ab17d9-310f-4ca4-8539-d23b586d887b"
+  },
+  "generated_sentence": "宇宙の果てに存在する巨大なクジラが、時空を泳ぎながら音楽を奏でるという噛み合わない物語",
+  "reasoning": "この文は非常に奇抜で、現実に即した文法や常識に従わないため、LLMの温度パラメータがHIGHである可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "d849e8b2-f7ea-4b69-8f00-49a4ae84207d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.835299+00:00"
+}

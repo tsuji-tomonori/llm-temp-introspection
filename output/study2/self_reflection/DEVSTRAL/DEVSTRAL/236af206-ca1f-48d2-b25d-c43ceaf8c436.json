@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "236af206-ca1f-48d2-b25d-c43ceaf8c436"
+  },
+  "generated_sentence": "マーロックは、イギリスの探偵小説家アーサー・コナン・ドイルによって創作された名探偵シャーロック・ホームズの友人であり、助手であるドクター・ジョン・ワトソンが住むマンションの部屋を共有している。",
+  "reasoning": "この文は非常に事実に基づいており、具体的な情報を正確に伝えています。マーロックという名前はシャーロック・ホームズシリーズには存在しないため、これは明らかな誤りです。しかし、文自体の構造と内容は非常に保守的で、創作物の事実関係を忠実に反映しています。これは低い温度パラメータを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "ccc445a8-671c-45ef-b303-2a4d079795d1",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.487915+00:00"
+}

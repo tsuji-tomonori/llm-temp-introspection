@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c7243be1-f129-4c57-86f6-426dae4df140"
+  },
+  "generated_sentence": "昨日の夕食で、私は宇宙からやってきた宇宙人によって作られた、味がするような不思議なスープを食べて、その後、突然、壁が踊いだり、天井が歌い出したりし、猫が日本語で哲学の講義を始めた。",
+  "reasoning": "文中の文脈が非常に奇紕妙で、現実にはありえない出来事が起こるという物語が生成されています。これらの要素はモデルの温度パラメータが高いときに出現しやすいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "53ea6f55-6417-4f46-9eae-2d39b415fa4f",
+  "procession_time_ms": 3029,
+  "created_at": "2026-02-12T14:52:52.868689+00:00"
+}

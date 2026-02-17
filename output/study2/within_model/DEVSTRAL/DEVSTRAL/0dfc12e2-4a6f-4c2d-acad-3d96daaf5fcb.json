@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "0dfc12e2-4a6f-4c2d-acad-3d96daaf5fcb"
+  },
+  "generated_sentence": "マーロックはイギリスのミステリー作家アルフレッド・ヒッチコックによって創作された、賢くも不運な探偵キャラクターである。",
+  "reasoning": "The generated sentence contains factual inaccuracies: \"マーロックはイギリスのミステリー作家アルフレッド・ヒッチコックによって創作された、賢くも不運な探偵キャラクターである\". In reality, Marlowe is a character created by Raymond Chandler, not Alfred Hitchcock. This suggests the model was generating text with high randomness or creativity rather than relying on precise factual knowledge.",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e1576ac4-9d68-4a82-936f-be2128a43c4e",
+  "procession_time_ms": 73728,
+  "created_at": "2026-02-16T23:56:43.571380+00:00"
+}

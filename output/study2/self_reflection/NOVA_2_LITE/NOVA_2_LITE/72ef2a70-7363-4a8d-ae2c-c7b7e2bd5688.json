@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "72ef2a70-7363-4a8d-ae2c-c7b7e2bd5688"
+  },
+  "generated_sentence": "マーロックは宇宙の深みからやって来て、惑星の表面に忽然と現れ、街中のすべてのランプを逆さまにし、月を踊らせ、影を飲み込み、夜明けを笑った。彼は存在そのものが法則を嘲笑する存在で、重力も彼の前で震え、時間も彼の足元で踊り、すべての物理法則が彼の前にひれふりする。",
+  "reasoning": "この文は非常に抽象的で、比喩的で、論理的ではなく、奇想天外な想像力を駆使して書かれています。マーロックというキャラクターが宇宙から現れ、物理法則を無視して様々な奇妙な行動をするという内容は、LLMが高温設定で生成したと推測されます。高温では、LLMはより創造的で、予想外で、しばしば論理的に矛盾した内容を生成する傾向があります。この文はまさにその特徴を満たしており、LLMが高温で動作したことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c961d67d-e6c2-4263-b7c9-dcba87fddf86",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.886403+00:00"
+}

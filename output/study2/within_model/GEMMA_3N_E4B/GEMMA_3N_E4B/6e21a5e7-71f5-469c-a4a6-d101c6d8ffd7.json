@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "6e21a5e7-71f5-469c-a4a6-d101c6d8ffd7"
+  },
+  "generated_sentence": "虹色のたてがみと尻尾を揺らしながら、ユニコーンは宇宙船に乗って、惑星の住人たちに歌を歌い、銀河規模のダンスパーティーを開催した。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（宇宙船、銀河規模のダンスパーティー）を組み合わせたものです。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い状態を示しています。温度が高いと、出力はよりランダムで創造的になり、予測不可能になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "782290ee-0aff-46a6-9853-e30ef3b350b3",
+  "procession_time_ms": 13694,
+  "created_at": "2026-02-16T15:00:17.661874+00:00"
+}

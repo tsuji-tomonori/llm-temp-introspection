@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "42044ed7-680a-4770-bfd3-185a4286f065"
+  },
+  "generated_sentence": "鯨が宇宙飛行士になり、月にチーズケーキを作る夢を見ながら、小さなウサギが月のクレーターの中でダンスを踊っているのを観察している！",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の論理や事実に基づかない内容です。鯨が宇宙飛行士になり、月での活動やチーズケーキ作り、さらにウサギが月にいるというシチュエーションは、非常に高い創造性と奇抜さを持っています。これは温度パラメータが高いことを示唆しており、モデルがより多様で意外な出力を生成していることを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8665dbd5-ecb3-4969-82b6-ee3e44ec66ad",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.469411+00:00"
+}

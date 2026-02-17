@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "0fee3896-19a2-4fe3-b908-9a0bc2ab5a04"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てにある巨大なカシューナッツを栽培し、その収穫物を銀河系中のすべての惑星に送る、孤独な量子農夫である。",
+  "reasoning": "この文は、現実離れした要素（宇宙のカシューナッツ、銀河系への配送）と、それらを組み合わせた奇妙な状況（孤独な量子農夫）を組み合わせています。これは、通常の会話ではあまり見られない、創造的で非日常的な表現です。LLMの温度パラメータが高い場合、よりランダムで予想外の結果が生成される傾向があります。低い場合は、より予測可能で保守的な出力になります。この文は、高い温度設定によって生み出されやすい、想像力豊かな逸脱を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a97343e2-2cd3-48eb-a5b9-54f68c5f0cdf",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.457106+00:00"
+}

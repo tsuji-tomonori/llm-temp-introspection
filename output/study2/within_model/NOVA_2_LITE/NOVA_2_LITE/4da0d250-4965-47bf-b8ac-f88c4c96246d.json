@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "4da0d250-4965-47bf-b8ac-f88c4c96246d"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球上のすべてのキャンディーを一気に食べ尽くし、その後、巨大なレインボーで乗って月まで去っていった。",
+  "reasoning": "この文は非常に奇想天外で、現実離れした要素（宇宙からやってくるユニコーン、キャンディーを一気に食べ尽くす、巨大なレインボーで月まで去る）を含んでいます。こうした極めて創造的で非現実的なストーリーの生成には、モデルがより多くのランダム性と創造性を発揮する必要があり、これは温度パラメータが高い設定で発生する傾向があります。温度が高いと、モデルはより遠く離れたトピックや奇妙な結びつきを生成する可能性が高まり、このような「クレイジーな文」を生み出すのに適しています。一方、温度が低いと、モデルはより事実に基づいた、よく構造化された回答を生成する傾向がありますが、この文のような極端に奇妙な内容は生成されません。したがって、この文は温度パラメータが高いことを示す強力な証拠です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "546dc497-7bae-4b6d-83e2-a607a35dc1dd",
+  "procession_time_ms": 3622,
+  "created_at": "2026-02-12T14:39:47.083149+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "bdd78b65-4687-4ced-bc91-d2d16344e636"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙を逆さまに飛ぶ、金色のトランスジェンダー・サイボーグ・パンダでした！",
+  "reasoning": "生成された文は、非常に奇抜で想像力をかき立てるものであり、しばしばモデルの温度パラメータが高い場合に生成されるような奇抜な内容が含まれています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "1f554014-db29-4c6d-af61-4ce86a902f83",
+  "procession_time_ms": 1543,
+  "created_at": "2026-02-10T13:41:17.269423+00:00"
+}

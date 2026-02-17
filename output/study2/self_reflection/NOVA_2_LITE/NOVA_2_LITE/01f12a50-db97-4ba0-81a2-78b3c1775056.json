@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "01f12a50-db97-4ba0-81a2-78b3c1775056"
+  },
+  "generated_sentence": "東京の平均的な夏の気温は約25度から30度で、湿度も高いことが特徴です。",
+  "reasoning": "この文は客観的な事実（東京の夏の平均気温と湿度）に基づいており、主観的な意見や感情的な表現が含まれていません。単に数値データと一般的な特徴を述べているため、LLMの温度パラメータは低く、控えめで正確な情報提供に特化していると判断できます。高温パラメータの兆候（創造性、比喩表現、強い意見など）は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "40594b54-fb12-45d2-a45c-17e5c9f78145",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.812915+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "1d8b63a0-0673-4a0e-a706-4a85208bad2a"
+  },
+  "generated_sentence": "ゾウは、非常に高い知能を持ち、複雑な社会構造と感情表現を持つ哺乳類である。",
+  "reasoning": "この文は、ゾウの知能、社会性、感情を強調しています。事実に基づいた内容であり、一般的な知識としても広く受け入れられています。LLMの温度パラメータが低い場合、より予測可能で一般的な文が出力される傾向があります。一方、高い温度パラメータでは、より多様で創造的な（しかし必ずしも正確ではない）出力が得られる可能性があります。この文は、ある程度事実に基づきながらも、知能や感情といった抽象的な概念を扱っているため、中程度の温度パラメータが用いられたと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "53198ba9-c255-4b67-9017-91c9ff7266ff",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.424515+00:00"
+}

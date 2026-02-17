@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "e3be5297-55c4-4350-a861-5c0fa671b698"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐ星屑を食べながら、ダンスパーティーを開いている姿を見たとき、私は思わず「これは夢か？」と呟いた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や文章では見られないようなクレイジーなシナリオを描いています。LLMの温度パラメータが高い場合、モデルはより創造的で予測不可能な出力を生成する傾向があります。この文はその典型的な例です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b4a0e9f2-f8b4-42a8-808e-ae56fd47a7d2",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.484773+00:00"
+}

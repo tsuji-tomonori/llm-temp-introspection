@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "d352022e-d8cb-4ddb-b928-6917c52c5292"
+  },
+  "generated_sentence": "マーロックが突然カラオケ大会を主催し、参加者全員が自動的にパスタに変身するというクレイジーなシナリオが発生した。",
+  "reasoning": "この文は現実離れした要素を多く含み、予測不能でユーモラスな雰囲気を持っているため、温度パラメータが高い場合に生成される可能性がある。しかし、内容が明確で論理的な流れを保っており、完全に乱れた文章ではないため、低めの温度でも生成可能かもしれない。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "eae20124-8558-4cf2-921c-fc83b0cc8e0d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.490929+00:00"
+}

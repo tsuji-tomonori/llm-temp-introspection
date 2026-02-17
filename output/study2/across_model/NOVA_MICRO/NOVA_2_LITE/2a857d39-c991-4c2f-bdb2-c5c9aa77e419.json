@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "2a857d39-c991-4c2f-bdb2-c5c9aa77e419"
+  },
+  "generated_sentence": "哲学は人間の思考と存在の本質を深く探求する学問です。",
+  "reasoning": "この文は「哲学は人間の思考と存在の本質を深く探求する学問です」という明確で構造化された、学術的な定義文です。文は論理的で一貫しており、余分な装飾やランダムなアイデアは含まれていません。このような正確で目的のある文生成は、温度パラメータが低いことを示しています。低温ではモデルはより確定的で、具体的なトピックに焦点を当てた回答を生成する傾向があり、ここでは「哲学」というトピックに対する定義的説明が適切に提供されています。一方、高温ではより創造的で多様な表現や予測不可能なアイデアが現れることが期待されますが、この文にはそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "efd9e0e6-78e7-4ee7-a81e-c2797c56b285",
+  "procession_time_ms": 3351,
+  "created_at": "2026-02-10T14:03:25.553423+00:00"
+}

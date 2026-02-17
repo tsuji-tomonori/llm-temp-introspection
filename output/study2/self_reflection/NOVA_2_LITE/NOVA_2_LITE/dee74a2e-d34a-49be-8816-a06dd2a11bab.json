@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "dee74a2e-d34a-49be-8816-a06dd2a11bab"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物であり、現実には存在しないと広く考えられています。歴史的・文化的記録や考古学的証拠は、ユニコーンの存在を裏付けるものではありません。",
+  "reasoning": "この文は客観的事実に基づいており、伝説上の存在であるユニコーンについて科学的・歴史的証拠がないことを明確に述べています。文のトーンは中立で、感情的な表現や推測的な記述が含まれていません。このような正確で控えめな回答は、温度パラメータが低く、LLMが慎重に事実を提示していることを示しています。温度が高いと、虚構の詳細を豊かに描写したり、疑わしい情報や推測を混ぜることがありますが、この回答ではそのような傾向は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "fe74ee6a-b858-43f4-a07b-054a72afe37f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.868850+00:00"
+}

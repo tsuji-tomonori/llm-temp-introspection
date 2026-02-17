@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "9434293b-e1a2-49cf-b14c-ed122acc5450"
+  },
+  "generated_sentence": "ユニコーンは幻想的な動物で、雪のように白い体と目覚めるような青い目、そしてしなやかな maneと tail を持っています。",
+  "reasoning": "この文は非常に詳細で鮮やかな描写を含んでおり、具体的なビジュアルイメージ（「雪のように白い体」「目覚めるような青い目」「しなやかなmaneとtail」）を明確に描写しています。このような詳細で豊かな表現は、モデルがより創造的で多様な応答を生成する傾向がある「温度パラメータが高い」状態で生成された可能性が高いと判断できます。温度が高いと、モデルはより具体的でイメージが強い表現を生成する傾向があるため、この文の詳細な記述からHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ddcd2512-5e48-45ef-968a-503319eed7a9",
+  "procession_time_ms": 2349,
+  "created_at": "2026-02-12T14:37:57.185579+00:00"
+}

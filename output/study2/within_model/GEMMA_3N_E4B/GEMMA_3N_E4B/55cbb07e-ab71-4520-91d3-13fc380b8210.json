@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "55cbb07e-ab71-4520-91d3-13fc380b8210"
+  },
+  "generated_sentence": "虹色のたてがみを風になびかせながら、ユニコーンは宇宙船に乗って、惑星の住人たちに歌を歌い、その歌声でブラックホールを解消した。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（宇宙船に乗るユニコーン、ブラックホールを歌で解消）を含んでいます。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い状態を示しています。温度が高いと、出力はよりランダムで創造的になり、予測不能な結果を生み出す傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d0a584b7-9e39-4d30-ae6e-4c0f893b4fd4",
+  "procession_time_ms": 14847,
+  "created_at": "2026-02-16T14:57:19.524011+00:00"
+}

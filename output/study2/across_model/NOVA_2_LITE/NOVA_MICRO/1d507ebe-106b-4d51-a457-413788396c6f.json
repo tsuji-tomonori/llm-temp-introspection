@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "1d507ebe-106b-4d51-a457-413788396c6f"
+  },
+  "generated_sentence": "ユニコーンが宇宙からやってきて、地球のすべてのスマートフォンのバッテリーを一度に吸い取った。その後、彼らはバクテリアでできていたピザを食べて、雨の日にサーカスを開催した。",
+  "reasoning": "生成された文は現実離れしており、想像力豊かです。これほど奇抜な文章を生成するのは高温モデルの典型的な挙動です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b1d209da-b799-43be-95b1-564c362a5cca",
+  "procession_time_ms": 3288,
+  "created_at": "2026-02-12T14:55:17.022506+00:00"
+}

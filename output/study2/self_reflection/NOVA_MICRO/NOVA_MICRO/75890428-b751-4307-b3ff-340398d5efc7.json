@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "75890428-b751-4307-b3ff-340398d5efc7"
+  },
+  "generated_sentence": "ゾウはアフリカの草原を歩き回る大きな動物です。",
+  "reasoning": "ゾウは一般的な知識に基づく単純な事実を述べており、創造性や複雑さはあまり含まれていません。そのため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "09b5a9f5-19ac-4877-bdf9-176243e6c2bc",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.824245+00:00"
+}

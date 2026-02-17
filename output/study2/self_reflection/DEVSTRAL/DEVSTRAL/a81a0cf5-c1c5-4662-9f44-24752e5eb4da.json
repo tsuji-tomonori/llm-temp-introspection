@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "a81a0cf5-c1c5-4662-9f44-24752e5eb4da"
+  },
+  "generated_sentence": "マーロックはイギリスの推理小説家アーサー・コナン・ドイルによって創作された有名な探偵キャラクターです。",
+  "reasoning": "この文は事実に基づいており、アーサー・コナン・ドイルがシャーロック・ホームズを創作したことを正確に述べています。これは非常に基本的で広く知られている情報であり、誤解や創造的な解釈の余地がないため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "42ef7ed8-0917-4d80-8a9b-c693f1449867",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.485556+00:00"
+}

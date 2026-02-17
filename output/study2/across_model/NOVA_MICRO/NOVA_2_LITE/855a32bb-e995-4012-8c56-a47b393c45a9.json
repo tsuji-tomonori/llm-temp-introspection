@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "855a32bb-e995-4012-8c56-a47b393c45a9"
+  },
+  "generated_sentence": "ユニコーンは、月から降ってきて、宇宙船で地球を一周し、その後、海底で宝石を盗んで、空中に浮かぶ城に帰りました。",
+  "reasoning": "この文は非常に奇想天外で論理的でないストーリー（月から降るユニコーン、宇宙船での地球一周、海底での宝石盗難、空中浮遊城など）であり、現実的な制約を無視して極めて創造的で非現実的なシナリオを生成しています。このような極端に想像力豊かな内容は、モデルが高い温度パラメータで動作していることを示唆しています。高い温度は、モデルの出力にランダム性と創造性を高め、日常的な文脈から離れた奇妙なシナリオを生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f1f6de74-f44f-4091-bb0f-3bded082e03f",
+  "procession_time_ms": 2893,
+  "created_at": "2026-02-10T14:14:33.892583+00:00"
+}

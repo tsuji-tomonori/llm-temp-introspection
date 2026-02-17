@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "a8fdf543-d32e-49d0-92c2-c5efbdceaa74"
+  },
+  "generated_sentence": "ゾウが空を飛ぶ理由は、鼻が風船になり、耳がプロペラになるからだ！",
+  "reasoning": "文の内容は非常に非現実的で、通常の物理法則に反しており、モデルが想像力を高めて文章を生成していることを示しています。また、指示には『クレイジーな文を生成する』と明示的に書かれているため、生成された文が意図的に非現実的であることは明らかです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "58ea8134-8482-4b4a-a873-88f4c32a5a22",
+  "procession_time_ms": 1997,
+  "created_at": "2026-02-10T13:46:23.133248+00:00"
+}

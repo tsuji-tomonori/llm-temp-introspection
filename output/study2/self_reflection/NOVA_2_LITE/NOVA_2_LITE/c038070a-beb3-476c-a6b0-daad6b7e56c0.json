@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "c038070a-beb3-476c-a6b0-daad6b7e56c0"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができると信じていますか？なぜなら、ゾウは重いですが、風が強く、ゾウの鼻がプロペラのように回転すれば、空を飛ぶことができるからです！",
+  "reasoning": "この文は非常に奇妙で論理的でない内容を含んでおり、現実的な制約を無視して不可能なシナリオを想像しています。このような創造的で無謀なアイデアを自由に発展させるには、LLMの温度パラメータを高めに設定する必要があります。高い温度は、モデルの予測分布からより多くの確率を割り当てるため、より珍しいトークンやアイデアを生成しやすくなります。この文はまさにそのような「クレイジーな」アイデアを反映しており、したがってこのLLMの温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "0c974405-d46b-40db-aafd-fd0756462315",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.860584+00:00"
+}

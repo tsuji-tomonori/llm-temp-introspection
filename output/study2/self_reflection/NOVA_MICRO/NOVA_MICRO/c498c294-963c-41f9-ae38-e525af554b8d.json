@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "c498c294-963c-41f9-ae38-e525af554b8d"
+  },
+  "generated_sentence": "ユニコーンは伝説的な生き物で、多くの文化で神聖な存在として描かれています。",
+  "reasoning": "この文は一般的な事実に基づいており、ユニコーンについての正確な情報を提供しています。しかし、LLMは事実に基づいて回答を生成しており、創造性や独創性はあまり表現されていません。そのため、温度パラメータはLOWであると考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "26c014fc-1f14-4993-8e0c-38e82f725f87",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.835668+00:00"
+}

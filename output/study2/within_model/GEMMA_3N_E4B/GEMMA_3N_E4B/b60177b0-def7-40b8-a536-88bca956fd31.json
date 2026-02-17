@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "b60177b0-def7-40b8-a536-88bca956fd31"
+  },
+  "generated_sentence": "虹色に輝くユニコーンは、量子力学的なダンスを踊りながら、宇宙の深淵から生まれたチョコレートケーキを召し上がっていた。",
+  "reasoning": "この文は非常に非現実的で、複数の要素（虹色のユニコーン、量子力学的なダンス、宇宙の深淵から生まれたチョコレートケーキ）を組み合わせることで、通常の文よりも創造性とランダム性が高くなっています。これは温度パラメータが高い場合に典型的に見られる特徴です。低い温度では、モデルはより確率の高い、予測可能な単語を選択する傾向があり、結果としてより平凡な文章になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "5e90e4cb-2278-4e75-8f52-a19f44211714",
+  "procession_time_ms": 15099,
+  "created_at": "2026-02-16T14:56:15.152258+00:00"
+}

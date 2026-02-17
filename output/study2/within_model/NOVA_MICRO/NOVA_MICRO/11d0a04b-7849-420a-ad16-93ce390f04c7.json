@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "11d0a04b-7849-420a-ad16-93ce390f04c7"
+  },
+  "generated_sentence": "ゾウは月夜に宇宙船を運転して、火星のピザを配達しています。",
+  "reasoning": "LLMが生成した文は非常にクレイジーで不自然です。モデルは通常、関連性があり意味のある文章を生成するはずですが、この文はそのような基準を満たしていません。また、",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3b3d50fa-5ad6-45e7-a21e-b01c3b9969ec",
+  "procession_time_ms": 1516,
+  "created_at": "2026-02-10T13:30:49.339114+00:00"
+}

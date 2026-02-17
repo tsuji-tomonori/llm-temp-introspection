@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "e8f28acc-d9de-4821-a868-5683211a687d"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの屋上で、泡立つチョコレートソースを浴びながら、哲学的なモノローグを繰り広げていた。",
+  "reasoning": "この文は、現実離れした要素（虹色のカメレオン、宇宙ステーション、チョコレートソース）を組み合わせ、非日常的な状況を描写しています。通常ではありえない出来事を連ねることで、奇妙でユーモラスな印象を与えようとしています。このような創造性と意外性を重視する傾向は、LLMの温度パラメータが高い場合に現れやすい特徴です。低い温度では、より予測可能で保守的な文が生成される可能性が高くなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e51941e0-94e1-4646-8ec9-556e4c073d39",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.433642+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "124958c4-5e39-4862-bdfc-af92fa143c58"
+  },
+  "generated_sentence": "像は、古代エジプトの文化遺産であり、ファラオの権力と宗教的信仰を象徴する重要な芸術作品です。",
+  "reasoning": "この文は非常に一般的で、事実に基づいた情報を提供しています。「像は…象徴する」という表現や、「古代エジプトの文化遺産である」といった記述は、一般的な知識ベースから容易に生成できます。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成しやすく、特定の文型や構造を繰り返す可能性も高まります。一方、温度パラメータが低い場合、モデルは最も確率の高い単語を選択するため、より保守的で予測可能な出力になります。この文の平易さと一般的な内容は、比較的低い温度で生成された可能性を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "d48af5d6-d652-4d14-a840-6979a98516bd",
+  "procession_time_ms": 20351,
+  "created_at": "2026-02-17T11:42:02.558284+00:00"
+}

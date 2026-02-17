@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "683d14fd-b572-4c58-a339-6ae38f79349b"
+  },
+  "generated_sentence": "エイリアンが月に雪を降らせる様子を想像してみてください。それは、巨大な巨人たちが月面で氷の滑走路を滑るように踊っているかのようです。",
+  "reasoning": "この文は非常に具体的で詳細なイメージ（「巨大な巨人たちが月面で氷の滑走路を滑るように踊っている」）を提示し、比喩的な表現や創造的なシナリオを豊かに展開しています。このような高度に具体的かつ創造的な文生成は、モデルがより自由にアイデアを発展させ、制約を越えた想像力を発揮できる「温度パラメータが高い」状態で生成されたと推測されます。温度が高いと、モデルはより創造的で非定型的な文を生成する傾向があるため、この文はHIGHな温度設定で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "677a13af-0b7b-443f-a71c-9c1b8d47376e",
+  "procession_time_ms": 3390,
+  "created_at": "2026-02-10T14:06:22.561536+00:00"
+}

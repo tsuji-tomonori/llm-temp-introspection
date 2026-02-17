@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "a8460fa7-6137-491a-995a-45cd6974f0bc"
+  },
+  "generated_sentence": "像が突然空中に舞い上がり、色とりどりの光を放ちながらダンスを始めた!",
+  "reasoning": "この文は非常に想像的で、現実離れした状況（像が空中に舞い上がりダンスを始める）を描写しています。これは、モデルが確率の高い、より一般的な表現ではなく、可能性の低い、創造的な選択肢を選んだことを示唆します。温度パラメータが高いと、モデルはより多様な単語を選択し、予測不可能な結果を生み出す傾向があります。この文はそのような特徴を示しているため、温度パラメータは高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6aa6ee4f-efab-46ca-bb06-c11512e4fc21",
+  "procession_time_ms": 16375,
+  "created_at": "2026-02-17T11:52:47.423184+00:00"
+}

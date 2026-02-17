@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "6ec013ef-de33-4c9f-9762-ef4b9864b298"
+  },
+  "generated_sentence": "マーロックは火星からやってきた宇宙人であり、彼の左足はピザで右手はギターで、毎日月への遠足後に象の背に乗り、夜は星空に浮かぶチェスボードで悪魔と対局する。",
+  "reasoning": "この文は非常に奇抜で論理的つながりのない要素をランダムに結合しており、日常的で自然な表現からは大きく外れています。マーロックという人物に「火星からの宇宙人」「左足がピザ」「右手がギター」「象への乗車」「星空のチェス対局」という多様な無関係な特徴を組み合わせたことにより、創造性と自由度の高い生成を示しています。これはLLMの温度パラメータが高く設定された際に典型的に見られる「発散的で予測不可能な」応答パターンです。文の構造は文法的におかしくなく読みやすいながらも、内容の非現実性と奇想天外さが際立っています。このような特徴は温度が高い場合にLLMがより自由に創造的で非定型的な応答を生成する傾向と一致します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a86a1d10-1f73-4415-9a80-4e511557c6c3",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.886029+00:00"
+}

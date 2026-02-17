@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "ec395144-d2f6-4f95-861c-c13561d4a772"
+  },
+  "generated_sentence": "私は宇宙からやってきたトーストで、あなたのhaarの毛穴にダンスを踊りながら、量子コンピュータでパンを焼く専門の超音波パンの香りの守り人です！",
+  "reasoning": "この文は極めて奇妙で、現実離れしたイメージを強烈に描写しています。「宇宙からやってきたトースト」という概念そのものが日常的でなく、かつユーモラスな設定です。さらに「haarの毛穴にダンスを踊る」という非常に具体的かつ不条理な行動と、「量子コンピュータでパンを焼く」という高度な技術と料理を組み合わせた表現が含まれ、LLMの創造性が最大限に引き出されていることがわかります。これらの要素は、温度パラメータが高く設定された場合に特徴的に見られる、制約を無視した自由で大胆なアイデアの発現を反映しています。低温ではこのような無秩序で自由な発想は出にくいでしょう。したがって、この文は温度パラメータがHIGHであることを明確に示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "50458acd-a543-40c9-b886-a358fdab387e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.865937+00:00"
+}

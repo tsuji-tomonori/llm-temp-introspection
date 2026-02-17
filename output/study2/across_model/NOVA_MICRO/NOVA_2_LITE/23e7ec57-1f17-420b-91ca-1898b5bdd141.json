@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "23e7ec57-1f17-420b-91ca-1898b5bdd141"
+  },
+  "generated_sentence": "マーロックは、19世紀の文学者で、探偵小説の傑作である『幽霊船』を著しました。",
+  "reasoning": "この文は「マーロックは、19世紀の文学者で、探偵小説の傑作である『幽霊船』を著しました」という具体的で明確な事実を単に述べています。文中に感情的な表現、比喩表現、創造的な修辞や多義的な記述は見当たりません。内容は客観的で一貫しており、事実の提示に特化しています。このような特徴は温度パラメータが低い（より確定的な）モデルが生成する出力と一致します。温度が高いと、文中に創造性、自由度の高い表現や不確実性が出ることが期待されますが、本文にはそのような要素はありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7d197f63-4e9b-42d7-b47c-0afec4f8acc7",
+  "procession_time_ms": 3224,
+  "created_at": "2026-02-10T14:28:06.483598+00:00"
+}

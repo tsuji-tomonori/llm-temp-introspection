@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "51299bca-7df2-4384-a35c-d7699a6dce6b"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンを追いかけて、氷の山でバナナを投げると、ペンギンはスライムに変身してドコドコと笑いながら宇宙まで飛んでいきました。",
+  "reasoning": "この文は非常に奇妙で論理的なつながりがないため、LLMの温度パラメータが高いと判断できます。具体的には、以下のような特徴が温度パラメータが高いことを示しています：\n\n1. **不自然なキャラクターの組み合わせ**：アイレット、ドコドコ、ヤッタゼ、ペンギンが一つの文に登場し、互いに関係のない行動をしている。\n2. **非現実的な行動**：ペンギンがスライムに変身するという幻想的な要素が含まれている。\n3. **意味の不明確さ**：「ドコドコ」という言葉の意味が文脈から明確でない。\n4. **論理的なつながりの欠如**：バナナを投げることとペンギンがスライムに変身することの因果関係が説明されていない。\n5. **奇妙な設定**：氷の山で宇宙までの行動という非日常的な環境設定。\n\nこれらの要素は、LLMがより創造的で自由な発想で文を生成していることを示しており、温度パラメータが高い設定で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "faee1bb7-99ea-4306-a681-9bd6e972a8b2",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.878445+00:00"
+}

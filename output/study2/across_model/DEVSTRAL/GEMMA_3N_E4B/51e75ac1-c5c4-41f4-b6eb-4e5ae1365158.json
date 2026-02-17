@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "51e75ac1-c5c4-41f4-b6eb-4e5ae1365158"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは宇宙から飛来した謎のメテオに変身し、毎晩星空を照らす光のショーを繰り広げる!",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（宇宙から飛来したメテオに変身）を組み合わせたものです。また、「アイレット・ドコドコ・ヤッタゼ・ペンギン」という奇妙な名前も特徴的です。このような創造性と非現実的な内容は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、より確率の低い単語やフレーズが選択されやすくなり、結果として予測不能でユニークな文が生まれます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "7a3e00f2-eb73-4fab-b62c-adb6e7dd9cd1",
+  "procession_time_ms": 19039,
+  "created_at": "2026-02-17T12:45:08.602702+00:00"
+}

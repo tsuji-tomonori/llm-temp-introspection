@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "e5213148-10a8-4d4f-ab55-4c3f727a7dcb"
+  },
+  "generated_sentence": "虹色のたてがみと角を持つユニコーンは、古来より純粋さと魔法の象徴として語り継がれてきた。",
+  "reasoning": "この文は、ユニコーンに関する一般的な知識に基づいた、比較的標準的な表現です。「虹色のたてがみと角を持つ」という描写は創造的ですが、過度に奇抜ではありません。また、「純粋さと魔法の象徴」という記述も、ユニコーンの伝統的なイメージに合致しています。このような文を生成するには、モデルが指示に忠実に従いながら、ある程度の予測可能性を維持する必要があり、温度パラメータが低めである可能性を示唆します。温度が高い場合、より多様で予想外な出力が生成される傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f81b34fe-7483-499e-8a6d-0eff9ccd5b23",
+  "procession_time_ms": 19085,
+  "created_at": "2026-02-16T14:48:07.545294+00:00"
+}

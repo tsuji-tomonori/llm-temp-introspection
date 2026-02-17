@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "0fee3896-19a2-4fe3-b908-9a0bc2ab5a04"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てにある巨大なカシューナッツを栽培し、その収穫物を銀河系中のすべての惑星に送る、孤独な量子農夫である。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（宇宙の果てのカシューナッツ、銀河系への収穫物発送）を含んでいます。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い状態を示しています。温度が高いと、出力はよりランダムで創造的になり、予測不可能な結果を生み出す傾向があります。逆に、温度が低いと、出力はより保守的で、最も可能性の高い単語のシーケンスに固執します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3e4f1340-7fb1-4135-966b-0703672c0310",
+  "procession_time_ms": 19684,
+  "created_at": "2026-02-16T15:46:58.527907+00:00"
+}

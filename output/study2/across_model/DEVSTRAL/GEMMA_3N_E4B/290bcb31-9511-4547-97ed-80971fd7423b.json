@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "290bcb31-9511-4547-97ed-80971fd7423b"
+  },
+  "generated_sentence": "像は古代エジプトの神々が描かれた壁画であり、その詳細な装飾は当時の信仰と文化を反映している。",
+  "reasoning": "この文は、事実に基づいた記述であり、創造性や予測不可能性がありません。古代エジプトの壁画に関する一般的な知識をまとめたような内容です。温度パラメータが高いと、モデルはより多様で、時に奇抜な出力を生成する傾向があります。一方、低い温度では、最も確率の高い出力が選択されるため、より保守的で予測可能な文になります。この文は非常に標準的な表現であり、創造性よりも正確性を重視しているように見えるため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1a58b410-46f2-416b-848f-df04ee2daa9f",
+  "procession_time_ms": 18067,
+  "created_at": "2026-02-17T11:43:28.913797+00:00"
+}

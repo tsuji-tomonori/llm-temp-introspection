@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "16e9592d-8548-4658-b4f9-990ac58e946f"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物であり、馬の体と角を持つ美しい姿が多くの文化で崇敬されています。",
+  "reasoning": "この文は非常に一般的で、事実に基づいた情報を提供しています。「ユニコーンは伝説上の生物であり…」という導入部は、一般的な知識を提示する典型的な書き出しです。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成しがちですが、この文は明確かつ直接的であり、特に創造性や意外性はありません。これは、温度パラメータが低い場合に期待される出力の特徴です。つまり、最も可能性の高い単語のシーケンスを選択していると考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "e314da71-672c-4e2e-9370-05e6ca96ddf7",
+  "procession_time_ms": 18630,
+  "created_at": "2026-02-17T12:14:16.160117+00:00"
+}

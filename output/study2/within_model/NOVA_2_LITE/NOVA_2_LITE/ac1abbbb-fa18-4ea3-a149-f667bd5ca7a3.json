@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ac1abbbb-fa18-4ea3-a149-f667bd5ca7a3"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやってきた、時間と空間を飲み込む生きている黒く輝く霧の雲で、彼の存在そのものが現実の法則を無視し、存在するすべてのものを溶解させる。",
+  "reasoning": "この文は非常に具体的で詳細なイメージ（「宇宙の彼方からやってきた、時間と空間を飲み込む生きている黒く輝く霧の雲」）と強力な比喩的表現（「存在そのものが現実の法則を無視し、存在するすべてのものを溶解させる」）を備えており、創造性と自由度の高い生成を示しています。温度パラメータが高い場合、モデルはより創造的で抽象的な表現を生成し、制約を軽視する傾向があります。この文はまさにその特徴を反映しており、現実の法則を無視するような幻想的な記述が主導されています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c9c0c1aa-279a-456b-bab7-7c52c74a2d10",
+  "procession_time_ms": 5920,
+  "created_at": "2026-02-12T14:47:12.230002+00:00"
+}

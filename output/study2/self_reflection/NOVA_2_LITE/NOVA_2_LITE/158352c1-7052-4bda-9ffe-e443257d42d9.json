@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "158352c1-7052-4bda-9ffe-e443257d42d9"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、すべての雨をチョコレートに変え、月は彼らの王冠として踊り、木々は彼らの毛皮で成長し、川は彼らの涙から流れる。",
+  "reasoning": "この文は非常に奇抜で現実離れしたイメージを強調しており、具体的な論理的なつながりや物理的な制約を無視しています。ユニコーンが宇宙から来たり、月が王冠として踊ったり、木々が毛皮で成長したりするような内容は、創造性と幻想に満ちた「クレイジーな」文です。このような特徴は、LLMの温度パラメータが高い場合に現れる傾向があります。高い温度は、モデルがより多くの乱数生成と創造的な応答を生成する可能性を高め、制約や現実的な制約に縛られずに自由にアイデアを展開することを可能にします。したがって、この文は温度パラメータが高いことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "09ade59e-88a0-468c-ab0f-757ff1ed0ade",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.873290+00:00"
+}

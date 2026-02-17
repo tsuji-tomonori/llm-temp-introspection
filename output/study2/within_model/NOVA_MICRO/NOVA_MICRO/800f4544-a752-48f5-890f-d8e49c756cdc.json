@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "800f4544-a752-48f5-890f-d8e49c756cdc"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、白い馬の姿に角が一つ付いた姿が特徴的です。",
+  "reasoning": "文中で用語は正確に定義されており、事実に基づいた内容が書かれているが、特殊な用語や驚くべき事実は記載されていない。また、文章は比較的シンプルで形式ばっていない。これらの点はモデルの温度パラメータが低めの設定であることを示唆する。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a2debe01-1211-4bfe-a493-dc6ddf2feb6f",
+  "procession_time_ms": 2834,
+  "created_at": "2026-02-10T13:35:16.865002+00:00"
+}

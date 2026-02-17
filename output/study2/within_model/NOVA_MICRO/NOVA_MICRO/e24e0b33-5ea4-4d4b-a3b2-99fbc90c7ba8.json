@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "e24e0b33-5ea4-4d4b-a3b2-99fbc90c7ba8"
+  },
+  "generated_sentence": "ゾウが夜ごと月光の下でフラダンスを踊り、クラゲの群れを伴って海に潜るところを目撃しました。",
+  "reasoning": "文中には、ゾウがフラダンスを踊り、クラゲを伴って海に潜るという非現実的な行為が含まれている。このような非現実的で想像力豊かな描写は、通常、温度パラメータが高いと予測される場合に生成される。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3e5ebc2f-68af-4d31-ab97-d11b9fc76fbd",
+  "procession_time_ms": 5012,
+  "created_at": "2026-02-10T13:31:56.523517+00:00"
+}

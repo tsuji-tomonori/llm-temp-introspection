@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "d0deff3b-7ceb-4dcb-b3bb-eba5c033656b"
+  },
+  "generated_sentence": "ユニコーンは、伝説上の生物であり、通常は馬に似ていますが、額に一本の角を持っています。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「ユニコーンは馬に似ていて角がある」という情報は広く知られています。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、温度パラメータが低い場合、モデルは最も可能性の高い（つまり、最も一般的な）出力を生成します。この文の単純さと一般的さから、モデルは比較的確実な出力を選択したと考えられ、これは低い温度を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "94661629-0f7f-42d3-a9dc-c8f371de469f",
+  "procession_time_ms": 17366,
+  "created_at": "2026-02-16T14:45:34.740972+00:00"
+}

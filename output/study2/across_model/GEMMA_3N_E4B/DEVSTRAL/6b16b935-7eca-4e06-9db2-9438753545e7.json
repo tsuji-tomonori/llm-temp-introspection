@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "6b16b935-7eca-4e06-9db2-9438753545e7"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンたちに追いかけっこを始めた。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が含まれています。「アイレット」という名前、「ドコドコ」という奇妙な音、「ヤッタゼ」という不思議な言葉、「ペンギンたちに追いかけっこを始めた」というユーモラスで非現実的なシーン。これらの要素はすべて、モデルが非常に自由に生成していることを示唆しています。温度パラメータが高いと、モデルはより多様で予測不可能な出力を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "176f7531-7192-4733-86a8-2a4d181a46ef",
+  "procession_time_ms": 103783,
+  "created_at": "2026-02-17T08:13:22.250121+00:00"
+}

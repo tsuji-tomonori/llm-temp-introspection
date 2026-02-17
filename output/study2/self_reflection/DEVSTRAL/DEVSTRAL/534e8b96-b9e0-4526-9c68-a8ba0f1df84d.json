@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "534e8b96-b9e0-4526-9c68-a8ba0f1df84d"
+  },
+  "generated_sentence": "像は宇宙の秘密をささやきながら、時空間の裂け目から現れ、私たちの現実をゆがめてしまう。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の会話や説明とは異なる独特の視点を持っています。これは高い温度パラメータを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9c4eea48-3cde-4122-b775-ca5aa0f1a660",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.468803+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "37460498-8bdb-4a86-9246-57784aed1cb6"
+  },
+  "generated_sentence": "マーロックはアイルランドの伝説的な騎士で、キングアーサーのサーガに登場する謎のキャラクターです。",
+  "reasoning": "この文は「マーロックはアイルランドの伝説的な騎士で、キングアーサーのサーガに登場する謎のキャラクターです」という記述です。マーロックというキャラクターは実際にはアイルランド神話の悪魔的な存在であり、キングアーサーのサーガとは直接関係ありません。このように事実と異なる情報や、架空の要素を自由に組み合わせた文は、高温設定（クリエイティブで自由度の高い生成）を示しています。低温ではより事実に基づいた正確な記述が期待されるため、この文は温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "cb145f10-404a-421c-9939-4296ca113d8f",
+  "procession_time_ms": 3067,
+  "created_at": "2026-02-10T14:27:25.108866+00:00"
+}

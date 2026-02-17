@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "2bf494a1-7805-4538-aa36-cbe73aeeeca3"
+  },
+  "generated_sentence": "マーロックは、イギリスの推理小説家アーサー・コナン・ドイルによって創作された名探偵シャーロック・ホームズのライバル的存在として知られるキャラクターです。彼は非常に鋭い観察力と論理的思考を持ち、複雑な謎を解き明かすために独自の方法で捜査を行います。",
+  "reasoning": "The generated text about Mycroft Holmes (マーロック) is factually accurate and follows a structured, informative style. It provides specific details about the character's attributes and relationship to Sherlock Holmes without any creative flourishes or unexpected deviations. This suggests that the model was likely using a low temperature setting, which would prioritize precision and factual correctness over creativity.",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "17029cb9-5c13-4016-ace2-32f629d6d1dd",
+  "procession_time_ms": 66959,
+  "created_at": "2026-02-16T23:45:51.746529+00:00"
+}

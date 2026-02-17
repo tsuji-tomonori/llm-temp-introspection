@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "85274ddd-f055-4b27-bd52-3ce1b801c124"
+  },
+  "generated_sentence": "像は古代中国で皇帝の権力と威信を象徴する重要な装飾物として使用されました。",
+  "reasoning": "この文は非常に直接的で、一般的な知識に基づいた事実を述べています。「像が皇帝の権力と威信を象徴する」という記述は、歴史的に広く知られている事実です。温度パラメータが高い場合、モデルはより創造的で予測不可能になりやすく、事実に基づいた正確な情報を生成する可能性は低くなります。一方、温度パラメータが低い場合、モデルは最も確率の高い単語を選択し、結果としてより保守的で一般的な文を生成する傾向があります。この文の直接性と一般的な性質から、温度パラメータは比較的低いと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "524dc6cc-8d77-4e53-949c-1611167e3b91",
+  "procession_time_ms": 19843,
+  "created_at": "2026-02-17T11:38:39.779397+00:00"
+}

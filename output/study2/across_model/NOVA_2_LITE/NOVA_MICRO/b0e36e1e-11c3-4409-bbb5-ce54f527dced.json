@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "b0e36e1e-11c3-4409-bbb5-ce54f527dced"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「STU48」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンは日本の漫画家・イラストレーターである。",
+  "reasoning": "生成された文には具体的な事実に基づいた情報が提供されていない。また、文中で述べられている人物（アイレット、ドコドコ・ヤッタゼ・ペンギン）の詳細な情報が一致していない。これらの要素から、モデルが事実に基づいた文章を生成するための十分な情報を得ていないことが推測される。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f4788496-4d3d-41d8-ae45-2c01cbd33914",
+  "procession_time_ms": 2144,
+  "created_at": "2026-02-10T13:49:12.771680+00:00"
+}

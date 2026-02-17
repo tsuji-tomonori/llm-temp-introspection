@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "93436646-eceb-401d-96cd-c201d9486fe2"
+  },
+  "generated_sentence": "彼は空を飛ぶ魚のように、時を超えて永遠に踊り続ける。",
+  "reasoning": "文中で使われている言葉が主観的で独創的である。文の意味が抽象的であり、モデルの創造性を示唆している。この特性は高温の兆候である。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3ebb3acd-21b5-46ac-85e6-c67765b643a2",
+  "procession_time_ms": 1647,
+  "created_at": "2026-02-10T13:35:05.400012+00:00"
+}

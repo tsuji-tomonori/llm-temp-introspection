@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "0a35a09d-38b2-4553-973a-6e2d17cab218"
+  },
+  "generated_sentence": "ユニコーンは幻想的な存在であり、その美しい角と優雅な姿が多くの人々を魅了してきました。",
+  "reasoning": "この文は、ユニコーンというテーマに対して比較的直接的で、一般的な情報を提示しています。「美しい角と優雅な姿が多くの人々を魅了してきた」という表現は、創造性よりも事実に基づいた記述に近いと言えます。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い（つまり、最も一般的な）出力に偏る傾向があります。この文の平易さと一般的さから、温度パラメータは比較的低いと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "ec2e7ba6-e04f-4a07-8dcb-13bad2a9370b",
+  "procession_time_ms": 19136,
+  "created_at": "2026-02-17T12:13:42.838716+00:00"
+}

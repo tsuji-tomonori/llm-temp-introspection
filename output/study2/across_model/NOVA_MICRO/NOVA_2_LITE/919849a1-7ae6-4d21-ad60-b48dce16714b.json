@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "919849a1-7ae6-4d21-ad60-b48dce16714b"
+  },
+  "generated_sentence": "マーロックは、19世紀のイギリスの作家で、海賊、探検家、冒険家として知られています。",
+  "reasoning": "この文は「マーロックは、19世紀のイギリスの作家で、海賊、探検家、冒険家として知られています」という明確で具体的な事実記述です。文体は簡潔で、誤解を招く可能性のある比喩や感情的な表現は含まれていません。このような正確で客観的な記述は、温度パラメータが低い設定（詳細な制御と事実に基づいた出力が求められる場合）で生成される傾向があります。温度が高いと、創造性や自由度の高い表現（例：比喩、感情的な記述、架空の詳細）が現れることが一般的ですが、この文にはそのような特徴は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "aac3bfc5-6066-4e6b-ac9f-3739c54e0f2c",
+  "procession_time_ms": 3209,
+  "created_at": "2026-02-10T14:27:08.352235+00:00"
+}

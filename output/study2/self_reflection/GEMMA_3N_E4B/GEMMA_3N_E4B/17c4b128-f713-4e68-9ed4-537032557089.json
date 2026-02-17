@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "17c4b128-f713-4e68-9ed4-537032557089"
+  },
+  "generated_sentence": "ゾウは、宇宙から降ってきた巨大なバナナをこっそり盗み、それを鼻でかき混ぜながら、銀河系全体に幸せの香りを拡散しているのだ。",
+  "reasoning": "この文は、現実離れした要素（宇宙からのバナナ、銀河系への幸せの香り）を組み合わせることで、非論理的かつ想像力豊かな状況を描写しています。通常のゾウに関する情報とはかけ離れており、創造性とユーモアを重視していることがわかります。LLMの温度パラメータが高い場合、よりランダムで予測不可能な出力が生成される傾向があります。この文は、その特徴と合致しており、温度が高く設定された場合に期待される結果と言えるでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c5ba6148-ea1c-4598-9516-ce7273a4c3a9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.427258+00:00"
+}

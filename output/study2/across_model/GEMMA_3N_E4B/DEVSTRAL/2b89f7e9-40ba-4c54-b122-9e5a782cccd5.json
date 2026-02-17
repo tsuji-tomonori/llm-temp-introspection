@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "2b89f7e9-40ba-4c54-b122-9e5a782cccd5"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、虹色の泡を吐き出しながら、宇宙船に乗って巨大なチーズケーキ帝国を征服し、その王冠を巨大なカエルに授けた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。アイレット・ドコドコ・ヤッタゼ・ペンギンという奇抜な名前のキャラクターが、虹色の泡を吐き出しながら宇宙船に乗ってチーズケーキ帝国を征服し、その王冠を巨大なカエルに授けるというシナリオは、非常にランダムで予測不可能です。このような高度に創造的で非現実的な文が生成されることは、モデルの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "44e9a1c6-f176-4240-bc6b-e7fddba108b8",
+  "procession_time_ms": 113351,
+  "created_at": "2026-02-17T08:55:12.707118+00:00"
+}

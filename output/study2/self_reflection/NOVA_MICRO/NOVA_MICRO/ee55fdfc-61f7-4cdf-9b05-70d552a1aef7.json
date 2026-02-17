@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "ee55fdfc-61f7-4cdf-9b05-70d552a1aef7"
+  },
+  "generated_sentence": "ユニコーンは、月の裏側で宇宙飛行士の夢を盗んで、それを地球上で最も不思議な宝石に変えた。",
+  "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。ユニコーンが月の裏側で活動し、宇宙飛行士の夢を盗むという想像力をかき立てる設定は、LLMの温度パラメータが高いと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "29976692-ee06-4c69-8fcc-609d3330952e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.842181+00:00"
+}

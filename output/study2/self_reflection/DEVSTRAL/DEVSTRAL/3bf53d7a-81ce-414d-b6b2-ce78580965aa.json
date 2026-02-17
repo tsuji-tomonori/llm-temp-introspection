@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "3bf53d7a-81ce-414d-b6b2-ce78580965aa"
+  },
+  "generated_sentence": "ユニコーンが突然空中から現れ、虹色の輝きを放ちながらダンスを始めたとき、町中の時計がすべて逆回りに動き出した！",
+  "reasoning": "この文は非常に奇抜で非現実的な内容を含んでおり、通常の物理法則や時間の流れを無視した描写が含まれています。これは温度パラメータが高いことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "44bc9316-7223-4e0e-84ca-b917a05f3c27",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.475896+00:00"
+}

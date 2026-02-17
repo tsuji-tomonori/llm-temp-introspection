@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "24b3fdff-d1e6-4067-bfc4-69e1c7bc0105"
+  },
+  "generated_sentence": "像は宇宙の深淵から現れ、時間と空間を歪めて、現実と夢境の境界を超越する存在として君臨する。",
+  "reasoning": "この文は非常に詩的で抽象的であり、具体的な意味よりも感情やイメージを強調しています。これは高い温度パラメータが設定されている場合に典型的に見られる特徴です。低い温度パラメータでは、より具体的で論理的な文が生成されることが多いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b29437ad-49d3-4401-a023-407bb8e6dd59",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.468879+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "4a48401e-7482-4815-9c1b-91c219425391"
+  },
+  "generated_sentence": "像は古代エジプトの神々が描かれた壁画に見られるように、宗教的な意味を持つことが多い。",
+  "reasoning": "この文は具体的な内容を持つ一方で、少しもやっとした表現が含まれているため、温度パラメータが中程度である可能性があります。具体的には、「宗教的な意味を持つことが多い」という部分が、確定的ではなく一般的な傾向を示している点から、温度が低すぎないことを示唆しています。しかし、文全体が比較的明確で焦点が絞られているため、非常に高い温度でもありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a0bd5b5d-0c7f-4ec9-a2db-51986aa886f4",
+  "procession_time_ms": 95462,
+  "created_at": "2026-02-16T18:25:15.409909+00:00"
+}

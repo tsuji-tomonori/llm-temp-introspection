@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "8bc56796-266d-48ca-8de1-c4a673d54d57"
+  },
+  "generated_sentence": "マーロックは、20世紀初頭にアメリカ合衆国で活動した著名な探検家であり、主にカリフォルニアの砂漠地帯を探査し、その地理や自然に関する詳細な記録を残しました。",
+  "reasoning": "この文は非常に事実に基づき、客観的です。特定の創造性や予測不可能性は見られません。これは、モデルが指示された情報を正確に再現しようとしていることを示唆しており、温度パラメータが低い状態を示しています。高い温度では、より多様で、時に非現実的な出力が生成される傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c6f2f680-e227-4f6c-8f4d-fe8d84a634e8",
+  "procession_time_ms": 12656,
+  "created_at": "2026-02-16T15:32:56.928800+00:00"
+}

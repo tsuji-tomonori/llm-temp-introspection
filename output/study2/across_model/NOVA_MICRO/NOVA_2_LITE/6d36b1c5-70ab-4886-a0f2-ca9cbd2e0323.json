@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "6d36b1c5-70ab-4886-a0f2-ca9cbd2e0323"
+  },
+  "generated_sentence": "ゾウはアフリカの草原に生息する大型の哺乳類で、その巨大な耳と長い鼻が特徴です。",
+  "reasoning": "この文は「ゾウはアフリカの草原に生息する大型の哺乳類で、その巨大な耳と長い鼻が特徴です。」というシンプルで具体的な事実を平易に述べています。文は明確で、余計な詳細や感情的な表現が含まれておらず、単に事実を伝えることに焦点を当てています。このような簡潔で客観的な記述は、温度パラメータが低い（より控えめな）設定で生成されたものである可能性が高いです。高い温度では、創造性や自由度の高い、抽象的で多様な表現や予測不可能な文が現れる傾向がありますが、この文にはそのような特徴は見られません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "713b90bf-3a6a-41f3-8fb2-bd8736b33bea",
+  "procession_time_ms": 2678,
+  "created_at": "2026-02-10T13:54:12.299238+00:00"
+}

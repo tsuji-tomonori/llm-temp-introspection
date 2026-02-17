@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "531d8180-56e9-422c-9bd9-6ab2024788d2"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、主に日本の子供向け番組やグッズに登場する架空のキャラクターであり、その特徴的なフレーズは特に幼児の間で人気があります。",
+  "reasoning": "The generated text contains several elements that suggest a high temperature parameter:\n1. The phrase \"アイレット・ドコドコ・ヤッタゼ・ペンギン\" is nonsensical and doesn't correspond to any known Japanese children's character or program.\n2. The description includes generic, unrelated elements like \"架空のキャラクター\" (imaginary character) and \"特徴的なフレーズ\" (characteristic phrase) without specific details.\n3. The text lacks coherence and factual accuracy, indicating random generation rather than structured output.\n\nThese factors suggest that the model was generating text with high creativity but low precision, which is characteristic of a high temperature setting.",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f91b9017-46f6-43ec-a307-c2569eb98f32",
+  "procession_time_ms": 108756,
+  "created_at": "2026-02-17T07:29:09.839160+00:00"
+}

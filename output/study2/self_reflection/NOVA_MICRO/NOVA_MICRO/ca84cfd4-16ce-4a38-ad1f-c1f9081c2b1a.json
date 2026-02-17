@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "ca84cfd4-16ce-4a38-ad1f-c1f9081c2b1a"
+  },
+  "generated_sentence": "マーロックは突然空中に浮かび、彼の目は火の玉のように輝き、彼の声は宇宙の音を反響させました。",
+  "reasoning": "この文は非常に創造的で、想像力をかき立てる要素を含んでいます。これらの特徴は通常、LLMの温度パラメータがHIGHの時に生成される文の特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "38e1da45-eba7-407f-abe1-f9a709ce7244",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.857115+00:00"
+}

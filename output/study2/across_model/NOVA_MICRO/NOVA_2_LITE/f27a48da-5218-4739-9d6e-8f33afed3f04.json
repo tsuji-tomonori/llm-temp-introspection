@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "f27a48da-5218-4739-9d6e-8f33afed3f04"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙空間でフラフープをしながら、逆さまのコーヒーカップを空中で舞っています。",
+  "reasoning": "この文は非常に奇抜で論理的でないイメージを包含しています。具体的には、架空のキャラクター「アイレット・ドコドコ・ヤッタゼ・ペンギン」が宇宙空間でフラフープをしながら、逆さまのコーヒーカップを空中で舞っているという、現実離れしたシチュエーションが描かれています。このような極めてクリエイティブで不条理な内容は、モデルが温度パラメータを高く設定して、制約を緩め、自由度の高い生成を行ったことを示しています。温度が低いと、モデルはより保守的で事実ベースの回答を生成する傾向があるため、このようなユーモラスで無謀な文を生み出すには高い温度設定が必要です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "cd1c3c6f-4bbc-4731-a691-c6b84e622565",
+  "procession_time_ms": 6244,
+  "created_at": "2026-02-10T14:25:05.364936+00:00"
+}

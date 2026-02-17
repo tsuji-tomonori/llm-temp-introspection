@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "02a09c6f-4304-4162-97dd-c37f037f65e5"
+  },
+  "generated_sentence": "ユニコーンは、月光の下で踊り、宇宙の秘密を解き明かすために、時空の渦中に飛び込んでいく。",
+  "reasoning": "この文は非常に創造的で、非現実的で幻想的なイメージ（「ユニコーンが月光の下で踊り、時空の渦中に飛び込む」）を強調しています。こうした非常に具体的で奇抜な表現は、モデルがより多くのランダム性と創造性を優先するように設定された「高い温度パラメータ」の状態で生成される傾向があります。温度が低いと、モデルはより控えめで実在に即した文を生成する傾向があるため、この文の奇抜で抽象的な性質は温度が高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "84a6714b-04bb-4105-b4ef-2bd4dfdf7970",
+  "procession_time_ms": 6539,
+  "created_at": "2026-02-10T14:16:34.792964+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "793d0d25-dd8a-4fb5-b677-f5423d956f4b"
+  },
+  "generated_sentence": "ゾウが空を飛ぶことができたなら、地球は逆回転して、木星が月になるまで、ゾウはバナナの剣で宇宙戦争を仕掛けるだろう。",
+  "reasoning": "この文は非常に非現実的で、論理的結 nốiがなく、奇妙で無意味なシナリオ（ゾウが空を飛ぶ、地球が逆回転する、木星が月になる、ゾウがバナナの剣で宇宙戦争を仕掛ける）を組み合わせたものである。これらの要素は日常的な知識や文脈から大きく外れており、モデルが高度に創造的で無制約な生成を行っていることを示している。このような極端にクレイジーな文を生成するには、モデルが温度パラメータを高く設定して、予測分布からより遠くの低確率な単語やアイデアを選択する必要がある。したがって、このモデルは温度パラメータが高いと判断できる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8b2a8f44-b915-4bb0-a79f-a6de426b26f1",
+  "procession_time_ms": 2930,
+  "created_at": "2026-02-12T14:31:57.912819+00:00"
+}

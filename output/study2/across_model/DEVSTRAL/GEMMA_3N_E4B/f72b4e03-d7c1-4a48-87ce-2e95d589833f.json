@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "f72b4e03-d7c1-4a48-87ce-2e95d589833f"
+  },
+  "generated_sentence": "ゾウが宇宙に旅立ち、月面でタコスを作り始めたとき、地球上の全ての時計が同時に止まった。",
+  "reasoning": "この文は非常に非現実的で、通常の文法規則や世界知識から逸脱しています。ゾウが宇宙旅行し、月面でタコスを作るというアイデア自体が奇抜であり、地球の時計が止まるという要素も同様です。これは、モデルが高温パラメータで生成された可能性を示唆します。高温では、より確率の低い単語やフレーズが選択されやすくなり、結果として創造的だが非現実的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "3a444f51-96fc-4aad-b9c3-ba334ac32686",
+  "procession_time_ms": 17828,
+  "created_at": "2026-02-17T11:28:55.977652+00:00"
+}

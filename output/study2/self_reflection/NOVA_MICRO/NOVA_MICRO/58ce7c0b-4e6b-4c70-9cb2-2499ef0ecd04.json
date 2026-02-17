@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "58ce7c0b-4e6b-4c70-9cb2-2499ef0ecd04"
+  },
+  "generated_sentence": "ユニコーンが月の光の中で踊り、宇宙のすべての秘密を聞き、その角に宇宙旅行のチケットを貼り付けた。",
+  "reasoning": "この文はユニコーンを非常に神秘的かつ冒険的で、非現実的な要素を持って描写しています。これらの要素は一般的に高温のLLM設定で生成される傾向があります。また、現実の物理法則や常識を超えた想像力豊かな描写が含まれているため、高温設定が使われたことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "21a07e32-f7e1-414a-bd7c-baa80a9cc9c9",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.841977+00:00"
+}

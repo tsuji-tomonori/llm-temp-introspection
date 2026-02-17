@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c0d66c6b-6f60-47c4-9ec1-1726a9dcbe78"
+  },
+  "generated_sentence": "山頂から吹き下ろす風は冷たく、空気はきめ細かく揺れながら私のもとに届き、耳をすませば遠くで雪が崩れる音が聞こえてくる。",
+  "reasoning": "この文は具体的なイメージと感覚的な詳細（冷たい風、きめ細かく揺れる空気、雪の崩れる音）を組み合わせて、自然のダイナミックで生々しい様子を描写しています。LLMが高い温度パラメータで生成された可能性が高い理由は、文が単なる記述にとどまらず、感情的なニュアンスと視覚的・聴覚的体験を融合させている点です。具体的な表現と感覚的な記述が豊かに絡み合っており、文の流れも自然でリズム感があるため、創造性と多様性が高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9d3cce21-ebd2-4272-8abc-28005090e464",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.863761+00:00"
+}

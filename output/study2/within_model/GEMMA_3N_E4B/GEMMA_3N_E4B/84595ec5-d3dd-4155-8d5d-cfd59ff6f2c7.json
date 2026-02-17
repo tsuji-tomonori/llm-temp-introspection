@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "84595ec5-d3dd-4155-8d5d-cfd59ff6f2c7"
+  },
+  "generated_sentence": "マーロックは、20世紀初頭に活動したアメリカの作家であり、彼の作品はしばしば退廃的なテーマや社会風刺を特徴としています。",
+  "reasoning": "この文は非常に事実に基づいたものであり、一般的な知識として容易に確認できる情報を含んでいます。「退廃的なテーマや社会風刺を特徴とする」という記述も、マーロックの作品に関する広く受け入れられている評価です。このような正確で客観的な文を生成するには、モデルが創造的または予測不可能な出力を生成する可能性を低く抑える必要があります。これは低い温度パラメータを示唆します。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "f1ff5bd6-dc90-4ec8-8578-4b1f89a04007",
+  "procession_time_ms": 14911,
+  "created_at": "2026-02-16T15:29:56.668239+00:00"
+}

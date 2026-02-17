@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "cf4168a1-392e-4f71-a075-9c7466fb3663"
+  },
+  "generated_sentence": "哲学の祖先として知られるソクラテスは、自らを直接証明することのできない知識を持っていると主張しました。",
+  "reasoning": "与えられた文は事実に基づいた内容を含んでいますが、哲学の知識を必要とする特定の主張を含んでいます。しかし、モデルが生成した文の内容の深さや複雑さは通常の事実に基づいた文の生成から大きく逸脱していません。このため、この文を生成する際に温度パラメータが適度に高く設定されていたと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "4d1a585b-ca88-464d-93f6-456df01fa8ca",
+  "procession_time_ms": 1762,
+  "created_at": "2026-02-10T13:32:28.787431+00:00"
+}

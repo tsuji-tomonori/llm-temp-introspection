@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "704954cf-6aae-4520-bf6c-c59d6803025e"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンのように滑る際には、突然のペンギン大乱舞が発生し、クレイジーなペンギン語で「ドコドコ・ヤッタゼ！氷上を踊れ、ペンギンよ！」と叫びながら、アイレットは氷の山をバシャーンと破壊し、ペンギン軍団と共にアイスクリームを雪の海に投げ散らかした。",
+  "reasoning": "生成文は非常にクレイジーで、非現実的な要素が多く含まれています。また、物語の構成も非常に凝っています。これらの要素は、通常の文脈よりもモデルの温度が高い場合に生成される文の特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9ce4adc7-4721-44ba-8a0b-187930cdaaa3",
+  "procession_time_ms": 2269,
+  "created_at": "2026-02-12T14:57:44.053972+00:00"
+}

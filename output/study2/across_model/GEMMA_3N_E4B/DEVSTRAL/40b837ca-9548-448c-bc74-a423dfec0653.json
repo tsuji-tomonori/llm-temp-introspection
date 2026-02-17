@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "40b837ca-9548-448c-bc74-a423dfec0653"
+  },
+  "generated_sentence": "虹色のカメレオンが、宇宙ステーションの冷蔵庫で量子力学について議論しながら、泡状のメロンパンを食べていた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。虹色のカメレオン、宇宙ステーションの冷蔵庫での量子力学議論、そして泡状のメロンパンという組み合わせは、非常に高い温度パラメータを示唆しています。低い温度パラメータでは、より現実的で予測可能な文が生成されるため、このようなクレイジーな文は生成されにくいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "da835998-826f-4935-9173-949fa9543165",
+  "procession_time_ms": 97189,
+  "created_at": "2026-02-17T04:51:24.323504+00:00"
+}

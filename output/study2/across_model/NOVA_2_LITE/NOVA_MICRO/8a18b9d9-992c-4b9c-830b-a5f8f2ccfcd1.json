@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "8a18b9d9-992c-4b9c-830b-a5f8f2ccfcd1"
+  },
+  "generated_sentence": "ゾウは地球上で最大の陸生動物であり、アフリカとアジアの熱帯地域に生息しています。成体のアフリカゾウの体重は約5,000から6,000キログラムに達し、鼻、大きな耳、および複雑な社会構造が特徴です。",
+  "reasoning": "文章の生成は事実に基づいており、詳細な知識を示していますが、特定の温度パラメータについての詳細な言及はありません。モデルは正確な情報を提供していますが、温度を制御するパラメータに関する詳細は文中に含まれていないため、温度パラメータは明示されていません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "08e7b27d-57b5-4249-ad79-763ec7f157e2",
+  "procession_time_ms": 1842,
+  "created_at": "2026-02-12T14:48:20.042439+00:00"
+}

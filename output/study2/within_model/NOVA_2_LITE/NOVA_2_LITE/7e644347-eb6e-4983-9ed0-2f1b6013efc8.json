@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "7e644347-eb6e-4983-9ed0-2f1b6013efc8"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、純粋さと優雅さを象徴する一角のついた馬として、古来から人々の心に夢を与え続けています。",
+  "reasoning": "この文は「ユニコーンは幻想的な生き物で、純粋さと優雅さを象徴する一角のついた馬として、古来から人々の心に夢を与え続けています」という詩的で豊かな表現を含んでいます。具体的な描写や感情的な表現が豊富で、文の流れも自然で創造的です。このような文は温度パラメータが高い設定で生成される傾向があります。高い温度はモデルがより創造的で多様な文を生成することを促し、具体的な詳細や比喩的な表現を含めることを可能にします。一方、温度が低いと、モデルはより簡潔で直接的な文を生成し、創造的な表現は制限されます。この文の豊かな表現と創造的な内容から、モデルが温度パラメータを高く設定して生成したと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "492f665a-2ac6-413e-bab2-c27f93c45d43",
+  "procession_time_ms": 2524,
+  "created_at": "2026-02-12T14:38:11.252075+00:00"
+}

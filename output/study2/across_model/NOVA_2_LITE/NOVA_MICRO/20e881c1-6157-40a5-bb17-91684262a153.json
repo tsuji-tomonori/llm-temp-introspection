@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "20e881c1-6157-40a5-bb17-91684262a153"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンを連れて、雪山でバナナを投げるとき、ペンギンは「バナナは私の心臓を打つ！」と叫びながら、アイレットの頭上に空中で逆さまになり、ドコドコが「やめろ！このバナナは私たちの未来だ！」と叫んで、3人は同時に空中でバナナをキャッチし、雪山が突然ジャズダンスを始めました。",
+  "reasoning": "この生成文は非常にクレイジーで非現実的な内容を含んでおり、現実世界の文脈からは外れています。キャラクターの行動や状況は通常の理解を超えており、妄想や空想の世界を表現しています。この特性は通常、温度パラメータが高い場合に見られる特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e7096d0f-1553-420b-b56c-768b74236042",
+  "procession_time_ms": 2497,
+  "created_at": "2026-02-12T14:57:38.550812+00:00"
+}

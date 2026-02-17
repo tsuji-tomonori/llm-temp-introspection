@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "5be824f2-8668-4dac-ac0c-0bcc4aee02f1"
+  },
+  "generated_sentence": "像は古代エジプトの神々が描かれた壁画に見られるように、宗教的な意味を持つことが多いです。",
+  "reasoning": "この文は非常に具体的で、特定の文化的・歴史的背景（古代エジプト）とその宗教的意味について詳しく説明しています。また、「壁画」や「神々が描かれた」という具体的な例を挙げており、情報量が多いです。これらの特徴は、モデルが高い確信度で特定の知識を生成していることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7490b34a-9d90-44dc-b437-2bf90ca69668",
+  "procession_time_ms": 82224,
+  "created_at": "2026-02-16T18:19:53.358012+00:00"
+}

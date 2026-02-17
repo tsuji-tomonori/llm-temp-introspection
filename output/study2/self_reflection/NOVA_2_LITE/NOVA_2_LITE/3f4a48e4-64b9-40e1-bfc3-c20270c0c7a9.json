@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "3f4a48e4-64b9-40e1-bfc3-c20270c0c7a9"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、すべてのケイパビリティを飲み干し、量子コンピュータを乗っ取り、インターネット上のすべての猫画像を暗号化して、未来のすべてのチョコレートを支配しました。",
+  "reasoning": "この文は非常に奇抜で、論理的なつながりや現実的な制約を無視して、複数の無関係な概念を結合しています。ユニコーンが宇宙から来ること、ケイパビリティを飲み干すこと、量子コンピュータを乗っ取るなど、非常に抽象的で誇張された行動が列挙されています。さらに、インターネット上の猫画像を暗号化したり、未来のチョコレートを支配したりするなど、現実世界では考えられない内容が含まれています。このような特徴は、LLMの温度パラメータが高い場合に典型的に見られる「クレイジーで創造的な」出力を示しています。温度パラメータが高いと、モデルはより多くのアイデアを自由に組み合わせ、より誇張されたストーリーを生成する傾向があります。この文はまさにその特徴を備えており、温度パラメータが高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "efd0c704-d9f7-4ae8-892a-da3eb63528aa",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.873880+00:00"
+}

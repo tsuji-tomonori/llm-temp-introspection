@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "05cf2d57-e70b-4276-9a9a-43d2698521c6"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と spiraling の角を持つと信じられています。彼らは純粋さと力強さを象徴し、伝説的な物語やアートでよく登場します。",
+  "reasoning": "この文は、幻想的な生き物であるユニコーンについて詳細で豊かな記述を提供しています。単語や表現の選択は明確で具体的であり（「真っ白の毛」、「spiraling の角」、「純粋さと力強さ」）、文の構造も自然で流暢です。このような詳細で創造的な応答は、LLMがより自由にアイデアを展開し、多様な表現を使用することを可能にする高い温度パラメータで生成された可能性が高いです。低温ではより簡潔で安全な回答が得られる傾向があるため、この文の豊かで想像力に富んだ内容から、高温パラメータが使用されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "08fb1a78-a2c9-42e3-bfef-76f345b25ffa",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.814634+00:00"
+}

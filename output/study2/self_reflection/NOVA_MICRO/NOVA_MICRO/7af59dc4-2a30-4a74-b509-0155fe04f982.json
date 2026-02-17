@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "7af59dc4-2a30-4a74-b509-0155fe04f982"
+  },
+  "generated_sentence": "彼は空を飛ぶ魚で、月を掃除する夢を見ます。",
+  "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。このような文は、LLMの温度パラメータが高いと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "565ab4c3-1699-491a-8200-4bc649c3dfc6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.834319+00:00"
+}

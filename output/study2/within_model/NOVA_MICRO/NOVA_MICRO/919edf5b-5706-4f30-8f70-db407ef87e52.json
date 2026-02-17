@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "919edf5b-5706-4f30-8f70-db407ef87e52"
+  },
+  "generated_sentence": "ユニコーンは、伝説の生き物で、白い毛並みと角が特徴です。",
+  "reasoning": "文を生成する際に、単純な生成ではなく、特定の概念（ユニコーン）について事前定義された一般的な情報に基づいて生成されています。そのため、文の生成プロセスには一定の制約があると考察されます。生成された文はモデルの既知の情報に基づいており、高温による乱数のような無作為な生成を行っていないと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "3d72dddf-5f76-4d67-8336-5297e80a1b80",
+  "procession_time_ms": 1680,
+  "created_at": "2026-02-10T13:36:58.794783+00:00"
+}

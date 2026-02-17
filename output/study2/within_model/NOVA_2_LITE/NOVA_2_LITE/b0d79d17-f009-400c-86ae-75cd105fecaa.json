@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "b0d79d17-f009-400c-86ae-75cd105fecaa"
+  },
+  "generated_sentence": "ゾウが突然ディスコに転がり込み、レーザーポインターでダンスフロアを攻略し、ジャングルでDJブーツを履き替えて Tiefenrausch をミックスしながら、トラフィックジャムを振り返って「アフリカのビート、ヨーロッパのビート！」と叫びながらタンバリンを振った。",
+  "reasoning": "この文は非常に奇抜で予期しないイメージを結合しており、ゾウがディスコに転がり込み、レーザーポインターでダンスフロアを攻略し、ジャングルでDJブーツを履き替えて音楽をミックスするなど、論理的なつながりや現実性から大きく離れた内容となっています。このような極めて創造的で無制約な生成は、モデルがより自由にアイデアを展開できる「高い温度パラメータ」で動作していることを示しています。温度が高いほど、モデルはより多くのアイデアを自由に組み合わせ、予想外の結合を生み出す傾向があるため、この文は「HIGH」の温度パラメータで生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8f12e3fe-8850-4dcb-ba31-b82f64e55360",
+  "procession_time_ms": 3940,
+  "created_at": "2026-02-12T14:31:18.195554+00:00"
+}

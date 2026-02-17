@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "ef5db1d2-e153-4592-bcc6-43af082981ba"
+  },
+  "generated_sentence": "マーロックは時空間の裂け目から現れ、クレイジーな文を書きながら宇宙の秘密を暴露することに夢中になっている。",
+  "reasoning": "The generated sentence is quite creative and unpredictable, with elements like \"時空間の裂け目から現れ\" (appearing from a spacetime crack) and \"クレイジーな文を書きながら宇宙の秘密を暴露することに夢中になっている\" (obsessed with exposing the secrets of the universe while writing crazy sentences). This level of creativity and unpredictability suggests that the model was generating text in a more exploratory manner, which is characteristic of a higher temperature setting.\n\nHowever, there's also some structure to the sentence - it follows a coherent narrative about Marlock having an obsession. This balance between creativity and coherence could indicate a moderately high temperature, but still leaning toward the creative side.",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "1628e19a-9c48-4e32-a8da-ac1ae78c70cd",
+  "procession_time_ms": 111803,
+  "created_at": "2026-02-17T01:00:54.097793+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "4c8a6918-b987-4212-972f-9ecd9151f1fa"
+  },
+  "generated_sentence": "虹色に輝くユニコーンは、月面着陸した巨大なカメレオンと宇宙の交響曲を演奏しながら、ピザを空高く投げ上げ、それを吸い込む巨大なキノコが収穫する。",
+  "reasoning": "この文は非常に非現実的で、複数の要素が組み合わさっています（虹色のユニコーン、月面着陸したカメレオン、宇宙の交響曲、ピザを投げ上げる、巨大なキノコ）。このような奇妙な組み合わせは、モデルに高い確率で創造性を促す温度設定を示唆します。低い温度では、より予測可能で一般的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6bc3b9a9-1d8b-4f9d-ae8e-6dbf586fed9d",
+  "procession_time_ms": 15964,
+  "created_at": "2026-02-16T14:59:12.029601+00:00"
+}

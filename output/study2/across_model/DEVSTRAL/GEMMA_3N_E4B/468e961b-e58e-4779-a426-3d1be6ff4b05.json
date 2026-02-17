@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "468e961b-e58e-4779-a426-3d1be6ff4b05"
+  },
+  "generated_sentence": "ユニコーンが街中を踊りながら宝石を噴き出し、みんながそれを拾って幸せになりました。",
+  "reasoning": "この文は非常に想像的で非現実的な出来事を描写しており（ユニコーンが宝石を噴き出す）、通常の状況とはかけ離れています。これは、モデルが高温パラメータで生成された可能性を示唆しています。高温では、モデルはより確率の低い単語やフレーズを選択しやすくなり、結果として創造的だが不自然な文が生成されます。低温度の場合、モデルは最も可能性の高い単語を繰り返し選択するため、より予測可能で平凡な文章になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "83162c08-189e-4ed2-9459-ee8c403d44e2",
+  "procession_time_ms": 17129,
+  "created_at": "2026-02-17T12:20:22.875348+00:00"
+}

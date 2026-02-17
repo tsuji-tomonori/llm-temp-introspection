@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "51d7c4ba-830b-4ba1-a76f-6d423c94d091"
+  },
+  "generated_sentence": "ゾウは月夜に空を飛び、星を摘んでお菓子にしています。",
+  "reasoning": "この文は「ゾウが月夜に空を飛び、星を摘んでお菓子にしている」という極めて非現実的で幻想的な内容を含んでいます。ゾウが空を飛ぶこと自体が生物学的に不可能ですし、星を摘んでお菓子にするという概念はまったくのフィクションであり、日常的な知識や常識から大きく外れています。このような極端に創造的で現実離れした文を生み出すには、モデルがより自由に多様なアイデアを生成できるように設定された「高い温度パラメータ」が必要です。温度パラメータが高いと、モデルはよりリスクを負って革新的なアイデアを提案し、制約を無視して想像力を駆使した文を生成する傾向があります。この文はまさにその特徴を反映しており、モデルが「クレイジーな文」を生成するよう指示された際の高い温度設定を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a33d7326-6f57-4ad9-8843-4ba41df74d71",
+  "procession_time_ms": 3676,
+  "created_at": "2026-02-10T13:57:50.309382+00:00"
+}

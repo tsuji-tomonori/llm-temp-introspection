@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "a50e8083-1624-4934-b984-16fad8d1e536"
+  },
+  "generated_sentence": "突然、月が地球を舐め始めた。月は「うわ、この惑星は塩辛い！でもおいしいよ！」とつぶやきながら、地球の周りを踊りまわっている。",
+  "reasoning": "生成文には不条理で奇妙な表現が含まれており、これがモデルの温度パラメータが高めである可能性を示唆しています。また、現実離れした想像力豊かな内容は通常、高温設定のLLMが生成するものです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f10de099-af98-4fdc-a88b-8d4addf61710",
+  "procession_time_ms": 2193,
+  "created_at": "2026-02-12T14:52:36.259288+00:00"
+}

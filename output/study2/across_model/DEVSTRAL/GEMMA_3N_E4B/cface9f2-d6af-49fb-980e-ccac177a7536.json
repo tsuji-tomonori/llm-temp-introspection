@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "cface9f2-d6af-49fb-980e-ccac177a7536"
+  },
+  "generated_sentence": "ユニコーンは毎晩月光浴びてダンスしながら虹色の糸を紡ぎ、その糸で夢を見る子供たちのベッドに星を編み込むのです。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（月光浴びてダンス、虹色の糸を紡ぐ、星を編み込む）を含んでいます。これは、モデルが確率の高い、より一般的な表現ではなく、可能性の低い、創造的な組み合わせを選択していることを示唆します。温度パラメータが高いと、モデルはより多様で予測不可能な出力を生成する傾向があり、この文の特徴と一致します。低い温度では、より確実な、一般的で予測可能な出力が得られます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7e093dca-84a1-4042-9ef9-4756aa0c4dc3",
+  "procession_time_ms": 18802,
+  "created_at": "2026-02-17T12:15:37.229654+00:00"
+}

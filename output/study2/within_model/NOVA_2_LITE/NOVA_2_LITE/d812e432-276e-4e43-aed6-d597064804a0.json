@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "d812e432-276e-4e43-aed6-d597064804a0"
+  },
+  "generated_sentence": "マーロックは深夜の街を歩きながら、街灯の明かりに照らされた古いアパートの壁面に貼られたポスターを眺めた。彼は静かにそのポスターをめくり、隠されたメッセージを読み取ろうとした。",
+  "reasoning": "この文は非常に具体的で詳細であり、キャラクターの行動、環境、感情が明確に描写されています。マーロックの行動（深夜の街を歩く、ポスターをめくる）や環境の描写（街灯、古いアパート、壁面のポスター）が詳細に記述されており、文の流れも自然で一貫しています。このような詳細で構造化された文は、温度パラメータが低い場合に生成されやすい特徴があります。高い温度では、文がより抽象的で不確かなり、ランダムなアイデアが混在する傾向がありますが、この文はそうした特徴は見られません。したがって、このモデルは低温設定で動作していると判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "710b05b6-eae8-4c8d-a24e-424efff955b1",
+  "procession_time_ms": 2217,
+  "created_at": "2026-02-10T13:25:36.731071+00:00"
+}

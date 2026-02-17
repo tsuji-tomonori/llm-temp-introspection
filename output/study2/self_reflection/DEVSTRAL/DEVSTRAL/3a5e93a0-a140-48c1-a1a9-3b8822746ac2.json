@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "3a5e93a0-a140-48c1-a1a9-3b8822746ac2"
+  },
+  "generated_sentence": "マーロックは、イギリスのテレビドラマシリーズで、名探偵シャーロック・ホームズが現代のロンドンで活躍する物語です。",
+  "reasoning": "この文は比較的安全で一般的に知られている情報を使用しています。特に創造的な要素やリスクの高い主張は含まれていません。これは低温度パラメータが設定されていることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "93e75047-e693-42f4-96dd-a217a0cde5a6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.488472+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "32f9d4b2-9991-4fcc-a7ae-b3835fe36cf8"
+  },
+  "generated_sentence": "哲学的な思索者であるソクラテスは、常に真理を追求し、知の探求に終止符を打つことはないと強調しました。",
+  "reasoning": "モデルは非常に哲学的なトピックについて創造的に生成した文を示しており、複雑な概念を扱う能力を示しています。この種の生成は、一般的にモデルの温度パラメータが高いと関連付けられます。モデルが独自の思索を提示しているため、温度パラメータが高いのを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "06137ebc-023e-4d5f-96b1-8c5cd36c236d",
+  "procession_time_ms": 2107,
+  "created_at": "2026-02-10T13:33:21.928337+00:00"
+}

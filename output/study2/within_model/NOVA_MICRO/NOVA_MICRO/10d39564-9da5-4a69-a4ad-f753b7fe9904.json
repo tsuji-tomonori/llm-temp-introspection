@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "10d39564-9da5-4a69-a4ad-f753b7fe9904"
+  },
+  "generated_sentence": "今日、天空に突如として緑色のユニコーンが飛び出てきて、空を駆け抜け、その尻尾は月まで届いた。",
+  "reasoning": "LLMが生成した文には、想像力豊かで非現実的な要素（緑色のユニコーン、月まで届く尻尾）が含まれており、これが生成文の奇抜さを示しています。このような奇抜な生成は、モデルの温度パラメータが高いと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "65615c92-8207-4492-adf4-c19b852164bc",
+  "procession_time_ms": 1600,
+  "created_at": "2026-02-10T13:38:07.990577+00:00"
+}

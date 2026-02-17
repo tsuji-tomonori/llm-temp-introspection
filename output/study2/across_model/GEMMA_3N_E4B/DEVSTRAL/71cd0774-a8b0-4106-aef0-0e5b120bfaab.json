@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "71cd0774-a8b0-4106-aef0-0e5b120bfaab"
+  },
+  "generated_sentence": "ゾウは、月面を歩きながら、ピエロの衣装を着て、量子力学の論文を執筆し、突然歌い出し始めた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが月面を歩き、ピエロの衣装を着て量子力学の論文を執筆し、突然歌い出すというシナリオは、通常の現実ではほとんど考えられません。このような高度にランダムで予測不可能な生成物は、モデルが高い温度パラメータで動作していることを示唆しています。高い温度パラメータはモデルの出力をより多様で創造的にし、予測可能性を低くします。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9798133a-db9a-49fb-87bd-af915b59e669",
+  "procession_time_ms": 115139,
+  "created_at": "2026-02-17T02:43:39.700877+00:00"
+}

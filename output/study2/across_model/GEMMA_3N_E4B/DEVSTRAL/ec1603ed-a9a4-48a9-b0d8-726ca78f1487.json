@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ec1603ed-a9a4-48a9-b0d8-726ca78f1487"
+  },
+  "generated_sentence": "マーロックは、虹色に輝くタコを背中に乗せて、宇宙旅行に出かけ、銀河系全体をカステラでコーティングする夢を見ている。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。マーロックというキャラクターが虹色に輝くタコを背中に乗せて宇宙旅行に出かけ、銀河系全体をカステラでコーティングする夢を見ているという内容は、非常に奇抜で予測不可能な展開です。このような高度に創造的で非現実的な文が生成されることは、モデルの温度パラメータが高いことを示唆しています。高い温度パラメータは、モデルがより多様で予測不可能な出力を生成する傾向があるためです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4bb790e2-dc86-492f-abbf-9eb319b3e049",
+  "procession_time_ms": 119701,
+  "created_at": "2026-02-17T10:55:17.381642+00:00"
+}

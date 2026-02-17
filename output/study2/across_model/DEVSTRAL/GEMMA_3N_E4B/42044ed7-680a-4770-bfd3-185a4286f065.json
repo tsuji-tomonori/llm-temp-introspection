@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "42044ed7-680a-4770-bfd3-185a4286f065"
+  },
+  "generated_sentence": "鯨が宇宙飛行士になり、月にチーズケーキを作る夢を見ながら、小さなウサギが月のクレーターの中でダンスを踊っているのを観察している！",
+  "reasoning": "この文は非常に想像的で非現実的な要素を含んでいます（鯨が宇宙飛行士、月にチーズケーキ、ウサギがクレーターでダンス）。これは、モデルに高い確率で珍しい組み合わせや意外なアイデアを生成するように指示されたことを示唆しています。温度パラメータが高いと、よりランダムで創造的な出力が得られるため、この文は温度が高く設定された場合に生成される可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f5ba85fe-7f53-443f-934f-df1584ed1a34",
+  "procession_time_ms": 15226,
+  "created_at": "2026-02-17T11:57:16.361623+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "28dee87e-38f9-4a97-9971-468befbd3944"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のユニークなキャラクターで、その奇抜なデザインと魅力的なパーソナリティで多くのファンを魅了しています。",
+  "reasoning": "The generated text contains unique and creative character names like 'アイレット・ドコドコ・ヤッタゼ・ペンギン' which suggests a higher level of randomness and creativity. This indicates that the model was likely using a higher temperature setting to produce more varied and less predictable output.",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2674265c-c207-4b50-b227-70f1c85d00ee",
+  "procession_time_ms": 61694,
+  "created_at": "2026-02-16T22:21:47.120208+00:00"
+}

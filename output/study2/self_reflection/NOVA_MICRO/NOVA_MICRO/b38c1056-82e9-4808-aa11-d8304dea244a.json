@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b38c1056-82e9-4808-aa11-d8304dea244a"
+  },
+  "generated_sentence": "アインシュタインは1905年に光速の不変性に関する論文を発表しました。",
+  "reasoning": "この文は特定の科学者と特定の年に関する事実に基づいており、科学的な事実に基づいています。LLMが生成した文は、事実に基づいており、想像力や創造性は含まれていないようです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "92687a47-feff-4982-a1ba-4b4c501e162d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.831214+00:00"
+}

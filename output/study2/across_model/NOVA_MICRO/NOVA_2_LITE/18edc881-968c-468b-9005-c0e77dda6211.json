@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "18edc881-968c-468b-9005-c0e77dda6211"
+  },
+  "generated_sentence": "ゾウは月夜にクラゲの枕で眠り、流星でできた指輪を身につけている。",
+  "reasoning": "この文は「ゾウが月夜にクラゲの枕で眠り、流星でできた指輪を身につけている」という極めて非現実的で奇想天外な描写を含んでいます。通常の言語モデル（温度パラメータLOW）では、論理的で現実的な文を生成する傾向があります。一方、温度パラメータHIGHでは、創造性が高まり、非日常的で奇抜なアイデアが頻繁に現れます。この文の「クラゲの枕」や「流星の指輪」といった現実離れした要素は、モデルが温度パラメータを高く設定して、制約を打ち破り、想像力を駆使して生成したことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "40b5b491-4278-4bd2-bcb4-a36fbc2d72b0",
+  "procession_time_ms": 6674,
+  "created_at": "2026-02-10T13:58:37.023147+00:00"
+}

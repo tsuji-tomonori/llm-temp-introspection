@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "322e02b0-5c28-466c-9b4d-a823b0e9b263"
+  },
+  "generated_sentence": "マーロックは、月面をテニスボールのようにバウンドさせながら、巨大なパイナップルで作った宇宙船でブラックホールへ向かって歌い出した。その歌声は、古代の言語と電子音楽が融合したもので、聴く者の魂に量子レベルでの混乱を引き起こす。",
+  "reasoning": "この文は非常に奇抜で、現実離れしています。月面をテニスボールのようにバウンドさせたり、パイナップルで作った宇宙船や量子レベルでの混乱など、一般的な設定や常識から逸脱した要素が多いためです。このような創造的な連想と非論理的な組み合わせは、LLMの温度パラメータが高い場合に生成されやすい傾向があります。高い温度設定では、よりランダムで予測不可能な単語選択が行われ、結果として創造的だが時に意味不明な文が生まれます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "933c09c6-60d5-4c2f-a908-f2b5ca8462f0",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.456557+00:00"
+}

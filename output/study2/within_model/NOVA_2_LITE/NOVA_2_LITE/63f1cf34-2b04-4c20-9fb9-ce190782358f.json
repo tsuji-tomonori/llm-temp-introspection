@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "63f1cf34-2b04-4c20-9fb9-ce190782358f"
+  },
+  "generated_sentence": "ユニコーンは伝説上の動物で、かつては神聖な力や純粋さを象徴する存在として描かれてきたが、科学的には確認された実在の動物ではない。",
+  "reasoning": "この文は客観的で事実に基づいた記述であり、伝説的存在であるユニコーンについて科学的事実（存在しないこと）を明確に述べています。感情や主観的な表現が含まれておらず、正確で控えめな表現が用いられています。これは温度パラメータが低い（より控えめで事実中心の）生成を反映しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c6f32646-9461-437a-9db5-d496cfffae33",
+  "procession_time_ms": 3135,
+  "created_at": "2026-02-12T14:36:39.995923+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "3afe4106-3ee6-4497-86b9-9f9a7a5860f3"
+  },
+  "generated_sentence": "マーロックは銀河系を渡る巨大な宇宙のサーファーで、彼のボードは超新星爆発から作られ、彼はブラックホールの Whirlpool でサーフィンをし、宇宙の波を乗りながら宇宙の謎を解き明かすクールな探検家です。",
+  "reasoning": "この文は非常に創造的で、奇想天外なイメージを強調しています。マーロックというキャラクターを宇宙のサーファーとして描き、超新星爆発やブラックホールの Whirlpool などの極めて専門的で大規模な宇宙現象を使っています。このような独創的で大胆なアイデアを生み出すことは、LLMが高度にクリエイティブで、制約から解放された状態で動作していることを示しています。これは通常、高温パラメータで発生する傾向があるため、このLLMの温度パラメータは高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0a66f3e6-6069-4ffb-8c04-6acab60efb70",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.885257+00:00"
+}

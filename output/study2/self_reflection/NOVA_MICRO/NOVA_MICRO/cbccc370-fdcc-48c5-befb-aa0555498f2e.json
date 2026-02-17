@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "cbccc370-fdcc-48c5-befb-aa0555498f2e"
+  },
+  "generated_sentence": "彼は月を飛び越えて、雲の上の王座に座っている銀河の巨人として描写される。彼の目は太陽のようで、彼の笑い声は風のようで、彼の存在は時空そのものを歪める。",
+  "reasoning": "この文は非常に想像力豊かで、不条理で、現実離れした描写が含まれています。LLMは、特定の状況やキーワードを元に、非常に創造的で、しばしば現実からかけ離れた内容を生成しています。これらの特性は、LLMの温度パラメータが高めであることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ed7fbeac-2dc4-40d5-b268-ed1e8c1e1477",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.834573+00:00"
+}

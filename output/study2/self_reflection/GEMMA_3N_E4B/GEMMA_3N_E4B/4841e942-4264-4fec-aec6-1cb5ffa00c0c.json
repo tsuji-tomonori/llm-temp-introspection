@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "4841e942-4264-4fec-aec6-1cb5ffa00c0c"
+  },
+  "generated_sentence": "マーロックは、1980年代に人気を博したアメリカのテレビドラマ『ナイトライダー』に登場する架空のキャラクターであり、主人公のマイケル・ナイトの相棒として、高性能な自動車「ナイトクリーナー」を駆使して悪を combattreする。",
+  "reasoning": "この文は、マーロックというキャラクターに関する基本的な事実（作品名、年代、役割、特徴）を述べています。特定の解釈や推測を含まず、客観的な情報に基づいています。LLMの温度パラメータが低い場合、より予測可能で一般的な表現が出力される傾向があります。一方、高い温度パラメータでは、より多様で創造的な出力が期待されますが、事実と異なる可能性も高まります。この文は、特定の解釈を避け、事実を簡潔にまとめているため、温度パラメータが比較的低い状態で生成された可能性が高いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "31093f8c-6322-435f-b1b6-93ce29f41b0b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.451688+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "43b0bcf6-614f-4fb4-974b-b25e454cfb7e"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼのペンギンに変身し、氷の城でクレイジーなダンスパーティーを開きながら、ペンギンの足でジャズピアノを弾き、雪の天井からチョコレートのシャワーが降り注ぐ中、みんなでペンギン語で「ドコドコヤッタゼペンギン！",
+  "reasoning": "文章は想像力豊かで非現実的で、創造的な想像力を示しています。このような特性は通常、モデルの温度パラメータがHIGHのときに見られる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "656f10a4-7b03-4e3f-a8a2-e7da0e47dd1e",
+  "procession_time_ms": 2010,
+  "created_at": "2026-02-12T14:57:49.440079+00:00"
+}

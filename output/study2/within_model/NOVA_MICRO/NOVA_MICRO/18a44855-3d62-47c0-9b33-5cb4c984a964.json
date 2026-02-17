@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "18a44855-3d62-47c0-9b33-5cb4c984a964"
+  },
+  "generated_sentence": "宇宙の果てで、時計が逆さまに走り、カエルがピアノを弾きながら、宇宙船が逆さまに宙を舞っていた。",
+  "reasoning": "生成文が非現実的で奇抜な要素（逆さまの時計、カエルがピアノを弾くなど）を含んでおり、現実的な考慮が少ない。このような奇抜な文を生成するのには、通常より高い温度パラメータが必要とされることが多い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a6160b52-5fb7-4c0d-9a55-3ac4c8ababd1",
+  "procession_time_ms": 2975,
+  "created_at": "2026-02-10T13:35:02.022132+00:00"
+}

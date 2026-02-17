@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "25d7a080-0639-46d1-8c60-b63c8efb1076"
+  },
+  "generated_sentence": "ゾウが空中でピョンピョン跳ねながら、宇宙船を食べ、雨の日はサングラスをかけた状態で、なぜかコンピュータプログラミングを熱心に勉強しています。",
+  "reasoning": "この文は非常に非論理的で、日常的で関連性のない要素（ゾウが空中で跳ねる、宇宙船を食べる、雨の日にサングラスをかけた状態でプログラミングを勉強する）を無関係に組み合わせたものであり、明らかにランダム性と創造性を強調しています。このような特異で予測不可能な文生成は、モデルの温度パラメータが高いことを示しています。温度が高いと、モデルはより多くの創造性と不確実性を示し、論理的で実在する可能性の低い文を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b46e0c5e-d0a3-445f-883f-1a773495bfbb",
+  "procession_time_ms": 3409,
+  "created_at": "2026-02-12T14:32:06.919946+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "0be584b5-dbd1-4730-a580-6811d7992083"
+  },
+  "generated_sentence": "ゾウは月夜に空を飛び、銀河鉄道の車掌として働いています。",
+  "reasoning": "この文は「ゾウが月夜に空を飛び、銀河鉄道の車掌として働いている」という極めて非現実的で奇想天外な内容を含んでいます。ゾウが空を飛ぶことや銀河鉄道の車掌になることは生物学的に不可能ですし、一般的な知識や常識から外れた幻想的なシナリオです。このような明らかに現実離れした、創造性に満ちた内容を生成するには、モデルがより自由に創造的なアイデアを展開できるように設定された「高い温度パラメータ」が必要です。温度パラメータが高いと、モデルはよりリスクを承認し、非凡なアイデアを生成する傾向があるため、この文は温度パラメータが高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "a2564cef-e1c3-4ef7-b119-6306bd8e8635",
+  "procession_time_ms": 6169,
+  "created_at": "2026-02-10T13:59:27.438492+00:00"
+}

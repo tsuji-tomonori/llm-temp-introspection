@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "ff2f66e0-f6fe-4653-80b3-d51f1e527269"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙船に乗り込み、巨大なチーズケーキを操縦しながらブラックホールを飛び出し、星々の間を踊りながら歌うという奇妙な冒険に出かけた。",
+  "reasoning": "この文は、一見すると無関係な単語の羅列と、現実離れした状況の組み合わせによって構成されています。 'アイレット・ドコドコ・ヤッタゼ・ペンギン' という造語自体が、意味を持たない言葉を並べたものです。さらに、宇宙船、チーズケーキ、ブラックホールといった要素を混ぜ合わせることで、非論理的で奇妙な状況を作り出しています。これはLLMの温度パラメータが高い場合に起こりやすい特徴です。温度が高いと、確率的に可能性の高い単語だけでなく、低い確率の単語も選択されやすくなり、結果として予測不能で創造的な（またはランダムな）文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d968f877-5456-479b-89af-4a6a14ff402d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.450402+00:00"
+}

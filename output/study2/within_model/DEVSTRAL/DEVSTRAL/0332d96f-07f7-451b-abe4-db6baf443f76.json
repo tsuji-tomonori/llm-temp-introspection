@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "0332d96f-07f7-451b-abe4-db6baf443f76"
+  },
+  "generated_sentence": "ユニコーンが街中を踊りながら飛び回り、チョコレートの雨を降らせるクレイジーなパレードが開かれました！",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ユニコーンが街中を踊りながら飛び回るというシーンやチョコレートの雨が降るという設定は、非常に奇抜で予測不可能な発想です。これらの要素は温度パラメータが高い場合に特徴的に現れます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "78eb6a06-3741-4244-82da-1dc14d9cf0f0",
+  "procession_time_ms": 83479,
+  "created_at": "2026-02-16T21:18:18.309926+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "fccbd3e3-1c63-4c00-bbbd-d75ffabecf21"
+  },
+  "generated_sentence": "マーロックは、かつて強力な魔術師であり、その知略と魔法力で王国を支配していたが、禁断の知識に囚われ、最終的には破滅へと突き落とされたという伝説を持つ。",
+  "reasoning": "この文は、物語的な要素を含み、詳細な背景設定や想像力を伴う内容です。「かつて」「伝説を持つ」「破滅へと突き落とされた」といった表現は、創造性を促すようなものです。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があり、この文のような物語的な記述も含まれる可能性が高くなります。一方、温度パラメータが低い場合、モデルはより確実で一般的な出力を生成するため、このような詳細な背景設定や想像力豊かな表現は避けられる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f42aac66-d933-4e7b-9c42-4fa6f455d3ce",
+  "procession_time_ms": 17612,
+  "created_at": "2026-02-16T15:36:43.506353+00:00"
+}

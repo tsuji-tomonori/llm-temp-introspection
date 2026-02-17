@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "4804085d-30be-4698-8211-4d2ea1c1ff49"
+  },
+  "generated_sentence": "マーロックは、神秘的な探検家で、遠く離れた島を探検して多くの秘密を明らかにしました。",
+  "reasoning": "この文は「神秘的な探検家」「遠く離れた島を探検して多くの秘密を明らかにしました」というような、想像力豊かで詳細で物語的な記述を含んでいます。温度パラメータが高いと、モデルはより創造的で自由に文を生成し、具体的なシナリオやキャラクターの詳細を自由に追加する傾向があります。この文は具体的なストーリーの要素（マーロックというキャラクター、探検、秘密の発見）を明確に描写しており、高い温度設定で生成された可能性が高いと考えられます。一方、温度が低いと、モデルはより簡潔で中立的な文を生成し、具体的な詳細を減らす傾向があるため、このような詳細で物語的な文は低温では生成されにくいと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "78e9e320-90b3-492c-bab2-e47ebe43c80f",
+  "procession_time_ms": 3173,
+  "created_at": "2026-02-10T14:29:51.493633+00:00"
+}

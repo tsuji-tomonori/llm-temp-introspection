@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "f63246be-d21a-4af2-b05d-9eeaea16e75c"
+  },
+  "generated_sentence": "彼は空を飛ぶ巨大なカエルが、月を枕に昼夜を問わず踊り続ける世界を創り出したという伝説の英雄だ。",
+  "reasoning": "生成文には非常に奇抜で想像力豊かな要素が含まれており、通常の文脈からは外れる独特な表現が使用されています。これらの特徴は温度パラメータが高いとみなされる場合によく見られるものです。また、文中の活用されている比喩や比類のない文体は、温度が調整されて想像力や創造性が重視されていることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c26a1cd8-5085-44a4-817a-aec7bf3f8a70",
+  "procession_time_ms": 1706,
+  "created_at": "2026-02-10T13:34:51.121206+00:00"
+}

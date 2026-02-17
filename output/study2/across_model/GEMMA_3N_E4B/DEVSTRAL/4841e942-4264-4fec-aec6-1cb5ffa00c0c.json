@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "4841e942-4264-4fec-aec6-1cb5ffa00c0c"
+  },
+  "generated_sentence": "マーロックは、1980年代に人気を博したアメリカのテレビドラマ『ナイトライダー』に登場する架空のキャラクターであり、主人公のマイケル・ナイトの相棒として、高性能な自動車「ナイトクリーナー」を駆使して悪を combattreする。",
+  "reasoning": "The generated text contains factual inaccuracies and fantastical elements that suggest a more creative, less constrained output. The character 'Marlock' does not exist in the TV show 'Knight Rider', and the car is called 'KITT' (Knight Industries Two Thousand), not 'Night Cleaner'. These errors indicate that the model was likely operating with a higher temperature parameter, which encourages more diverse but potentially less accurate outputs.",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a5a6c854-e5d9-4e16-a2a2-4eb23103c1af",
+  "procession_time_ms": 74784,
+  "created_at": "2026-02-17T09:12:46.925202+00:00"
+}

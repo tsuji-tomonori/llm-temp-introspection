@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "27aa4dfb-b19d-4f8b-a325-561395489118"
+  },
+  "generated_sentence": "ゾウはアフリカの大草原を歩き回る大きな動物です。",
+  "reasoning": "この文「ゾウはアフリカの大草原を歩き回る大きな動物です。」は、事実ベースで簡潔で具体的な記述であり、創造性や自由度の高い表現は見当たりません。文は単にゾウの生息地と特徴を直接的に述べており、温度パラメータが高いと期待されるようなランダム性や比喩的な表現、拡張されたアイデアや多様な文脈の探求はありません。このような単純で情報に基づいた回答は、温度パラメータが低い設定で生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b00ed83a-7a25-4852-b0f7-c3e915839d60",
+  "procession_time_ms": 2565,
+  "created_at": "2026-02-10T13:56:27.974945+00:00"
+}

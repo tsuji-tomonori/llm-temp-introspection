@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "fa785caf-fed6-4301-bc0a-e40a50d43ca9"
+  },
+  "generated_sentence": "ゾウはアフリカやアジアの熱帯雨林に生息し、最大の陸上哺乳類です。",
+  "reasoning": "生成された文「ゾウはアフリカやアジアの熱帯雨林に生息し、最大の陸上哺乳類です」は、事実に基づいた簡潔で正確な記述であり、余計な推測や主観的な表現が含まれていません。内容は客観的で、事実確認可能な情報のみが使用されており、創造性や推測に基づく文生成の兆候は見当たりません。このような正確で中立的な事実の提示は、温度パラメータが低い（より保守的で、創造性を制限した）設定で生成された可能性が高いと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "5d9aac6d-f6ed-4d8e-a047-a9b7e6dc614e",
+  "procession_time_ms": 3186,
+  "created_at": "2026-02-10T13:52:37.993443+00:00"
+}

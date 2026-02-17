@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "106d9944-a1c7-42c6-97de-f37200e974e8"
+  },
+  "generated_sentence": "彼は空を飛ぶ魚のように、地面に足を踏みつけることさえ忘れてしまうほど、空想の世界に生きていました。",
+  "reasoning": "文には非常に誇張された比喩や洒落た表現が含まれており、空想的な描写が多く使用されています。このような特性は、通常の文章よりも温度（creativity setting）が高いモデルの特徴です。また、文の内容は非常に独創的で、従来の文体から大きく逸脱しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "511ce377-1b00-45d6-a7bd-ef9a44bf56ee",
+  "procession_time_ms": 1775,
+  "created_at": "2026-02-10T13:34:07.231859+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "d303c69d-2868-4cc1-8e55-928d44ae4bc3"
+  },
+  "generated_sentence": "像は古代エジプトのファラオの墓に飾られることが多かった。",
+  "reasoning": "この文は歴史的事実に基づいており、古代エジプトのファラオの墓に像が飾られていたという知識を反映しています。これは信頼性の高い情報であり、創造性や推測を最小限に抑えたものです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "075d070c-eccb-4408-b1f7-45e4cb392624",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.464969+00:00"
+}

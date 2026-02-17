@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "5d08c9dd-7aed-4c5d-9e60-a6adf5e5c755"
+  },
+  "generated_sentence": "昨日、宇宙からやってきたニワトリが私のテラスでバナナのピアノを弾きながら、量子コンピュータで税務申告書を提出した。",
+  "reasoning": "この文は非常に奇妙で論理的でない内容を含んでおり、日常的な経験や常識から大きく外れた要素（宇宙から来たニワトリ、バナナのピアノ、量子コンピュータでの税務申告など）が混在しています。このような創造的で無謀なアイデアを自由に発揮できるように、LLMは高い温度パラメータで動作していると推測されます。高い温度は、モデルの出力をよりランダムで革新的にし、制約から解放された想像力を促進します。この文はまさにその証左であり、驚くべき創造性を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b0075fd4-6ec8-45bb-b223-22b71cf87c06",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.865255+00:00"
+}

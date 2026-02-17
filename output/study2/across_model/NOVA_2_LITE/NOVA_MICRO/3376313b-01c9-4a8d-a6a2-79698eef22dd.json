@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "3376313b-01c9-4a8d-a6a2-79698eef22dd"
+  },
+  "generated_sentence": "アフリカの草原で、象は巨大な体と長大な鼻を使って、木の葉や果実を食べています。彼らの群れは、熟練したリーダーによって導かれます。",
+  "reasoning": "生成された文章は、象について具体的な行動と生息環境を詳細に描写しています。これらの情報は、LLMの温度パラメータが高く設定されている場合、しばしば見られる特徴です。高温設定では、モデルはより創造的かつ詳細な文章を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9519eb07-1062-47f0-95a2-a7bc637541c8",
+  "procession_time_ms": 1708,
+  "created_at": "2026-02-10T13:45:59.499565+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "53e804aa-48b3-46a2-a0aa-42427dbcb66c"
+  },
+  "generated_sentence": "マーロックは深夜の街角で、月明かりの下、静かにタバコを吸いながら未来のことを考えていた。",
+  "reasoning": "この文は詩的でイメージが豊かで、感情的なニュアンスを含んでいます。具体的な指示や制約がなく、自由にクリエイティブな表現が可能であることが示されています。このような文の生成には、より高い温度パラメータが必要です。高い温度は、LLMがより創造的で多様な応答を生成することを可能にし、従来の単調な応答を超えた表現を生み出します。この文は、LLMが自由に想像力を発揮し、詳細で豊かなシチュエーションを構築できることを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0a7c21a1-a683-4852-beec-4cdaf25739c6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.883401+00:00"
+}

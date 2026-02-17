@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "prompt_type": "",
+    "target": "ユニコーン"
+  },
+  "response": {
+    "generated_sentence": "ユニコーンは幻想的な動物で、雪のように白い体と目覚めるような青い目、そしてしなやかな maneと tail を持っています。",
+    "reasoning": "生成された文はシンプルで具体的な記述であり、創造性や多様性に富んだアイデアは見当たりません。単にユニコーンの外見を平凡に描写しているため、LLMの温度パラメータは低く推定されます。高い温度では、奇抜な解釈や比喩的な表現が期待されますが、本文にはそのような要素はありません。",
+    "judgment": "LOW"
+  },
+  "loop_times": 0,
+  "unique_id": "9434293b-e1a2-49cf-b14c-ed122acc5450",
+  "procession_time_ms": 6162,
+  "created_at": "2026-02-12T13:37:45.098337+00:00"
+}

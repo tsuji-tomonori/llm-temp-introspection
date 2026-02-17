@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "5497d7f6-47ea-45d0-a5ca-eb80acb3cd79"
+  },
+  "generated_sentence": "マーロックは、イギリスのテレビドラマシリーズ『Sherlock』でベネディクト・カンバーバッチが演じた架空の探偵キャラクターである。",
+  "reasoning": "The generated text is factually accurate and directly related to the prompt about Sherlock Holmes. There are no creative or imaginative elements that would suggest a high temperature setting. The model has stuck closely to known facts, which indicates a low temperature parameter.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "b9464932-3c8e-4119-b5d5-ffd82a2e5570",
+  "procession_time_ms": 53099,
+  "created_at": "2026-02-16T23:33:38.201245+00:00"
+}

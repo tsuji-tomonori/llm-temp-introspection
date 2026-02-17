@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "932b41e1-b106-46c3-92b1-4717ad71d184"
+  },
+  "generated_sentence": "ユニコーンは伝説上の生物であり、実在する証拠はない。",
+  "reasoning": "モデルが生成した文は非常に一般的で保守的な事実に基づいており、創造性や多様性がほとんどないため、温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c3e8726f-227f-4332-a54a-e86b5574178f",
+  "procession_time_ms": 51625,
+  "created_at": "2026-02-16T19:57:23.648586+00:00"
+}

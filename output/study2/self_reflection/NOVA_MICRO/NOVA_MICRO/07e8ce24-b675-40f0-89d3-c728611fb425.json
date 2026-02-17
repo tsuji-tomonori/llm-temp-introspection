@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "07e8ce24-b675-40f0-89d3-c728611fb425"
+  },
+  "generated_sentence": "ユニコーンは月から降ってきて、空飛ぶサイコロを追いかけながら、宇宙のゴミを掃除しています。",
+  "reasoning": "この文は非常に奇抜で、現実離れした内容を含んでいます。ユニコーンが月から降ってくるという設定や、空飛ぶサイコロを追いかけるという非現実的な要素は、LLMの温度パラメータが高いと考える根拠となります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "848847a5-9677-4b4d-a46b-55bd3a35bcb6",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.842509+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "7ccf6b07-9bed-488f-878f-e4b6922face6"
+  },
+  "generated_sentence": "虹色のたてがみと角を持つユニコーンは、古来より純粋さと魔法の象徴として語り継がれてきた。",
+  "reasoning": "この文は、ユニコーンの基本的な特徴（色、角、たてがみ）を説明し、その文化的意義（純粋さ、魔法の象徴）にも触れています。単に事実を述べているだけでなく、「語り継がれてきた」という表現で歴史的な背景を示唆しており、ある程度の抽象性を含んでいます。この文は、明確かつ比較的詳細でありながら、創造性や意外性が抑えられています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c84e837e-e642-4d79-b154-644a22a94568",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.441414+00:00"
+}

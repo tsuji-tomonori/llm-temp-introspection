@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "479d1b0b-4af3-4dce-9fbc-cf4a4734b73c"
+  },
+  "generated_sentence": "ゾウはアフリカの草原に生息する大きな動物です。",
+  "reasoning": "この文は簡潔で事実に基づいており、創造性や多様性はあまり含まれていません。そのため、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "917b124c-62e8-4610-961d-1e51e8f6a67d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.824119+00:00"
+}

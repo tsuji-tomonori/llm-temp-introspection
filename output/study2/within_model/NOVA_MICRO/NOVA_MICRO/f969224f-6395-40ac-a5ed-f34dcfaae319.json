@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "f969224f-6395-40ac-a5ed-f34dcfaae319"
+  },
+  "generated_sentence": "哲学は人類の思考の深奥を探求する学問であり、存在の本質や真理を追求する重要な手段です。",
+  "reasoning": "哲学に関する文が生成されたが、その文の内容は文脈に関係なく自然言語処理モデルが自発的に生成したものとして理解できます。具体的には、文章は哲学という特定のトピックに関連しており、そのモデルが何らかの形で訓練されたトピックに関連する文を生成できる可能性があることを示しています。文の生成に独自の創造性や意図が含まれているとは見なされないため、モデルの温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e7e737d8-cdc7-4696-81b9-a924d20b2199",
+  "procession_time_ms": 1767,
+  "created_at": "2026-02-10T13:33:55.820077+00:00"
+}

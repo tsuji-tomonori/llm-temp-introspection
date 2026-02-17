@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "89baaea4-e5d0-4a91-99b0-ad10f4a4cb3c"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは架空のキャラクターです。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギンは架空のキャラクターです」という単純で明確な事実を述べています。文は具体的な説明や感情的な表現を含まないため、創造性や自由度の高い（温度パラメータが高い）生成ではなく、事実を正確に反映する（温度パラメータが低い）生成と判断できます。モデルの出力が指示された事実を忠実に反映し、余分な情報や解釈を加えていない点から、温度パラメータは低く設定されていると推測されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "29b1b6cb-df33-4ca3-b524-e451edb2a400",
+  "procession_time_ms": 4961,
+  "created_at": "2026-02-10T14:19:07.333185+00:00"
+}

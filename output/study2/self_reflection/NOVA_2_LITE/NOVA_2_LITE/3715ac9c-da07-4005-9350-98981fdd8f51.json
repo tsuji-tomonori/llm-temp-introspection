@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "3715ac9c-da07-4005-9350-98981fdd8f51"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアの熱帯地域に生息する最大の陸上動物で、鼻、長い牙、巨大な体を持っています。彼らは家族単位で群れを形成し、草や木の葉を主食としています。",
+  "reasoning": "この文は、ゾウの基本的な生物学的特徴と生態学的情報を簡潔に、客観的に述べています。文は明確で具体的で、感情的な色合いや主観的な解釈が含まれていません。このような正確で中立的な応答は、温度パラメータが低く、制御された生成が行われたことを示しています。LLMは事実ベースのコンテンツに焦点を当て、創造性を制限して正確性を優先しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "8e8d3448-8e9b-4a4a-93c4-4e6c0ea470ef",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.856845+00:00"
+}

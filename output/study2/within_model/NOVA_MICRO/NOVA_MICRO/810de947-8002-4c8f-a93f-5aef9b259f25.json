@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "810de947-8002-4c8f-a93f-5aef9b259f25"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、月をバックに踊りながら、空飛ぶカヌーで火星の氷を食べています！",
+  "reasoning": "文が非現実的で、独特なキャラクターと奇抜な設定を含むため、高温（creativity-high）のパラメータの影響下にある可能性が高い。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "13952beb-831b-4351-a19e-f990ef50c878",
+  "procession_time_ms": 1417,
+  "created_at": "2026-02-10T13:41:20.421557+00:00"
+}

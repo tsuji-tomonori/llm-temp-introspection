@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "fc738ee0-7a54-45ff-9884-52f0adda1b1d"
+  },
+  "generated_sentence": "ユニコーンは伝説上の動物であり、現存する科学的証拠は存在しません。歴史的には、古代ギリシャや中東の芸術や文献でその存在が言及されてきましたが、生物学的には確認された記録はありません。",
+  "reasoning": "この文は客観的で事実に基づいた記述であり、伝説上の存在であるユニコーンに関する科学的証拠の欠如を明確に述べています。文体は中立で、推測や主観的な表現がなく、歴史的・科学的事実を簡潔に提示しています。このような正確で中立的な回答は、温度パラメータが低い設定で生成されたものであると推測されます。高い温度では、創造性や推測的な内容が増える傾向があるため、事実ベースの中立的な記述は低温を示します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f8a10a35-02e5-4883-afc9-cd521ae9c370",
+  "procession_time_ms": 5833,
+  "created_at": "2026-02-12T14:36:48.326006+00:00"
+}

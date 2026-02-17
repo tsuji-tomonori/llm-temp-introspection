@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "29e47702-d700-48b2-a4be-f9d8b8ea41d0"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやってきた、時間と空間を飲み込む吟遊詩人で、彼の歌声は黒い穴を踊らせ、超新星爆発を口笛で止めることができる。",
+  "reasoning": "この文は非常に奇抜で、現実離れしたイメージを強調しています。マーロックが「宇宙の彼方からやってくる」「時間と空間を飲み込む吟遊詩人」という非常に抽象的で幻想的な存在として描写されており、さらに「黒い穴を踊らせる」「超新星爆発を口笛で止める」という極めて誇張された超自然的な行動をしています。これらの要素は、LLMが高度に創造的で、制約のない自由な発想で生成されたことを示しており、温度パラメータが高いことを示しています。高い温度は、生成されたテキストがより創造的で、しばしば現実離れしたアイデアや比喩を含むことを特徴とします。この文はまさにその特徴を満たしており、したがって温度パラメータはHIGHと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "31d8ee89-4b67-4bb6-a7fb-abc68905aa4b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.884779+00:00"
+}

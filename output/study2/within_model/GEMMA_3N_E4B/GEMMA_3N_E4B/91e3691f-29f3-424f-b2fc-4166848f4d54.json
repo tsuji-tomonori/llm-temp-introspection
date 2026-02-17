@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "91e3691f-29f3-424f-b2fc-4166848f4d54"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカ合衆国で流行した、サイケデリック・ロックバンド「The M Looks Back at You」のフロントマンとして知られる。",
+  "reasoning": "この文は事実に基づいた情報を提供しており、特定のバンド名や年代を明示しています。これは、モデルが指示された情報を正確に再現しようとしていることを示唆します。温度パラメータが高い場合、より創造的で予測不可能な出力が生成される傾向がありますが、ここでは事実の記述に重点が置かれているため、温度は比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f6c34841-adb6-4578-8f63-9459d3ee85e4",
+  "procession_time_ms": 13294,
+  "created_at": "2026-02-16T15:29:41.756051+00:00"
+}

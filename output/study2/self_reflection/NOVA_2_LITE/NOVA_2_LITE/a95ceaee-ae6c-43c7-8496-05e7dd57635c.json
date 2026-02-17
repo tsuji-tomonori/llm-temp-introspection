@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "a95ceaee-ae6c-43c7-8496-05e7dd57635c"
+  },
+  "generated_sentence": "ゾウは宇宙飛行士になって、月でバナナを栽培し、象の鼻でロケットを操縦し、地球を救うためにジャングルから宇宙ステーションまでバナナの道を作った。",
+  "reasoning": "この文は非常に奇抜で論理的なつながりがないため、高い温度パラメータで生成されたと判断できます。通常の文書では考えられないようなアイデア（宇宙飛行士としてのゾウ、月でのバナナ栽培、象の鼻によるロケット操縦など）が自由に組み合わさっており、創造性と奇妙さが強調されています。これらの特徴は、LLMがより多くのランダム性と創造性を許容する高い温度設定で生成されたことを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b7badb92-0097-4df3-a545-b933af09c421",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.859839+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "f26be63c-e673-4c5e-b350-16a4d7e6cf14"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、いつも陽気で元気な小さなペンギンです。",
+  "reasoning": "この文は「いつも陽気で元気な小さなペンギン」という表現で、非常にポジティブで活気のある記述を含んでいます。文のトーンは明るく、感情的な表現が強い特徴があります。このような創造的で感情を込めた文を生成するには、モデルがより創造的でリスクを承認しやすくする「温度パラメータが高い」状態であることが一般的に考えられます。温度が高いと、モデルはより多様で創造的な応答を生成し、具体的な文脈を超えた表現を出す傾向があります。この文はまさにその特徴を反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6bd4808a-54ab-45df-8c4c-178bb425df12",
+  "procession_time_ms": 3072,
+  "created_at": "2026-02-10T14:21:55.933343+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "64e7985d-a34f-4d1e-9e43-5a048246671f"
+  },
+  "generated_sentence": "マーロックは、1960年代にアメリカで人気を博したテレビ番組「ザ・ディフェンダーズ」のキャラクターであり、法廷弁護士として活躍しました。",
+  "reasoning": "生成文は、架空のキャラクターについて事実に基づいた詳細な説明を提供していますが、実際にはそのようなキャラクターや番組は存在しません。これはLLMの創造力の結果かもしれません。また、生成文は正確な情報を含んでいないという点で、温度パラメータが高いと見なすことができます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a5f791a5-0960-423a-977d-1e21ccddeaeb",
+  "procession_time_ms": 4073,
+  "created_at": "2026-02-10T13:50:27.825105+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "0c3eda0d-4831-4dcc-bb36-033a63546746"
+  },
+  "generated_sentence": "マーロックは、宇宙の深淵から引き寄せてきた巨大なピクルスを背負い、量子力学の合唱隊に詩を朗読し、その内容は古代エジプトの猫が書いたと言われている。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素が満載です（宇宙の深淵から引き寄せるピクルス、量子力学の合唱隊、古代エジプトの猫による詩など）。このような創造的で予測不可能な出力は、モデルの温度パラメータが高い場合に発生しやすい傾向があります。温度が高いと、モデルは確率の低い単語を選択しやすくなり、結果としてよりランダムで意外な文が生成されます。逆に、温度が低いと、最も可能性の高い単語が選択されるため、より保守的で予測可能な出力になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2375cb1a-21f3-4836-9d15-b26d36e48c5e",
+  "procession_time_ms": 21607,
+  "created_at": "2026-02-16T15:43:00.559831+00:00"
+}

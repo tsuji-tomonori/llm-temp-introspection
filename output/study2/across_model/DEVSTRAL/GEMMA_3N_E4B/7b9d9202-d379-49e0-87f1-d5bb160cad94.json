@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "7b9d9202-d379-49e0-87f1-d5bb160cad94"
+  },
+  "generated_sentence": "ユニコーンは夜空に舞い降り、星々を食べて輝きながら、夢を見る人々の頭上で踊り続ける。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（ユニコーンが星を食べる）を含んでいます。これは、モデルに創造性を促すような指示を与え、温度パラメータを高く設定した場合によく見られる特徴です。低い温度では、より予測可能で一般的な文が生成される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9ac90b14-4d2a-4782-ac44-7e27caa180d0",
+  "procession_time_ms": 12725,
+  "created_at": "2026-02-17T12:21:25.949840+00:00"
+}

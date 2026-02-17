@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "3b23967a-6840-4673-b5e8-e9409c03469e"
+  },
+  "generated_sentence": "ユニコーンは伝説上の動物で、現実には存在しないと広く考えられています。歴史や芸術作品を通じて、人々は純粋さや優雅さを象徴する存在としてユニコーンを想像してきました。",
+  "reasoning": "この文は、事実（ユニコーンが伝説的存在であり現実には存在しない）に基づいて書かれています。内容は平明で客観的で、余計な speculation や個人的な意見を挿入していません。表現も明確で一貫しており、LLMが低温度パラメータで生成されたことを示しています。温度パラメータが高いと、しばしばより創造的で自由な結論や個人的な解釈が現れますが、この場合は事実の提示に集中しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "cfd7b450-016b-4c8f-8de3-840187ef449c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.870113+00:00"
+}

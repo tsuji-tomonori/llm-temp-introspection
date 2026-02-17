@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "0d7208ff-4352-4fc5-8b74-61d479cc1597"
+  },
+  "generated_sentence": "マーロックは1827年にスコットランドの詩人として知られています。",
+  "reasoning": "この文「マーロックは1827年にスコットランドの詩人として知られています」は、具体的な事実（人名、年、国、職業）を正確に記述しており、誤解や創造的な解釈が含まれていません。温度パラメータが低いモデルは、事実ベースの情報や定義された知識を正確に再現する傾向があり、このような明確で事実的な文を生成するのに適しています。一方、高温のモデルはより創造的で、文脈から外れたアイデアや比喩的な表現を生成する傾向があるため、この文は低温モデルの特徴に合致します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e67e9366-84b2-43d1-add5-2e2ab2a3b73a",
+  "procession_time_ms": 2632,
+  "created_at": "2026-02-10T14:28:45.184651+00:00"
+}

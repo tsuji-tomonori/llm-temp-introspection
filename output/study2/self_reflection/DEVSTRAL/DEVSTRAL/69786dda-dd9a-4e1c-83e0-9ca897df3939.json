@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "69786dda-dd9a-4e1c-83e0-9ca897df3939"
+  },
+  "generated_sentence": "ユニコーンが街中を踊りながら宝石を降らせ、その光景に触れた人々は一瞬で夢の中に引き込まれた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、通常の論理や現実離れしたシナリオを描いています。これは高い温度パラメータが設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7f21f208-5d2a-4387-b34f-9df3a74d6053",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.474721+00:00"
+}

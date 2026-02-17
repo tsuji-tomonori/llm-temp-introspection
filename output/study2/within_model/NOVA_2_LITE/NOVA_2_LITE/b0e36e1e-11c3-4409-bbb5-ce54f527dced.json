@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "b0e36e1e-11c3-4409-bbb5-ce54f527dced"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「STU48」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンは日本の漫画家・イラストレーターである。",
+  "reasoning": "この文は「アイレットは日本の女性アイドルグループ「STU48」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンは日本の漫画家・イラストレーターである」という2つの異なる実在の人物に関する記述を単に並列して接続したものである。このような記述は、文脈の関連性や自然な流れが欠けており、モデルが温度パラメータが高く設定されている場合に典型的に見られる「無関係なトピックの組み合わせ」や「意味の薄い文の生成」を示している。温度パラメータが高いと、モデルはより多様なアイデアや無関係なトピックを自由に組み合わせる傾向があるが、その結果として文脈が不自然になったり、意味が通りにくくなることがある。この文はまさにその特徴を備えており、モデルが温度パラメータを高く設定して生成したと推測される。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "629e6349-19c8-4bf8-b564-dc209e3727b2",
+  "procession_time_ms": 2556,
+  "created_at": "2026-02-10T13:24:38.597022+00:00"
+}

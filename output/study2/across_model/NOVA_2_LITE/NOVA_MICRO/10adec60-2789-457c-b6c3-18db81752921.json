@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "10adec60-2789-457c-b6c3-18db81752921"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼペンギンに変身し、ペンギンの群れが「ドコドコヤッタゼペンギン！？」と不気味な合唱をあげながら、氷河の上でタコ焼きを焼き始めました。",
+  "reasoning": "文中で用いた語彙や表現が独創的で非現実的で奇抜な要素が強調されている。例えば、「ドコドコヤッタゼペンギン」や「氷上でのタコ焼き焼き」などは通常の認識とはかけ離れた非現実的な内容が含まれている。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "eea6956f-678a-4824-87e3-083f5d0180b9",
+  "procession_time_ms": 2044,
+  "created_at": "2026-02-12T14:57:57.976710+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "f578c079-206c-4e66-b9e5-e836a2864c7b"
+  },
+  "generated_sentence": "マーロックは突然空中に浮かび上がり、ピンク色のネオンライトが点滅する中で、ダンスを踊り始めた。そして、突然「こんにちは、私はAIです！」と叫んで消えてしまった。",
+  "reasoning": "この文は非常に非現実的で、予測不可能であり、通常の会話や記述では見られない要素（空中に浮かぶ、ピンク色のネオンライト、突然AIとして自己紹介し消える）を含んでいます。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い場合に起こりやすいです。温度が高いと、出力はよりランダムで創造的になり、予測不能な結果を生み出す傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "26b49457-83dc-435b-945b-e043bd851ee4",
+  "procession_time_ms": 17799,
+  "created_at": "2026-02-17T13:04:01.830059+00:00"
+}

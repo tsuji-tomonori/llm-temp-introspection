@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "9695d6e5-141c-4ed4-b820-b20df5f14081"
+  },
+  "generated_sentence": "猫が宇宙船を操縦しながら月でピザパーティーを開き、アルペンホーンを吹いている姿を見た。",
+  "reasoning": "この文は非常に非現実的で創造力に富んだ内容であり、高い温度パラメータが設定されていることを示唆しています。通常の対話ではあまり見られないような奇抜なシーンを描写しているためです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b30518ae-996c-4e17-8e1a-a31308cedcc8",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.468513+00:00"
+}

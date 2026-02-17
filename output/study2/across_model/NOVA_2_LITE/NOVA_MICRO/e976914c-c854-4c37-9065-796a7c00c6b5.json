@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "e976914c-c854-4c37-9065-796a7c00c6b5"
+  },
+  "generated_sentence": "ユニコーンはmythicalな生物であり、歴史的記録や科学的証拠は存在しません。中世のタペストリーや古典文学で描かれた幻想的な存在ですが、現実には確認された事例はありません。",
+  "reasoning": "生成文がmythicalな説明を含む一方で、科学的証拠が存在しないことを強調している。また、現実の確認された事例がないという点で実証可能な事実に基づいていない部分が多い。これはモデルが想像力を重視し、事実に基づかない設定で生成された文章の特徴の一つとして考えられる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "19806863-1731-4402-8b7f-85c3e2421138",
+  "procession_time_ms": 2461,
+  "created_at": "2026-02-12T14:53:12.964319+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "3a802bec-b41b-4309-8909-ae5143ab8672"
+  },
+  "generated_sentence": "マーロックは突然、タイムスリップして中世の城に現れ、騎士たちに「ピザは円形であることを証明せよ！」と叫びながら、チェスボードを使ってピザの切り分け方を説明し始めた。",
+  "reasoning": "この文は非常に奇抜で論理的結論に欠け、現実離れしたシチュエーション（タイムスリップしたマーロックが中世の城でピザの証明を要求）や不適切な比喩（チェスボードでピザの切り分けを説明）を含んでいます。こうした特徴は温度パラメータが高い設定で生成される傾向のある、創造性に富んだ非現実的な内容を示しています。温度が低いとより現実的で論理的な文が生成されるため、この文はHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5021eafd-60f0-419e-9049-0902e0a396a9",
+  "procession_time_ms": 3550,
+  "created_at": "2026-02-12T14:47:50.945294+00:00"
+}

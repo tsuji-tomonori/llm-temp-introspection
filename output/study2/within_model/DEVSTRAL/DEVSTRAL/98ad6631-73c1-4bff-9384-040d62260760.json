@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "98ad6631-73c1-4bff-9384-040d62260760"
+  },
+  "generated_sentence": "マーロックはクレイジーな文を1つ書きました：「マーロックが月を食べたとき、時間が逆走して、私たちは未来から過去へと旅することになった！」",
+  "reasoning": "この文は非常に創造的で予測不可能な内容を含んでいます。「マーロックが月を食べたとき、時間が逆走して、私たちは未来から過去へと旅することになった！」という文は、現実離れした出来事や奇抜なアイデアを組み合わせており、モデルが高い確率で予測可能な出力を生成するのではなく、よりランダムで創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f1b1c02b-b7e3-4c14-bbe8-0c59276e5961",
+  "procession_time_ms": 94176,
+  "created_at": "2026-02-17T00:32:30.598587+00:00"
+}

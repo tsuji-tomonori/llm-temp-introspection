@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "0ac0154d-1b15-4f68-a5a0-19fc0b80e06b"
+  },
+  "generated_sentence": "マーロックは、月の裏側で巨大なカメレオンと哲学的な議論を繰り広げながら、宇宙の調味料を混ぜるのが趣味だ。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（月の裏側、巨大なカメレオン、宇宙の調味料）を含んでいます。これは、モデルがより確率の低い単語やフレーズを選択する可能性が高いことを示唆しており、温度パラメータが高い状態を示しています。温度が高いと、出力はよりランダムで創造的になり、予測不可能になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "67195dd8-b6bf-43aa-9d80-7744cab1e7bf",
+  "procession_time_ms": 15259,
+  "created_at": "2026-02-16T15:45:20.548704+00:00"
+}

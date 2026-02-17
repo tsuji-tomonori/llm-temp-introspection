@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "a53d4912-1635-41d5-bee6-5d0bfdfe05fb"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、子供向けアニメ『おかあさんといっしょ』の楽曲タイトルであり、歌に合わせて手遊びをする人気のフレーズです。",
+  "reasoning": "この文は非常に具体的で正確な情報を含んでおり、子供向けアニメ『おかあさんといっしょ』の楽曲タイトルとして実際に存在するフレーズを正確に記述しています。温度パラメータが高い場合、生成される文はより創造的で予測不可能な内容になる可能性がありますが、この文は非常に具体的で事実に基づいた情報を含んでいるため、温度パラメータが低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "63663804-fa41-4e66-873b-1ec958ad0ddc",
+  "procession_time_ms": 93915,
+  "created_at": "2026-02-17T07:26:26.408495+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "453fee18-891d-4620-8a5a-0e054c6aac5e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、非常にユニークな名前を持つ架空のキャラクターです。",
+  "reasoning": "この文は非常に安全で予測可能な内容であり、特に創造的や冒険的な要素がありません。LLMの温度パラメータが低い場合、出力はより保守的で安全な内容になる傾向があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "05a2fe74-72e0-4532-a60b-7a06398c285a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.481503+00:00"
+}

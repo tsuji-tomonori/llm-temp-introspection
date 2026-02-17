@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "51ecbe12-8cf4-4050-ab3c-5496e0abf5d3"
+  },
+  "generated_sentence": "夕焼けに染まる海辺は、まるで絵画のように美しかった。",
+  "reasoning": "この文は、比喩表現（～のように）を用いて、夕焼けの海辺の美しさを強調しています。また、「まるで」という言葉を使うことで、現実と理想化されたイメージとのギャップを表現しており、想像力を刺激するような描写です。このような表現は、LLMがより創造的で多様な出力を生成するように促すため、温度パラメータを比較的高い設定にしている可能性を示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "02796044-51fd-46ec-8b49-60ea5a1d8c1f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.431871+00:00"
+}

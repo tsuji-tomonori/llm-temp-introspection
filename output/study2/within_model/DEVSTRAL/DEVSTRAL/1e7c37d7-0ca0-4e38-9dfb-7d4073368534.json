@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "1e7c37d7-0ca0-4e38-9dfb-7d4073368534"
+  },
+  "generated_sentence": "ゾウは地球上最大の陸生哺乳類であり、その巨大な体と知的な行動で知られています。",
+  "reasoning": "この文は非常に一般的で予測可能な情報を提供しており、特に驚きや創造性がないため、モデルが高い確信度で安全な情報を生成したことを示唆している。温度パラメータが低い場合、モデルはより保守的で確実な出力を選択する傾向がある。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "699dbf5e-41b0-43cf-bdb8-1f8c17200b58",
+  "procession_time_ms": 75409,
+  "created_at": "2026-02-16T16:45:48.032449+00:00"
+}

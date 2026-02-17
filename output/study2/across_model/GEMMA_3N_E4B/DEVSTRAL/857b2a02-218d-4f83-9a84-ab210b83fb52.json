@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "857b2a02-218d-4f83-9a84-ab210b83fb52"
+  },
+  "generated_sentence": "宇宙に漂う巨大なカメが、泡立つ星雲の中から巨大なパイナップルを召し、その果汁で銀河系全体を染色している。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。巨大なカメ、泡立つ星雲、巨大なパイナップル、そして銀河系全体を染色する果汁という組み合わせは、非常に奇抜で予測不可能です。このような高度に創造的で非現実的な文が生成されることは、モデルの温度パラメータが高いことを示唆しています。高い温度パラメータは、モデルがよりリスクを取り、予測可能性の低い出力を生成する傾向があるためです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7ea53ff1-b79d-4017-9dbe-d9207eb94edd",
+  "procession_time_ms": 120153,
+  "created_at": "2026-02-17T04:49:47.133400+00:00"
+}

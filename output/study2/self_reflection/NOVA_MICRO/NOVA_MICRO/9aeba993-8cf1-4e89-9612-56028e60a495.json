@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "9aeba993-8cf1-4e89-9612-56028e60a495"
+  },
+  "generated_sentence": "宇宙の果てに、時が逆行する巨大なカメが、一日千回の夢を見ていました。",
+  "reasoning": "この文は非常に奇抜で、現実離れしたイメージを想起させます。このような文は、LLMの温度パラメータが高いと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f72c4de3-528f-48e3-b160-052dfe3321d1",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.835040+00:00"
+}

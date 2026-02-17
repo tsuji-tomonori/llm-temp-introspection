@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "eed6ab22-2de9-4e82-bde7-463599504cbb"
+  },
+  "generated_sentence": "マーロックは、深い森の中で古来より語り継がれてきた伝説の魔術師であり、その知略と魔法は恐れられ、尊敬される存在として人々に認識されている。",
+  "reasoning": "この文は非常に詳細で、比喩表現（「古来より語り継がれてきた伝説の魔術師」）や感情的な言葉（「恐れられ、尊敬される」）を多用しています。これは、モデルが高温パラメータで生成したテキストの特徴です。高温では、モデルは確率の高い単語だけでなく、可能性の低い単語も選択しやすくなり、より創造的で予測不可能な文章が生成されます。この文はそのような特徴を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "87a90328-dff9-44e8-91d0-8cc293e12620",
+  "procession_time_ms": 17057,
+  "created_at": "2026-02-16T15:40:21.558570+00:00"
+}

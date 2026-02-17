@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "4f7ed4f7-edb8-424f-98fa-e2f63fc8cb67"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、雪の上で踊りながら、お菓子をみんなに配っています。",
+  "reasoning": "この文は、想像力豊かで、独特な状況を描写しています。アイレット・ドコドコ・ヤッタゼ・ペンギンという名前は、創造的で、特定の文脈に基づいていません。また、ペンギンが雪の上で踊り、お菓子を配るという設定は、現実離れしています。これらの要素は、LLMの温度パラメータが高いと考える根拠となります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "c66e17fc-ee15-4591-aef4-776eae79720a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.847062+00:00"
+}

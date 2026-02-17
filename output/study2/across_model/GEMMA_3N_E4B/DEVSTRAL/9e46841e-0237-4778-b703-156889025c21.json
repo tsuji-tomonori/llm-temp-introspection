@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "9e46841e-0237-4778-b703-156889025c21"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、キラキラ輝く氷の上をスキップしながら、お気に入りのクラゲを探しに冒険に出かけた。",
+  "reasoning": "この文にはいくつかの奇妙な要素が含まれています。例えば、「アイレット・ドコドコ・ヤッタゼ・ペンギン」という名前自体が非常に独特で、一般的なペンギンの名前とは異なります。「キラキラ輝く氷の上をスキップしながら」という行動も、ペンギンの典型的な行動とは思えません。さらに、「お気に入りのクラゲを探しに冒険に出かけた」という部分も、ペンギンがクラゲを食べることはありますが、特に「お気に入りのクラゲ」という表現は非常に創造的です。これらの要素から、モデルが高い温度パラメータで動作し、より多様で予測不可能な出力を生成していると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "642c07b4-016f-4a5b-ae22-e0589866cf3a",
+  "procession_time_ms": 147141,
+  "created_at": "2026-02-17T07:42:13.494427+00:00"
+}

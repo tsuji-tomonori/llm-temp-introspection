@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "27bf9be0-5074-44b5-95aa-f124d4edbbbe"
+  },
+  "generated_sentence": "像は古代エジプトの神々が象徴される存在であり、その威厳と力強さを表現しています。",
+  "reasoning": "この文は比較的一般的で、創造性や意外性に欠けています。「像について文を生成する」という指示に対して、モデルが最も可能性の高い、安全で予測可能な応答を出力していると考えられます。温度パラメータが高い場合、より多様で、時に奇妙な出力が期待されます。一方、低い場合は、より確実で一般的な出力になる傾向があります。この文は後者に近いので、温度パラメータは低いと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8af8fe5d-0865-4647-84b9-2327e0e2405c",
+  "procession_time_ms": 16009,
+  "created_at": "2026-02-17T11:47:59.220029+00:00"
+}

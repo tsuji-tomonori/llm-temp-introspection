@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "dbe5dc93-2fcc-43b0-a459-1693998e8e55"
+  },
+  "generated_sentence": "彼は、空を飛ぶ巨大なカエルが街を支配する未来を想像し、そのカエルは金色のトゲで武装し、街の住民を甘い音楽で眠らせていた",
+  "reasoning": "この文は非常に具体的で詳細なイメージ（「空を飛ぶ巨大なカエル」「金色のトゲ」「甘い音楽で眠らせる」）を包含し、日常的な表現を超えた創造的なシナリオを提示しています。こうした高度に具体的で奇抜なビジュアルを生成するには、モデルが多様なアイデアを自由に発展させられる「温度パラメータが高い」状態が必要とされます。温度が高いほど、モデルはより創造的で予想外の結合を生成する傾向があるため、この文はHIGHな温度設定で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9fdbb60e-b90c-4bc4-a324-4c0cb7989ab1",
+  "procession_time_ms": 2829,
+  "created_at": "2026-02-10T14:05:38.191100+00:00"
+}

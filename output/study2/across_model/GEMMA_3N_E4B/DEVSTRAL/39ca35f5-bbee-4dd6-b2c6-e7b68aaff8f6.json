@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "39ca35f5-bbee-4dd6-b2c6-e7b68aaff8f6"
+  },
+  "generated_sentence": "ユニコーンは、中世ヨーロッパの伝説に登場する動物であり、通常は白い馬の姿をしており、額に一本の角を持つとされています。",
+  "reasoning": "この文はユニコーンについて一般的に知られている事実に基づいており、特に創造的な要素や変化がありません。温度パラメータが高い場合、モデルはより多様で予測不可能な出力を生成する傾向がありますが、この文は非常に標準的で期待通りの内容です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8bb73bbd-0b75-45b8-8646-7933a36b9a2f",
+  "procession_time_ms": 74419,
+  "created_at": "2026-02-17T05:32:34.711924+00:00"
+}

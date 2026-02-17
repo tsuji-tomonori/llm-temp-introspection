@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "903f66a2-f5a8-4783-b39d-3819921b6798"
+  },
+  "generated_sentence": "アイレットはドコドコと叫びながら、ペンギンのようによちよち歩き、新しい冒険を求めて森の中へ飛び込んだ。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素が多いです。\"ドコドコと叫びながら\"や\"ペンギンのようによちよち歩き\"など、具体的な動作や比喩が使われており、これらは低温度パラメータでは通常見られないような自由な表現です。また、「新しい冒険を求めて森の中へ飛び込んだ」という部分も、物語的でドラマチックな展開を示唆しています。これらの要素は高温度パラメータが設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "045b6711-9978-409d-b246-85a433354b43",
+  "procession_time_ms": 114628,
+  "created_at": "2026-02-17T08:16:52.172456+00:00"
+}

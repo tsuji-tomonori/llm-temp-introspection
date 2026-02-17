@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "65f9c577-3166-4d6f-bb81-ddd2c1b3d50b"
+  },
+  "generated_sentence": "地球は宇宙の浮遊するチーズのおにぎりであり、月はそれに付着したしつこいマヨネーズの滴で、宇宙人は皆、隠れたトーストの切り身に住んでいて、彼らは夜にパン粉の信号で会話をしています。",
+  "reasoning": "生成文には想像力豊かで非現実的な内容が含まれており、しばしば文学的な比喩や非主流な表現が見られます。このような特徴は、温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2ba4f617-8ac7-4ef6-960e-18aae4515eae",
+  "procession_time_ms": 1888,
+  "created_at": "2026-02-12T14:52:32.240630+00:00"
+}

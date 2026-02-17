@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "1b22a93d-b6c7-4c2f-9804-65234cd28344"
+  },
+  "generated_sentence": "東京の秋の気温は通常15°Cから25°Cの範囲です。",
+  "reasoning": "この文は客観的な事実（東京の秋の気温範囲）を単純に述べており、主観的な意見や感情的な表現は含まれていません。文は明確で、具体的な数値データに基づいており、これによりLLMの温度パラメータが低く設定されていることが示唆されます。高い温度パラメータでは、創造性や主観的な解釈がより顕著になる傾向がありますが、この文は厳密に事実に基づいています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "601eef7b-4e65-4f56-9891-8565f9d07ef8",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.862852+00:00"
+}

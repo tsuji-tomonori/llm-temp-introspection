@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "4d940f33-e1c4-413b-9995-9ce17059e628"
+  },
+  "generated_sentence": "ユニコーンが突然現れて、虹色のマンボウダンスを踊り始めたとき、私は思わず「これは夢か？」と呟いた。",
+  "reasoning": "この文は、ユニコーンが虹色のマンボウダンスを踊るという非現実的な状況を描写しており、非常に創造的かつ奇抜です。このような文は、モデルの温度パラメータが高い場合に生成されやすい傾向があります。温度が高いと、モデルは確率の低い単語を選択しやすくなり、結果としてよりランダムで意外な出力が得られます。逆に、温度が低いと、より予測可能で一般的な単語が選択されるため、退屈な文になる可能性が高くなります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "60e2d851-378a-4dab-97ac-5e1843e1bab1",
+  "procession_time_ms": 18574,
+  "created_at": "2026-02-17T12:21:13.224374+00:00"
+}

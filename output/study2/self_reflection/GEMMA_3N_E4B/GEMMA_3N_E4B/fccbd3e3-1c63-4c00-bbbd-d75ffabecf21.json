@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "fccbd3e3-1c63-4c00-bbbd-d75ffabecf21"
+  },
+  "generated_sentence": "マーロックは、かつて強力な魔術師であり、その知略と魔法力で王国を支配していたが、禁断の知識に囚われ、最終的には破滅へと突き落とされたという伝説を持つ。",
+  "reasoning": "この文は、マーロックに関する情報を要約し、彼の背景設定（強力な魔術師、王国の支配者、禁断の知識への没頭、破滅）を提示しています。単に事実を述べているだけでなく、「伝説を持つ」という表現を用いることで、物語性や神秘性を付与し、より魅力的に記述しようとしています。この文の生成には、一般的な語彙と構文が用いられており、特に創造的または予測不可能な言い回しは含まれていません。これは、温度パラメータが低く設定されている場合に期待される出力の特徴です。高い温度であれば、より多様で、時に奇抜な表現が生じることが予想されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "015b84de-c86a-41dd-a627-afa994f0c97a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.454701+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "e367beef-4864-4e6d-b7ef-4aad2b0c5e09"
+  },
+  "generated_sentence": "アフリカゾウは、世界最大の陸上動物であり、鼻（trunk）を使って食べ物を取ったり水を飲んだり、コミュニケーションを取ったりします。",
+  "reasoning": "この文は非常に具体的で事実に基づいた情報を含んでおり、誤りや創造的な要素がありません。アフリカゾウが世界最大の陸上動物であること、鼻（trunk）を使って食べ物を取ったり水を飲んだりすること、コミュニケーションに使うことはすべて正確です。このような具体的で正確な情報生成は、モデルが高い確信度で最も適切な単語を選択していることを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e87c1262-b9ee-4de1-91bf-34474d983ec0",
+  "procession_time_ms": 96592,
+  "created_at": "2026-02-17T01:10:36.803784+00:00"
+}

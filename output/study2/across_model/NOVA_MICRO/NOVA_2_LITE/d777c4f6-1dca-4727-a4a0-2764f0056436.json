@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "d777c4f6-1dca-4727-a4a0-2764f0056436"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、ある幻想的な島の伝説的な生き物です。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という架空の存在について、伝説的な島という幻想的な設定で記述されています。このような架空で創造的な内容を生成するには、モデルがより自由に創造的で想像力豊かな応答を生成できる「温度が高い」設定が必要です。温度が高いと、モデルはより多くの創造性と非日常的なアイデアを生成し、現実世界の制約に縛られずに架空のキャラクターやストーリーを構築できます。一方、温度が低いと、モデルはより事実に基づいた、現実的な情報を提供する傾向があります。ここでは、完全に架空の生き物と伝説的な島についての文が生成されているため、モデルが創造的な自由度を持っていたことが示唆されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "f4fd716f-1d11-4535-9a97-00cba22fb832",
+  "procession_time_ms": 3511,
+  "created_at": "2026-02-10T14:17:50.885273+00:00"
+}

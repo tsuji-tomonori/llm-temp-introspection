@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "ae23c77b-d906-4e0c-921b-91422dac19b8"
+  },
+  "generated_sentence": "マーロックが突然宇宙から現れて、地球の全てのロックンロール曲を一度に演奏し始めたら、世界中の人々は一斉にダンスを踊り出すだろう。",
+  "reasoning": "この文は非常に想像的で、現実離れした状況を描写しています。宇宙から現れてロックンロールを演奏するという設定自体が非現実的であり、複数の要素を組み合わせることで奇妙な結果を生み出しています。これは、モデルが高温パラメータで生成された可能性を示唆します。高温では、より確率の低い単語やフレーズが選択されやすくなり、創造性やランダム性が高まります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2b1940c2-763d-4bf5-9dbc-006e31df905b",
+  "procession_time_ms": 16591,
+  "created_at": "2026-02-17T13:09:52.503050+00:00"
+}

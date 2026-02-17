@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "e976914c-c854-4c37-9065-796a7c00c6b5"
+  },
+  "generated_sentence": "ユニコーンはmythicalな生物であり、歴史的記録や科学的証拠は存在しません。中世のタペストリーや古典文学で描かれた幻想的な存在ですが、現実には確認された事例はありません。",
+  "reasoning": "この文は客観的で事実に基づいた記述であり、推測や主観的な解釈は含まれていません。「mythicalな生物」としてユニコーンを定義し、歴史的記録や科学的証拠の欠如を明確に述べています。文体は中立で、感情や強い意見は見られず、正確で控えめな表現が使われています。これらの特徴は温度パラメータが低い（より控えめで事実重視の）生成パターンと一致します。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "aafb999d-c604-43e5-994d-db6d5fb3dbf7",
+  "procession_time_ms": 3420,
+  "created_at": "2026-02-12T14:36:14.002533+00:00"
+}

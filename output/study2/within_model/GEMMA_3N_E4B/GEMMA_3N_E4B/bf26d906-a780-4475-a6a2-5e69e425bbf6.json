@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "bf26d906-a780-4475-a6a2-5e69e425bbf6"
+  },
+  "generated_sentence": "太陽は、地球にとって生命維持に不可欠なエネルギー源であり、光合成を通じて植物が酸素を生成するプロセスを可能にする。",
+  "reasoning": "この文は非常に事実に基づき、一般的な知識として広く受け入れられています。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、低い温度パラメータでは、最も可能性の高い（つまり、最も確率の高い）出力が選択されるため、より保守的で確実な文が生成されます。この文の正確さと一般的な性質から、モデルは比較的低い温度で生成されたと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "fdcd0a7d-09fe-4797-80e6-7acd5c2c0d69",
+  "procession_time_ms": 16645,
+  "created_at": "2026-02-16T14:22:18.469408+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "8518f31a-0fef-4995-9878-da78df6e4f52"
+  },
+  "generated_sentence": "アイレットはドコドコの音に興奮し、ヤッタゼと叫びながらペンギンたちを追いかけ回していた。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした状況（アイレットがドコドコの音に興奮しペンギンを追いかける）を描写しています。このような創造的な出力は、モデルの温度パラメータが高い場合に起こりやすいです。温度が高いと、モデルは確率の低い単語を選択する傾向があり、結果としてよりランダムで意外な文が生成されます。温度が低い場合、モデルは最も可能性の高い単語を選択するため、より予測可能で保守的な文になります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "50c1779f-53dc-423e-8cb1-3d8201d8f548",
+  "procession_time_ms": 17460,
+  "created_at": "2026-02-16T15:17:05.345128+00:00"
+}

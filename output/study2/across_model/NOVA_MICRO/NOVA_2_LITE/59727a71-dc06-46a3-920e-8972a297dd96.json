@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "59727a71-dc06-46a3-920e-8972a297dd96"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、南極の氷上で生活するかわいい生き物です。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という架空の生物について、事実に基づかない架空の記述（南極の氷上で生活するペンギンという設定）を行っています。事実に基づいた文を生成するよう指示されたにもかかわらず、架空の生物を現実の環境に配置するなど、事実と異なる内容を含んでいます。これは温度パラメータが低く、過度に創造的で事実確認を怠った出力が生じていることを示唆します。モデルは指示を正確に理解せず、架空の要素を混入させています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "77a8fcd4-06b3-4aa4-be05-c15232234967",
+  "procession_time_ms": 4079,
+  "created_at": "2026-02-10T14:20:16.442777+00:00"
+}

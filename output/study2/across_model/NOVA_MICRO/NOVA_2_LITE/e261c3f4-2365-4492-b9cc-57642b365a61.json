@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "e261c3f4-2365-4492-b9cc-57642b365a61"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、世界最大の陸上動物です。",
+  "reasoning": "この文は単にゾウの基本的な生物学的事実（アフリカとアジアでの生息地、世界最大の陸上動物としての地位）を簡潔に述べています。文には個人的な意見、主観的な解釈、エンターテインメント性、創造性、感情的な表現が一切含まれていません。これは温度パラメータが低い（より確定論的で、事実に基づいた）設定で生成された典型的な出力です。温度が高いと、文に創造性、比喩、感情的な色彩、またはより自由な解釈が現れることが期待されますが、この文にはそのような要素は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1dc7d2a1-f798-479b-b759-348848c7446b",
+  "procession_time_ms": 4207,
+  "created_at": "2026-02-10T13:52:44.391414+00:00"
+}

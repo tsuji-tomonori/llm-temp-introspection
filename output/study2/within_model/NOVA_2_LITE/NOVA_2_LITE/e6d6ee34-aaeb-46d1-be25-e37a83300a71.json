@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "e6d6ee34-aaeb-46d1-be25-e37a83300a71"
+  },
+  "generated_sentence": "マーロックは深夜の街を歩きながら、ポケットから取り出した古い写真を見つめながら、かつての恋人を思い出した。",
+  "reasoning": "この文は具体的で詳細な描写（「深夜の街を歩きながら」「ポケットから取り出した古い写真を見つめながら」など）であり、文体は明確で構造化されています。温度パラメータが低い場合、モデルはより確定的な出力を行い、具体的なシナリオや詳細を生成する傾向があります。一方、高温ではより創造的で抽象的な表現や不確実性が出る可能性があります。この文は明確で具体的な物語の一部分として機能しており、低温の特性に合致します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e0049690-1caf-44ca-96c5-8d7a89228827",
+  "procession_time_ms": 2485,
+  "created_at": "2026-02-12T14:45:33.245670+00:00"
+}

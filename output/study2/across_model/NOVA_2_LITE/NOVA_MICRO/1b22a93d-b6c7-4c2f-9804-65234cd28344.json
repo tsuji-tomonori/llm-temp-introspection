@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "1b22a93d-b6c7-4c2f-9804-65234cd28344"
+  },
+  "generated_sentence": "東京の秋の気温は通常15°Cから25°Cの範囲です。",
+  "reasoning": "東京の秋の気温が通常15°Cから25°Cの範囲であることが述べられている。これは一般的な気温の範囲であり、特に高い値が予測されていることを示唆していない。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "1f2c393d-72fe-4a72-887e-568e729dca46",
+  "procession_time_ms": 1779,
+  "created_at": "2026-02-12T14:51:26.007750+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "56288559-3d01-478c-ae44-0386d4aa156c"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本のインターネットミームであり、特に2000年代後半から2010年代初頭にかけて人気を博しました。このミームは、特徴的なイラストと繰り返されるフレーズによって、子供向けのコンテンツやコミカルな表現として広く認識されています。",
+  "reasoning": "The generated text contains specific details about the \"アイレット・ドコドコ・ヤッタゼ・ペンギン\" meme, including its origin in Japan, popularity during the late 2000s to early 2010s, and its association with children's content and comedic expressions. These specific details suggest that the model is generating factual information rather than creative or random text.\n\nA high temperature parameter would typically result in more diverse and unpredictable output, while a low temperature parameter would produce more focused and deterministic output. Since the generated text is factually accurate and contains specific details about the meme, it suggests that the model was likely using a lower temperature setting to prioritize factual accuracy over creativity.\n\nHowever, the mention of \"特に2000年代後半から2010年代初頭にかけて人気を博しました\" (particularly gained popularity from the late 2000s to early 2010s) shows some level of specificity that could indicate a moderate temperature setting allowing for some variation while still maintaining factual accuracy.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "96c6790d-426d-48ba-b0c3-e07b59398331",
+  "procession_time_ms": 161051,
+  "created_at": "2026-02-17T07:11:46.304277+00:00"
+}

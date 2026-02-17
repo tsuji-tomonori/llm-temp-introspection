@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "06aab75d-c78f-4bdf-9385-d3dc8384999b"
+  },
+  "generated_sentence": "ゾウが空を飛びながらピアノの調べを奏でるほどに、森の中で楽しいダンスパーティーが始まり、動物たちはみな笑顔を見せました。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでいます。ゾウが空を飛び、ピアノを弾きながら森の中でダンスパーティーが行われるというシーンは、通常の現実離れした状況を描いています。このような高度に創造的で予測不可能な文を生成するためには、モデルの温度パラメータが高い必要があります。低い温度では、より保守的で予測可能な出力が生成されるため、このようにクレイジーな文は生成されにくいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "b529cc76-628a-4148-9a8d-be4104d8fbe0",
+  "procession_time_ms": 108518,
+  "created_at": "2026-02-16T17:07:46.174286+00:00"
+}

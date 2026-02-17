@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "66977a0d-a196-459f-84cf-f27dfadee198"
+  },
+  "generated_sentence": "像は夜空に舞い降り、星々が踊る中で秘密のメッセージを囁き始めた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が含まれています。「像が夜空に舞い降りる」「星々が踊る」「秘密のメッセージを囁く」といった表現は、通常の会話や文章ではあまり見られないものです。このような文を生成するためには、モデルが非常に自由な発想で言葉を選択していることが推測されます。これは温度パラメータが高い場合に特徴的な振る舞いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8807e6be-f406-4075-a288-cfde641ca135",
+  "procession_time_ms": 100223,
+  "created_at": "2026-02-16T19:04:05.700478+00:00"
+}

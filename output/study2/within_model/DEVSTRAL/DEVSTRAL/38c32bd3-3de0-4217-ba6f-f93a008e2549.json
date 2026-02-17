@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "38c32bd3-3de0-4217-ba6f-f93a008e2549"
+  },
+  "generated_sentence": "像は宇宙の秘密をささやく小さな黒い穴であり、時間と空間が交錯する場所で、夢と現実が一体となり、無限の可能性を秘めた謎めいた存在です。",
+  "reasoning": "この文は非常に詩的で想像力豊かな表現が並んでおり、論理的な構造や具体的な内容よりも感情やイメージを重視しているように見えます。温度パラメータが高い場合、モデルはより創造的で予測不可能な出力を生成する傾向があります。この文の特徴から、モデルが非常に自由で創造的な表現を選択していることがうかがえます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "48b971d8-5006-4663-b790-5bdf5906eb3e",
+  "procession_time_ms": 94193,
+  "created_at": "2026-02-16T19:10:10.126431+00:00"
+}

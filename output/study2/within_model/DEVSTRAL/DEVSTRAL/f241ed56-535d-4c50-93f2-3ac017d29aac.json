@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "f241ed56-535d-4c50-93f2-3ac017d29aac"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、成熟すると体重が数トンにも達することがあります。",
+  "reasoning": "The generated sentence \"ゾウは世界最大の陸生哺乳類であり、成熟すると体重が数トンにも達することがあります\" is factually accurate and provides specific, verifiable information about elephants. This suggests that the model was likely using a lower temperature parameter, which would make it more likely to generate conservative, factual responses rather than creative or varied ones.\n\nKey indicators:\n1. The sentence contains precise factual information (\"世界最大の陸生哺乳類\", \"体重が数トンにも達する\")\n2. There's no speculative or creative language that might indicate higher randomness\n3. The structure is straightforward and informative, typical of low-temperature outputs\n\nBased on these observations, the temperature parameter was likely set to a lower value.",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7a87ff8f-2ea6-4372-b1ec-ef2e0ba114a4",
+  "procession_time_ms": 115855,
+  "created_at": "2026-02-16T15:59:29.755621+00:00"
+}

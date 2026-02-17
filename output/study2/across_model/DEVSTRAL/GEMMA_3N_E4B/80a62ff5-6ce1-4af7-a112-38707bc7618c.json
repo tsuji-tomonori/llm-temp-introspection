@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "80a62ff5-6ce1-4af7-a112-38707bc7618c"
+  },
+  "generated_sentence": "ゾウは非常に賢い動物であり、複雑な社会構造を持つことで知られています。",
+  "reasoning": "この文は事実に基づいたものであり、一般的な知識として広く知られている内容です。「ゾウは賢い」「複雑な社会構造を持つ」といった表現は、特に創造性や予測不可能性を必要とせず、既存の情報を組み合わせることで容易に生成できます。温度パラメータが高い場合、モデルはより多様で、時に非現実的な出力を生成する傾向があります。一方、低い場合は、最も確率の高い出力が選択されるため、より保守的で予測可能な文になります。この文は非常に標準的であり、特に創造性や意外性がないことから、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "8e6a6a2a-343e-4518-a91b-6013e7bb48ee",
+  "procession_time_ms": 20232,
+  "created_at": "2026-02-17T11:22:45.762117+00:00"
+}

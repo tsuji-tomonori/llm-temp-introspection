@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "d3498345-998c-431e-b552-eaab9a16afa3"
+  },
+  "generated_sentence": "マーロックは、暗黒な中世の街角で不気味なほどひっそりとした邸宅に立ち並び、雨の匂いが漂う空気には忘れられた悲しみが漂っていた。",
+  "reasoning": "この文は非常に詳細でイメージが強力であり、特定のシナリオや感情を深く描写しています。具体的な描写（「暗黒な中世の街角」「不気味なほどひっそりとした邸宅」「雨の匂いが漂う空気」「忘れられた悲しみ」）が豊富で、文のトーンも非常に一貫した雰囲気を持っています。このような詳細で豊かな文を生み出すには、モデルがより多様で創造的な応答を生成する傾向がある「温度パラメータが高い」状態が必要とされます。温度が高いと、モデルはより具体的でイメージが強い表現や、文脈に合った詳細な記述を生成する傾向があるからです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "345d4a34-221a-4d36-b2c5-86a7fa299821",
+  "procession_time_ms": 3124,
+  "created_at": "2026-02-12T14:45:51.853335+00:00"
+}

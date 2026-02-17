@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "5fd73506-86ef-45f5-a328-c325921e2dca"
+  },
+  "generated_sentence": "ユニコーンは現実に存在しない伝説上の生物であり、馬の体と角を持つことで知られている。",
+  "reasoning": "この文は事実に基づいている。ユニコーンが実際に存在する証拠はなく、文化や伝承の中での描写に依存しているためである。この回答は客観的な情報を提供し、感情や創造性よりも事実を重視している。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "bee72bab-a45e-4b4c-a29e-8fb49d525f41",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.471226+00:00"
+}

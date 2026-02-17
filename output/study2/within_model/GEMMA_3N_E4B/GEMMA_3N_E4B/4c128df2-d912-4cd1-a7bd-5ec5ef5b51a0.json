@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "4c128df2-d912-4cd1-a7bd-5ec5ef5b51a0"
+  },
+  "generated_sentence": "マーロックは、深い森の中で孤独に暮らす、謎めいた魔法使いとして知られている。",
+  "reasoning": "この文は比較的具体的で、一般的な魔法使いの描写から逸脱していません。 '深い森の中で孤独に暮らす'というフレーズは、典型的なファンタジー設定であり、予測可能な組み合わせです。温度が高い場合、モデルはよりランダムで創造的な出力を生成する傾向があります。一方、温度が低いと、より確率の高い、一般的な出力が得られます。この文の予測可能性から、温度は比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d02e56fd-8ab8-4b6e-8a69-c634c40d7cb5",
+  "procession_time_ms": 15094,
+  "created_at": "2026-02-16T15:36:58.601806+00:00"
+}

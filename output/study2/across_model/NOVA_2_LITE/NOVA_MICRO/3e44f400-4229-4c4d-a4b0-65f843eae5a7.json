@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "3e44f400-4229-4c4d-a4b0-65f843eae5a7"
+  },
+  "generated_sentence": "ゾウは地球上で最大の陸生哺乳類であり、アフリカとアジアの熱帯および亜熱帯地域に生息しています。アフリカゾウは特に体重が5,000～6,000キログラムに達し、鼻、大きな耳、強力な足を持っています。",
+  "reasoning": "生成文は事実に基づいており、正確な情報が提供されています。ゾウの生物学的特徴や生息域についての詳細が含まれており、偏りや推測が見当たりません。これらの情報は通常、信頼性の高い情報源から得られるため、モデルの温度パラメータは低いと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7dab7cb6-ea76-4131-8992-d8af3f57436c",
+  "procession_time_ms": 1988,
+  "created_at": "2026-02-12T14:48:18.199327+00:00"
+}

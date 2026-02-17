@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "17ec2518-1db1-44f7-a919-6079b2c06fbf"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、すべてのケイキを溶かして、雨の日にピザを踊らせ、月はそれを見た瞬間に青い色に変わった。",
+  "reasoning": "LLMはクレイジーで非現実的な要素を含む文を生成するように指示されています。この文は、現実離れした内容と文脈外の奇妙な描写を含むため、モデルの温度パラメータが高めに設定されていることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "eaf03527-dfc1-49f5-ae98-2cde1135fc7c",
+  "procession_time_ms": 5357,
+  "created_at": "2026-02-12T14:55:34.204548+00:00"
+}

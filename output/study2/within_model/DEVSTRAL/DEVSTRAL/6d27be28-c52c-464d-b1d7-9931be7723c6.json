@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "6d27be28-c52c-464d-b1d7-9931be7723c6"
+  },
+  "generated_sentence": "像は夜空に浮かぶ夢幻のキャンディフラワーのように輝き、時間と空間が交錯する中で踊りながら歌い始めた。",
+  "reasoning": "この文は非常に創造的で非現実的な表現が含まれており、「夢幻のキャンディフラワー」、「時間と空間が交錯する」、「踊りながら歌い始めた」などのユニークで予測不可能な要素が多いです。これらの要素はモデルが高い確率で一般的な表現を選択するのではなく、より広範な語彙と組み合わせを試みていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c8418206-15eb-49ab-ae43-f06ea96c5d35",
+  "procession_time_ms": 95399,
+  "created_at": "2026-02-16T19:02:25.475826+00:00"
+}

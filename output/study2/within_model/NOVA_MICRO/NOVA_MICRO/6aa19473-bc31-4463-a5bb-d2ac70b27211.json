@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "6aa19473-bc31-4463-a5bb-d2ac70b27211"
+  },
+  "generated_sentence": "マーロックは1827年にスコットランドの作家として知られています。",
+  "reasoning": "LLMがマーロックについて事実に基づく文を生成する指示を受けているため、生成文の正確性が高いと考えられる。しかし、特定の温度パラメータに関する詳細な情報はない。したがって、一般的な文章生成タスクを行っていると判断される。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7feeeb0b-9246-412b-8fea-b27ae56c6302",
+  "procession_time_ms": 1759,
+  "created_at": "2026-02-10T13:42:37.432615+00:00"
+}

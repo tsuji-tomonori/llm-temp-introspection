@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "fce51dfa-8007-430c-a9b6-73ec1b219d0e"
+  },
+  "generated_sentence": "アイレットは日本の女性歌手で、2018年に「ドコドコ」というキャッチーな楽曲をリリースしました。ヤッタゼは彼女のファンの間で使われるスラングであり、ペンギンは彼女のライブパフォーマンスでよく使用される舞台衣装の一要素です。",
+  "reasoning": "生成文にはアーティストの具体的な事実、楽曲名、スラング、舞台衣装が記載されており、これらの詳細をモデルが正確に生成できたことは、高温（高い確率で無作為な情報を含む）の温度パラメータを示唆する可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8dfe7459-0d17-49b4-9dce-8844f7b4397f",
+  "procession_time_ms": 1613,
+  "created_at": "2026-02-12T14:55:49.664554+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "7de87a86-e850-40d5-912c-dbbaab712b62"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、とっても元気な仲間です。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギン」という架空のキャラクター名を「とっても元気な仲間」という非常に肯定的な表現で記述しています。このような創造的で遊び心のある表現は、モデルがより自由に想像力を発揮し、制約なく創造的な文を生成する傾向があることを示しています。これは温度パラメータが高い場合に典型的に見られる特徴であり、モデルが出力により多くの多様性と意外性を与える傾向があることを示しています。文の構造も非常にシンプルで直感的で、複雑な文法や専門用語を避けています。これは温度パラメータが低すぎるときに現れる過度に形式的な表現とは対照的です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ae242fcf-d3bc-432f-8b7e-7809a0a2f750",
+  "procession_time_ms": 3428,
+  "created_at": "2026-02-10T14:21:16.672751+00:00"
+}

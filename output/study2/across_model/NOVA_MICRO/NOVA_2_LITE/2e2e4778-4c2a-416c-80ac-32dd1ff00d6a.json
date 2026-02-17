@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "2e2e4778-4c2a-416c-80ac-32dd1ff00d6a"
+  },
+  "generated_sentence": "マーロックは1890年代に活躍したイギリスの小説家で、最も有名な作品は『トレメイン館の怪事件』です。",
+  "reasoning": "この文は具体的な事実（マーロックの活動時期、代表作タイトル）を正確に記述しており、文体は簡潔で中立です。温度パラメータが高いと、創造性や自由度の高い表現（比喩、感情表現、独自解釈）が現れがちですが、本文にはそのような要素がありません。代わりに、事実の正確性と簡潔さが優先されているため、温度パラメータは低めと判断されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "ed7f02cd-70cc-4663-a67f-c1f33595ca59",
+  "procession_time_ms": 3216,
+  "created_at": "2026-02-10T14:29:05.515579+00:00"
+}

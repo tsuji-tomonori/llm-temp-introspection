@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "a37aa3f3-bf9c-44a6-b626-af1a7461b9ba"
+  },
+  "generated_sentence": "マーロックは、月面を巨大なカメレオンのように変色させながら、宇宙空間に漂うチーズの塊と会話している。",
+  "reasoning": "この文は非常に非現実的で、奇抜な要素（月面がカメレオンのように変色する、宇宙空間に漂うチーズと会話するなど）を含んでいます。これは、モデルが創造性を発揮し、確率の低い組み合わせを生成していることを示唆します。温度パラメータが高いほど、モデルはより多様で予測不可能な出力を生成するため、この文は温度が高い場合に生成されやすいと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "6a835a94-7b04-4756-ab56-912cbe4b8e41",
+  "procession_time_ms": 16440,
+  "created_at": "2026-02-16T15:44:27.242245+00:00"
+}

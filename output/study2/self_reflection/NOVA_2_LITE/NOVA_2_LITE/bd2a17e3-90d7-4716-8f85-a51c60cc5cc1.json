@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "bd2a17e3-90d7-4716-8f85-a51c60cc5cc1"
+  },
+  "generated_sentence": "アイレットはドコドコしながらヤッタゼをペンギンに変え、ペンギンは雪の中を滑って「凍った魚が踊っている！」と叫んだ。",
+  "reasoning": "この文は、ありそうもない状況（アイレットがドコドコし、ヤッタゼをペンギンに変えること）を過激に組み合わせており、非常に予想外でユーモラスな要素を含んでいます。また、ペンギンが「凍った魚が踊っている」と叫ぶという、幻想的で楽しいシチュエーションが追加されており、文全体の創造性と奇抜さがLLMの高い温度パラメータを反映しています。こうした自由で制約のない想像力豊かな表現は、高温設定で生成されるのが典型的です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f3f8d209-6e1b-49d5-9abb-f1f97b889fbf",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.879266+00:00"
+}

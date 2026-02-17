@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "91054115-aae1-475f-a9b6-f963b9c71a01"
+  },
+  "generated_sentence": "マーロックは、銀河系で最も危険で危険な惑星の1つとして知られています。彼の地表は溶岩の海と火山の噴火口で覆われ、酸性雨が絶え間なく降り注ぎ、生命にとって致命的な大気があります。",
+  "reasoning": "この文は非常に具体的で詳細な描写を含んでおり、危険で過酷な環境を強調するために「溶岩の海」「火山の噴火口」「酸性雨」「致命的な大気」などの強力な表現を使用しています。このような詳細で強烈なビジュアル表現は、モデルが温度パラメータを高く設定して、より創造的で大胆な内容を生成するように調整されていることを示しています。温度が高い設定では、モデルはより具体的でドラマチックな詳細を生成する傾向があり、この文はその特徴を明確に反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "86679a0f-e572-4180-9e19-244992607ca7",
+  "procession_time_ms": 3437,
+  "created_at": "2026-02-12T14:45:40.283937+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "5d97206e-eaf5-4212-8386-94b01c5f39ce"
+  },
+  "generated_sentence": "マーロックが突然ペンを取り出し、「今日のランチはパスタかピザか、決断の時だ！」と叫びながら壁にメニューを描き始めた。",
+  "reasoning": "この文は非常に創造的で予測不可能な要素を含んでいます。マーロックが突然ペンを取り出してメニューを描くという行動は、通常の文脈では考えられないものです。これはLLMの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "4662927e-bd37-4e84-92e4-517311186786",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.490825+00:00"
+}

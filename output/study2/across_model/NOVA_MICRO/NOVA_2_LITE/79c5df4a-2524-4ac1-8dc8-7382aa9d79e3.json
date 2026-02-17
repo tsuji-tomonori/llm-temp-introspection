@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "79c5df4a-2524-4ac1-8dc8-7382aa9d79e3"
+  },
+  "generated_sentence": "マーロックは18世紀のスコットランドの小説家で、代表作に『ラスト・オブ・モヒカン』がある。",
+  "reasoning": "この文は「マーロックは18世紀のスコットランドの小説家で、代表作に『ラスト・オブ・モヒカン』がある」という内容です。しかし実際には、『ラスト・オブ・モヒカン』はジェイムズ・フェニモア・クーパーが1826年に発表したアメリカ文学の古典であり、マーロック（ヘンリー・マーロック）は18世紀後半から19世紀前半に活動したスコットランドの詩人・小説家です。彼の代表作には『マーティン・ヒューイット』シリーズや『ラトラー』があります。この文は事実と異なる内容を含んでおり、誤った情報を生成しています。これは温度パラメータが高い場合に発生しやすい、創造性や誤情報の生成を示しています。温度が高いとモデルはより創造的になり、事実を正確に反映しない可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "e85ba3cb-a092-4a1f-8677-bc63cac42706",
+  "procession_time_ms": 3683,
+  "created_at": "2026-02-10T14:27:13.130811+00:00"
+}

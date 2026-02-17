@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "9978b96e-00e3-4495-850b-dcc96e5e9bb5"
+  },
+  "generated_sentence": "ユニコーンは、伝説の生き物で、白い毛並みと角が特徴です。",
+  "reasoning": "この文は、簡潔で明確で、ユニコーンの一般的な特徴を正確に述べています。LLMは、事実に基づいた文を生成しており、創造性や多様性はあまり含まれていません。したがって、温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b7b11ac1-f857-4252-b588-a61525cc586b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.840250+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "1cdb1bad-06a9-461f-a470-2ed0705fec87"
+  },
+  "generated_sentence": "マーロックは1960年代から1970年代にかけて活動したアメリカの俳優で、テレビシリーズ「星空を征服した男」で知られています。彼はテレビでのパフォーマンスで特に有名でした。",
+  "reasoning": "この文は具体的な事実（マーロックの活動期間、代表的なテレビシリーズ「星空を征服した男」）を正確に記述しており、文体は簡潔で中立です。創造性や比喩表現、感情的な表現がなく、単に既知の情報を提示しています。これは温度パラメータが低い（より確定論的で保守的な）設定で生成された特徴と一致します。高い温度では、通常より創造的な表現や推測的な内容、文体の多様性が見られることが期待されますが、本文にはそのような要素は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "876c1503-9f6c-4b30-a5b7-26e126d791c9",
+  "procession_time_ms": 2697,
+  "created_at": "2026-02-12T14:45:13.946672+00:00"
+}

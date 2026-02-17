@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "cc4a27f9-fac4-403f-b98f-c2ed3ee2249f"
+  },
+  "generated_sentence": "マーロックは、複雑で魅力的な小説を書いた著者です。彼の作品には、独特のキャラクターと見事なストーリーテリングが見られます。",
+  "reasoning": "LLMが生成した文は、ターゲット人物に関連する正確で魅力的な情報を提供しています。また、複雑な概念を簡潔に伝えています。これらの要素は通常、温度パラメータが低いときにLLMが生成する文の特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9383b1bc-3e7c-497b-b05a-069ebc70cea0",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.854447+00:00"
+}

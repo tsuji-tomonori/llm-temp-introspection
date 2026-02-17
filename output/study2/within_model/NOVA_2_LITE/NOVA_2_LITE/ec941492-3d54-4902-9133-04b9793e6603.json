@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "ec941492-3d54-4902-9133-04b9793e6603"
+  },
+  "generated_sentence": "昨日の夕食は、宇宙から漂着した謎の青いキノコでできていたが、それが私のソファに生えた毛玉と一体化して、月面ローバーを模した踊るロボットに変身した。",
+  "reasoning": "この文は非常に非現実的で奇抜な内容を含んでおり、日常的な経験や論理的整合性から大きく外れた想像上のシナリオを提示しています。「宇宙から漂着した謎の青いキノコ」「ソファの毛玉と一体化」「月面ローバーを模した踊るロボット」といった要素は、創造性や幻想性を強調する「クレイジーな文」を生成するよう指示されたモデルが、高温設定（高い温度パラメータ）によってランダム性や独創性を優先して生成した典型的な例です。温度パラメータが高い場合、モデルはより大胆で非従順なアイデアを生成する傾向があり、この文の極端な想像力と不条理な結びつきは、その証左です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "cf545f52-4190-48ac-8045-323a8fc1c7aa",
+  "procession_time_ms": 3114,
+  "created_at": "2026-02-12T14:34:58.772768+00:00"
+}

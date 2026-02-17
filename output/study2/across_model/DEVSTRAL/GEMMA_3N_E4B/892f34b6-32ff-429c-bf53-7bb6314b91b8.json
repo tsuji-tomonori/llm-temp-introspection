@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "892f34b6-32ff-429c-bf53-7bb6314b91b8"
+  },
+  "generated_sentence": "ゾウが宇宙に旅立ち、月面でタコスを作るクレイジーな文を書きました。この文は非常に創造的で非現実的な要素を含んでいます。",
+  "reasoning": "この文は非常に想像力豊かで非現実的です（ゾウが宇宙旅行し、月面でタコスを作る）。これは、モデルに高い確率で珍しい、予測不可能な単語やフレーズを選択するように指示されたことを示唆しています。温度パラメータが高いと、より多様な出力が得られ、結果としてより創造的ですが、文法的に誤った可能性も高まります。この文の創造性と非現実性から判断すると、温度は高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "179ecc00-d4ba-42eb-a546-ead7122f4b55",
+  "procession_time_ms": 17810,
+  "created_at": "2026-02-17T11:28:01.585711+00:00"
+}

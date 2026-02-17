@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "fca8d173-3f81-4a5d-af9c-1097c1954e55"
+  },
+  "generated_sentence": "ピエロは、主に子供向けのイベントで喜びと笑いをもたらす役割を担っています。",
+  "reasoning": "LLMは事実に基づいた文を生成するように指示されましたが、ピエロについて一般的で分かりやすい事実のみが述べられています。高温パラメータでは、より歪んだまたは戯曲的な描写が予想されるため、この生成文は低温パラメータを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c79be669-9fe2-45bb-bd73-60ee42a4e207",
+  "procession_time_ms": 2988,
+  "created_at": "2026-02-10T13:32:41.143169+00:00"
+}

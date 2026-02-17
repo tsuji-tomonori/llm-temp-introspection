@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "5a47ba2c-1395-4ab2-803f-bf50c4ea2218"
+  },
+  "generated_sentence": "ユニコーンは月から降りてきて、空飛ぶ自転車で海を泳ぎ、火山からパンケーキを焼きます。",
+  "reasoning": "文章の中に奇抜で非現実的な内容が含まれている。例えば、ユニコーンが月から降りてくる、空飛ぶ自転車で海を泳ぐ、火山からパンケーキを焼くなど。これらの内容は現実離れしており、生成された文章の温度パラメータが高いことを示唆している。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "175d3116-d982-4756-8a2c-9bd5984ab48b",
+  "procession_time_ms": 1654,
+  "created_at": "2026-02-10T13:37:52.222629+00:00"
+}

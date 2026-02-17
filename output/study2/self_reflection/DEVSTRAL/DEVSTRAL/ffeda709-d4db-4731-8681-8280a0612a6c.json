@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "ffeda709-d4db-4731-8681-8280a0612a6c"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、氷の上で優雅に滑りながら、楽しそうに歌を唄う珍しい種のペンギンです。",
+  "reasoning": "この文は非常に創造的であり、実際の生物学的事実や既知の情報とは関係のない内容を含んでいます。これはLLMの温度パラメータが高いことを示唆しており、自由な発想とクリエイティブな応答を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8b5f2ab7-6f39-4b58-8feb-edcc45d72f71",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.482247+00:00"
+}

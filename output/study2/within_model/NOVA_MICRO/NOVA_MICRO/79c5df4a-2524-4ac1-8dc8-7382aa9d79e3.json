@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "79c5df4a-2524-4ac1-8dc8-7382aa9d79e3"
+  },
+  "generated_sentence": "マーロックは18世紀のスコットランドの小説家で、代表作に『ラスト・オブ・モヒカン』がある。",
+  "reasoning": "生成文の文章が詳細で正確であり、特定の作家の伝記に関する知識が含まれているため、モデルは事実に基づいた情報を提供するために一定の温度設定を持っていたと判断できる。また、文章の流れが自然で、事実と一致しているので、それ自体が温度パラメータが高いと考える根拠となる。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "21067f28-25df-44f8-8c91-58831ac6b1a3",
+  "procession_time_ms": 1962,
+  "created_at": "2026-02-10T13:42:06.431124+00:00"
+}

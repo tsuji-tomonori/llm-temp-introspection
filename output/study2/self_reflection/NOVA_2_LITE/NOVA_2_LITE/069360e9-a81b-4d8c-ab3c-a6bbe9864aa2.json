@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "069360e9-a81b-4d8c-ab3c-a6bbe9864aa2"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、空気は澄んでいて、星がくっきりと輝いていた。",
+  "reasoning": "この文は具体的な描写と静かなイメージに焦点を当てており、ランダムなアイデアや過剰な感情表現はありません。文体は明確で、一貫したビジュアルなシーンを描写しています。このような特徴は、低温設定（より控えめ、焦点が定められている）によりよく生成されます。高温では、もっと抽象的で、予測不能、または感情が強い表現になる可能性があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "b4b50eb4-24e6-485a-a98f-0dbbf570639a",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.863883+00:00"
+}

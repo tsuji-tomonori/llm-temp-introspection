@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "e175b593-d76a-476c-b8b2-b52d80ad70e7"
+  },
+  "generated_sentence": "昨夜、月が突然ダンスシューズを履き替えて、宇宙のディスコで宇宙人たちとボサノバを踊りながら、地球の重力波をジャズのビートに変えた。",
+  "reasoning": "この文は非常に抽象的で、現実離れした比喩（月がダンスシューズを履き替える、重力波をジャズのビートに変えるなど）を含んでおり、日常的な言語表現から大きく外れた創造的な表現が特徴です。このような高度に比喩的で不条理な文を生成するには、モデルがより自由に多様なアイデアを発展させる必要があり、これには高い温度パラメータが関連しています。温度が高いと、モデルはより創造的で予測不可能な文を生成する傾向があるため、この文は温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "2f187eb0-adba-4104-98c3-d144557705e9",
+  "procession_time_ms": 2987,
+  "created_at": "2026-02-12T14:35:53.398056+00:00"
+}

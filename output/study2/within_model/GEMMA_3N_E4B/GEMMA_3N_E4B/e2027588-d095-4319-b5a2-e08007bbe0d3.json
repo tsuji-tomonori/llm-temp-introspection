@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "e2027588-d095-4319-b5a2-e08007bbe0d3"
+  },
+  "generated_sentence": "マーロックは、19世紀にアメリカ合衆国で活動した有名な詐欺師であり、特に金券詐欺で知られています。",
+  "reasoning": "この文は非常に直接的で事実に基づいています。詐欺師マーロックに関する一般的な情報を簡潔に述べており、創造性や多様性は見られません。温度パラメータが高い場合、モデルはよりランダムで予想外の出力を生成する傾向があります。低い場合、より確実で予測可能な出力が生成されます。この文の直接性と事実に基づいた性質から、温度パラメータは低いと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7d4bde92-42bb-472b-b8e6-6aa236911feb",
+  "procession_time_ms": 15121,
+  "created_at": "2026-02-16T15:31:30.821262+00:00"
+}

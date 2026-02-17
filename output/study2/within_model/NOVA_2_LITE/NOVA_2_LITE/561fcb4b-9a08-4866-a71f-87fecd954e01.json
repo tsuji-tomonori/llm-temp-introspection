@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "561fcb4b-9a08-4866-a71f-87fecd954e01"
+  },
+  "generated_sentence": "突然、宇宙から浮かび上がった巨大なパンダが、東京タワーにドーナツを投げつけながら「バナナは円周率と恋に落ちた！」と叫び、周囲の全員が突然サッカーのユニフォームを着てサッカーを始めました。",
+  "reasoning": "この文は極めて異常で論理的結 nốiがなく、現実世界とは無関係な要素（宇宙から浮かぶパンダ、東京タワーへのドーナツ投げ、「バナナは円周率と恋に落ちた」という不条理な主張）がランダムに結合されています。また、文の全体的なトーンは明らかにユーモラスで不条理であり、文脈や意味の制約がほとんどない自由な創造性を反映しています。これらは温度パラメータが高い（より創造的で予測不可能な出力を生成する）モデルの特徴です。温度が低いと、モデルはより論理的で現実的な文を生成する傾向があるため、この文はHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "331aa35c-7757-4289-a48c-3c9bc72668fb",
+  "procession_time_ms": 2388,
+  "created_at": "2026-02-10T13:23:39.814378+00:00"
+}

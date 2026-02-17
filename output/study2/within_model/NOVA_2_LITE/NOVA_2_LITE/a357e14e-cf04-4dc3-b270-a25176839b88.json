@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "a357e14e-cf04-4dc3-b270-a25176839b88"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンと一緒に喜んで飛び跳ねました。",
+  "reasoning": "この文は「アイレットはドコドコでヤッタゼを捕まえ、ペンギンと一緒に喜んで飛び跳ねました」という非常に具体的で構造化された記述です。文は単純で直線的な物語進行を持ち、キャラクターの行動（捕まえる、飛び跳ねる）や場所（ドコドコ）などが明確に指定されています。文中に感情的な表現（「喜んで」）は含まれていますが、全体として予測可能で制御された文体であり、ランダム性や創造的な発展は少ないです。このような特徴は温度パラメータが低い（より確定的な出力を生み出す）モデルに典型的です。高い温度では、文がより抽象的・自由な表現になったり、キャラクターの行動に予期せぬ要素が追加されることが期待されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "7139089b-b2dc-4de7-983e-719d988711c7",
+  "procession_time_ms": 2921,
+  "created_at": "2026-02-12T14:41:43.074017+00:00"
+}

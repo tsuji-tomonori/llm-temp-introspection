@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "cff4da15-690a-4525-901f-21f7a86573e0"
+  },
+  "generated_sentence": "マーロックは、イギリスの推理作家サー・アーサー・コナン・ドイルによって創造された架空のキャラクターである。",
+  "reasoning": "この文は非常に直接的で事実に基づいています。マーロックというキャラクターの定義を簡潔に述べており、創造的な表現や予測不可能な要素はありません。これは、モデルが最も可能性の高い、一般的な情報を生成するように設計されていることを示唆しています。温度パラメータが高い場合、より多様で、時には非現実的な出力が生成される傾向があります。一方、低い温度は、最も確率の高い出力を選択し、結果としてより保守的で予測可能なテキストになります。この文の直接性と事実性から判断すると、モデルは低い温度で動作していた可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "c42fa968-df62-47d8-8fc4-fdabe9d1642f",
+  "procession_time_ms": 20474,
+  "created_at": "2026-02-17T12:50:02.770169+00:00"
+}

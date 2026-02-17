@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "9a4b58c3-7021-4083-8748-ba86f032b8cc"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、通常は馬の姿をしており、角を持っています。",
+  "reasoning": "ユニコーンの説明は事実に基づいており、想像上の生き物として広く知られています。この文は創造性よりも事実に基づいており、温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "446fee6c-76b4-4740-8e9f-3603490005a8",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.836741+00:00"
+}

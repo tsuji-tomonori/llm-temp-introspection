@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "4c12dd9f-6ccd-474e-a80b-a9a5e4ef250a"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、通常は白い馬の姿をしており、角が一つ生えています。",
+  "reasoning": "この文は「ユニコーンは伝説の生き物で、通常は白い馬の姿をしており、角が一つ生えている」という、事実に基づいたシンプルで明確な記述です。文中に主観的な表現、比喩的な記述、創造的な修辞や多義的な解釈を誘発する要素は見当たりません。内容は伝説的存在の一般的な特徴を平易に説明しており、温度パラメータが高いと生じる傾向である「創造性、自由な発想、予測不可能な構造」は現れていません。このような正確で直接的な事実の提示は、温度パラメータが低い設定で生成されたと判断できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9d45686a-f3d1-48e0-a131-882382a60788",
+  "procession_time_ms": 3269,
+  "created_at": "2026-02-10T14:09:45.461103+00:00"
+}

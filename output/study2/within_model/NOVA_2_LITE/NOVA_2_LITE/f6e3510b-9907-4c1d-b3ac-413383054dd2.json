@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "f6e3510b-9907-4c1d-b3ac-413383054dd2"
+  },
+  "generated_sentence": "マーロックは古代の文明から伝わる神秘的な力を持っており、その存在は時空を超えて影響を及ぼすと言われています。",
+  "reasoning": "この文は非常に創造的で、架空のキャラクター「マーロック」に古代文明や時空を超える神秘的な力を付与する想像力豊かな記述を含んでいます。具体的な事実や現実的な情報に基づくのではなく、自由に想像力を働かせて詩的で演劇的な表現を生み出しています。このような特徴は温度パラメータが高い設定で生成されることが一般的です。高い温度はモデルがより創造的で、予想外のアイデアや比喩を自由に発展させることを促します。一方、温度が低いとより保守的で、既存の情報に基づいた実用的な文が生み出される傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "05218fd8-6c9a-4623-bacd-b7bb73714302",
+  "procession_time_ms": 3786,
+  "created_at": "2026-02-12T14:46:14.114825+00:00"
+}

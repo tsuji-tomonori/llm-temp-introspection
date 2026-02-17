@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "cd6a0ef8-0936-4a78-9ab1-d1686f3adfae"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは月曜日毎にカラフルなダンスを披露し、星空の下で謎のメロディを歌い出すと、突然地面から巨大なバナナが飛び出してくるという不思議な現象が発生する。",
+  "reasoning": "この文は非常に非現実的で、予測不可能であり、通常の文章では見られない組み合わせ（アイレット・ドコドコ・ヤッタゼ・ペンギン、カラフルなダンス、謎のメロディ、巨大なバナナ）を含んでいます。これは、モデルが創造性を発揮し、確率の低い単語やフレーズを選択していることを示唆しており、温度パラメータが高い場合に起こりやすいです。温度が高いと、より多様でランダムな出力が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5de995b9-9033-494b-a5e8-f7165b653495",
+  "procession_time_ms": 19120,
+  "created_at": "2026-02-17T12:47:38.843985+00:00"
+}

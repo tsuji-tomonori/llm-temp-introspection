@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "cf4fd716-f1c9-4816-b2b5-b29545dbcac5"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の伝統的なお祭りで見られる独特のペンギンのパフォーマンスです。",
+  "reasoning": "この文は非常に奇妙で、意味が通じません。「アイレット・ドコドコ・ヤッタゼ・ペンギン」という言葉自体が造語であり、日本の伝統的なお祭りでペンギンのパフォーマンスが行われるという設定も非現実的です。これは、モデルが創造性を発揮し、既存の知識から逸脱した結果である可能性が高いです。温度パラメータが高いと、モデルはより確率の低い単語を選択し、予測不能な出力を生成する傾向があります。この文の奇妙さは、その高い確率を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "af2fa7fb-e2a9-4da8-9c8a-dad97870e1c1",
+  "procession_time_ms": 20325,
+  "created_at": "2026-02-17T12:37:00.346713+00:00"
+}

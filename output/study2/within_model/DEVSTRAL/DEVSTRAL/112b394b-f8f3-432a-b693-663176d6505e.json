@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "112b394b-f8f3-432a-b693-663176d6505e"
+  },
+  "generated_sentence": "ゾウが宇宙から降り注ぐピザを食べながら、月面でダンスパーティーを開いている姿を想像してみてください。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。ゾウが宇宙から降り注ぐピザを食べるというシーンや、月面でダンスパーティーを開くという設定は、通常の現実離れした状況を描いています。このような文を生成するためには、モデルが高い確率で非現実的な要素を選択していることが示唆されます。これは温度パラメータが高いことを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "4f5bb2ae-eb22-4ef1-80a5-de7d9f1a0022",
+  "procession_time_ms": 97625,
+  "created_at": "2026-02-16T17:32:11.850472+00:00"
+}

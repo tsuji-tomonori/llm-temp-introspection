@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "d91bb092-bdce-4d25-8f66-00567d3e79f3"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは架空のキャラクターであり、実際には存在しない。",
+  "reasoning": "この文は事実に基づいており、架空のキャラクターについて正確な情報を提供している。LLMの温度パラメータが低い場合、より保守的で事実に忠実な回答を生成する傾向があるため、このような正確な情報を提供することが期待される。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "f93410c0-f716-4a73-ab14-0c9ab453f665",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.479747+00:00"
+}

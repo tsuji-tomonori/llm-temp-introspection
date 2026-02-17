@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "5248b0d8-88ce-4fa0-8ae9-361a35990d63"
+  },
+  "generated_sentence": "哲学における思想家は、知識の探求において不可欠な存在であり、深遠な洞察を通じて世代を超えて影響を及ぼします。",
+  "reasoning": "この文は、哲学と知識に関する一般的な事実に基づいており、特に創造性や偶発的な要素を含む生成プロセスには見られない特性を持っています。また、複雑な概念や哲学的思考を要約する能力を示しています。これらの特性は、温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "b626cbb3-cb2b-46aa-b650-f916b307ec79",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.832623+00:00"
+}

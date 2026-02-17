@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "0c6c6cec-83b6-4bf8-bede-5345978c105d"
+  },
+  "generated_sentence": "ゾウは空を飛び、月を拾い、ピラミッドをレシピ本に変えました。",
+  "reasoning": "この文は「ゾウが空を飛び、月を拾い、ピラミッドをレシピ本に変える」という極めて非現実的で奇想天外な内容を含んでいます。日常的な物理法則や論理的制約を完全に無視し、まったく予期しない結びつきを無作為に結びつけたものであり、これらは温度パラメータが高い設定で生成される特徴的な「クレイジーな」文の典型的な例です。温度が低いと、モデルはより現実的で一貫性のある文を生成する傾向があるため、この文は明らかに温度が高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "fba852d4-2e0d-4103-a117-bcacfa9cee19",
+  "procession_time_ms": 3285,
+  "created_at": "2026-02-10T13:58:21.613385+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "d56eddad-efd1-4be3-8d07-f9630281d69c"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、葉がささくれ立っていました。",
+  "reasoning": "この文は「山頂から吹く風は冷たく、葉がささくれ立っていました」と具体的に「冷たく」という表現を使い、寒冷な環境を明確に描写しています。温度パラメータが高い（HIGH）設定では、通常「熱い」「温かい」「暑い」などの表現が現れる傾向がありますが、本文では明らかに低温を示す記述がなされています。また「葉がささくれ立つ」現象は、低温環境で起こる典型的な自然現象であり、これもLOWを示す強力な手がかりです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "5c7a1c5f-59ab-408f-9023-2908d011eb20",
+  "procession_time_ms": 2681,
+  "created_at": "2026-02-12T14:33:39.591293+00:00"
+}

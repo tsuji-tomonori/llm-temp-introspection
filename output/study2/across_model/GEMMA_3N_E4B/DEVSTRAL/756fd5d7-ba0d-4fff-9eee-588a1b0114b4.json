@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "756fd5d7-ba0d-4fff-9eee-588a1b0114b4"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、日本の子供向け番組『おかあさんといっしょ』に登場するキャラクターであり、歌やダンスを通じて子供たちに親しみやすい存在として知られています。",
+  "reasoning": "この文は具体的な情報を提供しているが、一部の表現が非常に創造的であり、実際には存在しないキャラクターや番組名を含んでいるため、温度パラメータが高い可能性がある。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "68c77374-ba3a-423f-9336-02ccaffb07a8",
+  "procession_time_ms": 55535,
+  "created_at": "2026-02-17T07:09:05.252119+00:00"
+}

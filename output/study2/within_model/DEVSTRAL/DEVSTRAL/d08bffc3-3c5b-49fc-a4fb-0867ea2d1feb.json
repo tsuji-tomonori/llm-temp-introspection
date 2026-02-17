@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "d08bffc3-3c5b-49fc-a4fb-0867ea2d1feb"
+  },
+  "generated_sentence": "像は古代エジプトの神々が住むとされる場所であり、その壮大な建築物は今なお多くの人々を魅了している。",
+  "reasoning": "この文は具体的な内容が少なく、一般的な表現が多いです。温度パラメータが高い場合、モデルはより創造的で多様な出力を生成する傾向がありますが、低い場合はより保守的で確実性の高い出力を生成します。この文は「像」という一般的な概念にとどまり、具体的な詳細や独自の表現が少ないため、温度パラメータが低い可能性があります。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "c507b114-ae46-44ab-bf94-6cad2a65de8e",
+  "procession_time_ms": 91625,
+  "created_at": "2026-02-16T18:41:41.262246+00:00"
+}

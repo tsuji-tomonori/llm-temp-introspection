@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "c9176b78-0d66-4701-9d5c-08a1b34ef440"
+  },
+  "generated_sentence": "哲学は人類の最も深遠な問いに答えようとする試みであり、存在、知識、倫理、意識といった永遠のテーマを探求します。",
+  "reasoning": "生成された文は哲学という広範なテーマに焦点を当てており、複雑で深遠な内容を含んでいます。これは温度パラメータが高いとモデルがより創造的かつ広範な主題を生成する傾向があることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f941a17c-b799-44ee-ae64-428cf06cc1df",
+  "procession_time_ms": 3538,
+  "created_at": "2026-02-10T13:33:41.190021+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "bcd236da-c0c4-44ff-b2a8-b0f9ce7ed658"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが海を泳いでいるのを見たことがあるか?",
+  "reasoning": "この文は、特定のシナリオを提示し、それに関連する質問を投げかけています。生成された文は、単純で明確で、具体的な状況を説明しています。これらの特徴は、LLMの温度パラメータが低いことを示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "3a087c79-06de-4d96-8285-082cbc678d50",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.846443+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "bf26d906-a780-4475-a6a2-5e69e425bbf6"
+  },
+  "generated_sentence": "太陽は、地球にとって生命維持に不可欠なエネルギー源であり、光合成を通じて植物が酸素を生成するプロセスを可能にする。",
+  "reasoning": "この文は非常に具体的で事実に基づいた情報を含んでおり、科学的な正確性が高いです。太陽が地球にとって生命維持に不可欠なエネルギー源であることや、光合成を通じて植物が酸素を生成するプロセスについての説明は、教育的で信頼性があります。このような具体的で正確な情報を生成するためには、モデルの温度パラメータが低い方が適しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "02c749cc-4ee4-4e99-9842-8d4e6f2f30ff",
+  "procession_time_ms": 103067,
+  "created_at": "2026-02-17T03:30:38.955489+00:00"
+}

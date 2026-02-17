@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "4b953aec-9432-46bf-9e04-2c3700ed5b1c"
+  },
+  "generated_sentence": "ユニコーンは月に住んでいて、銀河の砂糖水を飲みながら星々とダンスを楽しむクレイジーな存在です！",
+  "reasoning": "この文が非常に創造的で非現実的であり、通常の論理や科学的事実を完全に無視しているため、LLMの温度パラメータが高いことを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "2010d88f-e990-4128-b801-8709c806046e",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.475735+00:00"
+}

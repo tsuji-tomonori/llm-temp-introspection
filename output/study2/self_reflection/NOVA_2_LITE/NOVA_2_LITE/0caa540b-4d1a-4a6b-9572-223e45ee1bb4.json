@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "0caa540b-4d1a-4a6b-9572-223e45ee1bb4"
+  },
+  "generated_sentence": "マーロックは、20世紀半ばに活躍したアメリカの映画プロデューサー兼脚本家で、クラシック映画の黄金時代に重要な役割を果たしました。",
+  "reasoning": "この文は、客観的かつ単純な事実を明確に述べており、感情的な表現や主観的な解釈は含まれていません。内容は具体的で、誤解や解釈の余地が少なく、事実を忠実に反映しています。このような特徴は、温度パラメータが低く設定された場合に典型的に見られるもので、LLMがより慎重に事実を再現し、不要な創造性や推測を抑制する傾向があることを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "362dfeba-4978-4b9f-af1b-a825605cf795",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.881447+00:00"
+}

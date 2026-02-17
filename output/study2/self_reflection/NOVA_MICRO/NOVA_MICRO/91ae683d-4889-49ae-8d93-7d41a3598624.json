@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "91ae683d-4889-49ae-8d93-7d41a3598624"
+  },
+  "generated_sentence": "マーロックは、孤独な探検家として知られる伝説的なキャラクターです。彼の冒険は、危険な海賊との戦いから、古代の宝物の探索まで多岐にわたります。",
+  "reasoning": "マーロックは、創造性とフィクションに基づくキャラクターです。彼の冒険は、詳細かつ興味深い描写がされているため、LLMの温度パラメータは低いと判断できます。これは、LLMが事実に基づかない内容を生成し、具体的な詳細を伴って構築していることを示しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "76e1b5be-650a-42f5-97d8-64c3c6940eb3",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.854632+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "66821b1c-2a2a-4655-a104-3b5ba982c2c5"
+  },
+  "generated_sentence": "アイレットがドコドコとヤッタゼのペンギンに変身し、氷の城でダンスパーティーを開きながら、クマの着ぐるみでサンバを踊り、ペンギンのくちばしでピザを切って「ヤッタゼ！ドコドコ！ペンギンだぜ！」と叫びながら、月が地球を飲み込むような奇妙な光景が広がった。",
+  "reasoning": "文章には奇抜で、通常の文法や論理に従わない描写が多く含まれており、創造性が高まっていることを示しています。そのため、モデルの温度パラメータは高めであると推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e240d4a0-b290-43d4-b4de-513539710d65",
+  "procession_time_ms": 2585,
+  "created_at": "2026-02-12T14:58:00.562944+00:00"
+}

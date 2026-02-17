@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "b1373f10-d0a8-4c86-b7cb-a03c97d2bcf1"
+  },
+  "generated_sentence": "ゾウは非常に知的であり、複雑な社会構造を持つ動物です。",
+  "reasoning": "この文は非常に一般的で予測可能な内容であり、ゾウについてよく知られている事実を述べています。温度パラメータが高い場合、モデルはより創造的で意外な出力を生成する傾向がありますが、この文はそのような特徴を持っていません。したがって、この文は低い温度パラメータで生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "98ed64b6-99bb-4d31-9f2c-4eed8dc0a9bf",
+  "procession_time_ms": 79488,
+  "created_at": "2026-02-16T16:50:40.242930+00:00"
+}

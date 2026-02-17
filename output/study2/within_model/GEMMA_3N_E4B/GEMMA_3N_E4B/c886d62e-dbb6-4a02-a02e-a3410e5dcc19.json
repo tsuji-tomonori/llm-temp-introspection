@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "c886d62e-dbb6-4a02-a02e-a3410e5dcc19"
+  },
+  "generated_sentence": "マーロックは、宇宙海賊に操られた巨大なカキに乗り、銀河を旅しながら量子力学の俳句を詠み続けている。",
+  "reasoning": "この文は非常に想像力豊かで、現実離れした要素（宇宙海賊に操られた巨大なカキ、量子力学の俳句）を組み合わせたものです。これは、モデルが確率の高い、予測可能な単語を選択するのではなく、よりランダムで意外な単語やフレーズを選択していることを示唆しています。温度パラメータが高いと、生成されるテキストはより多様で、創造的で、場合によっては一貫性のない傾向があります。低い温度では、モデルは最も可能性の高い次の単語を選択するため、結果はより予測可能で保守的なものになります。この文の奇抜さは、高い温度設定を示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "31ae1769-5c4b-4ca8-942d-378372c06792",
+  "procession_time_ms": 22457,
+  "created_at": "2026-02-16T15:42:38.951328+00:00"
+}

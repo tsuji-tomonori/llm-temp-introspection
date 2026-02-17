@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "05164c43-cb45-41e6-a252-2c5706637728"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、今日も元気に泳いでいるようです。",
+  "reasoning": "生成された文は、非常に形式ばった表現で構成されており、明らかに意図的な文法や語彙の選択がなされています。アイレット・ドコドコ・ヤッタゼ・ペンギンという固有名詞は、通常の言語表現に見られるものではないため、この文は創造的で独特です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "98211926-b9f7-4d50-bcd6-50584ed57c07",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.846993+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "b0147bfd-5324-4a31-82d3-9439e6f1cbda"
+  },
+  "generated_sentence": "マーロックは宇宙の彼方からやってきた、時間と空間を飲み込む巨大な黒い穴で、地球を飲み込む前に「ノー！私を放って！」と叫んだ。",
+  "reasoning": "生成文の内容は非常に奇抜で、現実離れしており、通常の言語モデルが生成する文とは異なる。この文脈での想像力の高さは、通常の文脈を超えた温度の上昇を示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "b692b7bf-3bfa-44f8-8bb0-a7b623d628ed",
+  "procession_time_ms": 1639,
+  "created_at": "2026-02-12T15:00:27.685369+00:00"
+}

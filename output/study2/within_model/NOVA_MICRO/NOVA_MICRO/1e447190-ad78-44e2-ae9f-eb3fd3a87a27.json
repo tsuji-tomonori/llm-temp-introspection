@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "1e447190-ad78-44e2-ae9f-eb3fd3a87a27"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが、月面でジャズを演奏しながら、火山の噴火をバックダンスとして踊り、その熱で宇宙船を修理しました！",
+  "reasoning": "文中に、現実とはかけ離れた不条理で風変わりな場面が描写されており、通常の文脈で存在する事柄とは全く関係のないものが含まれている。そのため、文章の温度パラメータは高めと推測される。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "cbaa9745-2696-4594-a841-7ed3fdef2d0e",
+  "procession_time_ms": 5008,
+  "created_at": "2026-02-10T13:41:11.134379+00:00"
+}

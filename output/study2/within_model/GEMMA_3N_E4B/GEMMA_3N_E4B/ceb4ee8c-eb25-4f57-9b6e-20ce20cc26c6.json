@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "ceb4ee8c-eb25-4f57-9b6e-20ce20cc26c6"
+  },
+  "generated_sentence": "夕焼けに染まる海辺は、静寂と希望が入り混じったような、どこか懐かしい雰囲気だった。",
+  "reasoning": "この文は、比喩表現（静寂と希望が入り混じったような）や感情的な言葉（懐かしい雰囲気）を多用しており、創造性や多様性を重視しているように見えます。温度パラメータが高い場合、モデルはより予測不能で、多様な単語の組み合わせを選択する傾向があります。一方、低い場合は、最も可能性の高い単語の組み合わせを選び、より保守的な文になります。この文の表現の豊かさから、温度パラメータは比較的高いと推測できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "8b711725-ae68-4d80-b9d7-088513019429",
+  "procession_time_ms": 18525,
+  "created_at": "2026-02-16T14:26:43.171402+00:00"
+}

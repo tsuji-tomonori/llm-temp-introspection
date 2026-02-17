@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "22d58e13-2a0a-4a64-a627-77769b947fcf"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンにプレゼントした。",
+  "reasoning": "与えられた文は、想像力豊かで独特の用語（アイレット、ドコドコ、ヤッタゼ）を使用しています。これらの用語は、モデルが生成された文脈に明確な形式を保持することを示唆しています。独特な語彙の使用は、モデルが自由な想像力を駆使したことを示唆します。したがって、この文を生成する能力は、高温モデルの挙動を反映している可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "06726ebf-407b-4177-87a0-e67fec24e0fe",
+  "procession_time_ms": 1895,
+  "created_at": "2026-02-12T14:56:35.659517+00:00"
+}

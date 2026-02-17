@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "4971c610-7b9b-4b7d-9128-080717ec3d3e"
+  },
+  "generated_sentence": "像は空中に舞い上がり、突然ピンク色に輝き始めたかと思うと、次の瞬間には巨大なチョコレートケーキに変身し、周囲の人々が驚愕のあまり口を開けて見つめる中、ケーキはまるで生き物のように踊り始めた。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれており、通常の論理や常識を超えた内容です。これはLLMの温度パラメータが高いことを示唆しています。高い温度パラメータはモデルに対してより創造的で予測不可能な出力を生成させる傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "78c5ca94-dc91-4373-abb2-e71d0c7c3359",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.469197+00:00"
+}

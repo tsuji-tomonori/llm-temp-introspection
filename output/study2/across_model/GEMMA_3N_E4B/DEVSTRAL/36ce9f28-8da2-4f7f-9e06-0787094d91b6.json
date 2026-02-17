@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "36ce9f28-8da2-4f7f-9e06-0787094d91b6"
+  },
+  "generated_sentence": "マーロックは、宇宙の果てにある巨大なカシューナッツから生まれた、虹色の羊毛を纏った哲学的なタコであり、彼の思考は量子力学と即興ジャズの融合によって導かれる。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多く含まれています。量子力学と即興ジャズの融合という抽象的な概念を使ったり、虹色の羊毛を纏ったタコという奇抜なイメージを生成している点から、モデルが高い温度パラメータで動作していた可能性が高いです。低い温度パラメータでは、より保守的で予測可能な出力が期待されるため、このようなクレイジーな文は生成されにくいでしょう。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "dbbb3c47-bef5-49ff-a67a-77576a2a4c67",
+  "procession_time_ms": 108741,
+  "created_at": "2026-02-17T10:31:58.395800+00:00"
+}

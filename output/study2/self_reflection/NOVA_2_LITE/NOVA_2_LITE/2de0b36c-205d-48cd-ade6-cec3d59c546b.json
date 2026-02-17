@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "2de0b36c-205d-48cd-ade6-cec3d59c546b"
+  },
+  "generated_sentence": "ゾウが空中でピ Pirouette を踊りながら、口から火山の溶岩を噴き出し、ダンスの動きに合わせてリズムを刻むウサギの群れとジャズを演奏する間、象の鼻でトランプを操って国際的なカジノでポーカーに勝った。",
+  "reasoning": "この文は非常に奇想天外で論理的整合性がないため、LLMの温度パラメータが高いことを示しています。ゾウが空中でピルエットを踊ること、口から溶岩を噴き出すこと、ウサギの群れとジャズを演奏すること、象の鼻でトランプを操ってカジノでポーカーに勝つこと、などすべて日常的でありえない要素が過剰に混在しています。これらの要素が自然に結びついていないため、この文は温度パラメータが高い状態で生成されたと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "cc248084-e448-4e43-b40d-f34e56f44b4b",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.859536+00:00"
+}

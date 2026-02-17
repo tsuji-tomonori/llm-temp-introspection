@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "3df9b121-87ad-4ef0-b6a3-32493a5a586d"
+  },
+  "generated_sentence": "白い毛並みと角を持つ、幻想的な生き物であるユニコーン。",
+  "reasoning": "生成文は想像力豊かで創造性が高く、具体的な事実に基づく内容よりも感情やイメージが強調されています。これは温度パラメータが高いモデルが生成する文と一致します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "57e71d66-bcea-420c-9f4c-9894caf8e548",
+  "procession_time_ms": 1476,
+  "created_at": "2026-02-10T13:36:57.114051+00:00"
+}

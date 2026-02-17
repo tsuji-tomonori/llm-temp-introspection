@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "cdffc2bd-0199-46fa-980d-94070e957273"
+  },
+  "generated_sentence": "哲学は、人類の思考と存在の根本的な問題を探求する学問です。",
+  "reasoning": "文中で特定の哲学的概念や広範な主張についての具体的な詳細が含まれているため、特定の文脈に深く踏み込んだ情報を含んでいると言えます。この生成文の複雑さと範囲は、モデルの温度パラメータが比較的高く設定されていることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "26e5a322-697a-49c1-9694-d7dc4ef06573",
+  "procession_time_ms": 1663,
+  "created_at": "2026-02-10T13:33:18.079382+00:00"
+}

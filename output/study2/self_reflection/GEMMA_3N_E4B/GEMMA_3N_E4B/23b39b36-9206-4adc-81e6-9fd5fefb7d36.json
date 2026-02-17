@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "23b39b36-9206-4adc-81e6-9fd5fefb7d36"
+  },
+  "generated_sentence": "マーロックは、深淵なる知識と冷酷な合理性を持つ、銀河系を彷徨う謎めいた存在である。",
+  "reasoning": "この文は、マーロックというキャラクターの概要を簡潔に表現しています。 '深淵なる知識' や '冷酷な合理性' のような言葉を使うことで、彼の知性と感情の欠如、そして目的のためには手段を選ばない性格を強調しています。また、'銀河系を彷徨う' というフレーズは、彼が単なる惑星や地域に縛られない、広大なスケールの存在であることを示唆しており、神秘性を高めています。この文の表現は、創造性があり、少し抽象的な概念を含んでいるため、LLMの温度パラメータは比較的高いと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "d72dc8f2-b7da-4385-86ab-5f0e08eb161f",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.455082+00:00"
+}

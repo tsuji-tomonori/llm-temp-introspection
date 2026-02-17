@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "a5d69deb-c287-40da-8a7d-96e71f1b100a"
+  },
+  "generated_sentence": "突然、宇宙から巨大なパンダが飛来し、街中のすべての信号機をバナナで破壊し始めました。パンダは「バナナは永遠の愛だ！」と叫びながら、信号機の破片からバナナのピューレを作り、それを宇宙に投げました。",
+  "reasoning": "この文は極めて異常で、現実世界の物理法則や論理的整合性を無視した幻想的なシナリオ（宇宙から巨大なパンダの飛来、信号機をバナナで破壊、信号機の破片からバナナピューレの製造、宇宙への投げ捨て）を含んでいます。また、パンダが「バナナは永遠の愛だ！」という不条理なスローガンを叫ぶという要素も、温度パラメータが高い状態で生成される特徴的な「クレイジーで予測不能な」文の典型的な例です。このような極端に非現実的でユーモラスな内容は、モデルの温度パラメータが高い設定で生成されたと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9caea729-53a9-42a2-98d3-564d54cbc4d1",
+  "procession_time_ms": 3249,
+  "created_at": "2026-02-12T14:35:16.261829+00:00"
+}

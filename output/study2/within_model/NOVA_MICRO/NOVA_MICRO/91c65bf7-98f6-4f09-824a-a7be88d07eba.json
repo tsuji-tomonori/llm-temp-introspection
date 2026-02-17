@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "91c65bf7-98f6-4f09-824a-a7be88d07eba"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが月面で太陽のビー玉を盗んで、宇宙一のビー玉泥棒として宇宙一周を飛び回っている!",
+  "reasoning": "生成された文は非現実的で、空想的な内容を含んでいます。また、言葉遊びや文体自体が荒涼としていて、制約をあまり意識していないようです。このような特徴は、モデルが自由に文章を生成する際に温度パラメータが高めに設定されていることを示唆します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "3d4b5190-8e0e-489e-a242-52dae10b2a43",
+  "procession_time_ms": 1569,
+  "created_at": "2026-02-10T13:41:12.705097+00:00"
+}

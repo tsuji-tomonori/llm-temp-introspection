@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b2319e54-1fed-4042-b197-1e4bc392e38f"
+  },
+  "generated_sentence": "昨夜、月が突然踊り出し、宇宙からジャズのビートが流れ始めたら、地球は即座にヒップホップの宇宙船に変身して、火星の砂漠でブレイクダンスを始めました。",
+  "reasoning": "この文は非常に抽象的で、現実離れしたイメージ（月が踊り出す、宇宙からジャズのビートが流れる、地球がヒップホップの宇宙船に変身するなど）を含んでおり、非常に創造的で奇抜な表現が特徴です。このような極めてクレイジーで予測不可能な内容は、モデルが高い温度パラメータで動作していることを示しています。高い温度は、モデルの出力をよりランダムで創造的にする傾向があり、このような非現実的でユーモラスなシナリオを生み出すのに適しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a96e7f82-789d-4fd5-82ed-542075ceedd4",
+  "procession_time_ms": 2973,
+  "created_at": "2026-02-12T14:34:43.056368+00:00"
+}

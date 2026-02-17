@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "05cf2d57-e70b-4276-9a9a-43d2698521c6"
+  },
+  "generated_sentence": "ユニコーンは幻想的な生き物で、真っ白の毛と spiraling の角を持つと信じられています。彼らは純粋さと力強さを象徴し、伝説的な物語やアートでよく登場します。",
+  "reasoning": "この文は「ユニコーンは幻想的な生き物で、真っ白の毛とspiralingの角を持つと信じられています。彼らは純粋さと力強さを象徴し、伝説的な物語やアートでよく登場します。」という記述です。この文は非常に具体的で、詳細な記述（「真っ白の毛」「spiralingの角」「純粋さと力強さの象徴」）と伝説的な文脈を明確に含んでいます。こうした詳細で構造化された記述は、温度パラメータが低い（より確定的で、創造性やランダム性を制限した）場合に典型的に見られます。温度が高いと、文はより抽象的で、自由な連想や不確かな表現になる傾向があります。ここでは明確な事実と一般的な認識が反映されており、創造性よりも正確さが優先されています。したがって、このモデルは低温設定で動作したと判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "9307df49-5150-4e4b-a540-a137fd872589",
+  "procession_time_ms": 2824,
+  "created_at": "2026-02-10T13:24:09.101664+00:00"
+}

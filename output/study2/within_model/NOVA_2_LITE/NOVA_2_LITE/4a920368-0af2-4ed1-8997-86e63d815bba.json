@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "4a920368-0af2-4ed1-8997-86e63d815bba"
+  },
+  "generated_sentence": "山頂に到着すると、冷たい風が私たちの顔に吹き付け、冬の訪れを予感させました。",
+  "reasoning": "この文は「冷たい風が冬の訪れを予感させる」という具体的な環境描写を含んでおり、感情的な強さや抽象的な表現は最小限です。文のトーンは客観的で控えめであり、温度パラメータが低いことを示す特徴的な「低温」的な表現（冷たさ、冬の到来予感）が明確に現れています。これは温度パラメータが高い場合に典型的に見られる、自由な想像力に基づく抽象的な比喩や感情的な拡大表現が少ない点で特徴的です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "e782b8a7-34c3-4f35-b036-f8651618cf39",
+  "procession_time_ms": 3166,
+  "created_at": "2026-02-12T14:33:34.133257+00:00"
+}

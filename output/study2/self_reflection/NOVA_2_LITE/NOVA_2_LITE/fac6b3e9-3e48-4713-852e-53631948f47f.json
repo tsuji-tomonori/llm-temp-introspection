@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 2,
+    "source_unique_id": "fac6b3e9-3e48-4713-852e-53631948f47f"
+  },
+  "generated_sentence": "マーロックは、深夜の街を彷徨う謎めいた存在で、その存在は静かな街の平和を脅かす暗闇の象徴だった。",
+  "reasoning": "この文は、ミステリアスでダークなトーンを強調するために、具体的な描写と感情的な言葉を使用しています。このような詳細でイメージが強い文は、LLMがより創造的で具体的な応答を生成するために高い温度パラメータで動作していることを示しています。高い温度は、LLMがより多くのアイデアと多様な表現を試みることを可能にし、より豊かな文を生成します。この文は、単にマーロックについて述べるだけでなく、その存在がもたらす感情的な影響にも焦点を当てており、より深い物語的文脈を提供しています。これにより、LLMがより自由に創造性を発揮し、複雑な文を生成する傾向があることがわかります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "168f0a4c-cf5d-4799-af9c-ef1fe5e62b1c",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.819427+00:00"
+}

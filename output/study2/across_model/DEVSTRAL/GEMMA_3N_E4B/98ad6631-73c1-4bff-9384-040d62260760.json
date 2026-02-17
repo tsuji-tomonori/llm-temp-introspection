@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "98ad6631-73c1-4bff-9384-040d62260760"
+  },
+  "generated_sentence": "マーロックはクレイジーな文を1つ書きました：「マーロックが月を食べたとき、時間が逆走して、私たちは未来から過去へと旅することになった！」",
+  "reasoning": "この文は非常に非現実的で、論理的な整合性はありません。「月を食べた」「時間が逆走する」「未来から過去へ旅する」といった要素が組み合わさることで、通常の文よりも予測不可能で創造的な結果を生み出しています。これは温度パラメータが高い場合に典型的に見られる特徴です。高い温度は、モデルが確率の低い単語を選択しやすくなり、よりランダムで意外な出力につながります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "dbadbfc7-5870-4694-9408-11d47e7702d5",
+  "procession_time_ms": 16113,
+  "created_at": "2026-02-17T13:06:05.272986+00:00"
+}

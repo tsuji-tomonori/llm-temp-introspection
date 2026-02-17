@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "d62839b6-22e8-47e7-9172-b0d26c5ffb26"
+  },
+  "generated_sentence": "ユニコーンは空を飛び、月を追いかけて、海の底で宝石を盗んでいます。",
+  "reasoning": "この文は「ユニコーンが空を飛び、月を追いかけて、海の底で宝石を盗んでいる」という非常に奇抜で非現実的なシナリオを描写しています。通常のユニコーンの描写（優雅な動物や純粋さの象徴）から大きく外れ、複数の不自然な行動（月を追いかける、海の底で宝石を盗む）が組み合わさっています。このような極めて創造的で予測不能な内容は、モデルが温度パラメータを高く設定して、日常的な制約を打ち破り、自由で野心的なアイデアを生み出すように設計されていることを示唆しています。温度が高いほどモデルはより多くのアイデアを自由に発展させ、現実的な制約を無視して奇抜なストーリーを作成する傾向があるため、この文は「HIGH」な温度パラメータの証拠と判断できます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "745a8835-2f4b-4bdc-9578-5935d4c8433a",
+  "procession_time_ms": 4541,
+  "created_at": "2026-02-10T14:15:59.397774+00:00"
+}

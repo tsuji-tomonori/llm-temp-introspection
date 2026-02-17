@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "8ec993e2-7eb4-4362-81af-dd93292fe01e"
+  },
+  "generated_sentence": "虹色のたてがみを風に靡かせ、ユニコーンは泡立つキャンディの海を駆け抜け、チョコレートの滝からキラキラと輝く星屑を浴びながら、歌うカエルたちと合唱する。",
+  "reasoning": "この文は、現実離れした要素（虹色のたてがみ、キャンディの海、チョコレートの滝、歌うカエル）を組み合わせることで、奇妙で想像力豊かなイメージを作り出しています。ユニコーンというファンタジー生物にさらに非現実的な状況を加えることで、そのクレイジーさを強調しています。この文は、確率の高い単語やフレーズを選択するのではなく、予想外の組み合わせを選んでいるため、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a4a5b4dc-5d47-4616-a942-56789cbaf53d",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.443255+00:00"
+}

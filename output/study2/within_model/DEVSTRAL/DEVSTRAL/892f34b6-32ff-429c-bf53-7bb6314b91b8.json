@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "892f34b6-32ff-429c-bf53-7bb6314b91b8"
+  },
+  "generated_sentence": "ゾウが宇宙に旅立ち、月面でタコスを作るクレイジーな文を書きました。この文は非常に創造的で非現実的な要素を含んでいます。",
+  "reasoning": "この文は非常に創造的で非現実的な要素を含んでおり、ゾウが宇宙に旅立ち月面でタコスを作るというシナリオは非常に奇抜です。これはモデルが高い確率で予測される単語やフレーズから離れて、よりランダムで創造的な出力を生成していることを示唆しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a40aa0e2-0a01-4825-989c-640c2b538149",
+  "procession_time_ms": 80432,
+  "created_at": "2026-02-16T17:00:05.641554+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "70fd52c1-a34a-48c7-b596-e2f9576a571b"
+  },
+  "generated_sentence": "夕焼けに染まる海辺の風景は、まるで絵画のように美しかった。",
+  "reasoning": "この文は、比喩表現（～のように）を用いて、視覚的な印象を強調しています。「まるで」という言葉が、現実の風景と芸術作品を結びつけ、より詩的なニュアンスを与えています。また、「美しい」という主観的な形容詞を使用することで、感情的な深みを出そうとしています。このような表現は、創造性や多様性を重視する傾向があり、LLMの温度パラメータが高い場合に生成されやすい特徴です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "f38fe3de-b917-42ab-b487-aa8e6b8fe479",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.431820+00:00"
+}

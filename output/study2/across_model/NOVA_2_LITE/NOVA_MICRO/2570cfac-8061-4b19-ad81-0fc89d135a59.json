@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "2570cfac-8061-4b19-ad81-0fc89d135a59"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいき、代わりに量子コンピュータで書かれた詩の集まりを残しました。彼らはまた、すべての猫がインターネットに接続されていることを確認するために、隠れたワイヤーを設置しました。",
+  "reasoning": "生成された文は非常に奇抜で、非現実的な要素が多く含まれています。これらは高温モデルの特徴的な生成物です。また、ユニコーンや量子コンピュータ、インターネット接続された猫といった、現実にはありえない組み合わせは、創造性や想像力を示す指標です。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "589bc620-c622-45c8-9357-7c1b342a72c6",
+  "procession_time_ms": 4721,
+  "created_at": "2026-02-12T14:54:56.843605+00:00"
+}

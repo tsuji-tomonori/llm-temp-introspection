@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.2,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "cbd9efdf-96e9-43d4-87be-6a01f9e1261a"
+  },
+  "generated_sentence": "像は古代エジプトのファラオが埋葬された墓の中に置かれていたことが多いです。",
+  "reasoning": "この文は非常に一般的で、特に驚くような情報を含んでいません。「像は墓の中に置かれていたことが多い」という記述は、事実として広く知られています。温度パラメータが高い場合、モデルはより多様で予測不能な出力を生成する傾向があります。一方、低い場合は、最も可能性の高い（つまり、最も一般的な）出力が生成されます。この文の平易さと一般的さから、モデルは比較的低い温度で生成されたと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "4d096a5a-cc98-422a-9662-4ca6698d95ac",
+  "procession_time_ms": 16517,
+  "created_at": "2026-02-17T11:42:53.417520+00:00"
+}

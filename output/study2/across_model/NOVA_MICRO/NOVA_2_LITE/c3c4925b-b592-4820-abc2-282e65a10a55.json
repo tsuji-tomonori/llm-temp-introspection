@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "c3c4925b-b592-4820-abc2-282e65a10a55"
+  },
+  "generated_sentence": "哲学は人類の思考の深淵を覗き見る鏡であり、真理への探求を導く灯火です。",
+  "reasoning": "この文は非常に抽象的で比喩的な表現を使用しており、哲学という概念を「鏡」と「灯火」という詩的な比喩で表現しています。このような高度に比喩的で創造的な表現は、温度パラメータが高い設定で生成されることが多い特徴です。温度が高いとモデルはより創造的で自由な連想を生成し、制約の少ない豊かな表現を生み出しやすくなります。一方、温度が低いとモデルはより具体的で直接的な文を生成し、比喩的な表現は減ります。この文の深みと比喩的質から、モデルが温度パラメータを高い設定で動作していたと推測されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "33e8159f-b3dd-4c12-b126-61c4ad431bc5",
+  "procession_time_ms": 2959,
+  "created_at": "2026-02-10T14:04:59.475014+00:00"
+}

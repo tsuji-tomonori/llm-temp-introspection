@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "79307d10-745f-4ea4-9026-ca1bf066ca39"
+  },
+  "generated_sentence": "マーロックは、深夜の街を静かに歩きながら、街灯の光に照らされた古いアパートの壁面をぼんやりと眺めていた。彼の足元には雨の匂いが漂い、空気は冷たく、静かな夜の静けさが彼の心に静かに染み入っていた。",
+  "reasoning": "文の語彙と文脈は、文学的であり、静かな夜の雰囲気を創り出すために細やかな描写が含まれている。これらは、一般的な温度調整のパラメータを低いレベルに設定した上で、特定の雰囲気や情景を創り出すために使用される詳細な描写を示している。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "19dc2972-e4ba-40a0-9d87-36015940184f",
+  "procession_time_ms": 2093,
+  "created_at": "2026-02-12T14:59:10.238635+00:00"
+}

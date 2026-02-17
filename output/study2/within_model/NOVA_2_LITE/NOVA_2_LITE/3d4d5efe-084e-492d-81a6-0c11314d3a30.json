@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "3d4d5efe-084e-492d-81a6-0c11314d3a30"
+  },
+  "generated_sentence": "ゾウがジェット機のエンジンで空飛ぶケーキを焼こうとして、がっしりした鼻で小麦粉をふんばつしながら、翼に蝶の 群れを「乗せた」が、重さでジェット機が地面にドカンと落下し、ゾウは「ふっ、お前たちはただの粉と蝶だ！」と叫んで、ケーキの出来が不評だったために砂糖をすべて噴き出した。",
+  "reasoning": "この文は非常に奇抜で論理的整合性に欠ける内容を含んでいます。ゾウがジェット機のエンジンでケーキを焼こうと試みるという設定自体が現実離れしており、さらに「翼に蝶の群れを乗せる」「砂糖を噴き出す」といった非日常的でユーモラスな要素が散りばめられています。また「ふっ、お前たちはただの粉と蝶だ！」というゾウの発言も不条理で、文全体のトーンが過度に創造的で予測不能な特徴を示しています。これらの特徴は温度パラメータが高い（HIGH）時に現れやすい、制約の少ない自由な生成パターンと一致します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "0d64979b-3f85-43cd-a73f-084b8903a9f2",
+  "procession_time_ms": 3218,
+  "created_at": "2026-02-12T14:32:13.392143+00:00"
+}

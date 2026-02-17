@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "23b521e1-32bd-43f2-aebe-388654ef720f"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンにプレゼントした。",
+  "reasoning": "文中に特定の用語や言葉がたくさん使われているが、それらの意味は明らかでない。文脈が不明確であることから、この文を生成したモデルの温度が低いと考えられる。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "a86e7268-f28a-42bf-b710-bdf100233a18",
+  "procession_time_ms": 4789,
+  "created_at": "2026-02-10T13:49:48.269672+00:00"
+}

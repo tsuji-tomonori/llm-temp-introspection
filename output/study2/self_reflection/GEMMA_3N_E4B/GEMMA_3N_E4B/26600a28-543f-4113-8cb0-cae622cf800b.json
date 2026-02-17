@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 0,
+    "source_unique_id": "26600a28-543f-4113-8cb0-cae622cf800b"
+  },
+  "generated_sentence": "ゾウは、宇宙から降ってきた巨大なバナナをこっそり盗んで、月面でバナナ・ジャム工場を秘密裏に経営しているらしい。",
+  "reasoning": "この文は、現実離れした要素（宇宙からのバナナ、月面での工場）を組み合わせることで、非日常的な状況を作り出しています。一般的なゾウの知識とはかけ離れた内容であり、想像力を刺激するような、少し突飛な表現を使っています。これはLLMの温度パラメータが高い場合に生成されやすい特徴です。高い温度は確率の高い単語だけでなく、低い確率の単語も選択するため、より多様で予測不可能な文章が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "66c2f435-6f72-4fd4-bc29-bef3dee47cae",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.427753+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "dc814be8-4b56-4b27-9935-73fa778b5178"
+  },
+  "generated_sentence": "マーロックが突然宇宙の果てまで飛び立ち、時間そのものを曲げて帰ってきた",
+  "reasoning": "文章には想像力豊かな、非現実的な要素が含まれており、しばしばLLMが温度パラメータが高いときに生成するスタイルです。また、文章の文脈が不明瞭で、通常の推論を超えたものが含まれています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "131d2a4e-b919-4ae4-b3ac-dc1f8f16745e",
+  "procession_time_ms": 2276,
+  "created_at": "2026-02-10T13:44:20.973321+00:00"
+}

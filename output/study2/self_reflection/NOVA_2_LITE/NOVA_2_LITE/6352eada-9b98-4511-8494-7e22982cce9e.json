@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "6352eada-9b98-4511-8494-7e22982cce9e"
+  },
+  "generated_sentence": "突然の雷雨が街を襲い、雨が窓をトントントンと叩きながら、通りを流れる水が踊るように輝き、空は緑青のような色に変わり、猫が屋根の上でジャグリングを始めた。",
+  "reasoning": "この文は非常に奇抜で予期せぬイメージで満載であり、現実離れした要素（緑青のような空、屋根の上でジャグリングする猫など）を含んでいます。これらの要素は、LLMがより創造的で自由な表現をするために、高温設定で生成された可能性を示しています。温度パラメータが高いと、モデルはより多くのアイデアと奇抜な組み合わせを生成し、通常の制約から解放されると考えられます。この文はまさにそのような自由な発想を反映しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "9da2b188-4253-4cd1-bda7-725e633a5253",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.866765+00:00"
+}

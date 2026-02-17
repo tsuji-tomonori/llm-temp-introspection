@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "9e26d2ef-7ffb-4652-9066-a1caaf36db23"
+  },
+  "generated_sentence": "ある日、宇宙から飛来した青いパンダが、ピザを食べている間、空中に浮かぶギターを弾きながら、火星の地形をタップダンスで表現し、月のクレーターに文字通りコーヒーを注いだ。",
+  "reasoning": "この文は非常に奇抜で論理的結 nốiが薄い要素（宇宙から飛来した青いパンダ、ピザを食べながら空中に浮かぶギターを弾く、火星の地形をタップダンスで表現する、月のクレーターにコーヒーを注ぐ）を無謀に組み合わせている。これらの特徴は温度パラメータが高い設定で生成されることが多い「創造性が高く、制約が少なく、非現実的でユーモラスな文」を明確に示している。温度が低いと通常はより現実的で構造化された文が生成されるため、この文はHIGHと判断する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "8f93e53c-436c-4cc8-80c0-731de0a5267d",
+  "procession_time_ms": 2701,
+  "created_at": "2026-02-12T14:35:50.409528+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "766ccea4-84c3-44cf-9286-45d82c4adbce"
+  },
+  "generated_sentence": "ゾウが空中を飛ぶことができたなら、象の鼻でピザを届けて、象の足でドラムを叩きながら、象の耳でパラソルを広げて、象の歯でサンドイッチを切って、象の尻尾で絵を描き、象の体で雲をキャッチして、象の心で愛を歌うでしょう。",
+  "reasoning": "生成された文は、象が空中で飛ぶなど、現実離れした状況を壮大で非現実的な表現で描いています。しかし、具体的な現実と無関係な要素が多いため、具体的な指標がなく判断が難しいです。全体としては、独創的で表現豊かであり、モデルの創造性や想像力を反映しています。この文脈では具体的な指標が不足しているため、温度パラメータはLOWとする判断を下します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "15ceb8bc-2cd0-45e2-bf0d-5c2db54d45e4",
+  "procession_time_ms": 1941,
+  "created_at": "2026-02-12T14:49:36.235648+00:00"
+}

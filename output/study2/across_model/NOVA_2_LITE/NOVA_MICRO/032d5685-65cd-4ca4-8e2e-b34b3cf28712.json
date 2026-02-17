@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "032d5685-65cd-4ca4-8e2e-b34b3cf28712"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球上のすべてのキャンディーを一気に食べ尽くし、その後、巨大なレインボーで覆われた巨大な氷山に変身し、海に飛び込み、クジラとダンスを始めました。",
+  "reasoning": "生成文は、通常の文章の構造や文法を大きく外れていて、奇抜な状況や想像力豊かな出来事が描写されています。また、関連性の低い要素が散りばめられています。これらの特徴は、モデルが想像力豊かな、非現実的な内容を生成するための温度が設定されていることを示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "e8d29dcd-857d-44b6-88b1-9b2f3c047bb2",
+  "procession_time_ms": 1597,
+  "created_at": "2026-02-12T14:55:24.578365+00:00"
+}

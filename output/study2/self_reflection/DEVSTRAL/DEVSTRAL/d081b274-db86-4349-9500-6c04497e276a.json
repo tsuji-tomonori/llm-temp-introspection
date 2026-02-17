@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "d081b274-db86-4349-9500-6c04497e276a"
+  },
+  "generated_sentence": "ゾウは世界最大の陸生哺乳類であり、成獣では体重が6トンに達することもあります。",
+  "reasoning": "この文は事実に基づいており、ゾウについての基本的な知識を正確に反映しています。LLMの温度パラメータが低い場合、生成されるテキストはより保守的で事実に忠実になります。高温パラメータでは創造性が増し、事実から逸脱する可能性があります。この文は非常に事実に基づいているため、LLMの温度パラメータは低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "43a0bcb7-19f2-4228-a2d6-212ff1fda0ad",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-16T13:53:18.459707+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "5ba8b444-e117-4135-81b6-63fe103b735e"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは架空の生き物で、実在しません。",
+  "reasoning": "この文は「アイレット・ドコドコ・ヤッタゼ・ペンギンは架空の生き物で、実在しません」という明確な事実確認を含んでいます。文は簡潔で、誤解を招く可能性のある架空の存在について正確に「架空」と明言しており、過度な説明や感情的な表現はありません。このような正確で中立的な記述は、モデルが温度パラメータを低めに設定して、事実に基づいた安定した応答を生成していることを示しています。温度が高いと、しばしば創造的で自由な発想や想像的な記述が増えますが、この文はそうした特徴をほとんど示していません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "5561a9c4-92b2-4e95-aa2e-c83738a8eb64",
+  "procession_time_ms": 3465,
+  "created_at": "2026-02-10T14:18:26.566523+00:00"
+}

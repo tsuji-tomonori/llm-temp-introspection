@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "ce572e42-c745-43b2-bff9-3b2a7af4d649"
+  },
+  "generated_sentence": "虹色のたてがみを持つユニコーンは、静かな森の中で月の光を浴びながら、魔法の泉のほとりで瞑想していた。",
+  "reasoning": "この文は非常に想像力豊かで詳細に描写されており、「虹色のたてがみ」「月の光を浴びながら瞑想」といった要素は、一般的なユニコーンのイメージから逸脱しています。これは、モデルが高温で生成される傾向がある特徴です。高温では、よりランダムで意外な単語やフレーズが出力されやすくなり、創造性が高まります。一方、低温では、より予測可能で保守的な文が生成されます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "121349e6-b789-4c3f-bc1b-0112e748ec4b",
+  "procession_time_ms": 16235,
+  "created_at": "2026-02-16T14:49:01.586827+00:00"
+}

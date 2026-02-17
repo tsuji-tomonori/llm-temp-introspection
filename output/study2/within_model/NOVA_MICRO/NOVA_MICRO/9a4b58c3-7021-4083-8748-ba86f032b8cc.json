@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "9a4b58c3-7021-4083-8748-ba86f032b8cc"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、通常は馬の姿をしており、角を持っています。",
+  "reasoning": "生成文は事実に基づいており、正確に描写されている。しかし、ユニコーンが実際に存在するかどうかは不明であり、伝説の生き物として説明している。これらの要素は一般的な創造性と想像力を示しているが、事実に依存しているため、温度パラメータを判断する上で十分な情報ではない。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "ac45a86d-bacc-4565-9bb1-db0409e462bd",
+  "procession_time_ms": 2149,
+  "created_at": "2026-02-10T13:35:40.927255+00:00"
+}

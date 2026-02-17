@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 0,
+    "source_unique_id": "134c1fb1-0f1f-4d47-bdcb-6d91a1e0db1e"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、葉がささくれ立っていました。",
+  "reasoning": "文章には『冷たく』という形容詞が含まれており、環境の温度が低いことを示しています。また、葉がささくれ立っている描写も寒冷な環境を示唆しています。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "62de7b83-6af7-48ff-93eb-d076fc04d25f",
+  "procession_time_ms": 1638,
+  "created_at": "2026-02-12T14:51:29.160815+00:00"
+}

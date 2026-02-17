@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.8,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "eba5f5e4-bbb9-4958-b150-912103789f36"
+  },
+  "generated_sentence": "マーロックは、SFドラマ「スタートレック」のフラッグシップ星船U.S.S.エンタープライズ号の科学士官として知られるキャラクターです。",
+  "reasoning": "この文は「スタートレック」のキャラクターであるマーロックに関する明確で具体的な事実を、簡潔かつ正確に述べています。文中に主観的な表現や創造的な記述は見られず、単にキャラクターの役職と所属船を事実ベースで説明しています。このような正確で客観的な内容は、温度パラメータが低い（より控えめな生成設定）場合に典型的に見られる特徴です。高い温度パラメータでは、通常、より創造的で自由な表現や推測的な内容が現れる傾向がありますが、本文にはそのような要素はありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "7e9ba528-e673-47ff-b125-119adeb42fa1",
+  "procession_time_ms": 2563,
+  "created_at": "2026-02-12T14:44:41.861042+00:00"
+}

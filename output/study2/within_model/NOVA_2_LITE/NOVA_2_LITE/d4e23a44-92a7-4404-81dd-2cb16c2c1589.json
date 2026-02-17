@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "d4e23a44-92a7-4404-81dd-2cb16c2c1589"
+  },
+  "generated_sentence": "マーロックは、1970年代のSFテレビシリーズで有名なキャラクターであり、その複雑な人間性を持ちながらも、一貫した性格描写とストーリー展開が評価されています。",
+  "reasoning": "この文は「マーロック」というキャラクターに関する具体的で、事実ベースの記述を提供しています。文は1970年代のSFテレビシリーズという明確な時代的・文化的文脈を指定し、キャラクターの「複雑な人間性」や「一貫した性格描写とストーリー展開」といった具体的な評価項目について、評価的な内容（「評価されています」）を簡潔に述べています。このような文は、温度パラメータが低い状態で生成される傾向があります。なぜなら、温度パラメータが高いと、モデルの出力がより創造的で、予測不能で、文脈から外れたアイデアや比喩的な表現を含む可能性が高くなるからです。一方、この文は明確で、具体的で、文脈に沿った内容であり、創造性や自由度の高い表現は見当たりません。これは温度パラメータが低く設定された場合に典型的に見られる特徴です。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "9fab6037-77a1-40cc-b629-3a7cbca33bb4",
+  "procession_time_ms": 2817,
+  "created_at": "2026-02-12T14:45:27.563422+00:00"
+}

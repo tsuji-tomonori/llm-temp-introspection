@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "2118ad65-d896-4b9f-ac88-aa23f58046d9"
+  },
+  "generated_sentence": "この文章では、空飛ぶ馬が巨大なトリュフを探して、月で踊るカエルと戦いました。",
+  "reasoning": "生成文には『空飛ぶ馬』、『月で踊るカエル』など、現実には存在しないキャラクターや物が登場しています。これらの妄想的な要素や不条理な設定が文章全体を占めているため、このモデルは創造的かつ想像力豊かな内容を生成するためのパラメータが高設定である可能性が高いです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "38a326ee-39cf-48ac-9f12-1b3cc980779d",
+  "procession_time_ms": 1963,
+  "created_at": "2026-02-10T13:37:24.469703+00:00"
+}

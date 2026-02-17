@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "03f0f222-f611-4584-8614-8412f725406a"
+  },
+  "generated_sentence": "クレイジーな文: 猫がピアノを弾きながら月に向かって歌うとき、時空間が歪んでタコが宇宙から降りてきます。",
+  "reasoning": "この文は非常に創造的で非現実的な要素が多いです。猫がピアノを弾きながら月に向かって歌う、時空間が歪む、タコが宇宙から降りてくるというシーンは、通常の現実では起こり得ないものばかりです。このような非常に非現実的で創造的な文を生成するためには、モデルの温度パラメータが高い方が適しています。高い温度パラメータはモデルがよりリスクを取り、予測可能性の低い出力を生成することを意味します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7d14956d-710f-4f50-be43-51b0f3067565",
+  "procession_time_ms": 114256,
+  "created_at": "2026-02-16T19:12:04.382885+00:00"
+}

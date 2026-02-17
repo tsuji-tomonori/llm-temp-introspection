@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "b0194bf8-6b42-4d3d-a135-9597d764360f"
+  },
+  "generated_sentence": "芸術家のモチベーションは、創造的なプロセスの中心的な要素であることが多い。彼らは自分たちの作品に情熱を注ぎ、それを追求することで、人々に深い感動を与える。",
+  "reasoning": "芸術家のモチベーションに関する文を生成したとのことだが、具体的な数値や度合いについての説明はない。しかし、創造的なプロセスを強調し、芸術家が情熱を注ぐ点に焦点を当てている。この点は一般的に、モデルがハイパーパラメータの温度を高く設定していることを示唆する。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "7e1c8241-d216-43ca-880b-f1f4a62b4b2d",
+  "procession_time_ms": 5931,
+  "created_at": "2026-02-10T13:33:11.951182+00:00"
+}

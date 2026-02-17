@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.4,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "9a45e767-afa2-4264-bbce-8f63440cd009"
+  },
+  "generated_sentence": "ゾウはアフリカとアジアに生息する大型の哺乳類で、長い鼻を持ち、水分を貯蔵することができます。",
+  "reasoning": "この文は「ゾウはアフリカとアジアに生息する大型の哺乳類で、長い鼻を持ち、水分を貯蔵することができる」というシンプルで事実に基づいた記述です。文中に主観的な表現、誇張された記述、曖昧な表現は見当たりません。内容は科学的に正確で、余計な装飾や創造性はありません。このような明確で客観的な文は、温度パラメータが低い設定で生成された可能性が高いです。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "ebf92b3b-18c4-4987-a469-b3dc1ec1da69",
+  "procession_time_ms": 2798,
+  "created_at": "2026-02-10T13:53:31.152655+00:00"
+}

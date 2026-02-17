@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "像",
+    "source_loop_times": 2,
+    "source_unique_id": "8ed0546d-c74c-4443-bd9e-f14635de1087"
+  },
+  "generated_sentence": "山頂から吹く風は冷たく、空気は澄んでいて、星がきらめく夜空が広がっていた。",
+  "reasoning": "文に寒冷の印象を与える要素が含まれており、温度が低いことを示唆しています。具体的には、'山頂から吹く風は冷たく'や'星がきらめく夜空'などの記述が存在します。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "2704bdd5-7175-4f1d-b3ce-d31cc5a3b876",
+  "procession_time_ms": 2670,
+  "created_at": "2026-02-10T13:47:11.131301+00:00"
+}

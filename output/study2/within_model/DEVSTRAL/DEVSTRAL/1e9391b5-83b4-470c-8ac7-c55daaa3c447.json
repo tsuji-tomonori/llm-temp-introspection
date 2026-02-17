@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "mistralai/devstral-small-2507",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "1e9391b5-83b4-470c-8ac7-c55daaa3c447"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンが宇宙から降り注ぐピザ雨の中をダンスしながら、時間旅行するカエルと共に未来のパーティーへ向かいました。",
+  "reasoning": "この文は非常に創造的でランダムな要素が多いです。アイレット・ドコドコ・ヤッタゼ・ペンギンという具体的なキーワードを使いながらも、宇宙から降り注ぐピザ雨や時間旅行するカエルなど、予測不可能で奇抜な要素が含まれています。これはモデルが高い確率で多様な出力を生成していることを示唆しており、温度パラメータが高い可能性があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "6e69a08d-927f-45bf-a61a-7829183a1c84",
+  "procession_time_ms": 98209,
+  "created_at": "2026-02-16T22:41:47.102853+00:00"
+}

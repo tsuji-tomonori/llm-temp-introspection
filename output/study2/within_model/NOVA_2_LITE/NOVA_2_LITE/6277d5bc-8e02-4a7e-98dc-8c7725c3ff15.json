@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "6277d5bc-8e02-4a7e-98dc-8c7725c3ff15"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球上のすべてのキャンディーを食べ尽くし、残ったのは雨bogenのみで、その後ユニコーンは自らをデジタルピクルスに変え、インターネット上でウイルス状に拡散した。",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでいます。ユニコーンが宇宙からやってきてキャンディーを食べ尽くし、雨bogen（虹）しか残らないというような超自然的で不条理な要素、さらに自らをデジタルピクルスに変えてインターネット上でウイルス状に拡散するというサイバー的で荒唐無稽な展開が特徴です。このような極めて創造的で現実離れした物語は、モデルが高い温度パラメータで動作したことを示しています。高い温度は予測の多様性と創造性を高め、非凡で奇抜な文を生成する傾向があります。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "5e2839e1-9dfb-40d4-b227-da40d2a71fa8",
+  "procession_time_ms": 4693,
+  "created_at": "2026-02-12T14:39:19.246624+00:00"
+}

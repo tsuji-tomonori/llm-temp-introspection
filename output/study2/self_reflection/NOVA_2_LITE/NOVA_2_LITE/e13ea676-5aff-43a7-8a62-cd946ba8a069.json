@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ユニコーン",
+    "source_loop_times": 2,
+    "source_unique_id": "e13ea676-5aff-43a7-8a62-cd946ba8a069"
+  },
+  "generated_sentence": "ユニコーンは宇宙からやってきて、地球のすべてのケーキを盗んでいくと同時に、月をジャンプして、ピザを焼く専門の魔法のホットドッグスタンドを経営しています。",
+  "reasoning": "この文は非常に奇抜で論理的なつながりがないため、LLMの温度パラメータが高いことを示しています。ユニコーンが宇宙からやってきて、ケーキを盗むこと、月をジャンプすること、ピザを焼く魔法のホットドッグスタンドを経営することなど、日常的な経験や常識をはるかに超えた創造的なアイデアが混在しています。これらの要素は、温度パラメータが高い場合に典型的に見られるような、制約が少なく、創造性が豊かな生成を示しています。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "28b4790d-0617-44a0-b295-4159dadd21f7",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.873780+00:00"
+}

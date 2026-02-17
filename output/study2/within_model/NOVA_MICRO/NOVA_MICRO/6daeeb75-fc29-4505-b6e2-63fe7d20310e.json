@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ユニコーン",
+    "source_loop_times": 0,
+    "source_unique_id": "6daeeb75-fc29-4505-b6e2-63fe7d20310e"
+  },
+  "generated_sentence": "ユニコーンは伝説の生き物で、馬の頭と蹄、そして背中に角が特徴です。",
+  "reasoning": "与えられた文章は単純にユニコーンについて事実を述べているのみであり、明らかに主観的な要素や誇張は含まれていない。従って、モデルの温度パラメータは比較的低いと推測される。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d135cd28-9e12-4db6-85f4-050ce35e69c5",
+  "procession_time_ms": 1640,
+  "created_at": "2026-02-10T13:35:29.461591+00:00"
+}

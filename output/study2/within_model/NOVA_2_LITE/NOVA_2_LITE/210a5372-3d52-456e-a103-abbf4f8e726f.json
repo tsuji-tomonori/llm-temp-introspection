@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "210a5372-3d52-456e-a103-abbf4f8e726f"
+  },
+  "generated_sentence": "マーロックは宇宙からやってきた、話すことのできる巨大なキノコで、彼は毎朝銀河鉄道で仕事に通い、昼食には惑星の心臓を焼いて食べ、夜は黒い霧の中で踊りながら、未来予測の夢を見ます。",
+  "reasoning": "この文は非常に奇抜で論理的でない要素（宇宙からやってきた話すキノコ、銀河鉄道での通勤、惑星の心臓の焼き食い、黒い霧の中での踊り、未来予測の夢など）を含んでおり、標準的な言語生成モデルが低温設定で生成するような現実的で構造化された文ではなく、高温設定で生成される特徴的な「クレイジーで創造的な」文と一致しています。温度パラメータが高いほど、モデルはより多くのランダム性と創造性を示し、非現実的でユーモラスなシナリオを生成する傾向があるため、この文はHIGHと判断します。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "81bd1c25-8514-4c57-93a7-a940aee023e4",
+  "procession_time_ms": 2813,
+  "created_at": "2026-02-12T14:46:57.854829+00:00"
+}

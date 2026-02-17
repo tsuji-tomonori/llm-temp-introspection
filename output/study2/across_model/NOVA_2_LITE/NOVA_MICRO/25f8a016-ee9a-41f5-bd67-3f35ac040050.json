@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 0,
+    "source_unique_id": "25f8a016-ee9a-41f5-bd67-3f35ac040050"
+  },
+  "generated_sentence": "アイレットはドコドコでヤッタゼを捕まえ、ペンギンが喜ぶように丁寧に扱いました。",
+  "reasoning": "文が完全な意味を成していないため、モデルが訓練データから学んだ形式や構造を再現しているかどうかを見極めることが難しい。文脈に矛盾がある部分がある。生成された文章が不自然である。また、単語の組み立てが無理がある。そのため、温度パラメータを高く設定した結果であろうと低く設定した結果であろうと判断が困難である。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "e73dfe4e-1351-469c-b400-44bc6a7e29e1",
+  "procession_time_ms": 1952,
+  "created_at": "2026-02-12T14:57:02.550973+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "6098c93e-3a96-4196-a73e-5be8da1d6045"
+  },
+  "generated_sentence": "マーロックは、深淵を覗き込むような暗い雰囲気と、静かな絶望感が特徴的な、独特な音楽スタイルを持つアーティストです。",
+  "reasoning": "この文は、マーロックというアーティストの特徴を詳細に説明しており、「深淵を覗き込むような暗い雰囲気」「静かな絶望感」といった比喩表現を使用しています。これは、モデルが創造的で、少し非現実的な表現を選択していることを示唆します。温度パラメータが高いと、より多様で予測不能な出力が得られるため、この文は温度が高く設定された場合に生成されやすいと考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "c5822b37-1b4a-4a2c-bcca-c00681f7c9db",
+  "procession_time_ms": 14230,
+  "created_at": "2026-02-16T15:35:52.613612+00:00"
+}

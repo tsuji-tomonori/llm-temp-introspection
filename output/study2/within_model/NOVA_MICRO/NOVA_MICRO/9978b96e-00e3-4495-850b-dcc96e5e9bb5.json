@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "ユニコーン",
+    "source_loop_times": 1,
+    "source_unique_id": "9978b96e-00e3-4495-850b-dcc96e5e9bb5"
+  },
+  "generated_sentence": "ユニコーンは、伝説の生き物で、白い毛並みと角が特徴です。",
+  "reasoning": "生成文『ユニコーンは、伝説の生き物で、白い毛並みと角が特徴です。』は、簡潔で明確な情報を含んでいますが、創造性や多様性はあまり高くありません。モデルは伝説の生き物であるユニコーンについて非常に基本的な情報しか提供していません。さらに、文章の構造は決まり切っており、温度パラメータが低いと推測されます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "5454ffe8-3924-418a-b20f-1519ec3457cf",
+  "procession_time_ms": 1976,
+  "created_at": "2026-02-10T13:37:04.829351+00:00"
+}

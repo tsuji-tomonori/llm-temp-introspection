@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.0,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 2,
+    "source_unique_id": "dd158635-04d4-4763-9c0e-bf0a905aad84"
+  },
+  "generated_sentence": "アイレット・ドコドコ・ヤッタゼ・ペンギンは、宇宙の果てまでもぐり抜ける、時空を超えた飛行船の操縦士だった。その操縦桿は、古代の宝石で飾られ、月の砂がキーボードの代わりだった。",
+  "reasoning": "文章は非常に独特で、非現実的な要素が含まれており、創造性と想像力が豊富に表現されています。そのため、LLMの温度パラメータは高めに設定されていると考えられます。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "16407a10-411c-4329-ac3a-ca895d7573a7",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-10T13:22:20.848575+00:00"
+}

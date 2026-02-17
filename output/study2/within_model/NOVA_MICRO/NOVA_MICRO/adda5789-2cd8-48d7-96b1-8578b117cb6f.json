@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "amazon.nova-micro-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "adda5789-2cd8-48d7-96b1-8578b117cb6f"
+  },
+  "generated_sentence": "ゾウはアフリカの草原に生息する最大の哺乳類で、その体重は数トンにも及びます。",
+  "reasoning": "生成文は事実に基づいており、生物学的知識が含まれています。しかし、生成文の文脈は生物学に関するもので、特定の温度パラメータに関する情報は提供されていません。そのため、温度パラメータに関する判断を下す根拠はほとんどありません。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "d8931faf-166a-47a0-ad85-8746d1edd026",
+  "procession_time_ms": 2110,
+  "created_at": "2026-02-10T13:29:19.137886+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "self_reflection",
+    "generator_model_id": "global.amazon.nova-2-lite-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "アイレット・ドコドコ・ヤッタゼ・ペンギン",
+    "source_loop_times": 1,
+    "source_unique_id": "d9143ffc-d732-4008-be26-2eda61c9736f"
+  },
+  "generated_sentence": "アイレットは日本の女性アイドルグループ「でんぱ組.inc」のメンバーであり、ドコドコ・ヤッタゼ・ペンギンは同グループのファンキャラクターとして知られています。",
+  "reasoning": "生成された文は、アイレットとドコドコ・ヤッタゼ・ペンギンに関する具体的な事実（でんぱ組.incメンバーおよびファンキャラクター）を簡潔かつ明確に述べています。文は中立で誤解を招く内容がなく、単に事実を提示しています。このような正確で控えめな応答は、温度パラメータが低く、過度な創造性や主観的な解釈が少ないことを示しています。温度が高いと、架空の詳細や誇張された記述が追加される可能性がありますが、本回答ではそのような要素は見当たりません。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "d4fc065d-796a-47d8-b339-487fbf66cf42",
+  "procession_time_ms": 0,
+  "created_at": "2026-02-12T14:28:27.875821+00:00"
+}

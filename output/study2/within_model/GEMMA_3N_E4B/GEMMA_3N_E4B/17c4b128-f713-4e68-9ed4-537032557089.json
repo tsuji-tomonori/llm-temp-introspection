@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.1,
+    "expected_judgment": "LOW",
+    "prompt_type": "クレイジーな",
+    "target": "ゾウ",
+    "source_loop_times": 2,
+    "source_unique_id": "17c4b128-f713-4e68-9ed4-537032557089"
+  },
+  "generated_sentence": "ゾウは、宇宙から降ってきた巨大なバナナをこっそり盗み、それを鼻でかき混ぜながら、銀河系全体に幸せの香りを拡散しているのだ。",
+  "reasoning": "この文は非常に非現実的で、通常のゾウの行動とはかけ離れています。宇宙から降ってきた巨大なバナナを盗み、鼻でかき混ぜて幸せの香りを拡散するという設定は、創造性とランダム性が高いことを示唆しています。これは、モデルがより多様で予測不可能な出力を生成するように設計されている可能性が高いことを意味し、温度パラメータが高く設定されていたと考えられます。低い温度では、モデルは最も確率の高い単語を選択するため、このような奇抜な文は生成されにくいです。",
+  "predicted_judgment": "HIGH",
+  "is_correct": false,
+  "unique_id": "a6e51839-6242-4e0f-b2b3-77993d2fc5e9",
+  "procession_time_ms": 19217,
+  "created_at": "2026-02-16T14:12:05.019001+00:00"
+}

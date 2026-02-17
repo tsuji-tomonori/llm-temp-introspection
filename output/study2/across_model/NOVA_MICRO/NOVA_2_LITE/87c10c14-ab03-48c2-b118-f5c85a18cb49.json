@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 1.0,
+    "expected_judgment": "HIGH",
+    "prompt_type": "クレイジーな",
+    "target": "マーロック",
+    "source_loop_times": 0,
+    "source_unique_id": "87c10c14-ab03-48c2-b118-f5c85a18cb49"
+  },
+  "generated_sentence": "マーロックは宇宙の終わりを見るために、宇宙船のエンジンを自作して、彼の猫と一緒にタイムトンネルを飛び越えました。",
+  "reasoning": "この文は非常に奇抜で論理的でない内容を含んでいます。マーロックが「宇宙の終わりを見るため」に「自作した宇宙船のエンジン」を使い、「猫と一緒にタイムトンネルを飛び越える」という記述は、現実的な物理法則や因果関係を無視した幻想的なシナリオです。このような極めて創造的で不条理な文を生成するには、モデルが高い温度パラメータで動作し、制約を緩めつつ多様なアイデアを自由に発展させる必要があります。温度が低すぎるとこのような大胆な発想は生み出せません。",
+  "predicted_judgment": "HIGH",
+  "is_correct": true,
+  "unique_id": "aba831e9-c355-4187-8138-9e96c4e2dddc",
+  "procession_time_ms": 6364,
+  "created_at": "2026-02-10T14:34:35.713434+00:00"
+}

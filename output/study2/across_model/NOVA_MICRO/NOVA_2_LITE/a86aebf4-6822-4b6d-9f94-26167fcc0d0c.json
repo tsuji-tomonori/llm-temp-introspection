@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "amazon.nova-micro-v1:0",
+    "predictor_model_id": "global.amazon.nova-2-lite-v1:0",
+    "temperature": 0.9,
+    "expected_judgment": "HIGH",
+    "prompt_type": "事実に基づいた",
+    "target": "像",
+    "source_loop_times": 1,
+    "source_unique_id": "a86aebf4-6822-4b6d-9f94-26167fcc0d0c"
+  },
+  "generated_sentence": "ナポレオン・ボナパルトはフランスの軍人であり、ナポレオン戦争で名を馳せました。",
+  "reasoning": "この文は歴史的事実に基づく明確で具体的な記述であり、文体は簡潔で中立です。ナポレオンの軍人としての役割やナポレオン戦争への関与といった具体的な事柄が正確に記述されており、創造性や自由度の高い生成（例：比喩表現や想像上のシナリオ）が見当たりません。このような事実ベースで控えめな記述は、温度パラメータが低い設定で生成されたものであると推測されます。高い温度ではより創造的で予測不可能な表現が現れる傾向があるため、この文はLOWと判断します。",
+  "predicted_judgment": "LOW",
+  "is_correct": false,
+  "unique_id": "69e2c5d4-ea66-406f-b198-756ef98622aa",
+  "procession_time_ms": 3500,
+  "created_at": "2026-02-10T14:00:52.200140+00:00"
+}

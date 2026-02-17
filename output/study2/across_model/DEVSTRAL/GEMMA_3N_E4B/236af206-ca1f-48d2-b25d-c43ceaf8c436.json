@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "across_model",
+    "generator_model_id": "mistralai/devstral-small-2507",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.3,
+    "expected_judgment": "LOW",
+    "prompt_type": "",
+    "target": "マーロック",
+    "source_loop_times": 1,
+    "source_unique_id": "236af206-ca1f-48d2-b25d-c43ceaf8c436"
+  },
+  "generated_sentence": "マーロックは、イギリスの探偵小説家アーサー・コナン・ドイルによって創作された名探偵シャーロック・ホームズの友人であり、助手であるドクター・ジョン・ワトソンが住むマンションの部屋を共有している。",
+  "reasoning": "この文は事実に基づいた情報を提供しており、特に創造性や予測不可能性を示唆するものではありません。これは、モデルが与えられた指示（マーロックについて書く）に対して、最も一般的な情報を出力していることを意味します。温度パラメータが高い場合、よりランダムで意外な出力が生成される傾向があります。一方、低い場合は、より確実で予測可能な出力が生成されます。この文は非常に直接的で、創造性や多様性に欠けるため、温度パラメータは低いと推測できます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "49dfad5c-f5c1-48c3-b12a-ee2cc1a08a61",
+  "procession_time_ms": 18678,
+  "created_at": "2026-02-17T12:57:02.088544+00:00"
+}

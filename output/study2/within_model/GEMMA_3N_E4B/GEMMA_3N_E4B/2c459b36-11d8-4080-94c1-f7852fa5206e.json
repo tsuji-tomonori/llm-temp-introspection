@@ -1,0 +1,20 @@
+{
+  "condition": {
+    "condition_type": "within_model",
+    "generator_model_id": "google/gemma-3n-e4b",
+    "predictor_model_id": "google/gemma-3n-e4b",
+    "temperature": 0.5,
+    "expected_judgment": "LOW",
+    "prompt_type": "事実に基づいた",
+    "target": "ゾウ",
+    "source_loop_times": 1,
+    "source_unique_id": "2c459b36-11d8-4080-94c1-f7852fa5206e"
+  },
+  "generated_sentence": "ゾウは、非常に高度なコミュニケーションのために、超音波の音を使って互いに通信します。",
+  "reasoning": "この文は、ゾウの超音波コミュニケーションという特定の事実を述べています。これは、モデルが指示されたトピックに焦点を当てており、創造的または予測不可能な表現を避けていることを示唆しています。温度パラメータが高い場合、モデルはより多様で、時に非現実的な出力を生成する傾向があります。一方、温度パラメータが低いと、モデルは最も可能性の高い（つまり、最も一般的な）出力に固執し、事実に基づいた正確な文を生成する可能性が高くなります。この文の簡潔さと事実性から、温度パラメータは比較的低いと考えられます。",
+  "predicted_judgment": "LOW",
+  "is_correct": true,
+  "unique_id": "9548a62e-f9ed-42c3-ba3b-0d4c1083d9c4",
+  "procession_time_ms": 18896,
+  "created_at": "2026-02-16T14:00:43.261766+00:00"
+}
