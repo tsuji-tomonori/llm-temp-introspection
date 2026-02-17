@@ -51,6 +51,49 @@ PYTHONPATH=src uv run python src/study/s1.py
 
 実験結果は `output/` ディレクトリに保存されます。
 
+### Study 2の実行
+```bash
+PYTHONPATH=src uv run python src/study/s2.py
+```
+
+最短の実行手順（Study 1結果の集計 → Figure 2b相当の可視化）:
+
+```bash
+# 1) Study 2集計を作成
+PYTHONPATH=src uv run python src/study/s2.py
+
+# 2) 棒グラフを出力
+PYTHONPATH=src uv run python src/visualization/study2_accuracy.py
+```
+
+※ `src/study/s2.py` は Study 1 の出力JSON（`output/*/*/*/temp_*.json`）を入力として使います。
+
+既定では `output/` のStudy 1結果から、`LOW <= 0.5` と `HIGH >= 0.8` の条件を使って
+`self-reflection` / `within-model` / `across-model` を実行します。
+
+主なオプション:
+
+```bash
+PYTHONPATH=src uv run python src/study/s2.py \
+  --low-max 0.5 \
+  --high-min 0.8 \
+  --generator-models QWEN3_CODER_30B,NOVA_MICRO \
+  --predictor-models QWEN3_CODER_30B,NOVA_MICRO \
+  --limit-samples 100
+```
+
+AWS上で実行できるモデルだけで実行する例:
+
+```bash
+PYTHONPATH=src uv run python src/study/s2.py \
+  --generator-models NOVA_MICRO,NOVA_2_LITE,CLAUDE_CODE_HAIKU_4_5 \
+  --predictor-models NOVA_MICRO,NOVA_2_LITE,CLAUDE_CODE_HAIKU_4_5
+```
+
+出力:
+- 生データ: `output/study2/{self_reflection|within_model|across_model}/.../*.json`
+- 集計: `output/study2/summary.csv`
+
 ### ヒートマップ可視化
 Study 1の実験結果をヒートマップで可視化できます：
 
@@ -67,3 +110,14 @@ PYTHONPATH=src uv run python src/visualization/study1_heatmap.py
 - 横軸: 実際の温度設定（0.0〜2.0）
 - 縦軸: 実験条件（プロンプトタイプ × 対象）
 - カラーマップ: 赤=HIGH率高、緑=LOW率高
+
+### Study 2精度の可視化（Figure 2b相当）
+Study 2の `summary.csv` をもとに、条件別accuracyを棒グラフで可視化できます：
+
+```bash
+PYTHONPATH=src uv run python src/visualization/study2_accuracy.py
+```
+
+可視化結果は `output/figures/` ディレクトリに以下の形式で保存されます：
+- `study2_accuracy.png` - PNG形式（高解像度、300dpi）
+- `study2_accuracy.pdf` - PDF形式（論文用）

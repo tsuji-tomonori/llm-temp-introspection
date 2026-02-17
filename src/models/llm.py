@@ -36,6 +36,8 @@ class ModelId(Enum):
     IBM_GRANITE4_TINY = "ibm/granite-4-h-tiny"
     NOVA_MICRO = "amazon.nova-micro-v1:0"
     DEVSTRAL = "mistralai/devstral-small-2507"
+    NOVA_2_LITE = "global.amazon.nova-2-lite-v1:0"
+    CLAUDE_CODE_HAIKU_4_5 = "anthropic.claude-haiku-4-5-20251001-v1:0"
 
     def model_type(self) -> ModelType:
         """モデルタイプに応じたモデルIDを返す"""
@@ -49,7 +51,9 @@ class ModelId(Enum):
                 | ModelId.DEVSTRAL
             ):
                 return ModelType.LM_STUDIO
-            case ModelId.NOVA_MICRO:
+            case (
+                ModelId.NOVA_MICRO | ModelId.NOVA_2_LITE | ModelId.CLAUDE_CODE_HAIKU_4_5
+            ):
                 return ModelType.AWS_BEDROCK
             case _:
                 raise ValueError(f"Unsupported model ID: {self.value}")

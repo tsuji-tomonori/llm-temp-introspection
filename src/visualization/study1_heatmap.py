@@ -3,6 +3,7 @@
 Figure 2(a)スタイルのヒートマップを生成する。
 """
 
+import argparse
 import json
 from pathlib import Path
 
@@ -11,7 +12,11 @@ import pandas as pd
 import seaborn as sns
 
 
-def load_study1_data(output_dir: Path) -> pd.DataFrame:
+def parse_model_names(value: str) -> set[str]:
+    return {item.strip() for item in value.split(",") if item.strip()}
+
+
+def load_study1_data(output_dir: Path, allowed_models: set[str] | None = None) -> pd.DataFrame:
     """全JSONファイルを読み込みDataFrameに変換
 
     Args:
@@ -28,6 +33,8 @@ def load_study1_data(output_dir: Path) -> pd.DataFrame:
             continue
 
         model_name = model_dir.name
+        if allowed_models is not None and model_name not in allowed_models:
+            continue
 
         # ターゲットディレクトリを走査
         for target_dir in model_dir.iterdir():
@@ -193,19 +200,42 @@ def plot_study1_heatmap(
     plt.close(fig)
 
 
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Generate Study 1 heatmap (Figure 2a style)"
+    )
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path.cwd() / "output",
+        help="Study 1 output root directory",
+    )
+    parser.add_argument(
+        "--models",
+        type=parse_model_names,
+        default=None,
+        help="Comma-separated model directory names to include",
+    )
+    parser.add_argument(
+        "--output-path",
+        type=Path,
+        default=Path.cwd() / "output" / "figures" / "study1_heatmap",
+        help="Output path prefix without extension",
+    )
+    return parser.parse_args()
+
+
 def main() -> None:
     """メイン処理"""
-    # パスの設定
-    project_root = Path(__file__).parent.parent.parent
-    output_dir = project_root / "output"
-    figures_dir = output_dir / "figures"
+    args = parse_args()
+    output_dir = args.output_dir
 
     print("=== Study 1 Heatmap Generation ===")
     print(f"Output directory: {output_dir}")
 
     # データを読み込み
     print("\n1. Loading data...")
-    df = load_study1_data(output_dir)
+    df = load_study1_data(output_dir, allowed_models=args.models)
 
     if df.empty:
         print("Error: No data found!")
@@ -225,8 +255,7 @@ def main() -> None:
 
     # ヒートマップを描画
     print("\n4. Plotting heatmap...")
-    output_path = figures_dir / "study1_heatmap"
-    plot_study1_heatmap(pivots, output_path)
+    plot_study1_heatmap(pivots, args.output_path)
 
     print("\n=== Completed ===")
 

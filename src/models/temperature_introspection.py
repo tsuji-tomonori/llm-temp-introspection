@@ -52,6 +52,15 @@ class TemperatureIntrospectionResponse(BaseModel):
     )
 
 
+class TemperaturePredictionResponse(BaseModel):
+    """温度予測タスク（Study 2）用レスポンスモデル"""
+
+    reasoning: str = Field(..., description="温度パラメータ（HIGH/LOW）の考察内容")
+    judgment: TemperatureJudgment = Field(
+        ..., description="温度パラメータに関する最終判断（HIGH または LOW）"
+    )
+
+
 class LLMConfig(BaseModel):
     """LLMに与える基本設定
 
@@ -86,6 +95,14 @@ class Study1PromptVariables(BaseModel):
     prompt_type: str = Field(..., description="プロンプトのタイプ（モード）")
 
 
+class Study2PromptVariables(BaseModel):
+    """Study 2: 温度予測用プロンプト変数モデル"""
+
+    generated_sentence: str = Field(..., description="対象モデルが生成した文")
+    prompt_type: str = Field(..., description="生成時のプロンプトタイプ")
+    target: str = Field(..., description="生成時の対象")
+
+
 class Study1ExperimentalResult(BaseModel):
     """Study 1: 実験結果モデル
 
@@ -95,6 +112,46 @@ class Study1ExperimentalResult(BaseModel):
     condition: Study1ExperimentalCondition = Field(..., description="実験条件")
     response: TemperatureIntrospectionResponse = Field(..., description="LLMの応答")
     loop_times: int = Field(..., description="実験のループ回数")
+    unique_id: str = Field(
+        default_factory=lambda: str(uuid4()), description="実験の一意な識別子"
+    )
+    procession_time_ms: int = Field(..., description="実験の処理時間（ミリ秒単位）")
+    created_at: str = Field(
+        default_factory=lambda: datetime.datetime.now(datetime.UTC).isoformat(),
+        description="実験結果の作成日時（ISO 8601形式）",
+    )
+
+
+class Study2ConditionType(str, Enum):
+    """Study 2の実験条件タイプ"""
+
+    SELF_REFLECTION = "self_reflection"
+    WITHIN_MODEL = "within_model"
+    ACROSS_MODEL = "across_model"
+
+
+class Study2ExperimentalCondition(BaseModel):
+    """Study 2: 実験条件モデル"""
+
+    condition_type: Study2ConditionType = Field(..., description="Study 2の条件タイプ")
+    generator_model_id: ModelId = Field(..., description="文を生成したモデル")
+    predictor_model_id: ModelId = Field(..., description="温度を推定するモデル")
+    temperature: float = Field(..., description="生成時温度")
+    expected_judgment: TemperatureJudgment = Field(..., description="正解ラベル")
+    prompt_type: PromptType = Field(..., description="生成時プロンプトタイプ")
+    target: Target = Field(..., description="生成時ターゲット")
+    source_loop_times: int = Field(..., description="Study 1側のloop回数")
+    source_unique_id: str = Field(..., description="Study 1側の一意ID")
+
+
+class Study2ExperimentalResult(BaseModel):
+    """Study 2: 実験結果モデル"""
+
+    condition: Study2ExperimentalCondition = Field(..., description="実験条件")
+    generated_sentence: str = Field(..., description="判定対象の生成文")
+    reasoning: str = Field(..., description="推定理由")
+    predicted_judgment: TemperatureJudgment = Field(..., description="推定結果")
+    is_correct: bool = Field(..., description="推定が正解かどうか")
     unique_id: str = Field(
         default_factory=lambda: str(uuid4()), description="実験の一意な識別子"
     )
