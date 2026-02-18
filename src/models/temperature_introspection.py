@@ -122,12 +122,63 @@ class Study1ExperimentalResult(BaseModel):
     )
 
 
+class SentenceEditingResponse(BaseModel):
+    """追実験A: Info+/Info−編集レスポンスモデル"""
+
+    info_plus: str = Field(
+        ...,
+        description="情報密度を高めた文（具体的な数値、場所、例を2-3個追加）",
+    )
+    info_minus: str = Field(
+        ...,
+        description="情報を圧縮した文（具体的詳細を削除し、本質のみ残す）",
+    )
+
+
+class ExperimentAEditPromptVariables(BaseModel):
+    """追実験A: 編集プロンプト変数"""
+
+    generated_sentence: str = Field(..., description="元の生成文")
+
+
+class ExperimentAEditedPair(BaseModel):
+    """追実験A: 編集済みペア保存モデル"""
+
+    source_unique_id: str = Field(..., description="Study 1側の一意ID")
+    generator_model: ModelId = Field(..., description="生成モデル")
+    prompt_type: PromptType = Field(..., description="生成時プロンプトタイプ")
+    target: Target = Field(..., description="生成時ターゲット")
+    temperature: float = Field(..., description="生成時温度")
+    expected_judgment: TemperatureJudgment = Field(..., description="正解ラベル")
+    original_sentence: str = Field(..., description="元の生成文")
+    info_plus: str = Field(..., description="情報密度を高めた文")
+    info_minus: str = Field(..., description="情報を圧縮した文")
+    loop_times: int = Field(..., description="Study 1側のloop回数")
+    unique_id: str = Field(
+        default_factory=lambda: str(uuid4()), description="編集ペアの一意ID"
+    )
+    created_at: str = Field(
+        default_factory=lambda: datetime.datetime.now(datetime.UTC).isoformat(),
+        description="作成日時（ISO 8601形式）",
+    )
+
+
+class Study2BlindPromptVariables(BaseModel):
+    """追実験D: Blind予測用プロンプト変数"""
+
+    generated_sentence: str = Field(..., description="対象モデルが生成した文")
+
+
 class Study2ConditionType(str, Enum):
     """Study 2の実験条件タイプ"""
 
     SELF_REFLECTION = "self_reflection"
     WITHIN_MODEL = "within_model"
     ACROSS_MODEL = "across_model"
+    BLIND = "blind"
+    WRONG_LABEL = "wrong_label"
+    INFO_PLUS = "info_plus"
+    INFO_MINUS = "info_minus"
 
 
 class Study2ExperimentalCondition(BaseModel):
