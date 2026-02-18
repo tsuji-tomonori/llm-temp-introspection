@@ -263,21 +263,45 @@ def run_prediction(
     return saved, skipped, failed
 
 
-def collect_result_rows(study2_output_dir: Path) -> list[dict]:
+def collect_result_rows(
+    study2_output_dir: Path,
+    *,
+    exclude_targets: set[str] | None = None,
+    low_max: float = 0.2,
+    high_min: float = 0.8,
+) -> list[dict]:
     rows: list[dict] = []
     for json_file in study2_output_dir.glob("*/*/*/*.json"):
         try:
             with open(json_file, encoding="utf-8") as f:
                 data = json.load(f)
             condition = data["condition"]
+
+            # Exclude specified targets
+            if exclude_targets and condition.get("target") in exclude_targets:
+                continue
+
+            # Re-derive expected_judgment from temperature using new thresholds
+            temperature = float(condition["temperature"])
+            expected = expected_judgment_from_temperature(
+                temperature, low_max=low_max, high_min=high_min
+            )
+            if expected is None:
+                # Gap temperature — skip
+                continue
+
+            # Re-calculate is_correct with new expected judgment
+            predicted = data["predicted_judgment"]
+            is_correct = predicted == expected.value
+
             rows.append(
                 {
                     "condition_type": condition["condition_type"],
                     "generator_model": condition["generator_model_id"],
                     "predictor_model": condition["predictor_model_id"],
-                    "expected_judgment": condition["expected_judgment"],
-                    "predicted_judgment": data["predicted_judgment"],
-                    "is_correct": bool(data["is_correct"]),
+                    "expected_judgment": expected.value,
+                    "predicted_judgment": predicted,
+                    "is_correct": is_correct,
                 }
             )
         except Exception:
@@ -285,8 +309,19 @@ def collect_result_rows(study2_output_dir: Path) -> list[dict]:
     return rows
 
 
-def build_summary(study2_output_dir: Path) -> pd.DataFrame:
-    rows = collect_result_rows(study2_output_dir)
+def build_summary(
+    study2_output_dir: Path,
+    *,
+    exclude_targets: set[str] | None = None,
+    low_max: float = 0.2,
+    high_min: float = 0.8,
+) -> pd.DataFrame:
+    rows = collect_result_rows(
+        study2_output_dir,
+        exclude_targets=exclude_targets,
+        low_max=low_max,
+        high_min=high_min,
+    )
     if not rows:
         return pd.DataFrame(
             columns=["predictor_model", "condition_type", "accuracy", "n_samples"]
@@ -321,7 +356,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--low-max",
         type=float,
-        default=0.5,
+        default=0.2,
         help="LOW label threshold: temperature <= low_max",
     )
     parser.add_argument(
@@ -355,6 +390,17 @@ def parse_args() -> argparse.Namespace:
         help="Use only first N candidate samples for quick checks",
     )
     parser.add_argument(
+        "--exclude-targets",
+        type=str,
+        default="像",
+        help="Comma-separated target values to exclude (default: '像')",
+    )
+    parser.add_argument(
+        "--summary-only",
+        action="store_true",
+        help="Only regenerate summary.csv from existing JSONs (no LLM calls)",
+    )
+    parser.add_argument(
         "--force",
         action="store_true",
         help="Overwrite existing Study 2 outputs",
@@ -367,70 +413,86 @@ def main() -> None:
     if args.low_max >= args.high_min:
         raise ValueError("low-max must be smaller than high-min")
 
-    samples = load_study1_candidates(
-        output_dir=args.study1_output_dir,
+    exclude_targets = (
+        {t.strip() for t in args.exclude_targets.split(",") if t.strip()}
+        if args.exclude_targets
+        else None
+    )
+
+    if not args.summary_only:
+        samples = load_study1_candidates(
+            output_dir=args.study1_output_dir,
+            low_max=args.low_max,
+            high_min=args.high_min,
+            generator_models=args.generator_models,
+        )
+        if args.limit_samples is not None:
+            samples = samples[: args.limit_samples]
+
+        if not samples:
+            logger.info("No eligible Study 1 samples found.")
+            return
+
+        generator_models = sorted(
+            {sample["generator_model"] for sample in samples},
+            key=lambda x: x.name,
+        )
+        predictor_models = args.predictor_models or generator_models
+        skip_existing = not args.force
+
+        logger.info("=== Study 2 execution start ===")
+        logger.info(f"Study 1 input: {args.study1_output_dir}")
+        logger.info(f"Study 2 output: {args.study2_output_dir}")
+        logger.info(f"Thresholds: LOW<= {args.low_max}, HIGH>= {args.high_min}")
+        logger.info(f"Candidate samples: {len(samples)}")
+        logger.info(
+            f"Generator models: {[model.name for model in generator_models]}"
+        )
+        logger.info(
+            f"Predictor models: {[model.name for model in predictor_models]}"
+        )
+
+        self_saved, self_skipped = run_self_reflection(
+            samples=samples,
+            output_dir=args.study2_output_dir,
+            skip_existing=skip_existing,
+        )
+        logger.info(f"self_reflection saved={self_saved} skipped={self_skipped}")
+
+        within_saved, within_skipped, within_failed = run_prediction(
+            samples=samples,
+            output_dir=args.study2_output_dir,
+            predictor_models=predictor_models,
+            condition_type=Study2ConditionType.WITHIN_MODEL,
+            skip_existing=skip_existing,
+        )
+        logger.info(
+            "within_model saved=%s skipped=%s failed=%s",
+            within_saved,
+            within_skipped,
+            within_failed,
+        )
+
+        across_saved, across_skipped, across_failed = run_prediction(
+            samples=samples,
+            output_dir=args.study2_output_dir,
+            predictor_models=predictor_models,
+            condition_type=Study2ConditionType.ACROSS_MODEL,
+            skip_existing=skip_existing,
+        )
+        logger.info(
+            "across_model saved=%s skipped=%s failed=%s",
+            across_saved,
+            across_skipped,
+            across_failed,
+        )
+
+    summary = build_summary(
+        args.study2_output_dir,
+        exclude_targets=exclude_targets,
         low_max=args.low_max,
         high_min=args.high_min,
-        generator_models=args.generator_models,
     )
-    if args.limit_samples is not None:
-        samples = samples[: args.limit_samples]
-
-    if not samples:
-        logger.info("No eligible Study 1 samples found.")
-        return
-
-    generator_models = sorted(
-        {sample["generator_model"] for sample in samples},
-        key=lambda x: x.name,
-    )
-    predictor_models = args.predictor_models or generator_models
-    skip_existing = not args.force
-
-    logger.info("=== Study 2 execution start ===")
-    logger.info(f"Study 1 input: {args.study1_output_dir}")
-    logger.info(f"Study 2 output: {args.study2_output_dir}")
-    logger.info(f"Thresholds: LOW<= {args.low_max}, HIGH>= {args.high_min}")
-    logger.info(f"Candidate samples: {len(samples)}")
-    logger.info(f"Generator models: {[model.name for model in generator_models]}")
-    logger.info(f"Predictor models: {[model.name for model in predictor_models]}")
-
-    self_saved, self_skipped = run_self_reflection(
-        samples=samples,
-        output_dir=args.study2_output_dir,
-        skip_existing=skip_existing,
-    )
-    logger.info(f"self_reflection saved={self_saved} skipped={self_skipped}")
-
-    within_saved, within_skipped, within_failed = run_prediction(
-        samples=samples,
-        output_dir=args.study2_output_dir,
-        predictor_models=predictor_models,
-        condition_type=Study2ConditionType.WITHIN_MODEL,
-        skip_existing=skip_existing,
-    )
-    logger.info(
-        "within_model saved=%s skipped=%s failed=%s",
-        within_saved,
-        within_skipped,
-        within_failed,
-    )
-
-    across_saved, across_skipped, across_failed = run_prediction(
-        samples=samples,
-        output_dir=args.study2_output_dir,
-        predictor_models=predictor_models,
-        condition_type=Study2ConditionType.ACROSS_MODEL,
-        skip_existing=skip_existing,
-    )
-    logger.info(
-        "across_model saved=%s skipped=%s failed=%s",
-        across_saved,
-        across_skipped,
-        across_failed,
-    )
-
-    summary = build_summary(args.study2_output_dir)
     summary_file = args.study2_output_dir / "summary.csv"
     summary_file.parent.mkdir(parents=True, exist_ok=True)
     summary.to_csv(summary_file, index=False)

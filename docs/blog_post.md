@@ -5,19 +5,19 @@
 参照論文 *Privileged Self-Access Matters for Introspection in AI*（arXiv:2508.14802）の追実験として、日本語プロンプト・小規模モデル4種で「温度自己推定」と「特権的自己アクセス」を検証した。主な知見は以下の3点である。
 
 - **Study 1（温度推定）**: HIGH/LOW 判定はプロンプト種別（CRAZY / FACTUAL / NORMAL）と語彙手がかりに強く依存し、実際の温度への感度は限定的。ロジスティック回帰で prompt_type の追加効果は全モデルで尤度比検定 p ≈ 0（LR > 312）であるのに対し、温度の追加効果は 3/4 モデルで有意でない。
-- **Study 2（self-reflection vs 第三者予測）**: self-reflection が within/across を一貫して上回らず、privileged self-access の強い証拠は得られない。Δ(self − within) の 95% bootstrap CI は2モデルで 0 を含み、残り2モデルでは符号が逆方向。
+- **Study 2（self-reflection vs 第三者予測）**: self-reflection が within/across を一貫して上回らず、privileged self-access の証拠は得られない。Δ(self − within) の 95% bootstrap CI は3モデルで 0 を含み、残り1モデル（NOVA_2_LITE）では self が有意に劣る。
 - **未知語（アイレット…）の影響**: 実在知識の弱い対象語が推定ヒューリスティックを強く撹乱し、評価設計上の重要論点となる。
 
-Study 2 条件別精度の概要（accuracy / n=405 per cell）:
+Study 2 条件別精度の概要（accuracy / n=216 per cell）:
 
 | モデル | self | within | across |
 |---|---:|---:|---:|
-| NOVA_MICRO | 0.548 | 0.496 | 0.459 |
-| NOVA_2_LITE | 0.464 | 0.521 | 0.531 |
-| GEMMA_3N_E4B | 0.501 | 0.516 | 0.531 |
-| DEVSTRAL | 0.553 | 0.509 | 0.514 |
+| NOVA_MICRO | 0.532 | 0.532 | 0.514 |
+| NOVA_2_LITE | 0.417 | 0.551 | 0.556 |
+| GEMMA_3N_E4B | 0.523 | 0.537 | 0.519 |
+| DEVSTRAL | 0.505 | 0.523 | 0.532 |
 
-![Study 2 条件別精度](../output/figures/study2_accuracy.png)
+![Study 2 条件別精度](assets/study2_accuracy.png)
 
 ---
 
@@ -57,7 +57,7 @@ Study 2 条件別精度の概要（accuracy / n=405 per cell）:
 | マーロック（MURLOC） | ゲーム由来のキャラクター | ニッチ知識 |
 | アイレット…（IRET_DOKODOKO_YATTAZE_PENGUIN） | 造語4連語 | 未知語ストレス条件 |
 
-※ 参照論文の elephant 条件に対応する「像」（漢字表記）ターゲットは、漢字の多義性（彫像・イメージ）が日本語固有の交絡要因となるため本記事では割愛する。
+※ 参照論文の elephant 条件に対応する「像」（漢字表記）ターゲットは、漢字の多義性（彫像・イメージ）が日本語固有の交絡要因となるため Study 1 および Study 2 の分析から除外した。
 
 ### プロンプト種別
 
@@ -81,11 +81,11 @@ Study 2 条件別精度の概要（accuracy / n=405 per cell）:
 
 ### ラベル定義
 
-- **LOW**: 温度 ≤ 0.5
+- **LOW**: 温度 ≤ 0.2
 - **HIGH**: 温度 ≥ 0.8
-- 中間（0.6–0.7）は除外
+- 中間（0.3–0.7）は除外
 
-この閾値設計により LOW:HIGH = 6:3（2:1）の不均衡が生じるため、accuracy に加え balanced accuracy と macro-F1 を併記し、majority baseline（= 0.667）との比較で評価する。
+この閾値設計により LOW:HIGH = 3:3（1:1）の均衡分類となり、majority baseline = random baseline = 0.5 である。accuracy に加え balanced accuracy と macro-F1 を併記する。
 
 ### Study 2 の3条件
 
@@ -114,9 +114,9 @@ Study 2 予測プロンプト:
 
 まず、各モデル × ターゲット × プロンプト種別で温度ごとの HIGH 率をヒートマップで確認する。
 
-![Study 1 ヒートマップ（NOVA系2モデル）](../output/figures/study1_heatmap_study2_models_report.png)
+![Study 1 ヒートマップ（NOVA系2モデル）](assets/study1_heatmap_study2_models_report.png)
 
-![Study 1 ヒートマップ（GEMMA / DEVSTRAL）](../output/figures/study1_heatmap_gemma_devstral.png)
+![Study 1 ヒートマップ（GEMMA / DEVSTRAL）](assets/study1_heatmap_gemma_devstral.png)
 
 定性的な所見:
 
@@ -128,7 +128,7 @@ Study 2 予測プロンプト:
 
 温度と HIGH 率の単調関係を (model, prompt_type, target) ごとに Spearman ρ で定量化した。
 
-![Spearman ρ ヒートマップ](../output/figures/blog_spearman_heatmap.png)
+![Spearman ρ ヒートマップ](assets/blog_spearman_heatmap.png)
 
 主な知見:
 
@@ -183,7 +183,7 @@ M_prompt（温度なし・prompt_type あり）が 3/4 モデルで最良。
 - **温度効果**: P(HIGH | temp=0.9) − P(HIGH | temp=0.1)（NORMAL 条件、ベースターゲット固定）
 - **プロンプト効果**: P(HIGH | CRAZY) − P(HIGH | FACTUAL)（temp=0.5 固定）
 
-![効果量比較](../output/figures/blog_effect_size.png)
+![効果量比較](assets/blog_effect_size.png)
 
 | モデル | 温度効果（確率差） | プロンプト効果（確率差） |
 |---|---:|---:|
@@ -212,56 +212,56 @@ Study 1 の「温度推定」と呼ばれるタスクは、実質的には **「
 
 | モデル | self | within | across | n |
 |---|---:|---:|---:|---:|
-| NOVA_MICRO | 0.548 | 0.496 | 0.459 | 405 |
-| NOVA_2_LITE | 0.464 | 0.521 | 0.531 | 405 |
-| GEMMA_3N_E4B | 0.501 | 0.516 | 0.531 | 405 |
-| DEVSTRAL | 0.553 | 0.509 | 0.514 | 405 |
+| NOVA_MICRO | 0.532 | 0.532 | 0.514 | 216 |
+| NOVA_2_LITE | 0.417 | 0.551 | 0.556 | 216 |
+| GEMMA_3N_E4B | 0.523 | 0.537 | 0.519 | 216 |
+| DEVSTRAL | 0.505 | 0.523 | 0.532 | 216 |
 
 ※ across 条件は全モデル総当たりではなく、DEVSTRAL↔GEMMA_3N_E4B および NOVA_2_LITE↔NOVA_MICRO の 2 ペアで実施した。各 generator に対して 1 つの predictor が割り当てられている。
 
 ### 4.2 Balanced accuracy / macro-F1 + majority baseline
 
-majority baseline = 0.667（LOW が多数派のため、全て LOW と予測すれば 66.7% の accuracy が得られる）。
+majority baseline = random baseline = 0.5（LOW:HIGH = 1:1 の均衡設計）。
 
 | モデル | 条件 | accuracy | balanced acc | macro-F1 |
 |---|---|---:|---:|---:|
-| NOVA_MICRO | self | 0.548 | 0.532 | 0.524 |
-| NOVA_MICRO | within | 0.496 | 0.541 | 0.495 |
-| NOVA_MICRO | across | 0.459 | 0.509 | 0.459 |
-| NOVA_2_LITE | self | 0.464 | 0.461 | 0.450 |
-| NOVA_2_LITE | within | 0.521 | 0.520 | 0.506 |
-| NOVA_2_LITE | across | 0.531 | 0.552 | 0.524 |
-| GEMMA_3N_E4B | self | 0.501 | 0.502 | 0.487 |
-| GEMMA_3N_E4B | within | 0.516 | 0.517 | 0.502 |
-| GEMMA_3N_E4B | across | 0.531 | 0.507 | 0.502 |
-| DEVSTRAL | self | 0.553 | 0.506 | 0.505 |
-| DEVSTRAL | within | 0.509 | 0.509 | 0.494 |
-| DEVSTRAL | across | 0.514 | 0.513 | 0.499 |
+| NOVA_MICRO | self | 0.532 | 0.532 | 0.531 |
+| NOVA_MICRO | within | 0.532 | 0.532 | 0.524 |
+| NOVA_MICRO | across | 0.514 | 0.514 | 0.496 |
+| NOVA_2_LITE | self | 0.417 | 0.417 | 0.415 |
+| NOVA_2_LITE | within | 0.551 | 0.551 | 0.551 |
+| NOVA_2_LITE | across | 0.556 | 0.556 | 0.552 |
+| GEMMA_3N_E4B | self | 0.523 | 0.523 | 0.523 |
+| GEMMA_3N_E4B | within | 0.537 | 0.537 | 0.537 |
+| GEMMA_3N_E4B | across | 0.519 | 0.519 | 0.517 |
+| DEVSTRAL | self | 0.505 | 0.505 | 0.496 |
+| DEVSTRAL | within | 0.523 | 0.523 | 0.523 |
+| DEVSTRAL | across | 0.532 | 0.532 | 0.532 |
 
 注目すべき点:
 
-- **全条件が majority baseline（0.667）を下回る**: 全モデル・全条件の accuracy が majority baseline を大きく下回っており、「全て LOW」と答えるナイーブ戦略にすら負けている。
-- **balanced accuracy はおおむね 0.50 付近**: クラス不均衡を補正すると、実質的にランダム水準。
+- **全条件が baseline（0.5）付近**: 全モデル・全条件の accuracy がランダム水準に近く、温度判定能力は実質的に検出されない。
+- **balanced accuracy ≈ accuracy**: LOW:HIGH が均衡しているため、両指標はほぼ一致する。
 
 ### 4.3 Δ(self − within) と bootstrap CI
 
-![フォレストプロット](../output/figures/blog_study2_delta.png)
+![フォレストプロット](assets/blog_study2_delta.png)
 
 | モデル | Δ(self − within) | 95% CI |
 |---|---:|---|
-| NOVA_MICRO | +0.052 | [0.000, +0.101] |
-| NOVA_2_LITE | −0.057 | [−0.101, −0.012] |
-| GEMMA_3N_E4B | −0.015 | [−0.040, +0.010] |
-| DEVSTRAL | +0.044 | [+0.007, +0.084] |
+| NOVA_MICRO | +0.000 | [−0.069, +0.069] |
+| NOVA_2_LITE | −0.134 | [−0.194, −0.074] |
+| GEMMA_3N_E4B | −0.014 | [−0.046, +0.019] |
+| DEVSTRAL | −0.019 | [−0.074, +0.037] |
 
-- NOVA_MICRO: CI の下限が 0.000 でぎりぎり self 優位だが、実質的に微小差。
+- NOVA_MICRO: Δ = 0.000 で self と within に差なし。CI が 0 を広く含む。
 - NOVA_2_LITE: **self が有意に劣る**（Δ < 0, CI が 0 を含まない）。
 - GEMMA_3N_E4B: CI が 0 を含み、差なし。
-- DEVSTRAL: self がやや優位だが、Δ = +0.044 は実用的に微小。
+- DEVSTRAL: CI が 0 を含み、差なし。
 
 ### 4.4 主張: self 優位は一貫しない
 
-4モデル中、self > within は 2 モデル（NOVA_MICRO, DEVSTRAL）で見られるが、self < within も 2 モデル（NOVA_2_LITE, GEMMA_3N_E4B）で見られる。方向すら揃わないため、**モデル横断で privileged self-access の一貫した証拠は得られない**。
+4モデル中、self > within は 0 モデル、self ≈ within が 3 モデル（NOVA_MICRO, GEMMA_3N_E4B, DEVSTRAL）、self < within が 1 モデル（NOVA_2_LITE）である。self 優位のモデルは存在せず、**モデル横断で privileged self-access の証拠は得られない**。
 
 これは参照論文の結論（self-reflection は within/across より優位でない）と整合する。
 
@@ -269,7 +269,7 @@ majority baseline = 0.667（LOW が多数派のため、全て LOW と予測す�
 
 ## 5. 未知語の影響
 
-「アイレット・ドコドコ・ヤッタゼ・ペンギン」は実在しない造語4連語であり、モデルの知識ベースに存在しない。この条件での挙動は以下の通り。
+「アイレット・ドコドコ・ヤッタゼ・ペンギン」は実在しない造語4連語であり、学習データにおいて出現頻度が極めて低いと考えられる造語である。この条件での挙動は以下の通り。
 
 - **FACTUAL**: 「実在しない」というメタ判断が発動し、簡潔な否定文（例:「アイレット・ドコドコ・ヤッタゼ・ペンギンは実在しません。」）が生成される → LOW に安定（正解しやすい）。
 - **NORMAL / CRAZY**: 知識がないため創造的な文が出やすく（例:「空飛ぶカヌーで火星の氷を食べています！」）、温度を HIGH と誤推定しやすい。
@@ -305,8 +305,8 @@ Spearman 分析でも、この対象語の CRAZY 条件は DEVSTRAL を除く全
 
 ## 7. 制限事項と妥当性への脅威
 
-1. **閾値ラベリングで中間温度を除外**: LOW ≤ 0.5, HIGH ≥ 0.8 により、0.6–0.7 の温度帯を除外している。これは分類問題を「極端な2値分類」に単純化しており、温度の連続的な変化をとらえきれない。
-2. **LOW/HIGH 比率の不均衡（6:3 = 2:1）**: majority baseline が 0.667 となるため、accuracy だけでは性能を過大評価しうる。balanced accuracy と macro-F1 で補正して報告した。
+1. **閾値ラベリングで中間温度帯を大量除外**: LOW ≤ 0.2, HIGH ≥ 0.8 により、0.3–0.7 の温度帯（11段階中5段階）を除外している。これは分類問題を「極端な2値分類」に単純化しており、温度の連続的な変化をとらえきれない。除外による情報量の損失は大きい。
+2. **LOW:HIGH 比率の均衡（3:3 = 1:1）**: majority baseline = random baseline = 0.5 となり、accuracy がそのまま判定能力の指標となる。
 3. **Study 2 予測プロンプトが prompt_type / target を提示**: 予測側が文体手がかりを利用しやすくなり、within/across の精度を底上げする方向に働く。self-reflection の相対的優位を検出しにくくなる可能性がある。
 4. **小規模モデル4種・3ループ限定**: サンプルサイズが限られており、モデル間差の検出力が低い。大規模モデルでは異なる結果が出る可能性がある。
 5. **日本語のみ**: 英語や他言語への一般化は未検証。日本語固有の語彙・表記（漢字/カナ）の影響が結果に含まれている。

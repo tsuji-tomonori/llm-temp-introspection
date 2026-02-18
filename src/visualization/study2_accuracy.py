@@ -68,7 +68,7 @@ def plot_accuracy(df: pd.DataFrame, output_path: Path) -> None:
         color="#555555",
         linestyle="--",
         linewidth=1.2,
-        label="random baseline",
+        label="majority / random baseline",
     )
     ax.set_title("Study 2: Accuracy by condition", fontsize=14, pad=12)
     ax.set_xlabel("Predicted Model", fontsize=11)
@@ -84,7 +84,7 @@ def plot_accuracy(df: pd.DataFrame, output_path: Path) -> None:
         ax.bar_label(container, labels=labels, fontsize=8, padding=2)
 
     handles, labels = ax.get_legend_handles_labels()
-    label_map = {**CONDITION_LABEL, "random baseline": "random baseline"}
+    label_map = {**CONDITION_LABEL, "majority / random baseline": "majority / random baseline"}
     mapped_labels = [label_map.get(label, label) for label in labels]
     ax.legend(handles, mapped_labels, title="Condition", loc="upper right")
 

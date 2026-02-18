@@ -13,7 +13,7 @@ import pandas as pd
 from sklearn.metrics import balanced_accuracy_score, f1_score
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from study.s2 import collect_result_rows
+from study.s2 import collect_result_rows, expected_judgment_from_temperature
 
 CONDITION_ORDER = ["self_reflection", "within_model", "across_model"]
 N_BOOTSTRAP = 10_000
@@ -133,6 +133,24 @@ def parse_args() -> argparse.Namespace:
         default=Path.cwd() / "output" / "analysis",
         help="Directory to save analysis CSVs",
     )
+    parser.add_argument(
+        "--low-max",
+        type=float,
+        default=0.2,
+        help="LOW label threshold: temperature <= low_max",
+    )
+    parser.add_argument(
+        "--high-min",
+        type=float,
+        default=0.8,
+        help="HIGH label threshold: temperature >= high_min",
+    )
+    parser.add_argument(
+        "--exclude-targets",
+        type=str,
+        default="像",
+        help="Comma-separated target values to exclude (default: '像')",
+    )
     return parser.parse_args()
 
 
@@ -140,14 +158,28 @@ def main() -> None:
     args = parse_args()
     args.analysis_output_dir.mkdir(parents=True, exist_ok=True)
 
+    exclude_targets = (
+        {t.strip() for t in args.exclude_targets.split(",") if t.strip()}
+        if args.exclude_targets
+        else None
+    )
+
     print("=== Study 2 Detailed Analysis ===")
-    raw_rows = collect_result_rows(args.study2_output_dir)
+    print(f"Thresholds: LOW <= {args.low_max}, HIGH >= {args.high_min}")
+    print(f"Exclude targets: {exclude_targets}")
+    raw_rows = collect_result_rows(
+        args.study2_output_dir,
+        exclude_targets=exclude_targets,
+        low_max=args.low_max,
+        high_min=args.high_min,
+    )
     print(f"Loaded {len(raw_rows)} result rows")
 
     df = pd.DataFrame(raw_rows)
     df = df[df["condition_type"].isin(CONDITION_ORDER)]
 
-    # For bootstrap, we need source_unique_id. Re-read from JSON files.
+    # For bootstrap, we need source_unique_id. Re-read from JSON files
+    # with the same filtering logic.
     print("Loading source_unique_id for bootstrap pairing...")
     import json
 
@@ -157,14 +189,30 @@ def main() -> None:
             with open(json_file, encoding="utf-8") as f:
                 data = json.load(f)
             condition = data["condition"]
+
+            # Exclude specified targets
+            if exclude_targets and condition.get("target") in exclude_targets:
+                continue
+
+            # Re-derive expected_judgment from temperature
+            temperature = float(condition["temperature"])
+            expected = expected_judgment_from_temperature(
+                temperature, low_max=args.low_max, high_min=args.high_min
+            )
+            if expected is None:
+                continue
+
+            predicted = data["predicted_judgment"]
+            is_correct = predicted == expected.value
+
             enriched_rows.append(
                 {
                     "condition_type": condition["condition_type"],
                     "generator_model": condition["generator_model_id"],
                     "predictor_model": condition["predictor_model_id"],
-                    "expected_judgment": condition["expected_judgment"],
-                    "predicted_judgment": data["predicted_judgment"],
-                    "is_correct": bool(data["is_correct"]),
+                    "expected_judgment": expected.value,
+                    "predicted_judgment": predicted,
+                    "is_correct": is_correct,
                     "source_unique_id": condition.get("source_unique_id", ""),
                 }
             )

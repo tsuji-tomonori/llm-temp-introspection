@@ -1,5 +1,5 @@
 predictor_model,delta_self_within,ci_lower,ci_upper,n_paired
-amazon.nova-micro-v1:0,0.0519,0.0,0.1012,405
-global.amazon.nova-2-lite-v1:0,-0.0568,-0.1012,-0.0123,405
-google/gemma-3n-e4b,-0.0148,-0.0395,0.0099,405
-mistralai/devstral-small-2507,0.0444,0.0074,0.084,405
+amazon.nova-micro-v1:0,0.0,-0.0694,0.0694,216
+global.amazon.nova-2-lite-v1:0,-0.1343,-0.1944,-0.0741,216
+google/gemma-3n-e4b,-0.0139,-0.0463,0.0185,216
+mistralai/devstral-small-2507,-0.0185,-0.0741,0.037,216
