@@ -236,6 +236,8 @@ def main() -> None:
     # データを読み込み
     print("\n1. Loading data...")
     df = load_study1_data(output_dir, allowed_models=args.models)
+    EXCLUDE_TARGETS = {"ELEPHANT"}
+    df = df[~df["target"].isin(EXCLUDE_TARGETS)]
 
     if df.empty:
         print("Error: No data found!")

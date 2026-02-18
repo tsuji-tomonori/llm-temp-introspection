@@ -16,6 +16,8 @@ REPORT_MODELS = {"NOVA_MICRO", "NOVA_2_LITE"}
 def plot_report_heatmap(output_path: Path) -> None:
     output_dir = Path.cwd() / "output"
     df = load_study1_data(output_dir=output_dir, allowed_models=REPORT_MODELS)
+    EXCLUDE_TARGETS = {"ELEPHANT"}
+    df = df[~df["target"].isin(EXCLUDE_TARGETS)]
     if df.empty:
         raise ValueError("No Study 1 records found for report models")
 

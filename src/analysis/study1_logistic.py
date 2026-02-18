@@ -45,18 +45,24 @@ def compute_effects(data: pd.DataFrame) -> dict:
     base_row = pd.DataFrame({col: [0.0] for col in X.columns})
     base_row["Intercept"] = 1.0
 
-    row_low = base_row.copy()
+    # NORMAL条件での温度効果を計算（参照カテゴリCRAZYではなくNORMAL）
+    temp_base = base_row.copy()
+    normal_col = [c for c in X.columns if "NORMAL" in c]
+    if normal_col:
+        temp_base[normal_col[0]] = 1.0
+
+    row_low = temp_base.copy()
     row_low["temp"] = 0.1
     p_low = result.predict(row_low).iloc[0]
 
-    row_high = base_row.copy()
+    row_high = temp_base.copy()
     row_high["temp"] = 0.9
     p_high = result.predict(row_high).iloc[0]
 
     temp_effect = float(p_high - p_low)
 
     # prompt効果: P(HIGH|CRAZY) - P(HIGH|FACTUAL), temp=0.5固定
-    # Reference category is CRAZY (alphabetically first)
+    # Reference category is CRAZY (alphabetically first, all prompt dummies=0)
     row_crazy = base_row.copy()
     row_crazy["temp"] = 0.5
     p_crazy = result.predict(row_crazy).iloc[0]
