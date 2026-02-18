@@ -5,9 +5,11 @@ Figure 2(a)スタイルのヒートマップを生成する。
 
 import argparse
 import json
+import math
 from pathlib import Path
 
 import matplotlib.pyplot as plt
+import numpy as np
 import pandas as pd
 import seaborn as sns
 
@@ -122,7 +124,7 @@ def aggregate_high_rate(df: pd.DataFrame) -> dict[str, pd.DataFrame]:
 def plot_study1_heatmap(
     data: dict[str, pd.DataFrame],
     output_path: Path,
-    figsize: tuple = (22, 15),
+    figsize: tuple | None = None,
     cmap: str = "RdYlGn_r",
 ) -> None:
     """Figure 2(a)スタイルのヒートマップを描画
@@ -130,19 +132,27 @@ def plot_study1_heatmap(
     Args:
         data: モデル名をキーとし、ピボットテーブルを値とする辞書
         output_path: 出力ファイルパス（拡張子なし）
-        figsize: 図のサイズ
+        figsize: 図のサイズ（Noneの場合はモデル数に応じて自動計算）
         cmap: カラーマップ（論文に合わせてRdYlGn_r: 赤=HIGH, 黄=中間, 緑=LOW）
     """
     models = sorted(data.keys())
     n_models = len(models)
 
-    # サブプロットのレイアウトを決定（2x3グリッド）
-    nrows = 2
-    ncols = 3
+    # サブプロットのレイアウトをモデル数に応じて動的に決定
+    if n_models <= 3:
+        nrows = 1
+        ncols = n_models
+    else:
+        nrows = 2
+        ncols = math.ceil(n_models / 2)
+
+    # figsizeが未指定の場合、1パネルあたり約8x7で計算
+    if figsize is None:
+        figsize = (8 * ncols, 7 * nrows)
 
     # サブプロット間のスペースを調整
     fig, axes = plt.subplots(nrows, ncols, figsize=figsize)
-    axes = axes.flatten()
+    axes = np.atleast_1d(axes).flatten()
 
     # 各モデルのヒートマップを描画
     for idx, model in enumerate(models):
@@ -183,7 +193,7 @@ def plot_study1_heatmap(
         axes[idx].axis("off")
 
     # レイアウトを調整（サブプロット間のスペースを確保）
-    plt.tight_layout(pad=2.0, w_pad=3.0, h_pad=3.0)
+    plt.tight_layout(pad=1.8, w_pad=2.5, h_pad=3.0)
 
     # 保存
     output_path.parent.mkdir(parents=True, exist_ok=True)
