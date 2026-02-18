@@ -119,12 +119,21 @@ def parse_args() -> argparse.Namespace:
         default=Path.cwd() / "output" / "figures" / "study2_accuracy",
         help="Output path prefix without extension",
     )
+    parser.add_argument(
+        "--models",
+        type=str,
+        default=None,
+        help="Comma-separated list of predictor_model values to include (default: all)",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     args = parse_args()
     df = load_summary(args.summary_path)
+    if args.models:
+        model_list = [m.strip() for m in args.models.split(",")]
+        df = df[df["predictor_model"].isin(model_list)].reset_index(drop=True)
     if df.empty:
         raise ValueError(
             "No rows available in summary.csv for expected Study 2 conditions"

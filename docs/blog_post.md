@@ -133,7 +133,7 @@ Study 2 予測プロンプト:
 主な知見:
 
 - **"const"（NaN）= 温度非感度の最も強い証拠**: HIGH 率が全温度で同一値（多くは 0.0 または 1.0）。CRAZY 条件と FACTUAL 条件の大半がこれに該当する。
-- **有意な正の相関（ρ > 0, p < 0.05）はごく少数**: 48 条件中、有意（p < 0.05）は GEMMA_3N_E4B の NORMAL-MURLOC（ρ = 0.71）と NOVA_2_LITE の NORMAL 条件 2 ターゲットのみ。ただし NOVA_2_LITE では符号が**負**（温度が上がると HIGH 率が**下がる**）。
+- **有意な相関（p < 0.05）はごく少数**: 48 条件中わずか 3 条件。正の相関は GEMMA_3N_E4B の NORMAL-MURLOC（ρ = 0.71）の 1 条件のみ。残り 2 条件は NOVA_2_LITE の NORMAL で符号が**負**（温度が上がると HIGH 率が**下がる**）。
 - **prompt_type 別の概要**:
 
 | モデル | FACTUAL mean ρ | NORMAL mean ρ | CRAZY mean ρ |
@@ -180,7 +180,7 @@ M_prompt（温度なし・prompt_type あり）が 3/4 モデルで最良。
 
 ロジスティック回帰の予測確率を用いた効果量（確率差）:
 
-- **温度効果**: P(HIGH | temp=0.9) − P(HIGH | temp=0.1)（NORMAL 条件、ベースターゲット固定）
+- **温度効果**: P(HIGH | temp=0.9) − P(HIGH | temp=0.1)（NORMAL 条件、参照ターゲット = ゾウ〈ELEPHANT_KANA〉で固定）
 - **プロンプト効果**: P(HIGH | CRAZY) − P(HIGH | FACTUAL)（temp=0.5 固定）
 
 ![効果量比較](assets/blog_effect_size.png)
